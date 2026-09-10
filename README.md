@@ -4,7 +4,7 @@ Structured specifications for **1000+ FPV drone components** — BNF quads,
 motors (including manufacturer thrust bench tables), batteries, props,
 FC/ESC stacks, cameras and video transmitters.
 
-Exported daily from an independent FPV component database. Only entries passing the site's completeness gate are
+Exported daily from [fpv-db.com](https://fpv-db.com) - an independent FPV component database. Only entries passing the site's completeness gate are
 included; every entry carries the source URLs its specs were verified
 against.
 
