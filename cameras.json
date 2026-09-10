@@ -1,0 +1,939 @@
+{
+ "generated": "2026-09-10",
+ "count": 52,
+ "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
+ "items": [
+  {
+   "type": "camera",
+   "brand": "AKK",
+   "model": "AIO-SA Whoop/Micro AIO & 25-200mW w/ Smart Audio",
+   "slug": "akk-aio-sa-whoop-micro-aio-25-200mw-w-smart-audio",
+   "specs": {
+    "system": "analog",
+    "size_class": "micro",
+    "weight_g": 4.3,
+    "price_usd": 29.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/akk-aio-sa-fpv-camera-for-whoops-and-2-builds-smart-audio"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "BetaFPV",
+   "model": "Air Analog",
+   "slug": "betafpv-air-analog",
+   "specs": {
+    "system": "analog",
+    "size_class": "micro",
+    "resolution_tvl": 600,
+    "sensor": "1/4.5\"",
+    "aspect_ratio": "4:3",
+    "weight_g": 1.48,
+    "price_usd": 11.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/betafpv-air-analog-fpv-camera"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Caddx",
+   "model": "Ant Lite Nano 1200TVL CMOS PAL/NTSC - Choose Your Aspect Ratio",
+   "slug": "caddx-ant-lite-nano-1200tvl-cmos-pal-ntsc-choose-your-aspect-ratio",
+   "specs": {
+    "system": "analog",
+    "size_class": "nano",
+    "resolution_tvl": 1200,
+    "sensor": "1/3\"",
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 1.7,
+    "price_usd": 19.49
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/caddx-ant-lite-nano-1200tvl-cmos-pal-ntsc-fpv-camera-choose-your-version"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Caddx",
+   "model": "Ant Nano 1200TVL CMOS PAL/NTSC (1.8mm) - Choose Color & Aspect Ratio",
+   "slug": "caddx-ant-nano-1200tvl-cmos-pal-ntsc-1-8mm-choose-color-aspect-ratio",
+   "specs": {
+    "system": "analog",
+    "size_class": "nano",
+    "resolution_tvl": 1200,
+    "sensor": "1/3\"",
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 2.0,
+    "price_usd": 19.49
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/caddx-ant-1200tvl-nano-fpv-camera-1-8mm-choose-color-aspect-ratio"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Caddx",
+   "model": "Baby Ratel 2 1200TVL CMOS 4:3/16:9 NTSC/PAL (1.8mm)",
+   "slug": "caddx-baby-ratel-2-1200tvl-cmos-4-3-16-9-ntsc-pal-1-8mm",
+   "specs": {
+    "system": "analog",
+    "size_class": "nano",
+    "resolution_tvl": 1200,
+    "sensor": "1/1.18\"",
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 3.0,
+    "price_usd": 31.49
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/caddx-baby-ratel-2-1200tvl-cmos-4-3-16-9-ntsc-pal-fpv-camera-1-8mm-black"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Caddx",
+   "model": "Nebula Pro Nano 720p/120fps HD for DJI",
+   "slug": "caddx-nebula-pro-nano-720p-120fps-hd-for-dji",
+   "specs": {
+    "system": "DJI",
+    "size_class": "nano",
+    "sensor": "1/3 inch",
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 3.5,
+    "price_usd": 80.49
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/caddx-nebula-pro-nano-720p-120fps-hd-fpv-camera-for-dji"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Caddx",
+   "model": "Ratel 2 Micro 1200TVL CMOS 4:3/16:9 NTSC/PAL (2.1mm) - Choose Your",
+   "slug": "caddx-ratel-2-micro-1200tvl-cmos-4-3-16-9-ntsc-pal-2-1mm-choose-your",
+   "specs": {
+    "system": "analog",
+    "size_class": "micro",
+    "resolution_tvl": 1200,
+    "sensor": "1/1.8\"",
+    "lens_mm": 2.1,
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 5.9,
+    "price_usd": 37.49
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/caddx-ratel-2-1200tvl-16-9-4-3-ntsc-pal-micro-fpv-camera"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Caddx",
+   "model": "Ratel PRO Micro 1500TVL BSI PAL/NTSC (2.8mm)",
+   "slug": "caddx-ratel-pro-micro-1500tvl-bsi-pal-ntsc-2-8mm",
+   "specs": {
+    "system": "analog",
+    "size_class": "micro",
+    "resolution_tvl": 1500,
+    "sensor": "1/1.8INCH",
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 9.5,
+    "price_usd": 59.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/caddx-ratel-pro-micro-1500tvl-bsi-pal-ntsc-fpv-camera-2-8mm-black"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Caddx",
+   "model": "Walksnail Avatar HD Micro & Kit (Compatible w/ Fat Shark Dominator HD)",
+   "slug": "caddx-walksnail-avatar-hd-micro-kit-compatible-w-fat-shark-dominator-hd",
+   "specs": {
+    "system": "Walksnail",
+    "size_class": "micro",
+    "weight_g": 16.0,
+    "price_usd": 128.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/walksnail-hd-micro-camera-vtx-combo"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Caddx",
+   "model": "Walksnail Avatar HD Micro & Kit V2 - 32GB",
+   "slug": "caddx-walksnail-avatar-hd-micro-kit-v2-32gb",
+   "specs": {
+    "system": "Walksnail",
+    "size_class": "micro",
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 17.6,
+    "price_usd": 178.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/walksnail-avatar-hd-micro-camera-vtx-kit-v2-choose-version"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Caddx",
+   "model": "Walksnail Avatar HD Moonlight Module",
+   "slug": "caddx-walksnail-avatar-hd-moonlight-module",
+   "specs": {
+    "system": "Walksnail",
+    "size_class": "micro",
+    "price_usd": 131.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/walksnail-avatar-hd-moonlight-camera-module"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Caddx",
+   "model": "Walksnail Avatar HD Nano V3 20x20 Kit w/ Nano (Compatible w/ Fat Shark Dominator HD)",
+   "slug": "caddx-walksnail-avatar-hd-nano-v3-20x20-kit-w-nano-compatible-w-fat-shark-dominator-hd",
+   "specs": {
+    "system": "Walksnail",
+    "size_class": "nano",
+    "lens_mm": 2.1,
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 3.0,
+    "price_usd": 130.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/walksnail-avatar-hd-nano-v3-vtx-kit-w-nano-camera"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Caddx",
+   "model": "Walksnail Avatar Mini 1S V3 Kit Combo - (w/ Nano )",
+   "slug": "caddx-walksnail-avatar-mini-1s-v3-kit-combo-w-nano",
+   "specs": {
+    "system": "Walksnail",
+    "size_class": "mini",
+    "weight_g": 3.5,
+    "price_usd": 322.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/walksnail-avatar-mini-1s-v3-vtx-kit-combo-w-nano-camera"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Drone Nerds",
+   "model": "DJI Mini 4 Pro (DJI RC 2) All-In-One Omni Obstacle Sensing Mini Drone",
+   "slug": "drone-nerds-dji-mini-4-pro-dji-rc-2-all-in-one-omni-obstacle-sensing-mini-drone",
+   "specs": {
+    "system": "DJI",
+    "size_class": "mini",
+    "price_usd": 959.0
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/dji-mini-4-pro-dji-rc-2-all-in-one-omni-obstacle-sensing-mini-camera-drone"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Drone Nerds",
+   "model": "DJI Mini 4 Pro (RC-N2) All-In-One Omni Obstacle Sensing Mini Drone",
+   "slug": "drone-nerds-dji-mini-4-pro-rc-n2-all-in-one-omni-obstacle-sensing-mini-drone",
+   "specs": {
+    "system": "DJI",
+    "size_class": "mini",
+    "price_usd": 759.0
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/dji-mini-4-pro-rc-n2-all-in-one-omni-obstacle-sensing-mini-camera-drone"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "FATSHARK",
+   "model": "Fat Shark Aura Analog",
+   "slug": "fatshark-fat-shark-aura-analog",
+   "specs": {
+    "system": "analog",
+    "size_class": "micro",
+    "resolution_tvl": 1200,
+    "sensor": "1/3\"",
+    "lens_mm": 2.1,
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 8.8,
+    "price_usd": 75.49
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/fat-shark-aura-analog-fpv-camera"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "FIVE33",
+   "model": "Foxeer Predator 5 Nano 1000TVL 4:3/16:9 PAL/NTSC (1.7mm)",
+   "slug": "five33-foxeer-predator-5-nano-1000tvl-4-3-16-9-pal-ntsc-1-7mm",
+   "specs": {
+    "system": "analog",
+    "size_class": "nano",
+    "resolution_tvl": 1000,
+    "sensor": "1/3\"",
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 4.8,
+    "price_usd": 39.89
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/foxeer-predator-5-nano-1000tvl-4-3-16-9-pal-ntsc-fpv-camera-1-7mm-five33-edition"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Foxeer",
+   "model": "Apollo Micro HD for DJI - Choose Version",
+   "slug": "foxeer-apollo-micro-hd-for-dji-choose-version",
+   "specs": {
+    "system": "DJI",
+    "size_class": "micro",
+    "sensor": "1/2\"",
+    "aspect_ratio": "16:9",
+    "weight_g": 9.8,
+    "price_usd": 49.89
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/foxeer-apollo-micro-hd-fpv-camera-for-dji-choose-version"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Foxeer",
+   "model": "Cat 3 Micro 1200TVL CMOS 4:3/16:9 PAL/NTSC (2.1mm) - Choose Your",
+   "slug": "foxeer-cat-3-micro-1200tvl-cmos-4-3-16-9-pal-ntsc-2-1mm-choose-your",
+   "specs": {
+    "system": "analog",
+    "size_class": "micro",
+    "resolution_tvl": 1200,
+    "sensor": "1/3\"",
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 10.7,
+    "price_usd": 59.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/foxeer-cat-3-micro-starlight-1200tvl-fpv-camera-4-3-16-9-pal-ntsc-2-1mm-choose-your-color"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Foxeer",
+   "model": "Cat 3 Mini 1200TVL CMOS 2MP 4:3/16:9 PAL/NTSC LUX Night (2.1mm) - Choose Your",
+   "slug": "foxeer-cat-3-mini-1200tvl-cmos-2mp-4-3-16-9-pal-ntsc-lux-night-2-1mm-choose-your",
+   "specs": {
+    "system": "analog",
+    "size_class": "mini",
+    "resolution_tvl": 1200,
+    "sensor": "1/3\"",
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 12.2,
+    "price_usd": 59.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/foxeer-cat-3-mini-1200tvl-cmos-2mp-4-3-16-9-pal-ntsc-lux-night-fpv-camera-2-1mm-choose-your-color"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Foxeer",
+   "model": "Micro Cat 4 1200TVL StarLight",
+   "slug": "foxeer-micro-cat-4-1200tvl-starlight",
+   "specs": {
+    "system": "analog",
+    "size_class": "micro",
+    "resolution_tvl": 1200,
+    "sensor": "1/3\"",
+    "lens_mm": 2.1,
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 11.8,
+    "price_usd": 46.49
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/foxeer-micro-cat-4-1200tvl-starlight-fpv-camera"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Foxeer",
+   "model": "Mini Cat 4 - 1200TVL StarLight",
+   "slug": "foxeer-mini-cat-4-1200tvl-starlight",
+   "specs": {
+    "system": "analog",
+    "size_class": "mini",
+    "resolution_tvl": 1200,
+    "sensor": "1/3\"",
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 11.8,
+    "price_usd": 46.49
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/foxeer-mini-cat-4-1200tvl-starlight-fpv-camera"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Foxeer",
+   "model": "Predator V5 Micro 1000TVL CMOS 4:3/16:9 PAL/NTSC (1.7mm) Naked",
+   "slug": "foxeer-predator-v5-micro-1000tvl-cmos-4-3-16-9-pal-ntsc-1-7mm-naked",
+   "specs": {
+    "system": "analog",
+    "size_class": "micro",
+    "resolution_tvl": 1000,
+    "sensor": "1/3\"",
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 5.8,
+    "price_usd": 36.89
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/foxeer-predator-v5-micro-1000tvl-cmos-4-3-16-9-pal-ntsc-fpv-camera-1-7mm-naked-choose-your-color"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Foxeer",
+   "model": "Razer Micro 1200TVL CMOS 4:3 PAL/NSTC (1.8mm)",
+   "slug": "foxeer-razer-micro-1200tvl-cmos-4-3-pal-nstc-1-8mm",
+   "specs": {
+    "system": "analog",
+    "size_class": "micro",
+    "resolution_tvl": 1200,
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 4.5,
+    "price_usd": 19.89
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/foxeer-razer-micro-1200tvl-4-3-pal-nstc-cmos-fpv-camera-1-8mm-black"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Foxeer",
+   "model": "Razer Mini 1200TVL CMOS 16:9 PAL/NTSC (2.1mm)",
+   "slug": "foxeer-razer-mini-1200tvl-cmos-16-9-pal-ntsc-2-1mm",
+   "specs": {
+    "system": "analog",
+    "size_class": "mini",
+    "resolution_tvl": 1200,
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 12.0,
+    "price_usd": 23.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/foxeer-razer-mini-1200tvl-16-9-pal-nstc-cmos-fpv-camera-2-1mm-black"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Foxeer",
+   "model": "Razer Nano 1200TVL CMOS 16:9 NSTC (1.8mm)",
+   "slug": "foxeer-razer-nano-1200tvl-cmos-16-9-nstc-1-8mm",
+   "specs": {
+    "system": "analog",
+    "size_class": "nano",
+    "resolution_tvl": 1200,
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 3.9,
+    "price_usd": 19.89
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/foxeer-razer-nano-1200tvl-16-9-pal-nstc-cmos-fpv-camera-1-8mm-black"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Foxeer",
+   "model": "Razer Nano 1200TVL CMOS 4:3 PAL (1.8mm)",
+   "slug": "foxeer-razer-nano-1200tvl-cmos-4-3-pal-1-8mm",
+   "specs": {
+    "system": "analog",
+    "size_class": "nano",
+    "resolution_tvl": 1200,
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 3.9,
+    "price_usd": 19.89
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/foxeer-razer-nano-1200tvl-4-3-nstc-cmos-fpv-camera-1-8mm-black"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Foxeer",
+   "model": "Razer V2 Mini 1200TVL 4:3 PAL/NSTC CMOS (2.1mm)",
+   "slug": "foxeer-razer-v2-mini-1200tvl-4-3-pal-nstc-cmos-2-1mm",
+   "specs": {
+    "system": "analog",
+    "size_class": "mini",
+    "resolution_tvl": 1200,
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 12.0,
+    "price_usd": 27.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/foxeer-razer-v2-mini-1200tvl-4-3-pal-nstc-cmos-fpv-camera-2-1mm-black"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Foxeer",
+   "model": "T-Rex Micro 1500TVL CMOS 4:3/16:9 PAL/NTSC (1.7mm) - Choose Your",
+   "slug": "foxeer-t-rex-micro-1500tvl-cmos-4-3-16-9-pal-ntsc-1-7mm-choose-your",
+   "specs": {
+    "system": "analog",
+    "size_class": "micro",
+    "resolution_tvl": 1500,
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 8.6,
+    "price_usd": 65.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/foxeer-t-rex-micro-fpv-camera-1500tvl-cmos-16-9-4-3-pal-ntsc-plug-choose-your-color"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Foxeer",
+   "model": "T-Rex Mini 1500TVL CMOS 2MP 4:3/16:9 PAL/NTSC Super WDR (1.7mm)",
+   "slug": "foxeer-t-rex-mini-1500tvl-cmos-2mp-4-3-16-9-pal-ntsc-super-wdr-1-7mm",
+   "specs": {
+    "system": "analog",
+    "size_class": "mini",
+    "resolution_tvl": 1500,
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 10.2,
+    "price_usd": 65.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/foxeer-t-rex-mini-1500tvl-cmos-2mp-4-3-16-9-pal-ntsc-super-wdr-fpv-camera-1-7mm"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Foxeer",
+   "model": "Toothless 2 Micro Starlight 1200TVL CMOS 4:3/16:9 PAL/NTSC (1.7mm) - Choose Your",
+   "slug": "foxeer-toothless-2-micro-starlight-1200tvl-cmos-4-3-16-9-pal-ntsc-1-7mm-choose-your",
+   "specs": {
+    "system": "analog",
+    "size_class": "micro",
+    "resolution_tvl": 1200,
+    "sensor": "1/2\"",
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 8.5,
+    "price_usd": 47.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/foxeer-toothless-2-micro-1200tvl-16-9-4-3-pal-nstc-cmos-switchable-fov-fpv-starlight-camera-w-m12-lens-and-1-2-sensor-1-7mm-choose-your-color"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Foxeer",
+   "model": "Toothless 2 Nano Starlight 1200TVL CMOS 4:3/16:9 PAL/NTSC (2.1mm) - Choose Your",
+   "slug": "foxeer-toothless-2-nano-starlight-1200tvl-cmos-4-3-16-9-pal-ntsc-2-1mm-choose-your",
+   "specs": {
+    "system": "analog",
+    "size_class": "nano",
+    "resolution_tvl": 1200,
+    "sensor": "1/2\"",
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 3.1,
+    "price_usd": 32.89
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/foxeer-toothless-2-nano-starlight-1200tvl-16-9-4-3-pal-nstc-cmos-fpv-camera-w-1-2-sensor-1-7mm-choose-your-color"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Happymodel",
+   "model": "RunCam Nano 3 800TVL CMOS w/ Holes & Plug",
+   "slug": "happymodel-runcam-nano-3-800tvl-cmos-w-holes-plug",
+   "specs": {
+    "system": "analog",
+    "size_class": "nano",
+    "resolution_tvl": 800,
+    "sensor": "1/3\"",
+    "weight_g": 1.1,
+    "price_usd": 23.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/happymodel-runcam-nano-3-800tvl-cmos-fpv-camera-w-plug"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "HDZero",
+   "model": "Runcam Micro V2",
+   "slug": "hdzero-runcam-micro-v2",
+   "specs": {
+    "system": "HDZero",
+    "size_class": "micro",
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 8.5,
+    "price_usd": 65.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/runcam-hdzero-micro-camera-v2-for-sharkbyte"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "NewBeeDrone",
+   "model": "BeeEye",
+   "slug": "newbeedrone-beeeye",
+   "specs": {
+    "system": "analog",
+    "size_class": "nano",
+    "resolution_tvl": 600,
+    "price_usd": 12.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/newbeedrone-beeeye-fpv-camera"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "NewBeeDrone",
+   "model": "BeeEye Nano 600TVL for BeeBrain FC",
+   "slug": "newbeedrone-beeeye-nano-600tvl-for-beebrain-fc",
+   "specs": {
+    "system": "analog",
+    "size_class": "nano",
+    "resolution_tvl": 600,
+    "price_usd": 15.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/newbeedrone-beeeye-600tvl-nano-fpv-camera-for-beebrain-fcs"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "RunCam",
+   "model": "HDZero Nano 90 V2",
+   "slug": "runcam-hdzero-nano-90-v2",
+   "specs": {
+    "system": "HDZero",
+    "size_class": "nano",
+    "aspect_ratio": "4:3",
+    "weight_g": 5.2,
+    "price_usd": 73.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/runcam-hdzero-nano-90-v2-fpv-camera"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "RunCam",
+   "model": "Nano 3 800TVL CMOS w/ Plug",
+   "slug": "runcam-nano-3-800tvl-cmos-w-plug",
+   "specs": {
+    "system": "analog",
+    "size_class": "nano",
+    "resolution_tvl": 800,
+    "sensor": "1/3\"",
+    "weight_g": 1.1,
+    "price_usd": 23.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/runcam-nano-3-800tvl-cmos-fpv-camera-w-plug-for"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "RunCam",
+   "model": "Phoenix 2 Micro 1000TVL CMOS 4:3/16:9 PAL/NTSC (2.1mm)",
+   "slug": "runcam-phoenix-2-micro-1000tvl-cmos-4-3-16-9-pal-ntsc-2-1mm",
+   "specs": {
+    "system": "analog",
+    "size_class": "micro",
+    "resolution_tvl": 1000,
+    "sensor": "1/2\"",
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 9.0,
+    "price_usd": 35.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/runcam-phoenix-2-1000tvl-16-9-4-3-ntsc-pal-cmos-micro-fpv-camera"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "RunCam",
+   "model": "Phoenix 2 Micro Joshua Bardwell Edition 1000TVL CMOS 4:3/16:9 PAL/NTSC (2.1mm)",
+   "slug": "runcam-phoenix-2-micro-joshua-bardwell-edition-1000tvl-cmos-4-3-16-9-pal-ntsc-2-1mm",
+   "specs": {
+    "system": "analog",
+    "size_class": "micro",
+    "resolution_tvl": 1000,
+    "sensor": "1/2\"",
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 9.0,
+    "price_usd": 39.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/runcam-phoenix-2-micro-joshua-bardwell-edition-1000tvl-cmos-4-3-16-9-pal-ntsc-fpv-camera-2-1mm-silver"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "RunCam",
+   "model": "Phoenix 2 Nano",
+   "slug": "runcam-phoenix-2-nano",
+   "specs": {
+    "system": "analog",
+    "size_class": "nano",
+    "resolution_tvl": 1000,
+    "sensor": "1/2\"",
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 5.0,
+    "price_usd": 35.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/runcam-phoenix-2-nano-camera"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "RunCam",
+   "model": "Phoenix 2 Nite",
+   "slug": "runcam-phoenix-2-nite",
+   "specs": {
+    "system": "analog",
+    "size_class": "micro",
+    "resolution_tvl": 1500,
+    "sensor": "1/2.8\"",
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 8.0,
+    "price_usd": 61.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/runcam-phoenix-2-nite-fpv-camera"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "RunCam",
+   "model": "Phoenix 2 SP Micro 1500TVL Starlight CMOS 4:3/16:9 NTSC/PAL (2.1mm) - Black - Choose Your Version",
+   "slug": "runcam-phoenix-2-sp-micro-1500tvl-starlight-cmos-4-3-16-9-ntsc-pal-2-1mm-black-choose-your-version",
+   "specs": {
+    "system": "analog",
+    "size_class": "micro",
+    "resolution_tvl": 1500,
+    "sensor": "1/2.8\"",
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 7.5,
+    "price_usd": 27.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/runcam-phoenix-2-sp-1500tvl-starlight-coms-sensor-4-3-16-9-ntsc-pal-fpv-camera-2-1mm-black"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "RunCam",
+   "model": "Phoenix 2 Special Edition Micro 1000TVL CMOS 4:3/16:9 NTSC/PAL",
+   "slug": "runcam-phoenix-2-special-edition-micro-1000tvl-cmos-4-3-16-9-ntsc-pal",
+   "specs": {
+    "system": "analog",
+    "size_class": "micro",
+    "resolution_tvl": 1000,
+    "sensor": "1/2\"",
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 8.6,
+    "price_usd": 29.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/runcam-phoenix-2-special-edition-micro-1000tvl-cmos-4-3-16-9-ntsc-pal-fpv-camera"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "RunCam",
+   "model": "Phoenix 2 SPV5",
+   "slug": "runcam-phoenix-2-spv5",
+   "specs": {
+    "system": "analog",
+    "size_class": "micro",
+    "resolution_tvl": 1200,
+    "sensor": "1/3\"",
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 7.5,
+    "price_usd": 24.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/runcam-phoenix-2-spv5-fpv-camera"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "RunCam",
+   "model": "Phoenix HD Micro for DJI",
+   "slug": "runcam-phoenix-hd-micro-for-dji",
+   "specs": {
+    "system": "DJI",
+    "size_class": "micro",
+    "weight_g": 7.5,
+    "price_usd": 59.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/runcam-phoenix-hd-micro-fpv-camera-for-dji-silver"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "RunCam",
+   "model": "Racer Nano 4 1200TVL CMOS 4:3 PAL/NTSC Waterproof",
+   "slug": "runcam-racer-nano-4-1200tvl-cmos-4-3-pal-ntsc-waterproof",
+   "specs": {
+    "system": "analog",
+    "size_class": "nano",
+    "resolution_tvl": 1200,
+    "aspect_ratio": "4:3",
+    "weight_g": 4.5,
+    "price_usd": 41.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/runcam-racer-nano-4"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "RunCam",
+   "model": "Thumb 2 4K HD Action",
+   "slug": "runcam-thumb-2-4k-hd-action",
+   "specs": {
+    "system": "analog",
+    "size_class": "micro",
+    "aspect_ratio": "4:3",
+    "weight_g": 27.0,
+    "price_usd": 119.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/runcam-thumb-2-4k-hd-action-camera"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "RunCam",
+   "model": "Thumb 2 4K HD Action + ND Filter Set",
+   "slug": "runcam-thumb-2-4k-hd-action-nd-filter-set",
+   "specs": {
+    "system": "analog",
+    "size_class": "micro",
+    "aspect_ratio": "4:3",
+    "weight_g": 27.0,
+    "price_usd": 131.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/runcam-thumb-2-4k-hd-action-camera-nd-filter-set"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "RunCam",
+   "model": "Thumb Pro 4k V2 HD Action - Gyroflow Compatible",
+   "slug": "runcam-thumb-pro-4k-v2-hd-action-gyroflow-compatible",
+   "specs": {
+    "system": "analog",
+    "size_class": "mini",
+    "weight_g": 16.0,
+    "price_usd": 107.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/runcam-thumb-pro-4k-v2-hd-action-camera-gyroflow-compatible"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "RunCam",
+   "model": "Wasp 720p/120fps Micro HD for DJI",
+   "slug": "runcam-wasp-720p-120fps-micro-hd-for-dji",
+   "specs": {
+    "system": "DJI",
+    "size_class": "micro",
+    "aspect_ratio": "4:3",
+    "weight_g": 7.5,
+    "price_usd": 55.49
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/runcam-wasp-hd-micro-fpv-camera-for-dji"
+   ]
+  },
+  {
+   "type": "camera",
+   "brand": "Triumph Manufacturing",
+   "model": "Triumph Vanguard - NDAA",
+   "slug": "triumph-manufacturing-triumph-vanguard-ndaa",
+   "specs": {
+    "system": "analog",
+    "size_class": "micro",
+    "resolution_tvl": 1000,
+    "aspect_ratio": "4:3 / 16:9 switchable",
+    "weight_g": 8.5,
+    "price_usd": 61.99
+   },
+   "_scraped_at": "2026-09-10",
+   "sources": [
+    "https://www.racedayquads.com/products/triumph-vanguard-fpv-camera-ndaa"
+   ]
+  }
+ ]
+}
