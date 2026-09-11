@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10",
+ "generated": "2026-09-11",
  "count": 52,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
@@ -14,7 +14,7 @@
     "weight_g": 4.3,
     "price_usd": 29.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/akk-aio-sa-fpv-camera-for-whoops-and-2-builds-smart-audio"
    ]
@@ -33,7 +33,7 @@
     "weight_g": 1.48,
     "price_usd": 11.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-air-analog-fpv-camera"
    ]
@@ -52,7 +52,7 @@
     "weight_g": 1.7,
     "price_usd": 19.49
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/caddx-ant-lite-nano-1200tvl-cmos-pal-ntsc-fpv-camera-choose-your-version"
    ]
@@ -71,7 +71,7 @@
     "weight_g": 2.0,
     "price_usd": 19.49
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/caddx-ant-1200tvl-nano-fpv-camera-1-8mm-choose-color-aspect-ratio"
    ]
@@ -90,7 +90,7 @@
     "weight_g": 3.0,
     "price_usd": 31.49
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/caddx-baby-ratel-2-1200tvl-cmos-4-3-16-9-ntsc-pal-fpv-camera-1-8mm-black"
    ]
@@ -108,7 +108,7 @@
     "weight_g": 3.5,
     "price_usd": 80.49
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/caddx-nebula-pro-nano-720p-120fps-hd-fpv-camera-for-dji"
    ]
@@ -128,7 +128,7 @@
     "weight_g": 5.9,
     "price_usd": 37.49
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/caddx-ratel-2-1200tvl-16-9-4-3-ntsc-pal-micro-fpv-camera"
    ]
@@ -147,7 +147,7 @@
     "weight_g": 9.5,
     "price_usd": 59.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/caddx-ratel-pro-micro-1500tvl-bsi-pal-ntsc-fpv-camera-2-8mm-black"
    ]
@@ -163,7 +163,7 @@
     "weight_g": 16.0,
     "price_usd": 128.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/walksnail-hd-micro-camera-vtx-combo"
    ]
@@ -180,7 +180,7 @@
     "weight_g": 17.6,
     "price_usd": 178.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/walksnail-avatar-hd-micro-camera-vtx-kit-v2-choose-version"
    ]
@@ -195,7 +195,7 @@
     "size_class": "micro",
     "price_usd": 131.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/walksnail-avatar-hd-moonlight-camera-module"
    ]
@@ -213,7 +213,7 @@
     "weight_g": 3.0,
     "price_usd": 130.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/walksnail-avatar-hd-nano-v3-vtx-kit-w-nano-camera"
    ]
@@ -229,7 +229,7 @@
     "weight_g": 3.5,
     "price_usd": 322.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/walksnail-avatar-mini-1s-v3-vtx-kit-combo-w-nano-camera"
    ]
@@ -244,7 +244,7 @@
     "size_class": "mini",
     "price_usd": 959.0
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/dji-mini-4-pro-dji-rc-2-all-in-one-omni-obstacle-sensing-mini-camera-drone"
    ]
@@ -259,7 +259,7 @@
     "size_class": "mini",
     "price_usd": 759.0
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/dji-mini-4-pro-rc-n2-all-in-one-omni-obstacle-sensing-mini-camera-drone"
    ]
@@ -279,7 +279,7 @@
     "weight_g": 8.8,
     "price_usd": 75.49
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/fat-shark-aura-analog-fpv-camera"
    ]
@@ -298,7 +298,7 @@
     "weight_g": 4.8,
     "price_usd": 39.89
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-predator-5-nano-1000tvl-4-3-16-9-pal-ntsc-fpv-camera-1-7mm-five33-edition"
    ]
@@ -316,7 +316,7 @@
     "weight_g": 9.8,
     "price_usd": 49.89
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-apollo-micro-hd-fpv-camera-for-dji-choose-version"
    ]
@@ -335,7 +335,7 @@
     "weight_g": 10.7,
     "price_usd": 59.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-cat-3-micro-starlight-1200tvl-fpv-camera-4-3-16-9-pal-ntsc-2-1mm-choose-your-color"
    ]
@@ -354,7 +354,7 @@
     "weight_g": 12.2,
     "price_usd": 59.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-cat-3-mini-1200tvl-cmos-2mp-4-3-16-9-pal-ntsc-lux-night-fpv-camera-2-1mm-choose-your-color"
    ]
@@ -374,7 +374,7 @@
     "weight_g": 11.8,
     "price_usd": 46.49
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-micro-cat-4-1200tvl-starlight-fpv-camera"
    ]
@@ -393,7 +393,7 @@
     "weight_g": 11.8,
     "price_usd": 46.49
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-mini-cat-4-1200tvl-starlight-fpv-camera"
    ]
@@ -412,7 +412,7 @@
     "weight_g": 5.8,
     "price_usd": 36.89
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-predator-v5-micro-1000tvl-cmos-4-3-16-9-pal-ntsc-fpv-camera-1-7mm-naked-choose-your-color"
    ]
@@ -430,7 +430,7 @@
     "weight_g": 4.5,
     "price_usd": 19.89
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-razer-micro-1200tvl-4-3-pal-nstc-cmos-fpv-camera-1-8mm-black"
    ]
@@ -448,7 +448,7 @@
     "weight_g": 12.0,
     "price_usd": 23.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-razer-mini-1200tvl-16-9-pal-nstc-cmos-fpv-camera-2-1mm-black"
    ]
@@ -466,7 +466,7 @@
     "weight_g": 3.9,
     "price_usd": 19.89
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-razer-nano-1200tvl-16-9-pal-nstc-cmos-fpv-camera-1-8mm-black"
    ]
@@ -484,7 +484,7 @@
     "weight_g": 3.9,
     "price_usd": 19.89
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-razer-nano-1200tvl-4-3-nstc-cmos-fpv-camera-1-8mm-black"
    ]
@@ -502,7 +502,7 @@
     "weight_g": 12.0,
     "price_usd": 27.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-razer-v2-mini-1200tvl-4-3-pal-nstc-cmos-fpv-camera-2-1mm-black"
    ]
@@ -520,7 +520,7 @@
     "weight_g": 8.6,
     "price_usd": 65.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-t-rex-micro-fpv-camera-1500tvl-cmos-16-9-4-3-pal-ntsc-plug-choose-your-color"
    ]
@@ -538,7 +538,7 @@
     "weight_g": 10.2,
     "price_usd": 65.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-t-rex-mini-1500tvl-cmos-2mp-4-3-16-9-pal-ntsc-super-wdr-fpv-camera-1-7mm"
    ]
@@ -557,7 +557,7 @@
     "weight_g": 8.5,
     "price_usd": 47.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-toothless-2-micro-1200tvl-16-9-4-3-pal-nstc-cmos-switchable-fov-fpv-starlight-camera-w-m12-lens-and-1-2-sensor-1-7mm-choose-your-color"
    ]
@@ -576,7 +576,7 @@
     "weight_g": 3.1,
     "price_usd": 32.89
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-toothless-2-nano-starlight-1200tvl-16-9-4-3-pal-nstc-cmos-fpv-camera-w-1-2-sensor-1-7mm-choose-your-color"
    ]
@@ -594,7 +594,7 @@
     "weight_g": 1.1,
     "price_usd": 23.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-runcam-nano-3-800tvl-cmos-fpv-camera-w-plug"
    ]
@@ -611,7 +611,7 @@
     "weight_g": 8.5,
     "price_usd": 65.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/runcam-hdzero-micro-camera-v2-for-sharkbyte"
    ]
@@ -627,7 +627,7 @@
     "resolution_tvl": 600,
     "price_usd": 12.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/newbeedrone-beeeye-fpv-camera"
    ]
@@ -643,7 +643,7 @@
     "resolution_tvl": 600,
     "price_usd": 15.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/newbeedrone-beeeye-600tvl-nano-fpv-camera-for-beebrain-fcs"
    ]
@@ -660,7 +660,7 @@
     "weight_g": 5.2,
     "price_usd": 73.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/runcam-hdzero-nano-90-v2-fpv-camera"
    ]
@@ -678,7 +678,7 @@
     "weight_g": 1.1,
     "price_usd": 23.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/runcam-nano-3-800tvl-cmos-fpv-camera-w-plug-for"
    ]
@@ -697,7 +697,7 @@
     "weight_g": 9.0,
     "price_usd": 35.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/runcam-phoenix-2-1000tvl-16-9-4-3-ntsc-pal-cmos-micro-fpv-camera"
    ]
@@ -716,7 +716,7 @@
     "weight_g": 9.0,
     "price_usd": 39.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/runcam-phoenix-2-micro-joshua-bardwell-edition-1000tvl-cmos-4-3-16-9-pal-ntsc-fpv-camera-2-1mm-silver"
    ]
@@ -735,7 +735,7 @@
     "weight_g": 5.0,
     "price_usd": 35.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/runcam-phoenix-2-nano-camera"
    ]
@@ -754,7 +754,7 @@
     "weight_g": 8.0,
     "price_usd": 61.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/runcam-phoenix-2-nite-fpv-camera"
    ]
@@ -773,7 +773,7 @@
     "weight_g": 7.5,
     "price_usd": 27.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/runcam-phoenix-2-sp-1500tvl-starlight-coms-sensor-4-3-16-9-ntsc-pal-fpv-camera-2-1mm-black"
    ]
@@ -792,7 +792,7 @@
     "weight_g": 8.6,
     "price_usd": 29.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/runcam-phoenix-2-special-edition-micro-1000tvl-cmos-4-3-16-9-ntsc-pal-fpv-camera"
    ]
@@ -811,7 +811,7 @@
     "weight_g": 7.5,
     "price_usd": 24.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/runcam-phoenix-2-spv5-fpv-camera"
    ]
@@ -827,7 +827,7 @@
     "weight_g": 7.5,
     "price_usd": 59.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/runcam-phoenix-hd-micro-fpv-camera-for-dji-silver"
    ]
@@ -845,7 +845,7 @@
     "weight_g": 4.5,
     "price_usd": 41.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/runcam-racer-nano-4"
    ]
@@ -862,7 +862,7 @@
     "weight_g": 27.0,
     "price_usd": 119.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/runcam-thumb-2-4k-hd-action-camera"
    ]
@@ -879,7 +879,7 @@
     "weight_g": 27.0,
     "price_usd": 131.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/runcam-thumb-2-4k-hd-action-camera-nd-filter-set"
    ]
@@ -895,7 +895,7 @@
     "weight_g": 16.0,
     "price_usd": 107.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/runcam-thumb-pro-4k-v2-hd-action-camera-gyroflow-compatible"
    ]
@@ -912,7 +912,7 @@
     "weight_g": 7.5,
     "price_usd": 55.49
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/runcam-wasp-hd-micro-fpv-camera-for-dji"
    ]
@@ -930,7 +930,7 @@
     "weight_g": 8.5,
     "price_usd": 61.99
    },
-   "_scraped_at": "2026-09-10",
+   "_scraped_at": "2026-09-11",
    "sources": [
     "https://www.racedayquads.com/products/triumph-vanguard-fpv-camera-ndaa"
    ]
