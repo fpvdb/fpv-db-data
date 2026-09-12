@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-12",
- "count": 196,
+ "count": 198,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -111,6 +111,739 @@
     "https://www.racedayquads.com/products/axis-flying-ae2306-5-1800kv-motor",
     "https://www.racedayquads.com/products/axis-flying-ae2306-5-1960kv-motor"
    ]
+  },
+  {
+   "type": "motor",
+   "brand": "Axisflying",
+   "model": "AE2207 V2 2207",
+   "slug": "axisflying-ae2207-v2-2207",
+   "specs": {
+    "stator": "2207",
+    "kv_options": [
+     1860,
+     1960
+    ],
+    "weight_g": 35.2,
+    "recommended_props": "5-5.1in props (derived)",
+    "price_usd": 24.99,
+    "max_thrust_g": 1798.2,
+    "thrust_conditions": "Axisflying bench, 6S, 8 throttle points (30-100%) per KV on two 5in props; 1860/1960/2050/2100 KV tested",
+    "thrust_table": [
+     {
+      "kv": 2100,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 24.05,
+      "current_a": 2.2,
+      "rpm": 13824,
+      "thrust_g": 222.5,
+      "efficiency_gw": 4.21
+     },
+     {
+      "kv": 2100,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 24.03,
+      "current_a": 3.75,
+      "rpm": 16886,
+      "thrust_g": 345.5,
+      "efficiency_gw": 3.83
+     },
+     {
+      "kv": 2100,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.0,
+      "current_a": 6.38,
+      "rpm": 20443,
+      "thrust_g": 521.6,
+      "efficiency_gw": 3.41
+     },
+     {
+      "kv": 2100,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 23.95,
+      "current_a": 10.77,
+      "rpm": 24353,
+      "thrust_g": 756.8,
+      "efficiency_gw": 2.93
+     },
+     {
+      "kv": 2100,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 23.87,
+      "current_a": 16.14,
+      "rpm": 27858,
+      "thrust_g": 1002.8,
+      "efficiency_gw": 2.6
+     },
+     {
+      "kv": 2100,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 23.8,
+      "current_a": 22.46,
+      "rpm": 30832,
+      "thrust_g": 1241.8,
+      "efficiency_gw": 2.32
+     },
+     {
+      "kv": 2100,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 23.7,
+      "current_a": 29.96,
+      "rpm": 33354,
+      "thrust_g": 1464.6,
+      "efficiency_gw": 2.06
+     },
+     {
+      "kv": 2100,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 23.59,
+      "current_a": 37.89,
+      "rpm": 35710,
+      "thrust_g": 1686.6,
+      "efficiency_gw": 1.89
+     },
+     {
+      "kv": 2100,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 24.25,
+      "current_a": 2.37,
+      "rpm": 12370,
+      "thrust_g": 253.6,
+      "efficiency_gw": 4.41
+     },
+     {
+      "kv": 2100,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 24.21,
+      "current_a": 4.77,
+      "rpm": 16157,
+      "thrust_g": 431.3,
+      "efficiency_gw": 3.73
+     },
+     {
+      "kv": 2100,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.17,
+      "current_a": 8.43,
+      "rpm": 19543,
+      "thrust_g": 665.3,
+      "efficiency_gw": 3.27
+     },
+     {
+      "kv": 2100,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 24.09,
+      "current_a": 13.83,
+      "rpm": 23106,
+      "thrust_g": 952.1,
+      "efficiency_gw": 2.86
+     },
+     {
+      "kv": 2100,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 24.0,
+      "current_a": 21.19,
+      "rpm": 26134,
+      "thrust_g": 1247.5,
+      "efficiency_gw": 2.45
+     },
+     {
+      "kv": 2100,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 23.91,
+      "current_a": 29.02,
+      "rpm": 28581,
+      "thrust_g": 1485.5,
+      "efficiency_gw": 2.14
+     },
+     {
+      "kv": 2100,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 23.8,
+      "current_a": 36.92,
+      "rpm": 30619,
+      "thrust_g": 1635.9,
+      "efficiency_gw": 1.86
+     },
+     {
+      "kv": 2100,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 23.68,
+      "current_a": 46.07,
+      "rpm": 32182,
+      "thrust_g": 1798.2,
+      "efficiency_gw": 1.65
+     },
+     {
+      "kv": 2050,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 23.98,
+      "current_a": 4.79,
+      "rpm": 15678,
+      "thrust_g": 421.0,
+      "efficiency_gw": 3.67
+     },
+     {
+      "kv": 2050,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 23.95,
+      "current_a": 7.82,
+      "rpm": 18545,
+      "thrust_g": 605.0,
+      "efficiency_gw": 3.23
+     },
+     {
+      "kv": 2050,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 23.93,
+      "current_a": 11.16,
+      "rpm": 20806,
+      "thrust_g": 771.0,
+      "efficiency_gw": 2.89
+     },
+     {
+      "kv": 2050,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 23.87,
+      "current_a": 16.01,
+      "rpm": 23453,
+      "thrust_g": 982.0,
+      "efficiency_gw": 2.57
+     },
+     {
+      "kv": 2050,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 23.81,
+      "current_a": 22.73,
+      "rpm": 25867,
+      "thrust_g": 1222.0,
+      "efficiency_gw": 2.26
+     },
+     {
+      "kv": 2050,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 23.75,
+      "current_a": 30.13,
+      "rpm": 28402,
+      "thrust_g": 1447.0,
+      "efficiency_gw": 2.02
+     },
+     {
+      "kv": 2050,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 23.67,
+      "current_a": 38.42,
+      "rpm": 30565,
+      "thrust_g": 1639.0,
+      "efficiency_gw": 1.8
+     },
+     {
+      "kv": 2050,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 23.59,
+      "current_a": 47.61,
+      "rpm": 32332,
+      "thrust_g": 1794.0,
+      "efficiency_gw": 1.6
+     },
+     {
+      "kv": 2050,
+      "prop": "BB39",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 23.99,
+      "current_a": 4.78,
+      "rpm": 18108,
+      "thrust_g": 380.0,
+      "efficiency_gw": 3.32
+     },
+     {
+      "kv": 2050,
+      "prop": "BB39",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 23.96,
+      "current_a": 7.34,
+      "rpm": 21005,
+      "thrust_g": 526.0,
+      "efficiency_gw": 2.99
+     },
+     {
+      "kv": 2050,
+      "prop": "BB39",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 23.94,
+      "current_a": 10.43,
+      "rpm": 23381,
+      "thrust_g": 658.0,
+      "efficiency_gw": 2.64
+     },
+     {
+      "kv": 2050,
+      "prop": "BB39",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 23.91,
+      "current_a": 13.03,
+      "rpm": 25363,
+      "thrust_g": 785.0,
+      "efficiency_gw": 2.52
+     },
+     {
+      "kv": 2050,
+      "prop": "BB39",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 23.87,
+      "current_a": 17.85,
+      "rpm": 28126,
+      "thrust_g": 983.0,
+      "efficiency_gw": 2.31
+     },
+     {
+      "kv": 2050,
+      "prop": "BB39",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 23.82,
+      "current_a": 22.87,
+      "rpm": 31094,
+      "thrust_g": 1218.0,
+      "efficiency_gw": 2.24
+     },
+     {
+      "kv": 2050,
+      "prop": "BB39",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 23.74,
+      "current_a": 30.75,
+      "rpm": 34143,
+      "thrust_g": 1473.0,
+      "efficiency_gw": 2.02
+     },
+     {
+      "kv": 2050,
+      "prop": "BB39",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 23.66,
+      "current_a": 39.25,
+      "rpm": 36583,
+      "thrust_g": 1694.0,
+      "efficiency_gw": 1.82
+     },
+     {
+      "kv": 1960,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 23.98,
+      "current_a": 2.35,
+      "rpm": 12032,
+      "thrust_g": 197.8,
+      "efficiency_gw": 3.51
+     },
+     {
+      "kv": 1960,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 23.95,
+      "current_a": 4.71,
+      "rpm": 15668,
+      "thrust_g": 344.3,
+      "efficiency_gw": 3.05
+     },
+     {
+      "kv": 1960,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 23.93,
+      "current_a": 7.96,
+      "rpm": 19138,
+      "thrust_g": 528.7,
+      "efficiency_gw": 2.78
+     },
+     {
+      "kv": 1960,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 23.81,
+      "current_a": 11.91,
+      "rpm": 22048,
+      "thrust_g": 712.8,
+      "efficiency_gw": 2.51
+     },
+     {
+      "kv": 1960,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 23.79,
+      "current_a": 17.06,
+      "rpm": 25014,
+      "thrust_g": 938.1,
+      "efficiency_gw": 2.31
+     },
+     {
+      "kv": 1960,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 23.65,
+      "current_a": 22.04,
+      "rpm": 27419,
+      "thrust_g": 1160.3,
+      "efficiency_gw": 2.23
+     },
+     {
+      "kv": 1960,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 23.54,
+      "current_a": 29.28,
+      "rpm": 30444,
+      "thrust_g": 1449.6,
+      "efficiency_gw": 2.1
+     },
+     {
+      "kv": 1960,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 23.39,
+      "current_a": 36.78,
+      "rpm": 32528,
+      "thrust_g": 1646.6,
+      "efficiency_gw": 1.91
+     },
+     {
+      "kv": 1960,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 23.94,
+      "current_a": 2.44,
+      "rpm": 11998,
+      "thrust_g": 209.9,
+      "efficiency_gw": 3.59
+     },
+     {
+      "kv": 1960,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 23.89,
+      "current_a": 4.75,
+      "rpm": 15554,
+      "thrust_g": 366.4,
+      "efficiency_gw": 3.23
+     },
+     {
+      "kv": 1960,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 23.84,
+      "current_a": 8.26,
+      "rpm": 18926,
+      "thrust_g": 562.1,
+      "efficiency_gw": 2.85
+     },
+     {
+      "kv": 1960,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 23.79,
+      "current_a": 12.54,
+      "rpm": 21823,
+      "thrust_g": 778.7,
+      "efficiency_gw": 2.61
+     },
+     {
+      "kv": 1960,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 23.7,
+      "current_a": 17.77,
+      "rpm": 24653,
+      "thrust_g": 1021.9,
+      "efficiency_gw": 2.43
+     },
+     {
+      "kv": 1960,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 23.57,
+      "current_a": 23.4,
+      "rpm": 26902,
+      "thrust_g": 1241.1,
+      "efficiency_gw": 2.25
+     },
+     {
+      "kv": 1960,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 23.46,
+      "current_a": 30.96,
+      "rpm": 29808,
+      "thrust_g": 1545.0,
+      "efficiency_gw": 2.13
+     },
+     {
+      "kv": 1960,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 23.35,
+      "current_a": 38.65,
+      "rpm": 31802,
+      "thrust_g": 1702.7,
+      "efficiency_gw": 1.89
+     },
+     {
+      "kv": 1860,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 24.06,
+      "current_a": 2.25,
+      "rpm": 11832,
+      "thrust_g": 198.5,
+      "efficiency_gw": 3.67
+     },
+     {
+      "kv": 1860,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 24.04,
+      "current_a": 4.45,
+      "rpm": 15358,
+      "thrust_g": 341.8,
+      "efficiency_gw": 3.2
+     },
+     {
+      "kv": 1860,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 23.96,
+      "current_a": 7.69,
+      "rpm": 18885,
+      "thrust_g": 530.4,
+      "efficiency_gw": 2.88
+     },
+     {
+      "kv": 1860,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 23.89,
+      "current_a": 11.51,
+      "rpm": 21768,
+      "thrust_g": 721.4,
+      "efficiency_gw": 2.62
+     },
+     {
+      "kv": 1860,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 23.77,
+      "current_a": 16.13,
+      "rpm": 24583,
+      "thrust_g": 938.9,
+      "efficiency_gw": 2.45
+     },
+     {
+      "kv": 1860,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 23.74,
+      "current_a": 20.75,
+      "rpm": 27072,
+      "thrust_g": 1134.1,
+      "efficiency_gw": 2.3
+     },
+     {
+      "kv": 1860,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 23.65,
+      "current_a": 27.22,
+      "rpm": 30122,
+      "thrust_g": 1414.1,
+      "efficiency_gw": 2.2
+     },
+     {
+      "kv": 1860,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 23.52,
+      "current_a": 34.45,
+      "rpm": 32161,
+      "thrust_g": 1615.8,
+      "efficiency_gw": 1.99
+     },
+     {
+      "kv": 1860,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 23.96,
+      "current_a": 2.3,
+      "rpm": 11832,
+      "thrust_g": 212.3,
+      "efficiency_gw": 3.85
+     },
+     {
+      "kv": 1860,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 23.94,
+      "current_a": 4.57,
+      "rpm": 15386,
+      "thrust_g": 371.4,
+      "efficiency_gw": 3.39
+     },
+     {
+      "kv": 1860,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 23.88,
+      "current_a": 7.95,
+      "rpm": 18678,
+      "thrust_g": 570.2,
+      "efficiency_gw": 3.0
+     },
+     {
+      "kv": 1860,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 23.81,
+      "current_a": 11.89,
+      "rpm": 21548,
+      "thrust_g": 773.1,
+      "efficiency_gw": 2.73
+     },
+     {
+      "kv": 1860,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 23.73,
+      "current_a": 16.86,
+      "rpm": 24373,
+      "thrust_g": 1004.4,
+      "efficiency_gw": 2.51
+     },
+     {
+      "kv": 1860,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 23.63,
+      "current_a": 22.1,
+      "rpm": 26485,
+      "thrust_g": 1227.9,
+      "efficiency_gw": 2.35
+     },
+     {
+      "kv": 1860,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 23.5,
+      "current_a": 28.98,
+      "rpm": 29098,
+      "thrust_g": 1482.2,
+      "efficiency_gw": 2.18
+     },
+     {
+      "kv": 1860,
+      "prop": "51466",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 23.4,
+      "current_a": 36.01,
+      "rpm": 31108,
+      "thrust_g": 1675.6,
+      "efficiency_gw": 1.99
+     }
+    ],
+    "max_cells": "6S",
+    "shaft": "4mm"
+   },
+   "_scraped_at": "2026-09-11",
+   "sources": [
+    "https://www.racedayquads.com/products/in-progress-axisflying-ae2207-v2-2207-1860kv-motor",
+    "https://www.racedayquads.com/products/pre-order-axisflying-ae2207-v2-2207-1960kv-motor",
+    "https://www.axisflying.com/products/5inch-brushless-economic-fpv-motor-ae2207-v2"
+   ],
+   "note": "Axisflying publishes bench runs for the 1860/1960/2050/2100 KV versions (a 1750 KV exists but has no published test table). Prop labels are reproduced as Axisflying prints them (BB4943.5, 51466/GF 51466, BB39). 35.2 g with wire, 27.5x33.2 mm, 12N14P, 64.46 mOhm at 1960 KV. Motor temperature at full throttle ranges 45.7-94 degC depending on KV and prop"
   },
   {
    "type": "motor",
@@ -12482,6 +13215,252 @@
     "https://www.racedayquads.com/products/rcinpower-wasp-major-22-6-6-6-1860kv-motor-gold",
     "https://www.racedayquads.com/products/rcinpower-wasp-major-22-6-6-6-2420kv-motor-gold"
    ]
+  },
+  {
+   "type": "motor",
+   "brand": "RCINPOWER",
+   "model": "Wasp Major V2 King 2206.6",
+   "slug": "rcinpower-wasp-major-v2-king-2206-6",
+   "specs": {
+    "stator": "2206.6",
+    "kv_options": [
+     2160
+    ],
+    "weight_g": 29.5,
+    "shaft": "4mm",
+    "max_cells": "5-6S",
+    "recommended_props": [
+     "5in tri-blade (Gemfan 4934R/F4R/51466 V2/51499 and HQ MCK, the props RCinPower bench-tested this motor with)"
+    ],
+    "max_thrust_g": 2296,
+    "thrust_conditions": "RCinPower bench, five 5in props at 21 V (5S) and 24 V (6S), two throttle points each (50% and 100%); no RPM published",
+    "thrust_table": [
+     {
+      "kv": 2160,
+      "prop": "Gemfan 4934R",
+      "cells": "5S",
+      "throttle": 50,
+      "voltage_v": 21.0,
+      "current_a": 10.7,
+      "rpm": null,
+      "thrust_g": 701,
+      "efficiency_gw": 3.12
+     },
+     {
+      "kv": 2160,
+      "prop": "Gemfan 4934R",
+      "cells": "5S",
+      "throttle": 100,
+      "voltage_v": 21.0,
+      "current_a": 47.0,
+      "rpm": null,
+      "thrust_g": 1730,
+      "efficiency_gw": 1.753
+     },
+     {
+      "kv": 2160,
+      "prop": "Gemfan 4934R",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.0,
+      "current_a": 12.2,
+      "rpm": null,
+      "thrust_g": 800,
+      "efficiency_gw": 2.732
+     },
+     {
+      "kv": 2160,
+      "prop": "Gemfan 4934R",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24.0,
+      "current_a": 53.8,
+      "rpm": null,
+      "thrust_g": 1977,
+      "efficiency_gw": 1.531
+     },
+     {
+      "kv": 2160,
+      "prop": "Gemfan F4R",
+      "cells": "5S",
+      "throttle": 50,
+      "voltage_v": 21.0,
+      "current_a": 10.9,
+      "rpm": null,
+      "thrust_g": 693,
+      "efficiency_gw": 3.028
+     },
+     {
+      "kv": 2160,
+      "prop": "Gemfan F4R",
+      "cells": "5S",
+      "throttle": 100,
+      "voltage_v": 21.0,
+      "current_a": 52.3,
+      "rpm": null,
+      "thrust_g": 1930,
+      "efficiency_gw": 1.757
+     },
+     {
+      "kv": 2160,
+      "prop": "Gemfan F4R",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.0,
+      "current_a": 12.5,
+      "rpm": null,
+      "thrust_g": 792,
+      "efficiency_gw": 2.64
+     },
+     {
+      "kv": 2160,
+      "prop": "Gemfan F4R",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24.0,
+      "current_a": 59.7,
+      "rpm": null,
+      "thrust_g": 2206,
+      "efficiency_gw": 1.54
+     },
+     {
+      "kv": 2160,
+      "prop": "Gemfan 51466 V2",
+      "cells": "5S",
+      "throttle": 50,
+      "voltage_v": 21.0,
+      "current_a": 10.8,
+      "rpm": null,
+      "thrust_g": 749,
+      "efficiency_gw": 3.302
+     },
+     {
+      "kv": 2160,
+      "prop": "Gemfan 51466 V2",
+      "cells": "5S",
+      "throttle": 100,
+      "voltage_v": 21.0,
+      "current_a": 52.8,
+      "rpm": null,
+      "thrust_g": 1848,
+      "efficiency_gw": 1.667
+     },
+     {
+      "kv": 2160,
+      "prop": "Gemfan 51466 V2",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.0,
+      "current_a": 12.4,
+      "rpm": null,
+      "thrust_g": 855,
+      "efficiency_gw": 2.873
+     },
+     {
+      "kv": 2160,
+      "prop": "Gemfan 51466 V2",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24.0,
+      "current_a": 60.4,
+      "rpm": null,
+      "thrust_g": 2112,
+      "efficiency_gw": 1.457
+     },
+     {
+      "kv": 2160,
+      "prop": "Gemfan 51499",
+      "cells": "5S",
+      "throttle": 50,
+      "voltage_v": 21.0,
+      "current_a": 12.9,
+      "rpm": null,
+      "thrust_g": 867,
+      "efficiency_gw": 3.2
+     },
+     {
+      "kv": 2160,
+      "prop": "Gemfan 51499",
+      "cells": "5S",
+      "throttle": 100,
+      "voltage_v": 21.0,
+      "current_a": 58.9,
+      "rpm": null,
+      "thrust_g": 2009,
+      "efficiency_gw": 1.624
+     },
+     {
+      "kv": 2160,
+      "prop": "Gemfan 51499",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.0,
+      "current_a": 14.8,
+      "rpm": null,
+      "thrust_g": 991,
+      "efficiency_gw": 2.79
+     },
+     {
+      "kv": 2160,
+      "prop": "Gemfan 51499",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24.0,
+      "current_a": 67.2,
+      "rpm": null,
+      "thrust_g": 2296,
+      "efficiency_gw": 1.424
+     },
+     {
+      "kv": 2160,
+      "prop": "HQ MCK",
+      "cells": "5S",
+      "throttle": 50,
+      "voltage_v": 21.0,
+      "current_a": 10.0,
+      "rpm": null,
+      "thrust_g": 708,
+      "efficiency_gw": 3.371
+     },
+     {
+      "kv": 2160,
+      "prop": "HQ MCK",
+      "cells": "5S",
+      "throttle": 100,
+      "voltage_v": 21.0,
+      "current_a": 46.4,
+      "rpm": null,
+      "thrust_g": 1887,
+      "efficiency_gw": 1.937
+     },
+     {
+      "kv": 2160,
+      "prop": "HQ MCK",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.0,
+      "current_a": 11.4,
+      "rpm": null,
+      "thrust_g": 810,
+      "efficiency_gw": 2.961
+     },
+     {
+      "kv": 2160,
+      "prop": "HQ MCK",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24.0,
+      "current_a": 53.1,
+      "rpm": null,
+      "thrust_g": 2157,
+      "efficiency_gw": 1.693
+     }
+    ]
+   },
+   "sources": [
+    "https://www.rcinpower.com/G-SERIES/68.html"
+   ],
+   "note": "Champion Edition. Specs and bench data come from RCinPower's own product page. 12N14P, 22.6x6.6 mm stator, 4 mm hollow shaft, body 27.6x18.1 mm, 29.5 g with 3 cm wire, 48 mOhm, 1613 W continuous and 67.2 A max on 5S. Not sold by our retail source, so this entry is maintained by hand. RCinPower's sheet reports motor temperature after 5 s at full throttle: 61-72 degC on 5S and 77-90 degC on 6S, with the 51499 flagged as HOT"
   },
   {
    "type": "motor",
