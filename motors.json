@@ -460,7 +460,10 @@
       "thrust_g": 1670,
       "efficiency_gw": 1.94
      }
-    ]
+    ],
+    "configuration": "12N14P",
+    "dimensions_mm": "27.9x32.7",
+    "resistance_mohm": "60.16 (1960KV) / 70.62 (1860KV)"
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1193,7 +1196,10 @@
      }
     ],
     "max_cells": "6S",
-    "shaft": "4mm"
+    "shaft": "4mm",
+    "configuration": "12N14P",
+    "dimensions_mm": "27.5x33.2",
+    "resistance_mohm": "64.46 (1960KV)"
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1770,7 +1776,10 @@
       "efficiency_gw": 1.86
      }
     ],
-    "max_cells": "6S"
+    "max_cells": "6S",
+    "configuration": "12N14P",
+    "dimensions_mm": "27.8x32.9",
+    "resistance_mohm": "57.34 (2060KV)"
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2282,7 +2291,11 @@
       "efficiency_gw": 1.5
      }
     ],
-    "max_cells": "4-6S"
+    "max_cells": "4-6S",
+    "configuration": "12N14P",
+    "dimensions_mm": "24.7x19.9",
+    "mount_mm": "9x9mm (4-M2)",
+    "resistance_mohm": "88 (2100KV)"
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2853,7 +2866,10 @@
       "thrust_g": 2178,
       "efficiency_gw": 2.52
      }
-    ]
+    ],
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø30.3x36.5",
+    "mount_mm": "16x16mm (M3)"
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4277,7 +4293,9 @@
       "thrust_g": 1870,
       "efficiency_gw": 1.95
      }
-    ]
+    ],
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø30x35"
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4656,7 +4674,9 @@
       "thrust_g": 3307,
       "efficiency_gw": 2.0
      }
-    ]
+    ],
+    "dimensions_mm": "Ø33.9x42",
+    "mount_mm": "19x19mm (4-M3)"
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4726,7 +4746,9 @@
     "max_thrust_g": 881,
     "price_usd": 21.99,
     "thrust_conditions": "6S with a 3.5in five-blade prop, manufacturer peak figure (no throttle sweep published)",
-    "max_cells": "6S"
+    "max_cells": "6S",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø27x32.1"
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5082,7 +5104,9 @@
       "thrust_g": 1420,
       "efficiency_gw": 1.89
      }
-    ]
+    ],
+    "dimensions_mm": "Ø27x32.4",
+    "mount_mm": "16x16mm (4-M3)"
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -14458,7 +14482,10 @@
       "thrust_g": 2311,
       "efficiency_gw": 1.773
      }
-    ]
+    ],
+    "configuration": "12N14P",
+    "dimensions_mm": "27.6x19.5",
+    "resistance_mohm": "45"
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -14900,7 +14927,10 @@
       "thrust_g": 56,
       "efficiency_gw": 2.102
      }
-    ]
+    ],
+    "configuration": "9N12P",
+    "dimensions_mm": "11.2x8.2",
+    "resistance_mohm": "117 / 105 / 95 (22000/25000/27000KV)"
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -15596,7 +15626,10 @@
       "thrust_g": 890,
       "efficiency_gw": 3.873
      }
-    ]
+    ],
+    "configuration": "9N12P",
+    "dimensions_mm": "20.7x28.2",
+    "resistance_mohm": "113 (2680KV) / 65 (3800KV) / 59 (4200KV)"
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -15890,7 +15923,10 @@
       "thrust_g": 2157,
       "efficiency_gw": 1.693
      }
-    ]
+    ],
+    "configuration": "12N14P",
+    "dimensions_mm": "27.6x18.1",
+    "resistance_mohm": "48"
    },
    "sources": [
     "https://www.rcinpower.com/G-SERIES/68.html"
@@ -16906,7 +16942,11 @@
       "thrust_g": 1448.38,
       "efficiency_gw": 2.17
      }
-    ]
+    ],
+    "configuration": "12N14P",
+    "dimensions_mm": "27.9x29.8",
+    "mount_mm": "4-M3",
+    "resistance_mohm": "65 (1950KV) / 45 (2400KV)"
    },
    "sources": [
     "https://www.tmotorhobby.com/goods-1010.html"
@@ -17752,7 +17792,8 @@
       "thrust_g": 1921.2,
       "efficiency_gw": 1.54
      }
-    ]
+    ],
+    "configuration": "12N14P"
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -20168,7 +20209,8 @@
       "thrust_g": 1921.2,
       "efficiency_gw": 1.54
      }
-    ]
+    ],
+    "configuration": "12N14P"
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -20436,7 +20478,8 @@
       "thrust_g": 514.1,
       "efficiency_gw": 1.85
      }
-    ]
+    ],
+    "configuration": "12N14P"
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -21922,7 +21965,11 @@
       "thrust_g": 1155.85,
       "efficiency_gw": 1.86
      }
-    ]
+    ],
+    "configuration": "12N14P",
+    "dimensions_mm": "28.6x30",
+    "mount_mm": "Ø16mm (4-M3)",
+    "resistance_mohm": "63 (1950KV) / 43 (2550KV)"
    },
    "sources": [
     "https://www.tmotorhobby.com/goods-1094.html"
@@ -23545,7 +23592,10 @@
       "thrust_g": 1289.03,
       "efficiency_gw": 2.31
      }
-    ]
+    ],
+    "configuration": "12N14P",
+    "dimensions_mm": "27.6x31.45",
+    "resistance_mohm": "74 (1750KV) / 53.5 (1950KV) / 41 (2550KV)"
    },
    "_scraped_at": "2026-09-12",
    "sources": [
