@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-12",
- "count": 48,
+ "count": 52,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -249,6 +249,68 @@
   {
    "type": "vtx",
    "brand": "Foxeer",
+   "model": "Reaper Extreme V2 4.9-6.0GHz 2.5W",
+   "slug": "foxeer-reaper-extreme-v2-4-9-6-0ghz",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 2500,
+    "frequency_range": "4.9-6.0 GHz",
+    "power_levels_mw": "25 / 200 / 500 / 1500 / 2500",
+    "input_voltage": "9-36V (3-8S)",
+    "mount_mm": "20x20mm M2",
+    "channels": 80,
+    "antenna_connector": "MMCX",
+    "weight_g": 13.0
+   },
+   "sources": [
+    "https://www.foxeer.com/foxeer-5-8g-reaper-extreme-v2-2-5w-72ch-vtx-g-566",
+    "https://www.arrishobby.com/products/foxeer-49g6g-reaper-extreme-v2-25w-80ch-vtx-with-mmcx-conenctor"
+   ],
+   "note": "Wideband version of the Reaper Extreme: 80 channels spread over 4.9-6.0 GHz instead of the 40-72 channels of the 5.8 GHz-only model. 36x27.5x8 mm CNC shell, 5 V BEC for the camera, built-in microphone, 1.2 A draw at 9 V. Retailer spec blocks disagree on the top step - some list 1.5 W as the maximum while the model is sold as 2.5 W; Foxeer's own manual gives the five steps recorded here."
+  },
+  {
+   "type": "vtx",
+   "brand": "Foxeer",
+   "model": "Reaper Infinity 4.9-6.0GHz 10W",
+   "slug": "foxeer-reaper-infinity-4-9-6-0ghz-10w",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 10000,
+    "frequency_range": "4.9-6.0 GHz",
+    "power_levels_mw": "400 / 2000 / 5000 / 7500 / 10000",
+    "input_voltage": "2-8S LiPo",
+    "channels": 80,
+    "antenna_connector": "SMA"
+   },
+   "sources": [
+    "https://qwinout.com/products/foxeer-4-9g-6g-reaper-infinity-5-8g-10w-80cn-vtx-2-8s-lipo-400mw-2w-5w-7-5w-10w-switchable-transmitter-for-long-range-rc-fpv-1"
+   ],
+   "note": "The 10 W step of the Infinity line. Output at this level is far above what most countries allow unlicensed on 5.8 GHz - check local rules before transmitting. Weight is not published consistently across listings, so it is left out rather than guessed."
+  },
+  {
+   "type": "vtx",
+   "brand": "Foxeer",
+   "model": "Reaper Infinity V2 4.9-6.0GHz 5W",
+   "slug": "foxeer-reaper-infinity-v2-4-9-6-0ghz-5w",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 5000,
+    "frequency_range": "4.9-6.0 GHz",
+    "power_levels_mw": "1000 / 2000 / 3000 / 4000 / 5000",
+    "input_voltage": "9-36V (3-8S)",
+    "channels": 80,
+    "antenna_connector": "SMA",
+    "weight_g": 58.0
+   },
+   "sources": [
+    "https://pyrodrone.com/products/foxeer-reaper-infinity-5-8g-5w-40ch-vtx-1",
+    "https://druav.com/products/foxeer-4-9g-6g-reaper-infinity-v2-5w-80ch-vtx"
+   ],
+   "note": "Long-range transmitter: 41x20x17 mm, 58 g including the heatsink, 5 V output for the camera. The V2 widens the original 5.8 GHz 40-channel model to 4.9-6.0 GHz and 80 channels."
+  },
+  {
+   "type": "vtx",
+   "brand": "Foxeer",
    "model": "Reaper Nano 25-350mW 5.8G Micro - U.FL",
    "slug": "foxeer-reaper-nano-25-350mw-5-8g-micro-u-fl",
    "specs": {
@@ -263,6 +325,27 @@
    "sources": [
     "https://www.racedayquads.com/products/foxeer-reaper-nano-25-350mw-5-8g-micro-vtx-u-fl"
    ]
+  },
+  {
+   "type": "vtx",
+   "brand": "FT Systems",
+   "model": "FT VTX 5.8 4W 96CH",
+   "slug": "ft-systems-ft-vtx-5-8-4w-96ch",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 4000,
+    "frequency_range": "4867-5945 MHz",
+    "power_levels_mw": "0 (pit) / 25 / 2000 / 4000",
+    "input_voltage": "7-36V (2-8S)",
+    "mount_mm": "20x20mm",
+    "channels": 96,
+    "antenna_connector": "SMA female",
+    "weight_g": 25.85
+   },
+   "sources": [
+    "https://ft.systems/en/video-transmitter-vtx-ft-5-8/"
+   ],
+   "note": "Ukrainian-made transmitter, 96 channels across 12 bands covering 4867-5945 MHz. 53x28.85x16 mm with an aluminium heatsink and a cooling fan; controlled over IRC Tramp from the flight controller. FT Systems quotes measured RF output of 2200-5080 mW across the range rather than a single figure, because a wideband amplifier does not deliver the same power at every frequency - the 4000 mW here is the nominal setting."
   },
   {
    "type": "vtx",
