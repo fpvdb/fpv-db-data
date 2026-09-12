@@ -484,9 +484,9 @@
      1860,
      1960
     ],
-    "weight_g": 35.2,
+    "weight_g": 35.13,
     "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 24.99,
+    "price_usd": 19.49,
     "max_thrust_g": 1798.2,
     "thrust_conditions": "Axisflying bench, 6S, 8 throttle points (30-100%) per KV on two 5in props; 1860/1960/2050/2100 KV tested",
     "thrust_table": [
@@ -1786,7 +1786,7 @@
     "https://www.racedayquads.com/products/axisflying-blackbird-v4-2307-fpv-motor",
     "https://www.axisflying.com/products/co-brand-with-blackbird-v4-2307-5inch-brushless"
    ],
-   "note": "Axisflying sells this as two editions of the same 2307.3 motor: the 2060 KV Menace Edition (Sbang's signature, 81.54 mOhm) and the 1960 KV Mind Reader (57.34 mOhm, lower KV for smoother throttle). The stator grew from 2207.3 to 2307.3 versus the V3. Motor internal temperature at full throttle 47-65 degC. Axisflying sells this as two editions of the same 2307.3 motor: the 2060 KV Menace Edition (Sbang's signature) and the 1960 KV Mind Reader, wound for a smoother throttle. The stator grew from 2207.3 to 2307.3 versus the V3. 34.69 g with wire, 27.8x32.9 mm, 12N14P, 5 mm shaft, 6S; the 2060 KV winding measures 57.34 mOhm. Motor internal temperature at full throttle 47-65 degC"
+   "note": "Axisflying sells this as two editions of the same 2307.3 motor: the 2060 KV Menace Edition (Sbang's signature) and the 1960 KV Mind Reader, wound for a smoother throttle. The stator grew from 2207.3 to 2307.3 versus the V3. 34.69 g with wire, 27.8x32.9 mm, 12N14P, 5 mm shaft, 6S; the 2060 KV winding measures 57.34 mOhm. Motor internal temperature at full throttle 47-65 degC"
   },
   {
    "type": "motor",
@@ -2303,7 +2303,7 @@
     "https://www.racedayquads.com/products/axisflying-c206-2006-motor-2750kv",
     "https://www.axisflying.com/products/fpv-brushless-motor-c206-2006"
    ],
-   "note": "Axisflying's C206-V1 sheet covers 1960, 2100 and 2500 KV; our retail source lists a 2750 KV version that the manufacturer does not publish data for, so the table does not cover it. Motor temperature at full throttle 44-83 degC. Efficiency is printed to one decimal on this sheet, unlike Axisflying's 5in motor sheets. Axisflying's C206-V1 sheet covers 1960, 2100 and 2500 KV; our retail source lists a 2750 KV version the manufacturer publishes no data for, so the table does not cover it. 22.8 g with wire, 24.7x19.9 mm, 12N14P, 1.5 mm shaft, 4-6S, 88 mOhm at 2100 KV. Motor temperature at full throttle 44-83 degC. Efficiency is printed to one decimal on this sheet, unlike Axisflying's 5in motor sheets"
+   "note": "Axisflying's C206-V1 sheet covers 1960, 2100 and 2500 KV; our retail source lists a 2750 KV version the manufacturer publishes no data for, so the table does not cover it. 22.8 g with wire, 24.7x19.9 mm, 12N14P, 1.5 mm shaft, 4-6S, 88 mOhm at 2100 KV. Motor temperature at full throttle 44-83 degC. Efficiency is printed to one decimal on this sheet, unlike Axisflying's 5in motor sheets"
   },
   {
    "type": "motor",
@@ -2337,11 +2337,11 @@
      1860,
      1960
     ],
-    "weight_g": 35.5,
+    "weight_g": 35.8,
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
-    "max_thrust_g": 1819.0,
+    "max_thrust_g": 1711.0,
     "price_usd": 23.99
    },
    "_scraped_at": "2026-09-12",

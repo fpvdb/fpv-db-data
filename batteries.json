@@ -15,9 +15,9 @@
     "c_rating": "30C",
     "weight_g": 194.6,
     "connector": "XT60",
+    "energy_wh": 28.8,
     "price_usd": 30.99,
-    "price_per_wh_usd": 1.08,
-    "energy_wh": 28.8
+    "price_per_wh_usd": 1.08
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -36,9 +36,9 @@
     "c_rating": "10C",
     "weight_g": 150.0,
     "connector": "XT30",
+    "energy_wh": 32.4,
     "price_usd": 47.49,
-    "price_per_wh_usd": 1.47,
-    "energy_wh": 32.4
+    "price_per_wh_usd": 1.47
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -57,9 +57,9 @@
     "c_rating": "10C",
     "weight_g": 297.0,
     "connector": "XT60",
+    "energy_wh": 64.8,
     "price_usd": 92.99,
-    "price_per_wh_usd": 1.44,
-    "energy_wh": 64.8
+    "price_per_wh_usd": 1.44
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -78,9 +78,9 @@
     "c_rating": "45C",
     "weight_g": 430.0,
     "connector": "XT60",
+    "energy_wh": 73.3,
     "price_usd": 74.49,
-    "price_per_wh_usd": 1.02,
-    "energy_wh": 73.3
+    "price_per_wh_usd": 1.02
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -99,9 +99,9 @@
     "c_rating": "120C",
     "weight_g": 193.6,
     "connector": "XT60",
+    "energy_wh": 23.3,
     "price_usd": 43.49,
-    "price_per_wh_usd": 1.87,
-    "energy_wh": 23.3
+    "price_per_wh_usd": 1.87
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -120,9 +120,9 @@
     "c_rating": "120C",
     "weight_g": 176.6,
     "connector": "XT60",
+    "energy_wh": 22.9,
     "price_usd": 35.99,
-    "price_per_wh_usd": 1.57,
-    "energy_wh": 22.9
+    "price_per_wh_usd": 1.57
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -141,9 +141,9 @@
     "c_rating": "80C",
     "weight_g": 13.2,
     "connector": "PH2.0",
+    "energy_wh": 1.9,
     "price_usd": 4.19,
-    "price_per_wh_usd": 2.21,
-    "energy_wh": 1.9
+    "price_per_wh_usd": 2.21
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -162,9 +162,9 @@
     "c_rating": "120C",
     "weight_g": 154.0,
     "connector": "XT60",
+    "energy_wh": 20.0,
     "price_usd": 47.49,
-    "price_per_wh_usd": 2.38,
-    "energy_wh": 20.0
+    "price_per_wh_usd": 2.38
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -183,9 +183,9 @@
     "c_rating": "120C",
     "weight_g": 219.0,
     "connector": "XT60",
+    "energy_wh": 30.8,
     "price_usd": 38.89,
-    "price_per_wh_usd": 1.26,
-    "energy_wh": 30.8
+    "price_per_wh_usd": 1.26
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -204,9 +204,9 @@
     "c_rating": "30C",
     "weight_g": 12.7,
     "connector": "BT2.0",
+    "energy_wh": 1.7,
     "price_usd": 35.49,
-    "price_per_wh_usd": 20.75,
-    "energy_wh": 1.7
+    "price_per_wh_usd": 20.75
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -225,9 +225,9 @@
     "c_rating": "40C",
     "weight_g": 13.99,
     "connector": "BT2.0",
+    "energy_wh": 2.1,
     "price_usd": 32.49,
-    "price_per_wh_usd": 15.55,
-    "energy_wh": 2.1
+    "price_per_wh_usd": 15.55
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -247,9 +247,9 @@
     "weight_g": 25.5,
     "connector": "BT2.0",
     "dimensions_mm": "62.8x41.3x17.8mm",
+    "energy_wh": 4.2,
     "price_usd": 21.99,
-    "price_per_wh_usd": 5.26,
-    "energy_wh": 4.2
+    "price_per_wh_usd": 5.26
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -269,9 +269,9 @@
     "weight_g": 22.0,
     "connector": "BT2.0",
     "dimensions_mm": "62.8x41.3x17.8mm",
+    "energy_wh": 2.5,
     "price_usd": 13.99,
-    "price_per_wh_usd": 5.66,
-    "energy_wh": 2.5
+    "price_per_wh_usd": 5.66
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -291,9 +291,9 @@
     "weight_g": 12.6,
     "connector": "BT2.0",
     "dimensions_mm": "61 x 15.5 x 6 mm",
+    "energy_wh": 1.8,
     "price_usd": 26.99,
-    "price_per_wh_usd": 14.8,
-    "energy_wh": 1.8
+    "price_per_wh_usd": 14.8
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -313,9 +313,9 @@
     "weight_g": 14.1,
     "connector": "BT2.0",
     "dimensions_mm": "70 x 15 x 6.5 mm",
+    "energy_wh": 2.2,
     "price_usd": 28.99,
-    "price_per_wh_usd": 13.15,
-    "energy_wh": 2.2
+    "price_per_wh_usd": 13.15
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -335,9 +335,9 @@
     "weight_g": 16.2,
     "connector": "BT2.0",
     "dimensions_mm": "80 x 15 x 6.5 mm",
+    "energy_wh": 2.6,
     "price_usd": 31.99,
-    "price_per_wh_usd": 12.38,
-    "energy_wh": 2.6
+    "price_per_wh_usd": 12.38
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -356,9 +356,9 @@
     "c_rating": "90C",
     "weight_g": 395.0,
     "connector": "EC5",
+    "energy_wh": 57.7,
     "price_usd": 48.99,
-    "price_per_wh_usd": 0.85,
-    "energy_wh": 57.7
+    "price_per_wh_usd": 0.85
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -377,9 +377,9 @@
     "c_rating": "90C",
     "weight_g": 530.0,
     "connector": "EC5",
+    "energy_wh": 77.0,
     "price_usd": 72.99,
-    "price_per_wh_usd": 0.95,
-    "energy_wh": 77.0
+    "price_per_wh_usd": 0.95
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -398,9 +398,9 @@
     "c_rating": "90C",
     "weight_g": 790.0,
     "connector": "EC5",
+    "energy_wh": 115.4,
     "price_usd": 107.99,
-    "price_per_wh_usd": 0.94,
-    "energy_wh": 115.4
+    "price_per_wh_usd": 0.94
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -419,9 +419,9 @@
     "c_rating": "90C",
     "weight_g": 949.0,
     "connector": "EC5",
+    "energy_wh": 137.6,
     "price_usd": 122.99,
-    "price_per_wh_usd": 0.89,
-    "energy_wh": 137.6
+    "price_per_wh_usd": 0.89
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -440,9 +440,9 @@
     "c_rating": "90C",
     "weight_g": 775.0,
     "connector": "EC5",
+    "energy_wh": 140.6,
     "price_usd": 143.49,
-    "price_per_wh_usd": 1.02,
-    "energy_wh": 140.6
+    "price_per_wh_usd": 1.02
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -462,9 +462,9 @@
     "weight_g": 146.0,
     "connector": "XT60",
     "dimensions_mm": "30x34x76mm",
+    "energy_wh": 16.3,
     "price_usd": 36.49,
-    "price_per_wh_usd": 2.24,
-    "energy_wh": 16.3
+    "price_per_wh_usd": 2.24
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -502,9 +502,9 @@
     "weight_g": 232.0,
     "connector": "XT60",
     "dimensions_mm": "48x39x78mm",
+    "energy_wh": 29.6,
     "price_usd": 40.49,
-    "price_per_wh_usd": 1.37,
-    "energy_wh": 29.6
+    "price_per_wh_usd": 1.37
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -524,9 +524,9 @@
     "weight_g": 339.0,
     "connector": "XT60",
     "dimensions_mm": "71x39x78mm",
+    "energy_wh": 44.4,
     "price_usd": 56.99,
-    "price_per_wh_usd": 1.28,
-    "energy_wh": 44.4
+    "price_per_wh_usd": 1.28
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -546,9 +546,9 @@
     "weight_g": 151.0,
     "connector": "XT60",
     "dimensions_mm": "31x33x74mm",
+    "energy_wh": 19.2,
     "price_usd": 24.49,
-    "price_per_wh_usd": 1.27,
-    "energy_wh": 19.2
+    "price_per_wh_usd": 1.27
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -568,9 +568,9 @@
     "weight_g": 223.0,
     "connector": "XT60",
     "dimensions_mm": "48 x 33 x 77mm",
+    "energy_wh": 28.9,
     "price_usd": 36.49,
-    "price_per_wh_usd": 1.26,
-    "energy_wh": 28.9
+    "price_per_wh_usd": 1.26
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -590,9 +590,9 @@
     "weight_g": 174.0,
     "connector": "XT60",
     "dimensions_mm": "36x33x76mm",
+    "energy_wh": 22.2,
     "price_usd": 31.49,
-    "price_per_wh_usd": 1.42,
-    "energy_wh": 22.2
+    "price_per_wh_usd": 1.42
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -612,9 +612,9 @@
     "weight_g": 251.0,
     "connector": "XT60",
     "dimensions_mm": "52 x 33 x 75mm",
+    "energy_wh": 33.3,
     "price_usd": 43.49,
-    "price_per_wh_usd": 1.31,
-    "energy_wh": 33.3
+    "price_per_wh_usd": 1.31
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -634,9 +634,9 @@
     "weight_g": 211.0,
     "connector": "XT60",
     "dimensions_mm": "39.5x35x75mm",
+    "energy_wh": 24.4,
     "price_usd": 32.99,
-    "price_per_wh_usd": 1.35,
-    "energy_wh": 24.4
+    "price_per_wh_usd": 1.35
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -655,9 +655,9 @@
     "c_rating": "120C",
     "weight_g": 189.0,
     "connector": "XT60",
+    "energy_wh": 22.2,
     "price_usd": 36.49,
-    "price_per_wh_usd": 1.64,
-    "energy_wh": 22.2
+    "price_per_wh_usd": 1.64
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -677,9 +677,9 @@
     "weight_g": 209.0,
     "connector": "XT60",
     "dimensions_mm": "38.5x34x86mm",
+    "energy_wh": 26.6,
     "price_usd": 36.49,
-    "price_per_wh_usd": 1.37,
-    "energy_wh": 26.6
+    "price_per_wh_usd": 1.37
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -698,10 +698,10 @@
     "c_rating": "70C",
     "weight_g": 49.0,
     "connector": "PH2.0",
+    "energy_wh": 1.7,
     "price_usd": 11.99,
     "price_per_wh_usd": 7.01,
-    "dimensions_mm": "7.3X18.1X59.3mm",
-    "energy_wh": 1.7
+    "dimensions_mm": "7.3X18.1X59.3mm"
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -721,9 +721,9 @@
     "c_rating": "70C",
     "weight_g": 32.0,
     "connector": "XT30",
+    "energy_wh": 3.3,
     "price_usd": 24.49,
-    "price_per_wh_usd": 7.35,
-    "energy_wh": 3.3
+    "price_per_wh_usd": 7.35
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -742,9 +742,9 @@
     "c_rating": "70C",
     "weight_g": 49.0,
     "connector": "XT30",
+    "energy_wh": 5.0,
     "price_usd": 18.99,
-    "price_per_wh_usd": 3.8,
-    "energy_wh": 5.0
+    "price_per_wh_usd": 3.8
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -763,10 +763,10 @@
     "c_rating": "70C",
     "weight_g": 62.0,
     "connector": "XT30",
+    "energy_wh": 6.7,
     "price_usd": 3.6,
     "price_per_wh_usd": 0.54,
-    "dimensions_mm": "30X18X65mm",
-    "energy_wh": 6.7
+    "dimensions_mm": "30X18X65mm"
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -787,9 +787,9 @@
     "weight_g": 87.0,
     "connector": "XT30",
     "dimensions_mm": "27X30X58mm",
+    "energy_wh": 9.6,
     "price_usd": 18.99,
-    "price_per_wh_usd": 1.97,
-    "energy_wh": 9.6
+    "price_per_wh_usd": 1.97
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -808,10 +808,10 @@
     "c_rating": "70C",
     "weight_g": 110.0,
     "connector": "XT30",
+    "energy_wh": 12.6,
     "price_usd": 63.49,
     "price_per_wh_usd": 5.05,
-    "dimensions_mm": "33X30X62mm",
-    "energy_wh": 12.6
+    "dimensions_mm": "33X30X62mm"
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -831,10 +831,10 @@
     "c_rating": "150C",
     "weight_g": 247.0,
     "connector": "XT60",
+    "energy_wh": 33.3,
     "price_usd": 53.99,
     "price_per_wh_usd": 1.62,
-    "dimensions_mm": "47X35X76MM",
-    "energy_wh": 33.3
+    "dimensions_mm": "47X35X76MM"
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -855,9 +855,9 @@
     "weight_g": 153.0,
     "connector": "XT60",
     "dimensions_mm": "31x34x74mm",
+    "energy_wh": 17.8,
     "price_usd": 62.49,
-    "price_per_wh_usd": 3.52,
-    "energy_wh": 17.8
+    "price_per_wh_usd": 3.52
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -877,9 +877,9 @@
     "weight_g": 208.0,
     "connector": "XT60",
     "dimensions_mm": "45x35x80mm",
+    "energy_wh": 26.6,
     "price_usd": 29.99,
-    "price_per_wh_usd": 1.13,
-    "energy_wh": 26.6
+    "price_per_wh_usd": 1.13
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -899,9 +899,9 @@
     "weight_g": 189.0,
     "connector": "XT60",
     "dimensions_mm": "35x40x77mm",
+    "energy_wh": 22.9,
     "price_usd": 26.99,
-    "price_per_wh_usd": 1.18,
-    "energy_wh": 22.9
+    "price_per_wh_usd": 1.18
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -921,9 +921,9 @@
     "weight_g": 53.0,
     "connector": "XT30",
     "dimensions_mm": "24x12x70mm",
+    "energy_wh": 6.7,
     "price_usd": 14.99,
-    "price_per_wh_usd": 2.25,
-    "energy_wh": 6.7
+    "price_per_wh_usd": 2.25
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -943,9 +943,9 @@
     "weight_g": 67.0,
     "connector": "XT30",
     "dimensions_mm": "31.5x17x70mm",
+    "energy_wh": 8.9,
     "price_usd": 17.99,
-    "price_per_wh_usd": 2.03,
-    "energy_wh": 8.9
+    "price_per_wh_usd": 2.03
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -965,9 +965,9 @@
     "weight_g": 180.0,
     "connector": "XT60",
     "dimensions_mm": "31x38x76mm",
+    "energy_wh": 23.3,
     "price_usd": 53.99,
-    "price_per_wh_usd": 2.32,
-    "energy_wh": 23.3
+    "price_per_wh_usd": 2.32
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -987,9 +987,9 @@
     "weight_g": 239.0,
     "connector": "XT60",
     "dimensions_mm": "39.5 x 39 x 78mm",
+    "energy_wh": 31.1,
     "price_usd": 60.99,
-    "price_per_wh_usd": 1.96,
-    "energy_wh": 31.1
+    "price_per_wh_usd": 1.96
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1009,9 +1009,9 @@
     "weight_g": 171.0,
     "connector": "XT60",
     "dimensions_mm": "31x39x78mm",
+    "energy_wh": 22.9,
     "price_usd": 39.49,
-    "price_per_wh_usd": 1.72,
-    "energy_wh": 22.9
+    "price_per_wh_usd": 1.72
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1031,9 +1031,9 @@
     "weight_g": 256.0,
     "connector": "XT60",
     "dimensions_mm": "46x40x80mm",
+    "energy_wh": 34.4,
     "price_usd": 62.49,
-    "price_per_wh_usd": 1.82,
-    "energy_wh": 34.4
+    "price_per_wh_usd": 1.82
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1052,9 +1052,9 @@
     "c_rating": "150C",
     "weight_g": 157.0,
     "connector": "XT60",
+    "energy_wh": 19.2,
     "price_usd": 27.99,
-    "price_per_wh_usd": 1.45,
-    "energy_wh": 19.2
+    "price_per_wh_usd": 1.45
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1073,9 +1073,9 @@
     "c_rating": "150C",
     "weight_g": 216.0,
     "connector": "XT60",
+    "energy_wh": 28.9,
     "price_usd": 45.99,
-    "price_per_wh_usd": 1.59,
-    "energy_wh": 28.9
+    "price_per_wh_usd": 1.59
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1094,9 +1094,9 @@
     "c_rating": "150C",
     "weight_g": 223.0,
     "connector": "XT60",
+    "energy_wh": 30.6,
     "price_usd": 39.99,
-    "price_per_wh_usd": 1.31,
-    "energy_wh": 30.6
+    "price_per_wh_usd": 1.31
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1115,9 +1115,9 @@
     "c_rating": "150C",
     "weight_g": 260.0,
     "connector": "XT60",
+    "energy_wh": 34.4,
     "price_usd": 58.49,
-    "price_per_wh_usd": 1.7,
-    "energy_wh": 34.4
+    "price_per_wh_usd": 1.7
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1136,9 +1136,9 @@
     "c_rating": "180C",
     "weight_g": 241.0,
     "connector": "XT60",
+    "energy_wh": 35.5,
     "price_usd": 54.99,
-    "price_per_wh_usd": 1.55,
-    "energy_wh": 35.5
+    "price_per_wh_usd": 1.55
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1157,9 +1157,9 @@
     "c_rating": "150C",
     "weight_g": 199.0,
     "connector": "XT60",
+    "energy_wh": 27.4,
     "price_usd": 48.99,
-    "price_per_wh_usd": 1.79,
-    "energy_wh": 27.4
+    "price_per_wh_usd": 1.79
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1178,9 +1178,9 @@
     "c_rating": "150C",
     "weight_g": 292.0,
     "connector": "XT60",
+    "energy_wh": 41.1,
     "price_usd": 68.99,
-    "price_per_wh_usd": 1.68,
-    "energy_wh": 41.1
+    "price_per_wh_usd": 1.68
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1199,9 +1199,9 @@
     "c_rating": "150C",
     "weight_g": 46.0,
     "connector": "XT30",
+    "energy_wh": 6.2,
     "price_usd": 16.99,
-    "price_per_wh_usd": 2.73,
-    "energy_wh": 6.2
+    "price_per_wh_usd": 2.73
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1220,9 +1220,9 @@
     "c_rating": "150C",
     "weight_g": 58.0,
     "connector": "XT30",
+    "energy_wh": 8.3,
     "price_usd": 21.99,
-    "price_per_wh_usd": 2.65,
-    "energy_wh": 8.3
+    "price_per_wh_usd": 2.65
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1242,9 +1242,9 @@
     "weight_g": 100.0,
     "connector": "XT30",
     "dimensions_mm": "58 x 30 x 34mm",
+    "energy_wh": 12.6,
     "price_usd": 26.99,
-    "price_per_wh_usd": 2.15,
-    "energy_wh": 12.6
+    "price_per_wh_usd": 2.15
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1263,9 +1263,9 @@
     "c_rating": "160C",
     "weight_g": 229.0,
     "connector": "XT60",
+    "energy_wh": 30.6,
     "price_usd": 156.99,
-    "price_per_wh_usd": 5.12,
-    "energy_wh": 30.6
+    "price_per_wh_usd": 5.12
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1285,9 +1285,9 @@
     "weight_g": 239.0,
     "connector": "XT60",
     "dimensions_mm": "78x38x41mm",
+    "energy_wh": 32.9,
     "price_usd": 56.99,
-    "price_per_wh_usd": 1.73,
-    "energy_wh": 32.9
+    "price_per_wh_usd": 1.73
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1307,9 +1307,9 @@
     "weight_g": 244.0,
     "connector": "XT60",
     "dimensions_mm": "37.5 x 39 x 81mm",
+    "energy_wh": 32.9,
     "price_usd": 60.99,
-    "price_per_wh_usd": 1.86,
-    "energy_wh": 32.9
+    "price_per_wh_usd": 1.86
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1328,9 +1328,9 @@
     "c_rating": "150C",
     "weight_g": 216.0,
     "connector": "XT60",
+    "energy_wh": 32.9,
     "price_usd": 49.99,
-    "price_per_wh_usd": 1.52,
-    "energy_wh": 32.9
+    "price_per_wh_usd": 1.52
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1349,9 +1349,9 @@
     "c_rating": "150C",
     "weight_g": 239.0,
     "connector": "XT60",
+    "energy_wh": 34.4,
     "price_usd": 49.99,
-    "price_per_wh_usd": 1.45,
-    "energy_wh": 34.4
+    "price_per_wh_usd": 1.45
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1370,9 +1370,9 @@
     "c_rating": "150C",
     "weight_g": 253.0,
     "connector": "XT60",
+    "energy_wh": 37.7,
     "price_usd": 52.99,
-    "price_per_wh_usd": 1.4,
-    "energy_wh": 37.7
+    "price_per_wh_usd": 1.4
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1391,9 +1391,9 @@
     "c_rating": "150C",
     "weight_g": 223.0,
     "connector": "XT60 (standard)",
+    "energy_wh": 30.6,
     "price_usd": 32.99,
-    "price_per_wh_usd": 1.08,
-    "energy_wh": 30.6
+    "price_per_wh_usd": 1.08
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1413,9 +1413,9 @@
     "weight_g": 197.7,
     "connector": "XT30",
     "dimensions_mm": "68x37x37mm",
+    "energy_wh": 43.2,
     "price_usd": 62.49,
-    "price_per_wh_usd": 1.45,
-    "energy_wh": 43.2
+    "price_per_wh_usd": 1.45
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1434,9 +1434,9 @@
     "c_rating": "80C",
     "weight_g": 13.2,
     "connector": "GNB27",
+    "energy_wh": 1.7,
     "price_usd": 26.99,
-    "price_per_wh_usd": 15.78,
-    "energy_wh": 1.7
+    "price_per_wh_usd": 15.78
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1455,9 +1455,9 @@
     "c_rating": "80C",
     "weight_g": 13.2,
     "connector": "A30",
+    "energy_wh": 1.7,
     "price_usd": 32.49,
-    "price_per_wh_usd": 19.0,
-    "energy_wh": 1.7
+    "price_per_wh_usd": 19.0
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1476,9 +1476,9 @@
     "c_rating": "80C",
     "weight_g": 14.0,
     "connector": "A30",
+    "energy_wh": 2.8,
     "price_usd": 36.49,
-    "price_per_wh_usd": 12.8,
-    "energy_wh": 2.8
+    "price_per_wh_usd": 12.8
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1498,9 +1498,9 @@
     "weight_g": 122.0,
     "connector": "XT60",
     "dimensions_mm": "25x35x76mm",
+    "energy_wh": 16.7,
     "price_usd": 26.99,
-    "price_per_wh_usd": 1.61,
-    "energy_wh": 16.7
+    "price_per_wh_usd": 1.61
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1520,9 +1520,9 @@
     "weight_g": 130.0,
     "connector": "XT30",
     "dimensions_mm": "49x25x64mm",
+    "energy_wh": 25.1,
     "price_usd": 38.99,
-    "price_per_wh_usd": 1.55,
-    "energy_wh": 25.1
+    "price_per_wh_usd": 1.55
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1541,9 +1541,9 @@
     "c_rating": "120C",
     "weight_g": 255.0,
     "connector": "XT60",
+    "energy_wh": 32.6,
     "price_usd": 47.49,
-    "price_per_wh_usd": 1.46,
-    "energy_wh": 32.6
+    "price_per_wh_usd": 1.46
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1563,9 +1563,9 @@
     "weight_g": 129.0,
     "connector": "XT60",
     "dimensions_mm": "23.5x38x80mm",
+    "energy_wh": 19.8,
     "price_usd": 34.99,
-    "price_per_wh_usd": 1.77,
-    "energy_wh": 19.8
+    "price_per_wh_usd": 1.77
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1585,9 +1585,9 @@
     "weight_g": 189.0,
     "connector": "XT60",
     "dimensions_mm": "34x38x80mm",
+    "energy_wh": 29.6,
     "price_usd": 45.99,
-    "price_per_wh_usd": 1.55,
-    "energy_wh": 29.6
+    "price_per_wh_usd": 1.55
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1606,9 +1606,9 @@
     "c_rating": "100C",
     "weight_g": 211.0,
     "connector": "XT60",
+    "energy_wh": 30.0,
     "price_usd": 37.99,
-    "price_per_wh_usd": 1.27,
-    "energy_wh": 30.0
+    "price_per_wh_usd": 1.27
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1627,9 +1627,9 @@
     "c_rating": "160C",
     "weight_g": 269.0,
     "connector": "XT60",
+    "energy_wh": 31.1,
     "price_usd": 44.99,
-    "price_per_wh_usd": 1.45,
-    "energy_wh": 31.1
+    "price_per_wh_usd": 1.45
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1649,9 +1649,9 @@
     "weight_g": 146.0,
     "connector": "XT60",
     "dimensions_mm": "26x38x79mm",
+    "energy_wh": 22.8,
     "price_usd": 33.49,
-    "price_per_wh_usd": 1.47,
-    "energy_wh": 22.8
+    "price_per_wh_usd": 1.47
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1671,9 +1671,9 @@
     "weight_g": 218.0,
     "connector": "XT60",
     "dimensions_mm": "38x38x79mm",
+    "energy_wh": 34.2,
     "price_usd": 48.99,
-    "price_per_wh_usd": 1.43,
-    "energy_wh": 34.2
+    "price_per_wh_usd": 1.43
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1693,9 +1693,9 @@
     "weight_g": 177.0,
     "connector": "XT60",
     "dimensions_mm": "31x38x80mm",
+    "energy_wh": 22.6,
     "price_usd": 33.99,
-    "price_per_wh_usd": 1.5,
-    "energy_wh": 22.6
+    "price_per_wh_usd": 1.5
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1715,9 +1715,9 @@
     "weight_g": 253.0,
     "connector": "XT60",
     "dimensions_mm": "45x38x80mm",
+    "energy_wh": 34.0,
     "price_usd": 44.99,
-    "price_per_wh_usd": 1.32,
-    "energy_wh": 34.0
+    "price_per_wh_usd": 1.32
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1737,9 +1737,9 @@
     "weight_g": 330.0,
     "connector": "XT60",
     "dimensions_mm": "59x38x80mm",
+    "energy_wh": 46.5,
     "price_usd": 59.49,
-    "price_per_wh_usd": 1.28,
-    "energy_wh": 46.5
+    "price_per_wh_usd": 1.28
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1759,9 +1759,9 @@
     "weight_g": 182.0,
     "connector": "XT60",
     "dimensions_mm": "36x35x76mm",
+    "energy_wh": 23.6,
     "price_usd": 25.79,
-    "price_per_wh_usd": 1.09,
-    "energy_wh": 23.6
+    "price_per_wh_usd": 1.09
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1781,9 +1781,9 @@
     "weight_g": 259.0,
     "connector": "XT60",
     "dimensions_mm": "53x35x76mm",
+    "energy_wh": 35.3,
     "price_usd": 51.49,
-    "price_per_wh_usd": 1.46,
-    "energy_wh": 35.3
+    "price_per_wh_usd": 1.46
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1803,9 +1803,9 @@
     "weight_g": 180.0,
     "connector": "XT60",
     "dimensions_mm": "32x39x80mm",
+    "energy_wh": 28.1,
     "price_usd": 38.49,
-    "price_per_wh_usd": 1.37,
-    "energy_wh": 28.1
+    "price_per_wh_usd": 1.37
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1825,9 +1825,9 @@
     "weight_g": 257.0,
     "connector": "XT60",
     "dimensions_mm": "47x39x81mm",
+    "energy_wh": 42.2,
     "price_usd": 56.99,
-    "price_per_wh_usd": 1.35,
-    "energy_wh": 42.2
+    "price_per_wh_usd": 1.35
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1847,9 +1847,9 @@
     "weight_g": 19.0,
     "connector": "XT30",
     "dimensions_mm": "12x17x52mm",
+    "energy_wh": 2.3,
     "price_usd": 7.99,
-    "price_per_wh_usd": 3.5,
-    "energy_wh": 2.3
+    "price_per_wh_usd": 3.5
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1869,9 +1869,9 @@
     "weight_g": 28.0,
     "connector": "XT30",
     "dimensions_mm": "18x17x53mm",
+    "energy_wh": 3.4,
     "price_usd": 9.99,
-    "price_per_wh_usd": 2.92,
-    "energy_wh": 3.4
+    "price_per_wh_usd": 2.92
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1891,9 +1891,9 @@
     "weight_g": 36.0,
     "connector": "XT30",
     "dimensions_mm": "24x17x53mm",
+    "energy_wh": 4.6,
     "price_usd": 13.49,
-    "price_per_wh_usd": 2.96,
-    "energy_wh": 4.6
+    "price_per_wh_usd": 2.96
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1913,9 +1913,9 @@
     "weight_g": 10.0,
     "connector": "A30",
     "dimensions_mm": "6.7x17x49mm",
+    "energy_wh": 1.4,
     "price_usd": 6.49,
-    "price_per_wh_usd": 4.49,
-    "energy_wh": 1.4
+    "price_per_wh_usd": 4.49
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1935,9 +1935,9 @@
     "weight_g": 22.0,
     "connector": "XT30",
     "dimensions_mm": "13x17x52mm",
+    "energy_wh": 2.9,
     "price_usd": 9.49,
-    "price_per_wh_usd": 3.29,
-    "energy_wh": 2.9
+    "price_per_wh_usd": 3.29
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1957,9 +1957,9 @@
     "weight_g": 32.0,
     "connector": "XT30",
     "dimensions_mm": "20x17x55mm",
+    "energy_wh": 4.3,
     "price_usd": 12.49,
-    "price_per_wh_usd": 2.88,
-    "energy_wh": 4.3
+    "price_per_wh_usd": 2.88
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -1979,9 +1979,9 @@
     "weight_g": 43.0,
     "connector": "XT30",
     "dimensions_mm": "27x17x54mm",
+    "energy_wh": 5.8,
     "price_usd": 16.49,
-    "price_per_wh_usd": 2.85,
-    "energy_wh": 5.8
+    "price_per_wh_usd": 2.85
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2001,9 +2001,9 @@
     "weight_g": 12.0,
     "connector": "PH2.0",
     "dimensions_mm": "6.5x17x60mm",
+    "energy_wh": 1.7,
     "price_usd": 4.49,
-    "price_per_wh_usd": 2.63,
-    "energy_wh": 1.7
+    "price_per_wh_usd": 2.63
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2023,9 +2023,9 @@
     "weight_g": 27.0,
     "connector": "XT30",
     "dimensions_mm": "13x17x64mm",
+    "energy_wh": 3.4,
     "price_usd": 10.99,
-    "price_per_wh_usd": 3.21,
-    "energy_wh": 3.4
+    "price_per_wh_usd": 3.21
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2045,9 +2045,9 @@
     "weight_g": 40.0,
     "connector": "XT30",
     "dimensions_mm": "19x17.5x64mm",
+    "energy_wh": 5.1,
     "price_usd": 13.49,
-    "price_per_wh_usd": 2.63,
-    "energy_wh": 5.1
+    "price_per_wh_usd": 2.63
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2067,9 +2067,9 @@
     "weight_g": 51.0,
     "connector": "XT30",
     "dimensions_mm": "25x17x65mm",
+    "energy_wh": 6.7,
     "price_usd": 16.49,
-    "price_per_wh_usd": 2.48,
-    "energy_wh": 6.7
+    "price_per_wh_usd": 2.48
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2089,9 +2089,9 @@
     "weight_g": 77.0,
     "connector": "XT30",
     "dimensions_mm": "39x17x66mm",
+    "energy_wh": 10.0,
     "price_usd": 24.99,
-    "price_per_wh_usd": 2.5,
-    "energy_wh": 10.0
+    "price_per_wh_usd": 2.5
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2111,9 +2111,9 @@
     "weight_g": 12.0,
     "connector": "A30",
     "dimensions_mm": "6.5x17.5x59mm",
+    "energy_wh": 2.0,
     "price_usd": 6.99,
-    "price_per_wh_usd": 3.47,
-    "energy_wh": 2.0
+    "price_per_wh_usd": 3.47
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2133,9 +2133,9 @@
     "weight_g": 26.0,
     "connector": "XT30",
     "dimensions_mm": "13x17x64mm",
+    "energy_wh": 4.0,
     "price_usd": 10.99,
-    "price_per_wh_usd": 2.73,
-    "energy_wh": 4.0
+    "price_per_wh_usd": 2.73
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2155,9 +2155,9 @@
     "weight_g": 13.5,
     "connector": "A30",
     "dimensions_mm": "6x18x65mm",
+    "energy_wh": 2.1,
     "price_usd": 7.49,
-    "price_per_wh_usd": 3.58,
-    "energy_wh": 2.1
+    "price_per_wh_usd": 3.58
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2177,9 +2177,9 @@
     "weight_g": 43.0,
     "connector": "XT30",
     "dimensions_mm": "18x18x70mm",
+    "energy_wh": 6.3,
     "price_usd": 14.99,
-    "price_per_wh_usd": 2.39,
-    "energy_wh": 6.3
+    "price_per_wh_usd": 2.39
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2199,9 +2199,9 @@
     "weight_g": 56.0,
     "connector": "XT30",
     "dimensions_mm": "24x18x71mm",
+    "energy_wh": 8.4,
     "price_usd": 19.49,
-    "price_per_wh_usd": 2.33,
-    "energy_wh": 8.4
+    "price_per_wh_usd": 2.33
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2221,9 +2221,9 @@
     "weight_g": 178.0,
     "connector": "XT60",
     "dimensions_mm": "20x53x81mm",
+    "energy_wh": 37.0,
     "price_usd": 26.99,
-    "price_per_wh_usd": 0.73,
-    "energy_wh": 37.0
+    "price_per_wh_usd": 0.73
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2243,9 +2243,9 @@
     "weight_g": 36.0,
     "connector": "XT30",
     "dimensions_mm": "11x30x61mm",
+    "energy_wh": 4.9,
     "price_usd": 12.49,
-    "price_per_wh_usd": 2.53,
-    "energy_wh": 4.9
+    "price_per_wh_usd": 2.53
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2265,9 +2265,9 @@
     "weight_g": 53.0,
     "connector": "XT30",
     "dimensions_mm": "16x30x63mm",
+    "energy_wh": 7.4,
     "price_usd": 16.49,
-    "price_per_wh_usd": 2.23,
-    "energy_wh": 7.4
+    "price_per_wh_usd": 2.23
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2287,9 +2287,9 @@
     "weight_g": 70.0,
     "connector": "XT30",
     "dimensions_mm": "21x30x63mm",
+    "energy_wh": 9.9,
     "price_usd": 20.99,
-    "price_per_wh_usd": 2.12,
-    "energy_wh": 9.9
+    "price_per_wh_usd": 2.12
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2309,9 +2309,9 @@
     "weight_g": 15.5,
     "connector": "A30",
     "dimensions_mm": "8x17.5x60mm",
+    "energy_wh": 2.5,
     "price_usd": 7.49,
-    "price_per_wh_usd": 2.99,
-    "energy_wh": 2.5
+    "price_per_wh_usd": 2.99
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2330,9 +2330,9 @@
     "c_rating": "90C",
     "weight_g": 34.0,
     "connector": "XT60",
+    "energy_wh": 5.0,
     "price_usd": 12.49,
-    "price_per_wh_usd": 2.49,
-    "energy_wh": 5.0
+    "price_per_wh_usd": 2.49
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2352,9 +2352,9 @@
     "weight_g": 49.0,
     "connector": "XT30",
     "dimensions_mm": "23.5x18x65mm",
+    "energy_wh": 7.5,
     "price_usd": 17.99,
-    "price_per_wh_usd": 2.39,
-    "energy_wh": 7.5
+    "price_per_wh_usd": 2.39
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2374,9 +2374,9 @@
     "weight_g": 63.0,
     "connector": "XT30",
     "dimensions_mm": "31x18x65mm",
+    "energy_wh": 10.0,
     "price_usd": 20.49,
-    "price_per_wh_usd": 2.04,
-    "energy_wh": 10.0
+    "price_per_wh_usd": 2.04
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2396,9 +2396,9 @@
     "weight_g": 94.0,
     "connector": "XT30",
     "dimensions_mm": "47x18x65mm",
+    "energy_wh": 15.0,
     "price_usd": 31.49,
-    "price_per_wh_usd": 2.09,
-    "energy_wh": 15.0
+    "price_per_wh_usd": 2.09
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2418,9 +2418,9 @@
     "weight_g": 16.0,
     "connector": "A30",
     "dimensions_mm": "7.5x18x65mm",
+    "energy_wh": 2.7,
     "price_usd": 8.99,
-    "price_per_wh_usd": 3.29,
-    "energy_wh": 2.7
+    "price_per_wh_usd": 3.29
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2440,9 +2440,9 @@
     "weight_g": 36.0,
     "connector": "XT30",
     "dimensions_mm": "14.5x18x70mm",
+    "energy_wh": 5.5,
     "price_usd": 11.49,
-    "price_per_wh_usd": 2.1,
-    "energy_wh": 5.5
+    "price_per_wh_usd": 2.1
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2462,9 +2462,9 @@
     "weight_g": 54.0,
     "connector": "XT30",
     "dimensions_mm": "22x18x71mm",
+    "energy_wh": 8.2,
     "price_usd": 16.99,
-    "price_per_wh_usd": 2.07,
-    "energy_wh": 8.2
+    "price_per_wh_usd": 2.07
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2483,9 +2483,9 @@
     "c_rating": "100C",
     "weight_g": 72.0,
     "connector": "XT30",
+    "energy_wh": 10.9,
     "price_usd": 20.99,
-    "price_per_wh_usd": 1.92,
-    "energy_wh": 10.9
+    "price_per_wh_usd": 1.92
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2505,9 +2505,9 @@
     "weight_g": 106.0,
     "connector": "XT30",
     "dimensions_mm": "44x8x72mm",
+    "energy_wh": 16.4,
     "price_usd": 32.49,
-    "price_per_wh_usd": 1.98,
-    "energy_wh": 16.4
+    "price_per_wh_usd": 1.98
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2527,9 +2527,9 @@
     "weight_g": 38.0,
     "connector": "XT30",
     "dimensions_mm": "18x18x70mm",
+    "energy_wh": 6.5,
     "price_usd": 12.49,
-    "price_per_wh_usd": 1.93,
-    "energy_wh": 6.5
+    "price_per_wh_usd": 1.93
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2549,9 +2549,9 @@
     "weight_g": 68.0,
     "connector": "XT30",
     "dimensions_mm": "20x30x63mm",
+    "energy_wh": 9.7,
     "price_usd": 18.99,
-    "price_per_wh_usd": 1.96,
-    "energy_wh": 9.7
+    "price_per_wh_usd": 1.96
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2571,9 +2571,9 @@
     "weight_g": 88.0,
     "connector": "XT30",
     "dimensions_mm": "26.5x30x63mm",
+    "energy_wh": 12.9,
     "price_usd": 21.99,
-    "price_per_wh_usd": 1.7,
-    "energy_wh": 12.9
+    "price_per_wh_usd": 1.7
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2593,9 +2593,9 @@
     "weight_g": 130.0,
     "connector": "XT30",
     "dimensions_mm": "40x30x64mm",
+    "energy_wh": 19.4,
     "price_usd": 34.49,
-    "price_per_wh_usd": 1.78,
-    "energy_wh": 19.4
+    "price_per_wh_usd": 1.78
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2615,9 +2615,9 @@
     "weight_g": 100.0,
     "connector": "XT30",
     "dimensions_mm": "30x30x65mm",
+    "energy_wh": 13.8,
     "price_usd": 23.99,
-    "price_per_wh_usd": 1.74,
-    "energy_wh": 13.8
+    "price_per_wh_usd": 1.74
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2637,9 +2637,9 @@
     "weight_g": 148.0,
     "connector": "XT30",
     "dimensions_mm": "45x30x65mm",
+    "energy_wh": 20.6,
     "price_usd": 39.99,
-    "price_per_wh_usd": 1.94,
-    "energy_wh": 20.6
+    "price_per_wh_usd": 1.94
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2659,9 +2659,9 @@
     "weight_g": 44.0,
     "connector": "XT30",
     "dimensions_mm": "14x28x62mm",
+    "energy_wh": 4.8,
     "price_usd": 11.49,
-    "price_per_wh_usd": 2.39,
-    "energy_wh": 4.8
+    "price_per_wh_usd": 2.39
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2681,9 +2681,9 @@
     "weight_g": 79.0,
     "connector": "XT30",
     "dimensions_mm": "26x28x64mm",
+    "energy_wh": 9.6,
     "price_usd": 20.49,
-    "price_per_wh_usd": 2.13,
-    "energy_wh": 9.6
+    "price_per_wh_usd": 2.13
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2703,9 +2703,9 @@
     "weight_g": 118.0,
     "connector": "XT30",
     "dimensions_mm": "39x28x65mm",
+    "energy_wh": 14.4,
     "price_usd": 30.49,
-    "price_per_wh_usd": 2.11,
-    "energy_wh": 14.4
+    "price_per_wh_usd": 2.11
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2725,9 +2725,9 @@
     "weight_g": 80.0,
     "connector": "XT30",
     "dimensions_mm": "24x30x63mm",
+    "energy_wh": 9.4,
     "price_usd": 16.99,
-    "price_per_wh_usd": 1.8,
-    "energy_wh": 9.4
+    "price_per_wh_usd": 1.8
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2747,9 +2747,9 @@
     "weight_g": 102.0,
     "connector": "XT30",
     "dimensions_mm": "31x30x64mm",
+    "energy_wh": 12.6,
     "price_usd": 21.99,
-    "price_per_wh_usd": 1.75,
-    "energy_wh": 12.6
+    "price_per_wh_usd": 1.75
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2769,9 +2769,9 @@
     "weight_g": 150.0,
     "connector": "XT30",
     "dimensions_mm": "45x30x65mm",
+    "energy_wh": 18.9,
     "price_usd": 32.49,
-    "price_per_wh_usd": 1.72,
-    "energy_wh": 18.9
+    "price_per_wh_usd": 1.72
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2790,9 +2790,9 @@
     "c_rating": "80C",
     "weight_g": 13.3,
     "connector": "PH2.0",
+    "energy_wh": 1.7,
     "price_usd": 5.99,
-    "price_per_wh_usd": 3.5,
-    "energy_wh": 1.7
+    "price_per_wh_usd": 3.5
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2812,9 +2812,9 @@
     "weight_g": 28.0,
     "connector": "XT30",
     "dimensions_mm": "14x17x61mm",
+    "energy_wh": 3.3,
     "price_usd": 9.99,
-    "price_per_wh_usd": 3.0,
-    "energy_wh": 3.3
+    "price_per_wh_usd": 3.0
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2834,9 +2834,9 @@
     "weight_g": 13.5,
     "connector": "PH2.0",
     "dimensions_mm": "6x18x65mm",
+    "energy_wh": 2.1,
     "price_usd": 5.49,
-    "price_per_wh_usd": 2.63,
-    "energy_wh": 2.1
+    "price_per_wh_usd": 2.63
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2856,9 +2856,9 @@
     "weight_g": 29.0,
     "connector": "XT30",
     "dimensions_mm": "12x18x69mm",
+    "energy_wh": 4.2,
     "price_usd": 10.49,
-    "price_per_wh_usd": 2.51,
-    "energy_wh": 4.2
+    "price_per_wh_usd": 2.51
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2878,9 +2878,9 @@
     "weight_g": 15.0,
     "connector": "PH2.0",
     "dimensions_mm": "7.8\nx18x5.8mm",
+    "energy_wh": 2.5,
     "price_usd": 6.99,
-    "price_per_wh_usd": 2.79,
-    "energy_wh": 2.5
+    "price_per_wh_usd": 2.79
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2900,9 +2900,9 @@
     "weight_g": 10.0,
     "connector": "A30",
     "dimensions_mm": "6.7x17x50mm",
+    "energy_wh": 1.4,
     "price_usd": 5.99,
-    "price_per_wh_usd": 4.15,
-    "energy_wh": 1.4
+    "price_per_wh_usd": 4.15
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2922,9 +2922,9 @@
     "weight_g": 12.0,
     "connector": "PH2.0",
     "dimensions_mm": "6x17x59mm",
+    "energy_wh": 1.7,
     "price_usd": 4.99,
-    "price_per_wh_usd": 3.0,
-    "energy_wh": 1.7
+    "price_per_wh_usd": 3.0
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2944,9 +2944,9 @@
     "weight_g": 12.0,
     "connector": "PH2.0",
     "dimensions_mm": "6x17x60mm",
+    "energy_wh": 2.0,
     "price_usd": 6.49,
-    "price_per_wh_usd": 3.22,
-    "energy_wh": 2.0
+    "price_per_wh_usd": 3.22
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2967,9 +2967,9 @@
     "weight_g": 13.5,
     "connector": "A30",
     "dimensions_mm": "6x18x65mm",
+    "energy_wh": 2.1,
     "price_usd": 7.49,
-    "price_per_wh_usd": 3.58,
-    "energy_wh": 2.1
+    "price_per_wh_usd": 3.58
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -2989,9 +2989,9 @@
     "weight_g": 15.0,
     "connector": "A30",
     "dimensions_mm": "8x17.5x\n66\nmm",
+    "energy_wh": 2.5,
     "price_usd": 7.49,
-    "price_per_wh_usd": 2.99,
-    "energy_wh": 2.5
+    "price_per_wh_usd": 2.99
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3011,9 +3011,9 @@
     "weight_g": 18.5,
     "connector": "A30",
     "dimensions_mm": "7.5x18x66mm",
+    "energy_wh": 2.7,
     "price_usd": 7.99,
-    "price_per_wh_usd": 2.92,
-    "energy_wh": 2.7
+    "price_per_wh_usd": 2.92
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3033,9 +3033,9 @@
     "weight_g": 194.0,
     "connector": "XT60",
     "dimensions_mm": "78x38x24mm",
+    "energy_wh": 22.8,
     "price_usd": 84.99,
-    "price_per_wh_usd": 3.73,
-    "energy_wh": 22.8
+    "price_per_wh_usd": 3.73
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3055,9 +3055,9 @@
     "weight_g": 164.0,
     "connector": "XT60",
     "dimensions_mm": "34x35x78mm",
+    "energy_wh": 19.8,
     "price_usd": 76.49,
-    "price_per_wh_usd": 3.87,
-    "energy_wh": 19.8
+    "price_per_wh_usd": 3.87
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3077,9 +3077,9 @@
     "weight_g": 243.0,
     "connector": "XT60",
     "dimensions_mm": "43x35x89mm",
+    "energy_wh": 28.9,
     "price_usd": 109.19,
-    "price_per_wh_usd": 3.78,
-    "energy_wh": 28.9
+    "price_per_wh_usd": 3.78
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3099,9 +3099,9 @@
     "weight_g": 187.0,
     "connector": "XT60",
     "dimensions_mm": "33.2x38.8x77.5mm",
+    "energy_wh": 22.8,
     "price_usd": 48.99,
-    "price_per_wh_usd": 2.15,
-    "energy_wh": 22.8
+    "price_per_wh_usd": 2.15
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3121,9 +3121,9 @@
     "weight_g": 318.0,
     "connector": "XT60",
     "dimensions_mm": "42.5 x 34.5 x 107.5mm",
+    "energy_wh": 40.7,
     "price_usd": 142.29,
-    "price_per_wh_usd": 3.5,
-    "energy_wh": 40.7
+    "price_per_wh_usd": 3.5
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3143,9 +3143,9 @@
     "weight_g": 10.0,
     "connector": "PH2.0",
     "dimensions_mm": "62x17x6.9mm",
+    "energy_wh": 1.7,
     "price_usd": 22.89,
-    "price_per_wh_usd": 13.39,
-    "energy_wh": 1.7
+    "price_per_wh_usd": 13.39
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3164,9 +3164,9 @@
     "c_rating": "90C",
     "weight_g": 13.6,
     "connector": "A30",
+    "energy_wh": 2.0,
     "price_usd": 5.99,
-    "price_per_wh_usd": 2.94,
-    "energy_wh": 2.0
+    "price_per_wh_usd": 2.94
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3186,9 +3186,9 @@
     "weight_g": 30.0,
     "connector": "XT30",
     "dimensions_mm": "26x28x59mm",
+    "energy_wh": 9.6,
     "price_usd": 48.79,
-    "price_per_wh_usd": 5.07,
-    "energy_wh": 9.6
+    "price_per_wh_usd": 5.07
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3208,9 +3208,9 @@
     "weight_g": 103.0,
     "connector": "XT30",
     "dimensions_mm": "74x44x18.5mm",
+    "energy_wh": 16.4,
     "price_usd": 43.56,
-    "price_per_wh_usd": 2.65,
-    "energy_wh": 16.4
+    "price_per_wh_usd": 2.65
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3230,9 +3230,9 @@
     "weight_g": 60.0,
     "connector": "XT60",
     "dimensions_mm": "25x31x59mm",
+    "energy_wh": 12.6,
     "price_usd": 63.29,
-    "price_per_wh_usd": 5.03,
-    "energy_wh": 12.6
+    "price_per_wh_usd": 5.03
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3251,9 +3251,9 @@
     "c_rating": "100C",
     "weight_g": 13.6,
     "connector": "A30",
+    "energy_wh": 2.1,
     "price_usd": 5.99,
-    "price_per_wh_usd": 2.87,
-    "energy_wh": 2.1
+    "price_per_wh_usd": 2.87
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3273,9 +3273,9 @@
     "weight_g": 16.0,
     "connector": "PH2.0",
     "dimensions_mm": "60x18x8mm",
+    "energy_wh": 2.5,
     "price_usd": 6.99,
-    "price_per_wh_usd": 2.83,
-    "energy_wh": 2.5
+    "price_per_wh_usd": 2.83
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3295,9 +3295,9 @@
     "weight_g": 70.0,
     "connector": "XT30",
     "dimensions_mm": "105x35x31.5mm",
+    "energy_wh": 8.1,
     "price_usd": 26.99,
-    "price_per_wh_usd": 3.32,
-    "energy_wh": 8.1
+    "price_per_wh_usd": 3.32
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3316,9 +3316,9 @@
     "c_rating": "25C",
     "weight_g": 845.0,
     "connector": "XT60",
+    "energy_wh": 148.0,
     "price_usd": 188.99,
-    "price_per_wh_usd": 1.28,
-    "energy_wh": 148.0
+    "price_per_wh_usd": 1.28
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3337,9 +3337,9 @@
     "c_rating": "25C",
     "weight_g": 1245.0,
     "connector": "XT90",
+    "energy_wh": 222.0,
     "price_usd": 251.49,
-    "price_per_wh_usd": 1.13,
-    "energy_wh": 222.0
+    "price_per_wh_usd": 1.13
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3358,9 +3358,9 @@
     "c_rating": "60C",
     "weight_g": 100.0,
     "connector": "XT60",
+    "energy_wh": 11.1,
     "price_usd": 28.49,
-    "price_per_wh_usd": 2.57,
-    "energy_wh": 11.1
+    "price_per_wh_usd": 2.57
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3379,9 +3379,9 @@
     "c_rating": "75C",
     "weight_g": 64.0,
     "connector": "XT30",
+    "energy_wh": 7.8,
     "price_usd": 25.99,
-    "price_per_wh_usd": 3.34,
-    "energy_wh": 7.8
+    "price_per_wh_usd": 3.34
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3400,9 +3400,9 @@
     "c_rating": "20C",
     "weight_g": 940.0,
     "connector": "XT60",
+    "energy_wh": 177.6,
     "price_usd": 217.49,
-    "price_per_wh_usd": 1.22,
-    "energy_wh": 177.6
+    "price_per_wh_usd": 1.22
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3421,9 +3421,9 @@
     "c_rating": "20C",
     "weight_g": 940.0,
     "connector": "XT90",
+    "energy_wh": 288.6,
     "price_usd": 295.99,
-    "price_per_wh_usd": 1.03,
-    "energy_wh": 288.6
+    "price_per_wh_usd": 1.03
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3442,9 +3442,9 @@
     "c_rating": "60C",
     "weight_g": 118.0,
     "connector": "XT60",
+    "energy_wh": 14.4,
     "price_usd": 26.99,
-    "price_per_wh_usd": 1.87,
-    "energy_wh": 14.4
+    "price_per_wh_usd": 1.87
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3463,9 +3463,9 @@
     "c_rating": "35C",
     "weight_g": 135.0,
     "connector": "XT60",
+    "energy_wh": 19.2,
     "price_usd": 28.49,
-    "price_per_wh_usd": 1.48,
-    "energy_wh": 19.2
+    "price_per_wh_usd": 1.48
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3484,9 +3484,9 @@
     "c_rating": "95C",
     "weight_g": 241.0,
     "connector": "XT60",
+    "energy_wh": 28.9,
     "price_usd": 58.49,
-    "price_per_wh_usd": 2.03,
-    "energy_wh": 28.9
+    "price_per_wh_usd": 2.03
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3505,9 +3505,9 @@
     "c_rating": "45C",
     "weight_g": 125.0,
     "connector": "XT60",
+    "energy_wh": 16.7,
     "price_usd": 33.99,
-    "price_per_wh_usd": 2.04,
-    "energy_wh": 16.7
+    "price_per_wh_usd": 2.04
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3526,9 +3526,9 @@
     "c_rating": "95C",
     "weight_g": 192.0,
     "connector": "XT60",
+    "energy_wh": 22.2,
     "price_usd": 40.49,
-    "price_per_wh_usd": 1.82,
-    "energy_wh": 22.2
+    "price_per_wh_usd": 1.82
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3547,9 +3547,9 @@
     "c_rating": "35C",
     "weight_g": 229.0,
     "connector": "XT60",
+    "energy_wh": 33.3,
     "price_usd": 53.99,
-    "price_per_wh_usd": 1.62,
-    "energy_wh": 33.3
+    "price_per_wh_usd": 1.62
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3568,9 +3568,9 @@
     "c_rating": "20C",
     "weight_g": 1190.0,
     "connector": "XT90",
+    "energy_wh": 236.8,
     "price_usd": 264.99,
-    "price_per_wh_usd": 1.12,
-    "energy_wh": 236.8
+    "price_per_wh_usd": 1.12
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3589,9 +3589,9 @@
     "c_rating": "35C",
     "weight_g": 140.0,
     "connector": "XT60",
+    "energy_wh": 20.0,
     "price_usd": 31.49,
-    "price_per_wh_usd": 1.58,
-    "energy_wh": 20.0
+    "price_per_wh_usd": 1.58
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3610,9 +3610,9 @@
     "c_rating": "75C",
     "weight_g": 228.0,
     "connector": "XT60",
+    "energy_wh": 26.6,
     "price_usd": 39.49,
-    "price_per_wh_usd": 1.48,
-    "energy_wh": 26.6
+    "price_per_wh_usd": 1.48
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3631,9 +3631,9 @@
     "c_rating": "35C",
     "weight_g": 170.0,
     "connector": "XT60",
+    "energy_wh": 25.0,
     "price_usd": 33.99,
-    "price_per_wh_usd": 1.36,
-    "energy_wh": 25.0
+    "price_per_wh_usd": 1.36
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3652,9 +3652,9 @@
     "c_rating": "35C",
     "weight_g": 219.0,
     "connector": "XT60",
+    "energy_wh": 33.3,
     "price_usd": 47.49,
-    "price_per_wh_usd": 1.43,
-    "energy_wh": 33.3
+    "price_per_wh_usd": 1.43
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3673,9 +3673,9 @@
     "c_rating": "35C",
     "weight_g": 252.0,
     "connector": "XT60",
+    "energy_wh": 36.6,
     "price_usd": 55.49,
-    "price_per_wh_usd": 1.51,
-    "energy_wh": 36.6
+    "price_per_wh_usd": 1.51
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3694,9 +3694,9 @@
     "c_rating": "35C",
     "weight_g": 330.0,
     "connector": "XT60",
+    "energy_wh": 48.8,
     "price_usd": 74.49,
-    "price_per_wh_usd": 1.53,
-    "energy_wh": 48.8
+    "price_per_wh_usd": 1.53
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3715,9 +3715,9 @@
     "c_rating": "35C",
     "weight_g": 392.0,
     "connector": "XT60",
+    "energy_wh": 62.2,
     "price_usd": 85.49,
-    "price_per_wh_usd": 1.38,
-    "energy_wh": 62.2
+    "price_per_wh_usd": 1.38
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3736,9 +3736,9 @@
     "c_rating": "50C",
     "weight_g": 30.0,
     "connector": "JST",
+    "energy_wh": 3.7,
     "price_usd": 16.49,
-    "price_per_wh_usd": 4.46,
-    "energy_wh": 3.7
+    "price_per_wh_usd": 4.46
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3757,9 +3757,9 @@
     "c_rating": "35C",
     "weight_g": 392.0,
     "connector": "XT60",
+    "energy_wh": 57.7,
     "price_usd": 78.49,
-    "price_per_wh_usd": 1.36,
-    "energy_wh": 57.7
+    "price_per_wh_usd": 1.36
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3778,9 +3778,9 @@
     "c_rating": "35C",
     "weight_g": 473.0,
     "connector": "XT60",
+    "energy_wh": 77.0,
     "price_usd": 93.49,
-    "price_per_wh_usd": 1.21,
-    "energy_wh": 77.0
+    "price_per_wh_usd": 1.21
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3799,9 +3799,9 @@
     "c_rating": "35C",
     "weight_g": 540.0,
     "connector": "XT60",
+    "energy_wh": 88.8,
     "price_usd": 175.49,
-    "price_per_wh_usd": 1.98,
-    "energy_wh": 88.8
+    "price_per_wh_usd": 1.98
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3820,9 +3820,9 @@
     "c_rating": "25C",
     "weight_g": 735.0,
     "connector": "XT60",
+    "energy_wh": 118.4,
     "price_usd": 155.49,
-    "price_per_wh_usd": 1.31,
-    "energy_wh": 118.4
+    "price_per_wh_usd": 1.31
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3841,9 +3841,9 @@
     "c_rating": "120C",
     "weight_g": 485.0,
     "connector": "XT60",
+    "energy_wh": 64.4,
     "price_usd": 140.49,
-    "price_per_wh_usd": 2.18,
-    "energy_wh": 64.4
+    "price_per_wh_usd": 2.18
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3862,9 +3862,9 @@
     "c_rating": "120C",
     "weight_g": 580.0,
     "connector": "XT60",
+    "energy_wh": 77.7,
     "price_usd": 155.49,
-    "price_per_wh_usd": 2.0,
-    "energy_wh": 77.7
+    "price_per_wh_usd": 2.0
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3883,9 +3883,9 @@
     "c_rating": "120C",
     "weight_g": 655.0,
     "connector": "XT90",
+    "energy_wh": 88.8,
     "price_usd": 179.99,
-    "price_per_wh_usd": 2.03,
-    "energy_wh": 88.8
+    "price_per_wh_usd": 2.03
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3904,9 +3904,9 @@
     "c_rating": "120C",
     "weight_g": 745.0,
     "connector": "XT90",
+    "energy_wh": 99.9,
     "price_usd": 202.49,
-    "price_per_wh_usd": 2.03,
-    "energy_wh": 99.9
+    "price_per_wh_usd": 2.03
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3925,9 +3925,9 @@
     "c_rating": "120C",
     "weight_g": 810.0,
     "connector": "XT90",
+    "energy_wh": 115.4,
     "price_usd": 217.49,
-    "price_per_wh_usd": 1.88,
-    "energy_wh": 115.4
+    "price_per_wh_usd": 1.88
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3946,9 +3946,9 @@
     "c_rating": "120C",
     "weight_g": 705.0,
     "connector": "AS150",
+    "energy_wh": 99.9,
     "price_usd": 202.49,
-    "price_per_wh_usd": 2.03,
-    "energy_wh": 99.9
+    "price_per_wh_usd": 2.03
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3967,9 +3967,9 @@
     "c_rating": "120C",
     "weight_g": 555.0,
     "connector": "AS150",
+    "energy_wh": 77.0,
     "price_usd": 121.49,
-    "price_per_wh_usd": 1.58,
-    "energy_wh": 77.0
+    "price_per_wh_usd": 1.58
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -3988,9 +3988,9 @@
     "c_rating": "120C",
     "weight_g": 800.0,
     "connector": "AS150",
+    "energy_wh": 115.4,
     "price_usd": 217.49,
-    "price_per_wh_usd": 1.88,
-    "energy_wh": 115.4
+    "price_per_wh_usd": 1.88
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4009,9 +4009,9 @@
     "c_rating": "75C",
     "weight_g": 80.0,
     "connector": "XT30",
+    "energy_wh": 10.4,
     "price_usd": 29.99,
-    "price_per_wh_usd": 2.89,
-    "energy_wh": 10.4
+    "price_per_wh_usd": 2.89
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4030,9 +4030,9 @@
     "c_rating": "80C",
     "weight_g": 30.49,
     "connector": "XT30",
+    "energy_wh": 3.4,
     "price_usd": 14.99,
-    "price_per_wh_usd": 4.38,
-    "energy_wh": 3.4
+    "price_per_wh_usd": 4.38
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4051,9 +4051,9 @@
     "c_rating": "80C",
     "weight_g": 45.62,
     "connector": "XT30",
+    "energy_wh": 5.1,
     "price_usd": 17.99,
-    "price_per_wh_usd": 3.51,
-    "energy_wh": 5.1
+    "price_per_wh_usd": 3.51
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4072,9 +4072,9 @@
     "c_rating": "90C",
     "weight_g": 30.9,
     "connector": "XT30",
+    "energy_wh": 4.2,
     "price_usd": 16.49,
-    "price_per_wh_usd": 3.94,
-    "energy_wh": 4.2
+    "price_per_wh_usd": 3.94
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4093,9 +4093,9 @@
     "c_rating": "90C",
     "weight_g": 13.87,
     "connector": "JST-2",
+    "energy_wh": 2.1,
     "price_usd": 13.49,
-    "price_per_wh_usd": 6.45,
-    "energy_wh": 2.1
+    "price_per_wh_usd": 6.45
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4114,9 +4114,9 @@
     "c_rating": "80C",
     "weight_g": 59.14,
     "connector": "XT30",
+    "energy_wh": 6.8,
     "price_usd": 20.49,
-    "price_per_wh_usd": 3.0,
-    "energy_wh": 6.8
+    "price_per_wh_usd": 3.0
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4135,9 +4135,9 @@
     "c_rating": "75C",
     "weight_g": 18.0,
     "connector": "JST",
+    "energy_wh": 2.2,
     "price_usd": 14.99,
-    "price_per_wh_usd": 6.75,
-    "energy_wh": 2.2
+    "price_per_wh_usd": 6.75
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4156,9 +4156,9 @@
     "c_rating": "120C",
     "weight_g": 274.0,
     "connector": "XT90",
+    "energy_wh": 33.3,
     "price_usd": 78.49,
-    "price_per_wh_usd": 2.36,
-    "energy_wh": 33.3
+    "price_per_wh_usd": 2.36
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4177,9 +4177,9 @@
     "c_rating": "120C",
     "weight_g": 382.0,
     "connector": "XT90",
+    "energy_wh": 51.8,
     "price_usd": 90.49,
-    "price_per_wh_usd": 1.75,
-    "energy_wh": 51.8
+    "price_per_wh_usd": 1.75
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4198,9 +4198,9 @@
     "c_rating": "150C",
     "weight_g": 196.0,
     "connector": "XT60 (standard)",
+    "energy_wh": 22.9,
     "price_usd": 70.49,
-    "price_per_wh_usd": 3.07,
-    "energy_wh": 22.9
+    "price_per_wh_usd": 3.07
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4219,9 +4219,9 @@
     "c_rating": "150C",
     "weight_g": 245.0,
     "connector": "XT60 (standard)",
+    "energy_wh": 28.7,
     "price_usd": 78.49,
-    "price_per_wh_usd": 2.74,
-    "energy_wh": 28.7
+    "price_per_wh_usd": 2.74
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4240,9 +4240,9 @@
     "c_rating": "150C",
     "weight_g": 275.0,
     "connector": "XT60 (standard)",
+    "energy_wh": 34.4,
     "price_usd": 93.49,
-    "price_per_wh_usd": 2.72,
-    "energy_wh": 34.4
+    "price_per_wh_usd": 2.72
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4261,9 +4261,9 @@
     "c_rating": "150C",
     "weight_g": 235.0,
     "connector": "XT60 (standard)",
+    "energy_wh": 27.4,
     "price_usd": 76.99,
-    "price_per_wh_usd": 2.81,
-    "energy_wh": 27.4
+    "price_per_wh_usd": 2.81
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4282,9 +4282,9 @@
     "c_rating": "150C",
     "weight_g": 350.0,
     "connector": "XT60",
+    "energy_wh": 41.1,
     "price_usd": 105.49,
-    "price_per_wh_usd": 2.57,
-    "energy_wh": 41.1
+    "price_per_wh_usd": 2.57
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4303,9 +4303,9 @@
     "c_rating": "100C",
     "weight_g": 50.0,
     "connector": "XT30",
+    "energy_wh": 5.6,
     "price_usd": 24.49,
-    "price_per_wh_usd": 4.41,
-    "energy_wh": 5.6
+    "price_per_wh_usd": 4.41
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4324,9 +4324,9 @@
     "c_rating": "100C",
     "weight_g": 71.0,
     "connector": "XT30",
+    "energy_wh": 8.3,
     "price_usd": 29.99,
-    "price_per_wh_usd": 3.6,
-    "energy_wh": 8.3
+    "price_per_wh_usd": 3.6
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4345,9 +4345,9 @@
     "c_rating": "100C",
     "weight_g": 95.0,
     "connector": "XT30",
+    "energy_wh": 11.1,
     "price_usd": 35.49,
-    "price_per_wh_usd": 3.2,
-    "energy_wh": 11.1
+    "price_per_wh_usd": 3.2
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4366,9 +4366,9 @@
     "c_rating": "100C",
     "weight_g": 135.0,
     "connector": "XT30",
+    "energy_wh": 16.7,
     "price_usd": 40.49,
-    "price_per_wh_usd": 2.43,
-    "energy_wh": 16.7
+    "price_per_wh_usd": 2.43
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4387,9 +4387,9 @@
     "c_rating": "150C",
     "weight_g": 156.0,
     "connector": "XT60",
+    "energy_wh": 19.2,
     "price_usd": 59.49,
-    "price_per_wh_usd": 3.09,
-    "energy_wh": 19.2
+    "price_per_wh_usd": 3.09
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4408,9 +4408,9 @@
     "c_rating": "150C",
     "weight_g": 225.0,
     "connector": "XT60",
+    "energy_wh": 28.9,
     "price_usd": 76.99,
-    "price_per_wh_usd": 2.67,
-    "energy_wh": 28.9
+    "price_per_wh_usd": 2.67
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4429,9 +4429,9 @@
     "c_rating": "150C",
     "weight_g": 155.0,
     "connector": "XT60",
+    "energy_wh": 20.7,
     "price_usd": 64.99,
-    "price_per_wh_usd": 3.14,
-    "energy_wh": 20.7
+    "price_per_wh_usd": 3.14
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4450,9 +4450,9 @@
     "c_rating": "150C",
     "weight_g": 212.0,
     "connector": "XT60",
+    "energy_wh": 31.1,
     "price_usd": 80.99,
-    "price_per_wh_usd": 2.61,
-    "energy_wh": 31.1
+    "price_per_wh_usd": 2.61
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4471,9 +4471,9 @@
     "c_rating": "150C",
     "weight_g": 278.0,
     "connector": "XT60",
+    "energy_wh": 22.9,
     "price_usd": 67.49,
-    "price_per_wh_usd": 2.94,
-    "energy_wh": 22.9
+    "price_per_wh_usd": 2.94
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4492,9 +4492,9 @@
     "c_rating": "150C",
     "weight_g": 265.0,
     "connector": "XT60",
+    "energy_wh": 34.4,
     "price_usd": 90.49,
-    "price_per_wh_usd": 2.63,
-    "energy_wh": 34.4
+    "price_per_wh_usd": 2.63
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4513,9 +4513,9 @@
     "c_rating": "130C",
     "weight_g": 260.0,
     "connector": "XT60",
+    "energy_wh": 35.5,
     "price_usd": 89.49,
-    "price_per_wh_usd": 2.52,
-    "energy_wh": 35.5
+    "price_per_wh_usd": 2.52
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4534,9 +4534,9 @@
     "c_rating": "120C",
     "weight_g": 159.0,
     "connector": "XT60",
+    "energy_wh": 18.9,
     "price_usd": 60.99,
-    "price_per_wh_usd": 3.23,
-    "energy_wh": 18.9
+    "price_per_wh_usd": 3.23
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4555,9 +4555,9 @@
     "c_rating": "120C",
     "weight_g": 185.0,
     "connector": "XT60",
+    "energy_wh": 22.2,
     "price_usd": 62.49,
-    "price_per_wh_usd": 2.81,
-    "energy_wh": 22.2
+    "price_per_wh_usd": 2.81
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4576,9 +4576,9 @@
     "c_rating": "120C",
     "weight_g": 165.0,
     "connector": "XT60",
+    "energy_wh": 18.9,
     "price_usd": 62.49,
-    "price_per_wh_usd": 3.31,
-    "energy_wh": 18.9
+    "price_per_wh_usd": 3.31
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4597,9 +4597,9 @@
     "c_rating": "10C",
     "weight_g": 635.0,
     "connector": "XT60",
+    "energy_wh": 129.6,
     "price_usd": 188.99,
-    "price_per_wh_usd": 1.46,
-    "energy_wh": 129.6
+    "price_per_wh_usd": 1.46
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4618,9 +4618,9 @@
     "c_rating": "10C",
     "weight_g": 205.0,
     "connector": "XT60",
+    "energy_wh": 44.4,
     "price_usd": 67.49,
-    "price_per_wh_usd": 1.52,
-    "energy_wh": 44.4
+    "price_per_wh_usd": 1.52
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4639,9 +4639,9 @@
     "c_rating": "10C",
     "weight_g": 310.0,
     "connector": "XT60",
+    "energy_wh": 66.6,
     "price_usd": 94.49,
-    "price_per_wh_usd": 1.42,
-    "energy_wh": 66.6
+    "price_per_wh_usd": 1.42
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4660,9 +4660,9 @@
     "c_rating": "95C",
     "weight_g": 240.0,
     "connector": "XT60",
+    "energy_wh": 28.9,
     "price_usd": 59.49,
-    "price_per_wh_usd": 2.06,
-    "energy_wh": 28.9
+    "price_per_wh_usd": 2.06
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4681,9 +4681,9 @@
     "c_rating": "95C",
     "weight_g": 278.0,
     "connector": "XT60",
+    "energy_wh": 33.3,
     "price_usd": 70.49,
-    "price_per_wh_usd": 2.12,
-    "energy_wh": 33.3
+    "price_per_wh_usd": 2.12
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4702,9 +4702,9 @@
     "c_rating": "75C",
     "weight_g": 18.0,
     "connector": "XT30",
+    "energy_wh": 2.2,
     "price_usd": 13.49,
-    "price_per_wh_usd": 6.08,
-    "energy_wh": 2.2
+    "price_per_wh_usd": 6.08
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4723,9 +4723,9 @@
     "c_rating": "75C",
     "weight_g": 26.0,
     "connector": "XT30",
+    "energy_wh": 3.3,
     "price_usd": 16.49,
-    "price_per_wh_usd": 4.95,
-    "energy_wh": 3.3
+    "price_per_wh_usd": 4.95
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4744,9 +4744,9 @@
     "c_rating": "75C",
     "weight_g": 34.0,
     "connector": "XT30",
+    "energy_wh": 4.4,
     "price_usd": 22.99,
-    "price_per_wh_usd": 5.18,
-    "energy_wh": 4.4
+    "price_per_wh_usd": 5.18
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4765,9 +4765,9 @@
     "c_rating": "80C",
     "weight_g": 28.0,
     "connector": "XT30",
+    "energy_wh": 4.1,
     "price_usd": 14.99,
-    "price_per_wh_usd": 3.68,
-    "energy_wh": 4.1
+    "price_per_wh_usd": 3.68
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4786,9 +4786,9 @@
     "c_rating": "80C",
     "weight_g": 44.0,
     "connector": "XT30",
+    "energy_wh": 6.1,
     "price_usd": 18.99,
-    "price_per_wh_usd": 3.11,
-    "energy_wh": 6.1
+    "price_per_wh_usd": 3.11
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4807,9 +4807,9 @@
     "c_rating": "80C",
     "weight_g": 59.0,
     "connector": "XT30",
+    "energy_wh": 8.1,
     "price_usd": 24.49,
-    "price_per_wh_usd": 3.01,
-    "energy_wh": 8.1
+    "price_per_wh_usd": 3.01
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4828,9 +4828,9 @@
     "c_rating": "35C",
     "weight_g": 49.0,
     "connector": "XT30",
+    "energy_wh": 6.3,
     "price_usd": 16.49,
-    "price_per_wh_usd": 2.62,
-    "energy_wh": 6.3
+    "price_per_wh_usd": 2.62
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4849,9 +4849,9 @@
     "c_rating": "35C",
     "weight_g": 71.0,
     "connector": "XT30",
+    "energy_wh": 9.4,
     "price_usd": 20.49,
-    "price_per_wh_usd": 2.17,
-    "energy_wh": 9.4
+    "price_per_wh_usd": 2.17
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4870,9 +4870,9 @@
     "c_rating": "75C",
     "weight_g": 101.0,
     "connector": "XT60",
+    "energy_wh": 12.6,
     "price_usd": 31.49,
-    "price_per_wh_usd": 2.5,
-    "energy_wh": 12.6
+    "price_per_wh_usd": 2.5
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4891,9 +4891,9 @@
     "c_rating": "80C",
     "weight_g": 14.3,
     "connector": "BT2.0",
+    "energy_wh": 2.1,
     "price_usd": 11.49,
-    "price_per_wh_usd": 5.5,
-    "energy_wh": 2.1
+    "price_per_wh_usd": 5.5
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4913,9 +4913,9 @@
     "weight_g": 254.0,
     "connector": "XT60",
     "dimensions_mm": "53x33x75mm",
+    "energy_wh": 33.3,
     "price_usd": 107.99,
-    "price_per_wh_usd": 3.24,
-    "energy_wh": 33.3
+    "price_per_wh_usd": 3.24
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4935,9 +4935,9 @@
     "weight_g": 185.0,
     "connector": "XT60",
     "dimensions_mm": "78x38x24mm",
+    "energy_wh": 22.8,
     "price_usd": 38.49,
-    "price_per_wh_usd": 1.69,
-    "energy_wh": 22.8
+    "price_per_wh_usd": 1.69
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4956,9 +4956,9 @@
     "c_rating": "60C",
     "weight_g": 69.0,
     "connector": "XT30",
+    "energy_wh": 12.5,
     "price_usd": 18.99,
-    "price_per_wh_usd": 1.51,
-    "energy_wh": 12.5
+    "price_per_wh_usd": 1.51
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -4978,9 +4978,9 @@
     "weight_g": 132.0,
     "connector": "XT60",
     "dimensions_mm": "24x38x80mm",
+    "energy_wh": 19.8,
     "price_usd": 34.99,
-    "price_per_wh_usd": 1.77,
-    "energy_wh": 19.8
+    "price_per_wh_usd": 1.77
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5000,9 +5000,9 @@
     "weight_g": 193.0,
     "connector": "XT60",
     "dimensions_mm": "34x38x80mm",
+    "energy_wh": 29.6,
     "price_usd": 50.99,
-    "price_per_wh_usd": 1.72,
-    "energy_wh": 29.6
+    "price_per_wh_usd": 1.72
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5022,9 +5022,9 @@
     "weight_g": 151.0,
     "connector": "XT60",
     "dimensions_mm": "36x38x79mm",
+    "energy_wh": 22.8,
     "price_usd": 35.49,
-    "price_per_wh_usd": 1.56,
-    "energy_wh": 22.8
+    "price_per_wh_usd": 1.56
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5045,9 +5045,9 @@
     "weight_g": 218.0,
     "connector": "XT60",
     "dimensions_mm": "38x38x79mm",
+    "energy_wh": 34.2,
     "price_usd": 52.99,
-    "price_per_wh_usd": 1.55,
-    "energy_wh": 34.2
+    "price_per_wh_usd": 1.55
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5067,9 +5067,9 @@
     "weight_g": 310.0,
     "connector": "XT60",
     "dimensions_mm": "90x58x34mm",
+    "energy_wh": 41.0,
     "price_usd": 60.99,
-    "price_per_wh_usd": 1.49,
-    "energy_wh": 41.0
+    "price_per_wh_usd": 1.49
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5088,9 +5088,9 @@
     "c_rating": "80C",
     "weight_g": 245.0,
     "connector": "XT60",
+    "energy_wh": 32.6,
     "price_usd": 49.99,
-    "price_per_wh_usd": 1.54,
-    "energy_wh": 32.6
+    "price_per_wh_usd": 1.54
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5109,9 +5109,9 @@
     "c_rating": "80C",
     "weight_g": 318.0,
     "connector": "XT60",
+    "energy_wh": 40.7,
     "price_usd": 62.49,
-    "price_per_wh_usd": 1.54,
-    "energy_wh": 40.7
+    "price_per_wh_usd": 1.54
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5131,9 +5131,9 @@
     "weight_g": 212.5,
     "connector": "XT60",
     "dimensions_mm": "79x23x34mm",
+    "energy_wh": 31.1,
     "price_usd": 36.49,
-    "price_per_wh_usd": 1.17,
-    "energy_wh": 31.1
+    "price_per_wh_usd": 1.17
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5153,9 +5153,9 @@
     "weight_g": 270.0,
     "connector": "XT60",
     "dimensions_mm": "107x33x46mm",
+    "energy_wh": 41.4,
     "price_usd": 54.99,
-    "price_per_wh_usd": 1.33,
-    "energy_wh": 41.4
+    "price_per_wh_usd": 1.33
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5175,9 +5175,9 @@
     "weight_g": 400.0,
     "connector": "XT60",
     "dimensions_mm": "113x55x35mm",
+    "energy_wh": 62.2,
     "price_usd": 84.99,
-    "price_per_wh_usd": 1.37,
-    "energy_wh": 62.2
+    "price_per_wh_usd": 1.37
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5197,9 +5197,9 @@
     "weight_g": 15.8,
     "connector": "XT30",
     "dimensions_mm": "45x17x14mm",
+    "energy_wh": 2.3,
     "price_usd": 7.49,
-    "price_per_wh_usd": 3.29,
-    "energy_wh": 2.3
+    "price_per_wh_usd": 3.29
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5220,9 +5220,9 @@
     "weight_g": 35.5,
     "connector": "XT30",
     "dimensions_mm": "22x27x60mm",
+    "energy_wh": 4.6,
     "price_usd": 14.49,
-    "price_per_wh_usd": 3.18,
-    "energy_wh": 4.6
+    "price_per_wh_usd": 3.18
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5241,9 +5241,9 @@
     "c_rating": "70C",
     "weight_g": 16.4,
     "connector": "PH2.0",
+    "energy_wh": 2.7,
     "price_usd": 8.49,
-    "price_per_wh_usd": 3.19,
-    "energy_wh": 2.7
+    "price_per_wh_usd": 3.19
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5263,9 +5263,9 @@
     "weight_g": 28.4,
     "connector": "XT30",
     "dimensions_mm": "52x20.2x17.3mm",
+    "energy_wh": 4.0,
     "price_usd": 14.49,
-    "price_per_wh_usd": 3.63,
-    "energy_wh": 4.0
+    "price_per_wh_usd": 3.63
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5284,9 +5284,9 @@
     "c_rating": "60C",
     "weight_g": 26.3,
     "connector": "XT30",
+    "energy_wh": 4.3,
     "price_usd": 14.99,
-    "price_per_wh_usd": 3.46,
-    "energy_wh": 4.3
+    "price_per_wh_usd": 3.46
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5306,9 +5306,9 @@
     "weight_g": 39.7,
     "connector": "XT30",
     "dimensions_mm": "17x27x54mm",
+    "energy_wh": 5.8,
     "price_usd": 14.99,
-    "price_per_wh_usd": 2.6,
-    "energy_wh": 5.8
+    "price_per_wh_usd": 2.6
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5328,9 +5328,9 @@
     "weight_g": 180.0,
     "connector": "XT60",
     "dimensions_mm": "13x44x137mm",
+    "energy_wh": 34.2,
     "price_usd": 39.99,
-    "price_per_wh_usd": 1.17,
-    "energy_wh": 34.2
+    "price_per_wh_usd": 1.17
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5350,9 +5350,9 @@
     "weight_g": 10.0,
     "connector": "PH2.0",
     "dimensions_mm": "62x17x6.9mm",
+    "energy_wh": 1.7,
     "price_usd": 5.99,
-    "price_per_wh_usd": 3.5,
-    "energy_wh": 1.7
+    "price_per_wh_usd": 3.5
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5372,9 +5372,9 @@
     "weight_g": 28.9,
     "connector": "XT30",
     "dimensions_mm": "60.7x13.5x16.5\n\nmm",
+    "energy_wh": 3.3,
     "price_usd": 11.49,
-    "price_per_wh_usd": 3.45,
-    "energy_wh": 3.3
+    "price_per_wh_usd": 3.45
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5393,9 +5393,9 @@
     "c_rating": "80C",
     "weight_g": 47.0,
     "connector": "XT30",
+    "energy_wh": 5.0,
     "price_usd": 12.49,
-    "price_per_wh_usd": 2.5,
-    "energy_wh": 5.0
+    "price_per_wh_usd": 2.5
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5415,9 +5415,9 @@
     "weight_g": 74.0,
     "connector": "XT30",
     "dimensions_mm": "22x44x72mm",
+    "energy_wh": 10.3,
     "price_usd": 24.49,
-    "price_per_wh_usd": 2.39,
-    "energy_wh": 10.3
+    "price_per_wh_usd": 2.39
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5437,9 +5437,9 @@
     "weight_g": 20.45,
     "connector": "XT30",
     "dimensions_mm": "51.2x13.1x17.7MM",
+    "energy_wh": 2.7,
     "price_usd": 8.49,
-    "price_per_wh_usd": 3.19,
-    "energy_wh": 2.7
+    "price_per_wh_usd": 3.19
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5459,9 +5459,9 @@
     "weight_g": 13.0,
     "connector": "PH2.0",
     "dimensions_mm": "65x17x6.7mm",
+    "energy_wh": 2.0,
     "price_usd": 7.49,
-    "price_per_wh_usd": 3.75,
-    "energy_wh": 2.0
+    "price_per_wh_usd": 3.75
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5481,9 +5481,9 @@
     "weight_g": 29.05,
     "connector": "XT30",
     "dimensions_mm": "68.2\n\nx17.2x13.9mm",
+    "energy_wh": 4.0,
     "price_usd": 10.99,
-    "price_per_wh_usd": 2.75,
-    "energy_wh": 4.0
+    "price_per_wh_usd": 2.75
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5502,9 +5502,9 @@
     "c_rating": "80C",
     "weight_g": 42.0,
     "connector": "XT30",
+    "energy_wh": 6.0,
     "price_usd": 15.99,
-    "price_per_wh_usd": 2.67,
-    "energy_wh": 6.0
+    "price_per_wh_usd": 2.67
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5523,9 +5523,9 @@
     "c_rating": "80C",
     "weight_g": 54.82,
     "connector": "XT30",
+    "energy_wh": 8.0,
     "price_usd": 16.99,
-    "price_per_wh_usd": 2.13,
-    "energy_wh": 8.0
+    "price_per_wh_usd": 2.13
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5545,9 +5545,9 @@
     "weight_g": 445.0,
     "connector": "XT60",
     "dimensions_mm": "36x44x139mm",
+    "energy_wh": 81.4,
     "price_usd": 69.99,
-    "price_per_wh_usd": 0.86,
-    "energy_wh": 81.4
+    "price_per_wh_usd": 0.86
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5567,9 +5567,9 @@
     "weight_g": 30.0,
     "connector": "XT30",
     "dimensions_mm": "12x18x69mm",
+    "energy_wh": 4.2,
     "price_usd": 11.49,
-    "price_per_wh_usd": 2.75,
-    "energy_wh": 4.2
+    "price_per_wh_usd": 2.75
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5589,9 +5589,9 @@
     "weight_g": 43.0,
     "connector": "XT30",
     "dimensions_mm": "18x18x72mm",
+    "energy_wh": 6.1,
     "price_usd": 14.99,
-    "price_per_wh_usd": 2.46,
-    "energy_wh": 6.1
+    "price_per_wh_usd": 2.46
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5611,9 +5611,9 @@
     "weight_g": 56.0,
     "connector": "XT30",
     "dimensions_mm": "24x18x73mm",
+    "energy_wh": 8.1,
     "price_usd": 20.49,
-    "price_per_wh_usd": 2.52,
-    "energy_wh": 8.1
+    "price_per_wh_usd": 2.52
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5633,9 +5633,9 @@
     "weight_g": 83.0,
     "connector": "XT30",
     "dimensions_mm": "36x18x73mm",
+    "energy_wh": 12.2,
     "price_usd": 26.99,
-    "price_per_wh_usd": 2.21,
-    "energy_wh": 12.2
+    "price_per_wh_usd": 2.21
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5654,9 +5654,9 @@
     "c_rating": "100C",
     "weight_g": 832.0,
     "connector": "XT90",
+    "energy_wh": 133.2,
     "price_usd": 134.99,
-    "price_per_wh_usd": 1.01,
-    "energy_wh": 133.2
+    "price_per_wh_usd": 1.01
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5676,9 +5676,9 @@
     "weight_g": 702.0,
     "connector": "XT90",
     "dimensions_mm": "52x44x141mm",
+    "energy_wh": 148.2,
     "price_usd": 168.99,
-    "price_per_wh_usd": 1.14,
-    "energy_wh": 148.2
+    "price_per_wh_usd": 1.14
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5698,9 +5698,9 @@
     "weight_g": 14.5,
     "connector": "PH2.0",
     "dimensions_mm": "58x18x8mm",
+    "energy_wh": 2.5,
     "price_usd": 8.49,
-    "price_per_wh_usd": 3.44,
-    "energy_wh": 2.5
+    "price_per_wh_usd": 3.44
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5720,9 +5720,9 @@
     "weight_g": 31.6,
     "connector": "XT30",
     "dimensions_mm": "63x17x16mm",
+    "energy_wh": 4.9,
     "price_usd": 9.99,
-    "price_per_wh_usd": 2.02,
-    "energy_wh": 4.9
+    "price_per_wh_usd": 2.02
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5742,9 +5742,9 @@
     "weight_g": 58.0,
     "connector": "XT30",
     "dimensions_mm": "16x30x63mm",
+    "energy_wh": 7.2,
     "price_usd": 17.99,
-    "price_per_wh_usd": 2.49,
-    "energy_wh": 7.2
+    "price_per_wh_usd": 2.49
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5764,9 +5764,9 @@
     "weight_g": 60.6,
     "connector": "XT30",
     "dimensions_mm": "63x31x18mm",
+    "energy_wh": 9.9,
     "price_usd": 22.49,
-    "price_per_wh_usd": 2.28,
-    "energy_wh": 9.9
+    "price_per_wh_usd": 2.28
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5787,9 +5787,9 @@
     "weight_g": 93.0,
     "connector": "XT30",
     "dimensions_mm": "27x30x64mm",
+    "energy_wh": 12.3,
     "price_usd": 26.99,
-    "price_per_wh_usd": 2.19,
-    "energy_wh": 12.3
+    "price_per_wh_usd": 2.19
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5809,9 +5809,9 @@
     "weight_g": 100.0,
     "connector": "XT30",
     "dimensions_mm": "31x30x64mm",
+    "energy_wh": 14.8,
     "price_usd": 31.99,
-    "price_per_wh_usd": 2.16,
-    "energy_wh": 14.8
+    "price_per_wh_usd": 2.16
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5830,9 +5830,9 @@
     "c_rating": "90C",
     "weight_g": 15.5,
     "connector": "PH2.0",
+    "energy_wh": 2.5,
     "price_usd": 8.99,
-    "price_per_wh_usd": 3.58,
-    "energy_wh": 2.5
+    "price_per_wh_usd": 3.58
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5852,9 +5852,9 @@
     "weight_g": 33.0,
     "connector": "XT30",
     "dimensions_mm": "63\n\nx\n\n18\n\nx15.5\n\nmm",
+    "energy_wh": 5.0,
     "price_usd": 12.49,
-    "price_per_wh_usd": 2.49,
-    "energy_wh": 5.0
+    "price_per_wh_usd": 2.49
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5874,9 +5874,9 @@
     "weight_g": 50.5,
     "connector": "XT30",
     "dimensions_mm": "65\n\nx23.5\n\nx18\n\nmm",
+    "energy_wh": 7.5,
     "price_usd": 14.99,
-    "price_per_wh_usd": 1.99,
-    "energy_wh": 7.5
+    "price_per_wh_usd": 1.99
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5896,9 +5896,9 @@
     "weight_g": 65.0,
     "connector": "XT30",
     "dimensions_mm": "65\n\nx31\n\nx18\n\nmm",
+    "energy_wh": 10.0,
     "price_usd": 20.49,
-    "price_per_wh_usd": 2.04,
-    "energy_wh": 10.0
+    "price_per_wh_usd": 2.04
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5918,9 +5918,9 @@
     "weight_g": 17.0,
     "connector": "PH2.0",
     "dimensions_mm": "65.5x18x7.5mm",
+    "energy_wh": 2.7,
     "price_usd": 9.49,
-    "price_per_wh_usd": 3.47,
-    "energy_wh": 2.7
+    "price_per_wh_usd": 3.47
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5940,9 +5940,9 @@
     "weight_g": 36.5,
     "connector": "XT30",
     "dimensions_mm": "71x18x15mm",
+    "energy_wh": 5.5,
     "price_usd": 12.99,
-    "price_per_wh_usd": 2.37,
-    "energy_wh": 5.5
+    "price_per_wh_usd": 2.37
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5962,9 +5962,9 @@
     "weight_g": 53.0,
     "connector": "XT30",
     "dimensions_mm": "73x22.5x19mm",
+    "energy_wh": 8.2,
     "price_usd": 18.49,
-    "price_per_wh_usd": 2.25,
-    "energy_wh": 8.2
+    "price_per_wh_usd": 2.25
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -5984,9 +5984,9 @@
     "weight_g": 71.0,
     "connector": "XT30",
     "dimensions_mm": "72.5x30x18.5mm",
+    "energy_wh": 10.9,
     "price_usd": 20.49,
-    "price_per_wh_usd": 1.87,
-    "energy_wh": 10.9
+    "price_per_wh_usd": 1.87
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6006,9 +6006,9 @@
     "weight_g": 103.0,
     "connector": "XT30",
     "dimensions_mm": "74x44x18.5mm",
+    "energy_wh": 16.4,
     "price_usd": 32.49,
-    "price_per_wh_usd": 1.98,
-    "energy_wh": 16.4
+    "price_per_wh_usd": 1.98
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6028,9 +6028,9 @@
     "weight_g": 16.6,
     "connector": "PH2.0",
     "dimensions_mm": "67x18x7.5mm",
+    "energy_wh": 3.2,
     "price_usd": 10.49,
-    "price_per_wh_usd": 3.25,
-    "energy_wh": 3.2
+    "price_per_wh_usd": 3.25
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6050,9 +6050,9 @@
     "weight_g": 37.0,
     "connector": "XT30",
     "dimensions_mm": "70x18.5x15mm",
+    "energy_wh": 6.5,
     "price_usd": 13.49,
-    "price_per_wh_usd": 2.09,
-    "energy_wh": 6.5
+    "price_per_wh_usd": 2.09
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6071,9 +6071,9 @@
     "c_rating": "60C",
     "weight_g": 54.5,
     "connector": "XT30",
+    "energy_wh": 9.7,
     "price_usd": 19.99,
-    "price_per_wh_usd": 2.06,
-    "energy_wh": 9.7
+    "price_per_wh_usd": 2.06
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6093,9 +6093,9 @@
     "weight_g": 70.5,
     "connector": "XT30",
     "dimensions_mm": "73x30x19mm",
+    "energy_wh": 12.9,
     "price_usd": 23.49,
-    "price_per_wh_usd": 1.82,
-    "energy_wh": 12.9
+    "price_per_wh_usd": 1.82
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6114,9 +6114,9 @@
     "c_rating": "100C",
     "weight_g": 842.0,
     "connector": "XT90",
+    "energy_wh": 133.2,
     "price_usd": 134.99,
-    "price_per_wh_usd": 1.01,
-    "energy_wh": 133.2
+    "price_per_wh_usd": 1.01
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6135,9 +6135,9 @@
     "c_rating": "80C",
     "weight_g": 195.65,
     "connector": "XT60",
+    "energy_wh": 24.4,
     "price_usd": 35.99,
-    "price_per_wh_usd": 1.47,
-    "energy_wh": 24.4
+    "price_per_wh_usd": 1.47
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6157,9 +6157,9 @@
     "weight_g": 30.0,
     "connector": "XT60",
     "dimensions_mm": "25x31x59mm",
+    "energy_wh": 12.6,
     "price_usd": 26.49,
-    "price_per_wh_usd": 2.11,
-    "energy_wh": 12.6
+    "price_per_wh_usd": 2.11
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6179,9 +6179,9 @@
     "weight_g": 13.0,
     "connector": "GNB27",
     "dimensions_mm": "65x18.2x6.2mm",
+    "energy_wh": 2.1,
     "price_usd": 6.99,
-    "price_per_wh_usd": 3.34,
-    "energy_wh": 2.1
+    "price_per_wh_usd": 3.34
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6201,9 +6201,9 @@
     "weight_g": 62.0,
     "connector": "XT30",
     "dimensions_mm": "20x28x64mm",
+    "energy_wh": 7.2,
     "price_usd": 15.49,
-    "price_per_wh_usd": 2.15,
-    "energy_wh": 7.2
+    "price_per_wh_usd": 2.15
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6222,9 +6222,9 @@
     "c_rating": "75C",
     "weight_g": 122.0,
     "connector": "XT60",
+    "energy_wh": 14.4,
     "price_usd": 26.99,
-    "price_per_wh_usd": 1.87,
-    "energy_wh": 14.4
+    "price_per_wh_usd": 1.87
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6244,9 +6244,9 @@
     "weight_g": 29.0,
     "connector": "XT30",
     "dimensions_mm": "62.5x16.2x14.7mm",
+    "energy_wh": 3.4,
     "price_usd": 12.49,
-    "price_per_wh_usd": 3.65,
-    "energy_wh": 3.4
+    "price_per_wh_usd": 3.65
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6265,9 +6265,9 @@
     "c_rating": "75C",
     "weight_g": 45.0,
     "connector": "XT30",
+    "energy_wh": 5.0,
     "price_usd": 17.99,
-    "price_per_wh_usd": 3.6,
-    "energy_wh": 5.0
+    "price_per_wh_usd": 3.6
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6286,9 +6286,9 @@
     "c_rating": "75C",
     "weight_g": 58.0,
     "connector": "XT30",
+    "energy_wh": 6.7,
     "price_usd": 20.49,
-    "price_per_wh_usd": 3.08,
-    "energy_wh": 6.7
+    "price_per_wh_usd": 3.08
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6307,9 +6307,9 @@
     "c_rating": "95C",
     "weight_g": 86.0,
     "connector": "XT30",
+    "energy_wh": 12.2,
     "price_usd": 31.49,
-    "price_per_wh_usd": 2.58,
-    "energy_wh": 12.2
+    "price_per_wh_usd": 2.58
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6328,9 +6328,9 @@
     "c_rating": "95C",
     "weight_g": 82.0,
     "connector": "XT30",
+    "energy_wh": 9.6,
     "price_usd": 22.99,
-    "price_per_wh_usd": 2.39,
-    "energy_wh": 9.6
+    "price_per_wh_usd": 2.39
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6350,9 +6350,9 @@
     "weight_g": 80.0,
     "connector": "XT30",
     "dimensions_mm": "60x30x23mm",
+    "energy_wh": 9.4,
     "price_usd": 20.49,
-    "price_per_wh_usd": 2.17,
-    "energy_wh": 9.4
+    "price_per_wh_usd": 2.17
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6371,9 +6371,9 @@
     "c_rating": "75C",
     "weight_g": 103.0,
     "connector": "XT30",
+    "energy_wh": 12.6,
     "price_usd": 19.49,
-    "price_per_wh_usd": 1.55,
-    "energy_wh": 12.6
+    "price_per_wh_usd": 1.55
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6393,9 +6393,9 @@
     "weight_g": 149.0,
     "connector": "XT60",
     "dimensions_mm": "72x35x28.5mm",
+    "energy_wh": 19.2,
     "price_usd": 26.99,
-    "price_per_wh_usd": 1.4,
-    "energy_wh": 19.2
+    "price_per_wh_usd": 1.4
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6414,9 +6414,9 @@
     "c_rating": "100C",
     "weight_g": 225.0,
     "connector": "XT60",
+    "energy_wh": 28.9,
     "price_usd": 39.49,
-    "price_per_wh_usd": 1.37,
-    "energy_wh": 28.9
+    "price_per_wh_usd": 1.37
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6435,9 +6435,9 @@
     "c_rating": "100C",
     "weight_g": 178.0,
     "connector": "XT60",
+    "energy_wh": 22.9,
     "price_usd": 28.49,
-    "price_per_wh_usd": 1.24,
-    "energy_wh": 22.9
+    "price_per_wh_usd": 1.24
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6456,9 +6456,9 @@
     "c_rating": "25C",
     "weight_g": 1175.0,
     "connector": "XT60",
+    "energy_wh": 199.8,
     "price_usd": 249.49,
-    "price_per_wh_usd": 1.25,
-    "energy_wh": 199.8
+    "price_per_wh_usd": 1.25
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6477,9 +6477,9 @@
     "c_rating": "30C",
     "weight_g": 1990.0,
     "connector": "XT90",
+    "energy_wh": 355.2,
     "price_usd": 419.49,
-    "price_per_wh_usd": 1.18,
-    "energy_wh": 355.2
+    "price_per_wh_usd": 1.18
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6498,9 +6498,9 @@
     "c_rating": "75C",
     "weight_g": 16.0,
     "connector": "JST",
+    "energy_wh": 2.2,
     "price_usd": 12.49,
-    "price_per_wh_usd": 5.63,
-    "energy_wh": 2.2
+    "price_per_wh_usd": 5.63
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6519,9 +6519,9 @@
     "c_rating": "75C",
     "weight_g": 29.0,
     "connector": "JST-SYP",
+    "energy_wh": 3.3,
     "price_usd": 10.99,
-    "price_per_wh_usd": 3.3,
-    "energy_wh": 3.3
+    "price_per_wh_usd": 3.3
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6540,9 +6540,9 @@
     "c_rating": "95C",
     "weight_g": 14.0,
     "connector": "PH2.0",
+    "energy_wh": 1.9,
     "price_usd": 9.49,
-    "price_per_wh_usd": 5.13,
-    "energy_wh": 1.9
+    "price_per_wh_usd": 5.13
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6562,9 +6562,9 @@
     "weight_g": 100.0,
     "connector": "XT30",
     "dimensions_mm": "63x16x12mm",
+    "energy_wh": 4.1,
     "price_usd": 13.49,
-    "price_per_wh_usd": 3.31,
-    "energy_wh": 4.1
+    "price_per_wh_usd": 3.31
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6583,9 +6583,9 @@
     "c_rating": "95C",
     "weight_g": 46.0,
     "connector": "XT30",
+    "energy_wh": 6.1,
     "price_usd": 18.99,
-    "price_per_wh_usd": 3.11,
-    "energy_wh": 6.1
+    "price_per_wh_usd": 3.11
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6604,9 +6604,9 @@
     "c_rating": "95C",
     "weight_g": 104.0,
     "connector": "XT30",
+    "energy_wh": 12.6,
     "price_usd": 28.49,
-    "price_per_wh_usd": 2.26,
-    "energy_wh": 12.6
+    "price_per_wh_usd": 2.26
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6625,9 +6625,9 @@
     "c_rating": "160C",
     "weight_g": 240.0,
     "connector": "XT60",
+    "energy_wh": 35.5,
     "price_usd": 46.99,
-    "price_per_wh_usd": 1.32,
-    "energy_wh": 35.5
+    "price_per_wh_usd": 1.32
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6646,9 +6646,9 @@
     "c_rating": "95C",
     "weight_g": 115.0,
     "connector": "XT30",
+    "energy_wh": 14.4,
     "price_usd": 23.69,
-    "price_per_wh_usd": 1.64,
-    "energy_wh": 14.4
+    "price_per_wh_usd": 1.64
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6667,9 +6667,9 @@
     "c_rating": "120C",
     "weight_g": 233.0,
     "connector": "XT60",
+    "energy_wh": 31.1,
     "price_usd": 55.49,
-    "price_per_wh_usd": 1.79,
-    "energy_wh": 31.1
+    "price_per_wh_usd": 1.79
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6688,9 +6688,9 @@
     "c_rating": "120C",
     "weight_g": 181.0,
     "connector": "XT60",
+    "energy_wh": 22.9,
     "price_usd": 45.99,
-    "price_per_wh_usd": 2.0,
-    "energy_wh": 22.9
+    "price_per_wh_usd": 2.0
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6709,9 +6709,9 @@
     "c_rating": "130C",
     "weight_g": 180.0,
     "connector": "XT60",
+    "energy_wh": 23.3,
     "price_usd": 45.99,
-    "price_per_wh_usd": 1.97,
-    "energy_wh": 23.3
+    "price_per_wh_usd": 1.97
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6730,9 +6730,9 @@
     "c_rating": "130C",
     "weight_g": 200.0,
     "connector": "XT60",
+    "energy_wh": 28.9,
     "price_usd": 53.99,
-    "price_per_wh_usd": 1.87,
-    "energy_wh": 28.9
+    "price_per_wh_usd": 1.87
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6751,9 +6751,9 @@
     "c_rating": "130C",
     "weight_g": 222.0,
     "connector": "XT60",
+    "energy_wh": 31.1,
     "price_usd": 56.99,
-    "price_per_wh_usd": 1.83,
-    "energy_wh": 31.1
+    "price_per_wh_usd": 1.83
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6772,9 +6772,9 @@
     "c_rating": "150C",
     "weight_g": 186.0,
     "connector": "XT60",
+    "energy_wh": 23.3,
     "price_usd": 47.49,
-    "price_per_wh_usd": 2.04,
-    "energy_wh": 23.3
+    "price_per_wh_usd": 2.04
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6793,9 +6793,9 @@
     "c_rating": "150C",
     "weight_g": 242.0,
     "connector": "XT60",
+    "energy_wh": 31.1,
     "price_usd": 59.49,
-    "price_per_wh_usd": 1.91,
-    "energy_wh": 31.1
+    "price_per_wh_usd": 1.91
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6815,9 +6815,9 @@
     "weight_g": 197.0,
     "connector": "XT60",
     "dimensions_mm": "78x40x32mm",
+    "energy_wh": 26.6,
     "price_usd": 44.99,
-    "price_per_wh_usd": 1.69,
-    "energy_wh": 26.6
+    "price_per_wh_usd": 1.69
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6836,9 +6836,9 @@
     "c_rating": "150C",
     "weight_g": 156.0,
     "connector": "XT60",
+    "energy_wh": 19.2,
     "price_usd": 42.99,
-    "price_per_wh_usd": 2.23,
-    "energy_wh": 19.2
+    "price_per_wh_usd": 2.23
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6858,9 +6858,9 @@
     "weight_g": 222.0,
     "connector": "XT60",
     "dimensions_mm": "78x39x42mm",
+    "energy_wh": 31.1,
     "price_usd": 55.49,
-    "price_per_wh_usd": 1.79,
-    "energy_wh": 31.1
+    "price_per_wh_usd": 1.79
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6879,9 +6879,9 @@
     "c_rating": "150C",
     "weight_g": 254.0,
     "connector": "XT60",
+    "energy_wh": 34.4,
     "price_usd": 61.49,
-    "price_per_wh_usd": 1.79,
-    "energy_wh": 34.4
+    "price_per_wh_usd": 1.79
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6900,9 +6900,9 @@
     "c_rating": "150C",
     "weight_g": 287.0,
     "connector": "XT60",
+    "energy_wh": 40.0,
     "price_usd": 68.99,
-    "price_per_wh_usd": 1.73,
-    "energy_wh": 40.0
+    "price_per_wh_usd": 1.73
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6921,9 +6921,9 @@
     "c_rating": "150C",
     "weight_g": 76.0,
     "connector": "XT30",
+    "energy_wh": 9.4,
     "price_usd": 24.49,
-    "price_per_wh_usd": 2.6,
-    "energy_wh": 9.4
+    "price_per_wh_usd": 2.6
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6942,9 +6942,9 @@
     "c_rating": "150C",
     "weight_g": 100.0,
     "connector": "XT30",
+    "energy_wh": 12.6,
     "price_usd": 31.49,
-    "price_per_wh_usd": 2.5,
-    "energy_wh": 12.6
+    "price_per_wh_usd": 2.5
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6963,9 +6963,9 @@
     "c_rating": "150C",
     "weight_g": 145.0,
     "connector": "XT30",
+    "energy_wh": 18.9,
     "price_usd": 41.99,
-    "price_per_wh_usd": 2.23,
-    "energy_wh": 18.9
+    "price_per_wh_usd": 2.23
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -6984,9 +6984,9 @@
     "c_rating": "160C",
     "weight_g": 220.0,
     "connector": "XT60",
+    "energy_wh": 32.9,
     "price_usd": 42.49,
-    "price_per_wh_usd": 1.29,
-    "energy_wh": 32.9
+    "price_per_wh_usd": 1.29
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -7005,9 +7005,9 @@
     "c_rating": "150C",
     "weight_g": 223.0,
     "connector": "XT60",
+    "energy_wh": 30.6,
     "price_usd": 40.99,
-    "price_per_wh_usd": 1.34,
-    "energy_wh": 30.6
+    "price_per_wh_usd": 1.34
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -7026,9 +7026,9 @@
     "c_rating": "150C",
     "weight_g": 223.0,
     "connector": "XT60",
+    "energy_wh": 30.6,
     "price_usd": 122.97,
-    "price_per_wh_usd": 4.01,
-    "energy_wh": 30.6
+    "price_per_wh_usd": 4.01
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -7047,9 +7047,9 @@
     "c_rating": "100C",
     "weight_g": 198.0,
     "connector": "XT60",
+    "energy_wh": 24.1,
     "price_usd": 36.49,
-    "price_per_wh_usd": 1.52,
-    "energy_wh": 24.1
+    "price_per_wh_usd": 1.52
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -7068,9 +7068,9 @@
     "c_rating": "100C",
     "weight_g": 228.0,
     "connector": "XT60",
+    "energy_wh": 27.8,
     "price_usd": 39.49,
-    "price_per_wh_usd": 1.42,
-    "energy_wh": 27.8
+    "price_per_wh_usd": 1.42
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -7089,9 +7089,9 @@
     "c_rating": "100C",
     "weight_g": 215.0,
     "connector": "XT60",
+    "energy_wh": 27.8,
     "price_usd": 47.49,
-    "price_per_wh_usd": 1.71,
-    "energy_wh": 27.8
+    "price_per_wh_usd": 1.71
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -7110,9 +7110,9 @@
     "c_rating": "100C",
     "weight_g": 165.0,
     "connector": "XT60",
+    "energy_wh": 19.2,
     "price_usd": 31.49,
-    "price_per_wh_usd": 1.64,
-    "energy_wh": 19.2
+    "price_per_wh_usd": 1.64
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -7131,9 +7131,9 @@
     "c_rating": "100C",
     "weight_g": 185.0,
     "connector": "XT60",
+    "energy_wh": 22.2,
     "price_usd": 36.49,
-    "price_per_wh_usd": 1.64,
-    "energy_wh": 22.2
+    "price_per_wh_usd": 1.64
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -7152,9 +7152,9 @@
     "c_rating": "100C",
     "weight_g": 110.0,
     "connector": "XT60",
+    "energy_wh": 12.6,
     "price_usd": 28.49,
-    "price_per_wh_usd": 2.26,
-    "energy_wh": 12.6
+    "price_per_wh_usd": 2.26
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -7173,9 +7173,9 @@
     "c_rating": "100C",
     "weight_g": 45.0,
     "connector": "XT30",
+    "energy_wh": 5.0,
     "price_usd": 13.99,
-    "price_per_wh_usd": 2.8,
-    "energy_wh": 5.0
+    "price_per_wh_usd": 2.8
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -7194,9 +7194,9 @@
     "c_rating": "100C",
     "weight_g": 54.36,
     "connector": "XT30",
+    "energy_wh": 6.1,
     "price_usd": 20.49,
-    "price_per_wh_usd": 3.36,
-    "energy_wh": 6.1
+    "price_per_wh_usd": 3.36
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -7215,9 +7215,9 @@
     "c_rating": "100C",
     "weight_g": 100.8,
     "connector": "XT30",
+    "energy_wh": 12.2,
     "price_usd": 35.49,
-    "price_per_wh_usd": 2.91,
-    "energy_wh": 12.2
+    "price_per_wh_usd": 2.91
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -7236,9 +7236,9 @@
     "c_rating": "100C",
     "weight_g": 80.0,
     "connector": "XT30",
+    "energy_wh": 9.6,
     "price_usd": 31.49,
-    "price_per_wh_usd": 3.27,
-    "energy_wh": 9.6
+    "price_per_wh_usd": 3.27
    },
    "_scraped_at": "2026-09-12",
    "sources": [
@@ -7257,9 +7257,9 @@
     "c_rating": "100C",
     "weight_g": 13.79,
     "connector": "JST",
+    "energy_wh": 1.7,
     "price_usd": 9.49,
-    "price_per_wh_usd": 5.7,
-    "energy_wh": 1.7
+    "price_per_wh_usd": 5.7
    },
    "_scraped_at": "2026-09-12",
    "sources": [
