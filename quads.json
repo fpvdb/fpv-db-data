@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-12",
- "count": 100,
+ "generated": "2026-09-13",
+ "count": 101,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -1109,12 +1109,41 @@
      "chemistry": "LiHV"
     },
     "camera": "Runcam Nano",
-    "wheelbase_mm": 76
+    "wheelbase_mm": 76,
+    "flight_controller": "STM32F411, 6A BLHeli_S",
+    "receiver_options": "Integrated ELRS 2.4G"
+   },
+   "sources": [
+    "https://www.racedayquads.com/products/emax-bnf-tinyhawk-iii-plus-1-2s-analog-racing-drone-w-runcam-nano-elrs-2-4-ghz"
+   ],
+   "note": "Wheelbase 76mm, RunCam Nano camera, integrated ELRS. Re-cited 2026-09-13: the previous source URL (slug ...-whoop-...) now serves the Tinyhawk III Plus Freestyle, a different quad, which we carry separately. Specs here match the live whoop listing: 76 mm, 32.5 g, TH0802 II 15000KV."
+  },
+  {
+   "type": "quad",
+   "brand": "EMAX",
+   "model": "Tinyhawk III Plus Freestyle",
+   "slug": "emax-tinyhawk-iii-plus-freestyle",
+   "specs": {
+    "class": "micro freestyle (2.5in)",
+    "weight_no_battery_g": 62.5,
+    "prop_size_in": 2.5,
+    "wheelbase_mm": 110,
+    "motors": "EMAX 12025 7000KV",
+    "vtx_system": "analog",
+    "camera": "RunCam Nano",
+    "flight_controller": "STM32F411, 6A BLHeli_S",
+    "receiver_options": "Integrated ELRS 2.4G",
+    "recommended_battery": {
+     "cells": "1S (2S supported)",
+     "capacity_mah": 650,
+     "connector": "PH2.0",
+     "chemistry": "LiHV"
+    }
    },
    "sources": [
     "https://www.racedayquads.com/products/emax-bnf-tinyhawk-iii-plus-whoop-1-2s-analog-racing-drone-w-runcam-nano-elrs-2-4-ghz"
    ],
-   "note": "Wheelbase 76mm, RunCam Nano camera, integrated ELRS."
+   "note": "The 2.5in sibling of the Tinyhawk III Plus whoop, on AVAN Rush 2.5 props; 32Bit 40Ch VTX switchable 0/25/100/400 mW. Ships with two 1S HV 650 mAh packs. Note the citation: RaceDayQuads serves this product from a URL whose slug reads \"whoop\", which is how our whoop entry ended up pointing at the wrong quad."
   },
   {
    "type": "quad",
@@ -2088,9 +2117,9 @@
     }
    },
    "sources": [
-    "https://shop.iflight.com/AOS-5R-6S-Pro2131"
+    "https://web.archive.org/web/20251018114450/https://shop.iflight.com/AOS-5R-6S-Pro2131"
    ],
-   "note": "Chris Rosser-designed AOS aero frame, race edition."
+   "note": "Chris Rosser-designed AOS aero frame, race edition. Source archived 2025-10-18: the manufacturer page for this revision was taken down when the model was superseded, so the citation points at the Internet Archive copy of https://shop.iflight.com/AOS-5R-6S-Pro2131. The specs were verified against that page when written."
   },
   {
    "type": "quad",
@@ -2222,9 +2251,9 @@
     }
    },
    "sources": [
-    "https://shop.iflight.com/Defender-20-3S-HD-RTF-Pro2019"
+    "https://web.archive.org/web/20251117073607/https://shop.iflight.com/Defender-20-3S-HD-RTF-Pro2019"
    ],
-   "note": "3S HD version; quick-release crash-protected battery shell. Defender20 2020-3 props."
+   "note": "3S HD version; quick-release crash-protected battery shell. Defender20 2020-3 props. Source archived 2025-11-17: the manufacturer page for this revision was taken down when the model was superseded, so the citation points at the Internet Archive copy of https://shop.iflight.com/Defender-20-3S-HD-RTF-Pro2019. The specs were verified against that page when written."
   },
   {
    "type": "quad",
@@ -2249,9 +2278,9 @@
     }
    },
    "sources": [
-    "https://shop.iflight.com/Defender-25-O3-4S-HD-Pro1923"
+    "https://web.archive.org/web/20250418194724/https://shop.iflight.com/Defender-25-O3-4S-HD-Pro1923"
    ],
-   "note": "O3 version. Defender25 2525 props. AUW 249g with 550mAh pack."
+   "note": "O3 version. Defender25 2525 props. AUW 249g with 550mAh pack. Source archived 2025-04-18: the manufacturer page for this revision was taken down when the model was superseded, so the citation points at the Internet Archive copy of https://shop.iflight.com/Defender-25-O3-4S-HD-Pro1923. The specs were verified against that page when written."
   },
   {
    "type": "quad",
@@ -2419,9 +2448,9 @@
     "wheelbase_mm": 235
    },
    "sources": [
-    "https://shop.iflight.com/Nazgul5-Analog-V2-6S-BNF-Pro1820"
+    "https://web.archive.org/web/20230926112347/https://shop.iflight.com/Nazgul5-Analog-V2-6S-BNF-Pro1820"
    ],
-   "note": "Legacy bestseller, superseded by V3 but still widely flown. 235mm wheelbase."
+   "note": "Legacy bestseller, superseded by V3 but still widely flown. 235mm wheelbase. Source archived 2023-09-26: the manufacturer page for this revision was taken down when the model was superseded, so the citation points at the Internet Archive copy of https://shop.iflight.com/Nazgul5-Analog-V2-6S-BNF-Pro1820. The specs were verified against that page when written."
   },
   {
    "type": "quad",
@@ -2498,9 +2527,9 @@
     "wheelbase_mm": 151
    },
    "sources": [
-    "https://shop.iflight.com/ProTek35-V1.4-O3-6S-HD-Pro2033"
+    "https://web.archive.org/web/20251011094659/https://shop.iflight.com/ProTek35-V1.4-O3-6S-HD-Pro2033"
    ],
-   "note": "O3 HD version 363g; analog 216g. Nazgul 3535 props, wheelbase 151mm."
+   "note": "O3 HD version 363g; analog 216g. Nazgul 3535 props, wheelbase 151mm. Source archived 2025-10-11: the manufacturer page for this revision was taken down when the model was superseded, so the citation points at the Internet Archive copy of https://shop.iflight.com/ProTek35-V1.4-O3-6S-HD-Pro2033. The specs were verified against that page when written."
   },
   {
    "type": "quad",
@@ -2525,9 +2554,9 @@
     "wheelbase_mm": 282
    },
    "sources": [
-    "https://shop.iflight.com/ProTek60-Pro-O3-6S-HD-Cinelifter-Pro1976"
+    "https://web.archive.org/web/20251015105928/https://shop.iflight.com/ProTek60-Pro-O3-6S-HD-Cinelifter-Pro1976"
    ],
-   "note": "Ducted cinelifter for BMPCC/Z-CAM payloads (up to 1.5kg). 282mm, Nazgul 6x4x3."
+   "note": "Ducted cinelifter for BMPCC/Z-CAM payloads (up to 1.5kg). 282mm, Nazgul 6x4x3. Source archived 2025-10-15: the manufacturer page for this revision was taken down when the model was superseded, so the citation points at the Internet Archive copy of https://shop.iflight.com/ProTek60-Pro-O3-6S-HD-Cinelifter-Pro1976. The specs were verified against that page when written."
   },
   {
    "type": "quad",
@@ -2630,9 +2659,9 @@
     "wheelbase_mm": 78
    },
    "sources": [
-    "https://www.speedybee.com/speedybee-flex25-analog-cinewhoop/"
+    "https://web.archive.org/web/20260119183431/https://www.speedybee.com/speedybee-flex25-analog-cinewhoop/"
    ],
-   "note": "78mm wheelbase unibody duct - 2.5in props in 2in-class footprint. Gemfan D63-3."
+   "note": "78mm wheelbase unibody duct - 2.5in props in 2in-class footprint. Gemfan D63-3. Source archived 2026-01-19: the manufacturer page for this revision was taken down when the model was superseded, so the citation points at the Internet Archive copy of https://www.speedybee.com/speedybee-flex25-analog-cinewhoop/. The specs were verified against that page when written."
   },
   {
    "type": "quad",
