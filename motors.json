@@ -3379,7 +3379,7 @@
     ],
     "weight_g": 65.0,
     "max_cells": "4-6S",
-    "recommended_props": "M5",
+    "recommended_props": "7-8in props (derived)",
     "price_usd": 25.99,
     "max_thrust_g": 2724,
     "thrust_conditions": "BrotherHobby bench (2018 and 2022 rigs), 6S, 8 throttle points per KV/prop; 900/1180 KV on 45 A ESC, 1350KV on 60 A, 1500KV on 50 A",
@@ -5546,7 +5546,7 @@
     "weight_g": 16.3,
     "max_cells": "4-6S",
     "shaft": "3mm",
-    "recommended_props": "5in props (derived)",
+    "recommended_props": "3.5inch~5inch",
     "price_usd": 16.99
    },
    "_scraped_at": "2026-09-15",
@@ -8090,7 +8090,7 @@
      640,
      900
     ],
-    "recommended_props": "10\"",
+    "recommended_props": "9\"-10\"",
     "price_usd": 32.49,
     "max_thrust_g": 5270,
     "thrust_conditions": "10S, HQ 10x5x3, 100% throttle, 500KV; manufacturer bench, 8 load points per prop; tested at rated max voltage per KV (400KV@12S ... 900KV@6S)",
@@ -14021,7 +14021,7 @@
     "weight_g": 143.0,
     "max_cells": "8-12S",
     "shaft": "5mm",
-    "recommended_props": "8in+ props (derived)",
+    "recommended_props": "HQ PROP 10x5x3",
     "max_thrust_g": 5824.0,
     "price_usd": 38.99
    },
