@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-15",
- "count": 200,
+ "count": 205,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -14,7 +14,7 @@
      4000
     ],
     "weight_g": 10.2,
-    "max_cells": "3S",
+    "max_cells": "3-4S",
     "shaft": "1.5mm",
     "recommended_props": "3-4in props (derived)",
     "price_usd": 16.99
@@ -35,7 +35,7 @@
      3900
     ],
     "weight_g": 13.3,
-    "max_cells": "3S",
+    "max_cells": "3-4S",
     "shaft": "1.5mm",
     "recommended_props": "4in props (derived)",
     "price_usd": 17.99
@@ -43,27 +43,6 @@
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/pre-order-aos-rc-supernova-1605-fpv-motor-3900kv"
-   ]
-  },
-  {
-   "type": "motor",
-   "brand": "AOS RC",
-   "model": "Supernova 3220",
-   "slug": "aos-rc-supernova-3220",
-   "specs": {
-    "stator": "3220",
-    "kv_options": [
-     700,
-     925
-    ],
-    "weight_g": 170.0,
-    "max_cells": "6-8S",
-    "recommended_props": "8in+ props (derived)",
-    "price_usd": 71.99
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/aos-rc-supernova-3220-motor-700kv-925kv"
    ]
   },
   {
@@ -485,6 +464,7 @@
      1960
     ],
     "weight_g": 35.13,
+    "max_cells": "6S",
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 19.49,
     "max_thrust_g": 1798.2,
@@ -1195,7 +1175,6 @@
       "efficiency_gw": 1.99
      }
     ],
-    "max_cells": "6S",
     "shaft": "4mm",
     "configuration": "12N14P",
     "dimensions_mm": "27.5x33.2",
@@ -1212,10 +1191,53 @@
   {
    "type": "motor",
    "brand": "Axisflying",
+   "model": "AF2207.5",
+   "slug": "axisflying-af2207-5",
+   "specs": {
+    "stator": "2207.5",
+    "kv_options": [
+     1960
+    ],
+    "weight_g": 33.9,
+    "max_cells": "6S",
+    "recommended_props": "5-5.1in props (derived)",
+    "price_usd": 23.99
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/axisflying-af2207-5-fpv-motor-1960kv"
+   ]
+  },
+  {
+   "type": "motor",
+   "brand": "Axisflying",
+   "model": "AF2406-X Modular",
+   "slug": "axisflying-af2406-x-modular",
+   "specs": {
+    "stator": "2406",
+    "kv_options": [
+     1860,
+     2080
+    ],
+    "weight_g": 35.1,
+    "max_cells": "4-6S",
+    "shaft": "5mm",
+    "recommended_props": "6-7in props (derived)",
+    "max_thrust_g": 1826.0,
+    "price_usd": 32.49
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/axisflying-af2406-x-modular-motor-1860kv-2080kv"
+   ]
+  },
+  {
+   "type": "motor",
+   "brand": "Axisflying",
    "model": "Blackbird V3 2207",
    "slug": "axisflying-blackbird-v3-2207",
    "specs": {
-    "stator": "2207",
+    "stator": "2207.3",
     "kv_options": [
      1975
     ],
@@ -1235,13 +1257,13 @@
    "model": "Blackbird V4 2307",
    "slug": "axisflying-blackbird-v4-2307",
    "specs": {
-    "stator": "2307",
+    "stator": "2307.3",
     "kv_options": [
      1960,
      2060
     ],
     "weight_g": 34.74,
-    "shaft": "M5",
+    "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 25.99,
     "max_thrust_g": 1882.6,
@@ -2398,7 +2420,7 @@
    "model": "0702SE II ()",
    "slug": "betafpv-0702se-ii",
    "specs": {
-    "stator": "1210",
+    "stator": "0702",
     "kv_options": [
      23000,
      27000
@@ -2406,7 +2428,7 @@
     "weight_g": 1.45,
     "max_cells": "1S",
     "shaft": "1mm",
-    "recommended_props": "2-2.5in props (derived)",
+    "recommended_props": "31-40mm whoop props (derived)",
     "price_usd": 52.99
    },
    "_scraped_at": "2026-09-15",
@@ -2424,9 +2446,9 @@
     "kv_options": [
      19500
     ],
-    "weight_g": 1.8,
+    "weight_g": 1.83,
     "max_cells": "1S",
-    "shaft": "5mm",
+    "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
     "price_usd": 45.49
    },
@@ -2512,7 +2534,7 @@
     ],
     "weight_g": 1.59,
     "max_cells": "1S",
-    "shaft": "1.0mm",
+    "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
     "price_usd": 52.99
    },
@@ -2533,34 +2555,13 @@
     ],
     "weight_g": 1.5,
     "max_cells": "1S",
-    "shaft": "1.0mm",
+    "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
     "price_usd": 48.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-freestyle-0702-motor-4-pcs-25000kv"
-   ]
-  },
-  {
-   "type": "motor",
-   "brand": "BetaFPV",
-   "model": "Lava 2006",
-   "slug": "betafpv-lava-2006",
-   "specs": {
-    "stator": "2006",
-    "kv_options": [
-     2400
-    ],
-    "weight_g": 22.2,
-    "max_cells": "6S",
-    "shaft": "1.5mm",
-    "recommended_props": "2xM2 Ø5mm",
-    "price_usd": 23.99
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/betafpv-lava-2006-2400kv-motor"
    ]
   },
   {
@@ -2575,7 +2576,7 @@
     ],
     "weight_g": 1.5,
     "max_cells": "1S",
-    "shaft": "1.0mm",
+    "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
     "price_usd": 52.99
    },
@@ -2596,7 +2597,6 @@
     ],
     "weight_g": 55.0,
     "max_cells": "5-7S",
-    "shaft": "M5",
     "recommended_props": "6-7in props (derived)",
     "price_usd": 32.49,
     "max_thrust_g": 2717,
@@ -2867,6 +2867,7 @@
       "efficiency_gw": 2.52
      }
     ],
+    "shaft": "M5",
     "configuration": "12N14P",
     "dimensions_mm": "Ø30.3x36.5",
     "mount_mm": "16x16mm (M3)"
@@ -2890,7 +2891,6 @@
     ],
     "weight_g": 41.0,
     "max_cells": "4-6S",
-    "shaft": "M5",
     "recommended_props": "7-8in props (derived)",
     "price_usd": 32.49,
     "max_thrust_g": 2520,
@@ -3336,7 +3336,8 @@
       "thrust_g": 1999,
       "efficiency_gw": 2.2
      }
-    ]
+    ],
+    "shaft": "M5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3357,7 +3358,6 @@
     ],
     "weight_g": 54.0,
     "max_cells": "4-6S",
-    "shaft": "M5",
     "recommended_props": "7-8in props (derived)",
     "price_usd": 27.99
    },
@@ -3379,7 +3379,6 @@
     ],
     "weight_g": 65.0,
     "max_cells": "4-6S",
-    "shaft": "M5",
     "recommended_props": "M5",
     "price_usd": 25.99,
     "max_thrust_g": 2724,
@@ -3759,7 +3758,6 @@
     ],
     "weight_g": 38.0,
     "max_cells": "4-6S",
-    "shaft": "M5",
     "recommended_props": "6-7in props (derived)",
     "price_usd": 28.99,
     "max_thrust_g": 2130,
@@ -4294,6 +4292,7 @@
       "efficiency_gw": 1.95
      }
     ],
+    "shaft": "M5",
     "configuration": "12N14P",
     "dimensions_mm": "Ø30x35"
    },
@@ -4316,7 +4315,6 @@
     ],
     "weight_g": 76.5,
     "max_cells": "5-8S",
-    "shaft": "M5",
     "recommended_props": "7-8in props (derived)",
     "price_usd": 40.99,
     "max_thrust_g": 3307,
@@ -4675,6 +4673,7 @@
       "efficiency_gw": 2.0
      }
     ],
+    "shaft": "M5",
     "dimensions_mm": "Ø33.9x42",
     "mount_mm": "19x19mm (4-M3)"
    },
@@ -4697,7 +4696,6 @@
      2500
     ],
     "max_cells": "4-6S",
-    "shaft": "0.15mm",
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 29.99,
     "weight_g": 30.2
@@ -4720,7 +4718,6 @@
      2000
     ],
     "max_cells": "4-6S",
-    "shaft": "0.15mm",
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 24.99,
     "weight_g": 33.7
@@ -4769,7 +4766,6 @@
     ],
     "weight_g": 14.9,
     "max_cells": "4-6S",
-    "shaft": "M1",
     "recommended_props": "5in props (derived)",
     "price_usd": 23.99
    },
@@ -4812,7 +4808,6 @@
     ],
     "weight_g": 110.0,
     "max_cells": "5-8S",
-    "shaft": "M5",
     "recommended_props": "8in+ props (derived)",
     "price_usd": 55.49
    },
@@ -5496,27 +5491,6 @@
   },
   {
    "type": "motor",
-   "brand": "CAMERABUTTER",
-   "model": "Camera Butter Halo Cinematic 2406",
-   "slug": "camerabutter-camera-butter-halo-cinematic-2406",
-   "specs": {
-    "stator": "2406",
-    "kv_options": [
-     1800
-    ],
-    "weight_g": 29.0,
-    "max_cells": "5-6S",
-    "shaft": "5\n\nmm",
-    "recommended_props": "6-7in props (derived)",
-    "price_usd": 40.49
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/camera-butter-halo-cinematic-2406-1800kv-motor"
-   ]
-  },
-  {
-   "type": "motor",
    "brand": "CNHL",
    "model": "SpeedyPizza AxisFlying Diavola 2207",
    "slug": "cnhl-speedypizza-axisflying-diavola-2207",
@@ -5550,7 +5524,7 @@
     ],
     "weight_g": 10.5,
     "max_cells": "3-6S",
-    "shaft": "1.5\n\nmm",
+    "shaft": "1.5mm",
     "recommended_props": "3-4in props (derived)",
     "price_usd": 12.99
    },
@@ -5571,7 +5545,7 @@
     ],
     "weight_g": 16.3,
     "max_cells": "4-6S",
-    "shaft": "1.5mm",
+    "shaft": "3mm",
     "recommended_props": "5in props (derived)",
     "price_usd": 16.99
    },
@@ -5616,8 +5590,6 @@
      2400
     ],
     "weight_g": 31.9,
-    "max_cells": "3-6S",
-    "shaft": "4mm",
     "recommended_props": "5\"-5.5\"",
     "price_usd": 17.99,
     "max_thrust_g": 1800,
@@ -5887,7 +5859,9 @@
       "thrust_g": 1300,
       "efficiency_gw": 2.16
      }
-    ]
+    ],
+    "max_cells": "6S",
+    "shaft": "M5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5909,8 +5883,6 @@
      2400
     ],
     "weight_g": 29.4,
-    "max_cells": "3-6S",
-    "shaft": "4mm",
     "recommended_props": "5\"-5.5\"",
     "price_usd": 17.99,
     "max_thrust_g": 1760,
@@ -6180,7 +6152,9 @@
       "thrust_g": 1250,
       "efficiency_gw": 2.23
      }
-    ]
+    ],
+    "max_cells": "6S",
+    "shaft": "M5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6202,8 +6176,6 @@
      1700
     ],
     "weight_g": 49.6,
-    "max_cells": "3-6S",
-    "shaft": "5mm",
     "recommended_props": "6\"-7\"",
     "price_usd": 23.99,
     "max_thrust_g": 2580,
@@ -6473,7 +6445,9 @@
       "thrust_g": 1760,
       "efficiency_gw": 3.14
      }
-    ]
+    ],
+    "max_cells": "6S",
+    "shaft": "M5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6495,7 +6469,6 @@
     ],
     "weight_g": 53.6,
     "max_cells": "3-6S",
-    "shaft": "5mm",
     "recommended_props": "6\"-7\"",
     "price_usd": 28.99,
     "max_thrust_g": 2640,
@@ -6677,7 +6650,8 @@
       "thrust_g": 2640,
       "efficiency_gw": 2.0
      }
-    ]
+    ],
+    "shaft": "M5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -8116,7 +8090,6 @@
      640,
      900
     ],
-    "max_cells": "6-8S",
     "recommended_props": "10\"",
     "price_usd": 32.49,
     "max_thrust_g": 5270,
@@ -9444,6 +9417,7 @@
      }
     ],
     "weight_g": 107,
+    "max_cells": "12S",
     "shaft": "M5"
    },
    "_scraped_at": "2026-09-15",
@@ -11289,7 +11263,6 @@
     ],
     "weight_g": 29.4,
     "max_cells": "3-6S",
-    "shaft": "M5",
     "recommended_props": "5\"-5.5\"",
     "price_usd": 23.99,
     "max_thrust_g": 2220,
@@ -12023,7 +11996,6 @@
     ],
     "weight_g": 27.7,
     "max_cells": "3-4S",
-    "shaft": "M5",
     "recommended_props": "5\"-5.5\"",
     "price_usd": 23.99,
     "max_thrust_g": 1980,
@@ -12799,34 +12771,13 @@
     ],
     "weight_g": 4.5,
     "max_cells": "1S",
-    "shaft": "1.5\n\nmm",
+    "shaft": "1.5mm",
     "recommended_props": "2-2.5in props (derived)",
     "price_usd": 13.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/emax-th12025-11000kv-motor-for-nanohark-x"
-   ]
-  },
-  {
-   "type": "motor",
-   "brand": "FETTEC",
-   "model": "FM1404T 1404",
-   "slug": "fettec-fm1404t-1404",
-   "specs": {
-    "stator": "1404",
-    "kv_options": [
-     3850
-    ],
-    "weight_g": 11.0,
-    "max_cells": "3-4S",
-    "shaft": "1.5mm",
-    "recommended_props": "3-4in props (derived)",
-    "price_usd": 11.8
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/fettec-fm1404t-1404-3850kv-micro-motor-silver"
    ]
   },
   {
@@ -12863,12 +12814,13 @@
     ],
     "weight_g": 28.4,
     "max_cells": "4-6S",
-    "shaft": "M5",
     "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 27.99
+    "price_usd": 27.99,
+    "shaft": "5mm"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
+    "https://pyrodrone.com/products/five33-2207-champions-edition-2070kv-brushless-fpv-drone-motor-1-pc",
     "https://www.racedayquads.com/products/five33-headsup-2207-1960kv-motor",
     "https://www.racedayquads.com/products/headsup-five33-2207-motor",
     "https://www.racedayquads.com/products/headsup-five33-2207-motor-w-mr30"
@@ -12937,27 +12889,6 @@
    "sources": [
     "https://www.racedayquads.com/products/flash-hobby-king-2207-5-1900kv-motor-2",
     "https://www.racedayquads.com/products/flash-hobby-king-2207-5-2500kv-motor"
-   ]
-  },
-  {
-   "type": "motor",
-   "brand": "Flash Hobby",
-   "model": "King 2306.5",
-   "slug": "flash-hobby-king-2306-5",
-   "specs": {
-    "stator": "2306.5",
-    "kv_options": [
-     1900
-    ],
-    "weight_g": 36.0,
-    "max_cells": "3-6S",
-    "shaft": "5mm",
-    "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 19.49
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/flash-hobby-king-2306-5-1900kv-motor"
    ]
   },
   {
@@ -13037,7 +12968,7 @@
     ],
     "weight_g": 32.2,
     "max_cells": "6S",
-    "shaft": "5.0mm",
+    "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 26.49
    },
@@ -13083,7 +13014,6 @@
     ],
     "weight_g": 48.3,
     "max_cells": "4-6S",
-    "shaft": "5mm",
     "recommended_props": "7-8in props (derived)",
     "price_usd": 26.89
    },
@@ -13127,7 +13057,6 @@
     ],
     "weight_g": 3.3,
     "max_cells": "1-2S",
-    "shaft": "1.50MM",
     "recommended_props": "40-65mm whoop/micro props (derived)",
     "price_usd": 16.99
    },
@@ -13147,7 +13076,7 @@
      6000
     ],
     "weight_g": 5.0,
-    "max_cells": "4S",
+    "max_cells": "2-4S",
     "shaft": "1.5mm",
     "recommended_props": "3\"- 4\"",
     "price_usd": 16.99
@@ -13181,29 +13110,6 @@
   {
    "type": "motor",
    "brand": "Foxeer",
-   "model": "Datura 1507",
-   "slug": "foxeer-datura-1507",
-   "specs": {
-    "stator": "1507",
-    "kv_options": [
-     2750,
-     4150
-    ],
-    "weight_g": 16.5,
-    "max_cells": "3-4S",
-    "shaft": "5mm",
-    "recommended_props": "3-4in props (derived)",
-    "price_usd": 22.99
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/foxeer-datura-1507-2750kv-motor",
-    "https://www.racedayquads.com/products/foxeer-datura-1507-4150kv-micro-motor"
-   ]
-  },
-  {
-   "type": "motor",
-   "brand": "Foxeer",
    "model": "Datura 2105.5",
    "slug": "foxeer-datura-2105-5",
    "specs": {
@@ -13214,12 +13120,10 @@
     "weight_g": 20.5,
     "max_cells": "4-6S",
     "recommended_props": "5in props (derived)",
-    "price_usd": 23.99,
-    "shaft": "M3"
+    "price_usd": 23.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
-    "https://pyrodrone.com/products/foxeer-datura-2105-5-fpv-motor-2950kv",
     "https://www.racedayquads.com/products/foxeer-datura-2105-5-2650kv-motor"
    ]
   },
@@ -13258,55 +13162,13 @@
     ],
     "weight_g": 46.0,
     "max_cells": "4-6S",
-    "shaft": "M5",
+    "shaft": "4mm",
     "recommended_props": "7-8in props (derived)",
     "price_usd": 32.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-datura-2806-5-1750kv-motor"
-   ]
-  },
-  {
-   "type": "motor",
-   "brand": "FPVCYCLE",
-   "model": "FPV Cycle 25mm Imperial",
-   "slug": "fpvcycle-fpv-cycle-25mm-imperial",
-   "specs": {
-    "stator": "2150",
-    "kv_options": [
-     2150
-    ],
-    "weight_g": 35.0,
-    "max_cells": "4-6S",
-    "shaft": "5\n\nmm",
-    "recommended_props": "5in props (derived)",
-    "price_usd": 35.99
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/fpv-cycle-25mm-imperial-2150kv-motor"
-   ]
-  },
-  {
-   "type": "motor",
-   "brand": "FPVCYCLE",
-   "model": "FPV Cycle 28mm",
-   "slug": "fpvcycle-fpv-cycle-28mm",
-   "specs": {
-    "stator": "2809",
-    "kv_options": [
-     1300
-    ],
-    "weight_g": 53.0,
-    "max_cells": "6-8S",
-    "shaft": "M3",
-    "recommended_props": "7-8in props (derived)",
-    "price_usd": 34.99
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/fpv-cycle-28mm-1300kv-motor"
    ]
   },
   {
@@ -13321,7 +13183,7 @@
     ],
     "weight_g": 18.0,
     "max_cells": "2-4S",
-    "shaft": "3.0mm",
+    "shaft": "3mm",
     "recommended_props": "3-4in props (derived)",
     "price_usd": 15.99
    },
@@ -13396,23 +13258,64 @@
   {
    "type": "motor",
    "brand": "GEPRC",
-   "model": "SpeedX2 1002 - No Plug",
-   "slug": "geprc-speedx2-1002-no-plug",
+   "model": "SPEEDX2 2207E",
+   "slug": "geprc-speedx2-2207e",
    "specs": {
-    "stator": "1002",
+    "stator": "2207",
     "kv_options": [
-     18000,
-     25000
+     1960
     ],
-    "weight_g": 2.5,
-    "max_cells": "1S",
-    "shaft": "1.5mm",
-    "recommended_props": "40-65mm whoop/micro props (derived)",
-    "price_usd": 15.99
+    "weight_g": 34.5,
+    "max_cells": "6S",
+    "shaft": "5mm",
+    "recommended_props": "4-5 inch - 3 blade",
+    "price_usd": 17.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
-    "https://www.racedayquads.com/products/geprc-speedx2-1002-motor-no-plug-18000kv-25000kv"
+    "https://www.racedayquads.com/products/geprc-speedx2-2207e-motor-1960kv"
+   ]
+  },
+  {
+   "type": "motor",
+   "brand": "GEPRC",
+   "model": "SPEEDX2 2306E",
+   "slug": "geprc-speedx2-2306e",
+   "specs": {
+    "stator": "2306",
+    "kv_options": [
+     1860
+    ],
+    "weight_g": 33.3,
+    "max_cells": "6S",
+    "shaft": "5mm",
+    "recommended_props": "4-5inch",
+    "price_usd": 19.49
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/geprc-speedx2-2306e-motor-1860kv"
+   ]
+  },
+  {
+   "type": "motor",
+   "brand": "GEPRC",
+   "model": "SPEEDX2 2407E",
+   "slug": "geprc-speedx2-2407e",
+   "specs": {
+    "stator": "2407",
+    "kv_options": [
+     1750
+    ],
+    "weight_g": 39.0,
+    "max_cells": "6S",
+    "shaft": "5mm",
+    "recommended_props": "5-6inch",
+    "price_usd": 20.99
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/geprc-speedx2-2407e-motor-1750kv"
    ]
   },
   {
@@ -13427,7 +13330,6 @@
     ],
     "weight_g": 71.4,
     "max_cells": "6S",
-    "shaft": "5mm",
     "recommended_props": "7-8in props (derived)",
     "price_usd": 35.99
    },
@@ -13448,7 +13350,7 @@
     ],
     "weight_g": 1.7,
     "max_cells": "1S",
-    "shaft": "1.0mm",
+    "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
     "price_usd": 10.99
    },
@@ -13511,13 +13413,55 @@
     ],
     "weight_g": 8.7,
     "max_cells": "3-4S",
-    "shaft": "1.5\n\nmm",
+    "shaft": "1.5mm",
     "recommended_props": "3-4in props (derived)",
     "price_usd": 13.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-ex-1404-3500kv-motor-for-crux35"
+   ]
+  },
+  {
+   "type": "motor",
+   "brand": "Happymodel",
+   "model": "EX1103 (4 Hole)",
+   "slug": "happymodel-ex1103-4-hole",
+   "specs": {
+    "stator": "1103",
+    "kv_options": [
+     7000
+    ],
+    "weight_g": 3.7,
+    "shaft": "1.5mm",
+    "recommended_props": "40-65mm whoop/micro props (derived)",
+    "price_usd": 12.99,
+    "max_cells": "1-2S"
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://pyrodrone.com/products/happymodel-ex1103-11000kv-brushless-fpv-drone-motor-for-happymodel-baseline-1-pc",
+    "https://www.racedayquads.com/products/happymodel-1103-7000kv-motor-4-pack-for-larva-x"
+   ]
+  },
+  {
+   "type": "motor",
+   "brand": "Happymodel",
+   "model": "EX1202.5",
+   "slug": "happymodel-ex1202-5",
+   "specs": {
+    "stator": "1202.5",
+    "kv_options": [
+     6400
+    ],
+    "weight_g": 4.4,
+    "max_cells": "2-3S",
+    "recommended_props": "2-2.5in props (derived)",
+    "price_usd": 14.49
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/happymodel-ex1202-5-6400kv-micro-motor-for-crux3-cw"
    ]
   },
   {
@@ -13544,6 +13488,27 @@
   {
    "type": "motor",
    "brand": "Happymodel",
+   "model": "RS1102",
+   "slug": "happymodel-rs1102",
+   "specs": {
+    "stator": "1102",
+    "kv_options": [
+     10000
+    ],
+    "weight_g": 2.8,
+    "max_cells": "2S",
+    "shaft": "1.5mm",
+    "recommended_props": "40-65mm whoop/micro props (derived)",
+    "price_usd": 13.49
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/happymodel-rs1102-motor-10000kv"
+   ]
+  },
+  {
+   "type": "motor",
+   "brand": "Happymodel",
    "model": "SE 0702",
    "slug": "happymodel-se-0702",
    "specs": {
@@ -13554,9 +13519,9 @@
     ],
     "weight_g": 1.46,
     "max_cells": "1S",
-    "shaft": "1\n\nmm",
+    "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
-    "price_usd": 10.99
+    "price_usd": 11.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -13576,7 +13541,6 @@
     ],
     "weight_g": 1.9,
     "max_cells": "1S",
-    "shaft": "1\n\nmm",
     "recommended_props": "31-40mm whoop props (derived)",
     "price_usd": 11.99
    },
@@ -13604,6 +13568,28 @@
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-se0702-0702-28000kv-micro-motor-choose-rotation"
+   ]
+  },
+  {
+   "type": "motor",
+   "brand": "Happymodel",
+   "model": "SE0802 1-2S Whoop",
+   "slug": "happymodel-se0802-1-2s-whoop",
+   "specs": {
+    "stator": "0802",
+    "kv_options": [
+     16000
+    ],
+    "weight_g": 1.9,
+    "max_cells": "1-2S",
+    "shaft": "1mm",
+    "recommended_props": "31-40mm whoop props (derived)",
+    "price_usd": 10.99
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/happymodel-se0802-16000kv-1-2s-brushless-motor-4-pcs",
+    "https://www.racedayquads.com/products/happymodel-se0802-16000kv-1-2s-whoop-micro-motor-for-mobula7-cw"
    ]
   },
   {
@@ -13656,15 +13642,13 @@
     "kv_options": [
      11000
     ],
+    "weight_g": 4.47,
     "max_cells": "1-2S",
-    "shaft": "M1",
     "recommended_props": "2-3 inches",
-    "price_usd": 16.49,
-    "weight_g": 4.6
+    "price_usd": 16.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
-    "https://pyrodrone.com/products/hglrc-aeolus-1202-5-11600kv-micro-motor-red-black",
     "https://www.racedayquads.com/products/hglrc-specter-1202-5-11000kv-micro-motor-titanium-green"
    ]
   },
@@ -13702,7 +13686,6 @@
     ],
     "weight_g": 13.3,
     "max_cells": "4-6S",
-    "shaft": "M1",
     "recommended_props": "3-3.5 inch",
     "price_usd": 19.49
    },
@@ -13723,7 +13706,6 @@
     ],
     "weight_g": 34.2,
     "max_cells": "5-6S",
-    "shaft": "M5",
     "recommended_props": "5-6 inch",
     "price_usd": 23.99
    },
@@ -13744,7 +13726,7 @@
     ],
     "weight_g": 38.2,
     "max_cells": "6S",
-    "shaft": "15mm",
+    "shaft": "5mm",
     "recommended_props": "6-7in props (derived)",
     "price_usd": 28.99
    },
@@ -13765,7 +13747,7 @@
     ],
     "weight_g": 77.0,
     "max_cells": "8S",
-    "shaft": "15mm",
+    "shaft": "5mm",
     "recommended_props": "8in+ props (derived)",
     "price_usd": 55.49
    },
@@ -13786,8 +13768,8 @@
      2050
     ],
     "weight_g": 33.8,
-    "max_cells": "8S",
-    "shaft": "12.5mm",
+    "max_cells": "6S",
+    "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 28.99
    },
@@ -13800,7 +13782,7 @@
   {
    "type": "motor",
    "brand": "iFlight",
-   "model": "Xing 1303",
+   "model": "XING 1303",
    "slug": "iflight-xing-1303",
    "specs": {
     "stator": "1303",
@@ -13808,10 +13790,10 @@
      5000
     ],
     "weight_g": 6.5,
-    "max_cells": "2-4S",
+    "max_cells": "3-4S",
     "shaft": "1.5mm",
     "recommended_props": "2-2.5in props (derived)",
-    "price_usd": 17.99
+    "price_usd": 19.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -13851,7 +13833,7 @@
     ],
     "weight_g": 33.4,
     "max_cells": "2-4S",
-    "shaft": "5\n\nmm",
+    "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 20.99
    },
@@ -13871,14 +13853,15 @@
      1300,
      1800
     ],
-    "weight_g": 49.5,
-    "max_cells": "6S",
-    "shaft": "15.5mm",
+    "shaft": "5mm",
     "recommended_props": "7-8in props (derived)",
-    "price_usd": 40.99
+    "price_usd": 40.99,
+    "weight_g": 49.5,
+    "max_cells": "2-6S"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
+    "https://pyrodrone.com/products/iflight-xing-x2806-5-fpv-nextgen-motor-1300kv",
     "https://www.racedayquads.com/products/iflight-xing-2806-5-race-motor-1300kv-1800kv"
    ]
   },
@@ -13920,7 +13903,7 @@
     ],
     "weight_g": 33.8,
     "max_cells": "2-6S",
-    "shaft": "5\n\nmm",
+    "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 19.49
    },
@@ -13966,10 +13949,11 @@
      1750,
      1855
     ],
-    "weight_g": 31.6,
-    "max_cells": "4S",
+    "weight_g": 30.5,
+    "max_cells": "6S",
+    "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 28.99
+    "price_usd": 26.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -14026,26 +14010,24 @@
   },
   {
    "type": "motor",
-   "brand": "iFlight",
-   "model": "XING2 3106",
-   "slug": "iflight-xing2-3106",
+   "brand": "Lumenier",
+   "model": "TOURQ 3120",
+   "slug": "lumenier-tourq-3120",
    "specs": {
-    "stator": "3106",
+    "stator": "3120",
     "kv_options": [
-     1200,
-     1500
+     500
     ],
-    "weight_g": 58.0,
+    "weight_g": 143.0,
+    "max_cells": "8-12S",
     "shaft": "5mm",
     "recommended_props": "8in+ props (derived)",
-    "price_usd": 51.99,
-    "max_cells": "4S"
+    "max_thrust_g": 5824.0,
+    "price_usd": 38.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
-    "https://pyrodrone.com/products/iflight-xing2-2405-1500kv-motor",
-    "https://www.racedayquads.com/products/iflight-xing2-3106-1200kv-motor",
-    "https://www.racedayquads.com/products/iflight-xing2-3106-1500kv-motor"
+    "https://www.racedayquads.com/products/lumenier-tourq-3120-fpv-motor-500kv"
    ]
   },
   {
@@ -14060,7 +14042,7 @@
     ],
     "weight_g": 37.0,
     "max_cells": "3-8S",
-    "shaft": "4mm",
+    "shaft": "5mm",
     "recommended_props": "6-7in props (derived)",
     "price_usd": 29.99
    },
@@ -14081,7 +14063,7 @@
     ],
     "weight_g": 45.0,
     "max_cells": "3-8S",
-    "shaft": "4.8mm",
+    "shaft": "5mm",
     "recommended_props": "7-8in props (derived)",
     "price_usd": 24.99
    },
@@ -14104,7 +14086,7 @@
     ],
     "weight_g": 45.0,
     "max_cells": "3-8S",
-    "shaft": "4.8mm",
+    "shaft": "5mm",
     "recommended_props": "7-8in props (derived)",
     "price_usd": 37.99
    },
@@ -14126,7 +14108,7 @@
     ],
     "weight_g": 71.0,
     "max_cells": "3-8S",
-    "shaft": "4.8mm",
+    "shaft": "5mm",
     "recommended_props": "7-8in props (derived)",
     "price_usd": 44.49
    },
@@ -14148,7 +14130,7 @@
     ],
     "weight_g": 98.0,
     "max_cells": "4-6S",
-    "shaft": "4.8mm",
+    "shaft": "5mm",
     "recommended_props": "8in+ props (derived)",
     "price_usd": 51.99
    },
@@ -14235,7 +14217,7 @@
     ],
     "weight_g": 32.2,
     "max_cells": "6S",
-    "shaft": "5.0mm",
+    "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 20.99
    },
@@ -14555,27 +14537,6 @@
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/rcinpower-gts-v2-1207-5000kv-motor"
-   ]
-  },
-  {
-   "type": "motor",
-   "brand": "RCINPOWER",
-   "model": "GTS-V2 1207 - Gunmetal/Red",
-   "slug": "rcinpower-gts-v2-1207-gunmetal-red",
-   "specs": {
-    "stator": "1207",
-    "kv_options": [
-     5000
-    ],
-    "weight_g": 9.4,
-    "max_cells": "5S",
-    "shaft": "1.5mm",
-    "recommended_props": "2-2.5in props (derived)",
-    "price_usd": 16.49
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/rcinpower-gts-v2-1207-5000kv-motor-gunmetal-red"
    ]
   },
   {
@@ -15018,7 +14979,7 @@
    "model": "GTS-V3 2105 Plus",
    "slug": "rcinpower-gts-v3-2105-plus",
    "specs": {
-    "stator": "2105",
+    "stator": "2105.5",
     "kv_options": [
      2950
     ],
@@ -15039,7 +15000,7 @@
    "model": "GTS-V3 2107 Plus",
    "slug": "rcinpower-gts-v3-2107-plus",
    "specs": {
-    "stator": "2107",
+    "stator": "2107.5",
     "kv_options": [
      1980,
      2080,
@@ -15674,7 +15635,6 @@
     ],
     "weight_g": 30.5,
     "max_cells": "4-5S",
-    "shaft": "4mm",
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 23.99
    },
@@ -15946,7 +15906,6 @@
     ],
     "weight_g": 17.0,
     "max_cells": "3-6S",
-    "shaft": "5mm",
     "recommended_props": "3-4in props (derived)",
     "price_usd": 12.59
    },
@@ -15969,7 +15928,6 @@
     ],
     "weight_g": 37.0,
     "max_cells": "4-6S",
-    "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 14.29
    },
@@ -15992,7 +15950,6 @@
     ],
     "weight_g": 37.0,
     "max_cells": "3-6S",
-    "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 17.39
    },
@@ -16041,27 +15998,6 @@
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/rush-fpv-reactor-training-2207-1960kv-motor"
-   ]
-  },
-  {
-   "type": "motor",
-   "brand": "RUSHFPV",
-   "model": "Vroom Farouk 2505.5",
-   "slug": "rushfpv-vroom-farouk-2505-5",
-   "specs": {
-    "stator": "2505.5",
-    "kv_options": [
-     2000
-    ],
-    "weight_g": 34.0,
-    "max_cells": "6S",
-    "shaft": "5mm",
-    "recommended_props": "5inch",
-    "price_usd": 33.99
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/rush-fpv-vroom-farouk-2505-5-2000kv-motor"
    ]
   },
   {
@@ -16134,6 +16070,51 @@
   {
    "type": "motor",
    "brand": "T-Motor",
+   "model": "F1203",
+   "slug": "t-motor-f1203",
+   "specs": {
+    "stator": "1203",
+    "kv_options": [
+     7000
+    ],
+    "max_cells": "2-3S",
+    "shaft": "1.5mm",
+    "recommended_props": "2-2.5in props (derived)",
+    "price_usd": 18.99,
+    "weight_g": 5.25
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://pyrodrone.com/products/t-motor-f1203-7000kv-motor",
+    "https://www.racedayquads.com/products/t-motor-1203-7000kv-micro-motor"
+   ]
+  },
+  {
+   "type": "motor",
+   "brand": "T-Motor",
+   "model": "F1204",
+   "slug": "t-motor-f1204",
+   "specs": {
+    "stator": "1204",
+    "kv_options": [
+     5000,
+     6500
+    ],
+    "weight_g": 6.1,
+    "max_cells": "2-3S",
+    "shaft": "1.5mm",
+    "recommended_props": "2-2.5in props (derived)",
+    "price_usd": 19.99
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/t-motor-f1204-5000kv-motor",
+    "https://www.racedayquads.com/products/t-motor-f1204-6500kv-motor"
+   ]
+  },
+  {
+   "type": "motor",
+   "brand": "T-Motor",
    "model": "F1404",
    "slug": "t-motor-f1404",
    "specs": {
@@ -16164,14 +16145,15 @@
     "kv_options": [
      3950
     ],
-    "weight_g": 12.7,
-    "max_cells": "3-4S",
-    "shaft": "1.5\n\nmm",
+    "weight_g": 14.95,
+    "shaft": "1.5mm",
     "recommended_props": "3-4in props (derived)",
-    "price_usd": 18.89
+    "price_usd": 18.89,
+    "max_cells": "3-4S"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
+    "https://pyrodrone.com/products/t-motor-f1408-motor-titanium-red-2800kv-9x9mm-mounting",
     "https://www.racedayquads.com/products/t-motor-f1408-1408-3950kv-motor"
    ]
   },
@@ -17322,15 +17304,16 @@
      2150,
      2200
     ],
-    "weight_g": 55.0,
-    "max_cells": "6S",
-    "shaft": "M5",
+    "weight_g": 28.56,
+    "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
     "max_thrust_g": 2136.0,
-    "price_usd": 37.99
+    "price_usd": 37.99,
+    "max_cells": "6S"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
+    "https://pyrodrone.com/products/t-motor-velox-v3-2207-1750kv-motor",
     "https://www.racedayquads.com/products/t-motor-f50-2207-5-racing-motor-2150kv-2200kv"
    ]
   },
@@ -20222,27 +20205,6 @@
   {
    "type": "motor",
    "brand": "T-Motor",
-   "model": "F80 Pro",
-   "slug": "t-motor-f80-pro",
-   "specs": {
-    "stator": "1900",
-    "kv_options": [
-     1900
-    ],
-    "weight_g": 39.7,
-    "max_cells": "3-6S",
-    "shaft": "4mm",
-    "recommended_props": "4-5in props (derived)",
-    "price_usd": 33.99
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/t-motor-f80-pro-1900kv-racing-motor"
-   ]
-  },
-  {
-   "type": "motor",
-   "brand": "T-Motor",
    "model": "F90 2806.5",
    "slug": "t-motor-f90-2806-5",
    "specs": {
@@ -20272,7 +20234,7 @@
      1750
     ],
     "weight_g": 36.6,
-    "max_cells": "1S",
+    "max_cells": "6S",
     "shaft": "4mm",
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 37.99
@@ -20293,7 +20255,7 @@
      1750
     ],
     "weight_g": 33.4,
-    "max_cells": "1S",
+    "max_cells": "6S",
     "shaft": "4mm",
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 36.99
@@ -20522,9 +20484,9 @@
     ],
     "weight_g": 13.78,
     "max_cells": "3-6S",
-    "shaft": "1.5mm",
     "recommended_props": "4-5in props (derived)",
     "price_usd": 32.49,
+    "shaft": "1.5mm",
     "max_thrust_g": 618.8,
     "thrust_conditions": "T-Motor bench, four 4in props; 2400 KV on 6S, 3400 KV on 4S",
     "thrust_table": [
@@ -20972,6 +20934,7 @@
    },
    "_scraped_at": "2026-09-15",
    "sources": [
+    "https://pyrodrone.com/products/t-motor-pacer-p1804-3400kv-ultra-light-freestyle-brushless-motor",
     "https://www.racedayquads.com/products/t-motor-p1804-2400kv-motor-choose-version",
     "https://www.tmotorhobby.com/goods-1250.html"
    ],
@@ -22007,55 +21970,6 @@
   {
    "type": "motor",
    "brand": "T-Motor",
-   "model": "Pacer V3-2 2306",
-   "slug": "t-motor-pacer-v3-2-2306",
-   "specs": {
-    "stator": "2306",
-    "kv_options": [
-     1750,
-     1950,
-     2550
-    ],
-    "max_cells": "6S",
-    "shaft": "4mm",
-    "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 29.99,
-    "weight_g": 37.3
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://pyrodrone.com/products/t-motor-velox-v3-2306-1950kv-motor",
-    "https://www.racedayquads.com/products/t-motor-pacer-v3-2306-1750kv-motor",
-    "https://www.racedayquads.com/products/t-motor-pacer-v3-2306-1950kv-motor",
-    "https://www.racedayquads.com/products/t-motor-pacer-v3-2306-2550kv-motor"
-   ]
-  },
-  {
-   "type": "motor",
-   "brand": "T-Motor",
-   "model": "Pacer V4 P2406 Juicy 2406",
-   "slug": "t-motor-pacer-v4-p2406-juicy-2406",
-   "specs": {
-    "stator": "2406",
-    "kv_options": [
-     2060
-    ],
-    "max_cells": "1S",
-    "shaft": "M5",
-    "recommended_props": "6-7in props (derived)",
-    "max_thrust_g": 1993.0,
-    "price_usd": 37.99,
-    "weight_g": 50.0
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://pyrodrone.com/products/t-motor-pacer-v4-p2406-5-6-juicy-sbang-acro-motor-2060kv-1",
-    "https://www.racedayquads.com/products/t-motor-pacer-v4-p2406-juicy-2406-motor-2060kv"
-   ]
-  },
-  {
-   "type": "motor",
-   "brand": "T-Motor",
    "model": "Slatts 2306.3",
    "slug": "t-motor-slatts-2306-3",
    "specs": {
@@ -22079,23 +21993,93 @@
   {
    "type": "motor",
    "brand": "T-Motor",
+   "model": "V2808",
+   "slug": "t-motor-v2808",
+   "specs": {
+    "stator": "2808",
+    "kv_options": [
+     1300,
+     1500
+    ],
+    "weight_g": 60.5,
+    "recommended_props": "7-8in props (derived)",
+    "price_usd": 34.99,
+    "max_cells": "6S",
+    "shaft": "5mm"
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://pyrodrone.com/products/t-motor-velox-victory-v2808-cinematic-fpv-drone-motor-1300kv",
+    "https://www.racedayquads.com/products/t-motor-v2808-1300kv-motor",
+    "https://www.racedayquads.com/products/t-motor-v2808-1500kv-motor"
+   ]
+  },
+  {
+   "type": "motor",
+   "brand": "T-Motor",
    "model": "V3008",
    "slug": "t-motor-v3008",
    "specs": {
-    "stator": "1155",
+    "stator": "3008",
     "kv_options": [
      1155
     ],
     "weight_g": 61.1,
-    "shaft": "4\n\nmm",
-    "recommended_props": "40-65mm whoop/micro props (derived)",
+    "recommended_props": "8in+ props (derived)",
     "price_usd": 39.99,
-    "max_cells": "5-6S"
+    "max_cells": "6S",
+    "shaft": "5mm"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
-    "https://pyrodrone.com/products/t-motor-cine66-cinematic-motor-1155kv",
+    "https://pyrodrone.com/products/t-motor-velox-v3008-cinematic-fpv-drone-motor-1350kv",
     "https://www.racedayquads.com/products/copy-of-t-motor-v3008-1155kv-motor"
+   ]
+  },
+  {
+   "type": "motor",
+   "brand": "T-Motor",
+   "model": "V3115 3115",
+   "slug": "t-motor-v3115-3115",
+   "specs": {
+    "stator": "3115",
+    "kv_options": [
+     640,
+     900
+    ],
+    "weight_g": 113.1,
+    "max_cells": "3-12S",
+    "recommended_props": "8in+ props (derived)",
+    "price_usd": 62.99,
+    "shaft": "5mm"
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://pyrodrone.com/products/t-motor-velox-v3115-cinematic-fpv-drone-motor-900kv",
+    "https://www.racedayquads.com/products/t-motor-v3115-3115-640kv-motor",
+    "https://www.racedayquads.com/products/t-motor-v3115-3115-900kv-motor"
+   ]
+  },
+  {
+   "type": "motor",
+   "brand": "T-Motor",
+   "model": "V3120 3120",
+   "slug": "t-motor-v3120-3120",
+   "specs": {
+    "stator": "3120",
+    "kv_options": [
+     700
+    ],
+    "weight_g": 148.1,
+    "max_cells": "3-12S",
+    "recommended_props": "8in+ props (derived)",
+    "price_usd": 71.99,
+    "shaft": "5mm"
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://pyrodrone.com/products/t-motor-velox-v3120-cinematic-fpv-drone-motor-700kv",
+    "https://www.racedayquads.com/products/t-motor-v3120-3120-700kv-motor"
    ]
   },
   {
@@ -23639,8 +23623,8 @@
      1950,
      2400
     ],
-    "weight_g": 32.0,
-    "max_cells": "4S",
+    "weight_g": 38.1,
+    "max_cells": "5-6S",
     "shaft": "4mm",
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 17.99
@@ -23710,14 +23694,15 @@
      1750,
      1950
     ],
-    "weight_g": 9.0,
-    "max_cells": "3-6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 187.99
+    "price_usd": 187.99,
+    "weight_g": 37.3,
+    "max_cells": "6S"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
+    "https://pyrodrone.com/products/t-motor-velox-v3-2207-1750kv-motor",
     "https://www.racedayquads.com/products/t-motor-velox-v2207-v3-5-power-system"
    ]
   },
@@ -23750,24 +23735,104 @@
   },
   {
    "type": "motor",
-   "brand": "T-Motor",
-   "model": "VELOX V2306 V3 5\" Power System",
-   "slug": "t-motor-velox-v2306-v3-5-power-system",
+   "brand": "TBS",
+   "model": "Ethix Flat Rats V2 1507",
+   "slug": "tbs-ethix-flat-rats-v2-1507",
    "specs": {
-    "stator": "2306",
+    "stator": "1507",
     "kv_options": [
-     1750,
-     1950
+     2800
     ],
-    "weight_g": 9.0,
-    "max_cells": "3-6S",
-    "shaft": "5mm",
-    "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 187.99
+    "weight_g": 15.8,
+    "max_cells": "6S",
+    "recommended_props": "3-4in props (derived)",
+    "price_usd": 21.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
-    "https://www.racedayquads.com/products/t-motor-velox-v2306-v3-5-power-system"
+    "https://www.racedayquads.com/products/ethix-flat-rats-v2-1507-2800kv-motor"
+   ]
+  },
+  {
+   "type": "motor",
+   "brand": "TBS",
+   "model": "Ethix Konasty Moon Boot V2 2507",
+   "slug": "tbs-ethix-konasty-moon-boot-v2-2507",
+   "specs": {
+    "stator": "2507",
+    "kv_options": [
+     1750,
+     2200
+    ],
+    "weight_g": 41.7,
+    "max_cells": "6S",
+    "recommended_props": "6-7in props (derived)",
+    "price_usd": 32.49
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/ethix-konasty-moon-boot-v2-2507-1750kv-motor-army-green",
+    "https://www.racedayquads.com/products/ethix-konasty-moon-boot-v2-2507-2200kv-motor-army-green"
+   ]
+  },
+  {
+   "type": "motor",
+   "brand": "TBS",
+   "model": "Ethix Mr Steele Silk V5 2307",
+   "slug": "tbs-ethix-mr-steele-silk-v5-2307",
+   "specs": {
+    "stator": "2307",
+    "kv_options": [
+     1750
+    ],
+    "weight_g": 36.5,
+    "max_cells": "6S",
+    "recommended_props": "5-5.1in props (derived)",
+    "price_usd": 33.99
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/ethix-mr-steele-silk-v5-2307-1750kv-motor-choose-color"
+   ]
+  },
+  {
+   "type": "motor",
+   "brand": "TBS",
+   "model": "Ethix Mr Steele Stout V3 2306 Legacy",
+   "slug": "tbs-ethix-mr-steele-stout-v3-2306-legacy",
+   "specs": {
+    "stator": "2306",
+    "kv_options": [
+     1750
+    ],
+    "weight_g": 30.4,
+    "max_cells": "6S",
+    "recommended_props": "5-5.1in props (derived)",
+    "price_usd": 24.99
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/draft-ethix-mr-steele-stout-motor-v3-legacy-1750kv"
+   ]
+  },
+  {
+   "type": "motor",
+   "brand": "TBS",
+   "model": "Ethix Mr Steele Stout V5 2307",
+   "slug": "tbs-ethix-mr-steele-stout-v5-2307",
+   "specs": {
+    "stator": "2307",
+    "kv_options": [
+     1950
+    ],
+    "weight_g": 36.5,
+    "max_cells": "6S",
+    "recommended_props": "5-5.1in props (derived)",
+    "price_usd": 33.99
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/ethix-mr-steele-stout-v5-2307-1950kv-motor-blue"
    ]
   },
   {
@@ -23783,7 +23848,7 @@
     ],
     "weight_g": 13.8,
     "max_cells": "2-4S",
-    "shaft": "1.5mm",
+    "shaft": "3mm",
     "recommended_props": "4in props (derived)",
     "price_usd": 18.99
    },
@@ -23845,7 +23910,7 @@
     ],
     "weight_g": 30.0,
     "max_cells": "6S",
-    "shaft": "12.6mm",
+    "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 20.49
    },
@@ -23866,7 +23931,7 @@
     ],
     "weight_g": 72.4,
     "max_cells": "6S",
-    "shaft": "15.6mm",
+    "shaft": "5mm",
     "recommended_props": "7-8in props (derived)",
     "price_usd": 29.99
    },
@@ -23908,7 +23973,7 @@
     ],
     "weight_g": 1.52,
     "max_cells": "1S",
-    "shaft": "4.2mm",
+    "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
     "price_usd": 43.99
    },
@@ -23930,7 +23995,7 @@
     ],
     "weight_g": 1.8,
     "max_cells": "2S",
-    "shaft": "4.2mm",
+    "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
     "price_usd": 24.2
    },
@@ -24052,7 +24117,7 @@
     ],
     "weight_g": 36.3,
     "max_cells": "4S",
-    "shaft": "13.1mm",
+    "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 20.99
    },
@@ -24096,7 +24161,7 @@
     ],
     "weight_g": 33.3,
     "max_cells": "6S",
-    "shaft": "12.2mm",
+    "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 24.99
    },
@@ -24119,7 +24184,7 @@
     ],
     "weight_g": 33.2,
     "max_cells": "6S",
-    "shaft": "12.2mm",
+    "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 25.49
    },
@@ -24140,7 +24205,7 @@
     ],
     "weight_g": 31.0,
     "max_cells": "6S",
-    "shaft": "11.4mm",
+    "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 23.49
    },
@@ -24167,6 +24232,28 @@
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/vci-hobby-zoe-2010-motor-1911kv"
+   ]
+  },
+  {
+   "type": "motor",
+   "brand": "XILO",
+   "model": "Stealth 1404",
+   "slug": "xilo-stealth-1404",
+   "specs": {
+    "stator": "1404",
+    "kv_options": [
+     4500
+    ],
+    "weight_g": 9.2,
+    "max_cells": "4S",
+    "shaft": "1.5mm",
+    "recommended_props": "3-4in props (derived)",
+    "max_thrust_g": 351.0,
+    "price_usd": 17.99
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/xilo-stealth-1404-motor-4500kv"
    ]
   }
  ]
