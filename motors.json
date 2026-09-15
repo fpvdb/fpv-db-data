@@ -14596,13 +14596,242 @@
     "max_cells": "1S",
     "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
-    "price_usd": 15.99
+    "price_usd": 15.99,
+    "max_thrust_g": 49,
+    "thrust_conditions": "RCinPower bench, 1S (4.2 V), five whoop props per KV, 50% and 100% throttle; 23000/27000 KV; no RPM published",
+    "thrust_table": [
+     {
+      "kv": 23000,
+      "prop": "Gemfan 1219*3",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 4.2,
+      "current_a": 3.1,
+      "rpm": null,
+      "thrust_g": 22,
+      "efficiency_gw": 1.69
+     },
+     {
+      "kv": 23000,
+      "prop": "Gemfan 1219*3",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 4.2,
+      "current_a": 4.7,
+      "rpm": null,
+      "thrust_g": 37,
+      "efficiency_gw": 1.874
+     },
+     {
+      "kv": 23000,
+      "prop": "Gemfan 1220*4",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 4.2,
+      "current_a": 3.2,
+      "rpm": null,
+      "thrust_g": 23,
+      "efficiency_gw": 1.711
+     },
+     {
+      "kv": 23000,
+      "prop": "Gemfan 1220*4",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 4.2,
+      "current_a": 4.8,
+      "rpm": null,
+      "thrust_g": 39,
+      "efficiency_gw": 1.935
+     },
+     {
+      "kv": 23000,
+      "prop": "Gemfan 35mm*3",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 4.2,
+      "current_a": 3.6,
+      "rpm": null,
+      "thrust_g": 29,
+      "efficiency_gw": 1.918
+     },
+     {
+      "kv": 23000,
+      "prop": "Gemfan 35mm*3",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 4.2,
+      "current_a": 5.0,
+      "rpm": null,
+      "thrust_g": 42,
+      "efficiency_gw": 2.0
+     },
+     {
+      "kv": 23000,
+      "prop": "Gemfan 35mm*4",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 4.2,
+      "current_a": 3.6,
+      "rpm": null,
+      "thrust_g": 32,
+      "efficiency_gw": 2.116
+     },
+     {
+      "kv": 23000,
+      "prop": "Gemfan 35mm*4",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 4.2,
+      "current_a": 5.2,
+      "rpm": null,
+      "thrust_g": 43,
+      "efficiency_gw": 1.969
+     },
+     {
+      "kv": 23000,
+      "prop": "Gemfan 1635*3",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 4.2,
+      "current_a": 4.3,
+      "rpm": null,
+      "thrust_g": 31,
+      "efficiency_gw": 1.717
+     },
+     {
+      "kv": 23000,
+      "prop": "Gemfan 1635*3",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 4.2,
+      "current_a": 5.9,
+      "rpm": null,
+      "thrust_g": 42,
+      "efficiency_gw": 1.695
+     },
+     {
+      "kv": 27000,
+      "prop": "Gemfan 1219*3",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 4.2,
+      "current_a": 3.6,
+      "rpm": null,
+      "thrust_g": 25,
+      "efficiency_gw": 1.653
+     },
+     {
+      "kv": 27000,
+      "prop": "Gemfan 1219*3",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 4.2,
+      "current_a": 5.4,
+      "rpm": null,
+      "thrust_g": 42,
+      "efficiency_gw": 1.852
+     },
+     {
+      "kv": 27000,
+      "prop": "Gemfan 1220*4",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 4.2,
+      "current_a": 3.7,
+      "rpm": null,
+      "thrust_g": 26,
+      "efficiency_gw": 1.673
+     },
+     {
+      "kv": 27000,
+      "prop": "Gemfan 1220*4",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 4.2,
+      "current_a": 5.5,
+      "rpm": null,
+      "thrust_g": 45,
+      "efficiency_gw": 1.948
+     },
+     {
+      "kv": 27000,
+      "prop": "Gemfan 35mm*3",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 4.2,
+      "current_a": 4.1,
+      "rpm": null,
+      "thrust_g": 33,
+      "efficiency_gw": 1.916
+     },
+     {
+      "kv": 27000,
+      "prop": "Gemfan 35mm*3",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 4.2,
+      "current_a": 5.7,
+      "rpm": null,
+      "thrust_g": 48,
+      "efficiency_gw": 2.005
+     },
+     {
+      "kv": 27000,
+      "prop": "Gemfan 35mm*4",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 4.2,
+      "current_a": 4.1,
+      "rpm": null,
+      "thrust_g": 37,
+      "efficiency_gw": 2.149
+     },
+     {
+      "kv": 27000,
+      "prop": "Gemfan 35mm*4",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 4.2,
+      "current_a": 6.0,
+      "rpm": null,
+      "thrust_g": 49,
+      "efficiency_gw": 1.944
+     },
+     {
+      "kv": 27000,
+      "prop": "Gemfan 1635*3",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 4.2,
+      "current_a": 4.9,
+      "rpm": null,
+      "thrust_g": 36,
+      "efficiency_gw": 1.749
+     },
+     {
+      "kv": 27000,
+      "prop": "Gemfan 1635*3",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 4.2,
+      "current_a": 6.8,
+      "rpm": null,
+      "thrust_g": 49,
+      "efficiency_gw": 1.716
+     }
+    ],
+    "configuration": "9N12P",
+    "dimensions_mm": "9.6x9.6",
+    "resistance_mohm": "206 / 175 (23000/27000KV)"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/rcinpower-gts-v3-0703-23000kv-micro-motor",
-    "https://www.racedayquads.com/products/rcinpower-gts-v3-0703-27000kv-micro-motor"
-   ]
+    "https://www.racedayquads.com/products/rcinpower-gts-v3-0703-27000kv-micro-motor",
+    "https://www.rcinpower.com/G-SERIES/66.html"
+   ],
+   "note": "A 1S whoop motor: 9N12P, 7x3 mm stator, 1 mm shaft (1.5 mm inside), 9.6x9.6 mm, 1.85 g with plug. Internal resistance 206/175 mOhm for 23000/27000 KV. Temperature after 3 s at full throttle reaches 67-79 degC. The sheet labels its power and current maxima \"3S\" but prints 1S figures: they repeat the top row of its own 4.2 V table (24.8 W / 5.9 A at 23000 KV, 28.6 W / 6.8 A at 27000 KV)"
   },
   {
    "type": "motor",
@@ -14918,14 +15147,353 @@
     "max_cells": "1-2S",
     "shaft": "1.5mm",
     "recommended_props": "40-65mm whoop/micro props (derived)",
-    "price_usd": 15.99
+    "price_usd": 15.99,
+    "max_thrust_g": 115,
+    "thrust_conditions": "RCinPower bench, 2S (7.4 V) on the 14000 KV and 1S (3.7 V) on the 19000/22000 KV, five props per KV, 50% and 100% throttle; no RPM published",
+    "thrust_table": [
+     {
+      "kv": 14000,
+      "prop": "Gemfan 1610R*2",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 7.4,
+      "current_a": 1.4,
+      "rpm": null,
+      "thrust_g": 39,
+      "efficiency_gw": 3.764
+     },
+     {
+      "kv": 14000,
+      "prop": "Gemfan 1610R*2",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 7.4,
+      "current_a": 5.0,
+      "rpm": null,
+      "thrust_g": 89,
+      "efficiency_gw": 2.405
+     },
+     {
+      "kv": 14000,
+      "prop": "Gemfan 1635R*3",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 7.4,
+      "current_a": 1.7,
+      "rpm": null,
+      "thrust_g": 40,
+      "efficiency_gw": 3.18
+     },
+     {
+      "kv": 14000,
+      "prop": "Gemfan 1635R*3",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 7.4,
+      "current_a": 6.0,
+      "rpm": null,
+      "thrust_g": 92,
+      "efficiency_gw": 2.072
+     },
+     {
+      "kv": 14000,
+      "prop": "Gemfan 1635R*4",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 7.4,
+      "current_a": 1.9,
+      "rpm": null,
+      "thrust_g": 43,
+      "efficiency_gw": 3.058
+     },
+     {
+      "kv": 14000,
+      "prop": "Gemfan 1635R*4",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 7.4,
+      "current_a": 6.6,
+      "rpm": null,
+      "thrust_g": 98,
+      "efficiency_gw": 2.007
+     },
+     {
+      "kv": 14000,
+      "prop": "Gemfan 2015R*2",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 7.4,
+      "current_a": 2.2,
+      "rpm": null,
+      "thrust_g": 53,
+      "efficiency_gw": 3.256
+     },
+     {
+      "kv": 14000,
+      "prop": "Gemfan 2015R*2",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 7.4,
+      "current_a": 7.0,
+      "rpm": null,
+      "thrust_g": 115,
+      "efficiency_gw": 2.22
+     },
+     {
+      "kv": 14000,
+      "prop": "Gemfan 2023R*3",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 7.4,
+      "current_a": 2.8,
+      "rpm": null,
+      "thrust_g": 51,
+      "efficiency_gw": 2.461
+     },
+     {
+      "kv": 14000,
+      "prop": "Gemfan 2023R*3",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 7.4,
+      "current_a": 9.0,
+      "rpm": null,
+      "thrust_g": 93,
+      "efficiency_gw": 1.396
+     },
+     {
+      "kv": 19000,
+      "prop": "Gemfan 1610R*2",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 3.7,
+      "current_a": 1.8,
+      "rpm": null,
+      "thrust_g": 28,
+      "efficiency_gw": 4.204
+     },
+     {
+      "kv": 19000,
+      "prop": "Gemfan 1610R*2",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 3.7,
+      "current_a": 6.6,
+      "rpm": null,
+      "thrust_g": 62,
+      "efficiency_gw": 2.539
+     },
+     {
+      "kv": 19000,
+      "prop": "Gemfan 1635R*3",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 3.7,
+      "current_a": 2.1,
+      "rpm": null,
+      "thrust_g": 27,
+      "efficiency_gw": 3.475
+     },
+     {
+      "kv": 19000,
+      "prop": "Gemfan 1635R*3",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 3.7,
+      "current_a": 8.0,
+      "rpm": null,
+      "thrust_g": 64,
+      "efficiency_gw": 2.162
+     },
+     {
+      "kv": 19000,
+      "prop": "Gemfan 1635R*4",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 3.7,
+      "current_a": 2.5,
+      "rpm": null,
+      "thrust_g": 30,
+      "efficiency_gw": 3.243
+     },
+     {
+      "kv": 19000,
+      "prop": "Gemfan 1635R*4",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 3.7,
+      "current_a": 8.8,
+      "rpm": null,
+      "thrust_g": 68,
+      "efficiency_gw": 2.088
+     },
+     {
+      "kv": 19000,
+      "prop": "Gemfan 2015R*2",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 3.7,
+      "current_a": 2.9,
+      "rpm": null,
+      "thrust_g": 37,
+      "efficiency_gw": 3.448
+     },
+     {
+      "kv": 19000,
+      "prop": "Gemfan 2015R*2",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 3.7,
+      "current_a": 9.2,
+      "rpm": null,
+      "thrust_g": 79,
+      "efficiency_gw": 2.321
+     },
+     {
+      "kv": 19000,
+      "prop": "Gemfan 2023R*3",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 3.7,
+      "current_a": 3.7,
+      "rpm": null,
+      "thrust_g": 36,
+      "efficiency_gw": 2.63
+     },
+     {
+      "kv": 19000,
+      "prop": "Gemfan 2023R*3",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 3.7,
+      "current_a": 11.8,
+      "rpm": null,
+      "thrust_g": 65,
+      "efficiency_gw": 1.489
+     },
+     {
+      "kv": 22000,
+      "prop": "Gemfan 1610R*2",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 3.7,
+      "current_a": 2.2,
+      "rpm": null,
+      "thrust_g": 31,
+      "efficiency_gw": 3.808
+     },
+     {
+      "kv": 22000,
+      "prop": "Gemfan 1610R*2",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 3.7,
+      "current_a": 7.9,
+      "rpm": null,
+      "thrust_g": 72,
+      "efficiency_gw": 2.463
+     },
+     {
+      "kv": 22000,
+      "prop": "Gemfan 1635R*3",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 3.7,
+      "current_a": 2.7,
+      "rpm": null,
+      "thrust_g": 33,
+      "efficiency_gw": 3.303
+     },
+     {
+      "kv": 22000,
+      "prop": "Gemfan 1635R*3",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 3.7,
+      "current_a": 9.4,
+      "rpm": null,
+      "thrust_g": 75,
+      "efficiency_gw": 2.156
+     },
+     {
+      "kv": 22000,
+      "prop": "Gemfan 1635R*4",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 3.7,
+      "current_a": 3.0,
+      "rpm": null,
+      "thrust_g": 36,
+      "efficiency_gw": 3.243
+     },
+     {
+      "kv": 22000,
+      "prop": "Gemfan 1635R*4",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 3.7,
+      "current_a": 10.4,
+      "rpm": null,
+      "thrust_g": 79,
+      "efficiency_gw": 2.053
+     },
+     {
+      "kv": 22000,
+      "prop": "Gemfan 2015R*2",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 3.7,
+      "current_a": 3.5,
+      "rpm": null,
+      "thrust_g": 44,
+      "efficiency_gw": 3.398
+     },
+     {
+      "kv": 22000,
+      "prop": "Gemfan 2015R*2",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 3.7,
+      "current_a": 10.9,
+      "rpm": null,
+      "thrust_g": 93,
+      "efficiency_gw": 2.306
+     },
+     {
+      "kv": 22000,
+      "prop": "Gemfan 2023R*3",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 3.7,
+      "current_a": 4.4,
+      "rpm": null,
+      "thrust_g": 42,
+      "efficiency_gw": 2.58
+     },
+     {
+      "kv": 22000,
+      "prop": "Gemfan 2023R*3",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 3.7,
+      "current_a": 14.0,
+      "rpm": null,
+      "thrust_g": 76,
+      "efficiency_gw": 1.467
+     }
+    ],
+    "configuration": "9N12P",
+    "dimensions_mm": "13.5x7.75",
+    "resistance_mohm": "175 / 89 / 75 (14000/19000/22000KV)"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/rcinpower-gts-v3-1002-14000kv-motor-choose-color",
     "https://www.racedayquads.com/products/rcinpower-gts-v3-1002-19000kv-motor-choose-color",
-    "https://www.racedayquads.com/products/rcinpower-gts-v3-1002-22000kv-motor-choose-color"
-   ]
+    "https://www.racedayquads.com/products/rcinpower-gts-v3-1002-22000kv-motor-choose-color",
+    "https://www.rcinpower.com/G-SERIES/55.html"
+   ],
+   "note": "A 1-2S micro motor: 9N12P, 10x2 mm stator, 1.5 mm shaft, 13.5x7.75 mm, 2.5 g with 5 cm wire. RCinPower rates the 14000 KV at 1-2S and benches it at 7.4 V; the 19000 and 22000 KV sheets are 1S and bench at 3.7 V, so the 115 g peak is a 2S figure. Internal resistance 175/89/75 mOhm for 14000/19000/22000 KV. Temperature after 3 s at full throttle reaches 58-84 degC, and RCinPower marks the Gemfan 2023R*3 full-throttle run \"Hot\" on both 1S KVs"
   },
   {
    "type": "motor",

@@ -1,27 +1,49 @@
 {
  "generated": "2026-09-15",
- "count": 338,
+ "count": 327,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
    "type": "battery",
    "brand": "Auline",
-   "model": "18650 2000mAh 4S",
-   "slug": "auline-18650-2000mah-4s",
+   "model": "18650 1C w/ Built-In Protective Board 2600mAh 4S",
+   "slug": "auline-18650-1c-w-built-in-protective-board-2600mah-4s",
    "specs": {
     "chemistry": "Li-ion",
     "cells": "4S",
-    "capacity_mah": 2000,
-    "c_rating": "30C",
-    "weight_g": 194.6,
+    "capacity_mah": 2600,
+    "c_rating": "1C",
+    "weight_g": 202.4,
     "connector": "XT60",
-    "energy_wh": 28.8,
-    "price_usd": 30.99,
-    "price_per_wh_usd": 1.08
+    "energy_wh": 37.4,
+    "price_per_wh_usd": 0.72,
+    "price_usd": 26.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
-    "https://www.racedayquads.com/products/auline-14-8v-4s-18650-2000mah-30c-li-ion-battery-xt60"
+    "https://www.racedayquads.com/products/auline-14-8v-4s-18650-2600mah-1c-li-ion-battery-w-built-in-protective-board-for-dji-goggles-xt60"
+   ]
+  },
+  {
+   "type": "battery",
+   "brand": "Auline",
+   "model": "1C 4800mAh 3S",
+   "slug": "auline-1c-4800mah-3s",
+   "specs": {
+    "chemistry": "Li-ion",
+    "cells": "3S",
+    "capacity_mah": 4800,
+    "c_rating": "1C",
+    "weight_g": 249.0,
+    "connector": "XT60",
+    "dimensions_mm": "95x42x42mm",
+    "energy_wh": 51.8,
+    "price_per_wh_usd": 0.7,
+    "price_usd": 36.49
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/auline-11-1v-3s-4800mah-1c-li-ion-battery-xt60"
    ]
   },
   {
@@ -37,8 +59,8 @@
     "weight_g": 150.0,
     "connector": "XT30",
     "energy_wh": 32.4,
-    "price_usd": 47.49,
-    "price_per_wh_usd": 1.47
+    "price_per_wh_usd": 1.47,
+    "price_usd": 47.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -58,8 +80,8 @@
     "weight_g": 297.0,
     "connector": "XT60",
     "energy_wh": 64.8,
-    "price_usd": 92.99,
-    "price_per_wh_usd": 1.44
+    "price_per_wh_usd": 1.44,
+    "price_usd": 92.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -78,9 +100,10 @@
     "c_rating": "45C",
     "weight_g": 430.0,
     "connector": "XT60",
+    "dimensions_mm": "135x42x35mm",
     "energy_wh": 73.3,
-    "price_usd": 74.49,
-    "price_per_wh_usd": 1.02
+    "price_per_wh_usd": 1.02,
+    "price_usd": 74.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -99,9 +122,10 @@
     "c_rating": "120C",
     "weight_g": 193.6,
     "connector": "XT60",
+    "dimensions_mm": "69x38x36mm",
     "energy_wh": 23.3,
-    "price_usd": 43.49,
-    "price_per_wh_usd": 1.87
+    "price_per_wh_usd": 1.87,
+    "price_usd": 43.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -121,8 +145,8 @@
     "weight_g": 176.6,
     "connector": "XT60",
     "energy_wh": 22.9,
-    "price_usd": 35.99,
-    "price_per_wh_usd": 1.57
+    "price_per_wh_usd": 1.57,
+    "price_usd": 35.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -142,8 +166,8 @@
     "weight_g": 13.2,
     "connector": "PH2.0",
     "energy_wh": 1.9,
-    "price_usd": 4.19,
-    "price_per_wh_usd": 2.21
+    "price_per_wh_usd": 2.21,
+    "price_usd": 4.19
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -163,8 +187,8 @@
     "weight_g": 154.0,
     "connector": "XT60",
     "energy_wh": 20.0,
-    "price_usd": 47.49,
-    "price_per_wh_usd": 2.38
+    "price_per_wh_usd": 2.38,
+    "price_usd": 47.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -177,19 +201,41 @@
    "model": "SR 1350mAh 6S",
    "slug": "auline-sr-1350mah-6s",
    "specs": {
-    "chemistry": "LiHV",
+    "chemistry": "LiPo",
     "cells": "6S",
     "capacity_mah": 1350,
     "c_rating": "120C",
     "weight_g": 219.0,
     "connector": "XT60",
-    "energy_wh": 30.8,
-    "price_usd": 38.89,
-    "price_per_wh_usd": 1.26
+    "energy_wh": 30.0,
+    "price_per_wh_usd": 1.3,
+    "price_usd": 38.89
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/auline-sr-22-2v-6s-1350mah-120c-lipo-battery-xt60"
+   ]
+  },
+  {
+   "type": "battery",
+   "brand": "BetaFPV",
+   "model": "300mAh 1S",
+   "slug": "betafpv-300mah-1s",
+   "specs": {
+    "chemistry": "LiHV",
+    "cells": "1S",
+    "capacity_mah": 300,
+    "c_rating": "30C",
+    "weight_g": 8.28,
+    "connector": "BT2.0",
+    "dimensions_mm": "67.3x11.8x6.1mm",
+    "energy_wh": 1.1,
+    "price_per_wh_usd": 35.52,
+    "price_usd": 40.49
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/betafpv-3-8v-1s-300mah-30c-lihv-whoop-micro-battery-8-pack-bt2-0"
    ]
   },
   {
@@ -204,9 +250,10 @@
     "c_rating": "30C",
     "weight_g": 12.7,
     "connector": "BT2.0",
+    "dimensions_mm": "61x15x7.5mm",
     "energy_wh": 1.7,
-    "price_usd": 35.49,
-    "price_per_wh_usd": 20.75
+    "price_per_wh_usd": 20.75,
+    "price_usd": 35.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -225,9 +272,10 @@
     "c_rating": "40C",
     "weight_g": 13.99,
     "connector": "BT2.0",
+    "dimensions_mm": "69.5x16.2x6.5mm",
     "energy_wh": 2.1,
-    "price_usd": 32.49,
-    "price_per_wh_usd": 15.55
+    "price_per_wh_usd": 15.55,
+    "price_usd": 32.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -246,10 +294,9 @@
     "c_rating": "15C",
     "weight_g": 25.5,
     "connector": "BT2.0",
-    "dimensions_mm": "62.8x41.3x17.8mm",
     "energy_wh": 4.2,
-    "price_usd": 21.99,
-    "price_per_wh_usd": 5.26
+    "price_per_wh_usd": 5.26,
+    "price_usd": 21.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -259,23 +306,45 @@
   {
    "type": "battery",
    "brand": "BetaFPV",
-   "model": "Aquila16 Exclusive 650mAh 1S",
-   "slug": "betafpv-aquila16-exclusive-650mah-1s",
+   "model": "LAVA II Pack 280mAh 1S",
+   "slug": "betafpv-lava-ii-pack-280mah-1s",
    "specs": {
     "chemistry": "LiHV",
     "cells": "1S",
-    "capacity_mah": 650,
-    "c_rating": "15C",
-    "weight_g": 22.0,
+    "capacity_mah": 280,
+    "c_rating": "95C",
+    "weight_g": 6.8,
     "connector": "BT2.0",
-    "dimensions_mm": "62.8x41.3x17.8mm",
-    "energy_wh": 2.5,
-    "price_usd": 13.99,
-    "price_per_wh_usd": 5.66
+    "dimensions_mm": "54x10x6mm",
+    "energy_wh": 1.1,
+    "price_per_wh_usd": 23.49,
+    "price_usd": 24.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
-    "https://www.racedayquads.com/products/draft-betafpv-aquila16-exclusive-battery-2pcs-650mah"
+    "https://www.racedayquads.com/products/betafpv-lava-ii-280mah-1s-95c-lihv-battery-pack-5-pcs-bt2-0"
+   ]
+  },
+  {
+   "type": "battery",
+   "brand": "BetaFPV",
+   "model": "LAVA II Pack 320mAh 1S",
+   "slug": "betafpv-lava-ii-pack-320mah-1s",
+   "specs": {
+    "chemistry": "LiHV",
+    "cells": "1S",
+    "capacity_mah": 320,
+    "c_rating": "95C",
+    "weight_g": 8.2,
+    "connector": "BT2.0",
+    "dimensions_mm": "64x10x6mm",
+    "energy_wh": 1.2,
+    "price_per_wh_usd": 22.2,
+    "price_usd": 26.99
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/betafpv-lava-ii-320mah-1s-95c-lihv-battery-pack-5-pcs-bt2-0"
    ]
   },
   {
@@ -290,10 +359,10 @@
     "c_rating": "95C",
     "weight_g": 12.6,
     "connector": "BT2.0",
-    "dimensions_mm": "61 x 15.5 x 6 mm",
+    "dimensions_mm": "61x15.5x6mm",
     "energy_wh": 1.8,
-    "price_usd": 26.99,
-    "price_per_wh_usd": 14.8
+    "price_per_wh_usd": 14.8,
+    "price_usd": 26.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -312,10 +381,10 @@
     "c_rating": "95C",
     "weight_g": 14.1,
     "connector": "BT2.0",
-    "dimensions_mm": "70 x 15 x 6.5 mm",
+    "dimensions_mm": "70x15x6.5mm",
     "energy_wh": 2.2,
-    "price_usd": 28.99,
-    "price_per_wh_usd": 13.15
+    "price_per_wh_usd": 13.15,
+    "price_usd": 28.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -334,10 +403,10 @@
     "c_rating": "95C",
     "weight_g": 16.2,
     "connector": "BT2.0",
-    "dimensions_mm": "80 x 15 x 6.5 mm",
+    "dimensions_mm": "80x15x6.5mm",
     "energy_wh": 2.6,
-    "price_usd": 31.99,
-    "price_per_wh_usd": 12.38
+    "price_per_wh_usd": 12.38,
+    "price_usd": 31.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -356,9 +425,10 @@
     "c_rating": "90C",
     "weight_g": 395.0,
     "connector": "EC5",
+    "dimensions_mm": "28x45x160mm",
     "energy_wh": 57.7,
-    "price_usd": 48.99,
-    "price_per_wh_usd": 0.85
+    "price_per_wh_usd": 0.85,
+    "price_usd": 48.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -377,9 +447,10 @@
     "c_rating": "90C",
     "weight_g": 530.0,
     "connector": "EC5",
+    "dimensions_mm": "37x45x160mm",
     "energy_wh": 77.0,
-    "price_usd": 72.99,
-    "price_per_wh_usd": 0.95
+    "price_per_wh_usd": 0.95,
+    "price_usd": 72.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -398,9 +469,10 @@
     "c_rating": "90C",
     "weight_g": 790.0,
     "connector": "EC5",
+    "dimensions_mm": "55x45x160mm",
     "energy_wh": 115.4,
-    "price_usd": 107.99,
-    "price_per_wh_usd": 0.94
+    "price_per_wh_usd": 0.94,
+    "price_usd": 107.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -419,9 +491,10 @@
     "c_rating": "90C",
     "weight_g": 949.0,
     "connector": "EC5",
+    "dimensions_mm": "60x46.8x160mm",
     "energy_wh": 137.6,
-    "price_usd": 122.99,
-    "price_per_wh_usd": 0.89
+    "price_per_wh_usd": 0.89,
+    "price_usd": 122.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -440,9 +513,10 @@
     "c_rating": "90C",
     "weight_g": 775.0,
     "connector": "EC5",
+    "dimensions_mm": "42x48x180mm",
     "energy_wh": 140.6,
-    "price_usd": 143.49,
-    "price_per_wh_usd": 1.02
+    "price_per_wh_usd": 1.02,
+    "price_usd": 143.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -463,8 +537,8 @@
     "connector": "XT60",
     "dimensions_mm": "30x34x76mm",
     "energy_wh": 16.3,
-    "price_usd": 36.49,
-    "price_per_wh_usd": 2.24
+    "price_per_wh_usd": 2.24,
+    "price_usd": 36.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -503,8 +577,8 @@
     "connector": "XT60",
     "dimensions_mm": "48x39x78mm",
     "energy_wh": 29.6,
-    "price_usd": 40.49,
-    "price_per_wh_usd": 1.37
+    "price_per_wh_usd": 1.37,
+    "price_usd": 40.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -525,8 +599,8 @@
     "connector": "XT60",
     "dimensions_mm": "71x39x78mm",
     "energy_wh": 44.4,
-    "price_usd": 56.99,
-    "price_per_wh_usd": 1.28
+    "price_per_wh_usd": 1.28,
+    "price_usd": 56.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -547,8 +621,8 @@
     "connector": "XT60",
     "dimensions_mm": "31x33x74mm",
     "energy_wh": 19.2,
-    "price_usd": 24.49,
-    "price_per_wh_usd": 1.27
+    "price_per_wh_usd": 1.27,
+    "price_usd": 24.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -567,13 +641,14 @@
     "c_rating": "130C",
     "weight_g": 223.0,
     "connector": "XT60",
-    "dimensions_mm": "48 x 33 x 77mm",
     "energy_wh": 28.9,
+    "price_per_wh_usd": 1.26,
     "price_usd": 36.49,
-    "price_per_wh_usd": 1.26
+    "dimensions_mm": "50x34x78mm"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
+    "https://pyrodrone.com/products/cnhl-ministar-series-1300mah-22-2v-6s-120c-lipo-battery-xt60",
     "https://www.racedayquads.com/products/cnhl-black-series-v2-0-1300mah-22-2v-130c-6s-lipo-battery-xt60"
    ]
   },
@@ -591,8 +666,8 @@
     "connector": "XT60",
     "dimensions_mm": "36x33x76mm",
     "energy_wh": 22.2,
-    "price_usd": 31.49,
-    "price_per_wh_usd": 1.42
+    "price_per_wh_usd": 1.42,
+    "price_usd": 31.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -611,13 +686,14 @@
     "c_rating": "130C",
     "weight_g": 251.0,
     "connector": "XT60",
-    "dimensions_mm": "52 x 33 x 75mm",
     "energy_wh": 33.3,
+    "price_per_wh_usd": 1.31,
     "price_usd": 43.49,
-    "price_per_wh_usd": 1.31
+    "dimensions_mm": "47x35x76mm"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
+    "https://pyrodrone.com/products/cnhl-black-series-1500mah-22-2v-6s-130c-lipo-battery-xt60-1",
     "https://www.racedayquads.com/products/cnhl-black-series-v2-0-1500mah-22-2v-6s-130c-lipo-battery-xt60"
    ]
   },
@@ -635,8 +711,8 @@
     "connector": "XT60",
     "dimensions_mm": "39.5x35x75mm",
     "energy_wh": 24.4,
-    "price_usd": 32.99,
-    "price_per_wh_usd": 1.35
+    "price_per_wh_usd": 1.35,
+    "price_usd": 32.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -655,9 +731,10 @@
     "c_rating": "120C",
     "weight_g": 189.0,
     "connector": "XT60",
+    "dimensions_mm": "39.5x34.5x75mm",
     "energy_wh": 22.2,
-    "price_usd": 36.49,
-    "price_per_wh_usd": 1.64
+    "price_per_wh_usd": 1.64,
+    "price_usd": 36.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -678,56 +755,12 @@
     "connector": "XT60",
     "dimensions_mm": "38.5x34x86mm",
     "energy_wh": 26.6,
-    "price_usd": 36.49,
-    "price_per_wh_usd": 1.37
+    "price_per_wh_usd": 1.37,
+    "price_usd": 36.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-ministar-14-8v-4s-1800mah-120c-lipo-battery-xt60"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "CNHL",
-   "model": "MiniStar 450mAh 1S",
-   "slug": "cnhl-ministar-450mah-1s",
-   "specs": {
-    "chemistry": "LiHV",
-    "cells": "1S",
-    "capacity_mah": 450,
-    "c_rating": "70C",
-    "weight_g": 49.0,
-    "connector": "PH2.0",
-    "energy_wh": 1.7,
-    "price_usd": 11.99,
-    "price_per_wh_usd": 7.01,
-    "dimensions_mm": "7.3X18.1X59.3mm"
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://pyrodrone.com/products/4-packs-cnhl-ministar-hv-450mah-3-8v-1s-70c-lipo-battery-with-ph2-0",
-    "https://www.racedayquads.com/products/cnhl-ministar-3-7v-1s-450mah-70c-lihv-micro-battery-4-pack-ph2-0"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "CNHL",
-   "model": "MiniStar 450mAh 2S",
-   "slug": "cnhl-ministar-450mah-2s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "2S",
-    "capacity_mah": 450,
-    "c_rating": "70C",
-    "weight_g": 32.0,
-    "connector": "XT30",
-    "energy_wh": 3.3,
-    "price_usd": 24.49,
-    "price_per_wh_usd": 7.35
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/cnhl-ministar-7-6v-2s-450mah-70c-lipo-micro-battery-xt30"
    ]
   },
   {
@@ -742,9 +775,10 @@
     "c_rating": "70C",
     "weight_g": 49.0,
     "connector": "XT30",
+    "dimensions_mm": "23x18x65mm",
     "energy_wh": 5.0,
-    "price_usd": 18.99,
-    "price_per_wh_usd": 3.8
+    "price_per_wh_usd": 3.8,
+    "price_usd": 18.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -763,14 +797,13 @@
     "c_rating": "70C",
     "weight_g": 62.0,
     "connector": "XT30",
+    "dimensions_mm": "30x18x65mm",
     "energy_wh": 6.7,
-    "price_usd": 3.6,
     "price_per_wh_usd": 0.54,
-    "dimensions_mm": "30X18X65mm"
+    "price_usd": 3.6
    },
    "_scraped_at": "2026-09-15",
    "sources": [
-    "https://pyrodrone.com/products/cnhl-ministar-14-8v-4s-450mah-70c-lipo-micro-battery-xt30",
     "https://www.racedayquads.com/products/cnhl-450mah-4s-70c-ministar-14-8v-li-po-fpv-battery-for-2-and-3-quads-xt30"
    ]
   },
@@ -786,10 +819,10 @@
     "c_rating": "70C",
     "weight_g": 87.0,
     "connector": "XT30",
-    "dimensions_mm": "27X30X58mm",
+    "dimensions_mm": "27x30x58mm",
     "energy_wh": 9.6,
-    "price_usd": 18.99,
-    "price_per_wh_usd": 1.97
+    "price_per_wh_usd": 1.97,
+    "price_usd": 18.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -808,14 +841,13 @@
     "c_rating": "70C",
     "weight_g": 110.0,
     "connector": "XT30",
+    "dimensions_mm": "33x30x62mm",
     "energy_wh": 12.6,
-    "price_usd": 23.99,
     "price_per_wh_usd": 1.91,
-    "dimensions_mm": "33X30X62mm"
+    "price_usd": 23.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
-    "https://pyrodrone.com/products/cnhl-850mah-4s-70c-ministar-14-8v-li-po-fpv-battery-xt60",
     "https://www.racedayquads.com/products/cnhl-ministar-14-8v-4s-850mah-70c-lipo-micro-battery-xt30"
    ]
   },
@@ -832,9 +864,9 @@
     "weight_g": 247.0,
     "connector": "XT60",
     "energy_wh": 33.3,
-    "price_usd": 53.99,
     "price_per_wh_usd": 1.62,
-    "dimensions_mm": "47X35X76MM"
+    "price_usd": 53.99,
+    "dimensions_mm": "47x35x76mm"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -856,8 +888,8 @@
     "connector": "XT60",
     "dimensions_mm": "31x34x74mm",
     "energy_wh": 17.8,
-    "price_usd": 62.49,
-    "price_per_wh_usd": 3.52
+    "price_per_wh_usd": 3.52,
+    "price_usd": 62.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -878,8 +910,8 @@
     "connector": "XT60",
     "dimensions_mm": "45x35x80mm",
     "energy_wh": 26.6,
-    "price_usd": 29.99,
-    "price_per_wh_usd": 1.13
+    "price_per_wh_usd": 1.13,
+    "price_usd": 29.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -900,12 +932,34 @@
     "connector": "XT60",
     "dimensions_mm": "35x40x77mm",
     "energy_wh": 22.9,
-    "price_usd": 26.99,
-    "price_per_wh_usd": 1.18
+    "price_per_wh_usd": 1.18,
+    "price_usd": 26.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-speedy-pizza-14-8v-4s-1550mah-100c-lipo-battery-xt60"
+   ]
+  },
+  {
+   "type": "battery",
+   "brand": "CNHL",
+   "model": "SpeedyPizza 350mAh 1S",
+   "slug": "cnhl-speedypizza-350mah-1s",
+   "specs": {
+    "chemistry": "LiHV",
+    "cells": "1S",
+    "capacity_mah": 350,
+    "c_rating": "75C",
+    "weight_g": 8.0,
+    "connector": "BT2.0",
+    "dimensions_mm": "6x11x67mm",
+    "energy_wh": 1.3,
+    "price_per_wh_usd": 18.04,
+    "price_usd": 23.99
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/cnhl-speedypizza-3-7v-1s-350mah-75c-lihv-battery-bt2-0"
    ]
   },
   {
@@ -922,8 +976,8 @@
     "connector": "XT30",
     "dimensions_mm": "24x12x70mm",
     "energy_wh": 6.7,
-    "price_usd": 14.99,
-    "price_per_wh_usd": 2.25
+    "price_per_wh_usd": 2.25,
+    "price_usd": 14.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -944,8 +998,8 @@
     "connector": "XT30",
     "dimensions_mm": "31.5x17x70mm",
     "energy_wh": 8.9,
-    "price_usd": 17.99,
-    "price_per_wh_usd": 2.03
+    "price_per_wh_usd": 2.03,
+    "price_usd": 17.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -966,8 +1020,8 @@
     "connector": "XT60",
     "dimensions_mm": "31x38x76mm",
     "energy_wh": 23.3,
-    "price_usd": 53.99,
-    "price_per_wh_usd": 2.32
+    "price_per_wh_usd": 2.32,
+    "price_usd": 53.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -986,10 +1040,10 @@
     "c_rating": "150C",
     "weight_g": 239.0,
     "connector": "XT60",
-    "dimensions_mm": "39.5 x 39 x 78mm",
+    "dimensions_mm": "39.5x39x78mm",
     "energy_wh": 31.1,
-    "price_usd": 60.99,
-    "price_per_wh_usd": 1.96
+    "price_per_wh_usd": 1.96,
+    "price_usd": 60.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1010,8 +1064,8 @@
     "connector": "XT60",
     "dimensions_mm": "31x39x78mm",
     "energy_wh": 22.9,
-    "price_usd": 39.49,
-    "price_per_wh_usd": 1.72
+    "price_per_wh_usd": 1.72,
+    "price_usd": 39.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1032,8 +1086,8 @@
     "connector": "XT60",
     "dimensions_mm": "46x40x80mm",
     "energy_wh": 34.4,
-    "price_usd": 62.49,
-    "price_per_wh_usd": 1.82
+    "price_per_wh_usd": 1.82,
+    "price_usd": 62.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1052,9 +1106,10 @@
     "c_rating": "150C",
     "weight_g": 157.0,
     "connector": "XT60",
+    "dimensions_mm": "79x39.5x26mm",
     "energy_wh": 19.2,
-    "price_usd": 27.99,
-    "price_per_wh_usd": 1.45
+    "price_per_wh_usd": 1.45,
+    "price_usd": 27.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1073,9 +1128,10 @@
     "c_rating": "150C",
     "weight_g": 216.0,
     "connector": "XT60",
+    "dimensions_mm": "37x38x78mm",
     "energy_wh": 28.9,
-    "price_usd": 45.99,
-    "price_per_wh_usd": 1.59
+    "price_per_wh_usd": 1.59,
+    "price_usd": 45.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1095,8 +1151,8 @@
     "weight_g": 223.0,
     "connector": "XT60",
     "energy_wh": 30.6,
-    "price_usd": 39.99,
-    "price_per_wh_usd": 1.31
+    "price_per_wh_usd": 1.31,
+    "price_usd": 39.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1115,9 +1171,10 @@
     "c_rating": "150C",
     "weight_g": 260.0,
     "connector": "XT60",
+    "dimensions_mm": "78x38x43mm",
     "energy_wh": 34.4,
-    "price_usd": 58.49,
-    "price_per_wh_usd": 1.7
+    "price_per_wh_usd": 1.7,
+    "price_usd": 58.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1137,8 +1194,8 @@
     "weight_g": 241.0,
     "connector": "XT60",
     "energy_wh": 35.5,
-    "price_usd": 54.99,
-    "price_per_wh_usd": 1.55
+    "price_per_wh_usd": 1.55,
+    "price_usd": 54.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1158,8 +1215,8 @@
     "weight_g": 199.0,
     "connector": "XT60",
     "energy_wh": 27.4,
-    "price_usd": 48.99,
-    "price_per_wh_usd": 1.79
+    "price_per_wh_usd": 1.79,
+    "price_usd": 48.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1178,13 +1235,35 @@
     "c_rating": "150C",
     "weight_g": 292.0,
     "connector": "XT60",
+    "dimensions_mm": "48x34x88mm",
     "energy_wh": 41.1,
-    "price_usd": 68.99,
-    "price_per_wh_usd": 1.68
+    "price_per_wh_usd": 1.68,
+    "price_usd": 68.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/dogcom-gnb-22-2v-6s-1850mah-150c-lipo-battery-xt60"
+   ]
+  },
+  {
+   "type": "battery",
+   "brand": "Dogcom",
+   "model": "320mAh 1S",
+   "slug": "dogcom-320mah-1s",
+   "specs": {
+    "chemistry": "LiHV",
+    "cells": "1S",
+    "capacity_mah": 320,
+    "c_rating": "75C",
+    "weight_g": 7.5,
+    "connector": "BT2.0",
+    "energy_wh": 1.2,
+    "price_per_wh_usd": 7.39,
+    "price_usd": 8.99
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/dogcom-3-8v-1s-320mah-75c-lihv-battery-w-plastic-head-bt2-0"
    ]
   },
   {
@@ -1200,8 +1279,8 @@
     "weight_g": 46.0,
     "connector": "XT30",
     "energy_wh": 6.2,
-    "price_usd": 16.99,
-    "price_per_wh_usd": 2.73
+    "price_per_wh_usd": 2.73,
+    "price_usd": 16.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1221,8 +1300,8 @@
     "weight_g": 58.0,
     "connector": "XT30",
     "energy_wh": 8.3,
-    "price_usd": 21.99,
-    "price_per_wh_usd": 2.65
+    "price_per_wh_usd": 2.65,
+    "price_usd": 21.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1241,10 +1320,10 @@
     "c_rating": "150C",
     "weight_g": 100.0,
     "connector": "XT30",
-    "dimensions_mm": "58 x 30 x 34mm",
+    "dimensions_mm": "58x30x34mm",
     "energy_wh": 12.6,
-    "price_usd": 26.99,
-    "price_per_wh_usd": 2.15
+    "price_per_wh_usd": 2.15,
+    "price_usd": 26.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1264,8 +1343,8 @@
     "weight_g": 229.0,
     "connector": "XT60",
     "energy_wh": 30.6,
-    "price_usd": 156.99,
-    "price_per_wh_usd": 5.12
+    "price_per_wh_usd": 5.12,
+    "price_usd": 156.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1286,8 +1365,8 @@
     "connector": "XT60",
     "dimensions_mm": "78x38x41mm",
     "energy_wh": 32.9,
-    "price_usd": 56.99,
-    "price_per_wh_usd": 1.73
+    "price_per_wh_usd": 1.73,
+    "price_usd": 56.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1306,10 +1385,10 @@
     "c_rating": "160C",
     "weight_g": 244.0,
     "connector": "XT60",
-    "dimensions_mm": "37.5 x 39 x 81mm",
+    "dimensions_mm": "37.5x39x81mm",
     "energy_wh": 32.9,
-    "price_usd": 60.99,
-    "price_per_wh_usd": 1.86
+    "price_per_wh_usd": 1.86,
+    "price_usd": 60.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1329,11 +1408,13 @@
     "weight_g": 216.0,
     "connector": "XT60",
     "energy_wh": 32.9,
+    "price_per_wh_usd": 1.52,
     "price_usd": 49.99,
-    "price_per_wh_usd": 1.52
+    "dimensions_mm": "37.5x39x81mm"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
+    "https://pyrodrone.com/products/dogcom-sbang-version-1480mah-6s-22-2v-160c-lipo-battery-xt60",
     "https://www.racedayquads.com/products/dogcom-ultra-series-1480mah-6s-22-2v-150c-lipo-battery-xt60"
    ]
   },
@@ -1350,11 +1431,13 @@
     "weight_g": 239.0,
     "connector": "XT60",
     "energy_wh": 34.4,
+    "price_per_wh_usd": 1.45,
     "price_usd": 49.99,
-    "price_per_wh_usd": 1.45
+    "dimensions_mm": "43x38x78mm"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
+    "https://pyrodrone.com/products/dogcom-yuki-edition-1550mah-6s-22-2v-160c-lipo-battery-xt60",
     "https://www.racedayquads.com/products/dogcom-ultra-series-1550mah-6s-22-2v-150c-lipo-battery-xt60"
    ]
   },
@@ -1371,8 +1454,8 @@
     "weight_g": 253.0,
     "connector": "XT60",
     "energy_wh": 37.7,
-    "price_usd": 52.99,
-    "price_per_wh_usd": 1.4
+    "price_per_wh_usd": 1.4,
+    "price_usd": 52.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1381,23 +1464,23 @@
   },
   {
    "type": "battery",
-   "brand": "Five33",
-   "model": "\"Budget\" 1380mAh 6S",
-   "slug": "five33-budget-1380mah-6s",
+   "brand": "Dogcom",
+   "model": "w/ Cabled 300mAh 1S",
+   "slug": "dogcom-w-cabled-300mah-1s",
    "specs": {
-    "chemistry": "LiPo",
-    "cells": "6S",
-    "capacity_mah": 1380,
-    "c_rating": "150C",
-    "weight_g": 223.0,
-    "connector": "XT60 (standard)",
-    "energy_wh": 30.6,
-    "price_usd": 32.99,
-    "price_per_wh_usd": 1.08
+    "chemistry": "LiHV",
+    "cells": "1S",
+    "capacity_mah": 300,
+    "c_rating": "75C",
+    "weight_g": 7.5,
+    "connector": "BT2.0",
+    "energy_wh": 1.1,
+    "price_per_wh_usd": 7.45,
+    "price_usd": 8.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
-    "https://www.racedayquads.com/products/budget-1380mah-6s-150c-lipo-battery"
+    "https://www.racedayquads.com/products/dogcom-300mah-1s-hv-75c-lipo-bt2-0"
    ]
   },
   {
@@ -1410,12 +1493,12 @@
     "cells": "4S",
     "capacity_mah": 3000,
     "c_rating": "10C",
-    "weight_g": 197.7,
+    "weight_g": 198.0,
     "connector": "XT30",
     "dimensions_mm": "68x37x37mm",
     "energy_wh": 43.2,
-    "price_usd": 62.49,
-    "price_per_wh_usd": 1.45
+    "price_per_wh_usd": 1.45,
+    "price_usd": 62.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1435,8 +1518,8 @@
     "weight_g": 13.2,
     "connector": "GNB27",
     "energy_wh": 1.7,
-    "price_usd": 26.99,
-    "price_per_wh_usd": 15.78
+    "price_per_wh_usd": 15.78,
+    "price_usd": 26.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1456,8 +1539,8 @@
     "weight_g": 13.2,
     "connector": "A30",
     "energy_wh": 1.7,
-    "price_usd": 32.49,
-    "price_per_wh_usd": 19.0
+    "price_per_wh_usd": 19.0,
+    "price_usd": 32.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1477,12 +1560,56 @@
     "weight_g": 14.0,
     "connector": "A30",
     "energy_wh": 2.8,
-    "price_usd": 36.49,
-    "price_per_wh_usd": 12.8
+    "price_per_wh_usd": 12.8,
+    "price_usd": 36.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/flywoo-explorer-v2-3-8v-1s-750mah-80c-lihv-battery-4-pack-a30"
+   ]
+  },
+  {
+   "type": "battery",
+   "brand": "GNB",
+   "model": "10 PACK of RDQ Series / - Cabled 380mAh 1S",
+   "slug": "gnb-10-pack-of-rdq-series-cabled-380mah-1s",
+   "specs": {
+    "chemistry": "LiHV",
+    "cells": "1S",
+    "capacity_mah": 380,
+    "c_rating": "60C",
+    "weight_g": 8.0,
+    "connector": "PH2.0",
+    "dimensions_mm": "6.36x11.1x62mm",
+    "energy_wh": 1.4,
+    "price_per_wh_usd": 37.39,
+    "price_usd": 53.99
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/10-pack-rdq-series-3-8v-1s-380mah-1s-60c-lihv-whoop-micro-battery-ph2-0"
+   ]
+  },
+  {
+   "type": "battery",
+   "brand": "GNB",
+   "model": "10 PACK of RDQ Series / - Plastic Head 380mAh 1S",
+   "slug": "gnb-10-pack-of-rdq-series-plastic-head-380mah-1s",
+   "specs": {
+    "chemistry": "LiHV",
+    "cells": "1S",
+    "capacity_mah": 380,
+    "c_rating": "60C",
+    "weight_g": 8.0,
+    "connector": "PH2.0",
+    "dimensions_mm": "6.36x11.1x62mm",
+    "energy_wh": 1.4,
+    "price_per_wh_usd": 39.47,
+    "price_usd": 56.99
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/10-pack-of-rdq-series-3-8v-1s-380mah-1s-60c-lihv-whoop-micro-battery-ph2-0-plastic-head"
    ]
   },
   {
@@ -1499,8 +1626,8 @@
     "connector": "XT60",
     "dimensions_mm": "25x35x76mm",
     "energy_wh": 16.7,
-    "price_usd": 26.99,
-    "price_per_wh_usd": 1.61
+    "price_per_wh_usd": 1.61,
+    "price_usd": 26.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1521,8 +1648,8 @@
     "connector": "XT30",
     "dimensions_mm": "49x25x64mm",
     "energy_wh": 25.1,
-    "price_usd": 38.99,
-    "price_per_wh_usd": 1.55
+    "price_per_wh_usd": 1.55,
+    "price_usd": 38.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1535,19 +1662,21 @@
    "model": "Gaoneng 1100mAh 8S",
    "slug": "gnb-gaoneng-1100mah-8s",
    "specs": {
-    "chemistry": "LiPo",
+    "chemistry": "LiHV",
     "cells": "8S",
     "capacity_mah": 1100,
     "c_rating": "120C",
-    "weight_g": 255.0,
+    "weight_g": 227.0,
     "connector": "XT60",
-    "energy_wh": 32.6,
-    "price_usd": 47.49,
-    "price_per_wh_usd": 1.46
+    "dimensions_mm": "77x35x50mm",
+    "energy_wh": 33.4,
+    "price_per_wh_usd": 1.49,
+    "price_usd": 49.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
-    "https://www.racedayquads.com/products/gaoneng-29-6v-8s-1100mah-120c-lipo-battery-xt60"
+    "https://www.racedayquads.com/products/gaoneng-29-6v-8s-1100mah-120c-lipo-battery-xt60",
+    "https://www.racedayquads.com/products/gnb-30-4v-8s-1100mah-120c-lihv-xt60"
    ]
   },
   {
@@ -1564,8 +1693,8 @@
     "connector": "XT60",
     "dimensions_mm": "23.5x38x80mm",
     "energy_wh": 19.8,
-    "price_usd": 34.99,
-    "price_per_wh_usd": 1.77
+    "price_per_wh_usd": 1.77,
+    "price_usd": 34.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1586,8 +1715,8 @@
     "connector": "XT60",
     "dimensions_mm": "34x38x80mm",
     "energy_wh": 29.6,
-    "price_usd": 45.99,
-    "price_per_wh_usd": 1.55
+    "price_per_wh_usd": 1.55,
+    "price_usd": 45.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1606,9 +1735,10 @@
     "c_rating": "100C",
     "weight_g": 211.0,
     "connector": "XT60",
+    "dimensions_mm": "72x34x45mm",
     "energy_wh": 30.0,
-    "price_usd": 37.99,
-    "price_per_wh_usd": 1.27
+    "price_per_wh_usd": 1.27,
+    "price_usd": 37.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1628,8 +1758,8 @@
     "weight_g": 269.0,
     "connector": "XT60",
     "energy_wh": 31.1,
-    "price_usd": 44.99,
-    "price_per_wh_usd": 1.45
+    "price_per_wh_usd": 1.45,
+    "price_usd": 44.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1650,8 +1780,8 @@
     "connector": "XT60",
     "dimensions_mm": "26x38x79mm",
     "energy_wh": 22.8,
-    "price_usd": 33.49,
-    "price_per_wh_usd": 1.47
+    "price_per_wh_usd": 1.47,
+    "price_usd": 33.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1672,8 +1802,8 @@
     "connector": "XT60",
     "dimensions_mm": "38x38x79mm",
     "energy_wh": 34.2,
-    "price_usd": 48.99,
-    "price_per_wh_usd": 1.43
+    "price_per_wh_usd": 1.43,
+    "price_usd": 48.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1694,8 +1824,8 @@
     "connector": "XT60",
     "dimensions_mm": "31x38x80mm",
     "energy_wh": 22.6,
-    "price_usd": 33.99,
-    "price_per_wh_usd": 1.5
+    "price_per_wh_usd": 1.5,
+    "price_usd": 33.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1716,8 +1846,8 @@
     "connector": "XT60",
     "dimensions_mm": "45x38x80mm",
     "energy_wh": 34.0,
-    "price_usd": 44.99,
-    "price_per_wh_usd": 1.32
+    "price_per_wh_usd": 1.32,
+    "price_usd": 44.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1730,16 +1860,16 @@
    "model": "Gaoneng 1530mAh 8S",
    "slug": "gnb-gaoneng-1530mah-8s",
    "specs": {
-    "chemistry": "LiHV",
+    "chemistry": "LiPo",
     "cells": "8S",
     "capacity_mah": 1530,
     "c_rating": "160C",
     "weight_g": 330.0,
     "connector": "XT60",
     "dimensions_mm": "59x38x80mm",
-    "energy_wh": 46.5,
-    "price_usd": 59.49,
-    "price_per_wh_usd": 1.28
+    "energy_wh": 45.3,
+    "price_per_wh_usd": 1.31,
+    "price_usd": 59.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1752,16 +1882,16 @@
    "model": "Gaoneng 1550mAh 4S",
    "slug": "gnb-gaoneng-1550mah-4s",
    "specs": {
-    "chemistry": "LiHV",
+    "chemistry": "LiPo",
     "cells": "4S",
     "capacity_mah": 1550,
     "c_rating": "120C",
     "weight_g": 182.0,
     "connector": "XT60",
     "dimensions_mm": "36x35x76mm",
-    "energy_wh": 23.6,
-    "price_usd": 25.79,
-    "price_per_wh_usd": 1.09
+    "energy_wh": 22.9,
+    "price_per_wh_usd": 1.12,
+    "price_usd": 25.79
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1774,16 +1904,16 @@
    "model": "Gaoneng 1550mAh 6S",
    "slug": "gnb-gaoneng-1550mah-6s",
    "specs": {
-    "chemistry": "LiHV",
+    "chemistry": "LiPo",
     "cells": "6S",
     "capacity_mah": 1550,
     "c_rating": "120C",
     "weight_g": 259.0,
     "connector": "XT60",
     "dimensions_mm": "53x35x76mm",
-    "energy_wh": 35.3,
-    "price_usd": 51.49,
-    "price_per_wh_usd": 1.46
+    "energy_wh": 34.4,
+    "price_per_wh_usd": 1.5,
+    "price_usd": 51.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1804,8 +1934,8 @@
     "connector": "XT60",
     "dimensions_mm": "32x39x80mm",
     "energy_wh": 28.1,
-    "price_usd": 38.49,
-    "price_per_wh_usd": 1.37
+    "price_per_wh_usd": 1.37,
+    "price_usd": 38.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1826,8 +1956,8 @@
     "connector": "XT60",
     "dimensions_mm": "47x39x81mm",
     "energy_wh": 42.2,
-    "price_usd": 56.99,
-    "price_per_wh_usd": 1.35
+    "price_per_wh_usd": 1.35,
+    "price_usd": 56.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1837,23 +1967,23 @@
   {
    "type": "battery",
    "brand": "GNB",
-   "model": "Gaoneng 300mAh 2S",
-   "slug": "gnb-gaoneng-300mah-2s",
+   "model": "Gaoneng 300mAh 1S",
+   "slug": "gnb-gaoneng-300mah-1s",
    "specs": {
     "chemistry": "LiHV",
-    "cells": "2S",
+    "cells": "1S",
     "capacity_mah": 300,
-    "c_rating": "80C",
-    "weight_g": 19.0,
-    "connector": "XT30",
-    "dimensions_mm": "12x17x52mm",
-    "energy_wh": 2.3,
-    "price_usd": 7.99,
-    "price_per_wh_usd": 3.5
+    "c_rating": "60C",
+    "weight_g": 7.0,
+    "connector": "PH2.0",
+    "dimensions_mm": "6.5x11.5x50mm",
+    "energy_wh": 1.1,
+    "price_per_wh_usd": 3.94,
+    "price_usd": 4.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
-    "https://www.racedayquads.com/products/gaoneng-gnb-3-8v-2s-300mah-80c-lihv-whoop-micro-battery-w-cabled-connector-xt30"
+    "https://www.racedayquads.com/products/gaoneng-gnb-3-8v-1s-300mah-60c-lipo-whoop-micro-battery-w-cabled-connector-ph2-0"
    ]
   },
   {
@@ -1870,8 +2000,8 @@
     "connector": "XT30",
     "dimensions_mm": "18x17x53mm",
     "energy_wh": 3.4,
-    "price_usd": 9.99,
-    "price_per_wh_usd": 2.92
+    "price_per_wh_usd": 2.92,
+    "price_usd": 9.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1892,8 +2022,8 @@
     "connector": "XT30",
     "dimensions_mm": "24x17x53mm",
     "energy_wh": 4.6,
-    "price_usd": 13.49,
-    "price_per_wh_usd": 2.96
+    "price_per_wh_usd": 2.96,
+    "price_usd": 13.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1914,8 +2044,8 @@
     "connector": "A30",
     "dimensions_mm": "6.7x17x49mm",
     "energy_wh": 1.4,
-    "price_usd": 6.49,
-    "price_per_wh_usd": 4.49
+    "price_per_wh_usd": 4.49,
+    "price_usd": 6.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1936,8 +2066,8 @@
     "connector": "XT30",
     "dimensions_mm": "13x17x52mm",
     "energy_wh": 2.9,
-    "price_usd": 9.49,
-    "price_per_wh_usd": 3.29
+    "price_per_wh_usd": 3.29,
+    "price_usd": 9.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1958,8 +2088,8 @@
     "connector": "XT30",
     "dimensions_mm": "20x17x55mm",
     "energy_wh": 4.3,
-    "price_usd": 12.49,
-    "price_per_wh_usd": 2.88
+    "price_per_wh_usd": 2.88,
+    "price_usd": 12.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1980,8 +2110,8 @@
     "connector": "XT30",
     "dimensions_mm": "27x17x54mm",
     "energy_wh": 5.8,
-    "price_usd": 16.49,
-    "price_per_wh_usd": 2.85
+    "price_per_wh_usd": 2.85,
+    "price_usd": 16.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1994,20 +2124,21 @@
    "model": "Gaoneng 450mAh 1S",
    "slug": "gnb-gaoneng-450mah-1s",
    "specs": {
-    "chemistry": "LiHV",
+    "chemistry": "LiPo",
     "cells": "1S",
     "capacity_mah": 450,
     "c_rating": "80C",
     "weight_g": 12.0,
     "connector": "PH2.0",
-    "dimensions_mm": "6.5x17x60mm",
+    "dimensions_mm": "6x17x59mm",
     "energy_wh": 1.7,
-    "price_usd": 4.49,
-    "price_per_wh_usd": 2.63
+    "price_per_wh_usd": 0.6,
+    "price_usd": 1.0
    },
    "_scraped_at": "2026-09-15",
    "sources": [
-    "https://www.racedayquads.com/products/gaoneng-gnb-3-7v-1s-450mah-80c-lihv-whoop-micro-battery-w-plastic-head-ph2-0"
+    "https://www.racedayquads.com/products/gaoneng-gnb-3-7v-1s-450mah-80c-lihv-whoop-micro-battery-w-plastic-head-ph2-0",
+    "https://www.racedayquads.com/products/gaoneng-gnb-3-7v-1s-450mah-80c-lipo-whoop-micro-battery-w-plastic-head-ph2-0"
    ]
   },
   {
@@ -2024,8 +2155,8 @@
     "connector": "XT30",
     "dimensions_mm": "13x17x64mm",
     "energy_wh": 3.4,
-    "price_usd": 10.99,
-    "price_per_wh_usd": 3.21
+    "price_per_wh_usd": 3.21,
+    "price_usd": 10.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2038,16 +2169,16 @@
    "model": "Gaoneng 450mAh 3S",
    "slug": "gnb-gaoneng-450mah-3s",
    "specs": {
-    "chemistry": "LiHV",
+    "chemistry": "LiPo",
     "cells": "3S",
     "capacity_mah": 450,
     "c_rating": "80C",
     "weight_g": 40.0,
     "connector": "XT30",
     "dimensions_mm": "19x17.5x64mm",
-    "energy_wh": 5.1,
-    "price_usd": 13.49,
-    "price_per_wh_usd": 2.63
+    "energy_wh": 5.0,
+    "price_per_wh_usd": 2.7,
+    "price_usd": 13.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2068,8 +2199,8 @@
     "connector": "XT30",
     "dimensions_mm": "25x17x65mm",
     "energy_wh": 6.7,
-    "price_usd": 16.49,
-    "price_per_wh_usd": 2.48
+    "price_per_wh_usd": 2.48,
+    "price_usd": 16.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2090,8 +2221,8 @@
     "connector": "XT30",
     "dimensions_mm": "39x17x66mm",
     "energy_wh": 10.0,
-    "price_usd": 24.99,
-    "price_per_wh_usd": 2.5
+    "price_per_wh_usd": 2.5,
+    "price_usd": 24.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2112,8 +2243,8 @@
     "connector": "A30",
     "dimensions_mm": "6.5x17.5x59mm",
     "energy_wh": 2.0,
-    "price_usd": 6.99,
-    "price_per_wh_usd": 3.47
+    "price_per_wh_usd": 3.47,
+    "price_usd": 6.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2134,8 +2265,8 @@
     "connector": "XT30",
     "dimensions_mm": "13x17x64mm",
     "energy_wh": 4.0,
-    "price_usd": 10.99,
-    "price_per_wh_usd": 2.73
+    "price_per_wh_usd": 2.73,
+    "price_usd": 10.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2156,8 +2287,8 @@
     "connector": "A30",
     "dimensions_mm": "6x18x65mm",
     "energy_wh": 2.1,
-    "price_usd": 7.49,
-    "price_per_wh_usd": 3.58
+    "price_per_wh_usd": 3.58,
+    "price_usd": 7.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2178,8 +2309,8 @@
     "connector": "XT30",
     "dimensions_mm": "18x18x70mm",
     "energy_wh": 6.3,
-    "price_usd": 14.99,
-    "price_per_wh_usd": 2.39
+    "price_per_wh_usd": 2.39,
+    "price_usd": 14.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2200,8 +2331,8 @@
     "connector": "XT30",
     "dimensions_mm": "24x18x71mm",
     "energy_wh": 8.4,
-    "price_usd": 19.49,
-    "price_per_wh_usd": 2.33
+    "price_per_wh_usd": 2.33,
+    "price_usd": 19.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2217,13 +2348,13 @@
     "chemistry": "LiPo",
     "cells": "2S",
     "capacity_mah": 5000,
-    "c_rating": "10C",
+    "c_rating": "5C",
     "weight_g": 178.0,
     "connector": "XT60",
     "dimensions_mm": "20x53x81mm",
     "energy_wh": 37.0,
-    "price_usd": 26.99,
-    "price_per_wh_usd": 0.73
+    "price_per_wh_usd": 0.73,
+    "price_usd": 26.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2244,8 +2375,8 @@
     "connector": "XT30",
     "dimensions_mm": "11x30x61mm",
     "energy_wh": 4.9,
-    "price_usd": 12.49,
-    "price_per_wh_usd": 2.53
+    "price_per_wh_usd": 2.53,
+    "price_usd": 12.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2266,8 +2397,8 @@
     "connector": "XT30",
     "dimensions_mm": "16x30x63mm",
     "energy_wh": 7.4,
-    "price_usd": 16.49,
-    "price_per_wh_usd": 2.23
+    "price_per_wh_usd": 2.23,
+    "price_usd": 16.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2288,8 +2419,8 @@
     "connector": "XT30",
     "dimensions_mm": "21x30x63mm",
     "energy_wh": 9.9,
-    "price_usd": 20.99,
-    "price_per_wh_usd": 2.12
+    "price_per_wh_usd": 2.12,
+    "price_usd": 20.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2310,8 +2441,8 @@
     "connector": "A30",
     "dimensions_mm": "8x17.5x60mm",
     "energy_wh": 2.5,
-    "price_usd": 7.49,
-    "price_per_wh_usd": 2.99
+    "price_per_wh_usd": 2.99,
+    "price_usd": 7.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2329,10 +2460,10 @@
     "capacity_mah": 660,
     "c_rating": "90C",
     "weight_g": 34.0,
-    "connector": "XT60",
+    "connector": "XT30",
     "energy_wh": 5.0,
-    "price_usd": 12.49,
-    "price_per_wh_usd": 2.49
+    "price_per_wh_usd": 2.49,
+    "price_usd": 12.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2353,8 +2484,8 @@
     "connector": "XT30",
     "dimensions_mm": "23.5x18x65mm",
     "energy_wh": 7.5,
-    "price_usd": 17.99,
-    "price_per_wh_usd": 2.39
+    "price_per_wh_usd": 2.39,
+    "price_usd": 17.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2375,8 +2506,8 @@
     "connector": "XT30",
     "dimensions_mm": "31x18x65mm",
     "energy_wh": 10.0,
-    "price_usd": 20.49,
-    "price_per_wh_usd": 2.04
+    "price_per_wh_usd": 2.04,
+    "price_usd": 20.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2397,8 +2528,8 @@
     "connector": "XT30",
     "dimensions_mm": "47x18x65mm",
     "energy_wh": 15.0,
-    "price_usd": 31.49,
-    "price_per_wh_usd": 2.09
+    "price_per_wh_usd": 2.09,
+    "price_usd": 31.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2419,8 +2550,8 @@
     "connector": "A30",
     "dimensions_mm": "7.5x18x65mm",
     "energy_wh": 2.7,
-    "price_usd": 8.99,
-    "price_per_wh_usd": 3.29
+    "price_per_wh_usd": 3.29,
+    "price_usd": 8.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2441,8 +2572,8 @@
     "connector": "XT30",
     "dimensions_mm": "14.5x18x70mm",
     "energy_wh": 5.5,
-    "price_usd": 11.49,
-    "price_per_wh_usd": 2.1
+    "price_per_wh_usd": 2.1,
+    "price_usd": 11.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2463,8 +2594,8 @@
     "connector": "XT30",
     "dimensions_mm": "22x18x71mm",
     "energy_wh": 8.2,
-    "price_usd": 16.99,
-    "price_per_wh_usd": 2.07
+    "price_per_wh_usd": 2.07,
+    "price_usd": 16.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2483,9 +2614,10 @@
     "c_rating": "100C",
     "weight_g": 72.0,
     "connector": "XT30",
+    "dimensions_mm": "30x18x71mm",
     "energy_wh": 10.9,
-    "price_usd": 20.99,
-    "price_per_wh_usd": 1.92
+    "price_per_wh_usd": 1.92,
+    "price_usd": 20.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2506,8 +2638,8 @@
     "connector": "XT30",
     "dimensions_mm": "44x8x72mm",
     "energy_wh": 16.4,
-    "price_usd": 32.49,
-    "price_per_wh_usd": 1.98
+    "price_per_wh_usd": 1.98,
+    "price_usd": 32.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2528,8 +2660,8 @@
     "connector": "XT30",
     "dimensions_mm": "18x18x70mm",
     "energy_wh": 6.5,
-    "price_usd": 12.49,
-    "price_per_wh_usd": 1.93
+    "price_per_wh_usd": 1.93,
+    "price_usd": 12.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2550,8 +2682,8 @@
     "connector": "XT30",
     "dimensions_mm": "20x30x63mm",
     "energy_wh": 9.7,
-    "price_usd": 18.99,
-    "price_per_wh_usd": 1.96
+    "price_per_wh_usd": 1.96,
+    "price_usd": 18.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2572,8 +2704,8 @@
     "connector": "XT30",
     "dimensions_mm": "26.5x30x63mm",
     "energy_wh": 12.9,
-    "price_usd": 21.99,
-    "price_per_wh_usd": 1.7
+    "price_per_wh_usd": 1.7,
+    "price_usd": 21.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2594,8 +2726,8 @@
     "connector": "XT30",
     "dimensions_mm": "40x30x64mm",
     "energy_wh": 19.4,
-    "price_usd": 34.49,
-    "price_per_wh_usd": 1.78
+    "price_per_wh_usd": 1.78,
+    "price_usd": 34.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2616,8 +2748,8 @@
     "connector": "XT30",
     "dimensions_mm": "30x30x65mm",
     "energy_wh": 13.8,
-    "price_usd": 23.99,
-    "price_per_wh_usd": 1.74
+    "price_per_wh_usd": 1.74,
+    "price_usd": 23.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2638,8 +2770,8 @@
     "connector": "XT30",
     "dimensions_mm": "45x30x65mm",
     "energy_wh": 20.6,
-    "price_usd": 39.99,
-    "price_per_wh_usd": 1.94
+    "price_per_wh_usd": 1.94,
+    "price_usd": 39.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2660,8 +2792,8 @@
     "connector": "XT30",
     "dimensions_mm": "14x28x62mm",
     "energy_wh": 4.8,
-    "price_usd": 11.49,
-    "price_per_wh_usd": 2.39
+    "price_per_wh_usd": 2.39,
+    "price_usd": 11.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2682,8 +2814,8 @@
     "connector": "XT30",
     "dimensions_mm": "26x28x64mm",
     "energy_wh": 9.6,
-    "price_usd": 20.49,
-    "price_per_wh_usd": 2.13
+    "price_per_wh_usd": 2.13,
+    "price_usd": 20.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2704,8 +2836,8 @@
     "connector": "XT30",
     "dimensions_mm": "39x28x65mm",
     "energy_wh": 14.4,
-    "price_usd": 30.49,
-    "price_per_wh_usd": 2.11
+    "price_per_wh_usd": 2.11,
+    "price_usd": 30.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2726,8 +2858,8 @@
     "connector": "XT30",
     "dimensions_mm": "24x30x63mm",
     "energy_wh": 9.4,
-    "price_usd": 16.99,
-    "price_per_wh_usd": 1.8
+    "price_per_wh_usd": 1.8,
+    "price_usd": 16.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2748,8 +2880,8 @@
     "connector": "XT30",
     "dimensions_mm": "31x30x64mm",
     "energy_wh": 12.6,
-    "price_usd": 21.99,
-    "price_per_wh_usd": 1.75
+    "price_per_wh_usd": 1.75,
+    "price_usd": 21.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2770,8 +2902,8 @@
     "connector": "XT30",
     "dimensions_mm": "45x30x65mm",
     "energy_wh": 18.9,
-    "price_usd": 32.49,
-    "price_per_wh_usd": 1.72
+    "price_per_wh_usd": 1.72,
+    "price_usd": 32.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2790,9 +2922,10 @@
     "c_rating": "80C",
     "weight_g": 13.3,
     "connector": "PH2.0",
+    "dimensions_mm": "59.6x18.4x6.9mm",
     "energy_wh": 1.7,
-    "price_usd": 5.99,
-    "price_per_wh_usd": 3.5
+    "price_per_wh_usd": 3.5,
+    "price_usd": 5.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2813,8 +2946,8 @@
     "connector": "XT30",
     "dimensions_mm": "14x17x61mm",
     "energy_wh": 3.3,
-    "price_usd": 9.99,
-    "price_per_wh_usd": 3.0
+    "price_per_wh_usd": 3.0,
+    "price_usd": 9.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2835,8 +2968,8 @@
     "connector": "PH2.0",
     "dimensions_mm": "6x18x65mm",
     "energy_wh": 2.1,
-    "price_usd": 5.49,
-    "price_per_wh_usd": 2.63
+    "price_per_wh_usd": 2.63,
+    "price_usd": 5.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2857,8 +2990,8 @@
     "connector": "XT30",
     "dimensions_mm": "12x18x69mm",
     "energy_wh": 4.2,
-    "price_usd": 10.49,
-    "price_per_wh_usd": 2.51
+    "price_per_wh_usd": 2.51,
+    "price_usd": 10.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2877,14 +3010,35 @@
     "c_rating": "90C",
     "weight_g": 15.0,
     "connector": "PH2.0",
-    "dimensions_mm": "7.8\nx18x5.8mm",
     "energy_wh": 2.5,
-    "price_usd": 6.99,
-    "price_per_wh_usd": 2.79
+    "price_per_wh_usd": 2.79,
+    "price_usd": 6.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/gaoneng-3-8v-1s-660mah-90c-lihv-whoop-micro-battery-w-ph2-0"
+   ]
+  },
+  {
+   "type": "battery",
+   "brand": "GNB",
+   "model": "Gaoneng / w/ Cabled 300mAh 1S",
+   "slug": "gnb-gaoneng-w-cabled-300mah-1s",
+   "specs": {
+    "chemistry": "LiHV",
+    "cells": "1S",
+    "capacity_mah": 300,
+    "c_rating": "80C",
+    "weight_g": 8.5,
+    "connector": "PH2.0",
+    "dimensions_mm": "6x17x48mm",
+    "energy_wh": 1.1,
+    "price_per_wh_usd": 3.06,
+    "price_usd": 3.49
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/gaoneng-gnb-3-8v-1s-300mah-80c-lihv-whoop-micro-battery-w-cabled-connector-ph2-0"
    ]
   },
   {
@@ -2901,8 +3055,8 @@
     "connector": "A30",
     "dimensions_mm": "6.7x17x50mm",
     "energy_wh": 1.4,
-    "price_usd": 5.99,
-    "price_per_wh_usd": 4.15
+    "price_per_wh_usd": 4.15,
+    "price_usd": 5.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2923,8 +3077,8 @@
     "connector": "PH2.0",
     "dimensions_mm": "6x17x59mm",
     "energy_wh": 1.7,
-    "price_usd": 4.99,
-    "price_per_wh_usd": 3.0
+    "price_per_wh_usd": 3.0,
+    "price_usd": 4.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2942,16 +3096,15 @@
     "capacity_mah": 530,
     "c_rating": "90C",
     "weight_g": 12.0,
-    "connector": "PH2.0",
-    "dimensions_mm": "6x17x60mm",
+    "connector": "A30",
+    "dimensions_mm": "61x17.5x6.5mm",
     "energy_wh": 2.0,
-    "price_usd": 6.49,
-    "price_per_wh_usd": 3.22
+    "price_per_wh_usd": 3.47,
+    "price_usd": 6.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
-    "https://www.racedayquads.com/products/gaoneng-gnb-3-8v-1s-530mah-90c-lihv-whoop-micro-battery-w-cabled-a30",
-    "https://www.racedayquads.com/products/gaoneng-gnb-3-8v-1s-530mah-90c-lihv-whoop-micro-battery-w-cabled-connector-ph2-0"
+    "https://www.racedayquads.com/products/gaoneng-gnb-3-8v-1s-530mah-90c-lihv-whoop-micro-battery-w-cabled-a30"
    ]
   },
   {
@@ -2968,8 +3121,8 @@
     "connector": "A30",
     "dimensions_mm": "6x18x65mm",
     "energy_wh": 2.1,
-    "price_usd": 7.49,
-    "price_per_wh_usd": 3.58
+    "price_per_wh_usd": 3.58,
+    "price_usd": 7.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2988,10 +3141,9 @@
     "c_rating": "90C",
     "weight_g": 15.0,
     "connector": "A30",
-    "dimensions_mm": "8x17.5x\n66\nmm",
     "energy_wh": 2.5,
-    "price_usd": 7.49,
-    "price_per_wh_usd": 2.99
+    "price_per_wh_usd": 2.99,
+    "price_usd": 7.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3012,8 +3164,8 @@
     "connector": "A30",
     "dimensions_mm": "7.5x18x66mm",
     "energy_wh": 2.7,
-    "price_usd": 7.99,
-    "price_per_wh_usd": 2.92
+    "price_per_wh_usd": 2.92,
+    "price_usd": 7.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3026,16 +3178,16 @@
    "model": "RDQ Series 1000mAh 6S",
    "slug": "gnb-rdq-series-1000mah-6s",
    "specs": {
-    "chemistry": "LiHV",
+    "chemistry": "LiPo",
     "cells": "6S",
     "capacity_mah": 1000,
     "c_rating": "100C",
     "weight_g": 194.0,
     "connector": "XT60",
     "dimensions_mm": "78x38x24mm",
-    "energy_wh": 22.8,
-    "price_usd": 84.99,
-    "price_per_wh_usd": 3.73
+    "energy_wh": 22.2,
+    "price_per_wh_usd": 3.83,
+    "price_usd": 84.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3048,16 +3200,16 @@
    "model": "RDQ Series 1300mAh 4S",
    "slug": "gnb-rdq-series-1300mah-4s",
    "specs": {
-    "chemistry": "LiHV",
+    "chemistry": "LiPo",
     "cells": "4S",
     "capacity_mah": 1300,
     "c_rating": "100C",
     "weight_g": 164.0,
     "connector": "XT60",
     "dimensions_mm": "34x35x78mm",
-    "energy_wh": 19.8,
-    "price_usd": 76.49,
-    "price_per_wh_usd": 3.87
+    "energy_wh": 19.2,
+    "price_per_wh_usd": 3.98,
+    "price_usd": 76.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3078,34 +3230,12 @@
     "connector": "XT60",
     "dimensions_mm": "43x35x89mm",
     "energy_wh": 28.9,
-    "price_usd": 109.19,
-    "price_per_wh_usd": 3.78
+    "price_per_wh_usd": 3.78,
+    "price_usd": 109.19
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/rdq-series-22-2v-6s-1300mah-100c-lipo-battery-3-pack-xt60"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "GNB",
-   "model": "RDQ Series 1500mAh 4S",
-   "slug": "gnb-rdq-series-1500mah-4s",
-   "specs": {
-    "chemistry": "LiHV",
-    "cells": "4S",
-    "capacity_mah": 1500,
-    "c_rating": "100C",
-    "weight_g": 187.0,
-    "connector": "XT60",
-    "dimensions_mm": "33.2x38.8x77.5mm",
-    "energy_wh": 22.8,
-    "price_usd": 48.99,
-    "price_per_wh_usd": 2.15
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/rdq-series-14-8v-4s-1500mah-100c-lipo-battery-3-pack-xt60"
    ]
   },
   {
@@ -3120,10 +3250,10 @@
     "c_rating": "80C",
     "weight_g": 318.0,
     "connector": "XT60",
-    "dimensions_mm": "42.5 x 34.5 x 107.5mm",
+    "dimensions_mm": "42.5x34.5x107.5mm",
     "energy_wh": 40.7,
-    "price_usd": 142.29,
-    "price_per_wh_usd": 3.5
+    "price_per_wh_usd": 3.5,
+    "price_usd": 142.29
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3144,55 +3274,12 @@
     "connector": "PH2.0",
     "dimensions_mm": "62x17x6.9mm",
     "energy_wh": 1.7,
-    "price_usd": 22.89,
-    "price_per_wh_usd": 13.39
+    "price_per_wh_usd": 13.39,
+    "price_usd": 22.89
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/rdq-series-3-8v-1s-450mah-80c-lihv-whoop-micro-battery-for-tinyhawk-5-pack-ph2-0"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "GNB",
-   "model": "RDQ Series 550mAh 1S",
-   "slug": "gnb-rdq-series-550mah-1s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "1S",
-    "capacity_mah": 550,
-    "c_rating": "90C",
-    "weight_g": 13.6,
-    "connector": "A30",
-    "energy_wh": 2.0,
-    "price_usd": 5.99,
-    "price_per_wh_usd": 2.94
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/rdq-series-3-7v-1s-550mah-90c-lipo-whoop-micro-battery-w-plastic-head-a30"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "GNB",
-   "model": "RDQ Series 650mAh 4S",
-   "slug": "gnb-rdq-series-650mah-4s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "4S",
-    "capacity_mah": 650,
-    "c_rating": "80C",
-    "weight_g": 30.0,
-    "connector": "XT30",
-    "dimensions_mm": "26x28x59mm",
-    "energy_wh": 9.6,
-    "price_usd": 48.79,
-    "price_per_wh_usd": 5.07
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/3-pack-of-rdq-series-14-8v-4s-650mah-80c-lipo-micro-battery-xt30"
    ]
   },
   {
@@ -3209,8 +3296,8 @@
     "connector": "XT30",
     "dimensions_mm": "74x44x18.5mm",
     "energy_wh": 16.4,
-    "price_usd": 43.56,
-    "price_per_wh_usd": 2.65
+    "price_per_wh_usd": 2.65,
+    "price_usd": 43.56
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3223,41 +3310,21 @@
    "model": "RDQ Series 850mAh 4S",
    "slug": "gnb-rdq-series-850mah-4s",
    "specs": {
-    "chemistry": "LiPo",
+    "chemistry": "LiHV",
     "cells": "4S",
     "capacity_mah": 850,
-    "c_rating": "75C",
-    "weight_g": 60.0,
-    "connector": "XT60",
-    "dimensions_mm": "25x31x59mm",
-    "energy_wh": 12.6,
-    "price_usd": 63.29,
-    "price_per_wh_usd": 5.03
+    "c_rating": "60C",
+    "weight_g": 70.5,
+    "connector": "XT30",
+    "dimensions_mm": "73x30x19mm",
+    "energy_wh": 12.9,
+    "price_per_wh_usd": 4.37,
+    "price_usd": 56.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
-    "https://www.racedayquads.com/products/3-pack-of-rdq-series-14-8v-4s-850mah-75c-lipo-micro-battery-xt60"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "GNB",
-   "model": "RDQ Series / - Cabled 550mAh 1S",
-   "slug": "gnb-rdq-series-cabled-550mah-1s",
-   "specs": {
-    "chemistry": "LiHV",
-    "cells": "1S",
-    "capacity_mah": 550,
-    "c_rating": "100C",
-    "weight_g": 13.6,
-    "connector": "A30",
-    "energy_wh": 2.1,
-    "price_usd": 5.99,
-    "price_per_wh_usd": 2.87
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/rdq-series-3-8v-1s-550mah-100c-lihv-whoop-micro-battery-cabled-a30"
+    "https://www.racedayquads.com/products/3-pack-of-rdq-series-14-8v-4s-850mah-75c-lipo-micro-battery-xt60",
+    "https://www.racedayquads.com/products/3-pack-of-rdq-series-15-2v-4s-850mah-60c-lihv-whoop-micro-battery-long-type-xt30"
    ]
   },
   {
@@ -3274,8 +3341,8 @@
     "connector": "PH2.0",
     "dimensions_mm": "60x18x8mm",
     "energy_wh": 2.5,
-    "price_usd": 6.99,
-    "price_per_wh_usd": 2.83
+    "price_per_wh_usd": 2.83,
+    "price_usd": 6.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3296,8 +3363,8 @@
     "connector": "XT30",
     "dimensions_mm": "105x35x31.5mm",
     "energy_wh": 8.1,
-    "price_usd": 26.99,
-    "price_per_wh_usd": 3.32
+    "price_per_wh_usd": 3.32,
+    "price_usd": 26.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3317,8 +3384,8 @@
     "weight_g": 845.0,
     "connector": "XT60",
     "energy_wh": 148.0,
-    "price_usd": 188.99,
-    "price_per_wh_usd": 1.28
+    "price_per_wh_usd": 1.28,
+    "price_usd": 188.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3338,8 +3405,8 @@
     "weight_g": 1245.0,
     "connector": "XT90",
     "energy_wh": 222.0,
-    "price_usd": 251.49,
-    "price_per_wh_usd": 1.13
+    "price_per_wh_usd": 1.13,
+    "price_usd": 251.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3359,8 +3426,8 @@
     "weight_g": 100.0,
     "connector": "XT60",
     "energy_wh": 11.1,
-    "price_usd": 28.49,
-    "price_per_wh_usd": 2.57
+    "price_per_wh_usd": 2.57,
+    "price_usd": 28.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3380,8 +3447,8 @@
     "weight_g": 64.0,
     "connector": "XT30",
     "energy_wh": 7.8,
-    "price_usd": 25.99,
-    "price_per_wh_usd": 3.34
+    "price_per_wh_usd": 3.34,
+    "price_usd": 25.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3401,8 +3468,8 @@
     "weight_g": 940.0,
     "connector": "XT60",
     "energy_wh": 177.6,
-    "price_usd": 217.49,
-    "price_per_wh_usd": 1.22
+    "price_per_wh_usd": 1.22,
+    "price_usd": 217.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3422,8 +3489,8 @@
     "weight_g": 940.0,
     "connector": "XT90",
     "energy_wh": 288.6,
-    "price_usd": 295.99,
-    "price_per_wh_usd": 1.03
+    "price_per_wh_usd": 1.03,
+    "price_usd": 295.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3443,8 +3510,8 @@
     "weight_g": 118.0,
     "connector": "XT60",
     "energy_wh": 14.4,
-    "price_usd": 26.99,
-    "price_per_wh_usd": 1.87
+    "price_per_wh_usd": 1.87,
+    "price_usd": 26.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3464,8 +3531,8 @@
     "weight_g": 135.0,
     "connector": "XT60",
     "energy_wh": 19.2,
-    "price_usd": 28.49,
-    "price_per_wh_usd": 1.48
+    "price_per_wh_usd": 1.48,
+    "price_usd": 28.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3485,8 +3552,8 @@
     "weight_g": 241.0,
     "connector": "XT60",
     "energy_wh": 28.9,
-    "price_usd": 58.49,
-    "price_per_wh_usd": 2.03
+    "price_per_wh_usd": 2.03,
+    "price_usd": 58.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3506,8 +3573,8 @@
     "weight_g": 125.0,
     "connector": "XT60",
     "energy_wh": 16.7,
-    "price_usd": 33.99,
-    "price_per_wh_usd": 2.04
+    "price_per_wh_usd": 2.04,
+    "price_usd": 33.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3527,8 +3594,8 @@
     "weight_g": 192.0,
     "connector": "XT60",
     "energy_wh": 22.2,
-    "price_usd": 40.49,
-    "price_per_wh_usd": 1.82
+    "price_per_wh_usd": 1.82,
+    "price_usd": 40.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3548,8 +3615,8 @@
     "weight_g": 273.0,
     "connector": "XT60",
     "energy_wh": 33.3,
-    "price_usd": 62.49,
-    "price_per_wh_usd": 1.88
+    "price_per_wh_usd": 1.88,
+    "price_usd": 62.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3569,33 +3636,12 @@
     "weight_g": 1190.0,
     "connector": "XT90",
     "energy_wh": 236.8,
-    "price_usd": 264.99,
-    "price_per_wh_usd": 1.12
+    "price_per_wh_usd": 1.12,
+    "price_usd": 264.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/lumenier-16000mah-4s-20c-lipo-battery-xt90"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "LUMENIER",
-   "model": "1800mAh 3S",
-   "slug": "lumenier-1800mah-3s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "3S",
-    "capacity_mah": 1800,
-    "c_rating": "35C",
-    "weight_g": 140.0,
-    "connector": "XT60",
-    "energy_wh": 20.0,
-    "price_usd": 31.49,
-    "price_per_wh_usd": 1.58
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/lumenier-1800mah-3s-35c-lipo-battery"
    ]
   },
   {
@@ -3611,117 +3657,12 @@
     "weight_g": 228.0,
     "connector": "XT60",
     "energy_wh": 26.6,
-    "price_usd": 39.49,
-    "price_per_wh_usd": 1.48
+    "price_per_wh_usd": 1.48,
+    "price_usd": 39.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/lumenier-1800mah-4s-75c-lipo-battery"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "LUMENIER",
-   "model": "2250mAh 3S",
-   "slug": "lumenier-2250mah-3s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "3S",
-    "capacity_mah": 2250,
-    "c_rating": "35C",
-    "weight_g": 170.0,
-    "connector": "XT60",
-    "energy_wh": 25.0,
-    "price_usd": 33.99,
-    "price_per_wh_usd": 1.36
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/lumenier-2250mah-3s-35c-lipo-battery"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "LUMENIER",
-   "model": "2250mAh 4S",
-   "slug": "lumenier-2250mah-4s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "4S",
-    "capacity_mah": 2250,
-    "c_rating": "35C",
-    "weight_g": 219.0,
-    "connector": "XT60",
-    "energy_wh": 33.3,
-    "price_usd": 47.49,
-    "price_per_wh_usd": 1.43
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/lumenier-2250mah-4s-35c-lipo-battery"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "LUMENIER",
-   "model": "3300mAh 3S",
-   "slug": "lumenier-3300mah-3s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "3S",
-    "capacity_mah": 3300,
-    "c_rating": "35C",
-    "weight_g": 252.0,
-    "connector": "XT60",
-    "energy_wh": 36.6,
-    "price_usd": 55.49,
-    "price_per_wh_usd": 1.51
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/lumenier-3300mah-3s-35c-lipo-battery"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "LUMENIER",
-   "model": "3300mAh 4S",
-   "slug": "lumenier-3300mah-4s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "4S",
-    "capacity_mah": 3300,
-    "c_rating": "35C",
-    "weight_g": 330.0,
-    "connector": "XT60",
-    "energy_wh": 48.8,
-    "price_usd": 74.49,
-    "price_per_wh_usd": 1.53
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/lumenier-3300mah-4s-35c-lipo-battery"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "LUMENIER",
-   "model": "4200mAh 4S",
-   "slug": "lumenier-4200mah-4s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "4S",
-    "capacity_mah": 4200,
-    "c_rating": "35C",
-    "weight_g": 392.0,
-    "connector": "XT60",
-    "energy_wh": 62.2,
-    "price_usd": 85.49,
-    "price_per_wh_usd": 1.38
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/lumenier-4200mah-4s-35c-lipo-battery"
    ]
   },
   {
@@ -3737,33 +3678,12 @@
     "weight_g": 30.0,
     "connector": "JST",
     "energy_wh": 3.7,
-    "price_usd": 16.49,
-    "price_per_wh_usd": 4.46
+    "price_per_wh_usd": 4.46,
+    "price_usd": 16.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/lumenier-500mah-2s-50c-lipo-battery"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "LUMENIER",
-   "model": "5200mAh 3S",
-   "slug": "lumenier-5200mah-3s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "3S",
-    "capacity_mah": 5200,
-    "c_rating": "35C",
-    "weight_g": 392.0,
-    "connector": "XT60",
-    "energy_wh": 57.7,
-    "price_usd": 78.49,
-    "price_per_wh_usd": 1.36
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/lumenier-5200mah-3s-35c-lipo-battery"
    ]
   },
   {
@@ -3779,33 +3699,12 @@
     "weight_g": 473.0,
     "connector": "XT60",
     "energy_wh": 77.0,
-    "price_usd": 93.49,
-    "price_per_wh_usd": 1.21
+    "price_per_wh_usd": 1.21,
+    "price_usd": 93.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/lumenier-5200mah-4s-35c-lipo-battery"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "LUMENIER",
-   "model": "6000mAh 4S",
-   "slug": "lumenier-6000mah-4s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "4S",
-    "capacity_mah": 6000,
-    "c_rating": "35C",
-    "weight_g": 540.0,
-    "connector": "XT60",
-    "energy_wh": 88.8,
-    "price_usd": 175.49,
-    "price_per_wh_usd": 1.98
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/lumenier-6000mah-4s-35c-lipo-battery-xt60"
    ]
   },
   {
@@ -3821,8 +3720,8 @@
     "weight_g": 735.0,
     "connector": "XT60",
     "energy_wh": 118.4,
-    "price_usd": 155.49,
-    "price_per_wh_usd": 1.31
+    "price_per_wh_usd": 1.31,
+    "price_usd": 155.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3842,8 +3741,8 @@
     "weight_g": 485.0,
     "connector": "XT60",
     "energy_wh": 64.4,
-    "price_usd": 140.49,
-    "price_per_wh_usd": 2.18
+    "price_per_wh_usd": 2.18,
+    "price_usd": 140.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3863,8 +3762,8 @@
     "weight_g": 580.0,
     "connector": "XT60",
     "energy_wh": 77.7,
-    "price_usd": 155.49,
-    "price_per_wh_usd": 2.0
+    "price_per_wh_usd": 2.0,
+    "price_usd": 155.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3884,8 +3783,8 @@
     "weight_g": 655.0,
     "connector": "XT90",
     "energy_wh": 88.8,
-    "price_usd": 179.99,
-    "price_per_wh_usd": 2.03
+    "price_per_wh_usd": 2.03,
+    "price_usd": 179.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3905,8 +3804,8 @@
     "weight_g": 745.0,
     "connector": "XT90",
     "energy_wh": 99.9,
-    "price_usd": 202.49,
-    "price_per_wh_usd": 2.03
+    "price_per_wh_usd": 2.03,
+    "price_usd": 202.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3926,8 +3825,8 @@
     "weight_g": 810.0,
     "connector": "XT90",
     "energy_wh": 115.4,
-    "price_usd": 217.49,
-    "price_per_wh_usd": 1.88
+    "price_per_wh_usd": 1.88,
+    "price_usd": 217.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3947,8 +3846,8 @@
     "weight_g": 705.0,
     "connector": "AS150",
     "energy_wh": 99.9,
-    "price_usd": 202.49,
-    "price_per_wh_usd": 2.03
+    "price_per_wh_usd": 2.03,
+    "price_usd": 202.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3968,8 +3867,8 @@
     "weight_g": 555.0,
     "connector": "AS150",
     "energy_wh": 77.0,
-    "price_usd": 121.49,
-    "price_per_wh_usd": 1.58
+    "price_per_wh_usd": 1.58,
+    "price_usd": 121.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -3989,8 +3888,8 @@
     "weight_g": 800.0,
     "connector": "AS150",
     "energy_wh": 115.4,
-    "price_usd": 217.49,
-    "price_per_wh_usd": 1.88
+    "price_per_wh_usd": 1.88,
+    "price_usd": 217.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4010,8 +3909,8 @@
     "weight_g": 80.0,
     "connector": "XT30",
     "energy_wh": 10.4,
-    "price_usd": 29.99,
-    "price_per_wh_usd": 2.89
+    "price_per_wh_usd": 2.89,
+    "price_usd": 29.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4031,8 +3930,8 @@
     "weight_g": 30.49,
     "connector": "XT30",
     "energy_wh": 3.4,
-    "price_usd": 14.99,
-    "price_per_wh_usd": 4.38
+    "price_per_wh_usd": 4.38,
+    "price_usd": 14.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4052,8 +3951,8 @@
     "weight_g": 45.62,
     "connector": "XT30",
     "energy_wh": 5.1,
-    "price_usd": 17.99,
-    "price_per_wh_usd": 3.51
+    "price_per_wh_usd": 3.51,
+    "price_usd": 17.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4073,8 +3972,8 @@
     "weight_g": 30.9,
     "connector": "XT30",
     "energy_wh": 4.2,
-    "price_usd": 16.49,
-    "price_per_wh_usd": 3.94
+    "price_per_wh_usd": 3.94,
+    "price_usd": 16.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4092,10 +3991,10 @@
     "capacity_mah": 550,
     "c_rating": "90C",
     "weight_g": 13.87,
-    "connector": "JST-2",
+    "connector": "PH2.0",
     "energy_wh": 2.1,
-    "price_usd": 13.49,
-    "price_per_wh_usd": 6.45
+    "price_per_wh_usd": 6.45,
+    "price_usd": 13.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4115,12 +4014,33 @@
     "weight_g": 59.14,
     "connector": "XT30",
     "energy_wh": 6.8,
-    "price_usd": 20.49,
-    "price_per_wh_usd": 3.0
+    "price_per_wh_usd": 3.0,
+    "price_usd": 20.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/lumenier-450mah-4s-80c-micro-hv-lipo-battery-xt-30"
+   ]
+  },
+  {
+   "type": "battery",
+   "brand": "LUMENIER",
+   "model": "(JST) 1300mAh 3S",
+   "slug": "lumenier-jst-1300mah-3s",
+   "specs": {
+    "chemistry": "LiPo",
+    "cells": "3S",
+    "capacity_mah": 1300,
+    "c_rating": "35C",
+    "weight_g": 98.0,
+    "connector": "JST",
+    "energy_wh": 14.4,
+    "price_per_wh_usd": 1.32,
+    "price_usd": 18.99
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/lumenier-1300mah-3s-35c-lipo-battery-jst"
    ]
   },
   {
@@ -4136,8 +4056,8 @@
     "weight_g": 18.0,
     "connector": "JST",
     "energy_wh": 2.2,
-    "price_usd": 14.99,
-    "price_per_wh_usd": 6.75
+    "price_per_wh_usd": 6.75,
+    "price_usd": 14.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4147,148 +4067,22 @@
   {
    "type": "battery",
    "brand": "LUMENIER",
-   "model": "N2O 1500mAh 6S",
-   "slug": "lumenier-n2o-1500mah-6s",
+   "model": "JST-PH 2.0 205mAh 1S",
+   "slug": "lumenier-jst-ph-2-0-205mah-1s",
    "specs": {
     "chemistry": "LiPo",
-    "cells": "6S",
-    "capacity_mah": 1500,
-    "c_rating": "120C",
-    "weight_g": 274.0,
-    "connector": "XT90",
-    "energy_wh": 33.3,
-    "price_usd": 78.49,
-    "price_per_wh_usd": 2.36
+    "cells": "1S",
+    "capacity_mah": 205,
+    "c_rating": "25C",
+    "weight_g": 6.1,
+    "connector": "PH2.0",
+    "energy_wh": 0.8,
+    "price_per_wh_usd": 7.24,
+    "price_usd": 5.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
-    "https://www.racedayquads.com/products/lumenier-n2o-1500mah-6s-120c-lipo-battery"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "LUMENIER",
-   "model": "N2O 3500mAh 4S",
-   "slug": "lumenier-n2o-3500mah-4s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "4S",
-    "capacity_mah": 3500,
-    "c_rating": "120C",
-    "weight_g": 382.0,
-    "connector": "XT90",
-    "energy_wh": 51.8,
-    "price_usd": 90.49,
-    "price_per_wh_usd": 1.75
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/lumenier-n2o-3500mah-4s-120c-lipo-battery"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "LUMENIER",
-   "model": "N2O Extreme 1550mAh 4S",
-   "slug": "lumenier-n2o-extreme-1550mah-4s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "4S",
-    "capacity_mah": 1550,
-    "c_rating": "150C",
-    "weight_g": 196.0,
-    "connector": "XT60 (standard)",
-    "energy_wh": 22.9,
-    "price_usd": 70.49,
-    "price_per_wh_usd": 3.07
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/lumenier-n2o-extreme-1550mah-4s-150c-lipo-battery"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "LUMENIER",
-   "model": "N2O Extreme 1550mAh 5S",
-   "slug": "lumenier-n2o-extreme-1550mah-5s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "5S",
-    "capacity_mah": 1550,
-    "c_rating": "150C",
-    "weight_g": 245.0,
-    "connector": "XT60 (standard)",
-    "energy_wh": 28.7,
-    "price_usd": 78.49,
-    "price_per_wh_usd": 2.74
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/lumenier-n2o-extreme-1550mah-5s-150c-lipo-battery"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "LUMENIER",
-   "model": "N2O Extreme 1550mAh 6S",
-   "slug": "lumenier-n2o-extreme-1550mah-6s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "6S",
-    "capacity_mah": 1550,
-    "c_rating": "150C",
-    "weight_g": 275.0,
-    "connector": "XT60 (standard)",
-    "energy_wh": 34.4,
-    "price_usd": 93.49,
-    "price_per_wh_usd": 2.72
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/lumenier-n2o-extreme-1550mah-6s-150c-lipo-battery"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "LUMENIER",
-   "model": "N2O Extreme 1850mAh 4S",
-   "slug": "lumenier-n2o-extreme-1850mah-4s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "4S",
-    "capacity_mah": 1850,
-    "c_rating": "150C",
-    "weight_g": 235.0,
-    "connector": "XT60 (standard)",
-    "energy_wh": 27.4,
-    "price_usd": 76.99,
-    "price_per_wh_usd": 2.81
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/lumenier-n2o-extreme-1850mah-4s-150c-lipo-battery"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "LUMENIER",
-   "model": "N2O Extreme 1850mAh 6S",
-   "slug": "lumenier-n2o-extreme-1850mah-6s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "6S",
-    "capacity_mah": 1850,
-    "c_rating": "150C",
-    "weight_g": 350.0,
-    "connector": "XT60",
-    "energy_wh": 41.1,
-    "price_usd": 105.49,
-    "price_per_wh_usd": 2.57
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/lumenier-n2o-extreme-1850mah-6s-150c-lipo-battery"
+    "https://www.racedayquads.com/products/lumenier-205mah-1s-25c-lipo-battery-jst-ph-2-0"
    ]
   },
   {
@@ -4304,33 +4098,12 @@
     "weight_g": 50.0,
     "connector": "XT30",
     "energy_wh": 5.6,
-    "price_usd": 24.49,
-    "price_per_wh_usd": 4.41
+    "price_per_wh_usd": 4.41,
+    "price_usd": 24.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/lumenier-n2o-feather-lite-750mah-2s-100c-lipo-battery-xt-30"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "LUMENIER",
-   "model": "N2O Feather-Lite - XT-30 750mAh 3S",
-   "slug": "lumenier-n2o-feather-lite-xt-30-750mah-3s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "3S",
-    "capacity_mah": 750,
-    "c_rating": "100C",
-    "weight_g": 71.0,
-    "connector": "XT30",
-    "energy_wh": 8.3,
-    "price_usd": 29.99,
-    "price_per_wh_usd": 3.6
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/lumenier-n2o-feather-lite-750mah-3s-100c-lipo-battery-xt-30"
    ]
   },
   {
@@ -4346,8 +4119,8 @@
     "weight_g": 95.0,
     "connector": "XT30",
     "energy_wh": 11.1,
-    "price_usd": 35.49,
-    "price_per_wh_usd": 3.2
+    "price_per_wh_usd": 3.2,
+    "price_usd": 35.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4367,54 +4140,12 @@
     "weight_g": 135.0,
     "connector": "XT30",
     "energy_wh": 16.7,
-    "price_usd": 40.49,
-    "price_per_wh_usd": 2.43
+    "price_per_wh_usd": 2.43,
+    "price_usd": 40.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/lumenier-n2o-feather-lite-750mah-6s-100c-lipo-battery-xt-30"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "LUMENIER",
-   "model": "N2O Feather-Lite (XT-60) 1300mAh 4S",
-   "slug": "lumenier-n2o-feather-lite-xt-60-1300mah-4s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "4S",
-    "capacity_mah": 1300,
-    "c_rating": "150C",
-    "weight_g": 156.0,
-    "connector": "XT60",
-    "energy_wh": 19.2,
-    "price_usd": 59.49,
-    "price_per_wh_usd": 3.09
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/lumenier-n2o-feather-lite-1300mah-4s-150c-lipo-battery-xt-60"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "LUMENIER",
-   "model": "N2O Feather-Lite (XT-60) 1300mAh 6S",
-   "slug": "lumenier-n2o-feather-lite-xt-60-1300mah-6s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "6S",
-    "capacity_mah": 1300,
-    "c_rating": "150C",
-    "weight_g": 225.0,
-    "connector": "XT60",
-    "energy_wh": 28.9,
-    "price_usd": 76.99,
-    "price_per_wh_usd": 2.67
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/lumenier-n2o-feather-lite-1300mah-6s-150c-lipo-battery-xt-60"
    ]
   },
   {
@@ -4430,8 +4161,8 @@
     "weight_g": 155.0,
     "connector": "XT60",
     "energy_wh": 20.7,
-    "price_usd": 64.99,
-    "price_per_wh_usd": 3.14
+    "price_per_wh_usd": 3.14,
+    "price_usd": 64.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4451,33 +4182,12 @@
     "weight_g": 212.0,
     "connector": "XT60",
     "energy_wh": 31.1,
-    "price_usd": 80.99,
-    "price_per_wh_usd": 2.61
+    "price_per_wh_usd": 2.61,
+    "price_usd": 80.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/lumenier-n2o-feather-lite-1400mah-6s-150c-lipo-battery-xt-60"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "LUMENIER",
-   "model": "N2O Feather-Lite (XT-60) 1550mAh 4S",
-   "slug": "lumenier-n2o-feather-lite-xt-60-1550mah-4s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "4S",
-    "capacity_mah": 1550,
-    "c_rating": "150C",
-    "weight_g": 278.0,
-    "connector": "XT60",
-    "energy_wh": 22.9,
-    "price_usd": 67.49,
-    "price_per_wh_usd": 2.94
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/lumenier-n2o-feather-lite-1550mah-4s-150c-lipo-battery-xt-60"
    ]
   },
   {
@@ -4493,54 +4203,12 @@
     "weight_g": 265.0,
     "connector": "XT60",
     "energy_wh": 34.4,
-    "price_usd": 90.49,
-    "price_per_wh_usd": 2.63
+    "price_per_wh_usd": 2.63,
+    "price_usd": 90.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/lumenier-n2o-feather-lite-1550mah-6s-150c-lipo-battery-xt-60"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "LUMENIER",
-   "model": "N2O Feather-Lite (XT-60) 1600mAh 6S",
-   "slug": "lumenier-n2o-feather-lite-xt-60-1600mah-6s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "6S",
-    "capacity_mah": 1600,
-    "c_rating": "130C",
-    "weight_g": 260.0,
-    "connector": "XT60",
-    "energy_wh": 35.5,
-    "price_usd": 89.49,
-    "price_per_wh_usd": 2.52
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/lumenier-n2o-feather-lite-1600mah-6s-130c-lipo-battery-xt-60"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "LUMENIER",
-   "model": "N2O (XT-30) 850mAh 6S",
-   "slug": "lumenier-n2o-xt-30-850mah-6s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "6S",
-    "capacity_mah": 850,
-    "c_rating": "120C",
-    "weight_g": 159.0,
-    "connector": "XT60",
-    "energy_wh": 18.9,
-    "price_usd": 60.99,
-    "price_per_wh_usd": 3.23
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/lumenier-n2o-850mah-6s-120c-lipo-battery-xt-30"
    ]
   },
   {
@@ -4556,8 +4224,8 @@
     "weight_g": 185.0,
     "connector": "XT60",
     "energy_wh": 22.2,
-    "price_usd": 62.49,
-    "price_per_wh_usd": 2.81
+    "price_per_wh_usd": 2.81,
+    "price_usd": 62.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4577,8 +4245,8 @@
     "weight_g": 165.0,
     "connector": "XT60",
     "energy_wh": 18.9,
-    "price_usd": 62.49,
-    "price_per_wh_usd": 3.31
+    "price_per_wh_usd": 3.31,
+    "price_usd": 62.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4598,8 +4266,8 @@
     "weight_g": 635.0,
     "connector": "XT60",
     "energy_wh": 129.6,
-    "price_usd": 188.99,
-    "price_per_wh_usd": 1.46
+    "price_per_wh_usd": 1.46,
+    "price_usd": 188.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4612,15 +4280,15 @@
    "model": "NAV Lithium-Ion 3000mAh 4S",
    "slug": "lumenier-nav-lithium-ion-3000mah-4s",
    "specs": {
-    "chemistry": "LiPo",
+    "chemistry": "Li-ion",
     "cells": "4S",
     "capacity_mah": 3000,
     "c_rating": "10C",
     "weight_g": 205.0,
     "connector": "XT60",
-    "energy_wh": 44.4,
-    "price_usd": 67.49,
-    "price_per_wh_usd": 1.52
+    "energy_wh": 43.2,
+    "price_per_wh_usd": 1.56,
+    "price_usd": 67.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4633,15 +4301,15 @@
    "model": "NAV Lithium-Ion 3000mAh 6S",
    "slug": "lumenier-nav-lithium-ion-3000mah-6s",
    "specs": {
-    "chemistry": "LiPo",
+    "chemistry": "Li-ion",
     "cells": "6S",
     "capacity_mah": 3000,
     "c_rating": "10C",
     "weight_g": 310.0,
     "connector": "XT60",
-    "energy_wh": 66.6,
-    "price_usd": 94.49,
-    "price_per_wh_usd": 1.42
+    "energy_wh": 64.8,
+    "price_per_wh_usd": 1.46,
+    "price_usd": 94.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4661,33 +4329,12 @@
     "weight_g": 240.0,
     "connector": "XT60",
     "energy_wh": 28.9,
-    "price_usd": 59.49,
-    "price_per_wh_usd": 2.06
+    "price_per_wh_usd": 2.06,
+    "price_usd": 59.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/lumenier-silicon-graphene-1300mah-6s-95c-lipo-battery"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "LUMENIER",
-   "model": "Silicon Graphene 1500mAh 6S",
-   "slug": "lumenier-silicon-graphene-1500mah-6s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "6S",
-    "capacity_mah": 1500,
-    "c_rating": "95C",
-    "weight_g": 278.0,
-    "connector": "XT60",
-    "energy_wh": 33.3,
-    "price_usd": 70.49,
-    "price_per_wh_usd": 2.12
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/lumenier-silicon-graphene-1500mah-6s-95c-lipo-battery"
    ]
   },
   {
@@ -4703,8 +4350,8 @@
     "weight_g": 18.0,
     "connector": "XT30",
     "energy_wh": 2.2,
-    "price_usd": 13.49,
-    "price_per_wh_usd": 6.08
+    "price_per_wh_usd": 6.08,
+    "price_usd": 13.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4724,8 +4371,8 @@
     "weight_g": 26.0,
     "connector": "XT30",
     "energy_wh": 3.3,
-    "price_usd": 16.49,
-    "price_per_wh_usd": 4.95
+    "price_per_wh_usd": 4.95,
+    "price_usd": 16.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4745,8 +4392,8 @@
     "weight_g": 34.0,
     "connector": "XT30",
     "energy_wh": 4.4,
-    "price_usd": 22.99,
-    "price_per_wh_usd": 5.18
+    "price_per_wh_usd": 5.18,
+    "price_usd": 22.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4766,8 +4413,8 @@
     "weight_g": 28.0,
     "connector": "XT30",
     "energy_wh": 4.1,
-    "price_usd": 14.99,
-    "price_per_wh_usd": 3.68
+    "price_per_wh_usd": 3.68,
+    "price_usd": 14.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4787,8 +4434,8 @@
     "weight_g": 44.0,
     "connector": "XT30",
     "energy_wh": 6.1,
-    "price_usd": 18.99,
-    "price_per_wh_usd": 3.11
+    "price_per_wh_usd": 3.11,
+    "price_usd": 18.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4808,8 +4455,8 @@
     "weight_g": 59.0,
     "connector": "XT30",
     "energy_wh": 8.1,
-    "price_usd": 24.49,
-    "price_per_wh_usd": 3.01
+    "price_per_wh_usd": 3.01,
+    "price_usd": 24.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4829,8 +4476,8 @@
     "weight_g": 49.0,
     "connector": "XT30",
     "energy_wh": 6.3,
-    "price_usd": 16.49,
-    "price_per_wh_usd": 2.62
+    "price_per_wh_usd": 2.62,
+    "price_usd": 16.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4850,8 +4497,8 @@
     "weight_g": 71.0,
     "connector": "XT30",
     "energy_wh": 9.4,
-    "price_usd": 20.49,
-    "price_per_wh_usd": 2.17
+    "price_per_wh_usd": 2.17,
+    "price_usd": 20.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4869,14 +4516,35 @@
     "capacity_mah": 850,
     "c_rating": "75C",
     "weight_g": 101.0,
-    "connector": "XT60",
+    "connector": "XT30",
     "energy_wh": 12.6,
-    "price_usd": 31.49,
-    "price_per_wh_usd": 2.5
+    "price_per_wh_usd": 2.5,
+    "price_usd": 31.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/lumenier-850mah-4s-75c-lipo-battery-xt-30"
+   ]
+  },
+  {
+   "type": "battery",
+   "brand": "NewBeeDrone",
+   "model": "Nitro Nectar HV - NX69 300mAh 1S",
+   "slug": "newbeedrone-nitro-nectar-hv-nx69-300mah-1s",
+   "specs": {
+    "chemistry": "LiHV",
+    "cells": "1S",
+    "capacity_mah": 300,
+    "c_rating": "80C",
+    "weight_g": 8.4,
+    "connector": "NX69",
+    "energy_wh": 1.1,
+    "price_per_wh_usd": 14.03,
+    "price_usd": 15.99
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/newbeedrone-nitro-nectar-300mah-1s-80c-hv-lipo-battery-4-pcs-nx69"
    ]
   },
   {
@@ -4890,10 +4558,10 @@
     "capacity_mah": 550,
     "c_rating": "80C",
     "weight_g": 14.3,
-    "connector": "BT2.0",
+    "connector": "NX69",
     "energy_wh": 2.1,
-    "price_usd": 11.49,
-    "price_per_wh_usd": 5.5
+    "price_per_wh_usd": 5.5,
+    "price_usd": 11.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4914,8 +4582,8 @@
     "connector": "XT60",
     "dimensions_mm": "53x33x75mm",
     "energy_wh": 33.3,
-    "price_usd": 107.99,
-    "price_per_wh_usd": 3.24
+    "price_per_wh_usd": 3.24,
+    "price_usd": 107.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4928,16 +4596,16 @@
    "model": "RDQ Series 1000mAh 6S",
    "slug": "rdq-rdq-series-1000mah-6s",
    "specs": {
-    "chemistry": "LiHV",
+    "chemistry": "LiPo",
     "cells": "6S",
     "capacity_mah": 1000,
     "c_rating": "100C",
     "weight_g": 185.0,
     "connector": "XT60",
     "dimensions_mm": "78x38x24mm",
-    "energy_wh": 22.8,
-    "price_usd": 38.49,
-    "price_per_wh_usd": 1.69
+    "energy_wh": 22.2,
+    "price_per_wh_usd": 1.73,
+    "price_usd": 38.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4957,8 +4625,8 @@
     "weight_g": 69.0,
     "connector": "XT30",
     "energy_wh": 12.5,
-    "price_usd": 18.99,
-    "price_per_wh_usd": 1.51
+    "price_per_wh_usd": 1.51,
+    "price_usd": 18.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -4979,8 +4647,8 @@
     "connector": "XT60",
     "dimensions_mm": "24x38x80mm",
     "energy_wh": 19.8,
-    "price_usd": 34.99,
-    "price_per_wh_usd": 1.77
+    "price_per_wh_usd": 1.77,
+    "price_usd": 34.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5001,8 +4669,8 @@
     "connector": "XT60",
     "dimensions_mm": "34x38x80mm",
     "energy_wh": 29.6,
-    "price_usd": 50.99,
-    "price_per_wh_usd": 1.72
+    "price_per_wh_usd": 1.72,
+    "price_usd": 50.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5015,21 +4683,20 @@
    "model": "RDQ Series 1500mAh 4S",
    "slug": "rdq-rdq-series-1500mah-4s",
    "specs": {
-    "chemistry": "LiHV",
+    "chemistry": "LiPo",
     "cells": "4S",
     "capacity_mah": 1500,
-    "c_rating": "120C",
-    "weight_g": 151.0,
+    "c_rating": "100C",
+    "weight_g": 187.0,
     "connector": "XT60",
-    "dimensions_mm": "36x38x79mm",
-    "energy_wh": 22.8,
-    "price_usd": 35.49,
-    "price_per_wh_usd": 1.56
+    "dimensions_mm": "33.2x38.8x77.5mm",
+    "energy_wh": 22.2,
+    "price_per_wh_usd": 1.46,
+    "price_usd": 32.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
-    "https://www.racedayquads.com/products/rdq-series-14-8v-4s-1500mah-100c-lipo-battery-xt60",
-    "https://www.racedayquads.com/products/rdq-series-15-2v-4s-1500mah-120c-lihv-battery-xt60"
+    "https://www.racedayquads.com/products/rdq-series-14-8v-4s-1500mah-100c-lipo-battery-xt60"
    ]
   },
   {
@@ -5046,8 +4713,8 @@
     "connector": "XT60",
     "dimensions_mm": "38x38x79mm",
     "energy_wh": 34.2,
-    "price_usd": 52.99,
-    "price_per_wh_usd": 1.55
+    "price_per_wh_usd": 1.55,
+    "price_usd": 52.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5060,16 +4727,16 @@
    "model": "RDQ Series 1800mAh 6S",
    "slug": "rdq-rdq-series-1800mah-6s",
    "specs": {
-    "chemistry": "LiHV",
+    "chemistry": "LiPo",
     "cells": "6S",
     "capacity_mah": 1800,
     "c_rating": "100C",
     "weight_g": 310.0,
     "connector": "XT60",
     "dimensions_mm": "90x58x34mm",
-    "energy_wh": 41.0,
-    "price_usd": 60.99,
-    "price_per_wh_usd": 1.49
+    "energy_wh": 40.0,
+    "price_per_wh_usd": 1.53,
+    "price_usd": 60.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5089,8 +4756,8 @@
     "weight_g": 245.0,
     "connector": "XT60",
     "energy_wh": 32.6,
-    "price_usd": 49.99,
-    "price_per_wh_usd": 1.54
+    "price_per_wh_usd": 1.54,
+    "price_usd": 49.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5110,8 +4777,8 @@
     "weight_g": 318.0,
     "connector": "XT60",
     "energy_wh": 40.7,
-    "price_usd": 62.49,
-    "price_per_wh_usd": 1.54
+    "price_per_wh_usd": 1.54,
+    "price_usd": 62.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5132,8 +4799,8 @@
     "connector": "XT60",
     "dimensions_mm": "79x23x34mm",
     "energy_wh": 31.1,
-    "price_usd": 36.49,
-    "price_per_wh_usd": 1.17
+    "price_per_wh_usd": 1.17,
+    "price_usd": 36.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5154,8 +4821,8 @@
     "connector": "XT60",
     "dimensions_mm": "107x33x46mm",
     "energy_wh": 41.4,
-    "price_usd": 54.99,
-    "price_per_wh_usd": 1.33
+    "price_per_wh_usd": 1.33,
+    "price_usd": 54.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5176,12 +4843,55 @@
     "connector": "XT60",
     "dimensions_mm": "113x55x35mm",
     "energy_wh": 62.2,
-    "price_usd": 84.99,
-    "price_per_wh_usd": 1.37
+    "price_per_wh_usd": 1.37,
+    "price_usd": 84.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/rdq-series-11-1v-6s-2800mah-100c-lipo-battery-xt60"
+   ]
+  },
+  {
+   "type": "battery",
+   "brand": "RDQ",
+   "model": "RDQ Series 2C QX7 Compatible HV 3500mAh 2S",
+   "slug": "rdq-rdq-series-2c-qx7-compatible-hv-3500mah-2s",
+   "specs": {
+    "chemistry": "LiHV",
+    "cells": "2S",
+    "capacity_mah": 3500,
+    "c_rating": "2C",
+    "weight_g": 122.0,
+    "connector": "XT30",
+    "dimensions_mm": "50x85x14mm",
+    "energy_wh": 26.6,
+    "price_per_wh_usd": 0.75,
+    "price_usd": 19.99
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/rdq-series-7-6v-2s-3500mah-qx7-compatible-lipo-battery-xt30"
+   ]
+  },
+  {
+   "type": "battery",
+   "brand": "RDQ",
+   "model": "RDQ Series 300mAh 1S",
+   "slug": "rdq-rdq-series-300mah-1s",
+   "specs": {
+    "chemistry": "LiHV",
+    "cells": "1S",
+    "capacity_mah": 300,
+    "c_rating": "60C",
+    "weight_g": 6.7,
+    "connector": "PH2.0",
+    "energy_wh": 1.1,
+    "price_per_wh_usd": 4.82,
+    "price_usd": 5.49
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/rdq-series-3-8v-1s-300mah-60c-lihv-battery-ph2-0"
    ]
   },
   {
@@ -5193,18 +4903,17 @@
     "chemistry": "LiHV",
     "cells": "2S",
     "capacity_mah": 300,
-    "c_rating": "50C",
-    "weight_g": 15.8,
+    "c_rating": "70C",
+    "weight_g": 20.28,
     "connector": "XT30",
-    "dimensions_mm": "45x17x14mm",
+    "dimensions_mm": "51x16.7x12.5mm",
     "energy_wh": 2.3,
-    "price_usd": 7.49,
-    "price_per_wh_usd": 3.29
+    "price_per_wh_usd": 3.72,
+    "price_usd": 8.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
-    "https://www.racedayquads.com/products/rdq-series-300mah-2s-70c-fpv-micro-battery-xt30",
-    "https://www.racedayquads.com/products/rdq-series-7-6v-2s-300mah-50c-lihv-micro-battery-for-tinyhawk-s-ph2-0"
+    "https://www.racedayquads.com/products/rdq-series-300mah-2s-70c-fpv-micro-battery-xt30"
    ]
   },
   {
@@ -5221,8 +4930,8 @@
     "connector": "XT30",
     "dimensions_mm": "22x27x60mm",
     "energy_wh": 4.6,
-    "price_usd": 14.49,
-    "price_per_wh_usd": 3.18
+    "price_per_wh_usd": 3.18,
+    "price_usd": 14.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5242,8 +4951,8 @@
     "weight_g": 16.4,
     "connector": "PH2.0",
     "energy_wh": 2.7,
-    "price_usd": 8.49,
-    "price_per_wh_usd": 3.19
+    "price_per_wh_usd": 3.19,
+    "price_usd": 8.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5264,12 +4973,34 @@
     "connector": "XT30",
     "dimensions_mm": "52x20.2x17.3mm",
     "energy_wh": 4.0,
-    "price_usd": 14.49,
-    "price_per_wh_usd": 3.63
+    "price_per_wh_usd": 3.63,
+    "price_usd": 14.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/rdq-series-11-4v-3s-350mah-50c-lihv-micro-battery-xt30"
+   ]
+  },
+  {
+   "type": "battery",
+   "brand": "RDQ",
+   "model": "RDQ Series 380mAh 1S",
+   "slug": "rdq-rdq-series-380mah-1s",
+   "specs": {
+    "chemistry": "LiHV",
+    "cells": "1S",
+    "capacity_mah": 380,
+    "c_rating": "60C",
+    "weight_g": 8.0,
+    "connector": "PH2.0",
+    "dimensions_mm": "6.36x11.1x62mm",
+    "energy_wh": 1.4,
+    "price_per_wh_usd": 4.84,
+    "price_usd": 6.99
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/rdq-series-3-8v-1s-380mah-1s-60c-lihv-whoop-micro-battery-ph2-0"
    ]
   },
   {
@@ -5285,8 +5016,8 @@
     "weight_g": 26.3,
     "connector": "XT30",
     "energy_wh": 4.3,
-    "price_usd": 14.99,
-    "price_per_wh_usd": 3.46
+    "price_per_wh_usd": 3.46,
+    "price_usd": 14.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5307,8 +5038,8 @@
     "connector": "XT30",
     "dimensions_mm": "17x27x54mm",
     "energy_wh": 5.8,
-    "price_usd": 14.99,
-    "price_per_wh_usd": 2.6
+    "price_per_wh_usd": 2.6,
+    "price_usd": 14.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5329,8 +5060,8 @@
     "connector": "XT60",
     "dimensions_mm": "13x44x137mm",
     "energy_wh": 34.2,
-    "price_usd": 39.99,
-    "price_per_wh_usd": 1.17
+    "price_per_wh_usd": 1.17,
+    "price_usd": 39.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5351,8 +5082,8 @@
     "connector": "PH2.0",
     "dimensions_mm": "62x17x6.9mm",
     "energy_wh": 1.7,
-    "price_usd": 5.99,
-    "price_per_wh_usd": 3.5
+    "price_per_wh_usd": 3.5,
+    "price_usd": 5.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5371,10 +5102,10 @@
     "c_rating": "70C",
     "weight_g": 28.9,
     "connector": "XT30",
-    "dimensions_mm": "60.7x13.5x16.5\n\nmm",
+    "dimensions_mm": "60.7x13.5x16.5mm",
     "energy_wh": 3.3,
-    "price_usd": 11.49,
-    "price_per_wh_usd": 3.45
+    "price_per_wh_usd": 3.45,
+    "price_usd": 11.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5393,9 +5124,10 @@
     "c_rating": "80C",
     "weight_g": 47.0,
     "connector": "XT30",
+    "dimensions_mm": "14.5x32x57mm",
     "energy_wh": 5.0,
-    "price_usd": 12.49,
-    "price_per_wh_usd": 2.5
+    "price_per_wh_usd": 2.5,
+    "price_usd": 12.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5416,8 +5148,8 @@
     "connector": "XT30",
     "dimensions_mm": "22x44x72mm",
     "energy_wh": 10.3,
-    "price_usd": 24.49,
-    "price_per_wh_usd": 2.39
+    "price_per_wh_usd": 2.39,
+    "price_usd": 24.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5436,10 +5168,10 @@
     "c_rating": "100C",
     "weight_g": 20.45,
     "connector": "XT30",
-    "dimensions_mm": "51.2x13.1x17.7MM",
+    "dimensions_mm": "51.2x13.1x17.7mm",
     "energy_wh": 2.7,
-    "price_usd": 8.49,
-    "price_per_wh_usd": 3.19
+    "price_per_wh_usd": 3.19,
+    "price_usd": 8.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5460,8 +5192,8 @@
     "connector": "PH2.0",
     "dimensions_mm": "65x17x6.7mm",
     "energy_wh": 2.0,
-    "price_usd": 7.49,
-    "price_per_wh_usd": 3.75
+    "price_per_wh_usd": 3.75,
+    "price_usd": 7.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5480,10 +5212,9 @@
     "c_rating": "80C",
     "weight_g": 29.05,
     "connector": "XT30",
-    "dimensions_mm": "68.2\n\nx17.2x13.9mm",
     "energy_wh": 4.0,
-    "price_usd": 10.99,
-    "price_per_wh_usd": 2.75
+    "price_per_wh_usd": 2.75,
+    "price_usd": 10.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5502,9 +5233,10 @@
     "c_rating": "80C",
     "weight_g": 42.0,
     "connector": "XT30",
+    "dimensions_mm": "70x20.2x17.3mm",
     "energy_wh": 6.0,
-    "price_usd": 15.99,
-    "price_per_wh_usd": 2.67
+    "price_per_wh_usd": 2.67,
+    "price_usd": 15.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5523,9 +5255,10 @@
     "c_rating": "80C",
     "weight_g": 54.82,
     "connector": "XT30",
+    "dimensions_mm": "17.8x26.5x69.7mm",
     "energy_wh": 8.0,
-    "price_usd": 16.99,
-    "price_per_wh_usd": 2.13
+    "price_per_wh_usd": 2.13,
+    "price_usd": 16.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5546,8 +5279,8 @@
     "connector": "XT60",
     "dimensions_mm": "36x44x139mm",
     "energy_wh": 81.4,
-    "price_usd": 69.99,
-    "price_per_wh_usd": 0.86
+    "price_per_wh_usd": 0.86,
+    "price_usd": 69.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5568,8 +5301,8 @@
     "connector": "XT30",
     "dimensions_mm": "12x18x69mm",
     "energy_wh": 4.2,
-    "price_usd": 11.49,
-    "price_per_wh_usd": 2.75
+    "price_per_wh_usd": 2.75,
+    "price_usd": 11.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5590,8 +5323,8 @@
     "connector": "XT30",
     "dimensions_mm": "18x18x72mm",
     "energy_wh": 6.1,
-    "price_usd": 14.99,
-    "price_per_wh_usd": 2.46
+    "price_per_wh_usd": 2.46,
+    "price_usd": 14.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5612,8 +5345,8 @@
     "connector": "XT30",
     "dimensions_mm": "24x18x73mm",
     "energy_wh": 8.1,
-    "price_usd": 20.49,
-    "price_per_wh_usd": 2.52
+    "price_per_wh_usd": 2.52,
+    "price_usd": 20.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5634,12 +5367,56 @@
     "connector": "XT30",
     "dimensions_mm": "36x18x73mm",
     "energy_wh": 12.2,
-    "price_usd": 26.99,
-    "price_per_wh_usd": 2.21
+    "price_per_wh_usd": 2.21,
+    "price_usd": 26.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/rdq-series-22-2v-6s-550mah-90c-lipo-battery-xt30"
+   ]
+  },
+  {
+   "type": "battery",
+   "brand": "RDQ",
+   "model": "RDQ Series 5C 2500mAh 2S",
+   "slug": "rdq-rdq-series-5c-2500mah-2s",
+   "specs": {
+    "chemistry": "LiPo",
+    "cells": "2S",
+    "capacity_mah": 2500,
+    "c_rating": "5C",
+    "weight_g": 100.0,
+    "connector": "XT60",
+    "dimensions_mm": "92x28x17mm",
+    "energy_wh": 18.5,
+    "price_per_wh_usd": 1.51,
+    "price_usd": 27.99
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/rdq-series-7-4v-2s-2500mah-5c-lipo-battery-for-taranis-x9d-2019-xt60-jst-xh"
+   ]
+  },
+  {
+   "type": "battery",
+   "brand": "RDQ",
+   "model": "RDQ Series 5C TX16S Compatible 5000mAh 2S",
+   "slug": "rdq-rdq-series-5c-tx16s-compatible-5000mah-2s",
+   "specs": {
+    "chemistry": "LiPo",
+    "cells": "2S",
+    "capacity_mah": 5000,
+    "c_rating": "5C",
+    "weight_g": 173.0,
+    "connector": "XT60",
+    "dimensions_mm": "52x80x20mm",
+    "energy_wh": 37.0,
+    "price_per_wh_usd": 0.81,
+    "price_usd": 29.99
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/rdq-series-7-4v-2s-5000mah-5c-tx16s-compatible-lipo-battery-xt60"
    ]
   },
   {
@@ -5653,10 +5430,10 @@
     "capacity_mah": 6000,
     "c_rating": "100C",
     "weight_g": 832.0,
-    "connector": "XT90",
+    "connector": "XT150",
     "energy_wh": 133.2,
-    "price_usd": 134.99,
-    "price_per_wh_usd": 1.01
+    "price_per_wh_usd": 1.01,
+    "price_usd": 134.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5677,8 +5454,8 @@
     "connector": "XT90",
     "dimensions_mm": "52x44x141mm",
     "energy_wh": 148.2,
-    "price_usd": 168.99,
-    "price_per_wh_usd": 1.14
+    "price_per_wh_usd": 1.14,
+    "price_usd": 168.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5699,8 +5476,8 @@
     "connector": "PH2.0",
     "dimensions_mm": "58x18x8mm",
     "energy_wh": 2.5,
-    "price_usd": 8.49,
-    "price_per_wh_usd": 3.44
+    "price_per_wh_usd": 3.44,
+    "price_usd": 8.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5721,8 +5498,8 @@
     "connector": "XT30",
     "dimensions_mm": "63x17x16mm",
     "energy_wh": 4.9,
-    "price_usd": 9.99,
-    "price_per_wh_usd": 2.02
+    "price_per_wh_usd": 2.02,
+    "price_usd": 9.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5735,20 +5512,21 @@
    "model": "RDQ Series 650mAh 3S",
    "slug": "rdq-rdq-series-650mah-3s",
    "specs": {
-    "chemistry": "LiPo",
+    "chemistry": "LiHV",
     "cells": "3S",
     "capacity_mah": 650,
-    "c_rating": "120C",
-    "weight_g": 58.0,
+    "c_rating": "60C",
+    "weight_g": 46.0,
     "connector": "XT30",
-    "dimensions_mm": "16x30x63mm",
-    "energy_wh": 7.2,
-    "price_usd": 17.99,
-    "price_per_wh_usd": 2.49
+    "dimensions_mm": "63x23x17mm",
+    "energy_wh": 7.4,
+    "price_per_wh_usd": 2.29,
+    "price_usd": 16.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
-    "https://www.racedayquads.com/products/rdq-series-11-4v-3s-650mah-120c-lipo-battery-xt30"
+    "https://www.racedayquads.com/products/rdq-series-11-4v-3s-650mah-120c-lipo-battery-xt30",
+    "https://www.racedayquads.com/products/rdq-series-11-4v-3s-650mah-60c-lihv-battery-xt30"
    ]
   },
   {
@@ -5765,8 +5543,8 @@
     "connector": "XT30",
     "dimensions_mm": "63x31x18mm",
     "energy_wh": 9.9,
-    "price_usd": 22.49,
-    "price_per_wh_usd": 2.28
+    "price_per_wh_usd": 2.28,
+    "price_usd": 22.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5787,8 +5565,8 @@
     "connector": "XT30",
     "dimensions_mm": "27x30x64mm",
     "energy_wh": 12.3,
-    "price_usd": 26.99,
-    "price_per_wh_usd": 2.19
+    "price_per_wh_usd": 2.19,
+    "price_usd": 26.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5809,8 +5587,8 @@
     "connector": "XT30",
     "dimensions_mm": "31x30x64mm",
     "energy_wh": 14.8,
-    "price_usd": 31.99,
-    "price_per_wh_usd": 2.16
+    "price_per_wh_usd": 2.16,
+    "price_usd": 31.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5830,8 +5608,8 @@
     "weight_g": 15.5,
     "connector": "PH2.0",
     "energy_wh": 2.5,
-    "price_usd": 8.99,
-    "price_per_wh_usd": 3.58
+    "price_per_wh_usd": 3.58,
+    "price_usd": 8.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5850,10 +5628,9 @@
     "c_rating": "90C",
     "weight_g": 33.0,
     "connector": "XT30",
-    "dimensions_mm": "63\n\nx\n\n18\n\nx15.5\n\nmm",
     "energy_wh": 5.0,
-    "price_usd": 12.49,
-    "price_per_wh_usd": 2.49
+    "price_per_wh_usd": 2.49,
+    "price_usd": 12.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5872,10 +5649,9 @@
     "c_rating": "90C",
     "weight_g": 50.5,
     "connector": "XT30",
-    "dimensions_mm": "65\n\nx23.5\n\nx18\n\nmm",
     "energy_wh": 7.5,
-    "price_usd": 14.99,
-    "price_per_wh_usd": 1.99
+    "price_per_wh_usd": 1.99,
+    "price_usd": 14.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5894,10 +5670,9 @@
     "c_rating": "90C",
     "weight_g": 65.0,
     "connector": "XT30",
-    "dimensions_mm": "65\n\nx31\n\nx18\n\nmm",
     "energy_wh": 10.0,
-    "price_usd": 20.49,
-    "price_per_wh_usd": 2.04
+    "price_per_wh_usd": 2.04,
+    "price_usd": 20.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5918,8 +5693,8 @@
     "connector": "PH2.0",
     "dimensions_mm": "65.5x18x7.5mm",
     "energy_wh": 2.7,
-    "price_usd": 9.49,
-    "price_per_wh_usd": 3.47
+    "price_per_wh_usd": 3.47,
+    "price_usd": 9.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5940,8 +5715,8 @@
     "connector": "XT30",
     "dimensions_mm": "71x18x15mm",
     "energy_wh": 5.5,
-    "price_usd": 12.99,
-    "price_per_wh_usd": 2.37
+    "price_per_wh_usd": 2.37,
+    "price_usd": 12.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5962,8 +5737,8 @@
     "connector": "XT30",
     "dimensions_mm": "73x22.5x19mm",
     "energy_wh": 8.2,
-    "price_usd": 18.49,
-    "price_per_wh_usd": 2.25
+    "price_per_wh_usd": 2.25,
+    "price_usd": 18.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -5984,8 +5759,8 @@
     "connector": "XT30",
     "dimensions_mm": "72.5x30x18.5mm",
     "energy_wh": 10.9,
-    "price_usd": 20.49,
-    "price_per_wh_usd": 1.87
+    "price_per_wh_usd": 1.87,
+    "price_usd": 20.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6006,8 +5781,8 @@
     "connector": "XT30",
     "dimensions_mm": "74x44x18.5mm",
     "energy_wh": 16.4,
-    "price_usd": 32.49,
-    "price_per_wh_usd": 1.98
+    "price_per_wh_usd": 1.98,
+    "price_usd": 32.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6028,8 +5803,8 @@
     "connector": "PH2.0",
     "dimensions_mm": "67x18x7.5mm",
     "energy_wh": 3.2,
-    "price_usd": 10.49,
-    "price_per_wh_usd": 3.25
+    "price_per_wh_usd": 3.25,
+    "price_usd": 10.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6050,8 +5825,8 @@
     "connector": "XT30",
     "dimensions_mm": "70x18.5x15mm",
     "energy_wh": 6.5,
-    "price_usd": 13.49,
-    "price_per_wh_usd": 2.09
+    "price_per_wh_usd": 2.09,
+    "price_usd": 13.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6070,9 +5845,10 @@
     "c_rating": "60C",
     "weight_g": 54.5,
     "connector": "XT30",
+    "dimensions_mm": "73x23x19mm",
     "energy_wh": 9.7,
-    "price_usd": 19.99,
-    "price_per_wh_usd": 2.06
+    "price_per_wh_usd": 2.06,
+    "price_usd": 19.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6093,8 +5869,8 @@
     "connector": "XT30",
     "dimensions_mm": "73x30x19mm",
     "energy_wh": 12.9,
-    "price_usd": 23.49,
-    "price_per_wh_usd": 1.82
+    "price_per_wh_usd": 1.82,
+    "price_usd": 23.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6114,8 +5890,8 @@
     "weight_g": 842.0,
     "connector": "XT90",
     "energy_wh": 133.2,
-    "price_usd": 134.99,
-    "price_per_wh_usd": 1.01
+    "price_per_wh_usd": 1.01,
+    "price_usd": 134.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6135,8 +5911,8 @@
     "weight_g": 195.65,
     "connector": "XT60",
     "energy_wh": 24.4,
-    "price_usd": 35.99,
-    "price_per_wh_usd": 1.47
+    "price_per_wh_usd": 1.47,
+    "price_usd": 35.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6146,23 +5922,23 @@
   {
    "type": "battery",
    "brand": "RDQ",
-   "model": "RDQ Series - or 850mAh 4S",
-   "slug": "rdq-rdq-series-or-850mah-4s",
+   "model": "RDQ Series / - Plastic Head 380mAh 1S",
+   "slug": "rdq-rdq-series-plastic-head-380mah-1s",
    "specs": {
-    "chemistry": "LiPo",
-    "cells": "4S",
-    "capacity_mah": 850,
-    "c_rating": "75C",
-    "weight_g": 30.0,
-    "connector": "XT60",
-    "dimensions_mm": "25x31x59mm",
-    "energy_wh": 12.6,
-    "price_usd": 26.49,
-    "price_per_wh_usd": 2.11
+    "chemistry": "LiHV",
+    "cells": "1S",
+    "capacity_mah": 380,
+    "c_rating": "60C",
+    "weight_g": 8.0,
+    "connector": "PH2.0",
+    "dimensions_mm": "6.36x11.1x62mm",
+    "energy_wh": 1.4,
+    "price_per_wh_usd": 4.84,
+    "price_usd": 6.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
-    "https://www.racedayquads.com/products/rdq-series-850mah-4s-75c-fpv-drone-battery-xt30-or-xt60"
+    "https://www.racedayquads.com/products/rdq-series-3-8v-1s-380mah-1s-60c-lihv-whoop-micro-battery-ph2-0-plastic-head"
    ]
   },
   {
@@ -6179,8 +5955,8 @@
     "connector": "GNB27",
     "dimensions_mm": "65x18.2x6.2mm",
     "energy_wh": 2.1,
-    "price_usd": 6.99,
-    "price_per_wh_usd": 3.34
+    "price_per_wh_usd": 3.34,
+    "price_usd": 6.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6201,8 +5977,8 @@
     "connector": "XT30",
     "dimensions_mm": "20x28x64mm",
     "energy_wh": 7.2,
-    "price_usd": 15.49,
-    "price_per_wh_usd": 2.15
+    "price_per_wh_usd": 2.15,
+    "price_usd": 15.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6222,34 +5998,12 @@
     "weight_g": 122.0,
     "connector": "XT60",
     "energy_wh": 14.4,
-    "price_usd": 26.99,
-    "price_per_wh_usd": 1.87
+    "price_per_wh_usd": 1.87,
+    "price_usd": 26.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/tattu-11-1v-3s-1300mah-75c-lipo-micro-battery-xt60"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "Tattu",
-   "model": "450mAh 2S",
-   "slug": "tattu-450mah-2s",
-   "specs": {
-    "chemistry": "LiHV",
-    "cells": "2S",
-    "capacity_mah": 450,
-    "c_rating": "95C",
-    "weight_g": 29.0,
-    "connector": "XT30",
-    "dimensions_mm": "62.5x16.2x14.7mm",
-    "energy_wh": 3.4,
-    "price_usd": 12.49,
-    "price_per_wh_usd": 3.65
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/tattu-7-6v-2s-450mah-95c-lihv-micro-battery-long-type-xt30"
    ]
   },
   {
@@ -6264,9 +6018,10 @@
     "c_rating": "75C",
     "weight_g": 45.0,
     "connector": "XT30",
+    "dimensions_mm": "63x16x21mm",
     "energy_wh": 5.0,
-    "price_usd": 17.99,
-    "price_per_wh_usd": 3.6
+    "price_per_wh_usd": 3.6,
+    "price_usd": 17.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6286,8 +6041,8 @@
     "weight_g": 58.0,
     "connector": "XT30",
     "energy_wh": 6.7,
-    "price_usd": 20.49,
-    "price_per_wh_usd": 3.08
+    "price_per_wh_usd": 3.08,
+    "price_usd": 20.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6307,11 +6062,13 @@
     "weight_g": 86.0,
     "connector": "XT30",
     "energy_wh": 12.2,
+    "price_per_wh_usd": 2.58,
     "price_usd": 31.49,
-    "price_per_wh_usd": 2.58
+    "dimensions_mm": "63x19x42mm"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
+    "https://pyrodrone.com/products/tattu-r-line-550mah-22-2v-95c-6s1p-lipo-battery-pack-xt30",
     "https://www.racedayquads.com/products/tattu-550mah-22-2v-95c-6s1p-lipo-xt30"
    ]
   },
@@ -6328,8 +6085,8 @@
     "weight_g": 82.0,
     "connector": "XT30",
     "energy_wh": 9.6,
-    "price_usd": 22.99,
-    "price_per_wh_usd": 2.39
+    "price_per_wh_usd": 2.39,
+    "price_usd": 22.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6350,8 +6107,8 @@
     "connector": "XT30",
     "dimensions_mm": "60x30x23mm",
     "energy_wh": 9.4,
-    "price_usd": 20.49,
-    "price_per_wh_usd": 2.17
+    "price_per_wh_usd": 2.17,
+    "price_usd": 20.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6368,15 +6125,40 @@
     "cells": "4S",
     "capacity_mah": 850,
     "c_rating": "75C",
-    "weight_g": 103.0,
     "connector": "XT30",
+    "dimensions_mm": "61x30.5x30.5mm",
     "energy_wh": 12.6,
+    "price_per_wh_usd": 1.55,
     "price_usd": 19.49,
-    "price_per_wh_usd": 1.55
+    "weight_g": 104.0
    },
    "_scraped_at": "2026-09-15",
    "sources": [
+    "https://pyrodrone.com/products/tattu-r-line-850mah-14-8v-95c-4s1p-lipo-battery-pack-with-xt30-plug",
     "https://www.racedayquads.com/products/tattu-850mah-4s-75c-battery-for-3-and-4-quads-xt30"
+   ]
+  },
+  {
+   "type": "battery",
+   "brand": "Tattu",
+   "model": "Choose Version 300mAh 1S",
+   "slug": "tattu-choose-version-300mah-1s",
+   "specs": {
+    "chemistry": "LiHV",
+    "cells": "1S",
+    "capacity_mah": 300,
+    "c_rating": "75C",
+    "weight_g": 8.1,
+    "dimensions_mm": "68x12x6mm",
+    "energy_wh": 1.1,
+    "price_per_wh_usd": 26.31,
+    "price_usd": 29.99,
+    "connector": "BT2.0"
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://pyrodrone.com/products/tattu-300mah-3-8v-hv-75c-1s1p-lipo-battery-pack-with-bt-2-0-plug-5pcs",
+    "https://www.racedayquads.com/products/tattu-3-8v-1s-300mah-75c-hv-lipo-battery-5-pack-bt2-0"
    ]
   },
   {
@@ -6393,8 +6175,8 @@
     "connector": "XT60",
     "dimensions_mm": "72x35x28.5mm",
     "energy_wh": 19.2,
-    "price_usd": 26.99,
-    "price_per_wh_usd": 1.4
+    "price_per_wh_usd": 1.4,
+    "price_usd": 26.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6414,11 +6196,13 @@
     "weight_g": 225.0,
     "connector": "XT60",
     "energy_wh": 28.9,
+    "price_per_wh_usd": 1.37,
     "price_usd": 39.49,
-    "price_per_wh_usd": 1.37
+    "dimensions_mm": "75x38x38mm"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
+    "https://pyrodrone.com/products/tattu-r-line-version-3-0-1300mah-22-2v-120c-6s1p-lipo-battery-pack-with-xt60-plug",
     "https://www.racedayquads.com/products/tattu-funfly-22-2v-6s-1300mah-100c-lipo-battery-xt60"
    ]
   },
@@ -6435,8 +6219,8 @@
     "weight_g": 178.0,
     "connector": "XT60",
     "energy_wh": 22.9,
-    "price_usd": 28.49,
-    "price_per_wh_usd": 1.24
+    "price_per_wh_usd": 1.24,
+    "price_usd": 28.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6456,8 +6240,8 @@
     "weight_g": 1175.0,
     "connector": "XT60",
     "energy_wh": 199.8,
-    "price_usd": 249.49,
-    "price_per_wh_usd": 1.25
+    "price_per_wh_usd": 1.25,
+    "price_usd": 249.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6477,33 +6261,14 @@
     "weight_g": 1990.0,
     "connector": "XT90",
     "energy_wh": 355.2,
+    "price_per_wh_usd": 1.18,
     "price_usd": 419.49,
-    "price_per_wh_usd": 1.18
+    "dimensions_mm": "192x77x66mm"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
+    "https://pyrodrone.com/products/tattu-16000mah-30c-22-2v-6s1p-long-range-cinelifter-lipo-battery-as150",
     "https://www.racedayquads.com/products/tattu-g-tech-16000mah-6s-30c-lipo-battery-xt90-s"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "Tattu",
-   "model": "JST 300mAh 2S",
-   "slug": "tattu-jst-300mah-2s",
-   "specs": {
-    "chemistry": "LiPo",
-    "cells": "2S",
-    "capacity_mah": 300,
-    "c_rating": "75C",
-    "weight_g": 16.0,
-    "connector": "JST",
-    "energy_wh": 2.2,
-    "price_usd": 12.49,
-    "price_per_wh_usd": 5.63
-   },
-   "_scraped_at": "2026-09-15",
-   "sources": [
-    "https://www.racedayquads.com/products/tattu-300mah-7-6v-75c-2s1p-lipo-jst"
    ]
   },
   {
@@ -6516,14 +6281,15 @@
     "cells": "2S",
     "capacity_mah": 450,
     "c_rating": "75C",
-    "weight_g": 29.0,
     "connector": "JST-SYP",
     "energy_wh": 3.3,
+    "price_per_wh_usd": 3.3,
     "price_usd": 10.99,
-    "price_per_wh_usd": 3.3
+    "weight_g": 29.0
    },
    "_scraped_at": "2026-09-15",
    "sources": [
+    "https://pyrodrone.com/products/attu-450mah-7-6v-high-voltage-95c-2s1p-lipo-battery-pack-with-xt30-plug-long-pack",
     "https://www.racedayquads.com/products/tattu-7-4v-2s-450mah-75c-lipo-micro-battery-jst-syp"
    ]
   },
@@ -6540,8 +6306,8 @@
     "weight_g": 14.0,
     "connector": "PH2.0",
     "energy_wh": 1.9,
-    "price_usd": 9.49,
-    "price_per_wh_usd": 5.13
+    "price_per_wh_usd": 5.13,
+    "price_usd": 9.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6558,12 +6324,12 @@
     "cells": "2S",
     "capacity_mah": 550,
     "c_rating": "95C",
-    "weight_g": 100.0,
+    "weight_g": 63.0,
     "connector": "XT30",
     "dimensions_mm": "63x16x12mm",
     "energy_wh": 4.1,
-    "price_usd": 13.49,
-    "price_per_wh_usd": 3.31
+    "price_per_wh_usd": 3.31,
+    "price_usd": 13.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6583,8 +6349,8 @@
     "weight_g": 46.0,
     "connector": "XT30",
     "energy_wh": 6.1,
-    "price_usd": 18.99,
-    "price_per_wh_usd": 3.11
+    "price_per_wh_usd": 3.11,
+    "price_usd": 18.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6604,8 +6370,8 @@
     "weight_g": 104.0,
     "connector": "XT30",
     "energy_wh": 12.6,
-    "price_usd": 28.49,
-    "price_per_wh_usd": 2.26
+    "price_per_wh_usd": 2.26,
+    "price_usd": 28.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6624,9 +6390,10 @@
     "c_rating": "160C",
     "weight_g": 240.0,
     "connector": "XT60",
+    "dimensions_mm": "69.5x42x36.5mm",
     "energy_wh": 35.5,
-    "price_usd": 46.99,
-    "price_per_wh_usd": 1.32
+    "price_per_wh_usd": 1.32,
+    "price_usd": 46.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6646,8 +6413,8 @@
     "weight_g": 115.0,
     "connector": "XT30",
     "energy_wh": 14.4,
-    "price_usd": 23.69,
-    "price_per_wh_usd": 1.64
+    "price_per_wh_usd": 1.64,
+    "price_usd": 23.69
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6666,9 +6433,10 @@
     "c_rating": "120C",
     "weight_g": 233.0,
     "connector": "XT60",
+    "dimensions_mm": "76x39x43mm",
     "energy_wh": 31.1,
-    "price_usd": 55.49,
-    "price_per_wh_usd": 1.79
+    "price_per_wh_usd": 1.79,
+    "price_usd": 55.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6687,9 +6455,10 @@
     "c_rating": "120C",
     "weight_g": 181.0,
     "connector": "XT60",
+    "dimensions_mm": "77x38.5x32.5mm",
     "energy_wh": 22.9,
-    "price_usd": 45.99,
-    "price_per_wh_usd": 2.0
+    "price_per_wh_usd": 2.0,
+    "price_usd": 45.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6708,9 +6477,10 @@
     "c_rating": "130C",
     "weight_g": 180.0,
     "connector": "XT60",
+    "dimensions_mm": "78x40x34mm",
     "energy_wh": 23.3,
-    "price_usd": 45.99,
-    "price_per_wh_usd": 1.97
+    "price_per_wh_usd": 1.97,
+    "price_usd": 45.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6729,9 +6499,10 @@
     "c_rating": "130C",
     "weight_g": 200.0,
     "connector": "XT60",
+    "dimensions_mm": "78x39x38mm",
     "energy_wh": 28.9,
-    "price_usd": 53.99,
-    "price_per_wh_usd": 1.87
+    "price_per_wh_usd": 1.87,
+    "price_usd": 53.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6750,9 +6521,10 @@
     "c_rating": "130C",
     "weight_g": 222.0,
     "connector": "XT60",
+    "dimensions_mm": "78x39x42mm",
     "energy_wh": 31.1,
-    "price_usd": 56.99,
-    "price_per_wh_usd": 1.83
+    "price_per_wh_usd": 1.83,
+    "price_usd": 56.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6771,9 +6543,10 @@
     "c_rating": "150C",
     "weight_g": 186.0,
     "connector": "XT60",
+    "dimensions_mm": "76x38x33mm",
     "energy_wh": 23.3,
-    "price_usd": 47.49,
-    "price_per_wh_usd": 2.04
+    "price_per_wh_usd": 2.04,
+    "price_usd": 47.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6792,9 +6565,10 @@
     "c_rating": "150C",
     "weight_g": 242.0,
     "connector": "XT60",
+    "dimensions_mm": "77x38x42mm",
     "energy_wh": 31.1,
-    "price_usd": 59.49,
-    "price_per_wh_usd": 1.91
+    "price_per_wh_usd": 1.91,
+    "price_usd": 59.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6815,8 +6589,8 @@
     "connector": "XT60",
     "dimensions_mm": "78x40x32mm",
     "energy_wh": 26.6,
-    "price_usd": 44.99,
-    "price_per_wh_usd": 1.69
+    "price_per_wh_usd": 1.69,
+    "price_usd": 44.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6835,9 +6609,10 @@
     "c_rating": "150C",
     "weight_g": 156.0,
     "connector": "XT60",
+    "dimensions_mm": "75x38x27mm",
     "energy_wh": 19.2,
-    "price_usd": 42.99,
-    "price_per_wh_usd": 2.23
+    "price_per_wh_usd": 2.23,
+    "price_usd": 42.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6858,8 +6633,8 @@
     "connector": "XT60",
     "dimensions_mm": "78x39x42mm",
     "energy_wh": 31.1,
-    "price_usd": 55.49,
-    "price_per_wh_usd": 1.79
+    "price_per_wh_usd": 1.79,
+    "price_usd": 55.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6878,9 +6653,10 @@
     "c_rating": "150C",
     "weight_g": 254.0,
     "connector": "XT60",
+    "dimensions_mm": "78x37x52mm",
     "energy_wh": 34.4,
-    "price_usd": 61.49,
-    "price_per_wh_usd": 1.79
+    "price_per_wh_usd": 1.79,
+    "price_usd": 61.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6899,9 +6675,10 @@
     "c_rating": "150C",
     "weight_g": 287.0,
     "connector": "XT60",
+    "dimensions_mm": "77x38x46mm",
     "energy_wh": 40.0,
-    "price_usd": 68.99,
-    "price_per_wh_usd": 1.73
+    "price_per_wh_usd": 1.73,
+    "price_usd": 68.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6920,9 +6697,10 @@
     "c_rating": "150C",
     "weight_g": 76.0,
     "connector": "XT30",
+    "dimensions_mm": "58x30x22mm",
     "energy_wh": 9.4,
-    "price_usd": 24.49,
-    "price_per_wh_usd": 2.6
+    "price_per_wh_usd": 2.6,
+    "price_usd": 24.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6941,9 +6719,10 @@
     "c_rating": "150C",
     "weight_g": 100.0,
     "connector": "XT30",
+    "dimensions_mm": "59x30x32mm",
     "energy_wh": 12.6,
-    "price_usd": 31.49,
-    "price_per_wh_usd": 2.5
+    "price_per_wh_usd": 2.5,
+    "price_usd": 31.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6962,9 +6741,10 @@
     "c_rating": "150C",
     "weight_g": 145.0,
     "connector": "XT30",
+    "dimensions_mm": "60x30x45mm",
     "energy_wh": 18.9,
-    "price_usd": 41.99,
-    "price_per_wh_usd": 2.23
+    "price_per_wh_usd": 2.23,
+    "price_usd": 41.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -6983,9 +6763,10 @@
     "c_rating": "160C",
     "weight_g": 220.0,
     "connector": "XT60",
+    "dimensions_mm": "69.5x42x36.5mm",
     "energy_wh": 32.9,
-    "price_usd": 42.49,
-    "price_per_wh_usd": 1.29
+    "price_per_wh_usd": 1.29,
+    "price_usd": 42.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -7005,8 +6786,8 @@
     "weight_g": 223.0,
     "connector": "XT60",
     "energy_wh": 30.6,
-    "price_usd": 40.99,
-    "price_per_wh_usd": 1.34
+    "price_per_wh_usd": 1.34,
+    "price_usd": 40.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -7026,12 +6807,54 @@
     "weight_g": 223.0,
     "connector": "XT60",
     "energy_wh": 30.6,
-    "price_usd": 122.97,
-    "price_per_wh_usd": 4.01
+    "price_per_wh_usd": 4.01,
+    "price_usd": 122.97
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/quad-gas-6s-1380mah-150c-lipo-battery-3-pack-choose-red-or-black"
+   ]
+  },
+  {
+   "type": "battery",
+   "brand": "WREKD Co.",
+   "model": "Quad Gas w 320mAh 1S",
+   "slug": "wrekd-co-quad-gas-w-320mah-1s",
+   "specs": {
+    "chemistry": "LiPo",
+    "cells": "1S",
+    "capacity_mah": 320,
+    "c_rating": "75C",
+    "weight_g": 8.5,
+    "connector": "BT2.0",
+    "energy_wh": 1.2,
+    "price_per_wh_usd": 5.57,
+    "price_usd": 6.59
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/quad-gas-1s-320mah-75c-battery-w-bt2-0-for-micro-whoops"
+   ]
+  },
+  {
+   "type": "battery",
+   "brand": "WREKD Co.",
+   "model": "Quad Gas w/ for /Whoops 320mAh 1S",
+   "slug": "wrekd-co-quad-gas-w-for-whoops-320mah-1s",
+   "specs": {
+    "chemistry": "LiPo",
+    "cells": "1S",
+    "capacity_mah": 320,
+    "c_rating": "75C",
+    "weight_g": 8.5,
+    "connector": "BT2.0",
+    "energy_wh": 1.2,
+    "price_per_wh_usd": 27.83,
+    "price_usd": 32.95
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/quad-gas-1s-320mah-75c-battery-w-bt2-0-for-micro-whoops-5-pcs"
    ]
   },
   {
@@ -7047,8 +6870,8 @@
     "weight_g": 198.0,
     "connector": "XT60",
     "energy_wh": 24.1,
-    "price_usd": 36.49,
-    "price_per_wh_usd": 1.52
+    "price_per_wh_usd": 1.52,
+    "price_usd": 36.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -7068,8 +6891,8 @@
     "weight_g": 228.0,
     "connector": "XT60",
     "energy_wh": 27.8,
-    "price_usd": 39.49,
-    "price_per_wh_usd": 1.42
+    "price_per_wh_usd": 1.42,
+    "price_usd": 39.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -7089,8 +6912,8 @@
     "weight_g": 215.0,
     "connector": "XT60",
     "energy_wh": 27.8,
-    "price_usd": 47.49,
-    "price_per_wh_usd": 1.71
+    "price_per_wh_usd": 1.71,
+    "price_usd": 47.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -7110,8 +6933,8 @@
     "weight_g": 165.0,
     "connector": "XT60",
     "energy_wh": 19.2,
-    "price_usd": 31.49,
-    "price_per_wh_usd": 1.64
+    "price_per_wh_usd": 1.64,
+    "price_usd": 31.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -7131,8 +6954,8 @@
     "weight_g": 185.0,
     "connector": "XT60",
     "energy_wh": 22.2,
-    "price_usd": 36.49,
-    "price_per_wh_usd": 1.64
+    "price_per_wh_usd": 1.64,
+    "price_usd": 36.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -7152,8 +6975,8 @@
     "weight_g": 110.0,
     "connector": "XT60",
     "energy_wh": 12.6,
-    "price_usd": 28.49,
-    "price_per_wh_usd": 2.26
+    "price_per_wh_usd": 2.26,
+    "price_usd": 28.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -7173,8 +6996,8 @@
     "weight_g": 45.0,
     "connector": "XT30",
     "energy_wh": 5.0,
-    "price_usd": 13.99,
-    "price_per_wh_usd": 2.8
+    "price_per_wh_usd": 2.8,
+    "price_usd": 13.99
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -7194,8 +7017,8 @@
     "weight_g": 54.36,
     "connector": "XT30",
     "energy_wh": 6.1,
-    "price_usd": 20.49,
-    "price_per_wh_usd": 3.36
+    "price_per_wh_usd": 3.36,
+    "price_usd": 20.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -7215,8 +7038,8 @@
     "weight_g": 100.8,
     "connector": "XT30",
     "energy_wh": 12.2,
-    "price_usd": 35.49,
-    "price_per_wh_usd": 2.91
+    "price_per_wh_usd": 2.91,
+    "price_usd": 35.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -7236,8 +7059,8 @@
     "weight_g": 80.0,
     "connector": "XT30",
     "energy_wh": 9.6,
-    "price_usd": 31.49,
-    "price_per_wh_usd": 3.27
+    "price_per_wh_usd": 3.27,
+    "price_usd": 31.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -7257,8 +7080,8 @@
     "weight_g": 13.79,
     "connector": "JST",
     "energy_wh": 1.7,
-    "price_usd": 9.49,
-    "price_per_wh_usd": 5.7
+    "price_per_wh_usd": 5.7,
+    "price_usd": 9.49
    },
    "_scraped_at": "2026-09-15",
    "sources": [
