@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-15",
- "count": 106,
+ "count": 112,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -18,7 +18,8 @@
     "kind": "AIO",
     "esc_current_a": 60,
     "weight_g": 14.0,
-    "price_usd": 115.49
+    "price_usd": 115.49,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -40,7 +41,8 @@
     "kind": "AIO",
     "esc_current_a": 45,
     "weight_g": 14.5,
-    "price_usd": 155.99
+    "price_usd": 155.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -61,7 +63,8 @@
     "kind": "AIO",
     "esc_current_a": 35,
     "weight_g": 10.4,
-    "price_usd": 89.99
+    "price_usd": 89.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -81,7 +84,8 @@
     "kind": "stack",
     "esc_current_a": 55,
     "weight_g": 16.2,
-    "price_usd": 136.99
+    "price_usd": 136.99,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -100,7 +104,8 @@
     "mount_mm": "25.5x25.5mm / 26.5x26.5mm",
     "kind": "AIO",
     "esc_current_a": 40,
-    "price_usd": 101.99
+    "price_usd": 101.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -121,7 +126,8 @@
     "kind": "AIO",
     "esc_current_a": 40,
     "weight_g": 14.4,
-    "price_usd": 91.99
+    "price_usd": 91.99,
+    "mount_class": "20x20"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -141,7 +147,8 @@
     "kind": "stack",
     "esc_current_a": 65,
     "weight_g": 32.0,
-    "price_usd": 187.49
+    "price_usd": 187.49,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -162,7 +169,8 @@
     "kind": "stack",
     "esc_current_a": 60,
     "weight_g": 7.0,
-    "price_usd": 119.99
+    "price_usd": 119.99,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -183,7 +191,8 @@
     "kind": "AIO",
     "esc_current_a": 5,
     "weight_g": 2.9,
-    "price_usd": 53.99
+    "price_usd": 53.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -204,7 +213,8 @@
     "kind": "AIO",
     "esc_current_a": 5,
     "weight_g": 3.6,
-    "price_usd": 59.99
+    "price_usd": 59.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -226,7 +236,8 @@
     "kind": "AIO",
     "esc_current_a": 20,
     "weight_g": 8.35,
-    "price_usd": 81.99
+    "price_usd": 81.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -248,7 +259,8 @@
     "kind": "AIO",
     "esc_current_a": 20,
     "weight_g": 8.15,
-    "price_usd": 75.99
+    "price_usd": 75.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -269,7 +281,8 @@
     "kind": "AIO",
     "esc_current_a": 35,
     "weight_g": 9.0,
-    "price_usd": 113.99
+    "price_usd": 113.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -291,7 +304,8 @@
     "esc_firmware": "A_X_5_96_v0.19.2.hex for BB51 Bluejay firmware",
     "kind": "AIO",
     "esc_current_a": 12,
-    "price_usd": 45.49
+    "price_usd": 45.49,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -313,7 +327,8 @@
     "bec_output": "5V, Max 3A",
     "kind": "AIO",
     "esc_current_a": 5,
-    "price_usd": 59.99
+    "price_usd": 59.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -335,7 +350,8 @@
     "max_cells": "1S",
     "kind": "AIO",
     "esc_current_a": 12,
-    "price_usd": 47.99
+    "price_usd": 47.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -358,7 +374,8 @@
     "kind": "AIO",
     "esc_current_a": 12,
     "weight_g": 4.1,
-    "price_usd": 59.99
+    "price_usd": 59.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -381,12 +398,58 @@
     "kind": "AIO",
     "esc_current_a": 12,
     "weight_g": 3.76,
-    "price_usd": 59.99
+    "price_usd": 59.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-matrix-v2-aio-g4-fc-12a-1s-esc-400mw-vtx-elrs-solder-required"
    ]
+  },
+  {
+   "type": "stack",
+   "brand": "DarwinFPV",
+   "model": "1-3S F4 AIO w/ 15A ESC",
+   "slug": "darwinfpv-1-3s-f4-aio-w-15a-esc",
+   "specs": {
+    "mcu": "F411",
+    "gyro": "MPU6000",
+    "bec_output": "5V/2A,3.3V",
+    "max_cells": "1-3S",
+    "esc_firmware": "BLHeli_S",
+    "kind": "AIO",
+    "esc_current_a": 15,
+    "price_usd": 47.99,
+    "mount_class": "25.5x25.5"
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/darwinfpv-1-3s-f4-aio-flight-controller-w-15a-esc"
+   ],
+   "note": "Mounting standard read from the listing: \"Mounting: 25.5X25.5 M2\"."
+  },
+  {
+   "type": "stack",
+   "brand": "DarwinFPV",
+   "model": "1-3S F411 AIO w/ 15A Bluejay ESC and ELRS2.0",
+   "slug": "darwinfpv-1-3s-f411-aio-w-15a-bluejay-esc-and-elrs2-0",
+   "specs": {
+    "mcu": "F411",
+    "gyro": "ICM20689",
+    "bec_output": "5V/2A,3.3V",
+    "max_cells": "1-3S",
+    "fc_firmware": "betaflight_4.3.0_BETAFPVF4SX1280",
+    "esc_firmware": "Bluejay_S_H_50_48_v0.14",
+    "kind": "AIO",
+    "esc_current_a": 15,
+    "price_usd": 59.99,
+    "mount_class": "25.5x25.5"
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/darwinfpv-1-3s-f411-aio-flight-controller-w-15a-bluejay-esc-and-elrs2-0"
+   ],
+   "note": "Mounting standard read from the listing: \"Mounting: 25.5X25.5 M2\"."
   },
   {
    "type": "stack",
@@ -401,7 +464,8 @@
     "bec_output": "5V/2A",
     "kind": "stack",
     "esc_current_a": 50,
-    "price_usd": 95.99
+    "price_usd": 95.99,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -421,7 +485,8 @@
     "kind": "stack",
     "esc_current_a": 40,
     "weight_g": 6.0,
-    "price_usd": 71.99
+    "price_usd": 71.99,
+    "mount_class": "20x20"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -440,7 +505,8 @@
     "mount_mm": "30x30mm",
     "kind": "stack",
     "esc_current_a": 55,
-    "price_usd": 136.99
+    "price_usd": 136.99,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -460,7 +526,8 @@
     "mount_mm": "25.5x25.5mm",
     "kind": "AIO",
     "esc_current_a": 40,
-    "price_usd": 115.99
+    "price_usd": 115.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -480,7 +547,8 @@
     "mount_mm": "25.5x25.5mm",
     "kind": "AIO",
     "esc_current_a": 40,
-    "price_usd": 95.99
+    "price_usd": 95.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -502,7 +570,8 @@
     "kind": "stack",
     "esc_current_a": 60,
     "weight_g": 5.0,
-    "price_usd": 154.99
+    "price_usd": 154.99,
+    "mount_class": "20x20"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -525,7 +594,8 @@
     "kind": "AIO",
     "esc_current_a": 5,
     "weight_g": 4.0,
-    "price_usd": 79.99
+    "price_usd": 79.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -547,7 +617,8 @@
     "kind": "AIO",
     "esc_current_a": 12,
     "weight_g": 4.9,
-    "price_usd": 89.99
+    "price_usd": 89.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -568,7 +639,8 @@
     "kind": "AIO",
     "esc_current_a": 40,
     "weight_g": 8.5,
-    "price_usd": 107.99
+    "price_usd": 107.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -589,7 +661,8 @@
     "kind": "AIO",
     "esc_current_a": 40,
     "weight_g": 8.5,
-    "price_usd": 132.99
+    "price_usd": 132.99,
+    "mount_class": "20x20"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -609,12 +682,34 @@
     "kind": "stack",
     "esc_current_a": 35,
     "weight_g": 2.3,
-    "price_usd": 89.99
+    "price_usd": 89.99,
+    "mount_class": "16x16"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/flywoo-goku-gn405-2-6s-16x16-stack-combo-gn405-nano-fc-35a-8bit-4in1-esc"
    ]
+  },
+  {
+   "type": "stack",
+   "brand": "Flywoo",
+   "model": "GOKU GN745 V3 AIO - F7 FC + 45A 2-6S AM32 4-in-1 ESC - ICM42688 - 25X25",
+   "slug": "flywoo-goku-gn745-v3-aio-f7-fc-45a-2-6s-am32-4-in-1-esc-icm42688-25x25",
+   "specs": {
+    "mcu": "F745",
+    "gyro": "ICM42688",
+    "max_cells": "2-6S",
+    "kind": "AIO",
+    "esc_current_a": 45,
+    "weight_g": 9.4,
+    "price_usd": 107.99,
+    "mount_class": "25.5x25.5"
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/flywoo-goku-gn745-v3-aio-f7-fc-45a-2-6s-am32-4-in-1-esc-mpu6000-25x25"
+   ],
+   "note": "Mounting standard read from the listing: \"Mounting Holes: Standard 25.5/26.5mm (center to center)\"."
   },
   {
    "type": "stack",
@@ -630,7 +725,8 @@
     "kind": "stack",
     "esc_current_a": 45,
     "weight_g": 9.9,
-    "price_usd": 83.99
+    "price_usd": 83.99,
+    "mount_class": "20x20"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -651,7 +747,8 @@
     "kind": "AIO",
     "esc_current_a": 12,
     "weight_g": 4.6,
-    "price_usd": 125.99
+    "price_usd": 125.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -672,7 +769,8 @@
     "kind": "AIO",
     "esc_current_a": 50,
     "weight_g": 8.5,
-    "price_usd": 107.99
+    "price_usd": 107.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -693,7 +791,8 @@
     "kind": "AIO",
     "esc_current_a": 5,
     "weight_g": 3.3,
-    "price_usd": 67.99
+    "price_usd": 67.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -715,7 +814,8 @@
     "kind": "AIO",
     "esc_current_a": 35,
     "weight_g": 8.8,
-    "price_usd": 86.99
+    "price_usd": 86.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -735,7 +835,8 @@
     "kind": "AIO",
     "esc_current_a": 35,
     "weight_g": 8.8,
-    "price_usd": 107.99
+    "price_usd": 107.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -755,7 +856,8 @@
     "kind": "AIO",
     "esc_current_a": 45,
     "weight_g": 8.8,
-    "price_usd": 131.99
+    "price_usd": 131.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -776,7 +878,8 @@
     "kind": "stack",
     "esc_current_a": 50,
     "weight_g": 6.6,
-    "price_usd": 155.99
+    "price_usd": 155.99,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -797,7 +900,8 @@
     "kind": "AIO",
     "esc_current_a": 12,
     "weight_g": 2.0,
-    "price_usd": 81.49
+    "price_usd": 81.49,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -817,7 +921,8 @@
     "kind": "stack",
     "esc_current_a": 50,
     "weight_g": 7.7,
-    "price_usd": 69.99
+    "price_usd": 69.99,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -838,7 +943,8 @@
     "kind": "AIO",
     "esc_current_a": 12,
     "weight_g": 7.0,
-    "price_usd": 95.99
+    "price_usd": 95.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -859,12 +965,35 @@
     "kind": "AIO",
     "esc_current_a": 20,
     "weight_g": 8.5,
-    "price_usd": 67.49
+    "price_usd": 67.49,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/hakrc-f411-2-5s-f4126-aio-fc-w-20a-8bit-4in1-esc"
    ]
+  },
+  {
+   "type": "stack",
+   "brand": "HAKRC",
+   "model": "F722 2-6S AIO Whoop/Toothpick w/ 8Bit 40A ESC & External USB Board",
+   "slug": "hakrc-f722-2-6s-aio-whoop-toothpick-w-8bit-40a-esc-external-usb-board",
+   "specs": {
+    "max_cells": "2-6S",
+    "mcu": "F722",
+    "gyro": "MPU6000",
+    "bec_output": "5V/3A",
+    "esc_firmware": "BLHELI _S (G- H-30)",
+    "kind": "AIO",
+    "esc_current_a": 40,
+    "price_usd": 92.49,
+    "mount_class": "25.5x25.5"
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/hakrc-f722-aio-whoop-toothpick-flight-controller-w-2-6s-8bit-40a-esc-external-usb-board"
+   ],
+   "note": "Mounting standard read from the listing: \"Dimensions: 32x32mm (25.5mm-26.5mm mounting hole)\"."
   },
   {
    "type": "stack",
@@ -880,7 +1009,8 @@
     "kind": "AIO",
     "esc_current_a": 40,
     "weight_g": 10.0,
-    "price_usd": 115.49
+    "price_usd": 115.49,
+    "mount_class": "20x20"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -902,12 +1032,36 @@
     "kind": "AIO",
     "esc_current_a": 50,
     "weight_g": 10.0,
-    "price_usd": 131.99
+    "price_usd": 131.99,
+    "mount_class": "20x20"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/hakrc-f7220-3-6s-aio-20x20-flight-controller-w-32bit-50a-4in1-esc"
    ]
+  },
+  {
+   "type": "stack",
+   "brand": "HAKRC",
+   "model": "Flytower Stack - F722 F7230 V2 FC + 50A 2-6S BLHeli_S ESC - 30.5x30.5",
+   "slug": "hakrc-flytower-stack-f722-f7230-v2-fc-50a-2-6s-blheli-s-esc-30-5x30-5",
+   "specs": {
+    "mcu": "F722",
+    "gyro": "ICM42688",
+    "bec_output": "5V/3A; 10V/2.5A",
+    "max_cells": "2-6S",
+    "esc_firmware": "G_H_30 – Rev. 16.7 – Multi",
+    "kind": "stack",
+    "esc_current_a": 50,
+    "weight_g": 8.5,
+    "price_usd": 92.49,
+    "mount_class": "30x30"
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/hakrc-flytower-stack-f722-f7230-v2-fc-50a-2-6s-blheli_s-esc-30-5x30-5"
+   ],
+   "note": "Mounting standard read from the listing: \"product title: ... BLHeli_S ESC - 30.5x30.5\"."
   },
   {
    "type": "stack",
@@ -925,7 +1079,8 @@
     "kind": "AIO",
     "esc_current_a": 5,
     "weight_g": 3.8,
-    "price_usd": 74.99
+    "price_usd": 74.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -946,7 +1101,8 @@
     "kind": "AIO",
     "esc_current_a": 12,
     "weight_g": 4.8,
-    "price_usd": 65.99
+    "price_usd": 65.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -964,7 +1120,8 @@
     "max_cells": "2-4S",
     "kind": "AIO",
     "esc_current_a": 20,
-    "price_usd": 76.99
+    "price_usd": 76.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -983,7 +1140,8 @@
     "max_cells": "2-4S",
     "kind": "AIO",
     "esc_current_a": 20,
-    "price_usd": 69.99
+    "price_usd": 69.99,
+    "mount_class": "20x20"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1002,7 +1160,8 @@
     "max_cells": "2-4S",
     "kind": "AIO",
     "esc_current_a": 20,
-    "price_usd": 69.99
+    "price_usd": 69.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1021,7 +1180,8 @@
     "max_cells": "1S",
     "kind": "AIO",
     "esc_current_a": 5,
-    "price_usd": 83.99
+    "price_usd": 83.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1040,7 +1200,8 @@
     "max_cells": "1S",
     "kind": "AIO",
     "esc_current_a": 5,
-    "price_usd": 83.99
+    "price_usd": 83.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1060,7 +1221,8 @@
     "kind": "AIO",
     "esc_current_a": 12,
     "weight_g": 5.1,
-    "price_usd": 75.99
+    "price_usd": 75.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1080,7 +1242,8 @@
     "kind": "AIO",
     "esc_current_a": 12,
     "weight_g": 5.1,
-    "price_usd": 75.99
+    "price_usd": 75.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1103,7 +1266,8 @@
     "kind": "stack",
     "esc_current_a": 70,
     "weight_g": 13.4,
-    "price_usd": 164.99
+    "price_usd": 164.99,
+    "mount_class": "20x20"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1125,7 +1289,8 @@
     "mount_mm": "20x20mm",
     "kind": "stack",
     "esc_current_a": 70,
-    "price_usd": 148.99
+    "price_usd": 148.99,
+    "mount_class": "20x20"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1147,7 +1312,8 @@
     "mount_mm": "20x20mm",
     "kind": "stack",
     "esc_current_a": 70,
-    "price_usd": 166.49
+    "price_usd": 166.49,
+    "mount_class": "20x20"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1168,12 +1334,35 @@
     "kind": "AIO",
     "esc_current_a": 12,
     "weight_g": 5.6,
-    "price_usd": 85.99
+    "price_usd": 85.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
     "https://www.racedayquads.com/products/hglrc-specter-aio-f411-fc-12a-2-4s-blheli_s-esc-elrs-rx"
    ]
+  },
+  {
+   "type": "stack",
+   "brand": "HGLRC",
+   "model": "Specter F411 1-2S AIO Whoop/Toothpick (w/ 10A 8Bit 4in1 ESC & 400mW ) - ELRS 2.4GHz (SPI)",
+   "slug": "hglrc-specter-f411-1-2s-aio-whoop-toothpick-w-10a-8bit-4in1-esc-400mw-elrs-2-4ghz-spi",
+   "specs": {
+    "mcu": "F411",
+    "bec_output": "5V1.5A",
+    "esc_firmware": "Z-H-30 (Bluejay)",
+    "max_cells": "1-2S",
+    "kind": "AIO",
+    "esc_current_a": 10,
+    "weight_g": 4.9,
+    "price_usd": 89.99,
+    "mount_class": "25.5x25.5"
+   },
+   "_scraped_at": "2026-09-15",
+   "sources": [
+    "https://www.racedayquads.com/products/hglrc-specter-f411-1-2s-aio-whoop-toothpick-flight-controller-w-10a-8bit-4in1-esc-400mw-vtx-elrs-2-4ghz-spi"
+   ],
+   "note": "Mounting standard read from the listing: \"Mounting hole: 25.5X25.5mm.M2\"."
   },
   {
    "type": "stack",
@@ -1191,7 +1380,8 @@
     "kind": "stack",
     "esc_current_a": 60,
     "weight_g": 29.0,
-    "price_usd": 76.99
+    "price_usd": 76.99,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1213,7 +1403,8 @@
     "kind": "AIO",
     "esc_current_a": 25,
     "weight_g": 12.05,
-    "price_usd": 95.99
+    "price_usd": 95.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1233,7 +1424,8 @@
     "kind": "AIO",
     "esc_current_a": 40,
     "weight_g": 9.8,
-    "price_usd": 98.99
+    "price_usd": 98.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1254,7 +1446,8 @@
     "kind": "stack",
     "esc_current_a": 45,
     "weight_g": 12.0,
-    "price_usd": 159.99
+    "price_usd": 159.99,
+    "mount_class": "20x20"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1274,7 +1467,8 @@
     "kind": "stack",
     "esc_current_a": 50,
     "weight_g": 7.0,
-    "price_usd": 122.49
+    "price_usd": 122.49,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1295,7 +1489,8 @@
     "kind": "AIO",
     "esc_current_a": 35,
     "weight_g": 7.5,
-    "price_usd": 116.49
+    "price_usd": 116.49,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1315,7 +1510,8 @@
     "kind": "stack",
     "esc_current_a": 55,
     "weight_g": 7.8,
-    "price_usd": 86.49
+    "price_usd": 86.49,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1336,7 +1532,8 @@
     "kind": "stack",
     "esc_current_a": 55,
     "weight_g": 7.8,
-    "price_usd": 155.99
+    "price_usd": 155.99,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1356,7 +1553,8 @@
     "esc_firmware": "BLHeli 32",
     "kind": "stack",
     "esc_current_a": 55,
-    "price_usd": 155.99
+    "price_usd": 155.99,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1378,7 +1576,8 @@
     "kind": "stack",
     "esc_current_a": 55,
     "weight_g": 5.0,
-    "price_usd": 124.99
+    "price_usd": 124.99,
+    "mount_class": "20x20"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1399,7 +1598,8 @@
     "kind": "stack",
     "esc_current_a": 55,
     "weight_g": 5.0,
-    "price_usd": 95.99
+    "price_usd": 95.99,
+    "mount_class": "20x20"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1421,7 +1621,8 @@
     "kind": "stack",
     "esc_current_a": 55,
     "weight_g": 11.3,
-    "price_usd": 139.99
+    "price_usd": 139.99,
+    "mount_class": "20x20"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1443,7 +1644,8 @@
     "kind": "AIO",
     "esc_current_a": 55,
     "weight_g": 10.5,
-    "price_usd": 131.99
+    "price_usd": 131.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1465,7 +1667,8 @@
     "kind": "stack",
     "esc_current_a": 60,
     "weight_g": 21.0,
-    "price_usd": 104.99
+    "price_usd": 104.99,
+    "mount_class": "20x20"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1487,7 +1690,8 @@
     "kind": "AIO",
     "esc_current_a": 20,
     "weight_g": 7.5,
-    "price_usd": 83.99
+    "price_usd": 83.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1507,7 +1711,8 @@
     "kind": "AIO",
     "esc_current_a": 12,
     "weight_g": 6.5,
-    "price_usd": 98.99
+    "price_usd": 98.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1527,7 +1732,8 @@
     "kind": "AIO",
     "esc_current_a": 18,
     "weight_g": 5.8,
-    "price_usd": 118.99
+    "price_usd": 118.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1548,7 +1754,8 @@
     "kind": "stack",
     "esc_current_a": 80,
     "weight_g": 4.8,
-    "price_usd": 92.49
+    "price_usd": 92.49,
+    "mount_class": "20x20"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1568,7 +1775,8 @@
     "kind": "AIO",
     "esc_current_a": 50,
     "weight_g": 10.2,
-    "price_usd": 73.99
+    "price_usd": 73.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1587,7 +1795,8 @@
     "kind": "AIO",
     "esc_current_a": 12,
     "weight_g": 4.57,
-    "price_usd": 83.99
+    "price_usd": 83.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1607,7 +1816,8 @@
     "kind": "AIO",
     "esc_current_a": 12,
     "weight_g": 4.57,
-    "price_usd": 90.99
+    "price_usd": 90.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1628,7 +1838,8 @@
     "kind": "AIO",
     "esc_current_a": 55,
     "weight_g": 22.0,
-    "price_usd": 191.99
+    "price_usd": 191.99,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1649,7 +1860,8 @@
     "kind": "AIO",
     "esc_current_a": 40,
     "weight_g": 13.6,
-    "price_usd": 67.49
+    "price_usd": 67.49,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1669,7 +1881,8 @@
     "kind": "stack",
     "esc_current_a": 35,
     "weight_g": 13.5,
-    "price_usd": 110.99
+    "price_usd": 110.99,
+    "mount_class": "20x20"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1689,7 +1902,8 @@
     "kind": "stack",
     "esc_current_a": 50,
     "weight_g": 9.6,
-    "price_usd": 86.49
+    "price_usd": 86.49,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1709,7 +1923,8 @@
     "kind": "stack",
     "esc_current_a": 55,
     "weight_g": 10.5,
-    "price_usd": 86.49
+    "price_usd": 86.49,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1728,7 +1943,8 @@
     "kind": "stack",
     "esc_current_a": 55,
     "weight_g": 8.1,
-    "price_usd": 129.49
+    "price_usd": 129.49,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1747,7 +1963,8 @@
     "kind": "stack",
     "esc_current_a": 55,
     "weight_g": 8.1,
-    "price_usd": 119.99
+    "price_usd": 119.99,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1769,7 +1986,8 @@
     "kind": "stack",
     "esc_current_a": 35,
     "weight_g": 5.7,
-    "price_usd": 95.99
+    "price_usd": 95.99,
+    "mount_class": "20x20"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1790,7 +2008,8 @@
     "kind": "stack",
     "esc_current_a": 50,
     "weight_g": 9.0,
-    "price_usd": 151.49
+    "price_usd": 151.49,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1810,7 +2029,8 @@
     "kind": "stack",
     "esc_current_a": 70,
     "weight_g": 7.5,
-    "price_usd": 199.49
+    "price_usd": 199.49,
+    "mount_class": "20x20"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1832,7 +2052,8 @@
     "kind": "stack",
     "esc_current_a": 60,
     "weight_g": 6.9,
-    "price_usd": 113.99
+    "price_usd": 113.99,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1853,7 +2074,8 @@
     "kind": "stack",
     "esc_current_a": 60,
     "weight_g": 4.9,
-    "price_usd": 131.99
+    "price_usd": 131.99,
+    "mount_class": "20x20"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1873,7 +2095,8 @@
     "kind": "stack",
     "esc_current_a": 50,
     "weight_g": 6.0,
-    "price_usd": 77.99
+    "price_usd": 77.99,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1894,7 +2117,8 @@
     "kind": "stack",
     "esc_current_a": 45,
     "weight_g": 6.9,
-    "price_usd": 118.99
+    "price_usd": 118.99,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1916,7 +2140,8 @@
     "kind": "stack",
     "esc_current_a": 50,
     "weight_g": 6.9,
-    "price_usd": 118.99
+    "price_usd": 118.99,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1938,7 +2163,8 @@
     "kind": "stack",
     "esc_current_a": 60,
     "weight_g": 17.0,
-    "price_usd": 117.99
+    "price_usd": 117.99,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1959,7 +2185,8 @@
     "kind": "stack",
     "esc_current_a": 65,
     "weight_g": 19.0,
-    "price_usd": 137.99
+    "price_usd": 137.99,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -1981,7 +2208,8 @@
     "kind": "stack",
     "esc_current_a": 60,
     "weight_g": 10.1,
-    "price_usd": 140.49
+    "price_usd": 140.49,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2003,7 +2231,8 @@
     "kind": "stack",
     "esc_current_a": 40,
     "weight_g": 6.0,
-    "price_usd": 103.49
+    "price_usd": 103.49,
+    "mount_class": "20x20"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2025,7 +2254,8 @@
     "kind": "stack",
     "esc_current_a": 55,
     "weight_g": 4.2,
-    "price_usd": 101.99
+    "price_usd": 101.99,
+    "mount_class": "20x20"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2048,7 +2278,8 @@
     "kind": "AIO",
     "esc_current_a": 45,
     "weight_g": 13.5,
-    "price_usd": 83.99
+    "price_usd": 83.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2069,7 +2300,8 @@
     "kind": "stack",
     "esc_current_a": 50,
     "weight_g": 9.2,
-    "price_usd": 137.99
+    "price_usd": 137.99,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2091,7 +2323,8 @@
     "kind": "AIO",
     "esc_current_a": 13,
     "weight_g": 5.7,
-    "price_usd": 116.49
+    "price_usd": 116.49,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2112,7 +2345,8 @@
     "kind": "AIO",
     "esc_current_a": 6,
     "weight_g": 6.7,
-    "price_usd": 93.99
+    "price_usd": 93.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2133,7 +2367,8 @@
     "mount_mm": "25.5x25.5mm",
     "kind": "AIO",
     "esc_current_a": 35,
-    "price_usd": 124.99
+    "price_usd": 124.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2154,7 +2389,8 @@
     "mount_mm": "25.5x25.5mm",
     "kind": "AIO",
     "esc_current_a": 45,
-    "price_usd": 148.99
+    "price_usd": 148.99,
+    "mount_class": "25.5x25.5"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2175,7 +2411,8 @@
     "kind": "stack",
     "esc_current_a": 55,
     "weight_g": 7.4,
-    "price_usd": 181.99
+    "price_usd": 181.99,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2197,7 +2434,8 @@
     "kind": "stack",
     "esc_current_a": 55,
     "weight_g": 17.3,
-    "price_usd": 174.99
+    "price_usd": 174.99,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
@@ -2218,7 +2456,8 @@
     "kind": "stack",
     "esc_current_a": 50,
     "weight_g": 9.0,
-    "price_usd": 112.99
+    "price_usd": 112.99,
+    "mount_class": "30x30"
    },
    "_scraped_at": "2026-09-15",
    "sources": [
