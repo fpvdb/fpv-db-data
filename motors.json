@@ -14511,12 +14511,109 @@
     "max_cells": "3-4S",
     "shaft": "1.5mm",
     "recommended_props": "2-2.5in props (derived)",
-    "price_usd": 15.49
+    "price_usd": 15.49,
+    "max_thrust_g": 186,
+    "thrust_conditions": "RCinPower bench, one 5000 KV sheet, a single 2.5in tri-blade prop at 11.1 V and 14.8 V, four throttle points each (25/50/75/100%); no RPM published",
+    "thrust_table": [
+     {
+      "kv": 5000,
+      "prop": "T2.5*3*3",
+      "cells": "3S",
+      "throttle": 25,
+      "voltage_v": 11.1,
+      "current_a": 0.15,
+      "rpm": null,
+      "thrust_g": 8,
+      "efficiency_gw": 4.805
+     },
+     {
+      "kv": 5000,
+      "prop": "T2.5*3*3",
+      "cells": "3S",
+      "throttle": 50,
+      "voltage_v": 11.1,
+      "current_a": 0.8,
+      "rpm": null,
+      "thrust_g": 37,
+      "efficiency_gw": 4.167
+     },
+     {
+      "kv": 5000,
+      "prop": "T2.5*3*3",
+      "cells": "3S",
+      "throttle": 75,
+      "voltage_v": 11.1,
+      "current_a": 2.2,
+      "rpm": null,
+      "thrust_g": 80,
+      "efficiency_gw": 3.276
+     },
+     {
+      "kv": 5000,
+      "prop": "T2.5*3*3",
+      "cells": "3S",
+      "throttle": 100,
+      "voltage_v": 11.1,
+      "current_a": 3.6,
+      "rpm": null,
+      "thrust_g": 115,
+      "efficiency_gw": 2.878
+     },
+     {
+      "kv": 5000,
+      "prop": "T2.5*3*3",
+      "cells": "4S",
+      "throttle": 25,
+      "voltage_v": 14.8,
+      "current_a": 0.25,
+      "rpm": null,
+      "thrust_g": 18,
+      "efficiency_gw": 4.865
+     },
+     {
+      "kv": 5000,
+      "prop": "T2.5*3*3",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 14.8,
+      "current_a": 1.4,
+      "rpm": null,
+      "thrust_g": 68,
+      "efficiency_gw": 3.282
+     },
+     {
+      "kv": 5000,
+      "prop": "T2.5*3*3",
+      "cells": "4S",
+      "throttle": 75,
+      "voltage_v": 14.8,
+      "current_a": 3.4,
+      "rpm": null,
+      "thrust_g": 133,
+      "efficiency_gw": 2.643
+     },
+     {
+      "kv": 5000,
+      "prop": "T2.5*3*3",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 14.8,
+      "current_a": 5.6,
+      "rpm": null,
+      "thrust_g": 186,
+      "efficiency_gw": 2.244
+     }
+    ],
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø16.1x10.9",
+    "resistance_mohm": "125"
    },
    "_scraped_at": "2026-09-17",
    "sources": [
-    "https://www.racedayquads.com/products/rcinpower-gts-v2-1204-5000kv-motor"
-   ]
+    "https://www.racedayquads.com/products/rcinpower-gts-v2-1204-5000kv-motor",
+    "https://www.rcinpower.com/G-SERIES/31.html"
+   ],
+   "note": "RCinPower publishes this motor at www.rcinpower.com/G-SERIES/31.html, one data sheet headed \"MOTORS: 1204-5000\" with a single prop in its table. Identity against our retail listing is not a resemblance but the same block: 5000 KV, 9N12P, 12 mm stator diameter, 6 g, 3S-4S, 0.95 A idle at 10 V, 89 W max continuous power (3S), 125 mOhm internal resistance, 6 A max current (3S), 1.5-2 A max-efficiency band at >80% and a Phi 16.1x10.9 mm motor dimension - nine figures to the digit, so the sheet titled \"GTS 1204\" and our \"GTS-V2 1204\" are one motor. Stator length 4 mm. Three things are reproduced as printed rather than corrected: (1) the block's 89 W and 6 A maxima are labelled 3S and are the top row of NO row in this sheet's own table - its 3S (11.1 V) full-throttle run is 40.0 W at 3.6 A and its 4S (14.8 V) one 82.9 W at 5.6 A - so unlike the five RCinPower sheets read 2026-09-15 the spec-block cross-check does not land here, presumably because the maxima were measured on a prop this sheet does not tabulate; (2) the marketing banner on the product page heads the motor \"1204 5200KV\" while the data sheet, our retail listing and the page title all say 5000 KV, and nothing here is taken from the banner; (3) the sheet prints \"Shaft Diameter: 2mm\" where our retail listing prints 1.5 mm - the sibling GTS-V2 1202.5 listing spells the same motor family out as a \"1.5mm press fit prop shaft\" with a \"2mm internal shaft\", so the two figures are the two ends of one shaft, as the 2104 sheets also print; the retailer's prop-shaft figure is left in the shaft field and the manufacturer's named here. The temperature column is printed empty for all eight rows."
   },
   {
    "type": "motor",
