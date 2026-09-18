@@ -1223,13 +1223,197 @@
     "max_cells": "4-6S",
     "shaft": "5mm",
     "recommended_props": "6-7in props (derived)",
-    "max_thrust_g": 1826.0,
-    "price_usd": 32.49
+    "max_thrust_g": 1929,
+    "price_usd": 32.49,
+    "thrust_conditions": "Axisflying bench, 6S (23.4-24.0 V), 8 throttle points (30-100%) per KV on the 51466 V2 prop",
+    "thrust_table": [
+     {
+      "kv": 2080,
+      "prop": "51466 V2",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 23.96,
+      "current_a": 5.54,
+      "rpm": 15951,
+      "thrust_g": 470,
+      "efficiency_gw": 3.5
+     },
+     {
+      "kv": 2080,
+      "prop": "51466 V2",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 23.9,
+      "current_a": 8.75,
+      "rpm": 18644,
+      "thrust_g": 663,
+      "efficiency_gw": 3.2
+     },
+     {
+      "kv": 2080,
+      "prop": "51466 V2",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 23.85,
+      "current_a": 12.54,
+      "rpm": 21063,
+      "thrust_g": 851,
+      "efficiency_gw": 2.8
+     },
+     {
+      "kv": 2080,
+      "prop": "51466 V2",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 23.78,
+      "current_a": 17.74,
+      "rpm": 23735,
+      "thrust_g": 1117,
+      "efficiency_gw": 2.6
+     },
+     {
+      "kv": 2080,
+      "prop": "51466 V2",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 23.68,
+      "current_a": 24.91,
+      "rpm": 26226,
+      "thrust_g": 1368,
+      "efficiency_gw": 2.3
+     },
+     {
+      "kv": 2080,
+      "prop": "51466 V2",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 23.56,
+      "current_a": 34.13,
+      "rpm": 28683,
+      "thrust_g": 1631,
+      "efficiency_gw": 2.0
+     },
+     {
+      "kv": 2080,
+      "prop": "51466 V2",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 23.44,
+      "current_a": 43.01,
+      "rpm": 30267,
+      "thrust_g": 1824,
+      "efficiency_gw": 1.8
+     },
+     {
+      "kv": 2080,
+      "prop": "51466 V2",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 23.38,
+      "current_a": 47.44,
+      "rpm": 31118,
+      "thrust_g": 1929,
+      "efficiency_gw": 1.7
+     },
+     {
+      "kv": 1860,
+      "prop": "51466 V2",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 23.97,
+      "current_a": 4.17,
+      "rpm": 14960,
+      "thrust_g": 358,
+      "efficiency_gw": 3.6
+     },
+     {
+      "kv": 1860,
+      "prop": "51466 V2",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 23.94,
+      "current_a": 6.81,
+      "rpm": 17811,
+      "thrust_g": 530,
+      "efficiency_gw": 3.3
+     },
+     {
+      "kv": 1860,
+      "prop": "51466 V2",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 23.89,
+      "current_a": 9.91,
+      "rpm": 20308,
+      "thrust_g": 693,
+      "efficiency_gw": 2.9
+     },
+     {
+      "kv": 1860,
+      "prop": "51466 V2",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 23.83,
+      "current_a": 14.13,
+      "rpm": 22873,
+      "thrust_g": 924,
+      "efficiency_gw": 2.7
+     },
+     {
+      "kv": 1860,
+      "prop": "51466 V2",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 23.74,
+      "current_a": 20.28,
+      "rpm": 25624,
+      "thrust_g": 1189,
+      "efficiency_gw": 2.5
+     },
+     {
+      "kv": 1860,
+      "prop": "51466 V2",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 23.63,
+      "current_a": 28.68,
+      "rpm": 28127,
+      "thrust_g": 1475,
+      "efficiency_gw": 2.2
+     },
+     {
+      "kv": 1860,
+      "prop": "51466 V2",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 23.52,
+      "current_a": 36.79,
+      "rpm": 29747,
+      "thrust_g": 1633,
+      "efficiency_gw": 1.9
+     },
+     {
+      "kv": 1860,
+      "prop": "51466 V2",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 23.46,
+      "current_a": 40.95,
+      "rpm": 30770,
+      "thrust_g": 1826,
+      "efficiency_gw": 1.9
+     }
+    ],
+    "configuration": "12N14P",
+    "dimensions_mm": "29.5x32.55",
+    "resistance_mohm": "66 (2080KV) / 78.00 (1860KV)"
    },
    "_scraped_at": "2026-09-18",
    "sources": [
-    "https://www.racedayquads.com/products/axisflying-af2406-x-modular-motor-1860kv-2080kv"
-   ]
+    "https://www.racedayquads.com/products/axisflying-af2406-x-modular-motor-1860kv-2080kv",
+    "https://www.axisflying.com/products/modular-motor-af2406-4-6s"
+   ],
+   "note": "Axisflying's own sheet: 35.10 g with its 20AWG 150mm silicone leads (32 g motor body), 29.5x32.55 mm, 12N14P, 66 mOhm at 2080KV and 78.00 mOhm at 1860KV, rated 4-6S, 5 mm shaft. Idle current at 10 V is 1.70 A (2080KV) / 1.40 A (1860KV); motor internal temperature at full throttle 40 degC (2080KV) / 44 degC (1860KV) at 28 degC ambient. The spec block's Max Power, Max current and Max force are exactly each winding's own 100% row (1109.10 W / 47.44 A / 1929 g at 2080KV, 960.70 W / 40.95 A / 1826 g at 1860KV). The modular base cap is a separate 2.1 g part (23.2x16.8x3 mm, 7075 aluminium) whose PCB is rated 60 A - above the 47.44 A the 2080KV winding pulls at full throttle on the tested prop - and the 32 g body weight excludes it"
   },
   {
    "type": "motor",
