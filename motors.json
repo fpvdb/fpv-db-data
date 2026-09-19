@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-19",
- "count": 206,
+ "count": 207,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -2620,6 +2620,137 @@
     "https://www.axisflying.com/products/co-brand-with-blackbird-v4-2307-5inch-brushless"
    ],
    "note": "Axisflying sells this as two editions of the same 2307.3 motor: the 2060 KV Menace Edition (Sbang's signature) and the 1960 KV Mind Reader, wound for a smoother throttle. The stator grew from 2207.3 to 2307.3 versus the V3. 34.69 g with wire, 27.8x32.9 mm, 12N14P, 5 mm shaft, 6S; the 2060 KV winding measures 57.34 mOhm. Motor internal temperature at full throttle 47-65 degC"
+  },
+  {
+   "type": "motor",
+   "brand": "Axisflying",
+   "model": "C157-2 1507",
+   "slug": "axisflying-c157-2-1507",
+   "specs": {
+    "stator": "1507",
+    "kv_options": [
+     3750
+    ],
+    "recommended_props": [
+     "3.5in (90 mm) cinewhoop props - Axisflying heads the sheet Cine157-2 / Suitable for AVATA 3.5\" and bench-tests the motor on an HQT90-4P"
+    ],
+    "price_usd": 23.99,
+    "max_thrust_g": 670.0,
+    "thrust_conditions": "Axisflying bench, 3750 KV on an HQT90-4P four-blade prop at 4S (16.00 V), 9 throttle points (20-100%)",
+    "thrust_table": [
+     {
+      "kv": 3750,
+      "prop": "HQT90-4P",
+      "cells": "4S",
+      "throttle": 20,
+      "voltage_v": 16.0,
+      "current_a": 2.19,
+      "rpm": 12379.0,
+      "thrust_g": 52.0,
+      "efficiency_gw": 1.48
+     },
+     {
+      "kv": 3750,
+      "prop": "HQT90-4P",
+      "cells": "4S",
+      "throttle": 30,
+      "voltage_v": 16.0,
+      "current_a": 4.44,
+      "rpm": 16356.0,
+      "thrust_g": 179.0,
+      "efficiency_gw": 2.52
+     },
+     {
+      "kv": 3750,
+      "prop": "HQT90-4P",
+      "cells": "4S",
+      "throttle": 40,
+      "voltage_v": 16.0,
+      "current_a": 7.0,
+      "rpm": 18269.0,
+      "thrust_g": 239.0,
+      "efficiency_gw": 2.13
+     },
+     {
+      "kv": 3750,
+      "prop": "HQT90-4P",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16.0,
+      "current_a": 10.06,
+      "rpm": 20725.0,
+      "thrust_g": 324.0,
+      "efficiency_gw": 2.01
+     },
+     {
+      "kv": 3750,
+      "prop": "HQT90-4P",
+      "cells": "4S",
+      "throttle": 60,
+      "voltage_v": 16.0,
+      "current_a": 13.28,
+      "rpm": 22956.0,
+      "thrust_g": 392.0,
+      "efficiency_gw": 1.84
+     },
+     {
+      "kv": 3750,
+      "prop": "HQT90-4P",
+      "cells": "4S",
+      "throttle": 70,
+      "voltage_v": 16.0,
+      "current_a": 17.8,
+      "rpm": 25095.0,
+      "thrust_g": 474.0,
+      "efficiency_gw": 1.66
+     },
+     {
+      "kv": 3750,
+      "prop": "HQT90-4P",
+      "cells": "4S",
+      "throttle": 80,
+      "voltage_v": 16.0,
+      "current_a": 22.27,
+      "rpm": 26828.0,
+      "thrust_g": 544.0,
+      "efficiency_gw": 1.53
+     },
+     {
+      "kv": 3750,
+      "prop": "HQT90-4P",
+      "cells": "4S",
+      "throttle": 90,
+      "voltage_v": 16.0,
+      "current_a": 27.02,
+      "rpm": 26014.0,
+      "thrust_g": 623.0,
+      "efficiency_gw": 1.44
+     },
+     {
+      "kv": 3750,
+      "prop": "HQT90-4P",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16.0,
+      "current_a": 31.66,
+      "rpm": 23195.0,
+      "thrust_g": 670.0,
+      "efficiency_gw": 1.32
+     }
+    ],
+    "weight_g": 13.58,
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø19x18.3",
+    "resistance_mohm": "83",
+    "shaft": "1.5mm",
+    "max_cells": "4S"
+   },
+   "_scraped_at": "2026-09-19",
+   "sources": [
+    "https://www.racedayquads.com/products/axisflying-c157-2-1507-3750kv-micro-motor",
+    "https://www.axisflying.com/products/motors-c157-2-4s"
+   ],
+   "note": "Axisflying publishes the C157-2 sheet as the second and third of three description images on /products/motors-c157-2-4s: image 1 (1400x1894) is the marketing header (Cine157-2 / Suitable for AVATA 3.5\"), image 2 (1400x1628) carries the dimension drawing and the Specification block, image 3 (1400x1842) the Testing data table and the package shot. Finding the product page was the job, not transcribing it: the C157-2 is in none of the eight motor collections read 2026-09-18, and the store's own search (/search?q=C157) is what turned it up, at /products/motors-c157-2-4s, SKU A02010004. The sheet is one winding on one prop: 3750 KV on an HQT90-4P at 4S (16.00 V flat), nine throttle points (20-100%). The block's Max power / Max current are that run's own 100% row (506.56 W / 31.66 A), so the spec-block cross-check lands - every Axisflying sheet read so far - and all 9 rows pass the efficiency identity AND printed power = V x A. Max thrust is the 100% row's 670 g; weight_g (13.58 g, wire included) and max_cells (4S, the block's \"Battery\" line, the schema.org product name \"Motors C157-2 4s\" and the voltage the bench run holds) are the two fields that kept this motor queued. Three source facts recorded rather than repaired. First, the page's prose spec list is stale and the sheet is not: the body text, which RaceDayQuads reprints, gives \"Motor mounting hole size: 3*M2 (Φ10mm)\" (RDQ: 4xM2), \"AWG 24#, 100MM\", \"Φ19*18.9MM\" and \"14.5g including 150MM cables\", while the Specification block and the drawing beside it give four M2 holes on a Φ12 bolt circle, 22# 100 mm silicone line, Φ19*18.3 mm and 13.58 g wire included; the same prose ships \"1x C157 motor\" and \"3x M2x4 screws\" against a four-hole drawing, i.e. it is the first-generation C157's copy carried over. The block and the drawing are taken. Second, RPM falls across the top of the run - 26828 at 80%, 26014 at 90%, 23195 at 100% - while thrust rises 544 -> 623 -> 670 g and current 22.27 -> 31.66 A; every row's printed power and efficiency follow its own voltage, current and thrust exactly, so only the RPM column is odd. Third, the mount is four M2 on a Φ12 bolt circle, an 8.5 mm square, and here RaceDayQuads reprints it correctly as \"4xM2 (Φ12mm)\" - the same retailer published the C224's identical Φ12 callout as \"Mounting Pattern: 12x12mm M2\", so we now have one bolt circle rendered both ways by one shop - and mount_mm is left empty as on the other Axisflying pages. The block's \"Wheelbase 1.5 mm\" is Axisflying's template label for the shaft, as on the collaboration 2207.5, and the drawing's Φ1.5 stub agrees; the prop mounts on four M2 screws around a Φ5 boss, not on that shaft."
   },
   {
    "type": "motor",
