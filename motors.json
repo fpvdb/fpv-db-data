@@ -1833,7 +1833,7 @@
     "https://www.racedayquads.com/products/axisflying-af2207-5-fpv-motor-1960kv",
     "https://www.axisflying.com/products/5-inch-brushless-motor"
    ],
-   "note": "Axisflying publishes the AF2207.5 as one product in two windings (1860 and 1960 KV, one SKU with the KV chosen at checkout), and a Testing data sheet for each, so both windings are on this page; the RaceDayQuads listing we price from carries only the 1960 KV. Identity against that listing: 33.90 g with its 20AWG 150 mm leads, 6S, 1960 KV. Both sheets: 12N14P, 5 mm shaft with an M5 prop thread (13 mm exposed), 63.42 mOhm at 1860 KV and 61.49 mOhm at 1960 KV, idle current 1.23 A at 10 V on every prop and both windings. Motor internal temperature at full throttle, 37 degC ambient: 110/97/102 degC on the 1860 KV sheet (GF 51466 V2 / HQ MCK / HQ P3.5) and 102/106/105/108 degC on the 1960 KV one (GF 51366 V3 / GF 51466 V2 / HQ J37 / HQ J40). Two things recorded as the source prints them rather than repaired: the spec block states the size as \"Phi 27.*20.45mm\" with a digit missing after the decimal point - the dimension drawing on the same image prints Phi 27 +/-0.1 and 20.45 +/-0.3, which is where the published figure comes from - and the HQ P3.5 70% row reads 22972 rpm against 22505 at 60% and 26238 at 80%, a flat step while current and thrust rise normally. The drawing's mount callout is four M3 holes on a Phi 16 +/-0.05 bolt circle, i.e. an 11.3 mm square, not the 16x16 mm square 22xx motors usually take; it is left out of mount_mm, which holds square patterns. Each sheet's spec block states Max Power, Max current and Max force per prop, and all seven are that prop's own 100% row - so no prop block is missing from this transcription; four of the seven differ in the last printed digit only (33.64 A against the table's 33.65, 896.13/907.28/912.06 W against 896.14/907.29/912.07), and the block prints max force to 0.1 g where the table rounds to whole grams. Axisflying also sells a separate \"Bando 2207.5\" in the same two KV whose spec block is a different motor (58.08/58.13 mOhm, 4 mm shaft, Phi 27.9x32.9 mm, 35.50/35.65 g); nothing here comes from it"
+   "note": "Axisflying publishes the AF2207.5 as one product in two windings (1860 and 1960 KV, one SKU with the KV chosen at checkout), and a Testing data sheet for each, so both windings are on this page; the RaceDayQuads listing we price from carries only the 1960 KV. Identity against that listing: 33.90 g with its 20AWG 150 mm leads, 6S, 1960 KV. Both sheets: 12N14P, 5 mm shaft with an M5 prop thread (13 mm exposed), 63.42 mOhm at 1860 KV and 61.49 mOhm at 1960 KV, idle current 1.23 A at 10 V on every prop and both windings. Motor internal temperature at full throttle, 37 degC ambient: 110/97/102 degC on the 1860 KV sheet (GF 51466 V2 / HQ MCK / HQ P3.5) and 102/106/105/108 degC on the 1960 KV one (GF 51366 V3 / GF 51466 V2 / HQ J37 / HQ J40). Two things recorded as the source prints them rather than repaired: the spec block states the size as \"Phi 27.*20.45mm\" with a digit missing after the decimal point - the dimension drawing on the same image prints Phi 27 +/-0.1 and 20.45 +/-0.3, which is where the published figure comes from - and the HQ P3.5 70% row reads 22972 rpm against 22505 at 60% and 26238 at 80%, a flat step while current and thrust rise normally. The drawing's mount callout is four M3 holes on a Phi 16 +/-0.05 bolt circle, i.e. an 11.3 mm square, not the 16x16 mm square 22xx motors usually take; it is left out of mount_mm, which holds square patterns. Each sheet's spec block states Max Power, Max current and Max force per prop, and all seven are that prop's own 100% row - so no prop block is missing from this transcription; four of the seven differ in the last printed digit only (33.64 A against the table's 33.65, 896.13/907.28/912.06 W against 896.14/907.29/912.07), and the block prints max force to 0.1 g where the table rounds to whole grams. Axisflying also sells a separate \"Bando 2207.5\" in the same two KV whose spec block is a different motor (58.08/58.13 mOhm, Phi 27.9x32.9 mm, 35.50/35.65 g); nothing here comes from it. That one is the Axisflying x SyncFPV x Supafly collaboration we publish at /motors/axisflying-x-supaflyfpv-x-syncfpv-2207-5/, and the shaft is no longer one of the figures that separates the two: its block says 4 mm, but the dimension drawing beside it calls out an M5 thread over a Phi 5 shaft, same as this motor"
   },
   {
    "type": "motor",
@@ -3174,14 +3174,198 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
-    "max_thrust_g": 1711.0,
-    "price_usd": 23.99
+    "max_thrust_g": 1819,
+    "price_usd": 23.99,
+    "thrust_conditions": "Axisflying bench, 6S (23.3-24.4 V), 8 throttle points (30-100%) per KV on the BB4943.5 prop",
+    "thrust_table": [
+     {
+      "kv": 1960,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 24.04,
+      "current_a": 2.71,
+      "rpm": 13872,
+      "thrust_g": 253.88,
+      "efficiency_gw": 3.89
+     },
+     {
+      "kv": 1960,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 24.01,
+      "current_a": 5.37,
+      "rpm": 17917,
+      "thrust_g": 440.84,
+      "efficiency_gw": 3.42
+     },
+     {
+      "kv": 1960,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 23.96,
+      "current_a": 9.16,
+      "rpm": 21492,
+      "thrust_g": 648.72,
+      "efficiency_gw": 2.95
+     },
+     {
+      "kv": 1960,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 23.82,
+      "current_a": 13.65,
+      "rpm": 24580,
+      "thrust_g": 869.86,
+      "efficiency_gw": 2.68
+     },
+     {
+      "kv": 1960,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 23.81,
+      "current_a": 19.14,
+      "rpm": 27353,
+      "thrust_g": 1103.44,
+      "efficiency_gw": 2.42
+     },
+     {
+      "kv": 1960,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 24.39,
+      "current_a": 25.07,
+      "rpm": 29781,
+      "thrust_g": 1353.13,
+      "efficiency_gw": 2.21
+     },
+     {
+      "kv": 1960,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 24.09,
+      "current_a": 31.98,
+      "rpm": 32559,
+      "thrust_g": 1606.19,
+      "efficiency_gw": 2.09
+     },
+     {
+      "kv": 1960,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24.16,
+      "current_a": 39.83,
+      "rpm": 35044,
+      "thrust_g": 1818.56,
+      "efficiency_gw": 1.89
+     },
+     {
+      "kv": 1860,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 24.04,
+      "current_a": 2.88,
+      "rpm": 13528,
+      "thrust_g": 192.27,
+      "efficiency_gw": 2.78
+     },
+     {
+      "kv": 1860,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 23.99,
+      "current_a": 5.24,
+      "rpm": 17557,
+      "thrust_g": 333.23,
+      "efficiency_gw": 2.65
+     },
+     {
+      "kv": 1860,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.05,
+      "current_a": 8.65,
+      "rpm": 21179,
+      "thrust_g": 622.0,
+      "efficiency_gw": 2.99
+     },
+     {
+      "kv": 1860,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 23.99,
+      "current_a": 12.84,
+      "rpm": 24374,
+      "thrust_g": 839.26,
+      "efficiency_gw": 2.73
+     },
+     {
+      "kv": 1860,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 23.6,
+      "current_a": 17.62,
+      "rpm": 26767,
+      "thrust_g": 1048.25,
+      "efficiency_gw": 2.52
+     },
+     {
+      "kv": 1860,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 23.56,
+      "current_a": 22.61,
+      "rpm": 29281,
+      "thrust_g": 1257.05,
+      "efficiency_gw": 2.36
+     },
+     {
+      "kv": 1860,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 23.59,
+      "current_a": 29.32,
+      "rpm": 31846,
+      "thrust_g": 1519.6,
+      "efficiency_gw": 2.2
+     },
+     {
+      "kv": 1860,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 23.27,
+      "current_a": 35.8,
+      "rpm": 33953,
+      "thrust_g": 1710.85,
+      "efficiency_gw": 2.05
+     }
+    ],
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø27.9x32.9",
+    "resistance_mohm": "58.08 (1960KV) / 58.13 (1860KV)"
    },
    "_scraped_at": "2026-09-19",
    "sources": [
     "https://www.racedayquads.com/products/axisflying-x-supaflyfpv-x-syncfpv-2207-5-1860kv-motor",
-    "https://www.racedayquads.com/products/axisflying-x-supaflyfpv-x-syncfpv-2207-5-1960kv-motor"
-   ]
+    "https://www.racedayquads.com/products/axisflying-x-supaflyfpv-x-syncfpv-2207-5-1960kv-motor",
+    "https://www.axisflying.com/products/brushless-motor-22075"
+   ],
+   "note": "Axisflying publishes this as a co-branded motor built with SyncFPV and Supafly (\"Motor 2207.5 6s ... co-branded ... Bando 1960kv 1860kv\", SKU A02010054), one product in two windings with the KV chosen at checkout and a single Testing data table covering both, so both windings are on this page. Identity against the two RaceDayQuads listings we price from: 2207.5, 1860 and 1960 KV, 6S, and a 1711 g max thrust that is exactly the 1860 KV winding's stated Max force - the retailer published one winding's peak as the motor's, so max thrust here is now the 1960 KV figure, 1819 g. Both windings: 12N14P, Phi 27.9x32.9 mm, 20# 150 mm silicone leads, rated 6S; 58.08 mOhm, 1.15 A idle and 35.50 g at 1960 KV, 58.13 mOhm, 1.20 A idle and 35.65 g at 1860 KV. One prop only, the BB4943.5 Axisflying builds the motor around, eight throttle points (30-100%) per winding at 6S, ending at an operating temperature of 71.6 degC (1960 KV) and 55 degC (1860 KV). Each winding's spec-block Max Power, Max current and Max force are its own 100% row (962.23 W / 39.83 A / 1818.56 g and 833.05 W / 35.80 A / 1710.85 g, the block rounding max force to 1819 g and 1711 g), so no prop block is missing from this transcription. Four things recorded as the source prints them rather than repaired: the spec block gives the shaft (labelled \"Wheelbase\" in Axisflying's template) as 4 mm while the dimension drawing in the same image calls out an M5 prop thread over a Phi 5 shaft, 13.5 mm exposed of a 32.9 mm body, which is what the retail listing's 5 mm agrees with - the published 5 mm is the drawing's figure, not the block's; the image spec block heads both weights \"Weight (wire included)\" where the same two figures in the page's own HTML are headed \"Weight (excl. cable)\"; the 1960 KV row at 80% reads 24.39 V, above the 23.81 V at 70%, where supply voltage otherwise falls as load rises; and the 1860 KV efficiency column is not monotonic at the low end (2.78 at 30%, 2.65 at 40%, 2.99 at 50%), both rows being internally consistent. The drawing's mount callout is four M3 holes on a Phi 16 bolt circle, i.e. an 11.3 mm square rather than the 16x16 mm square 22xx motors usually take; as on the AF2207.5 it is left out of mount_mm, which holds square patterns"
   },
   {
    "type": "motor",
