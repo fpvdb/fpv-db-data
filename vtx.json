@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-22",
- "count": 52,
+ "count": 56,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -91,6 +91,26 @@
   {
    "type": "vtx",
    "brand": "Caddx",
+   "model": "Walksnail Ascent Lite Kit",
+   "slug": "caddx-walksnail-ascent-lite-kit",
+   "specs": {
+    "system": "Walksnail",
+    "antenna_connector": "IPEX",
+    "weight_g": 6.0,
+    "price_usd": 39.99,
+    "max_power_mw": 100,
+    "power_levels_mw": "25 / 100"
+   },
+   "_scraped_at": "2026-09-22",
+   "sources": [
+    "https://www.racedayquads.com/products/walksnail-ascent-lite-vtx-kit",
+    "https://www.caddxfpv.com/products/walksnail-ascent-lite-kit"
+   ],
+   "note": "Walksnail's own product page states the output levels in milliwatts in the feature copy - 'switches between 25mW and 100mW output' - and prints no EIRP row at all, so there is nothing for this figure to contradict. Output power, the same quantity as the analog listings in this column. The retail listing is a second source for the power figure and agrees: it prints 'Transmit Power (EIRP): <20dBm', and 20 dBm is 100 mW - an EIRP ceiling that matches the manufacturer's stated 100 mW output rather than exceeding it. That same listing is where mount_mm's '14x15mm' came from: it is two of the three figures in 'Camera: 12 x 14 x 15mm', not the 'Mounting Hole: 25mm' line, so the field was cleared rather than published."
+  },
+  {
+   "type": "vtx",
+   "brand": "Caddx",
    "model": "Walksnail Avatar GT2 Kit",
    "slug": "caddx-walksnail-avatar-gt2-kit",
    "specs": {
@@ -141,6 +161,63 @@
    "sources": [
     "https://www.racedayquads.com/products/cubepilot-herelink-blue-bundle-v1-1"
    ]
+  },
+  {
+   "type": "vtx",
+   "brand": "DJI",
+   "model": "O4 Air Unit",
+   "slug": "dji-o4-air-unit",
+   "specs": {
+    "system": "DJI",
+    "mount_mm": "25.5x25.5mm",
+    "weight_g": 9.2,
+    "price_usd": 139.99,
+    "max_power_mw": 700,
+    "power_levels_mw": "25 / 50 / 100 / 200 / 400 / 700"
+   },
+   "_scraped_at": "2026-09-22",
+   "sources": [
+    "https://www.racedayquads.com/products/dji-o4-air-unit",
+    "https://dl.djicdn.com/downloads/DJI_O4_Air_Unit_Series/UM/DJI_O4_Air_Unit_Series_User_Manual_v1.0_en.pdf"
+   ],
+   "note": "max_power_mw and power_levels_mw are DJI's own figures from the O4 Air Unit Series user manual v1.0 (section 4.3 Setting Transmission Power, p17): 'DJI O4 Air Unit: The maximum available transmission power levels are 25mW, 50mW, 100mW, 200mW, 400mW, and 700mW.' These are output-power levels in milliwatts, the same quantity the analog listings in this column print, and NOT the Transmitter Power (EIRP) dBm figures DJI publishes elsewhere - EIRP includes antenna gain and is a different measurement. Available levels are lower in regions whose regulations cap them (DJI states this in the same block)."
+  },
+  {
+   "type": "vtx",
+   "brand": "DJI",
+   "model": "O4 Air Unit Pro",
+   "slug": "dji-o4-air-unit-pro",
+   "specs": {
+    "system": "DJI",
+    "price_usd": 289.0,
+    "max_power_mw": 1200,
+    "power_levels_mw": "25 / 50 / 100 / 200 / 400 / 700 / 1200"
+   },
+   "_scraped_at": "2026-09-22",
+   "sources": [
+    "https://www.racedayquads.com/products/dji-o4-air-unit-pro",
+    "https://dl.djicdn.com/downloads/DJI_O4_Air_Unit_Series/UM/DJI_O4_Air_Unit_Series_User_Manual_v1.0_en.pdf"
+   ],
+   "note": "max_power_mw and power_levels_mw from DJI's O4 Air Unit Series user manual v1.0 (section 4.3, p17): 'DJI O4 Air Unit Pro: The maximum available transmission power levels are 25mW, 50mW, 100mW, 200mW, 400mW, 700mW, and 1200mW.' The same page adds that above 700mW the unit trims itself between the set value and 700mW based on the flight environment, so 1200 mW is the ceiling, not a sustained figure. Output power in milliwatts, not EIRP. Two scraped fields were cleared rather than published: mount_mm held '33.5x13mm', which is two of the three figures RaceDayQuads prints as 'Dimensions: 33.5 x 33.5 x 13 mm (L x W x H)' on the matching module SKU, and weight_g held 2.1 g on a kit whose camera-less transmission module the same retailer weighs at 15.6 g. Neither is replaced here, because DJI's manual states the mounting holes only in a drawing and carries no weight table."
+  },
+  {
+   "type": "vtx",
+   "brand": "DJI",
+   "model": "O4 Air Unit Pro Transmission Module",
+   "slug": "dji-o4-air-unit-pro-transmission-module",
+   "specs": {
+    "system": "DJI",
+    "weight_g": 15.6,
+    "price_usd": 169.0,
+    "max_power_mw": 1200,
+    "power_levels_mw": "25 / 50 / 100 / 200 / 400 / 700 / 1200"
+   },
+   "_scraped_at": "2026-09-22",
+   "sources": [
+    "https://www.racedayquads.com/products/dji-o4-air-unit-pro-transmission-module",
+    "https://dl.djicdn.com/downloads/DJI_O4_Air_Unit_Series/UM/DJI_O4_Air_Unit_Series_User_Manual_v1.0_en.pdf"
+   ],
+   "note": "This SKU is the O4 Air Unit Pro's video transmission module sold without the camera - the retail listing gives 'Compatibility: DJI O4 Air Unit Pro' and sells it for repair and replacement - so it is the same radio as the kit and carries the kit's figures from DJI's O4 Air Unit Series user manual v1.0 (section 4.3, p17). Output power in milliwatts, not EIRP. mount_mm was cleared rather than published: it held '33.5x13mm', which is two of the three figures the same listing prints as 'Dimensions: 33.5 x 33.5 x 13 mm (L x W x H)'."
   },
   {
    "type": "vtx",
