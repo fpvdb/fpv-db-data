@@ -5077,7 +5077,7 @@
      1350,
      1500
     ],
-    "weight_g": 65.0,
+    "weight_g": 64.0,
     "max_cells": "4-6S",
     "recommended_props": "7-8in props (derived)",
     "price_usd": 25.99,
@@ -5444,7 +5444,7 @@
     "https://www.racedayquads.com/products/brotherhobby-avenger-2810-motor-1350kv",
     "https://ueeshop.ly200-cdn.com/u_file/UPAH/UPAH113/2409/photo/fb6bf95499.jpg"
    ],
-   "note": "BrotherHobby publishes bench runs for 900/1180/1350/1500 KV; 64 g with cable. Their 900KV sheet prints 39.4 A at 80% and 38.8 A at 90% - transcribed as printed"
+   "note": "BrotherHobby publishes bench runs for 900/1180/1350/1500 KV; their 900KV sheet prints 39.4 A at 80% and 38.8 A at 90% - transcribed as printed. weight_g is corrected from 65 g to 64.0 g: the 1500 KV Test Report's Specification block states \"Weight Including Cable (g) 64.00\" beside \"AWG 18#, 250mm\", while RaceDayQuads prints \"Weight: 65g with 25cm SR wires\" on both the 1350 and the 1500 KV listing - the same basis and the same cable length as the manufacturer's, one gram apart, and one figure repeated across two windings. The same block gives 43.00 mOhm, a 28.00 mm stator on a 10 mm Kawasaki 1200# 0.2 mm lamination, a 33.3x39 mm body, 12N14P, N52H magnets, 1.63 A idle at 10 V, 6S, 1159.20 W and 46.00 A. The 1350 KV sheet was not re-readable this burst - brotherhobbystore.com is Cloudflare-challenged to a script and only the 1500 KV image URL is cited here - so the published figure is the 1500 KV block's. Both RaceDayQuads listings also render the mount as \"M3 (19x19mm)\" where the drawing calls out \"O 19\" with \"4 - M3\" against a bell it marks \"O 33.3\", so mount_mm stays unpublished."
   },
   {
    "type": "motor",
@@ -6374,15 +6374,14 @@
      }
     ],
     "shaft": "M5",
-    "dimensions_mm": "Ø33.9x42",
-    "mount_mm": "19x19mm (4-M3)"
+    "dimensions_mm": "Ø33.9x42"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
     "https://www.racedayquads.com/products/brotherhobby-avenger-v3-2812-1115kv",
     "https://ueeshop.ly200-cdn.com/u_file/UPAH/UPAH113/2409/photo/9355a2e092.jpg"
    ],
-   "note": "V3 bench sheets cover 900 KV and 1115 KV on 8in and 9in props; 76-77.5 g with 25 cm wires, body Φ33.9x42 mm, 4-M3 (19 mm) mount"
+   "note": "V3 bench sheets cover 900 KV and 1115 KV on 8in and 9in props. The 900 KV block gives 76.00 g Weight Including Cable with an 18# 250 mm lead, a 28.00 mm stator on a 12 mm Kawasaki 1200# 0.2 mm lamination, a 33.9x42 mm body, 12N14P and N52H magnets; published weight_g 76.5 g is RaceDayQuads' figure for the 1115 KV winding this page sells, which that sheet does not cover. mount_mm is withdrawn. This page published \"19x19mm (4-M3)\", and BrotherHobby's own drawing calls out \"O 19\" with \"4 - M3\" against a bell it marks \"O 33.9\" - a 19 mm bolt circle, i.e. a 13.4 mm square, not a 19 mm one. RaceDayQuads prints the same callout as \"Bolt Pattern: M3 (19X19mm)\" here and as \"Mounting Screw Pattern: M3 (19x19mm)\" on the Avenger 2810, whose drawing prints \"O 19\" too. That is a third manufacturer dimensioning its mount as a bolt-circle diameter after Axisflying and T-Motor, and the first time the 41%-too-large square has reached one of our own pages rather than staying in a retailer's copy. The callout lives here in prose until a mount_bolt_circle_mm column exists."
   },
   {
    "type": "motor",
@@ -31142,7 +31141,6 @@
      1750,
      1950
     ],
-    "weight_g": 31.6,
     "max_cells": "6S",
     "shaft": "4mm",
     "recommended_props": "5-5.1in props (derived)",
@@ -32605,7 +32603,8 @@
     ],
     "configuration": "12N14P",
     "dimensions_mm": "27.6x31.45",
-    "resistance_mohm": "74 (1750KV) / 53.5 (1950KV) / 41 (2550KV)"
+    "resistance_mohm": "74 (1750KV) / 53.5 (1950KV) / 41 (2550KV)",
+    "weight_g": 34.6
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -32613,7 +32612,7 @@
     "https://www.racedayquads.com/products/t-motor-velox-v2-2207-5-1950kv-motor-royal-blue",
     "https://www.tmotorhobby.com/goods-1108.html"
    ],
-   "note": "T-Motor sells this motor as the VELOX VELOCE V2207.5 (V2); their sheet covers 1750 KV (34.6 g with cable, 74 mOhm, 794 W peak), 1950 KV (35.3 g, 53.5 mOhm, 873 W) and 2550 KV (35.6 g, 41 mOhm, 4-5S, 557 W). Body 27.6x31.45 mm, 12N14P, 4 mm shaft. Surface temperature at full throttle 72-91 degC at 12 degC ambient"
+   "note": "T-Motor sells this motor as the VELOX VELOCE V2207.5 (V2); their Specifications block gives three windings and two weights for each: 1750 KV 34.6 g incl. cable / 30.8 g excl., 74 mOhm, 794 W and 35.7 A peak; 1950 KV 35.3 / 31.5 g, 53.5 mOhm, 873 W, 39 A; 2550 KV 35.6 / 31.6 g, 41 mOhm, 4-5S, 557 W, 38.1 A. Body 27.6x31.45 mm, 12N14P, 4 mm shaft, 20# 150 mm lead, idle current 1.15 / 1.42 / 1.95 A at 10 V. Surface temperature at full throttle 72-91 degC at 12 degC ambient. weight_g is corrected from 31.6 g to 34.6 g, the 1750 KV winding's Weight (Incl. Cable). RaceDayQuads prints \"Weight (Inc. Cable): 31.6g\" on both the 1750 and the 1950 KV listing, and 31.6 g is neither winding's figure under either label: it is the 2550 KV block's Weight (Excl. Cable), a winding RaceDayQuads does not sell, published under the opposite heading on two listings at once. The same shop prints \"Weight (Inc. Cable): 33.4g\" on both V2208 listings where T-Motor's block gives 36.9 / 33.1 g at 1750 KV and 37.2 / 33.4 g at 1950 - the excl.-cable column again - so this is the shop's habit on the V2-era Velox family rather than one listing's slip. 34.6 g is the lower of the two windings this page sells and the one its first-cited listing carries; the other five block figures are above. The correction was already sitting in the overlay as a specs_fill, which is fill-only and so never applied over the retailer's value; it is a specs_set now."
   },
   {
    "type": "motor",
