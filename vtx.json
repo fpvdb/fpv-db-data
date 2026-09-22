@@ -13,7 +13,8 @@
     "max_power_mw": 600,
     "mount_mm": "20x20mm",
     "antenna_connector": "MMCX",
-    "price_usd": 26.49
+    "price_usd": 26.49,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -32,7 +33,8 @@
     "channels": 37,
     "antenna_connector": "MMCX",
     "weight_g": 8.8,
-    "price_usd": 28.99
+    "price_usd": 28.99,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -48,7 +50,8 @@
     "system": "analog",
     "max_power_mw": 1000,
     "antenna_connector": "MMCX",
-    "price_usd": 32.49
+    "price_usd": 32.49,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -81,7 +84,8 @@
     "system": "Digital HD (other)",
     "max_power_mw": 200,
     "mount_mm": "25.5x25.5mm",
-    "price_usd": 46.49
+    "price_usd": 46.49,
+    "frequency_range": "5.1-5.9 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -99,7 +103,8 @@
     "weight_g": 6.0,
     "price_usd": 39.99,
     "max_power_mw": 100,
-    "power_levels_mw": "25 / 100"
+    "power_levels_mw": "25 / 100",
+    "frequency_range": "5.730-5.815 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -119,7 +124,8 @@
     "mount_mm": "25.5x25.5mm",
     "antenna_connector": "MMCX",
     "weight_g": 52.0,
-    "price_usd": 203.49
+    "price_usd": 203.49,
+    "frequency_range": "5.725-5.850 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -155,7 +161,8 @@
     "mount_mm": "10x40mm",
     "antenna_connector": "MMCX",
     "weight_g": 68.0,
-    "price_usd": 3999.0
+    "price_usd": 3999.0,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -173,7 +180,8 @@
     "weight_g": 9.2,
     "price_usd": 139.99,
     "max_power_mw": 700,
-    "power_levels_mw": "25 / 50 / 100 / 200 / 400 / 700"
+    "power_levels_mw": "25 / 50 / 100 / 200 / 400 / 700",
+    "frequency_range": "5.170-5.250 / 5.725-5.850 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -191,7 +199,8 @@
     "system": "DJI",
     "price_usd": 289.0,
     "max_power_mw": 1200,
-    "power_levels_mw": "25 / 50 / 100 / 200 / 400 / 700 / 1200"
+    "power_levels_mw": "25 / 50 / 100 / 200 / 400 / 700 / 1200",
+    "frequency_range": "5.170-5.250 / 5.725-5.850 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -298,7 +307,8 @@
     "channels": 37,
     "antenna_connector": "U.FL",
     "weight_g": 3.0,
-    "price_usd": 19.99
+    "price_usd": 19.99,
+    "frequency_range": "5362-5945 MHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -316,7 +326,8 @@
     "mount_mm": "20x20mm",
     "antenna_connector": "U.FL",
     "weight_g": 3.0,
-    "price_usd": 29.99
+    "price_usd": 29.99,
+    "frequency_range": "5362-5945 MHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -334,7 +345,8 @@
     "antenna_connector": "U.FL",
     "weight_g": 6.3,
     "price_usd": 81.49,
-    "max_power_mw": 200
+    "max_power_mw": 200,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -414,7 +426,8 @@
     "mount_mm": "12x16mm",
     "channels": 40,
     "antenna_connector": "U.FL",
-    "price_usd": 29.99
+    "price_usd": 29.99,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -453,7 +466,8 @@
     "mount_mm": "15x14mm",
     "antenna_connector": "U.FL",
     "weight_g": 0.9,
-    "price_usd": 33.99
+    "price_usd": 33.99,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -471,7 +485,8 @@
     "mount_mm": "20x20mm",
     "antenna_connector": "U.FL",
     "weight_g": 0.9,
-    "price_usd": 19.49
+    "price_usd": 19.49,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -489,7 +504,8 @@
     "mount_mm": "30x30mm",
     "antenna_connector": "U.FL",
     "weight_g": 28.0,
-    "price_usd": 99.99
+    "price_usd": 99.99,
+    "frequency_range": "5.725-5.850 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -507,7 +523,8 @@
     "mount_mm": "20x20mm",
     "antenna_connector": "U.FL",
     "weight_g": 22.3,
-    "price_usd": 179.99
+    "price_usd": 179.99,
+    "frequency_range": "5.725-5.850 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -525,7 +542,8 @@
     "mount_mm": "20x20mm",
     "antenna_connector": "U.FL",
     "weight_g": 22.3,
-    "price_usd": 118.99
+    "price_usd": 118.99,
+    "frequency_range": "5.725-5.850 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -543,7 +561,8 @@
     "mount_mm": "20x20mm",
     "antenna_connector": "U.FL",
     "weight_g": 5.9,
-    "price_usd": 83.99
+    "price_usd": 83.99,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -561,7 +580,8 @@
     "mount_mm": "20x20mm",
     "antenna_connector": "U.FL",
     "weight_g": 5.5,
-    "price_usd": 83.99
+    "price_usd": 83.99,
+    "frequency_range": "5.725-5.850 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -578,7 +598,8 @@
     "max_power_mw": 200,
     "mount_mm": "32.4x32.5mm",
     "antenna_connector": "U.FL",
-    "price_usd": 77.99
+    "price_usd": 77.99,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -596,7 +617,8 @@
     "mount_mm": "25x25mm",
     "antenna_connector": "U.FL",
     "weight_g": 4.5,
-    "price_usd": 119.99
+    "price_usd": 119.99,
+    "frequency_range": "5.727-5.850 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -614,7 +636,8 @@
     "mount_mm": "31x31mm",
     "antenna_connector": "U.FL",
     "weight_g": 5.4,
-    "price_usd": 59.49
+    "price_usd": 59.49,
+    "frequency_range": "5.725-5.850 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -632,7 +655,8 @@
     "mount_mm": "25.5x25.5mm",
     "antenna_connector": "U.FL",
     "weight_g": 5.4,
-    "price_usd": 119.99
+    "price_usd": 119.99,
+    "frequency_range": "5.725-5.850 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -651,7 +675,8 @@
     "channels": 40,
     "antenna_connector": "MMCX",
     "weight_g": 4.8,
-    "price_usd": 41.99
+    "price_usd": 41.99,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -670,7 +695,8 @@
     "channels": 40,
     "antenna_connector": "U.FL",
     "weight_g": 2.4,
-    "price_usd": 22.99
+    "price_usd": 22.99,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -689,7 +715,8 @@
     "channels": 40,
     "antenna_connector": "MMCX",
     "weight_g": 18.9,
-    "price_usd": 57.99
+    "price_usd": 57.99,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -707,7 +734,8 @@
     "mount_mm": "20x20mm",
     "antenna_connector": "U.FL",
     "weight_g": 2.2,
-    "price_usd": 82.49
+    "price_usd": 82.49,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -725,7 +753,8 @@
     "mount_mm": "20x20mm",
     "antenna_connector": "U.FL",
     "weight_g": 2.2,
-    "price_usd": 54.99
+    "price_usd": 54.99,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -743,7 +772,8 @@
     "mount_mm": "20x20mm",
     "antenna_connector": "MMCX",
     "weight_g": 5.6,
-    "price_usd": 51.99
+    "price_usd": 51.99,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -762,7 +792,8 @@
     "channels": 37,
     "antenna_connector": "MMCX",
     "weight_g": 15.0,
-    "price_usd": 93.99
+    "price_usd": 93.99,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -781,7 +812,8 @@
     "channels": 48,
     "antenna_connector": "MMCX",
     "weight_g": 6.8,
-    "price_usd": 44.49
+    "price_usd": 44.49,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -799,7 +831,8 @@
     "mount_mm": "20x20mm",
     "antenna_connector": "MMCX",
     "weight_g": 4.46,
-    "price_usd": 47.99
+    "price_usd": 47.99,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -817,7 +850,8 @@
     "channels": 37,
     "antenna_connector": "MMCX",
     "weight_g": 6.66,
-    "price_usd": 39.99
+    "price_usd": 39.99,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -835,7 +869,8 @@
     "channels": 48,
     "antenna_connector": "MMCX",
     "weight_g": 12.0,
-    "price_usd": 71.99
+    "price_usd": 71.99,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -852,7 +887,8 @@
     "max_power_mw": 350,
     "antenna_connector": "U.FL",
     "weight_g": 1.4,
-    "price_usd": 29.99
+    "price_usd": 29.99,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -870,7 +906,8 @@
     "mount_mm": "20x20mm",
     "antenna_connector": "MMCX",
     "weight_g": 7.58,
-    "price_usd": 58.99
+    "price_usd": 58.99,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -887,7 +924,8 @@
     "max_power_mw": 800,
     "antenna_connector": "SMA",
     "weight_g": 7.0,
-    "price_usd": 71.99
+    "price_usd": 71.99,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -905,7 +943,8 @@
     "channels": 40,
     "antenna_connector": "SMA",
     "weight_g": 7.0,
-    "price_usd": 59.99
+    "price_usd": 59.99,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -922,7 +961,8 @@
     "max_power_mw": 200,
     "antenna_connector": "SMA",
     "weight_g": 7.0,
-    "price_usd": 35.99
+    "price_usd": 35.99,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -939,7 +979,8 @@
     "max_power_mw": 800,
     "antenna_connector": "SMA",
     "weight_g": 5.0,
-    "price_usd": 47.99
+    "price_usd": 47.99,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -957,7 +998,8 @@
     "mount_mm": "28x10mm",
     "antenna_connector": "MMCX",
     "weight_g": 8.7,
-    "price_usd": 59.99
+    "price_usd": 59.99,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -974,7 +1016,8 @@
     "max_power_mw": 1000,
     "antenna_connector": "MMCX",
     "weight_g": 8.7,
-    "price_usd": 59.99
+    "price_usd": 59.99,
+    "frequency_range": "5.8 GHz"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
