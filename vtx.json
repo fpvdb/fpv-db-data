@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-22",
- "count": 56,
+ "count": 54,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -133,7 +133,7 @@
    "slug": "cubepilot-herelink-blue-air-unit-v1-1",
    "specs": {
     "system": "analog",
-    "max_power_mw": 4000,
+    "max_power_mw": 200,
     "mount_mm": "30x17mm",
     "antenna_connector": "MMCX",
     "weight_g": 68.0,
@@ -151,7 +151,7 @@
    "slug": "cubepilot-herelink-blue-bundle-v1-1",
    "specs": {
     "system": "analog",
-    "max_power_mw": 4000,
+    "max_power_mw": 200,
     "mount_mm": "10x40mm",
     "antenna_connector": "MMCX",
     "weight_g": 68.0,
@@ -326,6 +326,24 @@
   {
    "type": "vtx",
    "brand": "Foxeer",
+   "model": "HDZero 720P 20x20 25-200mw Digital HD - Race",
+   "slug": "foxeer-hdzero-720p-20x20-25-200mw-digital-hd-race",
+   "specs": {
+    "system": "HDZero",
+    "mount_mm": "20x20mm",
+    "antenna_connector": "U.FL",
+    "weight_g": 6.3,
+    "price_usd": 81.49,
+    "max_power_mw": 200
+   },
+   "_scraped_at": "2026-09-22",
+   "sources": [
+    "https://www.racedayquads.com/products/foxeer-hdzero-hd-720p-25-200mw-digital-vtx-race-edition"
+   ]
+  },
+  {
+   "type": "vtx",
+   "brand": "Foxeer",
    "model": "Reaper Extreme V2 4.9-6.0GHz 2.5W",
    "slug": "foxeer-reaper-extreme-v2-4-9-6-0ghz",
    "specs": {
@@ -467,7 +485,7 @@
    "slug": "hdzero-freestyle-30x30-25-1000mw-digital-hd-u-fl",
    "specs": {
     "system": "HDZero",
-    "max_power_mw": 5000,
+    "max_power_mw": 1000,
     "mount_mm": "30x30mm",
     "antenna_connector": "U.FL",
     "weight_g": 28.0,
@@ -485,7 +503,7 @@
    "slug": "hdzero-freestyle-v2-20x20-25-1000mw-digital-hd-kit-u-fl",
    "specs": {
     "system": "HDZero",
-    "max_power_mw": 5000,
+    "max_power_mw": 1000,
     "mount_mm": "20x20mm",
     "antenna_connector": "U.FL",
     "weight_g": 22.3,
@@ -503,7 +521,7 @@
    "slug": "hdzero-freestyle-v2-20x20-25-1000mw-digital-hd-u-fl",
    "specs": {
     "system": "HDZero",
-    "max_power_mw": 5000,
+    "max_power_mw": 1000,
     "mount_mm": "20x20mm",
     "antenna_connector": "U.FL",
     "weight_g": 22.3,
@@ -574,7 +592,7 @@
    "slug": "hdzero-whoop-lite-bundle-kit",
    "specs": {
     "system": "HDZero",
-    "max_power_mw": 5800,
+    "max_power_mw": 200,
     "mount_mm": "25x25mm",
     "antenna_connector": "U.FL",
     "weight_g": 4.5,
@@ -592,7 +610,7 @@
    "slug": "hdzero-whoop-v2",
    "specs": {
     "system": "HDZero",
-    "max_power_mw": 6000,
+    "max_power_mw": 200,
     "mount_mm": "31x31mm",
     "antenna_connector": "U.FL",
     "weight_g": 5.4,
@@ -712,39 +730,6 @@
    "_scraped_at": "2026-09-22",
    "sources": [
     "https://www.racedayquads.com/products/immersionrc-ghost-hybrid-uno-v2-2-4ghz-receiver-20-600mw-5-8ghz-vtx"
-   ]
-  },
-  {
-   "type": "vtx",
-   "brand": "NewBeeDrone",
-   "model": "AcroBee65 V2 Brushed BNF Whoop w/ SmartMAX - ELRS 2.4GHz",
-   "slug": "newbeedrone-acrobee65-v2-brushed-bnf-whoop-w-smartmax-elrs-2-4ghz",
-   "specs": {
-    "system": "analog",
-    "max_power_mw": 400,
-    "mount_mm": "25.5x25.5mm",
-    "weight_g": 21.2,
-    "price_usd": 73.99
-   },
-   "_scraped_at": "2026-09-22",
-   "sources": [
-    "https://www.racedayquads.com/products/newbeedrone-acrobee65-v2-brushed-bnf-whoop-w-smartmax-vtx-elrs-2-4ghz"
-   ]
-  },
-  {
-   "type": "vtx",
-   "brand": "NewBeeDrone",
-   "model": "Hummingbird V4 BNF Whoop w/ SmartMax - ELRS 2.4GHz",
-   "slug": "newbeedrone-hummingbird-v4-bnf-whoop-w-smartmax-elrs-2-4ghz",
-   "specs": {
-    "system": "analog",
-    "max_power_mw": 400,
-    "weight_g": 19.5,
-    "price_usd": 92.49
-   },
-   "_scraped_at": "2026-09-22",
-   "sources": [
-    "https://www.racedayquads.com/products/newbeedrone-hummingbird-v4-bnf-whoop-w-smartmax-vtx-elrs-2-4ghz"
    ]
   },
   {
@@ -994,23 +979,6 @@
    "_scraped_at": "2026-09-22",
    "sources": [
     "https://www.racedayquads.com/products/tbs-unify-pro32-hv-25-1000mw-5-8ghz-vtx-mmcx"
-   ]
-  },
-  {
-   "type": "vtx",
-   "brand": "YMZFPV",
-   "model": "BNF Lightning2 2\" Micro Analog Quad - 250mW - ELRS 2.4GHz",
-   "slug": "ymzfpv-bnf-lightning2-2-micro-analog-quad-250mw-elrs-2-4ghz",
-   "specs": {
-    "system": "analog",
-    "max_power_mw": 250,
-    "mount_mm": "83x25mm",
-    "weight_g": 40.0,
-    "price_usd": 215.99
-   },
-   "_scraped_at": "2026-09-22",
-   "sources": [
-    "https://www.racedayquads.com/products/ymzfpv-bnf-lightning2-2-micro-analog-quad-250mw-vtx-elrs-2-4ghz"
    ]
   }
  ]
