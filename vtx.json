@@ -9,12 +9,12 @@
    "model": "FX3 Ultimate Mini 20x20 25-600mW 5.8GHz - MMCX & U.FL",
    "slug": "akk-fx3-ultimate-mini-20x20-25-600mw-5-8ghz-mmcx-u-fl",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 600,
     "mount_mm": "20x20mm",
     "antenna_connector": "MMCX",
-    "price_usd": 26.49,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 26.49
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -27,14 +27,14 @@
    "model": "Infinite DVR 30x30 25-1000mW 5.8GHz - MMCX",
    "slug": "akk-infinite-dvr-30x30-25-1000mw-5-8ghz-mmcx",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 1000,
     "mount_mm": "30x30mm",
     "channels": 37,
     "antenna_connector": "MMCX",
     "weight_g": 8.8,
-    "price_usd": 28.99,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 28.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -47,11 +47,11 @@
    "model": "RDQ Mach 3 25-1000mW 5.8GHz - Choose Version",
    "slug": "akk-rdq-mach-3-25-1000mw-5-8ghz-choose-version",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 1000,
     "antenna_connector": "MMCX",
-    "price_usd": 32.49,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 32.49
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -81,11 +81,11 @@
    "model": "P1 Air Unit HD",
    "slug": "betafpv-p1-air-unit-hd",
    "specs": {
+    "frequency_range": "5.1-5.9 GHz",
     "system": "Digital HD (other)",
     "max_power_mw": 200,
     "mount_mm": "25.5x25.5mm",
-    "price_usd": 46.49,
-    "frequency_range": "5.1-5.9 GHz"
+    "price_usd": 46.49
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -98,13 +98,13 @@
    "model": "Walksnail Ascent Lite Kit",
    "slug": "caddx-walksnail-ascent-lite-kit",
    "specs": {
+    "frequency_range": "5.730-5.815 GHz",
     "system": "Walksnail",
     "antenna_connector": "IPEX",
     "weight_g": 6.0,
     "price_usd": 39.99,
     "max_power_mw": 100,
-    "power_levels_mw": "25 / 100",
-    "frequency_range": "5.730-5.815 GHz"
+    "power_levels_mw": "25 / 100"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -119,13 +119,13 @@
    "model": "Walksnail Avatar GT2 Kit",
    "slug": "caddx-walksnail-avatar-gt2-kit",
    "specs": {
+    "frequency_range": "5.725-5.850 GHz",
     "system": "Walksnail",
     "max_power_mw": 2000,
     "mount_mm": "25.5x25.5mm",
     "antenna_connector": "MMCX",
     "weight_g": 52.0,
-    "price_usd": 203.49,
-    "frequency_range": "5.725-5.850 GHz"
+    "price_usd": 203.49
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -156,13 +156,13 @@
    "model": "Herelink Blue Bundle V1.1",
    "slug": "cubepilot-herelink-blue-bundle-v1-1",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 200,
     "mount_mm": "10x40mm",
     "antenna_connector": "MMCX",
     "weight_g": 68.0,
-    "price_usd": 3999.0,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 3999.0
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -175,13 +175,13 @@
    "model": "O4 Air Unit",
    "slug": "dji-o4-air-unit",
    "specs": {
+    "frequency_range": "5.170-5.250 / 5.725-5.850 GHz",
     "system": "DJI",
     "mount_mm": "25.5x25.5mm",
     "weight_g": 9.2,
     "price_usd": 139.99,
     "max_power_mw": 700,
-    "power_levels_mw": "25 / 50 / 100 / 200 / 400 / 700",
-    "frequency_range": "5.170-5.250 / 5.725-5.850 GHz"
+    "power_levels_mw": "25 / 50 / 100 / 200 / 400 / 700"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -196,11 +196,11 @@
    "model": "O4 Air Unit Pro",
    "slug": "dji-o4-air-unit-pro",
    "specs": {
+    "frequency_range": "5.170-5.250 / 5.725-5.850 GHz",
     "system": "DJI",
     "price_usd": 289.0,
     "max_power_mw": 1200,
-    "power_levels_mw": "25 / 50 / 100 / 200 / 400 / 700 / 1200",
-    "frequency_range": "5.170-5.250 / 5.725-5.850 GHz"
+    "power_levels_mw": "25 / 50 / 100 / 200 / 400 / 700 / 1200"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -301,14 +301,14 @@
    "model": "GOKU HM600 20x20/25x25/30x30 25-600mW 5.8GHz - U.FL",
    "slug": "flywoo-goku-hm600-20x20-25x25-30x30-25-600mw-5-8ghz-u-fl",
    "specs": {
+    "frequency_range": "5362-5945 MHz",
     "system": "analog",
     "max_power_mw": 600,
     "mount_mm": "20x20mm",
     "channels": 37,
     "antenna_connector": "U.FL",
     "weight_g": 3.0,
-    "price_usd": 19.99,
-    "frequency_range": "5362-5945 MHz"
+    "price_usd": 19.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -321,13 +321,13 @@
    "model": "GOKU HM850 20x20/25x25/30x30 25-850mW 5.8GHz - U.FL",
    "slug": "flywoo-goku-hm850-20x20-25x25-30x30-25-850mw-5-8ghz-u-fl",
    "specs": {
+    "frequency_range": "5362-5945 MHz",
     "system": "analog",
     "max_power_mw": 850,
     "mount_mm": "20x20mm",
     "antenna_connector": "U.FL",
     "weight_g": 3.0,
-    "price_usd": 29.99,
-    "frequency_range": "5362-5945 MHz"
+    "price_usd": 29.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -340,13 +340,13 @@
    "model": "HDZero 720P 20x20 25-200mw Digital HD - Race",
    "slug": "foxeer-hdzero-720p-20x20-25-200mw-digital-hd-race",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "HDZero",
+    "max_power_mw": 200,
     "mount_mm": "20x20mm",
     "antenna_connector": "U.FL",
     "weight_g": 6.3,
-    "price_usd": 81.49,
-    "max_power_mw": 200,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 81.49
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -421,13 +421,13 @@
    "model": "Reaper Nano 25-350mW 5.8G Micro - U.FL",
    "slug": "foxeer-reaper-nano-25-350mw-5-8g-micro-u-fl",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 350,
     "mount_mm": "12x16mm",
     "channels": 40,
     "antenna_connector": "U.FL",
-    "price_usd": 29.99,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 29.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -461,13 +461,13 @@
    "model": "OVX300 25-300mW 5.8GHz U.Fl w/ OpenVTX",
    "slug": "happymodel-ovx300-25-300mw-5-8ghz-u-fl-w-openvtx",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 300,
     "mount_mm": "15x14mm",
     "antenna_connector": "U.FL",
     "weight_g": 0.9,
-    "price_usd": 33.99,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 33.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -480,13 +480,13 @@
    "model": "OVX303 25-300mW 5.8GHz 20x20 U.Fl w/ OpenVTX",
    "slug": "happymodel-ovx303-25-300mw-5-8ghz-20x20-u-fl-w-openvtx",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 300,
     "mount_mm": "20x20mm",
     "antenna_connector": "U.FL",
     "weight_g": 0.9,
-    "price_usd": 19.49,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 19.49
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -499,13 +499,13 @@
    "model": "Freestyle 30x30 25-1000mW Digital HD - U.FL",
    "slug": "hdzero-freestyle-30x30-25-1000mw-digital-hd-u-fl",
    "specs": {
+    "frequency_range": "5.725-5.850 GHz",
     "system": "HDZero",
     "max_power_mw": 1000,
     "mount_mm": "30x30mm",
     "antenna_connector": "U.FL",
     "weight_g": 28.0,
-    "price_usd": 99.99,
-    "frequency_range": "5.725-5.850 GHz"
+    "price_usd": 99.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -518,13 +518,13 @@
    "model": "Freestyle V2 20x20 25-1000mW Digital HD Kit - U.FL",
    "slug": "hdzero-freestyle-v2-20x20-25-1000mw-digital-hd-kit-u-fl",
    "specs": {
+    "frequency_range": "5.725-5.850 GHz",
     "system": "HDZero",
     "max_power_mw": 1000,
     "mount_mm": "20x20mm",
     "antenna_connector": "U.FL",
     "weight_g": 22.3,
-    "price_usd": 179.99,
-    "frequency_range": "5.725-5.850 GHz"
+    "price_usd": 179.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -537,13 +537,13 @@
    "model": "Freestyle V2 20x20 25-1000mW Digital HD - U.FL",
    "slug": "hdzero-freestyle-v2-20x20-25-1000mw-digital-hd-u-fl",
    "specs": {
+    "frequency_range": "5.725-5.850 GHz",
     "system": "HDZero",
     "max_power_mw": 1000,
     "mount_mm": "20x20mm",
     "antenna_connector": "U.FL",
     "weight_g": 22.3,
-    "price_usd": 118.99,
-    "frequency_range": "5.725-5.850 GHz"
+    "price_usd": 118.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -556,13 +556,13 @@
    "model": "Race V2 20x20 25-200mW Digital HD - U.FL",
    "slug": "hdzero-race-v2-20x20-25-200mw-digital-hd-u-fl",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "HDZero",
     "max_power_mw": 200,
     "mount_mm": "20x20mm",
     "antenna_connector": "U.FL",
     "weight_g": 5.9,
-    "price_usd": 83.99,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 83.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -575,13 +575,13 @@
    "model": "Race V3 1080P 20x20 25-200mw Digital HD",
    "slug": "hdzero-race-v3-1080p-20x20-25-200mw-digital-hd",
    "specs": {
+    "frequency_range": "5.725-5.850 GHz",
     "system": "HDZero",
     "max_power_mw": 200,
     "mount_mm": "20x20mm",
     "antenna_connector": "U.FL",
     "weight_g": 5.5,
-    "price_usd": 83.99,
-    "frequency_range": "5.725-5.850 GHz"
+    "price_usd": 83.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -594,12 +594,12 @@
    "model": "Whoop Lite 25x25 200mw Digital HD - U.FL",
    "slug": "hdzero-whoop-lite-25x25-200mw-digital-hd-u-fl",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "HDZero",
     "max_power_mw": 200,
     "mount_mm": "32.4x32.5mm",
     "antenna_connector": "U.FL",
-    "price_usd": 77.99,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 77.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -612,13 +612,13 @@
    "model": "Whoop Lite Bundle Kit",
    "slug": "hdzero-whoop-lite-bundle-kit",
    "specs": {
+    "frequency_range": "5.727-5.850 GHz",
     "system": "HDZero",
     "max_power_mw": 200,
     "mount_mm": "25x25mm",
     "antenna_connector": "U.FL",
     "weight_g": 4.5,
-    "price_usd": 119.99,
-    "frequency_range": "5.727-5.850 GHz"
+    "price_usd": 119.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -631,13 +631,13 @@
    "model": "Whoop V2",
    "slug": "hdzero-whoop-v2",
    "specs": {
+    "frequency_range": "5.725-5.850 GHz",
     "system": "HDZero",
     "max_power_mw": 200,
     "mount_mm": "31x31mm",
     "antenna_connector": "U.FL",
     "weight_g": 5.4,
-    "price_usd": 59.49,
-    "frequency_range": "5.725-5.850 GHz"
+    "price_usd": 59.49
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -650,13 +650,13 @@
    "model": "Whoop V2 Bundle (Nano V3 )",
    "slug": "hdzero-whoop-v2-bundle-nano-v3",
    "specs": {
+    "frequency_range": "5.725-5.850 GHz",
     "system": "HDZero",
-    "max_power_mw": 6000,
+    "max_power_mw": 200,
     "mount_mm": "25.5x25.5mm",
     "antenna_connector": "U.FL",
     "weight_g": 5.4,
-    "price_usd": 119.99,
-    "frequency_range": "5.725-5.850 GHz"
+    "price_usd": 119.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -669,14 +669,14 @@
    "model": "Zeus 20x20/30x30 25-800mW 5.8GHz - MMCX",
    "slug": "hglrc-zeus-20x20-30x30-25-800mw-5-8ghz-mmcx",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 800,
     "mount_mm": "20x20mm",
     "channels": 40,
     "antenna_connector": "MMCX",
     "weight_g": 4.8,
-    "price_usd": 41.99,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 41.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -689,14 +689,14 @@
    "model": "Zeus Nano 16x16/20x20/25x25 25-350mW 5.8GHz - U.FL",
    "slug": "hglrc-zeus-nano-16x16-20x20-25x25-25-350mw-5-8ghz-u-fl",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 350,
     "mount_mm": "16x16mm",
     "channels": 40,
     "antenna_connector": "U.FL",
     "weight_g": 2.4,
-    "price_usd": 22.99,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 22.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -709,14 +709,14 @@
    "model": "Blitz 30x30 25-1000mW+ 5.8GHz - MMCX",
    "slug": "iflight-blitz-30x30-25-1000mw-5-8ghz-mmcx",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 1600,
     "mount_mm": "30x30mm",
     "channels": 40,
     "antenna_connector": "MMCX",
     "weight_g": 18.9,
-    "price_usd": 57.99,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 57.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -729,13 +729,13 @@
    "model": "Ghost Hybrid DUO V2 2.4GHz Diversity Receiver & 25-600mW 5.8GHz 20x20",
    "slug": "immersionrc-ghost-hybrid-duo-v2-2-4ghz-diversity-receiver-25-600mw-5-8ghz-20x20",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 600,
     "mount_mm": "20x20mm",
     "antenna_connector": "U.FL",
     "weight_g": 2.2,
-    "price_usd": 82.49,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 82.49
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -748,13 +748,13 @@
    "model": "Ghost Hybrid UNO V2 2.4GHz Receiver & 20-600mW 5.8GHz 20x20",
    "slug": "immersionrc-ghost-hybrid-uno-v2-2-4ghz-receiver-20-600mw-5-8ghz-20x20",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 600,
     "mount_mm": "20x20mm",
     "antenna_connector": "U.FL",
     "weight_g": 2.2,
-    "price_usd": 54.99,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 54.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -767,13 +767,13 @@
    "model": "SpeedyBee TX800 20x20 25-800mW 5.8GHz - MMCX",
    "slug": "runcam-speedybee-tx800-20x20-25-800mw-5-8ghz-mmcx",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 800,
     "mount_mm": "20x20mm",
     "antenna_connector": "MMCX",
     "weight_g": 5.6,
-    "price_usd": 51.99,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 51.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -786,14 +786,14 @@
    "model": "Max Solo 25-1000mW+ 5.8GHz - MMCX",
    "slug": "rushfpv-max-solo-25-1000mw-5-8ghz-mmcx",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 1000,
     "mount_mm": "24x10.5mm",
     "channels": 37,
     "antenna_connector": "MMCX",
     "weight_g": 15.0,
-    "price_usd": 93.99,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 93.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -806,14 +806,14 @@
    "model": "Tank II Ultimate 30x30 25-800mW 5.8GHz - MMCX",
    "slug": "rushfpv-tank-ii-ultimate-30x30-25-800mw-5-8ghz-mmcx",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 800,
     "mount_mm": "30x30mm",
     "channels": 48,
     "antenna_connector": "MMCX",
     "weight_g": 6.8,
-    "price_usd": 44.49,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 44.49
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -826,13 +826,13 @@
    "model": "Tank Mini 20x20 25-800mW 5.8GHz - MMCX",
    "slug": "rushfpv-tank-mini-20x20-25-800mw-5-8ghz-mmcx",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 800,
     "mount_mm": "20x20mm",
     "antenna_connector": "MMCX",
     "weight_g": 4.46,
-    "price_usd": 47.99,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 47.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -845,13 +845,13 @@
    "model": "Tank Plus 25-800mW 5.8GHz 37ch - MMCX",
    "slug": "rushfpv-tank-plus-25-800mw-5-8ghz-37ch-mmcx",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 800,
     "channels": 37,
     "antenna_connector": "MMCX",
     "weight_g": 6.66,
-    "price_usd": 39.99,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 39.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -864,13 +864,13 @@
    "model": "Tank Solo 25-1000mW+ 5.8GHz - MMCX",
    "slug": "rushfpv-tank-solo-25-1000mw-5-8ghz-mmcx",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 1000,
     "channels": 48,
     "antenna_connector": "MMCX",
     "weight_g": 12.0,
-    "price_usd": 71.99,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 71.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -883,12 +883,12 @@
    "model": "Tiny Tank 25-350mW 5.8GHz Micro - U.FL",
    "slug": "rushfpv-tiny-tank-25-350mw-5-8ghz-micro-u-fl",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 350,
     "antenna_connector": "U.FL",
     "weight_g": 1.4,
-    "price_usd": 29.99,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 29.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -901,13 +901,13 @@
    "model": "FT800 20x20 25-800mW 5.8GHz - MMCX",
    "slug": "t-motor-ft800-20x20-25-800mw-5-8ghz-mmcx",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 800,
     "mount_mm": "20x20mm",
     "antenna_connector": "MMCX",
     "weight_g": 7.58,
-    "price_usd": 58.99,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 58.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -920,12 +920,12 @@
    "model": "Unify EVO 25-800mW 5.8GHz - SMA",
    "slug": "tbs-unify-evo-25-800mw-5-8ghz-sma",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 800,
     "antenna_connector": "SMA",
     "weight_g": 7.0,
-    "price_usd": 71.99,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 71.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -938,13 +938,13 @@
    "model": "Unify Pro HV 25-800mW 5.8GHz - SMA",
    "slug": "tbs-unify-pro-hv-25-800mw-5-8ghz-sma",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 800,
     "channels": 40,
     "antenna_connector": "SMA",
     "weight_g": 7.0,
-    "price_usd": 59.99,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 59.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -957,12 +957,12 @@
    "model": "Unify Pro HV Race 25-200mW 5.8GHz - SMA",
    "slug": "tbs-unify-pro-hv-race-25-200mw-5-8ghz-sma",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 200,
     "antenna_connector": "SMA",
     "weight_g": 7.0,
-    "price_usd": 35.99,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 35.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -975,12 +975,12 @@
    "model": "Unify Pro V3 25-800mW 5.8GHz - SMA",
    "slug": "tbs-unify-pro-v3-25-800mw-5-8ghz-sma",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 800,
     "antenna_connector": "SMA",
     "weight_g": 5.0,
-    "price_usd": 47.99,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 47.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -993,13 +993,13 @@
    "model": "Unify Pro32 DP 25-400mW 5.8GHz - MMCX",
    "slug": "tbs-unify-pro32-dp-25-400mw-5-8ghz-mmcx",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 400,
     "mount_mm": "28x10mm",
     "antenna_connector": "MMCX",
     "weight_g": 8.7,
-    "price_usd": 59.99,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 59.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
@@ -1012,12 +1012,12 @@
    "model": "Unify Pro32 HV 25-1000mW 5.8GHz - MMCX",
    "slug": "tbs-unify-pro32-hv-25-1000mw-5-8ghz-mmcx",
    "specs": {
+    "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 1000,
     "antenna_connector": "MMCX",
     "weight_g": 8.7,
-    "price_usd": 59.99,
-    "frequency_range": "5.8 GHz"
+    "price_usd": 59.99
    },
    "_scraped_at": "2026-09-22",
    "sources": [
