@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-22",
- "count": 54,
+ "count": 72,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -779,12 +779,166 @@
   {
    "type": "vtx",
    "brand": "RUSHFPV",
+   "model": "1.2/1.3GHz 800mW VTX Module",
+   "slug": "rushfpv-1-2-1-3ghz-800mw-vtx-module",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 800,
+    "power_levels_mw": "25 / 200 / 400 / 800",
+    "frequency_range": "1.08-1.36 GHz",
+    "channels": 8,
+    "input_voltage": "7-30V"
+   },
+   "sources": [
+    "https://rushfpv.net/products/1-3g-vtx"
+   ],
+   "note": "Silkscreen on the SMA board: power steps PIT / 25 / 200 / 400 / 800 mW, band A with eight channels (1080, 1120, 1160, 1200, 1240, 1280, 1320, 1360 MHz), DC 7-30 V. An earlier U.FL revision of the same board is pictured on the same page with nine channels (1258 MHz added) and a 7-36 V input; where the two revisions disagree the figures above are the SMA one's. Sold in an SMA and a U.FL version, so the connector column stays empty - it is a choice, not this board's socket. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+  },
+  {
+   "type": "vtx",
+   "brand": "RUSHFPV",
+   "model": "1.3/3.3GHz Dual-Band 2.5W",
+   "slug": "rushfpv-1-3-3-3ghz-dual-band-2-5w",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 2500,
+    "power_levels_mw": "25 / 200 / 1000 / 2500",
+    "frequency_range": "1.3 / 3.3 GHz",
+    "input_voltage": "7-30V",
+    "channels": 8,
+    "antenna_connector": "SMA"
+   },
+   "sources": [
+    "https://rushfpv.net/products/1-3g-3-3g-dual-band-vtx-transmitter-module"
+   ],
+   "note": "Two SMA ports on one module: port B is 1G3, port A is 3G3, and the four bands (1G3A, 1G3B, 3G3A, 3G3B) are split two to each port, eight channels each. Label: power steps PIT / 25 / 200 / 1000 / 2500 mW, 7-30 V. RushFPV also sells a 4 W version of this module under the same product page; it has no label photograph of its own, so it is not published as a separate page and the 4 W figure is not written into this one. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+  },
+  {
+   "type": "vtx",
+   "brand": "RUSHFPV",
+   "model": "1.3GHz 1.6W VTX Module",
+   "slug": "rushfpv-1-3ghz-1-6w-vtx-module",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 1600,
+    "frequency_range": "1.08-1.36 GHz",
+    "channels": 9,
+    "antenna_connector": "U.FL"
+   },
+   "sources": [
+    "https://rushfpv.net/products/1-6w-1-3g"
+   ],
+   "note": "A bare board, not a cased brick. Its silkscreen prints nine channels - 1080, 1120, 1160, 1200, 1240, 1258, 1280, 1320 and 1360 MHz - and a power level that sweeps PIT to 1600 mW rather than stepping through named levels, so power_levels stays empty while the maximum does not. U.FL (IPEX) antenna socket; six-pin VIDEO / GND / 5V / DATA / GND / DC-IN harness. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+  },
+  {
+   "type": "vtx",
+   "brand": "RUSHFPV",
+   "model": "1.3GHz 4W VTX Module V2",
+   "slug": "rushfpv-1-3ghz-4w-vtx-module-v2",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 4000,
+    "frequency_range": "1.3 GHz"
+   },
+   "sources": [
+    "https://rushfpv.net/products/1-3g-4w-vtx-v2-transmitter-module"
+   ],
+   "note": "No spec block and no label photograph, so the 4 W is the manufacturer's own model name and nothing else is filled. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+  },
+  {
+   "type": "vtx",
+   "brand": "RUSHFPV",
+   "model": "3.3GHz 2W VTX Module",
+   "slug": "rushfpv-3-3ghz-2w-vtx-module",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 2000,
+    "frequency_range": "3.3 GHz",
+    "input_voltage": "7-30V",
+    "channels": 8
+   },
+   "sources": [
+    "https://rushfpv.net/products/3-3g-2w-vtx-transmitter-module-复制"
+   ],
+   "note": "The case is silkscreened '3.3GHz VTX 2W 8CH', band A, 7-30 V, with a six-pin DC-IN / GND / DATA / 5V-OUT / GND / VIDEO harness - which is where these figures come from; the product page itself carries no spec block. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+  },
+  {
+   "type": "vtx",
+   "brand": "RUSHFPV",
+   "model": "3.3GHz 4W VTX Module",
+   "slug": "rushfpv-3-3ghz-4w-vtx-module",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 4000,
+    "frequency_range": "3.3 GHz"
+   },
+   "sources": [
+    "https://rushfpv.net/products/3-3g-4w-vtx-transmitter-module"
+   ],
+   "note": "No spec block and no readable label photograph on RushFPV's page, so the 4 W is the manufacturer's own model name and the power steps, band plan and input voltage are left empty rather than copied from the 3.3 GHz 2 W module next to it. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+  },
+  {
+   "type": "vtx",
+   "brand": "RUSHFPV",
+   "model": "4.9GHz 4W VTX Module",
+   "slug": "rushfpv-4-9ghz-4w-vtx-module",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 4000,
+    "power_levels_mw": "25 / 200 / 1000 / 4000",
+    "frequency_range": "4.99-5.20 GHz",
+    "input_voltage": "7-30V",
+    "channels": 8
+   },
+   "sources": [
+    "https://rushfpv.net/products/4-9g-4w-vtx-transmitter-module"
+   ],
+   "note": "Label: power steps PIT / 25 / 200 mW / 1 W / 4 W and a single X band of eight fixed channels - 4990, 5020, 5050, 5080, 5110, 5140, 5170 and 5200 MHz. 7-30 V Lipo-in. Sold as '4.9G'; the 4.99-5.20 GHz range is the eight channels the label prints. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+  },
+  {
+   "type": "vtx",
+   "brand": "RUSHFPV",
+   "model": "5.8/4.9GHz Dual-Band 2.5W",
+   "slug": "rushfpv-5-8-4-9ghz-dual-band-2-5w",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 2500,
+    "power_levels_mw": "25 / 200 / 1000 / 2500",
+    "frequency_range": "4.9 / 5.8 GHz",
+    "input_voltage": "7-30V",
+    "antenna_connector": "SMA"
+   },
+   "sources": [
+    "https://rushfpv.net/products/5-8g-4-9g-dual-band-vtx-transmitter-module"
+   ],
+   "note": "Two SMA ports on one module: port A is 5G8 and carries the six 5.8 GHz bands (A, B, E, F, R, L), port B is 4G9 and carries the single X band. Label: power steps PIT / 25 / 200 / 1000 / 2500 mW, 7-30 V. The label names no channel count, so that column stays empty. Ships with a 4.9 GHz 120 mm and a 5.8 GHz Cherry2 123 mm SMA antenna. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+  },
+  {
+   "type": "vtx",
+   "brand": "RUSHFPV",
+   "model": "5.8GHz 4W VTX Module",
+   "slug": "rushfpv-5-8ghz-4w-vtx-module",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 4000,
+    "power_levels_mw": "25 / 200 / 1000 / 4000",
+    "frequency_range": "5.8 GHz",
+    "input_voltage": "7-30V"
+   },
+   "sources": [
+    "https://rushfpv.net/products/5-8g-4w-vtx-transmitter-module"
+   ],
+   "note": "Label: power steps PIT / 25 / 200 mW / 1 W / 4 W, six bands (A, B, E, F, R, L), 7-30 V Lipo-in. The label names no channel count, so that column stays empty. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+  },
+  {
+   "type": "vtx",
+   "brand": "RUSHFPV",
    "model": "Max Solo 25-1000mW+ 5.8GHz - MMCX",
    "slug": "rushfpv-max-solo-25-1000mw-5-8ghz-mmcx",
    "specs": {
     "frequency_range": "5.8 GHz",
     "system": "analog",
-    "max_power_mw": 1000,
+    "max_power_mw": 2500,
     "channels": 37,
     "antenna_connector": "MMCX",
     "weight_g": 15.0,
@@ -792,8 +946,27 @@
    },
    "_scraped_at": "2026-09-22",
    "sources": [
-    "https://www.racedayquads.com/products/rushfpv-max-solo-25-1000-mw-5-8ghz-vtx-mmcx"
-   ]
+    "https://www.racedayquads.com/products/rushfpv-max-solo-25-1000-mw-5-8ghz-vtx-mmcx",
+    "https://rushfpv.net/products/rushfpv-max-solo-vtx"
+   ],
+   "note": "max_power_mw corrected 1000 -> 2500 against RushFPV's own catalogue, where this radio is listed as 'MAX SOLO 5.8G VTX 2.5W' and its product artwork prints 'MAX 2.5W'. The retail listing this page was scraped from titles it '25-1000mW+', and the trailing '+' is exactly the case the plausibility check already treats as a floor rather than a ceiling - so nothing flagged, and the column simply held the wrong end of the range until the manufacturer was read."
+  },
+  {
+   "type": "vtx",
+   "brand": "RUSHFPV",
+   "model": "Max Solo X-Band 4.9GHz 2.5W",
+   "slug": "rushfpv-max-solo-x-band-4-9ghz-2-5w",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 2500,
+    "frequency_range": "4.9 GHz",
+    "input_voltage": "7-36V DC",
+    "antenna_connector": "MMCX"
+   },
+   "sources": [
+    "https://rushfpv.net/products/max-solo-xband-4-9g-vtx-2-5w"
+   ],
+   "note": "The 4.9 GHz X-Band version of the Max Solo. Its case label reads 'CVBS A/V Transmitter, 7-36V DC-IN / 5V 500mA DC-OUT', MMCX, SH1.0 six-pin, and a separate AUD / 5V / GND microphone header; RushFPV's dimension drawing gives 40 x 24 x 10 mm. The 2.5 W is the manufacturer's own model name - the label prints no power steps, so that column stays empty. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
   },
   {
    "type": "vtx",
@@ -827,12 +1000,17 @@
     "mount_mm": "20x20mm",
     "antenna_connector": "MMCX",
     "weight_g": 4.46,
-    "price_usd": 47.99
+    "price_usd": 47.99,
+    "channels": 48,
+    "input_voltage": "7-36V DC",
+    "power_levels_mw": "25 / 200 / 500 / 800"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
-    "https://www.racedayquads.com/products/rush-fpv-tank-mini-25-800mw-20x20-5-8ghz-vtx-mmcx"
-   ]
+    "https://www.racedayquads.com/products/rush-fpv-tank-mini-25-800mw-20x20-5-8ghz-vtx-mmcx",
+    "https://rushfpv.net/products/tank-ultimate-mini-vtx"
+   ],
+   "note": "RushFPV calls this one the Tank Ultimate MINI2. Its spec block: 7-36 V DC in, 5 V 1 A out, 48 channels (37 on the US version), power PIT/25/200/500/800 mW, installation hole 20 x 20 mm, board 28 x 28 x 3.3 mm, and 'Weight: 4.46 g (without dust cover), 5.4 g (with dust cover)'. The 4.46 g this page shows is the first of those two; which of them the column should hold is the open question about a part weighed with and without an accessory, so the figure is left as it is and both are recorded here."
   },
   {
    "type": "vtx",
@@ -865,12 +1043,16 @@
     "channels": 48,
     "antenna_connector": "MMCX",
     "weight_g": 12.0,
-    "price_usd": 71.99
+    "price_usd": 71.99,
+    "input_voltage": "7-36V DC",
+    "power_levels_mw": "25 / 400 / 800 / MAX"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
-    "https://www.racedayquads.com/products/rush-fpv-tank-solo-25-1600mw-5-8ghz-vtx-w-smart-audio-mmcx"
-   ]
+    "https://www.racedayquads.com/products/rush-fpv-tank-solo-25-1600mw-5-8ghz-vtx-w-smart-audio-mmcx",
+    "https://rushfpv.net/products/tank-solo-vtx"
+   ],
+   "note": "RushFPV's own spec block: 7-36 V DC in, 5 V/1 A (600 mA) out, 48 channels, power PIT/25/400/800/MAX mW, 37 x 24 x 6.7 mm, 12 g without cable - which confirms the 12 g and the 48 channels this page already carried. The top step is printed as 'MAX' with no figure, so power_levels records it as printed and max_power_mw keeps the 1000 mW the retail listing states."
   },
   {
    "type": "vtx",
@@ -883,12 +1065,152 @@
     "max_power_mw": 350,
     "antenna_connector": "U.FL",
     "weight_g": 1.4,
-    "price_usd": 29.99
+    "price_usd": 29.99,
+    "channels": 48,
+    "input_voltage": "5V",
+    "power_levels_mw": "25 / 100 / 200 / 350"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
-    "https://www.racedayquads.com/products/rush-fpv-tiny-tank-25-350mw-5-8ghz-vtx-u-fl"
-   ]
+    "https://www.racedayquads.com/products/rush-fpv-tiny-tank-25-350mw-5-8ghz-vtx-u-fl",
+    "https://rushfpv.net/products/tank-tiny-vtx"
+   ],
+   "note": "RushFPV's own spec block for the Tiny Tank: 5 V input, 1.4 g, 48 channels (37 on the US version), U.FL, TBS Smart Audio, power PIT/25/100/200/MAX 350 mW - the only Tank whose top step is printed with its figure, which is where the 350 mW this page already carried is confirmed."
+  },
+  {
+   "type": "vtx",
+   "brand": "RUSHFPV",
+   "model": "XSPAN 3.1-3.8GHz 5W",
+   "slug": "rushfpv-xspan-3-1-3-8ghz-5w",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 5000,
+    "power_levels_mw": "25 / 200 / 1000 / 5000",
+    "frequency_range": "3.17-3.79 GHz",
+    "input_voltage": "7-30V"
+   },
+   "sources": [
+    "https://rushfpv.net/products/3-1g-3-8g-xspan-5w-vtx-transmitter-module"
+   ],
+   "note": "Board marking 31385. Label: power steps PIT / 25 / 200 mW / 1 W / 5 W, four bands printed as MHz spans (3330-3470, 3170-3310, 3490-3630, 3650-3790), eight channels per band, 7-30 V Lipo-in. The 3.17-3.79 GHz range is those four spans end to end; the model is sold as '3.1G-3.8G'. X-SPAN is RushFPV's name for its wideband analog module line - a standalone brick with an SMA jack, a fan and a dual DC-in that also feeds the camera, not a board you bolt into a stack. RushFPV publishes no weight and no mounting pattern for the class, so those columns stay empty. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+  },
+  {
+   "type": "vtx",
+   "brand": "RUSHFPV",
+   "model": "XSPAN 3.1-3.9GHz 10W",
+   "slug": "rushfpv-xspan-3-1-3-9ghz-10w",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 10000,
+    "power_levels_mw": "25 / 200 / 2000 / 10000",
+    "frequency_range": "3.17-3.95 GHz",
+    "input_voltage": "7-30V"
+   },
+   "sources": [
+    "https://rushfpv.net/products/3-1g-3-9g-xspan-10w-vtx-transmitter-module"
+   ],
+   "note": "Board marking XN-31391. The module's own label prints the power steps (PIT / 25 / 200 mW / 2 W / 10 W), five bands A-E spanning 3170-3950 MHz, eight channels per band, and a 7-30 V dual DC-in. RushFPV's product page carries no spec block, so every figure here is read off that label. X-SPAN is RushFPV's name for its wideband analog module line - a standalone brick with an SMA jack, a fan and a dual DC-in that also feeds the camera, not a board you bolt into a stack. RushFPV publishes no weight and no mounting pattern for the class, so those columns stay empty. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+  },
+  {
+   "type": "vtx",
+   "brand": "RUSHFPV",
+   "model": "XSPAN 4.0-4.8GHz 10W",
+   "slug": "rushfpv-xspan-4-0-4-8ghz-10w",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 10000,
+    "power_levels_mw": "25 / 200 / 2000 / 10000",
+    "frequency_range": "4.02-4.80 GHz",
+    "input_voltage": "7-30V"
+   },
+   "sources": [
+    "https://rushfpv.net/products/4g-4-8g-xspan-10w-vtx-transmitter-module"
+   ],
+   "note": "Board marking XN-40481. Label: power steps PIT / 25 / 200 mW / 2 W / 10 W, five bands A, B, E, F, R spanning 4020-4800 MHz, eight channels per band, 7-30 V dual DC-in. Sold as '4G-4.8G'; the 4020-4800 MHz edges are the label's own. X-SPAN is RushFPV's name for its wideband analog module line - a standalone brick with an SMA jack, a fan and a dual DC-in that also feeds the camera, not a board you bolt into a stack. RushFPV publishes no weight and no mounting pattern for the class, so those columns stay empty. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+  },
+  {
+   "type": "vtx",
+   "brand": "RUSHFPV",
+   "model": "XSPAN 4.8-6.1GHz 10W",
+   "slug": "rushfpv-xspan-4-8-6-1ghz-10w",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 10000,
+    "power_levels_mw": "25 / 200 / 2000 / 10000",
+    "frequency_range": "4.8-6.1 GHz",
+    "input_voltage": "7-30V"
+   },
+   "sources": [
+    "https://rushfpv.net/products/4-8g-6-1g-xspan-10w-vtx-transmitter-module"
+   ],
+   "note": "Board marking XN-48611. Label: power steps PIT / 25 / 200 mW / 2 W / 10 W, twelve bands (A, B, E, F, R, P, L, U, O, H, T, N), eight channels per band, 7-30 V dual DC-in. The label prints no MHz edges, so the range is the manufacturer's own model name. X-SPAN is RushFPV's name for its wideband analog module line - a standalone brick with an SMA jack, a fan and a dual DC-in that also feeds the camera, not a board you bolt into a stack. RushFPV publishes no weight and no mounting pattern for the class, so those columns stay empty. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+  },
+  {
+   "type": "vtx",
+   "brand": "RUSHFPV",
+   "model": "XSPAN 4.8-6.1GHz 4W",
+   "slug": "rushfpv-xspan-4-8-6-1ghz-4w",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 4000,
+    "power_levels_mw": "25 / 200 / 1000 / 4000",
+    "frequency_range": "4.8-6.1 GHz",
+    "input_voltage": "7-30V",
+    "channels": 96
+   },
+   "sources": [
+    "https://rushfpv.net/products/4-8-6-1g-broadband-vtx-transmitter-module"
+   ],
+   "note": "Label: power steps PIT / 25 / 200 mW / 1 W / 4 W, twelve bands (A, B, E, F, R, P, L, U, O, H, T, N), eight channels per band, 7-30 V dual DC-in. The 96 channels are RushFPV's own count for this model ('96 Frequency Points'), and they agree with twelve bands of eight. Sold in a linear-antenna and a circular-polarised kit; the module is the same. X-SPAN is RushFPV's name for its wideband analog module line - a standalone brick with an SMA jack, a fan and a dual DC-in that also feeds the camera, not a board you bolt into a stack. RushFPV publishes no weight and no mounting pattern for the class, so those columns stay empty. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+  },
+  {
+   "type": "vtx",
+   "brand": "RUSHFPV",
+   "model": "XSPAN 6.1-7.2GHz 3W",
+   "slug": "rushfpv-xspan-6-1-7-2ghz-3w",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 3000,
+    "power_levels_mw": "25 / 200 / 1000 / 3000",
+    "frequency_range": "6.1-7.2 GHz",
+    "input_voltage": "7-30V"
+   },
+   "sources": [
+    "https://rushfpv.net/products/6-1g-7-2g-3w-vtx-transmitter-module"
+   ],
+   "note": "Board marking XN-61723 - the 3 W sibling of the XN-61728, same eight bands (A, B, E, F, R, P, H, U) and eight channels per band, different top two power steps: PIT / 25 / 200 mW / 1 W / 3 W. 7-30 V Lipo-in. X-SPAN is RushFPV's name for its wideband analog module line - a standalone brick with an SMA jack, a fan and a dual DC-in that also feeds the camera, not a board you bolt into a stack. RushFPV publishes no weight and no mounting pattern for the class, so those columns stay empty. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+  },
+  {
+   "type": "vtx",
+   "brand": "RUSHFPV",
+   "model": "XSPAN 6.1-7.2GHz 8W",
+   "slug": "rushfpv-xspan-6-1-7-2ghz-8w",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 8000,
+    "power_levels_mw": "25 / 200 / 2000 / 8000",
+    "frequency_range": "6.1-7.2 GHz",
+    "input_voltage": "7-30V"
+   },
+   "sources": [
+    "https://rushfpv.net/products/6-1g-7-2g-xspan-8w-vtx-transmitter-module"
+   ],
+   "note": "Board marking XN-61728. Label: power steps PIT / 25 / 200 mW / 2 W / 8 W, eight bands (A, B, E, F, R, P, H, U), eight channels per band, 7-30 V dual DC-in. No MHz edges on the label, so the range is the model name's. X-SPAN is RushFPV's name for its wideband analog module line - a standalone brick with an SMA jack, a fan and a dual DC-in that also feeds the camera, not a board you bolt into a stack. RushFPV publishes no weight and no mounting pattern for the class, so those columns stay empty. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+  },
+  {
+   "type": "vtx",
+   "brand": "RUSHFPV",
+   "model": "XSPAN 7.0-8.5GHz 5W",
+   "slug": "rushfpv-xspan-7-0-8-5ghz-5w",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 5000,
+    "frequency_range": "7.0-8.5 GHz"
+   },
+   "sources": [
+    "https://rushfpv.net/products/7g-8-5g-xspan-5w-vtx-transmitter-module"
+   ],
+   "note": "The only 7-8.5 GHz air unit RushFPV lists. Unlike the rest of the X-SPAN line this one has no label photograph on the product page and no spec block, so the 5 W is the manufacturer's own model name and nothing else here is filled: the power steps, band plan and input voltage of the other X-SPAN modules are not assumed onto it. X-SPAN is RushFPV's name for its wideband analog module line - a standalone brick with an SMA jack, a fan and a dual DC-in that also feeds the camera, not a board you bolt into a stack. RushFPV publishes no weight and no mounting pattern for the class, so those columns stay empty."
   },
   {
    "type": "vtx",

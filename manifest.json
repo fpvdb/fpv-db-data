@@ -7,9 +7,9 @@
   "props": 207,
   "stacks": 112,
   "cameras": 50,
-  "vtx": 54
+  "vtx": 72
  },
- "total": 1058,
+ "total": 1076,
  "site": "https://fpv-db.com/data/",
  "license": "CC-BY-4.0"
 }
