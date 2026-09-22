@@ -66,7 +66,6 @@
    "specs": {
     "system": "analog",
     "max_power_mw": 350,
-    "mount_mm": "21x23.5mm",
     "weight_g": 4.14,
     "price_usd": 47.99
    },
@@ -100,6 +99,7 @@
    "specs": {
     "frequency_range": "5.730-5.815 GHz",
     "system": "Walksnail",
+    "mount_mm": "25x25mm",
     "antenna_connector": "IPEX",
     "weight_g": 6.0,
     "price_usd": 39.99,
@@ -111,7 +111,7 @@
     "https://www.racedayquads.com/products/walksnail-ascent-lite-vtx-kit",
     "https://www.caddxfpv.com/products/walksnail-ascent-lite-kit"
    ],
-   "note": "Walksnail's own product page states the output levels in milliwatts in the feature copy - 'switches between 25mW and 100mW output' - and prints no EIRP row at all, so there is nothing for this figure to contradict. Output power, the same quantity as the analog listings in this column. The retail listing is a second source for the power figure and agrees: it prints 'Transmit Power (EIRP): <20dBm', and 20 dBm is 100 mW - an EIRP ceiling that matches the manufacturer's stated 100 mW output rather than exceeding it. That same listing is where mount_mm's '14x15mm' came from: it is two of the three figures in 'Camera: 12 x 14 x 15mm', not the 'Mounting Hole: 25mm' line, so the field was cleared rather than published."
+   "note": "Walksnail's own product page states the output levels in milliwatts in the feature copy - 'switches between 25mW and 100mW output' - and prints no EIRP row at all, so there is nothing for this figure to contradict. Output power, the same quantity as the analog listings in this column. The retail listing is a second source for the power figure and agrees: it prints 'Transmit Power (EIRP): <20dBm', and 20 dBm is 100 mW - an EIRP ceiling that matches the manufacturer's stated 100 mW output rather than exceeding it. mount_mm is that listing's 'Mounting Hole: 25mm' line, read as the 25x25mm square those holes describe. It used to hold '14x15mm', which is two of the three figures in 'Camera: 12 x 14 x 15mm' - the camera's body, not the transmitter's holes."
   },
   {
    "type": "vtx",
@@ -122,7 +122,7 @@
     "frequency_range": "5.725-5.850 GHz",
     "system": "Walksnail",
     "max_power_mw": 2000,
-    "mount_mm": "25.5x25.5mm",
+    "mount_mm": "25.5x25.5mm / 20x20mm",
     "antenna_connector": "MMCX",
     "weight_g": 52.0,
     "price_usd": 203.49
@@ -140,7 +140,6 @@
    "specs": {
     "system": "analog",
     "max_power_mw": 200,
-    "mount_mm": "30x17mm",
     "antenna_connector": "MMCX",
     "weight_g": 68.0,
     "price_usd": 1399.0
@@ -159,7 +158,6 @@
     "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 200,
-    "mount_mm": "10x40mm",
     "antenna_connector": "MMCX",
     "weight_g": 68.0,
     "price_usd": 3999.0
@@ -178,7 +176,6 @@
     "frequency_range": "5.170-5.250 / 5.725-5.850 GHz",
     "system": "DJI",
     "mount_mm": "25.5x25.5mm",
-    "weight_g": 9.2,
     "price_usd": 139.99,
     "max_power_mw": 700,
     "power_levels_mw": "25 / 50 / 100 / 200 / 400 / 700"
@@ -188,7 +185,7 @@
     "https://www.racedayquads.com/products/dji-o4-air-unit",
     "https://dl.djicdn.com/downloads/DJI_O4_Air_Unit_Series/UM/DJI_O4_Air_Unit_Series_User_Manual_v1.0_en.pdf"
    ],
-   "note": "max_power_mw and power_levels_mw are DJI's own figures from the O4 Air Unit Series user manual v1.0 (section 4.3 Setting Transmission Power, p17): 'DJI O4 Air Unit: The maximum available transmission power levels are 25mW, 50mW, 100mW, 200mW, 400mW, and 700mW.' These are output-power levels in milliwatts, the same quantity the analog listings in this column print, and NOT the Transmitter Power (EIRP) dBm figures DJI publishes elsewhere - EIRP includes antenna gain and is a different measurement. Available levels are lower in regions whose regulations cap them (DJI states this in the same block)."
+   "note": "max_power_mw and power_levels_mw are DJI's own figures from the O4 Air Unit Series user manual v1.0 (section 4.3 Setting Transmission Power, p17): 'DJI O4 Air Unit: The maximum available transmission power levels are 25mW, 50mW, 100mW, 200mW, 400mW, and 700mW.' These are output-power levels in milliwatts, the same quantity the analog listings in this column print, and NOT the Transmitter Power (EIRP) dBm figures DJI publishes elsewhere - EIRP includes antenna gain and is a different measurement. Available levels are lower in regions whose regulations cap them (DJI states this in the same block). weight_g is deliberately empty: the listing prints 'Air Unit (camera module excluded): Approx. 5.1 g', 'Air Unit (camera module included): Approx. 8.2 g' and 'Antenna: Approx. 0.75 g' under one 'Weight:' label, plus a sentence reading 'With the lens mount, the weight is 9.2 grams' - four figures for four things, and nothing says which one this column holds. The 9.2 g it used to show came from that sentence."
   },
   {
    "type": "vtx",
@@ -198,6 +195,7 @@
    "specs": {
     "frequency_range": "5.170-5.250 / 5.725-5.850 GHz",
     "system": "DJI",
+    "mount_mm": "20x20mm / 25.5x25.5mm",
     "price_usd": 289.0,
     "max_power_mw": 1200,
     "power_levels_mw": "25 / 50 / 100 / 200 / 400 / 700 / 1200"
@@ -207,7 +205,7 @@
     "https://www.racedayquads.com/products/dji-o4-air-unit-pro",
     "https://dl.djicdn.com/downloads/DJI_O4_Air_Unit_Series/UM/DJI_O4_Air_Unit_Series_User_Manual_v1.0_en.pdf"
    ],
-   "note": "max_power_mw and power_levels_mw from DJI's O4 Air Unit Series user manual v1.0 (section 4.3, p17): 'DJI O4 Air Unit Pro: The maximum available transmission power levels are 25mW, 50mW, 100mW, 200mW, 400mW, 700mW, and 1200mW.' The same page adds that above 700mW the unit trims itself between the set value and 700mW based on the flight environment, so 1200 mW is the ceiling, not a sustained figure. Output power in milliwatts, not EIRP. Two scraped fields were cleared rather than published: mount_mm held '33.5x13mm', which is two of the three figures RaceDayQuads prints as 'Dimensions: 33.5 x 33.5 x 13 mm (L x W x H)' on the matching module SKU, and weight_g held 2.1 g on a kit whose camera-less transmission module the same retailer weighs at 15.6 g. Neither is replaced here, because DJI's manual states the mounting holes only in a drawing and carries no weight table."
+   "note": "max_power_mw and power_levels_mw from DJI's O4 Air Unit Series user manual v1.0 (section 4.3, p17): 'DJI O4 Air Unit Pro: The maximum available transmission power levels are 25mW, 50mW, 100mW, 200mW, 400mW, 700mW, and 1200mW.' The same page adds that above 700mW the unit trims itself between the set value and 700mW based on the flight environment, so 1200 mW is the ceiling, not a sustained figure. Output power in milliwatts, not EIRP. mount_mm is the listing's own 'VTX Mounting Pattern: 20x20/25.5x25.5mm' line, which the scraper now reads in place of the '33.5x13mm' it used to take from 'Dimensions: 33.5 x 33.5 x 13 mm (L x W x H)'. weight_g is deliberately empty: the listing prints three weights under one 'Weight:' label - 'Air Unit (camera module excluded): Approx. 15.6 g', 'Air Unit (camera module included): Approx. 32 g' and 'Antenna: Approx. 2.1 g/pcs' - and nothing on the page says which of them is the figure this column holds, so it holds none of them. The 2.1 g it used to show was the antenna."
   },
   {
    "type": "vtx",
@@ -219,14 +217,16 @@
     "weight_g": 15.6,
     "price_usd": 169.0,
     "max_power_mw": 1200,
-    "power_levels_mw": "25 / 50 / 100 / 200 / 400 / 700 / 1200"
+    "power_levels_mw": "25 / 50 / 100 / 200 / 400 / 700 / 1200",
+    "mount_mm": "20x20mm / 25.5x25.5mm"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
     "https://www.racedayquads.com/products/dji-o4-air-unit-pro-transmission-module",
-    "https://dl.djicdn.com/downloads/DJI_O4_Air_Unit_Series/UM/DJI_O4_Air_Unit_Series_User_Manual_v1.0_en.pdf"
+    "https://dl.djicdn.com/downloads/DJI_O4_Air_Unit_Series/UM/DJI_O4_Air_Unit_Series_User_Manual_v1.0_en.pdf",
+    "https://www.racedayquads.com/products/dji-o4-air-unit-pro"
    ],
-   "note": "This SKU is the O4 Air Unit Pro's video transmission module sold without the camera - the retail listing gives 'Compatibility: DJI O4 Air Unit Pro' and sells it for repair and replacement - so it is the same radio as the kit and carries the kit's figures from DJI's O4 Air Unit Series user manual v1.0 (section 4.3, p17). Output power in milliwatts, not EIRP. mount_mm was cleared rather than published: it held '33.5x13mm', which is two of the three figures the same listing prints as 'Dimensions: 33.5 x 33.5 x 13 mm (L x W x H)'."
+   "note": "This SKU is the O4 Air Unit Pro's video transmission module sold without the camera - the retail listing gives 'Compatibility: DJI O4 Air Unit Pro' and sells it for repair and replacement - so it is the same radio as the kit and carries the kit's figures from DJI's O4 Air Unit Series user manual v1.0 (section 4.3, p17). Output power in milliwatts, not EIRP. mount_mm is the kit listing's 'VTX Mounting Pattern: 20x20/25.5x25.5mm' line: this SKU is that kit's transmission module, so it is the same board with the same holes, and its own listing states no pattern at all. What it used to hold was '33.5x13mm', two of the three figures the same listing prints as 'Dimensions: 33.5 x 33.5 x 13 mm (L x W x H)'."
   },
   {
    "type": "vtx",
@@ -304,7 +304,7 @@
     "frequency_range": "5362-5945 MHz",
     "system": "analog",
     "max_power_mw": 600,
-    "mount_mm": "20x20mm",
+    "mount_mm": "20x20mm / 25x25mm / 30x30mm",
     "channels": 37,
     "antenna_connector": "U.FL",
     "weight_g": 3.0,
@@ -324,7 +324,7 @@
     "frequency_range": "5362-5945 MHz",
     "system": "analog",
     "max_power_mw": 850,
-    "mount_mm": "20x20mm",
+    "mount_mm": "20x20mm / 25x25mm / 30x30mm",
     "antenna_connector": "U.FL",
     "weight_g": 3.0,
     "price_usd": 29.99
@@ -424,7 +424,6 @@
     "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 350,
-    "mount_mm": "12x16mm",
     "channels": 40,
     "antenna_connector": "U.FL",
     "price_usd": 29.99
@@ -464,7 +463,6 @@
     "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 300,
-    "mount_mm": "15x14mm",
     "antenna_connector": "U.FL",
     "weight_g": 0.9,
     "price_usd": 33.99
@@ -523,7 +521,6 @@
     "max_power_mw": 1000,
     "mount_mm": "20x20mm",
     "antenna_connector": "U.FL",
-    "weight_g": 22.3,
     "price_usd": 179.99
    },
    "_scraped_at": "2026-09-22",
@@ -597,7 +594,7 @@
     "frequency_range": "5.8 GHz",
     "system": "HDZero",
     "max_power_mw": 200,
-    "mount_mm": "32.4x32.5mm",
+    "mount_mm": "25x25mm",
     "antenna_connector": "U.FL",
     "price_usd": 77.99
    },
@@ -617,7 +614,6 @@
     "max_power_mw": 200,
     "mount_mm": "25x25mm",
     "antenna_connector": "U.FL",
-    "weight_g": 4.5,
     "price_usd": 119.99
    },
    "_scraped_at": "2026-09-22",
@@ -634,7 +630,7 @@
     "frequency_range": "5.725-5.850 GHz",
     "system": "HDZero",
     "max_power_mw": 200,
-    "mount_mm": "31x31mm",
+    "mount_mm": "25.5x25.5mm",
     "antenna_connector": "U.FL",
     "weight_g": 5.4,
     "price_usd": 59.49
@@ -692,7 +688,7 @@
     "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 350,
-    "mount_mm": "16x16mm",
+    "mount_mm": "16x16mm / 20x20mm",
     "channels": 40,
     "antenna_connector": "U.FL",
     "weight_g": 2.4,
@@ -712,7 +708,7 @@
     "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 1600,
-    "mount_mm": "30x30mm",
+    "mount_mm": "30.5x30.5mm",
     "channels": 40,
     "antenna_connector": "MMCX",
     "weight_g": 18.9,
@@ -789,7 +785,6 @@
     "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 1000,
-    "mount_mm": "24x10.5mm",
     "channels": 37,
     "antenna_connector": "MMCX",
     "weight_g": 15.0,
@@ -996,7 +991,6 @@
     "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 400,
-    "mount_mm": "28x10mm",
     "antenna_connector": "MMCX",
     "weight_g": 8.7,
     "price_usd": 59.99
