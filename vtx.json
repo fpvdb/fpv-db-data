@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-23",
- "count": 81,
+ "count": 85,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -94,6 +94,26 @@
   {
    "type": "vtx",
    "brand": "Caddx",
+   "model": "Walksnail Ascent HD Lite+ Kit",
+   "slug": "caddx-walksnail-ascent-hd-lite-plus-kit",
+   "specs": {
+    "system": "Walksnail",
+    "max_power_mw": 500,
+    "frequency_range": "5.730-5.815 GHz",
+    "mount_mm": "20x20mm",
+    "channels": 3,
+    "antenna_connector": "U.FL",
+    "input_voltage": "3-12.6V"
+   },
+   "sources": [
+    "https://www.caddxfpv.com/products/walksnail-ascent-hd-lite-plus-kit",
+    "https://cdn.shopify.com/s/files/1/0036/3921/4169/files/Ascent_Lite_plus_manual_V1.3.pdf"
+   ],
+   "note": "Walksnail's second Ascent-series transmitter, above the Ascent Lite. max_power_mw is the manufacturer's own words in the Ascent Lite+ quick start guide V1.3 p3: 'a mini 22x22 mm body with the VTX weighing only 2.75 g, equipped with 500 mW transmit power' - transmit power in milliwatts, the same quantity the analog entries in this column hold, and not the 'Transmitter Power (EIRP) FCC/SRRC:27dBm' row in the same manual's spec table (p9-p10). The product page states it the same way ('delivers up to 500mW of power'). The two figures are numerically close (27 dBm is 501 mW), which is true of most of this brand's radios and is why the note says which one this column holds. weight_g is deliberately empty: the manual's spec table says 10.5 g and its own introduction says 2.75 g for the VTX, so the page states two weights and names only one of them as the transmitter's - the rule the kit weights on the DJI air units already follow. Body size is stated twice the same way (22x22 mm in the text, 23.5x23.5x8 mm in the table). Mounting hole is 20x20mm(M2), channels 3, spec-table name 'Ascent Lite+ VTX', model WN13-7007B, FCC ID 2BHG9-WN13-7007B."
+  },
+  {
+   "type": "vtx",
+   "brand": "Caddx",
    "model": "Walksnail Ascent Lite Kit",
    "slug": "caddx-walksnail-ascent-lite-kit",
    "specs": {
@@ -104,14 +124,16 @@
     "weight_g": 6.0,
     "price_usd": 39.99,
     "max_power_mw": 100,
-    "power_levels_mw": "25 / 100"
+    "power_levels_mw": "25 / 100",
+    "channels": 3
    },
    "_scraped_at": "2026-09-23",
    "sources": [
     "https://www.racedayquads.com/products/walksnail-ascent-lite-vtx-kit",
-    "https://www.caddxfpv.com/products/walksnail-ascent-lite-kit"
+    "https://www.caddxfpv.com/products/walksnail-ascent-lite-kit",
+    "https://wiki.caddxfpv.com/en/Ascent-HD-Series/Air-Unit/ascent-lite"
    ],
-   "note": "Walksnail's own product page states the output levels in milliwatts in the feature copy - 'switches between 25mW and 100mW output' - and prints no EIRP row at all, so there is nothing for this figure to contradict. Output power, the same quantity as the analog listings in this column. The retail listing is a second source for the power figure and agrees: it prints 'Transmit Power (EIRP): <20dBm', and 20 dBm is 100 mW - an EIRP ceiling that matches the manufacturer's stated 100 mW output rather than exceeding it. mount_mm is that listing's 'Mounting Hole: 25mm' line, read as the 25x25mm square those holes describe. It used to hold '14x15mm', which is two of the three figures in 'Camera: 12 x 14 x 15mm' - the camera's body, not the transmitter's holes."
+   "note": "Walksnail's own product page states the output levels in milliwatts in the feature copy - 'switches between 25mW and 100mW output' - and prints no EIRP row at all, so there is nothing for this figure to contradict. Output power, the same quantity as the analog listings in this column. The retail listing is a second source for the power figure and agrees: it prints 'Transmit Power (EIRP): <20dBm', and 20 dBm is 100 mW - an EIRP ceiling that matches the manufacturer's stated 100 mW output rather than exceeding it. mount_mm is that listing's 'Mounting Hole: 25mm' line, read as the 25x25mm square those holes describe. It used to hold '14x15mm', which is two of the three figures in 'Camera: 12 x 14 x 15mm' - the camera's body, not the transmitter's holes. Walksnail's own product page states the output levels in milliwatts in the feature copy - 'switches between 25mW and 100mW output' - and prints no EIRP row at all, so there is nothing for this figure to contradict. Output power, the same quantity as the analog listings in this column. The retail listing is a second source for the power figure and agrees: it prints 'Transmit Power (EIRP): <20dBm', and 20 dBm is 100 mW - an EIRP ceiling that matches the manufacturer's stated 100 mW output rather than exceeding it. mount_mm is that listing's 'Mounting Hole: 25mm' line, read as the 25x25mm square those holes describe. It used to hold '14x15mm', which is two of the three figures in 'Camera: 12 x 14 x 15mm' - the camera's body, not the transmitter's holes. Confirmed 2026-09-23 against Walksnail's documentation wiki, which states the range rather than the top step: 'With selectable transmission power from 25 to 100 mW'. The product page's spec block confirms the rest - name 'Ascent Lite VTX', model WN13-4S09B, 5.730-5.815 GHz, 'Mounting Hole 25mm', '6g (Antenna not included)', 3 channels, 3V~12.6V in, one IPEX-1 antenna, VTX 30.5*30.5*3.5mm."
   },
   {
    "type": "vtx",
@@ -125,12 +147,78 @@
     "mount_mm": "25.5x25.5mm / 20x20mm",
     "antenna_connector": "MMCX",
     "weight_g": 52.0,
-    "price_usd": 203.49
+    "price_usd": 203.49,
+    "channels": 4
    },
    "_scraped_at": "2026-09-23",
    "sources": [
-    "https://www.racedayquads.com/products/walksnail-avatar-gt2-kit"
-   ]
+    "https://www.racedayquads.com/products/walksnail-avatar-gt2-kit",
+    "https://www.caddxfpv.com/products/walksnail-avatar-gt2-kit",
+    "https://wiki.caddxfpv.com/en/Avatar-HD-Series/Air-Unit/GT2",
+    "https://cdn.shopify.com/s/files/1/0036/3921/4169/files/Avatar_GT2_Kit_User_Manual_EN_CHS_V1.1.pdf"
+   ],
+   "note": "Second source 2026-09-23: Walksnail's own product page, whose spec block confirms every figure this page already carried off the retail listing - 5.725-5.850 GHz, 'Mounting Hole 25.5*25.5mm; 20*20mm', MMCX, '52g (Antenna Not Included)' - and adds 4 channels, an 11.1-25.2 V input and a 34*36*23.5mm body. The power figure is the one thing the two sources state differently in kind: the retail listing sells it as a 2 W radio, Walksnail's wiki calls it 'intelligent adaptive transmission power of up to 2 W', and the spec block's only numeric power row is 'Transmission Power (EIRP) FCC: <=33dBm', which is 1995 mW. 2 W is kept here because both manufacturer statements name it as transmission power, but note that the Avatar GT - the GT2's predecessor, one page over - is queued for the opposite reading of the same pair of numbers, and that asymmetry is recorded in docs/loop-state.md under 'Needs a human'. The GT2's manual adds that output is limited to 10 mW while standby mode is on."
+  },
+  {
+   "type": "vtx",
+   "brand": "Caddx",
+   "model": "Walksnail Avatar HD Mini 1S Kit",
+   "slug": "caddx-walksnail-avatar-hd-mini-1s-kit",
+   "specs": {
+    "frequency_range": "5.725-5.850 GHz",
+    "system": "Walksnail",
+    "mount_mm": "25.5x25.5mm",
+    "antenna_connector": "U.FL",
+    "price_usd": 131.99,
+    "max_power_mw": 500,
+    "channels": 8
+   },
+   "_scraped_at": "2026-09-23",
+   "sources": [
+    "https://www.racedayquads.com/products/walksnail-avatar-hd-mini-1s-kit",
+    "https://www.caddxfpv.com/products/walksnail-avatar-hd-mini-1s-kit",
+    "https://wiki.caddxfpv.com/en/Avatar-HD-Series/Air-Unit/Mini-1S"
+   ],
+   "note": "Still queued: Walksnail's page heads the product 'Power 500mW' but its own spec block gives 'Transmitter Power (EIRP) FCC:<25.5dBm; CE:<14dBm; SRRC:<20dBm; MIC:<25dBm', and 25.5 dBm is 355 mW - an EIRP below the claimed output, which cannot happen with the 1.9 dBi antenna the same page specs. The two figures describe different things and the field stays empty until one of them is confirmed. Still queued: Walksnail's page heads the product 'Power 500mW' but its own spec block gives 'Transmitter Power (EIRP) FCC:<25.5dBm; CE:<14dBm; SRRC:<20dBm; MIC:<25dBm', and 25.5 dBm is 355 mW - an EIRP below the claimed output, which cannot happen with the 1.9 dBi antenna the same page specs. The two figures describe different things and the field stays empty until one of them is confirmed. Unqueued 2026-09-23 by Walksnail's own documentation wiki, which states the figure per model where the product page does not: 'The air unit delivers up to 500 mW of transmission power' (Avatar HD Series > Air Unit > Mini 1S). That is transmission power in milliwatts, the quantity this column holds, and it is what the product page's 'Power 500mW' banner means; the 'Transmitter Power (EIRP) FCC:<25.5dBm' row beside it is a regional EIRP ceiling for this SKU and a different measurement - the sister SKU on the same 30 mm board, the Mini 1s Lite, carries the same 500 mW statement under an EIRP row reading <27dBm, which is what shows that the EIRP row varies per certification while the output figure does not. The earlier note on this page read the two as claims about one quantity and queued the part for the contradiction; they are two quantities. weight_g stays empty: the spec block's VTX row says 6.8 g, the banner says '6.8g light weight board', and the wiki calls 6.8 g the whole kit's weight beside a 3.5 g camera. Still queued: Walksnail's page heads the product 'Power 500mW' but its own spec block gives 'Transmitter Power (EIRP) FCC:<25.5dBm; CE:<14dBm; SRRC:<20dBm; MIC:<25dBm', and 25.5 dBm is 355 mW - an EIRP below the claimed output, which cannot happen with the 1.9 dBi antenna the same page specs. The two figures describe different things and the field stays empty until one of them is confirmed. Unqueued 2026-09-23 by Walksnail's own documentation wiki, which states the figure per model where the product page does not: 'The air unit delivers up to 500 mW of transmission power' (Avatar HD Series > Air Unit > Mini 1S). That is transmission power in milliwatts, the quantity this column holds, and it is what the product page's 'Power 500mW' banner means; the 'Transmitter Power (EIRP) FCC:<25.5dBm' row beside it is a regional EIRP ceiling for this SKU and a different measurement - the sister SKU on the same 30 mm board, the Mini 1s Lite, carries the same 500 mW statement under an EIRP row reading <27dBm, which is what shows that the EIRP row varies per certification while the output figure does not. The earlier note on this page read the two as claims about one quantity and queued the part for the contradiction; they are two quantities. weight_g stays empty: the spec block's VTX row says 6.8 g, the banner says '6.8g light weight board', and the wiki calls 6.8 g the whole kit's weight beside a 3.5 g camera. frequency_range corrected the same day from '5.725-5.850 / 5.6-5.9 GHz': the second span is the bundled Avatar V2 antenna's, printed as 'Bandwidth 5600MHz-6000MHz' in its own block below the VTX's, and the radio's own row reads 'Communication Frequency 5.725-5.850GHz'. An antenna's usable band is not the transmitter's tuning range."
+  },
+  {
+   "type": "vtx",
+   "brand": "Caddx",
+   "model": "Walksnail Avatar HD Mini 1s Lite Kit",
+   "slug": "caddx-walksnail-avatar-hd-mini-1s-lite-kit",
+   "specs": {
+    "system": "Walksnail",
+    "max_power_mw": 500,
+    "frequency_range": "5.725-5.850 GHz",
+    "mount_mm": "25.5x25.5mm",
+    "channels": 8,
+    "antenna_connector": "U.FL"
+   },
+   "sources": [
+    "https://www.caddxfpv.com/products/walksnail-avatar-hd-mini-1s-lite-kit",
+    "https://wiki.caddxfpv.com/en/Avatar-HD-Series/Air-Unit/1S-Lite"
+   ],
+   "note": "The lighter of the two 30x30 mm Avatar mini 1S kits (the other is the Mini 1s Kit, which pairs the same 'Avatar mini 1s module' with a 3.5 g camera instead of a 1.8 g one). max_power_mw is Walksnail's own statement on the model's wiki page: 'The air unit delivers up to 500 mW of transmission power' - transmission power in milliwatts, not the 'Transmitter Power (EIRP) FCC:<27dBm' row of the product page's spec block; the product page states the same figure as output ('3.1-13V voltage input and 500mw power output'). weight_g is deliberately empty: the spec block gives 6.8 g as the VTX's weight, the product page banner says 7.8 g, and the wiki calls 6.8 g the kit's total weight beside a 1.8 g camera - three statements that cannot all be about the same thing. input_voltage is empty for the same reason: the block prints '3.1V-5V(V2) / 3.1-13V(V3)', which is two board versions and not one range. Board dimensions 30*30*6.5mm, 8 GB onboard storage."
+  },
+  {
+   "type": "vtx",
+   "brand": "Caddx",
+   "model": "Walksnail Avatar HD Mini VTX V3 Module",
+   "slug": "caddx-walksnail-avatar-hd-mini-vtx-v3-module",
+   "specs": {
+    "system": "Walksnail",
+    "max_power_mw": 500,
+    "frequency_range": "5.725-5.850 GHz",
+    "mount_mm": "25.5x25.5mm / 20x20mm",
+    "channels": 8,
+    "weight_g": 13.4,
+    "input_voltage": "3.1-13V"
+   },
+   "sources": [
+    "https://www.caddxfpv.com/products/walksnail-avatar-hd-mini-vtx-v3",
+    "https://wiki.caddxfpv.com/en/Avatar-HD-Series/Air-Unit/Race-Nano"
+   ],
+   "note": "The metal-housed V3 board of the Avatar mini line, sold on its own; Walksnail's wiki files it under the kit it ships in, the 'Walksnail Avatar HD Nano Kit V3', and the product page's own copy names that kit too. max_power_mw is the figure both state in milliwatts - the wiki's 'The air unit delivers up to 500 mW of transmission power' and the page's '3.1-13V voltage input and 500mw power output' - and not the 'Transmitter Power (EIRP) FCC:<27dBm' row of the same spec block. The two mounting patterns are printed with the screw each hole takes, '25.5*25.5mm(M2 hole);20*20mm(M3 hole)', so this is the hole and not the screw. 31.5*31.5*9.4mm, 8 GB onboard storage, no antenna connector stated on the module's own block."
   },
   {
    "type": "vtx",
