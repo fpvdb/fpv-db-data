@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-23",
- "count": 89,
+ "count": 94,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -1103,22 +1103,133 @@
   {
    "type": "vtx",
    "brand": "iFlight",
-   "model": "Blitz 30x30 25-1000mW+ 5.8GHz - MMCX",
+   "model": "BLITZ 25mW Race VTX",
+   "slug": "iflight-blitz-25mw-race-vtx",
+   "specs": {
+    "frequency_range": "5.8 GHz",
+    "system": "analog",
+    "max_power_mw": 25,
+    "channels": 8,
+    "mount_mm": "30.5x30.5mm / 20x20mm",
+    "antenna_connector": "U.FL",
+    "input_voltage": "7-26V"
+   },
+   "sources": [
+    "https://shop.iflight.com/BLITZ-5.8GHz-25mW-Race-VTX-Pro2207",
+    "https://shop.iflight.com/index.php?route=product/product/download&download_id=393"
+   ],
+   "note": "iFlight's product page prints the labelled block: Item: BLITZ RACE 25mW VTX, Input voltage: DC 7-26V, Volts input: 2-6S, LED lamp output voltage 5V current 2A, Fixed transmitting power: 25mW(14dbm), Antenna connector: IPEX, VTX input connector: SH0.8 4P, LED connector: SH0.8 3P. power_levels_mw is deliberately empty: this radio has no selectable power, and both the block and the feature list call the figure fixed - so max_power_mw here is the only power the board has, not the top of a list. channels is the manual's own frequency table (B015949_BLITZ RACE 25mW VTX Instructions_20241030.pdf), which prints ONE band - RACE, CH1-CH8, 5658-5917 MHz - and whose LED legend says the channel is 'cycled in RACE BAND 1-8CH'; the product page states no channel count at all, and this is the only transmitter in this column locked to a single band. mount_mm is the page's own 'Double mounting holes: 30.5*30.5mm / 20*20mm'. antenna_connector is normalised to the column's U.FL spelling; iFlight writes IPEX in the block and 'iPex/UFL' in the same page's packing list ('1 x iPex/UFL to M2 SMA F Adapter Cable'), which is the same connector. weight_g is empty: neither the page nor the manual states one. The board carries an LED-strip controller (5V 2A output on an SH0.8 3P connector), which is why it also has a colour button."
+  },
+  {
+   "type": "vtx",
+   "brand": "iFlight",
+   "model": "BLITZ 5.8GHz 1.6W VTX",
    "slug": "iflight-blitz-30x30-25-1000mw-5-8ghz-mmcx",
    "specs": {
     "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 1600,
     "mount_mm": "30.5x30.5mm",
-    "channels": 40,
+    "channels": 48,
     "antenna_connector": "MMCX",
     "weight_g": 18.9,
-    "price_usd": 57.99
+    "price_usd": 57.99,
+    "power_levels_mw": "25 / 400 / 800 / 1600",
+    "input_voltage": "7-34V"
    },
    "_scraped_at": "2026-09-23",
    "sources": [
-    "https://www.racedayquads.com/products/iflight-blitz-30x30-25-1000mw-5-8ghz-vtx-mmcx"
-   ]
+    "https://www.racedayquads.com/products/iflight-blitz-30x30-25-1000mw-5-8ghz-vtx-mmcx",
+    "https://shop.iflight.com/BLITZ-1.6W-VTX-Adjustable-Pro1703",
+    "https://shop.iflight.com/index.php?route=product/product/download&download_id=244"
+   ],
+   "note": "iFlight's own product page prints the labelled block: Input voltage: 7V~34V, Interface: MMCX, Power levels: PIT/25mW/400mW/800mW/1600mW, Channels: 48 (including Raceband), Mounting pattern: 30.5x30.5mm/Φ3, Lightweight: 18.9g (excluding antenna), VTX telemetry: IRC Tramp. channels was 40 off the retail listing and is 48: the manual's frequency table (BLITZ 1.6W VTX Manual.pdf) is six bands of eight, A-B-E-F-R-L, and the page says 48 twice. model is iFlight's own name for the radio: the retail title 'Blitz 30x30 25-1000mW+ 5.8GHz - MMCX' prints a top step of 1000mW+ for a radio whose maker lists 1600 mW, and a 30x30 class for a board the maker measures at 30.5x30.5mm. The slug keeps the name it was minted with. max_power_mw 1600, mount_mm 30.5x30.5mm and weight_g 18.9 were already right and are now cited to the manufacturer; the manual rounds the same weight to 19g. The manual's LED legend reads '1 flash=25mW, 2 flashes=100mW, 3 flashes=200mW', three steps that are not this radio's four - the same boilerplate legend appears in the BLITZ Whoop 1.6W manual, so it is a copied block and not a fifth and sixth power level."
+  },
+  {
+   "type": "vtx",
+   "brand": "iFlight",
+   "model": "BLITZ Mini Force 5.8GHz 600mW VTX",
+   "slug": "iflight-blitz-mini-force-5-8ghz-600mw-vtx",
+   "specs": {
+    "frequency_range": "5.8 GHz",
+    "system": "analog",
+    "max_power_mw": 600,
+    "power_levels_mw": "25 / 200 / 400 / 600",
+    "channels": 40,
+    "mount_mm": "20x20mm / 25x25mm",
+    "antenna_connector": "MMCX",
+    "weight_g": 4.0
+   },
+   "sources": [
+    "https://shop.iflight.com/succex-mini-force-5-8ghz-600mw-vtx-adjustable-pro1529",
+    "https://shop.iflight.com/index.php?route=product/product/download&download_id=302"
+   ],
+   "note": "iFlight's product page prints the labelled block: Power: PIT/25/200/400mW/600mW, Antenna interface: MMCX, VTX protocol: IRC Tramp, Output 40 channels, Size: 29*29mm, Mounting pattern: 20*20Φ3/25*25 mmΦ2, Weight: 4g. The manual (S009006 BLITZ Mini Force Manual 20210426.pdf) confirms the steps in its LED legend ('1=25mW, 2=200mW, 3=400mW, 4=600mW') and prints the five bands A/B/E/F/R of eight channels that make 40. mount_mm keeps the two patterns and not the Φ3/Φ2 hole sizes; 29*29mm is the board. input_voltage is empty: neither the page nor the manual states a voltage range, only a +5V pin on the pinout. The part has four names across its own listing - the URL and the manual say SucceX Mini Force, the page title says BLITZ Mini Force, the description says BLITZ Micro Force and the packing list says BLITZ Force Mini - which is the SucceX line being renamed BLITZ; the page title is what the brand sells it as today. weight_g is the module without an antenna."
+  },
+  {
+   "type": "vtx",
+   "brand": "iFlight",
+   "model": "BLITZ Whoop 5.8GHz 1.6W VTX",
+   "slug": "iflight-blitz-whoop-5-8ghz-1-6w-vtx",
+   "specs": {
+    "frequency_range": "5.8 GHz",
+    "system": "analog",
+    "max_power_mw": 1600,
+    "power_levels_mw": "25 / 400 / 800 / 1600",
+    "channels": 44,
+    "antenna_connector": "U.FL",
+    "weight_g": 16.5,
+    "input_voltage": "7-34V"
+   },
+   "sources": [
+    "https://shop.iflight.com/BLITZ-Whoop-1.6W-VTX-Adjustable-Pro1982",
+    "https://shop.iflight.com/index.php?route=product/product/download&download_id=503"
+   ],
+   "note": "iFlight's product page prints the labelled block: Input voltage: 7V~34V, Interface: IPEX, Power levels: PIT/25mW/400mW/800mW/1600mW, Channels: 44 (including Raceband), Mounting pattern: 25.5x25.5mm/Φ1.6, Lightweight: 16.5g (excluding antenna), VTX telemetry: IRC Tramp, and repeats the four steps as 'RC Tramp VTX table values: 25mW/400mW/800mW/1600mW'. power_levels_mw drops PIT, the way the rest of this column does. mount_mm is deliberately EMPTY: the brand states two different patterns for one board - the product page's 25.5x25.5mm/Φ1.6 and the manual's (B013728_BLITZ Whoop 1.6W VTX Instructions_20250506.pdf) 'Mounting Pattern: 25*25mm/Φ2mm' - and a column that has to choose between two manufacturer figures publishes neither. input_voltage is the manual's port line, 'VBAT: 2-8S, 7-34V DC Positive Input', which agrees with the page. The manual's LED legend contradicts its own spec line - it reads '1 flash=25mW, 2 flashes=100mW, 3 flashes=200mW', three steps that are not this radio's four - and is the same boilerplate legend printed in the non-Whoop BLITZ 1.6W manual; the power figures here come from the two places that agree, the page block and the manual's Specs line. antenna_connector is the column's U.FL spelling for the IPEX the manufacturer prints. The board switches camera video through itself (Camera in / Camera out / Video in) and carries a microphone."
+  },
+  {
+   "type": "vtx",
+   "brand": "iFlight",
+   "model": "BLITZ Whoop 5.8GHz 2.5W VTX",
+   "slug": "iflight-blitz-whoop-5-8ghz-2-5w-vtx",
+   "specs": {
+    "frequency_range": "5.8 GHz",
+    "system": "analog",
+    "max_power_mw": 2500,
+    "power_levels_mw": "25 / 400 / 1000 / 2500",
+    "channels": 48,
+    "mount_mm": "25.5x25.5mm",
+    "antenna_connector": "MMCX",
+    "weight_g": 32.0,
+    "input_voltage": "7-34V"
+   },
+   "sources": [
+    "https://shop.iflight.com/BLITZ-Whoop-5.8G-2.5W-VTX-Pro2060",
+    "https://shop.iflight.com/index.php?route=product/product/download&download_id=505"
+   ],
+   "note": "iFlight's product page prints the labelled block: Input voltage: 7V~34V, Interface: MMCX, Power levels: PIT/25mW/400mW/1000mW/2500mW, Channels: 48 (including Raceband), Mounting pattern: 25.5x25.5mm/Φ1.6, Lightweight: 32g (excluding antenna), VTX telemetry: IRC Tramp. Three further statements agree with it and are the reason this one is published rather than queued: the manual's Specs line (B014898_BLITZ Whoop 5.8G 2.5W VTX lnstructions_20250912.pdf) repeats all four steps and adds 'Channels: 48CH(A-B-E-F-R-L)' and 'Dimensions: 50*30*16mm'; the page's own LED legend counts the same four ('1 flash=25mW, 2 flashes=400mW, 3 flashes=1000mW, 4 flashes=2500mW'); and the manual's frequency table is the six bands that make 48. power_levels_mw drops PIT. input_voltage is the ports line, 'VBAT: 2-8S, 7-34V DC'; one wiring diagram in the manual labels the battery '6-36V', which is a drawing's label and not the spec line. mount_mm keeps the pattern and not the Φ1.6 hole size. The 50x30x16mm body is the module, not a mounting pattern - it has a CNC case and a cooling fan. At 2.5 W this is the strongest analog transmitter iFlight publishes."
+  },
+  {
+   "type": "vtx",
+   "brand": "iFlight",
+   "model": "Borg Race 5.8G 200mW VTX",
+   "slug": "iflight-borg-race-5-8g-200mw-vtx",
+   "specs": {
+    "frequency_range": "5.8 GHz",
+    "system": "analog",
+    "max_power_mw": 200,
+    "power_levels_mw": "25 / 100 / 200",
+    "channels": 16,
+    "mount_mm": "20x20mm",
+    "antenna_connector": "U.FL",
+    "weight_g": 3.5,
+    "input_voltage": "4.5-28V"
+   },
+   "sources": [
+    "https://shop.iflight.com/Borg-Race-5.8G-200mW-VTX-Pro2394",
+    "https://shop.iflight.com/index.php?route=product/product/download&download_id=500"
+   ],
+   "note": "iFlight's product page prints the labelled block: Power: PIT/25mw/100mw/200mw, Antenna interface: IPEX, VTX protocol: IRC Tramp, Output 16 channels, Size: 25*25*3.7mm, Mounting pattern: 20*20mm, Weight: 3.5g - and the manual (BV19232_Borg Race 5.8G 200mW VTX lnstructions.pdf) repeats every line of it. channels is 16 because the manual's frequency table is two bands of eight and not the usual five or six: BAND R 5658-5917 MHz and BAND L 5362-5621 MHz, with its LED legend confirming '1 flash=Band R, 2 flashes=Band L'. That is the whole radio - there is no A/B/E/F here - and it is why frequency_range keeps the 5.8 GHz class label this column uses for the band while the measured 5362-5917 MHz span stays in this note. input_voltage is the manual's port line, 'DC IN: Positive, input voltage 4.5-28V', which the page's feature list states as 4.5V-28V and 2S-6S. antenna_connector is the column's U.FL spelling: the block says IPEX and the page's feature list says IPEX-1, which is U.FL. The 25*25*3.7mm size is the board, not a pattern; mount_mm is the labelled mounting line. Like the BLITZ Race 25mW it drives an LED strip, with 1.5A current limiting."
   },
   {
    "type": "vtx",
