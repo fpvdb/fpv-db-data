@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-23",
- "count": 85,
+ "count": 89,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -696,6 +696,27 @@
   {
    "type": "vtx",
    "brand": "Happymodel",
+   "model": "Diamond VTX",
+   "slug": "happymodel-diamond-vtx",
+   "specs": {
+    "frequency_range": "5.8 GHz",
+    "system": "analog",
+    "max_power_mw": 200,
+    "power_levels_mw": "25 / 100 / 200",
+    "channels": 40,
+    "antenna_connector": "U.FL",
+    "weight_g": 3.0,
+    "input_voltage": "4.8-5.5V"
+   },
+   "sources": [
+    "https://www.happymodel.cn/index.php/2019/07/03/happymodel-diamond-vtx-5-8g-40ch-25mw-200mw-switchable-vtx-with-dvr/",
+    "https://www.happymodel.cn/wp-content/uploads/2019/07/Diamond-VTX-built-in-DVR-manual.pdf"
+   ],
+   "note": "Happymodel's product post prints the block: Output power: 25~200mw switchable, Frequency: 40CH, Input voltage: 4.8v~5.5v, Current consumption: 250mA~510mA(type), Antenna: RG178 antenna U.FL interface, Frequency: 5.8GHz 5bands 40 channels, With Raceband, Smartaudio ready, Weight: 3g without antenna, plus the recorder rows: Video Output Size VGA (640x480), Video Output format NTSC, Record video size 1280x720 @25FPS, TF Card support Max.32G, Compress Format AVI. power_levels_mw is the manual's own instruction - \"set vtx_power=1\" is 25mw, \"=2\" 100mw, \"=3\" 200mw - and that manual prints the same 5-band 40-channel table (Band1 5865-5725, Band5 5658-5917 MHz). A transmitter that records to its own TF card on the VTX board rather than in the goggles; recording starts automatically at power-on and the manual warns there is no auto-save at power-off."
+  },
+  {
+   "type": "vtx",
+   "brand": "Happymodel",
    "model": "OVX300 25-300mW 5.8GHz U.Fl w/ OpenVTX",
    "slug": "happymodel-ovx300-25-300mw-5-8ghz-u-fl-w-openvtx",
    "specs": {
@@ -704,12 +725,17 @@
     "max_power_mw": 300,
     "antenna_connector": "U.FL",
     "weight_g": 0.9,
-    "price_usd": 33.99
+    "price_usd": 33.99,
+    "channels": 40,
+    "input_voltage": "5V",
+    "power_levels_mw": "0 / 25 / 100 / 300"
    },
    "_scraped_at": "2026-09-23",
    "sources": [
-    "https://www.racedayquads.com/products/happymodel-ovx300-25-300mw-5-8ghz-u-fl-vtx-w-openvtx"
-   ]
+    "https://www.racedayquads.com/products/happymodel-ovx300-25-300mw-5-8ghz-u-fl-vtx-w-openvtx",
+    "https://www.happymodel.cn/index.php/2021/07/27/happymodel-ovx300-ovx303-5-8g-40ch-300mw-vtx-openvtx/"
+   ],
+   "note": "Happymodel's own post for the OVX300 and OVX303 prints the block: Model: OVX300, Frequency: 5.8G 40CH, Transmitting Power: 0/RCE/25mw/100mw/300mw, Power supply: DC 5V, Current (5v): <650ma (300mw), Weight: 0.9gram without antenna, Standard size: 14*15*3mm. It confirms the two figures this page already carried off the retail listing (300 mW, 0.9 g) and adds the channel count, the input voltage and the power steps. 14*15*3mm is the board, not a pattern: the OVX300 states no mounting holes at all - that is the OVX303's half of the same post - so mount_mm stays empty. power_levels_mw keeps the steps stated in milliwatts; the list also carries a step labelled 'RCE' between 0 and 25 whose power is never given a figure. The Betaflight vtxtable pasted under the blocks is not a source for this column: its powerlabels read '0 RCE 25 100 400' on a page whose two spec blocks both say 300, so it is the OVX306's table."
   },
   {
    "type": "vtx",
@@ -720,15 +746,79 @@
     "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 300,
-    "mount_mm": "20x20mm",
+    "mount_mm": "16x16mm / 20x20mm / 25.5x25.5mm",
     "antenna_connector": "U.FL",
-    "weight_g": 0.9,
-    "price_usd": 19.49
+    "weight_g": 1.5,
+    "price_usd": 19.49,
+    "channels": 40,
+    "input_voltage": "5V",
+    "power_levels_mw": "0 / 25 / 100 / 300"
    },
    "_scraped_at": "2026-09-23",
    "sources": [
-    "https://www.racedayquads.com/products/happymodel-ovx303-25-300mw-5-8ghz-u-fl-vtx-w-openvtx"
-   ]
+    "https://www.racedayquads.com/products/happymodel-ovx303-25-300mw-5-8ghz-u-fl-vtx-w-openvtx",
+    "https://www.happymodel.cn/index.php/2021/07/27/happymodel-ovx300-ovx303-5-8g-40ch-300mw-vtx-openvtx/"
+   ],
+   "note": "Corrected against Happymodel's own post, whose OVX303 block reads: Model: OVX303, Frequency: 5.8G 40CH, Transmitting Power: 0/RCE/25mw/100mw/300mw, Power supply: DC 5V, Current (5v): <650ma (300mw), Weight: 1.5gram without antenna, Center distance of mounting holes: 16mmx16mm / 20mmx20mm / 25.5mmx25.5mm. The 0.9 g this page used to show came from RaceDayQuads' listing, which also prints 'Dimensions: 15x14mm' - both are the *OVX300's* figures from the same Happymodel post ('Weight: 0.9gram without antenna', 'Standard size: 14*15*3mm'), so the listing is partly its sibling's listing. mount_mm now keeps all three patterns the manufacturer states, as the stacks do; the listing's 'Stack Size: 16x16mm, 20x20mm, 25x25mm' differs in its last entry and 25.5x25.5 is the pattern frames are sold for. power_levels_mw keeps the steps stated in milliwatts; the list also carries an 'RCE' step with no figure."
+  },
+  {
+   "type": "vtx",
+   "brand": "Happymodel",
+   "model": "OVX306",
+   "slug": "happymodel-ovx306",
+   "specs": {
+    "frequency_range": "5.8 GHz",
+    "system": "analog",
+    "max_power_mw": 400,
+    "power_levels_mw": "0 / 25 / 100 / 400",
+    "channels": 48,
+    "mount_mm": "25.5x25.5mm",
+    "weight_g": 1.5,
+    "input_voltage": "5V"
+   },
+   "sources": [
+    "https://www.happymodel.cn/index.php/2022/02/25/happymodel-ovx306-openvtx-5-8g-48ch-400mw-vtx-replacement-of-whoop_vtx/"
+   ],
+   "note": "Happymodel's own product post prints the labelled block: Model: OVX306, Frequency: 5.8G 48CH, Transmitting Power: 0/RCE/25mw/100mw/400mw, Power supply: DC 5V, Current (5v): <650ma (400mw), Weight: 1.5gram without antenna, Center distance of mounting holes: 25.5mmx25.5mm. power_levels_mw keeps only the steps the page states in milliwatts - the list also carries a step labelled 'RCE' between 0 and 25 whose power is never given a figure. frequency_range keeps the 5.8 GHz class label this column uses for the band; the two Betaflight vtxtables pasted on the same page (SmartAudio and Tramp) run from 5333 MHz (LOWRACE L1) to 5917 MHz (Raceband R8). No antenna connector is recorded: the page says only that the module is 'the same size as whoop_vtx and whoop_vtx_hp, and the interface are also exactly the same', which is a compatibility statement about two other boards and not this one's own spec. Sold as the replacement for the discontinued whoop_VTX and whoop_VTX_hp, and the transmitter the Cine8 kit has shipped with since 25 Feb 2022. Runs the open-source OpenVTx firmware, so both SmartAudio and Tramp are supported and detected automatically."
+  },
+  {
+   "type": "vtx",
+   "brand": "Happymodel",
+   "model": "Whoop_VTX",
+   "slug": "happymodel-whoop-vtx",
+   "specs": {
+    "frequency_range": "5.8 GHz",
+    "system": "analog",
+    "max_power_mw": 200,
+    "power_levels_mw": "25 / 100 / 200",
+    "channels": 40,
+    "antenna_connector": "U.FL",
+    "weight_g": 2.0,
+    "input_voltage": "3.3-5.5V"
+   },
+   "sources": [
+    "https://www.happymodel.cn/index.php/2018/12/21/whoop_vtx-5-8g-40ch-25mw200mw-switchable-vtx-for-brushed-brushles-whoop/",
+    "https://www.happymodel.cn/wp-content/uploads/2019/01/5.8G-25-200mw-switchable-Whoop_VTX-Manual.pdf"
+   ],
+   "note": "Happymodel's product post prints the block: Output power: 25~200mw switchable, Frequency: 40CH, Input voltage: 3.3V 5.5V, Current consumption: 300mA(type), Antenna: RG178 antenna U.FL interface, Frequency: 5.8GHz 5bands 40 channels, With Raceband, Smartaudio ready, Weight: 2g without antenna. input_voltage is that line read as the range it prints without a separator. power_levels_mw is off the one-page manual, which labels the board's three power test points 25MW, 100MW and 200MW and prints the 5-band 40-channel table (Band1 5865-5725, Band5/Raceband 5658-5917 MHz). The same manual carries a warning worth repeating: 'In the Smartaudio control menu, the vtx power is actually 200mw when it shows 500mw and it's actually 100mw when it shows 200mw' - this radio's own on-screen menu prints power steps it does not have, so an OSD photograph is not a source for this column. Discontinued; Happymodel names the OVX306 as the replacement."
+  },
+  {
+   "type": "vtx",
+   "brand": "Happymodel",
+   "model": "Whoop_VTX_HP",
+   "slug": "happymodel-whoop-vtx-hp",
+   "specs": {
+    "frequency_range": "5.8 GHz",
+    "system": "analog",
+    "max_power_mw": 400,
+    "channels": 40,
+    "antenna_connector": "U.FL",
+    "input_voltage": "5V"
+   },
+   "sources": [
+    "https://www.happymodel.cn/index.php/2021/01/03/happymodel-5-8g-40ch-25mw400mw-vtx-for-cine8-and-brushless-whoop/"
+   ],
+   "note": "Happymodel's product post prints the block: Brand name: happymodel, Item name: whoop_VTX_hp, Output power: 25~400mw switchable, Frequency: 40CH, Input voltage: 5V, Current consumption: 400mA(type), Antenna: directional linear U.FL interface, Frequency: 5.8GHz 5bands 40 channels, With Raceband, Smartaudio ready, Weight: 2.8g with antenna. weight_g is deliberately empty: the only weight the page states includes the antenna, and every other weight in this column is the module without one. The 'Package included' line on the same page reads '1x happymodel whoop_VTX_hp 5.8G 40CH 25mW~200mW Switchable VTX' - the non-HP board's figure copied into the HP's packing list; the post title, the spec block and the discontinuation notice all say 25~400 mW, so the packing list is the error. power_levels_mw is empty because the page states a range and no steps. Discontinued, with the OVX306 named as the replacement; this is the transmitter the Cine8 kit shipped with before 25 Feb 2022."
   },
   {
    "type": "vtx",
