@@ -1160,8 +1160,8 @@
   },
   {
    "type": "vtx",
-   "brand": "RunCam",
-   "model": "SpeedyBee TX800 20x20 25-800mW 5.8GHz - MMCX",
+   "brand": "SpeedyBee",
+   "model": "TX800 20x20 25-800mW 5.8GHz - MMCX",
    "slug": "runcam-speedybee-tx800-20x20-25-800mw-5-8ghz-mmcx",
    "specs": {
     "frequency_range": "5.8 GHz",
@@ -1170,12 +1170,19 @@
     "mount_mm": "20x20mm",
     "antenna_connector": "MMCX",
     "weight_g": 5.6,
-    "price_usd": 51.99
+    "price_usd": 51.99,
+    "channels": 40,
+    "input_voltage": "3.7-5V",
+    "power_levels_mw": "25 / 200 / 400 / 800"
    },
    "_scraped_at": "2026-09-23",
    "sources": [
-    "https://www.racedayquads.com/products/speedybee-tx800-20x20-25-800mw-5-8ghz-vtx-mmcx"
-   ]
+    "https://www.racedayquads.com/products/speedybee-tx800-20x20-25-800mw-5-8ghz-vtx-mmcx",
+    "https://store-fhxxhuiq8q.mybigcommerce.com/product_images/TX800/TX800-manual_EN.pdf",
+    "https://docs.speedybee.cn/en/fpv/vtx_vrx/tx800/how-to-unlock-or-lock-the-tx800-switch-channels-and-bands-and-change-increase-ou.html",
+    "https://www.speedybee.com/tx800-download/"
+   ],
+   "note": "Brand corrected from RunCam to SpeedyBee: the board's own silkscreen reads SpeedyBee TX800, SpeedyBee sells it and hosts its manual, and RunCam is the vendor field of the RaceDayQuads listing the scrape read - a shop's supplier, not the part's manufacturer. The slug still carries the wrong brand because a published URL does not move. Cited against SpeedyBee's own TX800 user manual, which prints: Power in 3.7-5V, Power out 5V, board 28x28mm with the four holes on a 20x20mm pattern, 'Long press 5 seconds to enter POWER mode; each 5-second press switches to 25/200/400/800mW in sequence', and a 5-band 8-channel frequency table (A, B, E, Airwave, Race Band) running 5645-5945 MHz - 40 channels, which is what channels holds. frequency_range keeps the 5.8 GHz class label this column uses for the band. SpeedyBee's knowledge base repeats the four power steps per LED state but heads the band question 'switch between Band1/2/3/4/5/6' - six bands is the TX ULTRA's table, not this radio's, so a brand's FAQ can carry a sibling's figure the way a retail listing can. Discontinued: the TX800 is gone from speedybee.com's catalogue and survives only in the downloads and the knowledge base. Brand corrected from RunCam to SpeedyBee: the board's own silkscreen reads SpeedyBee TX800, SpeedyBee sells it and hosts its manual, and RunCam is the vendor field of the RaceDayQuads listing the scrape read - a shop's supplier, not the part's manufacturer. The slug still carries the wrong brand because a published URL does not move, and model_set drops the 'SpeedyBee' the title carried: clean_model() strips the brand it was given, so a corrected brand leaves its own name printed twice. Cited against SpeedyBee's own TX800 user manual, which prints: Power in 3.7-5V, Power out 5V, board 28x28mm with the four holes on a 20x20mm pattern, 'Long press 5 seconds to enter POWER mode; each 5-second press switches to 25/200/400/800mW in sequence', and a 5-band 8-channel frequency table (A, B, E, Airwave, Race Band) running 5645-5945 MHz - 40 channels, which is what channels holds. frequency_range keeps the 5.8 GHz class label this column uses for the band. SpeedyBee's knowledge base repeats the four power steps per LED state but heads the band question 'switch between Band1/2/3/4/5/6' - six bands is the TX ULTRA's table, not this radio's, so a brand's FAQ can carry a sibling's figure the way a retail listing can. Discontinued: the TX800 is gone from speedybee.com's catalogue and survives only in the downloads and the knowledge base."
   },
   {
    "type": "vtx",
