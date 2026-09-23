@@ -4,12 +4,12 @@
   "motors": 207,
   "quads": 101,
   "batteries": 327,
-  "props": 207,
+  "props": 209,
   "stacks": 112,
   "cameras": 50,
   "vtx": 80
  },
- "total": 1084,
+ "total": 1086,
  "site": "https://fpv-db.com/data/",
  "license": "CC-BY-4.0"
 }
