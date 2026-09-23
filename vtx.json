@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-22",
- "count": 72,
+ "generated": "2026-09-23",
+ "count": 79,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -343,15 +343,98 @@
     "frequency_range": "5.8 GHz",
     "system": "HDZero",
     "max_power_mw": 200,
-    "mount_mm": "20x20mm",
+    "mount_mm": "20x20mm M3",
     "antenna_connector": "U.FL",
     "weight_g": 6.3,
-    "price_usd": 81.49
+    "price_usd": 81.49,
+    "power_levels_mw": "25 / 200",
+    "input_voltage": "8-26V (3-6S)"
    },
    "_scraped_at": "2026-09-22",
    "sources": [
-    "https://www.racedayquads.com/products/foxeer-hdzero-hd-720p-25-200mw-digital-vtx-race-edition"
-   ]
+    "https://www.racedayquads.com/products/foxeer-hdzero-hd-720p-25-200mw-digital-vtx-race-edition",
+    "https://www.foxeer.com/foxeer-hdzero-hd-720p-digital-vtx-race-edition-g-509"
+   ],
+   "note": "Second source 2026-09-23: Foxeer's own product page for this transmitter (SKU MR1715) prints the full block the retail listing paraphrases - 1280*720@60fps, RF power 25mw/200mw, 'Secured UFL' connector, 4-lane MIPI CSI YUV422 camera interface, 32x34x6 mm, 6.3 g, 410 mA at 12 V, 8~26V (3~6S) in, and 'Mounting: 20mm x 20mm phi4 M3'. It confirms the 200 mW and the 6.3 g already published and adds the input voltage, the two power steps and the M3 screw size on the 20x20 pattern."
+  },
+  {
+   "type": "vtx",
+   "brand": "Foxeer",
+   "model": "Reaper 3.3GHz 4W",
+   "slug": "foxeer-reaper-3-3ghz-4w",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 4000,
+    "power_levels_mw": "250 / 500 / 1000 / 2000 / 4000",
+    "frequency_range": "3.17-3.63 GHz",
+    "input_voltage": "9-36V",
+    "mount_mm": "20x20mm M2",
+    "channels": 40,
+    "weight_g": 29.8
+   },
+   "sources": [
+    "https://www.foxeer.com/foxeer-reaper-3-3g-4w-40ch-vtx-tramp-g-598"
+   ],
+   "note": "Foxeer's own spec table (SKU MR1847, 'Name: Reaper 3.3G 4W VTx'): 9~36V in, 5V out, Tramp control, 40CH, 250mW/500mW/1W/2W/4W, 29.8 g, 50*34*14.5 mm, 'Mounting Hole: 2 Groups/20*20mm M2 2.5mm depth' (two 20x20 groups, i.e. it bolts to a 20x20 stack either way round), fan, 2.1 A at 10 V. frequency_range is the span of the page's own channel table - five bands of eight from 3170 MHz (band E ch1) to 3630 MHz (band C ch8) - rather than the '3.3G' of the title, which is the class label. A 3.3 GHz link needs a licence in most countries; check local rules before transmitting."
+  },
+  {
+   "type": "vtx",
+   "brand": "Foxeer",
+   "model": "Reaper Extreme 1.8W 5.8GHz",
+   "slug": "foxeer-reaper-extreme-1-8w-5-8ghz",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 1800,
+    "power_levels_mw": "25 / 200 / 500 / 1000 / 1800",
+    "frequency_range": "5.8 GHz",
+    "input_voltage": "9-36V",
+    "mount_mm": "20x20mm M2",
+    "channels": 72,
+    "weight_g": 13.0
+   },
+   "sources": [
+    "https://www.foxeer.com/foxeer-5-8g-reaper-extreme-1-8w-72ch-vtx-g-574"
+   ],
+   "note": "Foxeer's own spec table (SKU MR1828, 'Name: Reaper Extreme 1.8W'): 9~36V in, 5V out, 72CH, 25mW/200mW/500mW/1W/1.8W, 13 g, 36*27.5*8 mm, mounting hole 20*20mm M2 2.8 mm deep, 850 mA at 10 V at full power. Same shell and same nine bands (5325-5945 MHz in the page's frequency table) as the 5.8 GHz Reaper Extreme V2; the amplifier is the difference. antenna_connector is empty: the table names no connector. Out of stock at Foxeer on 2026-09-23."
+  },
+  {
+   "type": "vtx",
+   "brand": "Foxeer",
+   "model": "Reaper Extreme 3W V2 4.9-6.0GHz",
+   "slug": "foxeer-reaper-extreme-3w-v2-4-9-6-0ghz",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 3000,
+    "power_levels_mw": "25 / 200 / 500 / 1500 / 3000",
+    "frequency_range": "4.9-6.0 GHz",
+    "input_voltage": "9-36V",
+    "channels": 80,
+    "weight_g": 15.2
+   },
+   "sources": [
+    "https://www.foxeer.com/foxeer-4-9-6g-reaper-extreme-3w-80ch-vtx-g-576"
+   ],
+   "note": "Every figure from the spec table on Foxeer's own product page (SKU MR1831), whose 'Name' row reads 'Reaper Extreme 3W V2': 9~36V in, 5V out for the camera, 80CH, 25mW/200mW/500mW/1.5W/3W, 15.2 g, 38*29.2*11.5 mm, 1.4 A at 10 V, and 'Fan: Yes' - the only Extreme with active cooling. The 80 channels are ten bands of eight in the page's own frequency table, running from 4990 MHz (band X ch1) to 5945 MHz (band E ch8); band X and the L/U/O bands below 5.62 GHz are what a 72-channel 5.8 GHz-only Extreme does not have. mount_mm is empty because this page prints no mounting line at all - the 2.5 W Extreme's 20*20mm M2 is not copied onto it. antenna_connector likewise: the table names no connector. Betaflight accepts 64 channels, so two bands have to be dropped before the table is loaded (Foxeer's own note)."
+  },
+  {
+   "type": "vtx",
+   "brand": "Foxeer",
+   "model": "Reaper Extreme V2 2.5W 5.8GHz",
+   "slug": "foxeer-reaper-extreme-v2-2-5w-5-8ghz",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 2500,
+    "power_levels_mw": "25 / 200 / 500 / 1500 / 2500",
+    "frequency_range": "5.8 GHz",
+    "input_voltage": "9-36V",
+    "mount_mm": "20x20mm M2",
+    "channels": 72,
+    "weight_g": 13.0
+   },
+   "sources": [
+    "https://www.foxeer.com/foxeer-5-8g-reaper-extreme-v2-2-5w-72ch-vtx-g-566"
+   ],
+   "note": "Foxeer's own spec table (SKU MR1819, 'Name: Reaper Extreme V2'): 9~36V in, 5V out, 72CH, 25mW/200mW/500mW/1.5W/2.5W with the red LED flashing 1-5 times to show the step, 13 g, 36*27.5*8 mm, mounting hole 20*20mm M2 2.8 mm deep, 1.2 A at 9 V. This is the 5.8 GHz-only V2, nine bands of eight running 5325-5945 MHz in the page's frequency table (A/B/E/F/R/H/L/U/O) - not the 80-channel 4.9-6.0 GHz Extreme we carry separately, whose tenth band starts at 4990 MHz. The O band is left out of the default table because Betaflight accepts 64 channels. antenna_connector is empty: the table names no connector. Out of stock at Foxeer on 2026-09-23."
   },
   {
    "type": "vtx",
@@ -370,10 +453,10 @@
     "weight_g": 13.0
    },
    "sources": [
-    "https://www.foxeer.com/foxeer-5-8g-reaper-extreme-v2-2-5w-72ch-vtx-g-566",
-    "https://www.arrishobby.com/products/foxeer-49g6g-reaper-extreme-v2-25w-80ch-vtx-with-mmcx-conenctor"
+    "https://www.arrishobby.com/products/foxeer-49g6g-reaper-extreme-v2-25w-80ch-vtx-with-mmcx-conenctor",
+    "https://www.foxeer.com/foxeer-4-9g-6g-reaper-extreme-v3-2-5w-80ch-vtx-g-591"
    ],
-   "note": "Wideband version of the Reaper Extreme: 80 channels spread over 4.9-6.0 GHz instead of the 40-72 channels of the 5.8 GHz-only model. 36x27.5x8 mm CNC shell, 5 V BEC for the camera, built-in microphone, 1.2 A draw at 9 V. Retailer spec blocks disagree on the top step - some list 1.5 W as the maximum while the model is sold as 2.5 W; Foxeer's own manual gives the five steps recorded here."
+   "note": "Wideband version of the Reaper Extreme: 80 channels spread over 4.9-6.0 GHz instead of the 40-72 channels of the 5.8 GHz-only model. 36x27.5x8 mm CNC shell, 5 V BEC for the camera, built-in microphone, 1.2 A draw at 9 V. Retailer spec blocks disagree on the top step - some list 1.5 W as the maximum while the model is sold as 2.5 W; Foxeer's own manual gives the five steps recorded here. Second source 2026-09-23: Foxeer's own catalogue. The foxeer.com link this page used to carry (g-566) is the 5.8 GHz 72-channel Reaper Extreme V2, a different module with its own page here; the part Foxeer sells as the 80-channel 4.9G~6G 2.5W module is listed as 'Reaper Extreme V3' (SKU MR1844) and its spec table matches every value on this page - 9~36V in, 5V out, 80CH, 25mW/200mW/500mW/1.5W/2.5W, 13 g, 20*20mm M2 2.8 mm deep, 36*27.5*8 mm, 1.2 A at 9 V. Retailers sell the same module as 'Reaper Extreme V2 4.9G-6G 2.5W', which is the name this page was created under and the name a buyer searches; whether the page should be renamed to V3 is recorded as a question for a human rather than guessed at"
   },
   {
    "type": "vtx",
@@ -384,15 +467,61 @@
     "system": "analog",
     "max_power_mw": 10000,
     "frequency_range": "4.9-6.0 GHz",
-    "power_levels_mw": "400 / 2000 / 5000 / 7500 / 10000",
-    "input_voltage": "2-8S LiPo",
+    "power_levels_mw": "1000 / 2500 / 5000 / 7500 / 10000",
+    "input_voltage": "9-36V",
     "channels": 80,
-    "antenna_connector": "SMA"
+    "antenna_connector": "SMA",
+    "mount_mm": "20x20mm M2",
+    "weight_g": 48.0
    },
    "sources": [
-    "https://qwinout.com/products/foxeer-4-9g-6g-reaper-infinity-5-8g-10w-80cn-vtx-2-8s-lipo-400mw-2w-5w-7-5w-10w-switchable-transmitter-for-long-range-rc-fpv-1"
+    "https://qwinout.com/products/foxeer-4-9g-6g-reaper-infinity-5-8g-10w-80cn-vtx-2-8s-lipo-400mw-2w-5w-7-5w-10w-switchable-transmitter-for-long-range-rc-fpv-1",
+    "https://www.foxeer.com/foxeer-4-9g-6g-reaper-infinity-10w-80ch-vtx-g-587",
+    "https://www.foxeer.com/foxeer-4-9g-6g-reaper-infinity-v2-10w-80ch-vtx-g-622"
    ],
-   "note": "The 10 W step of the Infinity line. Output at this level is far above what most countries allow unlicensed on 5.8 GHz - check local rules before transmitting. Weight is not published consistently across listings, so it is left out rather than guessed."
+   "note": "The 10 W step of the Infinity line. Output at this level is far above what most countries allow unlicensed on 5.8 GHz - check local rules before transmitting. Weight was left out until the manufacturer stated it, because the retail listings disagreed. Second source 2026-09-23, Foxeer's own spec table (SKU MR1841), and it corrects two values: the power steps are 1W/2.5W/5W/7.5W/10W, not the 400mW/2W/5W/7.5W/10W a retailer listed, and the input is 9~36V rather than '2-8S LiPo' (9 V rules 2S out). weight_g 48 g and mounting hole 20*20mm M2 with 2.5 mm depth are new, as is the 66*37*16 mm body and the 3.3 A it draws at 10 V. Foxeer lists a 'Reaper Infinity V2 10W' beside it (SKU MR1880) whose spec table is identical except for the control cable - GH1.25 8P against 6P - so both SKUs are cited on this one page rather than split into two pages differing in a connector"
+  },
+  {
+   "type": "vtx",
+   "brand": "Foxeer",
+   "model": "Reaper Infinity 5W 5.8GHz 40CH",
+   "slug": "foxeer-reaper-infinity-5w-5-8ghz-40ch",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 5000,
+    "power_levels_mw": "50 / 500 / 1000 / 2500 / 5000",
+    "frequency_range": "5.8 GHz",
+    "input_voltage": "9-36V",
+    "mount_mm": "20x20mm M2",
+    "channels": 40,
+    "antenna_connector": "SMA",
+    "weight_g": 58.0
+   },
+   "sources": [
+    "https://www.foxeer.com/foxeer-5-8g-reaper-infinity-5w-40ch-vtx-g-531"
+   ],
+   "note": "The original 40-channel Infinity, from Foxeer's own spec table (SKU MR1796, 'Name: Reaper Infinity'): 9~36V in, 5V out, 40CH, 50mW/500mW/1000mW/2500mW/5000mW, 58 g, 72*41*17 mm, mounting hole 20*20mm M2, SMA, 3 A at 9 V or 0.8 A at 36 V. Five bands of eight (A/B/E/F/R) running 5645-5945 MHz. This is where the 58 g that used to sit on our 4.9-6.0 GHz Infinity V2 5W page came from - that module is 48 g by Foxeer's own table. Out of stock at Foxeer on 2026-09-23."
+  },
+  {
+   "type": "vtx",
+   "brand": "Foxeer",
+   "model": "Reaper Infinity 7.2GHz 10W",
+   "slug": "foxeer-reaper-infinity-7-2ghz-10w",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 10000,
+    "power_levels_mw": "1000 / 2500 / 5000 / 7500 / 10000",
+    "frequency_range": "6.1-7.2 GHz",
+    "input_voltage": "9-36V",
+    "mount_mm": "20x20mm M2",
+    "channels": 64,
+    "antenna_connector": "SMA",
+    "weight_g": 50.0
+   },
+   "sources": [
+    "https://www.foxeer.com/foxeer-reaper-infinity-7-2g-64ch-fpv-vtx-g-621"
+   ],
+   "note": "Foxeer's own spec table (SKU MR1879), whose 'Name' row reads 'Reaper 7.2G 10W VTX' while the product title says Reaper Infinity 7.2G: 9~36V in, 5V out, 64CH, 1W/2.5W/5W/7.5W/10W, 50 g, 66.5*37*16.5 mm, 'Mounting Hole: 2 Groups/20*20mm M2 2.5mm depth', SMA, GH1.25 8P control cable, 4.7 A at 10 V at full power. The eight bands of eight run 6110-7190 MHz, which is the 6.1-7.2 GHz recorded here; one figure in the table is out of sequence (band H ends '7170 7190 7120' where every other row steps +20 MHz), so the top edge is taken from the 7190 MHz that fits the step and the anomaly is recorded rather than corrected. 10 W at 7 GHz is licensed spectrum almost everywhere - check local rules before transmitting."
   },
   {
    "type": "vtx",
@@ -407,13 +536,15 @@
     "input_voltage": "9-36V (3-8S)",
     "channels": 80,
     "antenna_connector": "SMA",
-    "weight_g": 58.0
+    "weight_g": 48.0,
+    "mount_mm": "20x20mm M2"
    },
    "sources": [
     "https://pyrodrone.com/products/foxeer-reaper-infinity-5-8g-5w-40ch-vtx-1",
-    "https://druav.com/products/foxeer-4-9g-6g-reaper-infinity-v2-5w-80ch-vtx"
+    "https://druav.com/products/foxeer-4-9g-6g-reaper-infinity-v2-5w-80ch-vtx",
+    "https://www.foxeer.com/foxeer-4-9g-6g-reaper-infinity-v2-5w-80ch-vtx-g-588"
    ],
-   "note": "Long-range transmitter: 41x20x17 mm, 58 g including the heatsink, 5 V output for the camera. The V2 widens the original 5.8 GHz 40-channel model to 4.9-6.0 GHz and 80 channels."
+   "note": "Long-range transmitter: 66x37x16 mm, 48 g, 5 V output for the camera. The V2 widens the original 5.8 GHz 40-channel model to 4.9-6.0 GHz and 80 channels. Corrected 2026-09-23 against Foxeer's own spec table (SKU MR1839): weight_g was 58 g and is 48 g, and the '41x20x17 mm' in the note above was wrong too - the module is 66*37*16 mm. 58 g and 72*41*17 mm are the figures for the *original* 40-channel 5.8 GHz Infinity, which has its own page here, so the retail listings this page was built from were partly describing that part. The rest of the table confirms what was already published: 9~36V in, 5V out, 80CH, 1W/2W/3W/4W/5W, SMA, GH1.25 6P control cable, 2.3 A at 10 V. mount_mm (20*20mm M2 with 2.5 mm depth) is new from the same table"
   },
   {
    "type": "vtx",
@@ -431,7 +562,27 @@
    "_scraped_at": "2026-09-22",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-reaper-nano-25-350mw-5-8g-micro-vtx-u-fl"
-   ]
+   ],
+   "note": "This is the 40-channel Reaper Nano. Foxeer's own catalogue (checked 2026-09-23) no longer lists it - what it sells is the 72-channel Reaper Nano V2, which has the same 350 mW ceiling and a different frequency table, and which is a separate page here. No manufacturer citation is added to this page because the page that would be cited describes the other part."
+  },
+  {
+   "type": "vtx",
+   "brand": "Foxeer",
+   "model": "Reaper Nano V2 5.8GHz 72CH",
+   "slug": "foxeer-reaper-nano-v2-5-8ghz-72ch",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 350,
+    "power_levels_mw": "25 / 100 / 200 / 350",
+    "frequency_range": "5.8 GHz",
+    "input_voltage": "5V",
+    "channels": 72,
+    "weight_g": 0.8
+   },
+   "sources": [
+    "https://www.foxeer.com/foxeer-reaper-nano-v2-vtx-5-8g-72ch-350mw-tramp-g-583"
+   ],
+   "note": "Foxeer's own spec table (SKU MR1840, 'Name: Reaper Nano V2'): 5V in, 5V out, 72CH, 25mW/100mW/200mW/350mW, 0.8 g, 12*16 mm, 340 mA at 350 mW, Tramp control. The 72 channels are nine bands of eight running 5325-5945 MHz, which is what separates it from the 40-channel Reaper Nano we carry from the retail scrape - same 350 mW, different frequency table, so the two are separate parts and not one page. mount_mm is empty: 12*16 mm is the board, not a mounting pattern, and the page prints no pattern. antenna_connector is empty for the same reason - Foxeer's table names no connector. Out of stock at Foxeer on 2026-09-23."
   },
   {
    "type": "vtx",
