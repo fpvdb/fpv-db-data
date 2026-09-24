@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-24",
- "count": 115,
+ "count": 131,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -1004,6 +1004,354 @@
     "https://ft.systems/en/video-transmitter-vtx-ft-5-8/"
    ],
    "note": "Ukrainian-made transmitter, 96 channels across 12 bands covering 4867-5945 MHz. 53x28.85x16 mm with an aluminium heatsink and a cooling fan; controlled over IRC Tramp from the flight controller. FT Systems quotes measured RF output of 2200-5080 mW across the range rather than a single figure, because a wideband amplifier does not deliver the same power at every frequency - the 4000 mW here is the nominal setting."
+  },
+  {
+   "type": "vtx",
+   "brand": "GEPRC",
+   "model": "MATEN 1.2G 2W VTX",
+   "slug": "geprc-maten-1-2g-2w-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 2000,
+    "power_levels_mw": "25 / 400 / 800 / 2000",
+    "frequency_range": "1080-1360 MHz",
+    "channels": 9,
+    "input_voltage": "7-36V (2-8S)",
+    "mount_mm": "30.5x30.5mm M3",
+    "antenna_connector": "MMCX",
+    "weight_g": 14.5,
+    "price_usd": 54.99
+   },
+   "sources": [
+    "https://geprc.com/product/geprc-maten-1-2g-2w-vtx/"
+   ],
+   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Every field is a line of the block: 'Output power：25mW/400mW/800mW/2000mW/Pit mode', 'Frequency band：1080MHz-1360MHz', 'Channel customer：9', 'Input voltage：DC7-36V（2-8S Battery）', 'Mounting hole：30.5×30.5mm(M3)', 'Antenna interface：MMCX', 'Weight：14.5g（VTX only）'. The nine channel frequencies are printed out - 1080/1120/1160/1200/1240/1280/1320/1360/1220 MHz - with the ninth (1220) out of sequence at the end. Also stated: size 36.4x36.4x7.4mm, 5V@600mA output, IRC Tramp, PAL/NTSC, sh1.25 6pin cable, 50 ohm antenna port, frequency stability +-100kHz, frequency precision +-200kHz, S/N (Fo+-3MHz) >70dBc, operating temperature -10C to +60C. price_usd is the 'VTX' variation ($54.99); the same page's $5.99 variation is a spare antenna, not a configuration of the radio, which is why the page headlines a $5.99-$54.99 range."
+  },
+  {
+   "type": "vtx",
+   "brand": "GEPRC",
+   "model": "MATEN 1.2G 5W VTX PRO",
+   "slug": "geprc-maten-1-2g-5w-vtx-pro",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 5000,
+    "power_levels_mw": "25 / 400 / 800 / 5000",
+    "frequency_range": "1080-1360 MHz",
+    "channels": 16,
+    "input_voltage": "7-36V (2-8S)",
+    "mount_mm": "20x20mm M2 / 25.5x25.5mm M2",
+    "antenna_connector": "SMA",
+    "weight_g": 48.0,
+    "price_usd": 76.99
+   },
+   "sources": [
+    "https://geprc.com/product/geprc-maten-1-2g-5w-vtx-pro/"
+   ],
+   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Block lines: 'Output Power: 25mW/400mW/800mW/5000mW/Pit mode', 'Frequency Band: 1080MHz-1360MHz', 'Channels: 16CH', 'Mounting Patterns: 20x20mm(M2)，25.5×25.5mm(M2)', 'Input Voltage: DC7-36V（2-8S Battery）', 'Antenna Connector: SMA', 'Weight: 48g（VTX only）'. The sixteen channels are two named groups of eight - A: 1080/1120/1160/1200/1240/1280/1320/1360 and B: 1200/1220/1240/1258/1280/1300/1320/1340 MHz - so the band edges in frequency_range are the brand's own stated span and not the table's. Also stated: dimension 60x33.2x19.1mm, direct frequency entry supported, IRC Tramp, 5V@600mA output, sh1.25 6pin cable."
+  },
+  {
+   "type": "vtx",
+   "brand": "GEPRC",
+   "model": "MATEN 3.3G 3W VTX PRO",
+   "slug": "geprc-maten-3-3g-3w-vtx-pro",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 3000,
+    "power_levels_mw": "25 / 200 / 1600 / 3000",
+    "frequency_range": "3000-3500 MHz",
+    "channels": 48,
+    "input_voltage": "12-36V (3-8S)",
+    "mount_mm": "20x20mm M2 / 25.5x25.5mm M2",
+    "antenna_connector": "MMCX",
+    "weight_g": 37.0,
+    "price_usd": 69.99
+   },
+   "sources": [
+    "https://geprc.com/product/geprc-maten-3-3g-3w-vtx-pro/"
+   ],
+   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Block lines: 'Output power: 25mW/200mW/1600mW/3000mW/Pit mode', 'Frequency: 3000-3500MHz', 'Channel: 48CH', 'Input voltage: DC12-36V（3-8S Battery）', 'Mounting hole: 20x20mm(M2),25.5×25.5mm(M2)', 'Antenna interface: MMCX', 'Weight: 37g', 'Size: 50×31.5×17.5mm'. The page also prints the six eight-channel bands A-F, whose real edges are 3083 and 3495 MHz - narrower than the round 3000-3500 the spec line states, which is the figure recorded here because it is the brand's own answer for this field. price_usd is the list price; on 2026-09-24 the page showed it struck through at $69.99 with a $59.99 promotion, and a promotion is not the catalogue price."
+  },
+  {
+   "type": "vtx",
+   "brand": "GEPRC",
+   "model": "MATEN 3.3G 4W VTX PRO",
+   "slug": "geprc-maten-3-3g-4w-vtx-pro",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 4000,
+    "power_levels_mw": "25 / 200 / 1600 / 4000",
+    "frequency_range": "3000-3500 MHz",
+    "channels": 48,
+    "input_voltage": "12-36V (3-8S)",
+    "mount_mm": "20x20mm M2 / 25.5x25.5mm M2",
+    "antenna_connector": "SMA",
+    "weight_g": 36.0,
+    "price_usd": 69.99
+   },
+   "sources": [
+    "https://geprc.com/product/geprc-maten-3-3g-4w-vtx-pro/"
+   ],
+   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Block lines: 'Output power: 25mW/200mW/1600mW/4000mW/Pit mode', 'Frequency: 3000-3500MHz', 'Channel: 48CH', 'Input voltage: DC12-36V（3-8S Battery）', 'Mounting hole: 20x20mm(M2),25.5×25.5mm(M2)', 'Antenna interface: SMA', 'Weight: 36g', 'Size: 57×31.5×17.5mm'. Same six A-F bands (3083-3495 MHz) as the 3 W model, and the same round 3000-3500 on the spec line; this SKU differs from it in the amplifier, the SMA pigtail and 7mm of length."
+  },
+  {
+   "type": "vtx",
+   "brand": "GEPRC",
+   "model": "MATEN 3.3G 5W VTX PRO",
+   "slug": "geprc-maten-3-3g-5w-vtx-pro",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 5000,
+    "power_levels_mw": "25 / 200 / 1600 / 5000",
+    "frequency_range": "3083-3495 MHz",
+    "channels": 48,
+    "input_voltage": "7-36V (2-8S)",
+    "mount_mm": "20x20mm M2",
+    "antenna_connector": "SMA",
+    "weight_g": 28.4,
+    "price_usd": 79.99
+   },
+   "sources": [
+    "https://geprc.com/product/geprc-maten-3-3g-5w-vtx-pro/"
+   ],
+   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Block lines: 'Output Power: 25mW/200mW/1600mW/5000mW/Pit mode', 'Frequency Range: 3083-3495MHz', 'Channels: 48CH', 'Input Voltage: DC7-36V（2-8S Battery）', 'Mounting Pattern: 20x20mm(M2)', 'Antenna Connector: SMA', 'Weight: 28.4g (VTX only)', 'Dimension: 53x30x16.7mm'. This is the one page of the 3.3G line where the brand states the band's real edges rather than the round 3000-3500 - the same six A-F channel groups are printed below it and they run 3083 to 3495 MHz exactly. It is also the lightest and the widest-input of the three, and the only one with a single mounting pattern."
+  },
+  {
+   "type": "vtx",
+   "brand": "GEPRC",
+   "model": "MATEN 5.8G 1.6W VTX",
+   "slug": "geprc-maten-5-8g-1-6w-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 1600,
+    "power_levels_mw": "25 / 200 / 600 / 1600",
+    "frequency_range": "5.8 GHz",
+    "channels": 72,
+    "input_voltage": "7-36V (2-8S)",
+    "mount_mm": "30.5x30.5mm M3",
+    "antenna_connector": "MMCX",
+    "weight_g": 17.5,
+    "price_usd": 47.99
+   },
+   "sources": [
+    "https://geprc.com/product/geprc-maten-5-8g-1-6w-vtx/"
+   ],
+   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Block lines: 'Output power：25mW/200mW/600mW/1600mW/Pit mode', 'Frequency：5.8G', 'Channel：72CH', 'Input voltage：DC7-36V（2-8S Battery）', 'Mounting hole：30.5×30.5mm(M3)', 'Antenna interface：MMCX', 'Weight：17.5g', 'Dimension：36.4×36.4×7.9mm'. frequency_range holds the brand's class label because '5.8G' is the whole of what this page states - no channel table and no span. Also stated: built-in microphone, PAL/NTSC, IRC Tramp, SH1.0 6pin cable, 5V@600mA output."
+  },
+  {
+   "type": "vtx",
+   "brand": "GEPRC",
+   "model": "MATEN 5.8G 10W VTX PRO",
+   "slug": "geprc-maten-5-8g-10w-vtx-pro",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 10000,
+    "power_levels_mw": "25 / 2500 / 5000 / 10000",
+    "frequency_range": "4884-6184 MHz",
+    "channels": 104,
+    "input_voltage": "12-36V (3-8S)",
+    "mount_mm": "20x20mm M2 / 30.5x30.5mm M3",
+    "antenna_connector": "SMA",
+    "weight_g": 110.0,
+    "price_usd": 149.99
+   },
+   "sources": [
+    "https://geprc.com/product/geprc-maten-5-8g-10w-vtx-pro/"
+   ],
+   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Block lines: 'Output Power: 25mW/2.5W/5W/10W/Pit mode', 'Frequency：4884-6184MHz', 'Channels: 104CH', 'Input Voltage: DC12-36V（3-8S Battery）', 'Mounting Hole Size:20x20mm(M2),30.5×30.5mm(M3)', 'Antenna Connector: SMA', 'Weight: 110g（VTX only）', 'Dimension: 78.5×43.6×25.3mm', 'Peak Operating Current：3.5A'. Every one of those figures is repeated in the page's own specification *image*, which also prints the 104 channels as thirteen bands (A, B, E, F, R, L, U, O, H, X, J, K, Z) running 4884 MHz at J CH1 to 6184 MHz at Z CH8 - the stated span is the table's edges exactly, and the image carries a note that a Betaflight configurator can only address 64 of the 104. Checking the infographic against the text was the seventeenth burst's HGLRC rule; on this brand the two agree."
+  },
+  {
+   "type": "vtx",
+   "brand": "GEPRC",
+   "model": "MATEN 5.8G 2.5W VTX",
+   "slug": "geprc-maten-5-8g-2-5w-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 2500,
+    "power_levels_mw": "25 / 200 / 600 / 1600 / 2500",
+    "frequency_range": "5.8 GHz",
+    "channels": 72,
+    "input_voltage": "7-36V (2-8S)",
+    "mount_mm": "30.5x30.5mm M3",
+    "antenna_connector": "MMCX",
+    "weight_g": 18.0,
+    "price_usd": 52.99
+   },
+   "sources": [
+    "https://geprc.com/product/geprc-maten-5-8g-2-5w-vtx/"
+   ],
+   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Block lines: 'Output power：25mW/200mW/600mW/1600mW/2500mW/Pit mode', 'Frequency：5.8G', 'Channel：72CH', 'Input voltage：DC7-36V（2-8S Battery）', 'Mounting hole：30.5×30.5mm(M3)', 'Antenna interface：MMCX', 'Weight：18g', 'Dimension：36.4×36.4×7.9mm'. The same board as the 1.6W model above - identical size, mount, channel count and connector, half a gram apart - with one more power step. frequency_range holds the class label for the same reason: the page states '5.8G' and nothing narrower."
+  },
+  {
+   "type": "vtx",
+   "brand": "GEPRC",
+   "model": "MATEN 5.8G 2.5W VTX PRO",
+   "slug": "geprc-maten-5-8g-2-5w-vtx-pro",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 2500,
+    "power_levels_mw": "25 / 200 / 600 / 1600 / 2500",
+    "frequency_range": "4884-6184 MHz",
+    "channels": 80,
+    "input_voltage": "7-36V (2-8S)",
+    "mount_mm": "20x20mm M2 / 30.5x30.5mm M2",
+    "antenna_connector": "MMCX",
+    "weight_g": 20.0,
+    "price_usd": 59.9
+   },
+   "sources": [
+    "https://geprc.com/product/geprc-maten-5-8g-2-5w-vtx-pro/"
+   ],
+   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Block lines: 'Output power: 25mW/200mW/600mW/1600mW/2500mW/Pit mode', 'Frequency: 4884-6184MHz', 'Channel: 80CH', 'Input voltage: DC7-36V（2-8S Battery）', 'Mounting hole: 20x20mm(M2),30.5×30.5mm(M2)', 'Antenna interface: MMCX', 'Weight: 20g', 'Size: 36.3×36.3×15.1mm'. mount_mm records the M2 the brand prints against both patterns, including the 30.5mm one where M3 is the usual thread - it is the page's own text and the prose above it repeats it. This page is the only one in the line that carries a changelog, and it is worth reading as a record of what the same SKU has been: channels 48 -> 72 on 2024-01-12, the red shell discontinued for a silver one on 2024-03-08, and the 4.9G X group plus direct frequency entry added on 2025-11-27 - which is why the spec line now says 80CH and starts at 4884 MHz. The two colour variations are priced identically, so price_usd is not a variant figure."
+  },
+  {
+   "type": "vtx",
+   "brand": "GEPRC",
+   "model": "MATEN 5.8G 3W VTX PRO",
+   "slug": "geprc-maten-5-8g-3w-vtx-pro",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 3000,
+    "power_levels_mw": "25 / 200 / 600 / 1600 / 3000",
+    "frequency_range": "4.9-5.8 GHz",
+    "channels": 80,
+    "input_voltage": "7-36V (2-8S)",
+    "mount_mm": "20x20mm M2 / 30.5x30.5mm M2",
+    "antenna_connector": "MMCX",
+    "weight_g": 21.1,
+    "price_usd": 69.99
+   },
+   "sources": [
+    "https://geprc.com/product/geprc-maten-5-8g-3w-vtx-pro/"
+   ],
+   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Block lines: 'Output power: 25mW/200mW/600mW/1600mW/3000mW/Pit mode', 'Frequency：4.9G-5.8G', 'Channels: 80CH', 'Input voltage: DC7-36V（2-8S Battery）', 'Mounting Hole Size：20x20mm(M2),30.5×30.5mm(M2)', 'Antenna Connector: MMCX', 'Weight: 21.1g', 'Dimension: 36.3×36.3×15.1mm'. Same shell and mounting as the 2.5W PRO, dual-core amplifier. frequency_range is the brand's own '4.9G-5.8G' written as a span; its 80-channel sibling states the same coverage as 4884-6184MHz, but this page does not, so the figure is not borrowed across pages."
+  },
+  {
+   "type": "vtx",
+   "brand": "GEPRC",
+   "model": "MATEN 5.8G 3W VTX PRO V2",
+   "slug": "geprc-maten-5-8g-3w-vtx-pro-v2",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 3000,
+    "power_levels_mw": "25 / 200 / 600 / 1600 / 3000",
+    "frequency_range": "4884-6184 MHz",
+    "channels": 104,
+    "input_voltage": "7-36V (2-8S)",
+    "mount_mm": "20x20mm M2 / 25.5x25.5mm M2",
+    "weight_g": 35.6,
+    "price_usd": 59.99
+   },
+   "sources": [
+    "https://geprc.com/product/geprc-maten-5-8g-3w-vtx-pro-v2/"
+   ],
+   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Block lines: 'Output Power: 25mW/200mW/600mW/1600mW/3000mW/Pit mode', 'Frequency：4884-6184MHz', 'Channels: 104CH', 'Input Voltage: DC7-36V(2-8S Battery)', 'Mounting Hole Size：20x20mm(M2),25.5×25.5mm(M2)', 'Weight: 35.6g (VTX only)'. antenna_connector is deliberately empty: the block states 'Antenna Connector: MMCX, SMA' and the page sells an MMCX SKU and an SMA SKU at the same $59.99, with the dimension line giving each its own figure ('57.5×31.5×17.5mm(SMA) , 50×31.5×17.5mm(MMCX)'). A connector printed as a choice is two hub versions of one radio, which is the props' mount rule in CLAUDE.md one class over. The V2 is a different radio from the 3W PRO above it, not a revision of the listing: 104 channels against 80, 35.6 g against 21.1 g, and a 25.5mm second pattern where the older board has 30.5mm."
+  },
+  {
+   "type": "vtx",
+   "brand": "GEPRC",
+   "model": "MATEN 5.8G 4W VTX PRO",
+   "slug": "geprc-maten-5-8g-4w-vtx-pro",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 4000,
+    "power_levels_mw": "25 / 200 / 1600 / 4000",
+    "frequency_range": "4800-6200 MHz",
+    "channels": 104,
+    "input_voltage": "7-36V (2-8S)",
+    "mount_mm": "20x20mm M2",
+    "antenna_connector": "SMA",
+    "weight_g": 28.8,
+    "price_usd": 72.99
+   },
+   "sources": [
+    "https://geprc.com/product/geprc-maten-5-8g-4w-vtx-pro/"
+   ],
+   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Block lines: 'Output Power: 25mW/200mW/1600mW/4000mW/Pit mode', 'Frequency: 4800-6200MHz', 'Channels: 104CH', 'Input Voltage: DC7-36V（2-8S Battery）', 'Mounting Hole Size: 20x20mm(M2)', 'Antenna Connector: SMA', 'Weight: 28.8g (VTX only)', 'Dimension: 53.5x29x17.2mm'. The 104-channel siblings state their span as 4884-6184MHz; this page rounds it outward to 4800-6200, and the field takes what this page says rather than the family figure."
+  },
+  {
+   "type": "vtx",
+   "brand": "GEPRC",
+   "model": "MATEN 5.8G 5W VTX PRO",
+   "slug": "geprc-maten-5-8g-5w-vtx-pro",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 5000,
+    "power_levels_mw": "300 / 600 / 1600 / 3000 / 5000",
+    "frequency_range": "4.9-5.8 GHz",
+    "channels": 80,
+    "input_voltage": "7-36V (2-8S)",
+    "mount_mm": "20x20mm M2 / 25.5x25.5mm M2",
+    "antenna_connector": "SMA",
+    "weight_g": 49.5,
+    "price_usd": 89.99
+   },
+   "sources": [
+    "https://geprc.com/product/geprc-maten-5-8g-5w-vtx-pro/"
+   ],
+   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Block lines: 'Output Power: 300mW/600mW/1600mW/3000mW/5000mW/Pit mode', 'Frequency：4.9-5.8GHz', 'Channels: 80CH', 'Input Voltage: DC7-36V（2-8S Battery）', 'Mounting Hole Size：20x20mm(M2),25.5×25.5mm(M2)', 'Antenna Connector: SMA', 'Weight: 49.5g（VTX only）', 'Dimension: 60×33.2×19.1mm'. The lowest step is 300 mW, not the 25 mW every other MATEN starts at, stated identically in the block and in the feature list ('Five adjustable power levels, up to 5000mW') - this module cannot be turned down to a bench-safe power, which is a fact about the part and not a typo to normalise. Same 60×33.2×19.1mm shell as the 1.2G 5W PRO."
+  },
+  {
+   "type": "vtx",
+   "brand": "GEPRC",
+   "model": "RAD MINI 5.8G 1W VTX",
+   "slug": "geprc-rad-mini-5-8g-1w-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 1000,
+    "power_levels_mw": "25 / 200 / 500 / 1000",
+    "frequency_range": "5.362-5.945 GHz",
+    "channels": 48,
+    "mount_mm": "20x20mm",
+    "price_usd": 46.99
+   },
+   "sources": [
+    "https://geprc.com/product/geprc-rad-mini-5-8g-1w-vtx/",
+    "https://geprc.com/wp-content/uploads/2023/08/RAD-MINI-5.8G-1W-VTX-Manual.pdf"
+   ],
+   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. The one transmitter on this brand's site whose product page is images only - the description is thirteen JPEGs and no spec text at all - so it was read off the brand's own RAD MINI 5.8G 1W VTX User Manual (linked from geprc.com/electronics/vtx-manual/), whose page 1 SPECS block gives: 'Installing Hole: 20x20mm φ3mm', 'Output power: Pit/25/200/500/1000mw switchable', 'Channels: 48CH', 'Input Voltage: 7-36V', 'Current: MAX 9V@650mA', 'Antenna: MMCX', 'Frequency: 5.8 GHZ', 'Video Format: PAL/NTSC', 'Control protocol: IRC Tramp', 'Weight: 4.8g (Shell not included)'. The manual is image-only and pypdf extracts nothing; it was rendered through Quartz (CoreGraphics) at 7x, which is the Happymodel qlmanage trick on a machine with no Ghostscript. frequency_range is the manual's own 48-channel table read at full resolution - six bands A/B/E/F/R/L whose edges are 5362 MHz (L CH1) and 5945 MHz (E CH8) - rather than its '5.8 GHZ' row, because the L band runs a long way below the label. **input_voltage is deliberately empty**: the SPECS block says 7-36V and the brand's own photograph of the bare board is silkscreened '7-28V' beside the power pad (read at full resolution, with 'RX / VTX / CAM / GND' above it and '1000mW' beside the 5.8G mark). Two manufacturer statements for one field publish neither - the iFlight BLITZ Whoop rule, arriving this time between a manual and a case label. **antenna_connector is empty for the same reason**: the SPECS block says MMCX and the brand's parts table on the product page ships an 'IPEX copper pipe antenna' and an 'IPEX transfer SMA patch cord'. **weight_g is empty**: the only figure the brand publishes is 4.8 g explicitly excluding the CNC shell that every photograph of this part shows it wearing, so it is not the weight of the thing sold. mount_mm is the 20x20mm pattern; the hole is φ3mm and the description image annotates it '3.05mm' against an 'M2 Thread' in the shell, which is the eleventh burst's rule that the column takes the hole."
+  },
+  {
+   "type": "vtx",
+   "brand": "GEPRC",
+   "model": "RAD Tiny 5.8G 400mW VTX",
+   "slug": "geprc-rad-tiny-5-8g-400mw-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 400,
+    "power_levels_mw": "25 / 200 / 400",
+    "frequency_range": "5.8 GHz",
+    "channels": 48,
+    "input_voltage": "5V",
+    "antenna_connector": "U.FL",
+    "weight_g": 1.1,
+    "price_usd": 26.99
+   },
+   "sources": [
+    "https://geprc.com/product/geprc-rad-tiny-5-8g-400mw-vtx/"
+   ],
+   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Block lines: 'Output power: 25mW/200mW/400mW/PIT MODE', 'Channels: 48CH', 'Input Voltage: DC 5V', 'Antenna: UFL', 'Weight: 1.1g（antenna not included）', 'Dimension: 14mmx18.5mm', 'Control protocol: IRC Tramp', 'Input Impedance: 75Ω', 'Video Format: PAL/NTSC'. mount_mm is empty on purpose: 14x18.5mm is the board's outline and this page states no mounting pattern at all - the seventh burst's mount-holds-body-dimensions rule. frequency_range is the title's class label; the page's only band statement is its button legend, which names A, B, E, F, R and L without frequencies. The output-voltage row reads 'Output Voltage: 5V(Power supply 5V to camera)', so the 5 V here is an input taken from the flight controller and a 5 V feed passed to the camera."
+  },
+  {
+   "type": "vtx",
+   "brand": "GEPRC",
+   "model": "RAD VTX 5.8G 2.5W",
+   "slug": "geprc-rad-vtx-5-8g-2-5w",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 2500,
+    "power_levels_mw": "25 / 200 / 600 / 1600 / 2500",
+    "frequency_range": "5.8 GHz",
+    "channels": 40,
+    "input_voltage": "7-36V (2-8S)",
+    "mount_mm": "30.5x30.5mm M3",
+    "antenna_connector": "MMCX",
+    "weight_g": 15.0,
+    "price_usd": 49.99
+   },
+   "sources": [
+    "https://geprc.com/product/geprc-rad-vtx-5-8g-2-5w/"
+   ],
+   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Block lines: 'Output power: PitMode/25mW/200mW/600mW/1600mW/2500mW', 'Input voltage: DC7-36V（2-8S Battery）', 'Mounting holes: 30.5mm x 30.5mm(M3)', 'Antenna interface: MMCX', 'Size: 36.5mm x 36.5mm x 12mm', 'Weight: 15g (without wire)', 'Input Impedance: 75Ω', 'Protocol: IRC Tramp', 'Microphone: Built-in microphone'. channels takes the brand's general group: the block prints three, 'general regional frequency group (40CH), US FCC frequency group (37CH), European EU frequency group (26CH)', and the smaller two are what the same radio is allowed to use in those regions, not what it has. The weight and size lines arrive one digit per HTML span on this page ('Weight: 1' + '5' + 'g'), which is a page-builder artefact and not two figures. frequency_range is the title's class label; the page states no span."
   },
   {
    "type": "vtx",
