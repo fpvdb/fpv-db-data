@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-24",
- "count": 131,
+ "count": 140,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -77,6 +77,204 @@
    "sources": [
     "https://www.racedayquads.com/products/rdq-mach-3-video-transmitter-25-1000mw-5-8ghz-vtx-choose-version"
    ]
+  },
+  {
+   "type": "vtx",
+   "brand": "Axisflying",
+   "model": "S-MURFS MINI VTX",
+   "slug": "axisflying-s-murfs-mini-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 100,
+    "power_levels_mw": "25 / 50 / 100",
+    "frequency_range": "5.8 GHz",
+    "channels": 40,
+    "input_voltage": "5-25V",
+    "mount_mm": "25.5x25.5mm",
+    "antenna_connector": "IPEX",
+    "weight_g": 3.1,
+    "price_usd": 20.9
+   },
+   "sources": [
+    "https://www.axisflying.com/products/s-murfs-mini-vtx"
+   ],
+   "note": "Read 2026-09-24 off Axisflying's own site, the fourteenth VTX manufacturer catalogue read beside the US retail scrape and the third brand this catalogue carried no transmitter of at all. www.axisflying.com is a UEEShop store with no products.json; its sitemap is named after the domain and is linked only from robots.txt. Its whole transmitter line is /collections/vtx. The brand's own Download Center (/download/vtx) serves six VTX manuals through a public POST (do_action=action.getDownloadCheck), all one-page image-only PDFs rendered here at 6x with Quartz/CoreGraphics. This product page has no description text at all - every figure came off the brand's own description images, read at full resolution. Its Product Specifications panel states Model Smurfs Mini, Frequency Band 5.8G Band / 5 Groups / 40 Channels, Power Levels 25/50/100mW, Antenna Connector IPEX, Input Voltage 5-25V, Configuration Mode Button / OSD, Product Dimensions 30X30mm, Product Weight 3.1g, Mounting Hole Spacing 25.5X25.5mm, VTX Protocol IRC Tramp, Pit Mode Not Supported. Two further panels corroborate it: a photograph of the board on a 0.1g pocket scale reading 3.1, and a dimension drawing annotating 25.5mm and 30mm. The bare PCB is silkscreened 'VTX_100mW' and carries the AXIS FLYING logo. Note that this is the one board in the line whose mounting pattern is not 20x20mm and whose antenna port is not MMCX or SMA."
+  },
+  {
+   "type": "vtx",
+   "brand": "Axisflying",
+   "model": "S-MURFS V2 5.8G 1.6W VTX",
+   "slug": "axisflying-s-murfs-v2-5-8g-1-6w-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 1600,
+    "power_levels_mw": "25 / 100 / 400 / 800 / 1600",
+    "frequency_range": "5.8 GHz",
+    "channels": 48,
+    "input_voltage": "7-36V (2-8S)",
+    "mount_mm": "20x20mm M2",
+    "antenna_connector": "MMCX",
+    "weight_g": 14.2,
+    "price_usd": 44.9
+   },
+   "sources": [
+    "https://www.axisflying.com/products/s-murfs-v2-58g-16w-1",
+    "https://ueeshop.ly200-cdn.com/u_file/UPBG/UPBG828/2604/25/file/SmurfsV2Manual.pdf"
+   ],
+   "note": "Read 2026-09-24 off Axisflying's own site, the fourteenth VTX manufacturer catalogue read beside the US retail scrape and the third brand this catalogue carried no transmitter of at all. www.axisflying.com is a UEEShop store with no products.json; its sitemap is named after the domain and is linked only from robots.txt. Its whole transmitter line is /collections/vtx. The brand's own Download Center (/download/vtx) serves six VTX manuals through a public POST (do_action=action.getDownloadCheck), all one-page image-only PDFs rendered here at 6x with Quartz/CoreGraphics. Page and manual agree on every field: 5.8G band, 6 frequency groups, 48 transmission channels; power levels 25/100/400/800/1600mW; MMCX; input 7V-36V (2-8S); 30*30*9.5mm; 14.2g; mounting 20*20mm with M2 screws; IRC Tramp, button and OSD control. The brand spells the line both 'S-murfs' and 'Smurfs' in the same page (model row 'Smurfs V2', prose 'S-murfs V2') and the manual's case photograph is silkscreened 'SMURFS V2 5.8G 1.6W' under the AXIS FLYING logo, which is also what settles the brand: this is Axisflying's own board, not a rebadge."
+  },
+  {
+   "type": "vtx",
+   "brand": "Axisflying",
+   "model": "TERK 1.2G 2W VTX",
+   "slug": "axisflying-terk-1-2g-2w-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 2000,
+    "power_levels_mw": "0 (pit) / 25 / 400 / 600 / 1000 / 2000",
+    "frequency_range": "1200-1480 MHz",
+    "channels": 8,
+    "input_voltage": "7-28V (2-6S)",
+    "mount_mm": "20x20mm",
+    "antenna_connector": "MMCX",
+    "weight_g": 27.5,
+    "price_usd": 56.9
+   },
+   "sources": [
+    "https://www.axisflying.com/products/12g-2w-analog-vtx"
+   ],
+   "note": "Read 2026-09-24 off Axisflying's own site, the fourteenth VTX manufacturer catalogue read beside the US retail scrape and the third brand this catalogue carried no transmitter of at all. www.axisflying.com is a UEEShop store with no products.json; its sitemap is named after the domain and is linked only from robots.txt. Its whole transmitter line is /collections/vtx. The brand's own Download Center (/download/vtx) serves six VTX manuals through a public POST (do_action=action.getDownloadCheck), all one-page image-only PDFs rendered here at 6x with Quartz/CoreGraphics. This page carries a labelled Specifications table in the page HTML (Model TERK 1.2G 2W VTX, Brand Axisflying, Frequency Band 1.2GHz (1200-1480MHz), Channels 8CH, Transmit Power PIT/25mW/400mW/600mW/1W/2W, Input Voltage 7-28V (2-6S LiPo), Antenna Port MMCX, Mounting Standard 20x20mm, Dimensions 53.79x27.8x13.5mm, Weight ~27.5g excluding antenna), and its description images repeat every figure in the brand's own Parameters table read at full resolution: RF output PIT,25mW,400mW,600mW,1W,2W; Input power 7-28VDC; Current consumption 600mA@12VDC@2W; MMCX; RF impedance 50 ohm; video 75 ohm CVBS 0.8~1.2Vp-p NTSC/PAL; Weight 27.5g. A dimension drawing in the same set annotates 53.79mm x 27.8mm x 13.5mm with a 20mm x 20mm hole pattern, which is why the body dimensions this board shares with the 5.8G TERKs are a shell family and not a copied line. The eight channel frequencies are printed out: 1200/1240/1280/1320/1360/1400/1440/1480 MHz. One caveat: the wiring-harness illustration in the same set photographs a TERK case silkscreened '7-36V DC-IN', which is the 5.8G models' range; both of this model's own statements say 7-28V and that is what the field holds."
+  },
+  {
+   "type": "vtx",
+   "brand": "Axisflying",
+   "model": "TERK 1.2G 4W VTX",
+   "slug": "axisflying-terk-1-2g-4w-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 4000,
+    "power_levels_mw": "0 (pit) / 25 / 200 / 2000 / 4000",
+    "frequency_range": "1080-1360 MHz",
+    "channels": 16,
+    "input_voltage": "7-30V",
+    "mount_mm": "20x20mm",
+    "antenna_connector": "SMA",
+    "weight_g": 40.0,
+    "price_usd": 77.9
+   },
+   "sources": [
+    "https://www.axisflying.com/products/terk-12g-4w-vtx"
+   ],
+   "note": "Read 2026-09-24 off Axisflying's own site, the fourteenth VTX manufacturer catalogue read beside the US retail scrape and the third brand this catalogue carried no transmitter of at all. www.axisflying.com is a UEEShop store with no products.json; its sitemap is named after the domain and is linked only from robots.txt. Its whole transmitter line is /collections/vtx. The brand's own Download Center (/download/vtx) serves six VTX manuals through a public POST (do_action=action.getDownloadCheck), all one-page image-only PDFs rendered here at 6x with Quartz/CoreGraphics. The page's own Specifications table has no power row at all - the figure comes from the brand's datasheet image, read at full resolution: an RF Output table giving Power Level 0-4 as PIT / 25mW / 200mW / 2W / 4W with min/typ/max in dBm per step (-30/12/22/32/35.5 min, 37dBm max at level 4) and current at 12V per step. Its General Characteristics table states Input voltage DC +7V~30V, output DC +5V, IRC TRAMP, Frequency band 1080-1360MHz, 16 channels, SMA 50 Ohms, FM/PLL, +-100kHz stability, S/N >55dBc, -10C~+60C, Weight Approx 40g, Profile dimension 48mm(L)*32mm(W)*19mm(H); a dimension drawing gives the 20mm x 20mm hole pattern. The page's HTML table agrees on all of these. Both the page and the image print Band B channel 5 as 1258 MHz where every other step in both bands is a multiple of 40 (1080/1120/1160/1200/1240/1280/1320/1360) - the brand's own typo, carried consistently, not a reading error here."
+  },
+  {
+   "type": "vtx",
+   "brand": "Axisflying",
+   "model": "TERK 3.3G 2.5W VTX",
+   "slug": "axisflying-terk-3-3g-2-5w-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 2500,
+    "power_levels_mw": "0 (pit) / 25 / 400 / 1000 / 2500",
+    "frequency_range": "3170-3470 MHz",
+    "channels": 16,
+    "mount_mm": "20x20mm",
+    "antenna_connector": "MMCX",
+    "price_usd": 79.9
+   },
+   "sources": [
+    "https://www.axisflying.com/products/33g-25w-analog-vtx",
+    "https://ueeshop.ly200-cdn.com/u_file/UPBG/UPBG828/2604/25/file/TERKVTX33G25W.pdf"
+   ],
+   "note": "Read 2026-09-24 off Axisflying's own site, the fourteenth VTX manufacturer catalogue read beside the US retail scrape and the third brand this catalogue carried no transmitter of at all. www.axisflying.com is a UEEShop store with no products.json; its sitemap is named after the domain and is linked only from robots.txt. Its whole transmitter line is /collections/vtx. The brand's own Download Center (/download/vtx) serves six VTX manuals through a public POST (do_action=action.getDownloadCheck), all one-page image-only PDFs rendered here at 6x with Quartz/CoreGraphics. Page and manual agree on the power steps (25mW/400mW/1W/2.5W with PIT, the manual adding @12V900mA), on MMCX, on the 20*20mm mounting and on 3.3G A/B two groups / 16 frequencies, and the page prints the band edges 3170-3470MHz. They disagree on three other fields, so this page publishes without them: input voltage is '7-36V (2-8S LiPo)' on the page and '9-28V' in the manual; weight is '~25g (excluding antenna)' on the page and '27.5g' in the manual; dimensions are 53x28.85x16mm on the page and 53.79*27.8*13.5mm in the manual - the last being the figure the 5.8G TERKs also carry, so the manual may be reusing the 5.8G shell's sheet. Two manufacturer statements for one field publish neither."
+  },
+  {
+   "type": "vtx",
+   "brand": "Axisflying",
+   "model": "TERK 3.3G 4W VTX",
+   "slug": "axisflying-terk-3-3g-4w-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 4000,
+    "power_levels_mw": "0 (pit) / 25 / 200 / 2000 / 4000",
+    "frequency_range": "3170-3470 MHz",
+    "channels": 16,
+    "input_voltage": "7-30V",
+    "mount_mm": "20x20mm",
+    "antenna_connector": "SMA",
+    "weight_g": 40.0,
+    "price_usd": 72.9
+   },
+   "sources": [
+    "https://www.axisflying.com/products/33g-4w-vtx-analog-terk-ultra-lightweight"
+   ],
+   "note": "Read 2026-09-24 off Axisflying's own site, the fourteenth VTX manufacturer catalogue read beside the US retail scrape and the third brand this catalogue carried no transmitter of at all. www.axisflying.com is a UEEShop store with no products.json; its sitemap is named after the domain and is linked only from robots.txt. Its whole transmitter line is /collections/vtx. The brand's own Download Center (/download/vtx) serves six VTX manuals through a public POST (do_action=action.getDownloadCheck), all one-page image-only PDFs rendered here at 6x with Quartz/CoreGraphics. The page's Specifications table states no weight and no dimensions; the brand's datasheet images do, read at full resolution. General Characteristics: Input voltage DC +7V~30V, output DC +5V, IRC TRAMP, Frequency band 3170~3470MHz, 16 channels (Band A 3330-3470, Band B 3170-3310, every step 20MHz), FM/PLL, SMA 50 Ohms, -10C~+60C, Weight Approx 40g, Profile dimension 48mm(L)*32mm(W)*19mm(H) - the same shell as the 1.2G 4W. The RF Output table gives Power Level 0-4 as PIT / 25mW / 200mW / 2W / 4W, matching the page's '25mW/200mW/2W/4W (With PIT Mode)'. input_voltage takes 7-30V because three of this model's own statements say so (the datasheet table, the pin-port table and the interface diagram's '7V-30V' label) against the page block's '7-36V (2-8S LiPo)', which is the 5.8G family's range appearing on a 3.3G page."
+  },
+  {
+   "type": "vtx",
+   "brand": "Axisflying",
+   "model": "TERK 4.9G-6G SEG 10W VTX",
+   "slug": "axisflying-terk-4-9g-6g-seg-10w-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 10000,
+    "frequency_range": "4900-6000 MHz",
+    "channels": 80,
+    "input_voltage": "7-28V (3-6S)",
+    "mount_mm": "20x20mm",
+    "antenna_connector": "SMA",
+    "price_usd": 100.0
+   },
+   "sources": [
+    "https://www.axisflying.com/products/49g-6g-seg-10w-vtx-analog-terk-transmitter-high-power-fpv-transmitter-module"
+   ],
+   "note": "Read 2026-09-24 off Axisflying's own site, the fourteenth VTX manufacturer catalogue read beside the US retail scrape and the third brand this catalogue carried no transmitter of at all. www.axisflying.com is a UEEShop store with no products.json; its sitemap is named after the domain and is linked only from robots.txt. Its whole transmitter line is /collections/vtx. The brand's own Download Center (/download/vtx) serves six VTX manuals through a public POST (do_action=action.getDownloadCheck), all one-page image-only PDFs rendered here at 6x with Quartz/CoreGraphics. A wideband 4.9-6.0 GHz module of the class this catalogue carries deliberately (see CLAUDE.md) - the US retail scrape sells none. Page and images agree that it is 80 channels over 4900-6000MHz at up to 10W on 7-28V through an SMA port, and the brand's own dimension drawing gives the 20mm x 20mm hole pattern the page never states. They disagree on three fields and two of them are left empty here. Power steps: the page says '1W/3W/5W/7W/10W Adjustable', the brand's Product Specifications image says 'PIT / 25mW / 200mW / 5W / 10W', and the digital-display legend on the same sheet says power cycles through levels 0-4, which fits either list. Weight: 'About 150g (With Fan)' on the page against '76g+-3' in the image. Dimensions: 68x36x15mm on the page against 60.5x39x25mm in the image, whose drawing annotates 60.5mm and 39mm on the face and 25mm on the side - so the image is the self-consistent document and the page's three figures are the odd ones, but a second statement is a second statement and these fields stay empty. The brand names this part three ways on one page: 'TERK 10W VTX' in the spec table, 'TERK 6G 10W SEG VTX' in the page's structured data and '4.9G-6G SEG 10W VTX ANALOG' in the title; the model here keeps the frequency range the buyer searches for."
+  },
+  {
+   "type": "vtx",
+   "brand": "Axisflying",
+   "model": "TERK 5.8G 3W VTX",
+   "slug": "axisflying-terk-5-8g-3w-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 3000,
+    "power_levels_mw": "25 / 400 / 600 / 1600 / 3000",
+    "frequency_range": "5.8 GHz",
+    "channels": 56,
+    "input_voltage": "7-36V (2-8S)",
+    "mount_mm": "20x20mm",
+    "antenna_connector": "MMCX",
+    "weight_g": 27.5,
+    "price_usd": 57.9
+   },
+   "sources": [
+    "https://www.axisflying.com/products/terk58g-3w-analog-vtx",
+    "https://ueeshop.ly200-cdn.com/u_file/UPBG/UPBG828/2604/25/file/TERKVTX58G3W.pdf"
+   ],
+   "note": "Read 2026-09-24 off Axisflying's own site, the fourteenth VTX manufacturer catalogue read beside the US retail scrape and the third brand this catalogue carried no transmitter of at all. www.axisflying.com is a UEEShop store with no products.json; its sitemap is named after the domain and is linked only from robots.txt. Its whole transmitter line is /collections/vtx. The brand's own Download Center (/download/vtx) serves six VTX manuals through a public POST (do_action=action.getDownloadCheck), all one-page image-only PDFs rendered here at 6x with Quartz/CoreGraphics. Page and manual agree that the maximum is 3W and on 7-36V DC, MMCX, 53.79*27.8*13.5mm, 27.5g and 20*20mm, but they disagree on the steps below it and on the channel count, and the manual wins both because it agrees with itself three ways. Its spec block says '5.8G band, 7 frequency groups, 56 transmission frequencies' and 'Output Power 25mW,400mW,600mw,1.6W,3.0W @12V1300mA'; its button description says 1 blink for 25mW, 2 for 400mW, 3 for 600mW, 4 for 1.6W and 5 for 3.0W; and its Betaflight VTX Table screenshot shows 7 bands x 8 channels (BOSCAM_A/B/E, FATSHARK, RACEBAND, LOWRACE, BAND_X) with power values 25/400/600/1600/3000 and labels 25/400/600/1.6/3.0. The product page instead says '5.8GHz (6 groups, 48 channels)' and '25mW/400mW/1W/3W', which is the 5.8G 5W page's block with the top number changed."
+  },
+  {
+   "type": "vtx",
+   "brand": "Axisflying",
+   "model": "TERK 5.8G 5W VTX",
+   "slug": "axisflying-terk-5-8g-5w-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 5000,
+    "power_levels_mw": "25 / 400 / 1000 / 5000",
+    "frequency_range": "5.8 GHz",
+    "channels": 48,
+    "input_voltage": "7-36V (2-8S)",
+    "mount_mm": "20x20mm",
+    "antenna_connector": "MMCX",
+    "weight_g": 27.5,
+    "price_usd": 96.0
+   },
+   "sources": [
+    "https://www.axisflying.com/products/58g-5w-analog-vtx",
+    "https://ueeshop.ly200-cdn.com/u_file/UPBG/UPBG828/2604/25/file/TERKVTX58G5W.pdf"
+   ],
+   "note": "Read 2026-09-24 off Axisflying's own site, the fourteenth VTX manufacturer catalogue read beside the US retail scrape and the third brand this catalogue carried no transmitter of at all. www.axisflying.com is a UEEShop store with no products.json; its sitemap is named after the domain and is linked only from robots.txt. Its whole transmitter line is /collections/vtx. The brand's own Download Center (/download/vtx) serves six VTX manuals through a public POST (do_action=action.getDownloadCheck), all one-page image-only PDFs rendered here at 6x with Quartz/CoreGraphics. The one model in this line whose page and manual agree on every field: 5.8G band, 6 frequency groups, 48 transmission frequencies; Output Power 25mW,400mW,1W,5W (the manual adding @12V1300mA, the page adding 'PIT mode available'); Input 7-36V DC (2-8S LiPo); MMCX 50 ohm; 53.79*27.8*13.5mm; 27.5g; button and OSD control over SmartAudio/IRC Tramp. The page block has no mounting row at all - the 20*20mm comes from the manual."
   },
   {
    "type": "vtx",
