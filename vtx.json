@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-24",
- "count": 105,
+ "count": 115,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -40,6 +40,26 @@
    "sources": [
     "https://www.racedayquads.com/products/akk-infinite-dvr-30x30-25-1000mw-5-8ghz-vtx-w-smart-audio-mmcx"
    ]
+  },
+  {
+   "type": "vtx",
+   "brand": "AKK",
+   "model": "Race Ranger 5.8G 1.6W VTX",
+   "slug": "akk-race-ranger-5-8g-1-6w-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 1600,
+    "power_levels_mw": "200 / 400 / 800 / 1600",
+    "frequency_range": "5.8 GHz",
+    "input_voltage": "7-28V",
+    "mount_mm": "30.5x30.5mm",
+    "antenna_connector": "MMCX",
+    "price_usd": 54.99
+   },
+   "sources": [
+    "https://darwinfpv.com/products/darwinfpv-akk-5-8g-1600mw-1-6w-vtx"
+   ],
+   "note": "Read 2026-09-24 off DarwinFPV's shop, and it is an AKK radio: the board is printed 'AKK RACE RANGER' with AKK's logo and it ships in an AKK box, both read at full resolution in the brand's own photographs, so the brand column holds AKK and not the shop that sells it. This matters because akktek.com has been unreadable since the thirteenth burst - every path answers a Cloudflare interactive challenge - and this is the first AKK part in this catalogue whose figures come from a stated spec block rather than from the US retail scrape's title. The block, published in full on the listing: 'Input voltage: 7V-28V', 'Output power: 200mW 400mW 800mW 1600mW', '(International version)', 'Antenna connector: MMCX', 'Cable connector: JST.6pin', 'Dimensions: 36(W) x 36(D)mm, 30.5 x 30.5mm(hole)', 'Power supply: 5V camera@under 500mA max', 'Weigh: 9.6g(excluding antenna)', SmartAudio with a one-button setup and a microphone. mount_mm takes the hole spacing and not the 36x36 body. weight_g is deliberately empty although the block states 9.6 g: the brand's own scale photograph of this module with its cable reads 18.0 g, and a finned aluminium case this size is not a 9.6 g part with 8 g of cable, so the two figures are for two configurations the page does not distinguish - the seventh burst's kit-weight rule. It is the sixteenth-burst question, which of a kit's weights a column should hold, arriving on a part whose two figures differ by a factor of two."
   },
   {
    "type": "vtx",
@@ -341,6 +361,165 @@
    "sources": [
     "https://www.racedayquads.com/products/cubepilot-herelink-blue-bundle-v1-1"
    ]
+  },
+  {
+   "type": "vtx",
+   "brand": "DarwinFPV",
+   "model": "5.8G 40CH 1200mW Baby Ape VTX",
+   "slug": "darwinfpv-5-8g-40ch-1200mw-baby-ape-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 1200,
+    "power_levels_mw": "400 / 800 / 1200",
+    "frequency_range": "5.8 GHz",
+    "channels": 40,
+    "input_voltage": "7-33V",
+    "mount_mm": "20x20mm / 25.5x25.5mm / 30.5x30.5mm",
+    "weight_g": 4.2,
+    "price_usd": 40.99
+   },
+   "sources": [
+    "https://darwinfpv.com/products/darwinfpv-5-8g-40ch-400mw-800mw-1200mw-baby-ape-vtx"
+   ],
+   "note": "Read 2026-09-24 off DarwinFPV's own shop. The page is prose with no spec block, and the figures come from three different kinds of statement. max_power_mw and input_voltage are feature lines: 'With 1200mW transmit power', 'Supports 7-33V wide voltage input'. mount_mm is the feature line 'tri-mode mounting compatibility (20x20/25.5x25.5/30.5x30.5mm)' and is confirmed by the brand's own dimension drawing (image 6 of 7, read at full resolution), which dimensions the same three spacings - 20mm, 25.5mm and 30.5mm - across a 37x37mm board 4.5mm tall on a 1mm PCB. weight_g 4.2 is read at full resolution off the brand's photograph of the bare board on a 0.1 g scale (image 7 of 7). power_levels_mw is the brand's own product handle and its retail title for this part, '400mW 800mW 1200mW'; the body text states only the 1200. channels 40 is the title's '40CH'. antenna_connector is empty: the packing list's '5.8G-IPEX1/U.FL-RF113-80mm Copper Tube Antenna' is the antenna in the box rather than a statement about the board, though the u.FL is visible in the photographs. Stated in prose and not fielded: 'No Burnout' PA protection with the antenna disconnected, a 3oz copper PCB in place of a heatsink, a dual-stage filter, 5 km in the brand's own test."
+  },
+  {
+   "type": "vtx",
+   "brand": "DarwinFPV",
+   "model": "5.8G 40CH HULK VTX",
+   "slug": "darwinfpv-5-8g-40ch-hulk-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 600,
+    "power_levels_mw": "25 / 200 / 400 / 600",
+    "frequency_range": "5.8 GHz",
+    "channels": 40,
+    "input_voltage": "7-30V",
+    "mount_mm": "30.5x30.5mm",
+    "antenna_connector": "MMCX",
+    "weight_g": 15.9,
+    "price_usd": 59.99
+   },
+   "sources": [
+    "https://darwinfpv.com/products/darwinfpv-5-8g-40ch-hulk-vtx"
+   ],
+   "note": "Read 2026-09-24 off DarwinFPV's own shop, where this part has a labelled Specifications table: 'Model HULK VTX', 'Frequency 5.8G 40CH', 'Transmitting Power 25mW/200mW/400mW/600mW(Adjustable)', 'Power supply DC 7-30V', 'Weight 15.9g (Antenna Not Included)', 'Center distance of mounting holes 30.5mm x 30.5mm', 'Size 37.6mm x 37.6mm x 6.6mm'. antenna_connector is the prose line above the table, 'the antenna adopts mainstream MMCX connector, and the installation hole is 30.5x30.5mm', which agrees with the table on the pattern. The 600 mW ceiling is the brand's own figure for a part whose price is its highest analog SKU: the money is in the aluminium-alloy potted IP67 case, not the power. The page's body_html is one word per line - the brand pasted it out of a translation tool, and the last line of it is that tool's own expiry notice - which is worth knowing before writing a parser against this shop."
+  },
+  {
+   "type": "vtx",
+   "brand": "DarwinFPV",
+   "model": "Cement 5.8G 1000mW VTX",
+   "slug": "darwinfpv-cement-5-8g-1000mw-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 1000,
+    "power_levels_mw": "200 / 800 / 1000",
+    "frequency_range": "5.645-5.945 GHz",
+    "channels": 40,
+    "input_voltage": "7-24V (2-6S)",
+    "mount_mm": "30.5x30.5mm M3",
+    "antenna_connector": "MMCX",
+    "weight_g": 9.2,
+    "price_usd": 39.99
+   },
+   "sources": [
+    "https://darwinfpv.com/products/darwinfpv-cement-5-8g-1000mw-vtx"
+   ],
+   "note": "Read 2026-09-24 off DarwinFPV's own shop. This is the fullest spec block the brand publishes for any transmitter and every field here is one of its labelled lines: 'Output power : 200mW/800mW/1W', 'Input Voltage : DC7-24V(2-6S)', 'Frequency range : 5645-5945MHz (5.645-5.945GHz)', 'Frequency group : 40 channel(A/B/E/F/R frequency group)', 'Antenna interface : MMCX', 'Mounting Hole Size : 30.5mm x 30.5mm(M3)', 'Weight : 9.2g+-5g (without antenna and power cable)', 'Size : 38mm x 37mm x 4.5mm'. The weight tolerance is printed as +-5g on a 9.2 g part, which cannot be what the brand means and is recorded here as the 9.2 figure alone. Also stated: rated current 10V/600mA at 1000mW/30dBm, input impedance 75 ohm, SmartAudio, OSD parameter adjustment, IP67, NTSC/PAL, operating range -10C to 50C, no microphone. The 30dBm in the current row is the 1000 mW restated, not a separate EIRP claim, so max_power_mw takes the brand's own milliwatt figure. price_usd is the plain SKU; the same page sells a 'Care Card' bundle at $44.99, which is a warranty product and not this radio."
+  },
+  {
+   "type": "vtx",
+   "brand": "DarwinFPV",
+   "model": "Cement Ultra-Durable 5.8G 2.5W Waterproof VTX",
+   "slug": "darwinfpv-cement-ultra-durable-5-8g-2-5w-waterproof-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 2500,
+    "frequency_range": "5.8 GHz",
+    "weight_g": 21.8,
+    "price_usd": 49.99
+   },
+   "sources": [
+    "https://darwinfpv.com/products/darwinfpv-5-8g-2-5w-waterproof-vtx"
+   ],
+   "note": "Read 2026-09-24 off DarwinFPV's own shop. Unlike the 1000 mW Cement beside it this page has no spec block at all - it is prose plus a packing list - so only two fields could be filled. max_power_mw is the brand's own sentence, 'features a powerful 2500mW output, offering strong penetration and stable transmission', restated by the title and by the first feature line ('2500mW High Power Output'); it is output power in milliwatts, and DarwinFPV states no EIRP or dBm figure anywhere on the page. weight_g 21.8 is read at full resolution off the brand's own photograph of the module on a scale (image 5 of 6, a 0.1 g pocket scale with the Chinese unit legend), which is the only weight DarwinFPV publishes for this part; no other unit is physically possible for a part this size. input_voltage is deliberately empty although the case is silkscreened with it: the label reads '7-__V' with the digits hidden behind the connector in the only photograph that shows that face. mount_mm, channels and antenna_connector are empty for want of any statement - the packing list's 'MMCX pigtail antenna (140mm)' describes what is in the box, which is the props' 'for T-mount builds' rule one class over. Stated in prose and not fielded: aluminium CNC housing with an active fan, IP67 to 0.5 m for 30 minutes, two-stage filtering, reverse-polarity/surge/over-temperature protection, SmartAudio."
+  },
+  {
+   "type": "vtx",
+   "brand": "DarwinFPV",
+   "model": "OMNIS Analog VTX 10W",
+   "slug": "darwinfpv-omnis-analog-vtx-10w",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 10000,
+    "power_levels_mw": "0 (pit) / 25 / 1000 / 5000 / 10000",
+    "input_voltage": "15-36V (2-8S)",
+    "mount_mm": "25x25mm / 30.5x30.5mm",
+    "antenna_connector": "SMA",
+    "price_usd": 129.99
+   },
+   "sources": [
+    "https://darwinfpv.com/products/darwinfpv-omnis-analog-vtx-series"
+   ],
+   "note": "Read 2026-09-24 off DarwinFPV's own shop. The OMNIS is sold as one page with sixty variants - ten frequency options by two power options by three antenna/receiver bundles - so this catalogue splits it by the only variant that changes a required field, the power, and carries the band list in the note instead of in frequency_range. max_power_mw and power_levels_mw are the page's own line: 'Crank it up to 10W peak power ... or dial it down with multi-level power control: PIT / 25mW / 1W / 5W / 10W', which is output power in watts and milliwatts and not an EIRP or dBm figure; the brand prints 10W on the case of every 10 W variant, visible in its product photographs. input_voltage is 'Works directly with 2S-8S LiPo batteries (15-36V DC)', mount_mm is 'Dual mounting holes: 25x25mm and 30.5x30.5mm', antenna_connector is 'Standard SMA connector'. The brand disagrees with itself about how many bands there are: the prose lists nine - 500MHz / 1.2G / 1.5G / 1.8G / 3.3G / 4G / 5.8G / 7.2G / 8G - while the variant selector offers ten, adding 4.5G, and the product photographs show cases printed 1.2G, 1.5G, 1.8G, 3.3G, 4G, 4.5G, 5.8G and 7.2G. Every one of the sixty variants read as unavailable on 2026-09-24. IRC Tramp protocol, CNC aluminium chassis with a fan, dual video input formats. price_usd is the module-only SKU at $129.99; the same variant is $139.99 with an antenna and $234.99 with an antenna and a receiver."
+  },
+  {
+   "type": "vtx",
+   "brand": "DarwinFPV",
+   "model": "OMNIS Analog VTX 5W",
+   "slug": "darwinfpv-omnis-analog-vtx-5w",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 5000,
+    "input_voltage": "15-36V (2-8S)",
+    "mount_mm": "25x25mm / 30.5x30.5mm",
+    "antenna_connector": "SMA",
+    "price_usd": 79.99
+   },
+   "sources": [
+    "https://darwinfpv.com/products/darwinfpv-omnis-analog-vtx-series"
+   ],
+   "note": "Read 2026-09-24 off DarwinFPV's own shop; the 5 W half of the OMNIS series page described on the 10 W entry beside this one, and the same body text, mounting pattern, input range and SMA connector. max_power_mw is the brand's own 5W, stated twice - it is one of the page's two Power options, priced $50 below the 10 W across all thirty of its variants, and the case of every 5 W variant is printed '5W' in the brand's product photographs. power_levels_mw is deliberately empty: the page's step list, 'PIT / 25mW / 1W / 5W / 10W', is written for the 10 W part and DarwinFPV publishes no step list for this one. frequency_range is empty for the reason given on the 10 W entry - band is a variant of this SKU, and the brand's own prose (nine bands) and its variant selector (ten, adding 4.5G) do not agree on which. Every one of the sixty variants read as unavailable on 2026-09-24."
+  },
+  {
+   "type": "vtx",
+   "brand": "DarwinFPV",
+   "model": "TinyApe 600mW VTX",
+   "slug": "darwinfpv-tinyape-600mw-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 600,
+    "power_levels_mw": "25 / 200 / 400 / 600",
+    "frequency_range": "5.8 GHz",
+    "channels": 40,
+    "input_voltage": "5V",
+    "weight_g": 3.5,
+    "price_usd": 34.99
+   },
+   "sources": [
+    "https://darwinfpv.com/products/25-200-400-600mw-tinyape-vtx"
+   ],
+   "note": "Read 2026-09-24 off DarwinFPV's own shop, the twelfth VTX manufacturer catalogue read beside the US retail scrape and the first brand this catalogue carries no transmitter of at all. The product page carries a labelled Specifications block and every figure here is a line of it: 'Output Power: 25/200/400/600mW(adjustable)', 'Frenquency: 5.8Hz 40port', 'Power Supply Voltage Range: 5V', 'Weight: 3.5g', 'Protocol: SmartAudio'. The brand names this part three ways on one page - the title is 'DarwinFPV 25/200/400/600mW VTX', the spec block's own Name row says 'DarwinFPV 600mW VTX', and the only variant is called 'TinyApe/CineApe VTX'; the model recorded here takes the variant's product word and the block's power. channels is the block's '40port', which is the brand's wording for 40 channels; the '5.8Hz' beside it is a typo for 5.8 GHz. mount_mm is deliberately empty: the block's only dimension line is 'Pitch: 28*15mm(length*width)', and a figure the manufacturer itself annotates as length by width is the board's outline, not a mounting pattern - the seventh burst's mount-holds-body-dimensions rule, this time stated by the brand. antenna_connector is empty for the same reason: the board's u.FL is visible in the product photographs and the packing list names a 4-pin cable, but no line of the block states a connector. DC 5 V in, 600 mA draw, powered from the flight controller's 5 V rail."
+  },
+  {
+   "type": "vtx",
+   "brand": "DarwinFPV",
+   "model": "VT5804 HV MAX 5.8G 1W VTX",
+   "slug": "darwinfpv-vt5804-hv-max-5-8g-1w-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 1000,
+    "power_levels_mw": "200 / 800 / 1000",
+    "frequency_range": "5.8 GHz",
+    "channels": 40,
+    "input_voltage": "7-24V",
+    "weight_g": 6.7,
+    "price_usd": 49.99
+   },
+   "sources": [
+    "https://darwinfpv.com/products/darwinfpv-vt5804-hv-max-5-8g-1w-vtx"
+   ],
+   "note": "Read 2026-09-24 off DarwinFPV's own shop. The page is prose - 'it can stably output 1W power for a long time' is its only figure - and everything numeric here was read at full resolution off the module's own case label in the brand's product photographs, the eighth burst's RushFPV method: 'VT5804 HV MAX / 5.8G 40CH 1W VTX / 200mW/800mW/1000mW', with the pad rail beneath it reading SMART AUDIO, VIDEO, 5V OUT, GND, GND, 7-24V IN. The back of the same board (image 4 of 7) repeats the rail as DATA / VIDEO / 5V OUT / GND / GND / 7-24V, so input_voltage is stated twice by the hardware. weight_g 6.7 is off the brand's scale photograph (image 5 of 7). mount_mm is empty: the board is the usual four-armed 30.5 shape but neither the label, the page nor any photograph states a spacing, and the arms are not a measurement. The back is also silkscreened 'XF5804', which is the board's own part number and not DarwinFPV's - see the PandaRC VT5804 AIR in this catalogue for the same shop selling another maker's board under its own title."
   },
   {
    "type": "vtx",
@@ -1513,6 +1692,25 @@
    "sources": [
     "https://www.racedayquads.com/products/immersionrc-ghost-hybrid-uno-v2-2-4ghz-receiver-20-600mw-5-8ghz-vtx"
    ]
+  },
+  {
+   "type": "vtx",
+   "brand": "PandaRC",
+   "model": "VT5804 AIR",
+   "slug": "pandarc-vt5804-air",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 400,
+    "power_levels_mw": "0 (pit) / 25 / 50 / 100 / 200 / 400",
+    "frequency_range": "5.8 GHz",
+    "input_voltage": "6-26V",
+    "antenna_connector": "IPEX1 (U.FL)",
+    "price_usd": 50.99
+   },
+   "sources": [
+    "https://darwinfpv.com/products/darwinfpv-vt5804-5-8g-25-50-100-200-400mw-vtx"
+   ],
+   "note": "Read 2026-09-24 off DarwinFPV's shop, which sells this board as the 'DarwinFPV VT5804 5.8G 25/50/100/200/400mW VTX' - but the board is not DarwinFPV's. Its back is silkscreened with PandaRC's logo and 'VT5804_AIR V1.0' (image 4 of 4, read at full resolution), so the brand column holds the maker and the note holds the seller: the fourteenth burst's lesson, that a vendor field is a distribution fact rather than a spec, arriving here from a manufacturer's own store rather than from a retailer. power_levels_mw is the listing's whole sentence, 'it support 6 gears of power: 0-25-50-100-200-400mW', and max_power_mw is its top step. input_voltage and antenna_connector are off the annotated wiring diagram the listing publishes as its fourth image: 'DC-IN(6-26V)' against the Vin pad, 'IPXE1 ANT' (the brand's spelling of IPEX1) against the u.FL, and a pad rail of Video / GND / +5V / RX / GND / Vin wired out as VTX, GND, 5V-OUT, SA, GND, DC-IN. The chip is an RTC6705 and the board is a triangle that fits a whoop or toothpick frame's rear corner. weight_g is empty: the listing states 'It's <=3g', which is a bound and not a measurement, and no scale photograph accompanies this part as it does the rest of this shop's transmitters. mount_mm is unstated. This entry's page is not a second citation for anything: this catalogue carried no PandaRC part before it."
   },
   {
    "type": "vtx",
