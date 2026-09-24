@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-24",
- "count": 103,
+ "count": 105,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -406,18 +406,42 @@
   {
    "type": "vtx",
    "brand": "EMAX",
+   "model": "F4 Magnum II VTX",
+   "slug": "emax-f4-magnum-ii-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 200,
+    "power_levels_mw": "25 / 200",
+    "frequency_range": "5.362-5.945 GHz",
+    "channels": 37,
+    "input_voltage": "4.5-5.5V",
+    "price_usd": 19.99
+   },
+   "sources": [
+    "https://shop.emax-usa.com/products/emax-magnum-ii-video-transmitter-vtx-25-200mw-37-channel"
+   ],
+   "note": "EMAX's own labelled block, printed above the marketing copy on its store page: 'Replacement part for Buzz Freestyle quadcopter. Frequency band: 5362-5945MHz. Audio Control. Channels: 37. Transmit power: 14dBm/23dBm (25mW/200mW). Supply voltage: 4.5V-5.5V. Antenna port: 50 Ohm.' The power steps are stated twice in one line and the two statements agree with each other: 14 dBm is 25.1 mW and 23 dBm is 199.5 mW, so the milliwatt figures are the conducted output the dBm figures convert to, not an EIRP ceiling a brand has restated in round numbers. frequency_range is that stated 5362-5945 MHz band, written as GHz the way this column already holds measured spans. The factory VTX of the EMAX BUZZ, sold as an OEM replacement board. antenna_connector is empty: the block states the port's impedance (50 Ohm) and not its type. No weight or mounting pattern is stated."
+  },
+  {
+   "type": "vtx",
+   "brand": "EMAX",
    "model": "Wyvern Link (Alpha) OpenIPC - 100mW",
    "slug": "emax-wyvern-link-alpha-openipc-100mw",
    "specs": {
     "system": "Digital HD (OpenIPC)",
     "max_power_mw": 100,
     "weight_g": 13.76,
-    "price_usd": 89.99
+    "price_usd": 89.99,
+    "mount_mm": "25.5x25.5mm",
+    "input_voltage": "5V"
    },
    "_scraped_at": "2026-09-24",
    "sources": [
-    "https://www.racedayquads.com/products/emax-wyvern-link-alpha-openipc-100mw-vtx"
-   ]
+    "https://www.racedayquads.com/products/emax-wyvern-link-alpha-openipc-100mw-vtx",
+    "https://shop.emax-usa.com/products/wyvern-link-alpha-openipc-100mw-video-transmitter",
+    "https://www.emax-usa.com/openipc-detail-dark.html?product=wyvern-link-alpha-openipc-100mw-video-transmitter"
+   ],
+   "note": "Cited and extended 2026-09-24 against EMAX's own catalogue, which is the second source for a part this catalogue had only from the retail scrape. EMAX's own Wyvern Link comparison table, published as a content image on the brand's catalogue page for this part (www.emax-usa.com, openipc-detail-dark.html) and read at full resolution. It is a screenshot of a spreadsheet - the cell cursor and a spell-check underline under its 'Openipc' heading are both in the picture - and it has two product columns, headed '100mw' and '800mw', plus a third for the WIFI module. Its rows: Camera sensor imx415; Video specifications 1280x720; Video FPS 120fps; input voltage 100mw 5v in / 800mw 2-6s in; Lens specifications 100mw 14mm / 800mw 19mm; Weight 100mw 13.76g / 800mw 28.85g; Hole spacing 100mw 25.5mm / 800mw 30.5mm / WIFI modular 35.0mm; Aperture 3.0mm throughout; Receiver input xt30 2-6s / type-c 5v in; Receiver Weight 100mw 51.69g / 2000mw 44.5g. mount_mm is that table's 'Hole spacing 100mw 25.5mm', read as the 25.5x25.5mm square those holes describe (these patterns are square by definition). input_voltage is its '100mw 5v in'. The weight_g this page already carried, 13.76 g, is the table's own 100 mW figure, so the retail listing and the manufacturer agree on it. EMAX states no frequency range, channel count or antenna connector for the Wyvern Link line anywhere it publishes: both its store page and its catalogue page are prose, and the only numbers on either are the ones in this image."
   },
   {
    "type": "vtx",
@@ -428,12 +452,16 @@
     "system": "Digital HD (OpenIPC)",
     "max_power_mw": 800,
     "weight_g": 28.85,
-    "price_usd": 107.99
+    "price_usd": 107.99,
+    "mount_mm": "30.5x30.5mm"
    },
    "_scraped_at": "2026-09-24",
    "sources": [
-    "https://www.racedayquads.com/products/emax-wyvern-link-alpha-v1-openipc-800mw-vtx"
-   ]
+    "https://www.racedayquads.com/products/emax-wyvern-link-alpha-v1-openipc-800mw-vtx",
+    "https://shop.emax-usa.com/products/wyvern-link-alpha-openipc-800mw-video-transmitter",
+    "https://www.emax-usa.com/openipc-detail-dark.html?product=wyvern-link-alpha-openipc-800mw-video-transmitter"
+   ],
+   "note": "Cited and extended 2026-09-24 against EMAX's own catalogue. EMAX's own Wyvern Link comparison table, published as a content image on the brand's catalogue page for this part (www.emax-usa.com, openipc-detail-dark.html) and read at full resolution. It is a screenshot of a spreadsheet - the cell cursor and a spell-check underline under its 'Openipc' heading are both in the picture - and it has two product columns, headed '100mw' and '800mw', plus a third for the WIFI module. Its rows: Camera sensor imx415; Video specifications 1280x720; Video FPS 120fps; input voltage 100mw 5v in / 800mw 2-6s in; Lens specifications 100mw 14mm / 800mw 19mm; Weight 100mw 13.76g / 800mw 28.85g; Hole spacing 100mw 25.5mm / 800mw 30.5mm / WIFI modular 35.0mm; Aperture 3.0mm throughout; Receiver input xt30 2-6s / type-c 5v in; Receiver Weight 100mw 51.69g / 2000mw 44.5g. mount_mm is that table's 'Hole spacing 800mw 30.5mm', read as the 30.5x30.5mm square those holes describe. The weight_g this page already carried, 28.85 g, is the table's own 800 mW figure, so the retail listing and the manufacturer agree on it. input_voltage stays EMPTY deliberately: what EMAX states for this unit is '800mw 2-6s in', a cell count and not a voltage, and this column holds volts - converting 2-6S into a 7.4-25.2V range would put a computed figure in a column of stated ones, which is the same mistake as writing an EIRP dBm ceiling into max_power_mw. The cell range is here in the note instead. EMAX states no frequency range, channel count or antenna connector for the Wyvern Link line anywhere it publishes."
   },
   {
    "type": "vtx",
@@ -449,8 +477,26 @@
    },
    "_scraped_at": "2026-09-24",
    "sources": [
-    "https://www.racedayquads.com/products/emax-wyvern-link-openipc-200mw-vtx"
-   ]
+    "https://www.racedayquads.com/products/emax-wyvern-link-openipc-200mw-vtx",
+    "https://shop.emax-usa.com/products/wyvern-link-alpha-openipc-200mw-video-transmitter-vtx",
+    "https://www.emax-usa.com/openipc-detail-dark.html?product=wyvern-link-alpha-openipc-200mw-video-transmitter-vtx"
+   ],
+   "note": "Cited 2026-09-24 against EMAX's own catalogue, which confirms the part and its 200 mW output - the brand titles it 'Wyvern Link OpenIPC - 200mW Video Transmitter VTX' and its own description panel calls it 'The Wyvern Link 200mW VTX v2 ... built for everyday FPV flying' - and confirms nothing else. EMAX's own Wyvern Link comparison table, published as a content image on the brand's catalogue page for this part (www.emax-usa.com, openipc-detail-dark.html) and read at full resolution. It is a screenshot of a spreadsheet - the cell cursor and a spell-check underline under its 'Openipc' heading are both in the picture - and it has two product columns, headed '100mw' and '800mw', plus a third for the WIFI module. Its rows: Camera sensor imx415; Video specifications 1280x720; Video FPS 120fps; input voltage 100mw 5v in / 800mw 2-6s in; Lens specifications 100mw 14mm / 800mw 19mm; Weight 100mw 13.76g / 800mw 28.85g; Hole spacing 100mw 25.5mm / 800mw 30.5mm / WIFI modular 35.0mm; Aperture 3.0mm throughout; Receiver input xt30 2-6s / type-c 5v in; Receiver Weight 100mw 51.69g / 2000mw 44.5g. There is no 200 mW column in it. The same image is published unchanged on the 100 mW page, the 800 mW page and this one, so it is shared line artwork rather than a statement about this SKU, and the two figures this page carries from the retail listing - weight_g 13.76 and mount_mm 25.5x25.5mm - are exactly the table's 100 mW figures. They are kept because no manufacturer statement contradicts them and the 200 mW is plainly the small board (EMAX's own copy sells it as fitting drones 'as small as whoops'), but they may be the 100 mW listing's numbers copied across, and neither field is required, so nothing on this page rests on them."
+  },
+  {
+   "type": "vtx",
+   "brand": "EMAX",
+   "model": "Wyvern Link OpenIPC 800mW VTX V2",
+   "slug": "emax-wyvern-link-openipc-800mw-vtx-v2",
+   "specs": {
+    "system": "Digital HD (OpenIPC)",
+    "max_power_mw": 800
+   },
+   "sources": [
+    "https://shop.emax-usa.com/products/wyvern-link-openipc-800mw-vtx-v2",
+    "https://www.emax-usa.com/openipc-detail-dark.html?product=wyvern-link-openipc-800mw-vtx-v2"
+   ],
+   "note": "EMAX's own store and its own catalogue page both title this part 'Wyvern Link OpenIPC 800mW VTX V2' and its description panel restates the figure - '800mW Output Power - high-power transmission for maximum range', 'The Wyvern Link 800mW VTX v2 is built for long-range FPV flying'. Output power in milliwatts, the quantity this column holds; EMAX prints no EIRP or dBm row anywhere on the part. It is a distinct SKU from the Wyvern Link (Alpha) 800mW this catalogue already carries: its own SKU 114001019, its own price, and EMAX's own panel describes hardware the Alpha's does not - 'Its durable aluminum frame protects the hardware from impacts, while an integrated cooling fan keeps temperatures under control during extended use, preventing thermal throttling'. Its product photographs show that finned aluminium case with a fan, silkscreened 'Wyvern Link 800mW'. weight_g, mount_mm and input_voltage are deliberately empty: the Wyvern Link comparison table EMAX publishes as a content image carries columns for the 100 mW and 800 mW Alpha units only and is not on this product's page, so nothing it states is a statement about the V2. No frequency figure is stated anywhere EMAX publishes this part. price_usd is empty for the same reason the spec fields are: EMAX's store prices this SKU at $112.89 and EMAX's own catalogue site prices it at $95.99, two figures from one brand for one field. Both of them agree with each other about the Wyvern Link (Alpha) 800mW beside it ($85.99), which is what shows the disagreement is about this part and not about one of the two pages being stale."
   },
   {
    "type": "vtx",
