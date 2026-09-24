@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-24",
- "count": 50,
+ "count": 53,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -76,6 +76,28 @@
    "sources": [
     "https://www.racedayquads.com/products/caddx-baby-ratel-2-1200tvl-cmos-4-3-16-9-ntsc-pal-fpv-camera-1-8mm-black"
    ]
+  },
+  {
+   "type": "camera",
+   "brand": "Caddx",
+   "model": "Farsight Analog",
+   "slug": "caddx-farsight-analog",
+   "specs": {
+    "system": "analog",
+    "resolution_tvl": 1500,
+    "fov_deg": 155,
+    "sensor": "1/2\"",
+    "aspect_ratio": "4:3",
+    "price_usd": 164.49,
+    "size_class": "micro",
+    "input_voltage": "9-24V"
+   },
+   "_scraped_at": "2026-09-24",
+   "sources": [
+    "https://www.racedayquads.com/products/caddx-farsight-analog-fpv-camera",
+    "https://www.caddxfpv.com/products/caddxfpv-farsight-analog-camera"
+   ],
+   "note": "size_class is micro from CaddxFPV's own specification table, which states \"Dimensions: Camera: 19x19x19.5mm\" - a 19mm face, the micro mount - and whose product copy repeats it twice (\"Only 19mm×19mm\" and \"Measuring just 19×19mm\"). The \"AI Box: 33.5x33.5x12.35mm\" on the same Dimensions line is the separate zoom-control box that ships with the camera, not the camera. input_voltage is the same table's \"Power Supply Range: 9~24V\". The retail listing prints the identical table; the parser had been reading its \"Dimensions:\" line as the whole two-product value and finding no figure at the front of it."
   },
   {
    "type": "camera",
@@ -175,6 +197,26 @@
    "sources": [
     "https://www.racedayquads.com/products/walksnail-avatar-hd-micro-camera-vtx-kit-v2-choose-version"
    ]
+  },
+  {
+   "type": "camera",
+   "brand": "Caddx",
+   "model": "Walksnail Avatar HD Moonlight Module",
+   "slug": "caddx-walksnail-avatar-hd-moonlight-module",
+   "specs": {
+    "system": "Walksnail",
+    "fov_deg": 160,
+    "sensor": "1/1.8\"",
+    "price_usd": 131.99,
+    "size_class": "micro",
+    "input_voltage": "7.4-25.2V"
+   },
+   "_scraped_at": "2026-09-24",
+   "sources": [
+    "https://www.racedayquads.com/products/walksnail-avatar-hd-moonlight-camera-module",
+    "https://www.caddxfpv.com/products/walksnail-moonlight-camera-only"
+   ],
+   "note": "size_class is micro from Caddx's own spec table for the Moonlight camera, which states \"Dimensions / Camera:19.5mm*19mm*24mm\" - a 19mm face within the half-millimetre the class tolerates, with 24mm of depth behind it. weight_g is deliberately empty: the same table prints \"Camera(without wire): 8.9g\" and \"Recording board: 10g\", and this SKU is the camera together with that board, so no single figure on the page is this column's."
   },
   {
    "type": "camera",
@@ -913,6 +955,28 @@
    "sources": [
     "https://www.racedayquads.com/products/runcam-racer-nano-4"
    ]
+  },
+  {
+   "type": "camera",
+   "brand": "RunCam",
+   "model": "Split 4 V2",
+   "slug": "runcam-split-4-v2",
+   "specs": {
+    "system": "analog",
+    "fov_deg": 140,
+    "input_voltage": "5-20V",
+    "weight_g": 10.2,
+    "price_usd": 99.99,
+    "size_class": "nano",
+    "resolution": "4K@30fps/2.7K@60fps/2.7K@50fps/1080P@60fps"
+   },
+   "_scraped_at": "2026-09-24",
+   "sources": [
+    "https://www.racedayquads.com/products/runcam-split-4-v2-fpv-camera",
+    "https://www.runcam.com/download/runcamsplit4v2",
+    "https://www.runcam.com/download/split4k/RC_Split_4k_Manual_EN.pdf"
+   ],
+   "note": "A split camera: a 14x14mm lens module that sits in the frame's camera mount, wired to a 29x29mm recording board bolted elsewhere. size_class is nano because the lens module is the camera - RunCam's manual prints \"Lens Module Size 14*14mm\", \"PCB Size 29*29mm\" and \"Mounting Hole Distance 25.5*25.5mm\" in one block, and the retail listing repeats all three. system is analog, not \"Digital HD\": the 4K is recorded to the microSD card, while the live FPV feed is composite video on a wire to a VTX - the manual's parameter block says \"TV Mode: NTSC (720*480)/PAL (720*576) Switchable\" and its wiring diagram runs Video and GND from the board to a Video Transmitter. The scrape had read \"4K 1080p 13MP Pixel Sensor\" out of the listing's own feature bullets. RunCam no longer sells the V2 - the shop carries only the Split 4 V3 - but the brand still publishes the model's download page, and the English user manual it links there (RC_Split_4k_Manual_EN.pdf) is the source for all of the above."
   },
   {
    "type": "camera",
