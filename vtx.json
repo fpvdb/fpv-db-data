@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-24",
- "count": 140,
+ "generated": "2026-09-25",
+ "count": 152,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -77,6 +77,105 @@
    "sources": [
     "https://www.racedayquads.com/products/rdq-mach-3-video-transmitter-25-1000mw-5-8ghz-vtx-choose-version"
    ]
+  },
+  {
+   "type": "vtx",
+   "brand": "ATOMRC",
+   "model": "1.2G 1.6W Video Transmitter",
+   "slug": "atomrc-1-2g-1-6w-video-transmitter",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 1600,
+    "power_levels_mw": "200 / 800 / 1600",
+    "frequency_range": "1.2 GHz",
+    "input_voltage": "7-26V",
+    "price_usd": 55.0
+   },
+   "sources": [
+    "https://www.skyzonefpv.com/products/atomrc-1-2g-1-6w-led-video-transmitter"
+   ],
+   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. Titled 'ATOMRC 1.2G 1.6W LED Video Transmitter' and sold without a model number; its board is silkscreened 'TX1G2_1600 V1.1', read at full resolution, which is the brand's own designation for it. The page's feature list states '1.2G Hz, better range and penetration', '200/800/1600mW adjustable power output', '7-26V Wide Range Voltage input', an LED segment display and Button/IRC control, and nothing else - no channel table, no weight, no mounting pattern, no connector."
+  },
+  {
+   "type": "vtx",
+   "brand": "ATOMRC",
+   "model": "TX1200 Analog VTX",
+   "slug": "atomrc-tx1200-analog-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 1200,
+    "power_levels_mw": "200 / 800 / 1200",
+    "frequency_range": "5.8 GHz",
+    "channels": 40,
+    "input_voltage": "7-26V",
+    "mount_mm": "20x30mm",
+    "weight_g": 17.0,
+    "price_usd": 45.0
+   },
+   "sources": [
+    "https://www.skyzonefpv.com/products/atomrc-tx1200-analog-vtx"
+   ],
+   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. A labelled specification block in text: Item ATOMRC TX1200 Analog VTX, Weight 17g, Dimension 25.5X36.5mm, Power 200/800/1200mW, Voltage 7~26V, CH 40, Mounting Hole 20X30mm. The 25.5x36.5mm is the body and the 20x30mm is what the brand labels as the hole pattern, which is what mount_mm holds - a rectangular pattern, printed as such. The brand states no antenna connector for it."
+  },
+  {
+   "type": "vtx",
+   "brand": "ATOMRC",
+   "model": "TX1201 5.8G 1.2W VTX",
+   "slug": "atomrc-tx1201-5-8g-1-2w-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 1200,
+    "power_levels_mw": "200 / 800 / 1200",
+    "frequency_range": "5.8 GHz",
+    "input_voltage": "7-26V",
+    "price_usd": 45.0
+   },
+   "sources": [
+    "https://www.skyzonefpv.com/products/atomrc-tx1201-5-8g-1-2w-vtx"
+   ],
+   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. The page is a feature list, not a block: 'Support X Band(5G Hz) and Low Band', '200/800/1200mW adjustable power output', '7-26V Wide Range Voltage input', an LED segment display and Button/IRC control. Its board is silkscreened 'ATOMRC TX1201 V1.1', read at full resolution, which is what identifies it as this brand's own. frequency_range holds the 5.8 GHz of the brand's own title; the X and Low band support the features claim is not given as edges anywhere the brand publishes, and no channel count is stated, so channels is empty. No weight, mounting pattern or connector is stated either."
+  },
+  {
+   "type": "vtx",
+   "brand": "ATOMRC",
+   "model": "TX2500 5.8G 2.5W VTX",
+   "slug": "atomrc-tx2500-5-8g-2-5w-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 2500,
+    "power_levels_mw": "800 / 1600 / 2500",
+    "frequency_range": "4990-5945 MHz",
+    "channels": 56,
+    "input_voltage": "7-26V",
+    "antenna_connector": "SMA",
+    "price_usd": 60.0
+   },
+   "sources": [
+    "https://www.skyzonefpv.com/products/skyzone-atomrc-tx2500-vtx-with-2-5w-output-and-5-8g-antenna",
+    "https://cdn.shopify.com/s/files/1/0597/9668/4956/files/TX2500_TX2501_vtx_table_25mw_2500mw_ch_ABEFRLX_230601.json"
+   ],
+   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. Sold under a SKYZONE title ('SKYZONE TX2500 4.9G/5.8G 2.5W 56 CH L.X Band VTX') and filed here under ATOMRC, because the description's first sentence says 'The ATOMRC TX2500 is powerful VTX which have 2.5W Transmitter output and SMA connector' and both of the brand's own photographs of the case are printed ATOMRC: the top reads 'ATOMRC / Tx2500 5.8G VTX' and the underside 'ATOMRC / TX2500 5.8G VTX' over the pin rail 'DC 7~26V / GND / 5V OUT / GND / VIDEO / DATA (tramp)' and 'Install antenna before power on!', all read at full resolution. The page's own feature list gives the three power steps and the 7-26V, and the case print agrees with the voltage. The channel count is the title's 56 and the band edges are the 7-band table the brand publishes for this model and the TX2501 together (its Betaflight config file is named TX2500_TX2501_vtx_table_25mw_2500mw_ch_ABEFRLX). One of the page's images is a spectrum-analyser capture reading 4.063 W at 5.918 GHz with 'C:\\TX2500.STA file loaded' - a measurement of one unit at one channel, above the rated 2.5 W, and not a figure this column holds. /products/skyzone-tx2500-56ch-vtx is a second listing of the same radio, not a second product. The brand states no weight or mounting pattern."
+  },
+  {
+   "type": "vtx",
+   "brand": "ATOMRC",
+   "model": "TX800 Analog VTX",
+   "slug": "atomrc-tx800-analog-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 800,
+    "power_levels_mw": "200 / 500 / 800",
+    "frequency_range": "5.8 GHz",
+    "channels": 40,
+    "input_voltage": "7-26V",
+    "mount_mm": "16x26mm",
+    "weight_g": 3.2,
+    "price_usd": 29.99
+   },
+   "sources": [
+    "https://atomrc.com/products/atomrc-tx800-analog-vtx"
+   ],
+   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. Read on atomrc.com, which is where this brand's own transmitters live; the labelled block says Item ATOMRC TX800 Analog VTX, Weight 3.2g, Dimension 29*20mm, Power 200/500/800 mW, Voltage 7~26V, CH 40, Mounting Hole 16*26mm - the same shape of block the TX1200's page carries, with the body dimension and the hole pattern printed as separate lines. Not to be confused with the SpeedyBee TX800 this catalogue already carries at /vtx/runcam-speedybee-tx800-20x20-25-800mw-5-8ghz-mmcx/: that board is 20x20mm, 5.6 g and 3.7-5V, this one is 29*20mm, 3.2 g and 7~26V, and the two share only a number that names their power."
   },
   {
    "type": "vtx",
@@ -2719,6 +2818,144 @@
     "https://rushfpv.net/products/7g-8-5g-xspan-5w-vtx-transmitter-module"
    ],
    "note": "The only 7-8.5 GHz air unit RushFPV lists. Unlike the rest of the X-SPAN line this one has no label photograph on the product page and no spec block, so the 5 W is the manufacturer's own model name and nothing else here is filled: the power steps, band plan and input voltage of the other X-SPAN modules are not assumed onto it. X-SPAN is RushFPV's name for its wideband analog module line - a standalone brick with an SMA jack, a fan and a dual DC-in that also feeds the camera, not a board you bolt into a stack. RushFPV publishes no weight and no mounting pattern for the class, so those columns stay empty."
+  },
+  {
+   "type": "vtx",
+   "brand": "Skyzone",
+   "model": "TX2501",
+   "slug": "skyzone-tx2501",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 2500,
+    "power_levels_mw": "25 / 800 / 1600 / 2500",
+    "frequency_range": "4990-5945 MHz",
+    "channels": 56,
+    "input_voltage": "7-26V",
+    "price_usd": 58.0
+   },
+   "sources": [
+    "https://www.skyzonefpv.com/products/skyzone-tx2501-vtx-with-adjustable-power-output",
+    "https://cdn.shopifycdn.net/s/files/1/0597/9668/4956/files/TX2501_240111.pdf",
+    "https://cdn.shopify.com/s/files/1/0597/9668/4956/files/TX2500_TX2501_vtx_table_25mw_2500mw_ch_ABEFRLX_230601.json"
+   ],
+   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. This is the heat-sink TX2501, the version without the CNC case and fan; its board is silkscreened 'TX2501 231115 V1.0'. The page's feature list says '800/1600/2500mW adjustable power output' and 7-26V input; the brand's own one-page user manual, linked from the same page, says '25/800/1600/2500mW adjustable power output' over the same 7-26V and prints the frequency table this field holds: 7 bands (A B E F R L X) of 8 channels, 4990-5945 MHz, with X band running 4990-5200 MHz. The manual is the document that enumerates the steps, so power_levels_mw takes its four; both agree on the 2500 mW maximum. The page also links a Betaflight VTX-table JSON the brand named TX2500_TX2501_...: its band and channel list matches the manual except for one entry - band B CH5 reads 5999 MHz where the manual prints 5809 - so the config file's span is a typo and the manual's is what is recorded here. Its power labels ('025', '1.2', '2.0', '2.5') are Betaflight's three-character display strings and not a spec. One of the page's four images is a spectrum-analyser capture (Agilent, 'C:\\TX2501.STA file loaded') reading 3.229 W at 5.918 GHz; that is a measurement of one unit at one channel, not a rated figure, and nothing was taken from it. The brand states no weight, mounting pattern or antenna connector for this version."
+  },
+  {
+   "type": "vtx",
+   "brand": "Skyzone",
+   "model": "TX2501 CNC 5.8G 2.5W VTX",
+   "slug": "skyzone-tx2501-cnc-5-8g-2-5w-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 2500,
+    "power_levels_mw": "25 / 800 / 1600 / 2500",
+    "frequency_range": "4990-5945 MHz",
+    "channels": 56,
+    "antenna_connector": "MMCX",
+    "price_usd": 56.5
+   },
+   "sources": [
+    "https://www.skyzonefpv.com/products/skyzone-tx2501-cnc-5-8g-2-5w-vtx",
+    "https://www.skyzonefpv.com/products/skyzone-vt5850-cnc-6-2g-vtx"
+   ],
+   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. The CNC-case version of the TX2501, with fan. Its own page states '25/800/1600/2500mW adjustable power output', 'MMCX Antenna connector' and 'Allow use customized frequency 1Mhz by 1 Mhz from 4990~5945', which is where the tuning span here comes from; the 56 channels are the 7 bands of 8 the TX2501 manual prints. input_voltage is empty on a published page because the brand states it twice and differently: the page's feature list says '7-26V Wide Range Voltage input' and this model's own case, photographed on the VT5850 and VT6550 product pages and read at full resolution, is silkscreened '9-26V / GND / 5VOUT / GND / VTX / IRC' beside 'Tx2501 CNC 5.8G 2.5W VTX'. One statement against one publishes neither. The brand annotates this case 38.8 x 38.6 x 22.5 mm in one of the page's own photographs, which is a body and not a mounting pattern, so mount_mm stays empty. The listing 'SKYZONE TX2501 CNC VTX' at /products/skyzone-tx2501-cnc6-vtx is a second listing of this same radio at a different price ($75.00), not a second product: same text, same images, same 4990~5945 statement."
+  },
+  {
+   "type": "vtx",
+   "brand": "Skyzone",
+   "model": "TX2501 CNC 6.2G 2.5W VTX",
+   "slug": "skyzone-tx2501-cnc-6-2g-2-5w-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 2500,
+    "power_levels_mw": "25 / 800 / 1600 / 2500",
+    "frequency_range": "6.2 GHz",
+    "channels": 64,
+    "input_voltage": "9-26V",
+    "mount_mm": "30.5x30.5mm",
+    "antenna_connector": "MMCX",
+    "weight_g": 27.5,
+    "price_usd": 56.5
+   },
+   "sources": [
+    "https://www.skyzonefpv.com/products/skyzone-tx2501-cnc-6-2g-2-5w-64ch-vtx"
+   ],
+   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. The only transmitter of this brand's line with a labelled specification block in text: Model TX2501 CNC 6.2G 2.5W VTX, Power Levels 25mW/800mW/1600mW/2500mW (Peak up to 3.5W), Input Voltage 9V-26V (Supports 3S-6S LiPo), Output Voltage 5V Out for Camera, Antenna Interface MMCX, Control Protocol IRC Tramp / Button Control, Mounting Pattern 30.5 x 30.5 mm M3, Dimensions 38.8 x 38.6 x 22.5 mm, Weight 27.5g. max_power_mw holds 2500, the top of the enumerated step list; the block's 'Peak up to 3.5W' and the prose's '3.0W ~ 3.5W under optimal conditions' are a headroom claim and not a selectable level, and the model's own name says 2.5W. The 64 channels are the block's '8 bands (A, B, E, F, R, L, X, S)' of 8; the brand prints no MHz edges for them, so frequency_range holds the 6.2 GHz label its title carries."
+  },
+  {
+   "type": "vtx",
+   "brand": "Skyzone",
+   "model": "VT1225 1.2G 2.5W VTX",
+   "slug": "skyzone-vt1225-1-2g-2-5w-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 2500,
+    "frequency_range": "960-1400 MHz",
+    "channels": 16,
+    "price_usd": 53.0
+   },
+   "sources": [
+    "https://www.skyzonefpv.com/products/skyzone-vt1225-cnc-vtx",
+    "https://atomrc.com/products/skyzone-vt1225-cnc-vtx",
+    "https://cdn.shopify.com/s/files/1/0597/9668/4956/files/BTFL_vtxtable_20240621_VT1225.json"
+   ],
+   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. The page is its title and one sentence - 'SKYZONE VT1225 1.2G 2.5W VTX With CNC Case and Fan' - and its images are renders. max_power_mw is the 2.5W the brand names the part with, on both of its shops. The channel count and the band edges come from the brand's own Betaflight VTX table for this model, linked from /pages/download as 'VT1225 VTX table': two bands of eight, SKYZONEA 1080/1120/1160/1200/1240/1280/1320/1360 MHz and SKYZONEB 960/980/1000/1020/1040/1258/1380/1400 MHz. That file's power labels ('25 ', '800', 'HIG', 'MAX') are Betaflight's three-character display strings, not figures, so power_levels_mw is empty. The brand states no weight, input voltage, mounting pattern or antenna connector for it."
+  },
+  {
+   "type": "vtx",
+   "brand": "Skyzone",
+   "model": "VT5850 CNC 6.2G 5W VTX",
+   "slug": "skyzone-vt5850-cnc-6-2g-5w-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 5000,
+    "frequency_range": "4.9-6.2 GHz",
+    "price_usd": 56.5
+   },
+   "sources": [
+    "https://www.skyzonefpv.com/products/skyzone-vt5850-cnc-6-2g-vtx",
+    "https://atomrc.com/products/skyzone-vt5850-cnc-6-2g-5w-vtx"
+   ],
+   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. A prose page with no spec block: the brand's only model-specific statement is its own name for the part, identical on both shops - title 'SKYZONE VT5850 CNC 6.2G 5W VTX' over a description opening 'The SKYZONE VT5850 4.9G/6.2G 5W VTX With CNC Case and Fan' - which is where the 5 W and the band edges come from. **Its photographs are another model's**: every one of the six shows a case silkscreened 'Tx2501 CNC 5.8G 2.5W VTX' beside a '9-26V / GND / 5VOUT / GND / VTX / IRC' pinout, read at full resolution, and one of them carries the TX2501 CNC's 38.8 x 38.6 x 22.5 mm dimension annotation. Nothing was taken from them - a 2.5 W 5.8G case on a 5 W 6.2G page describes the other product - so weight, mount, input voltage, connector and the step list are all empty here."
+  },
+  {
+   "type": "vtx",
+   "brand": "Skyzone",
+   "model": "VT6550 CNC 6.5G 4W VTX",
+   "slug": "skyzone-vt6550-cnc-6-5g-4w-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 4000,
+    "frequency_range": "6.0-6.6 GHz",
+    "price_usd": 53.0
+   },
+   "sources": [
+    "https://www.skyzonefpv.com/products/skyzone-vt6550-cnc-6-5g-vtx",
+    "https://atomrc.com/products/skyzone-vt6550-cnc-6-5g-4w-vtx-1"
+   ],
+   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. The second of the three prose VT pages: title 'SKYZONE VT6550 CNC 6.5G 4W VTX' over 'SKYZONE VT6550 6.0G/6.6G 4W VTX With CNC Case and Fan', the same two sentences on both shops, and that is the whole of what the brand states. Its photographs are the TX2501 CNC 5.8G's as well - the silkscreen 'Tx2501 CNC 5.8G 2.5W VTX' is legible at full resolution on the atomrc.com set - and the one top-down shot that looks like a label is the RF shield can, blank. Nothing taken from the images."
+  },
+  {
+   "type": "vtx",
+   "brand": "Skyzone",
+   "model": "VT7550 CNC 7.5G 5W VTX",
+   "slug": "skyzone-vt7550-cnc-7-5g-5w-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 5000,
+    "frequency_range": "6240-7500 MHz",
+    "channels": 64,
+    "input_voltage": "9-36V",
+    "mount_mm": "20x20mm",
+    "antenna_connector": "SMA",
+    "weight_g": 73.5
+   },
+   "sources": [
+    "https://www.skyzonefpv.com/products/skyzone-vt7550-cnc-7-5g-vtx",
+    "https://atomrc.com/products/skyzone-vt7550-cnc-7-5g-5w-vtx",
+    "https://cdn.shopify.com/s/files/1/0597/9668/4956/files/VT7.5G_EN260113_f22f6bec-a376-4fc0-9bda-a80e0343b5dd.jpg"
+   ],
+   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. The one VT-series part the brand documents: /pages/download links an unlabelled image next to the Steadyview X 7.5G manual, and it is the VT7550's own one-page spec sheet. Read at full resolution it gives the frequency table (8 bands A B C D E F H J of 8 channels, 6240-7500 MHz), Antenna port SMA, Input voltage 9~36V, Protocol IRC/Button control with LED segment display, Mounting 20*20mm*M3, size 63.5*38*20.8mm, weight 73.5g, and a wiring diagram whose pin rail reads IRC / VTX / GND / 5V OUT / GND / 9-36V. Its Power row states only tolerances - 'Low power ±2dBm, Max power ±0.8dBm' - so max_power_mw holds the 5 W the brand names the part with on both shops ('VT7550 CNC 7.5G 5W VTX' over 'The SKYZONE VT7550 6.0G/7.5G 5W VTX'), and power_levels_mw is empty because no document enumerates the steps. price_usd is empty on a published page because the brand's two shops disagree about it: $89.90 on skyzonefpv.com and $89.99 on atomrc.com, both on 2026-09-25."
   },
   {
    "type": "vtx",
