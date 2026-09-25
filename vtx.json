@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-25",
- "count": 152,
+ "count": 157,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -2168,6 +2168,114 @@
     "https://www.hglrc.com/products/hglrc-zeus-nano-vtx-350mw-for-fpv-racing-drone"
    ],
    "note": "Cited to HGLRC, whose own labelled block reads: 'Model: Zeus nano VTX, CE Certified, Built-in Microphone, Input voltage: DC 5V, Antenna interface: ipex, Output power: PIT/25/100/200/350mW, Standard 40 channels. A/B/E/F/R frequency group, Installing Hole: 16X16/25.5X25.5mm.M2 / 20X20mm.M3, Size: 18.6mm x 13.6mm x 6mm, Weight: 2.4g, Protocol: IRC tramp', with a current draw per step (PIT@75mA, 25mW@180mA/16dBm, 100mW@280mA/21.5dBm, 200mW@330mA/24.5dBm, 350mW@400mA/27.5dBm). The brand's own photograph annotates the three hole sets on the board - 25.5*25.5mm M2, 20*20mm M3, 16*16mm M2 - and its scale photo shows the 2.4 g. mount_mm is corrected to those three: the retail title sells it as '16x16/20x20/25x25' and 25x25 is not a pattern HGLRC states, the Happymodel OVX303's third figure one brand over (25.5 is the pattern frames are sold for). model_set carries the same correction into the name; the slug keeps the 25x25 it was minted with, because a published URL does not move. 'ipex' is this column's U.FL."
+  },
+  {
+   "type": "vtx",
+   "brand": "Holybro",
+   "model": "Atlatl HV 5.8G 3W Pro VTx",
+   "slug": "holybro-atlatl-hv-5-8g-3w-pro-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 3000,
+    "frequency_range": "4990-5945 MHz",
+    "power_levels_mw": "25 / 400 / 600 / 1600 / 3000",
+    "channels": 56,
+    "input_voltage": "9-28V",
+    "antenna_connector": "MMCX",
+    "price_usd": 59.99
+   },
+   "sources": [
+    "https://holybro.com/products/atlatl-3w-vtx"
+   ],
+   "note": "Read 2026-09-25 off Holybro's own shop, the sixteenth VTX manufacturer catalogue read beside the US retail scrape and the fourth brand this catalogue carried no transmitter of at all (it already carries Holybro stacks, one of which ships this very module). holybro.com is Shopify: products.json?limit=250 is the whole catalogue in one request (178 SKUs, page=2 empty), product_type is the brand's own class label and 'VTX & OSD' holds five parts - these four transmitters and a Micro OSD V2. The labelled spec block is in body_html; nothing sits in the page HTML that is not in it, and docs.holybro.com (323 pages, all autopilot) documents no Atlatl. This is SKU 13040, the Pro version of /products/atlatl-3w-vtx; the Standard (SKU 13038) is a separate entry. Holybro sells them as one product with a 'Version' option, but every differing figure is printed in its own labelled half of the same block - power 'Pro version:25mW, 400mW, 600mW, 1.6W & 3W' against the Standard's five steps, dimensions 'Pro: 53.79 mm x 27.8 mm x 13.5 mm' against 'Standard: 40.8 x 24.8 x 13.3mm', operating mode 'Smart Audio (Standard), IRC Tramp (Pro)' - and each version has its own SKU, its own fifteen-image and eight-image photo sets, and its own Betaflight VTX-table file. The Pro's (BTFL_vtxtable_W1.json) carries real values, 25/400/600/1600/3000, and its seven bands and 56 channels agree with the page's frequency table, whose edges are 4990 and 5945 MHz. input_voltage is this board's own case print, '9-28V DC-IN / GND / DATA / VIDEO / GND / 5V-OUT', read at full resolution - the Standard's case says 7-36V, which is how two boards on one page were told apart; the block's '2~6s' is a cell count and not a voltage. mount_mm is EMPTY: the brand publishes a dimension drawing for the Standard only, and nothing states this larger fan-cooled body's hole pattern. weight_g is EMPTY too - the one figure is a scale photograph reading 30.9 g with the supplied pigtail attached. Unavailable on 2026-09-25."
+  },
+  {
+   "type": "vtx",
+   "brand": "Holybro",
+   "model": "Atlatl HV 5.8G 3W VTx",
+   "slug": "holybro-atlatl-hv-5-8g-3w-vtx",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 3000,
+    "frequency_range": "4990-5945 MHz",
+    "power_levels_mw": "25 / 1600 / 2000 / 2500 / 3000",
+    "channels": 56,
+    "input_voltage": "7-36V",
+    "mount_mm": "20x20mm",
+    "antenna_connector": "MMCX",
+    "price_usd": 59.99
+   },
+   "sources": [
+    "https://holybro.com/products/atlatl-3w-vtx"
+   ],
+   "note": "Read 2026-09-25 off Holybro's own shop, the sixteenth VTX manufacturer catalogue read beside the US retail scrape and the fourth brand this catalogue carried no transmitter of at all (it already carries Holybro stacks, one of which ships this very module). holybro.com is Shopify: products.json?limit=250 is the whole catalogue in one request (178 SKUs, page=2 empty), product_type is the brand's own class label and 'VTX & OSD' holds five parts - these four transmitters and a Micro OSD V2. The labelled spec block is in body_html; nothing sits in the page HTML that is not in it, and docs.holybro.com (323 pages, all autopilot) documents no Atlatl. This is SKU 13038, the Standard version of a page that sells two boards under one URL; the Pro (SKU 13040) is a separate entry. The shared block prints Frequency 5.8G, '7 bands: A, B, E, F, R, L, X', 'Transmission Channel: 56', Operating mode 'Key button, Smart Audio (Standard), IRC Tramp (Pro)', Transmission power 'Standard: 25mW,1.6W, 2W, 2.5W, 3W' against 'Pro version:25mW, 400mW, 600mW, 1.6W & 3W', Antenna connector MMCX, Voltage input 2~6s, Current consumption 1.3A/12VDC @ 3000mW, RF impedance 50 ohm, input video 75 ohm CVBS 0.8~1.2Vp-p NTSC/PAL, and Dimensions 'Standard: 40.8 mm x 24.8 mm x 13.3mm' against 'Pro: 53.79 mm x 27.8 mm x 13.5 mm'. The page's own indicator-light legend counts this version's five steps again (25mW/1.6W/2W/2.5W/3W), which is why the top step publishes: unlike SpeedyBee's TX ULTRA and Axisflying's ROCK, the brand numbers it. frequency_range is the page's own 7x8 frequency table, whose edges are 4990 MHz (X1) and 5945 MHz (E8) - the same span the Skyzone/ATOMRC 7-band boards carry. mount_mm and input_voltage are the brand's own, but not from the block: the dimension drawing in its images annotates 41 mm x 25 mm x 13.5 mm around a 20 mm x 20 mm hole pattern, and the case is silkscreened '7-36V DC-IN / GND / DATA / VIDEO / GND / 5V-OUT'. The block's '2~6s' is a cell count and not a voltage, so it stays here rather than in the field. weight_g is deliberately EMPTY: the only figure the brand publishes for this board is a scale photograph reading 22.6 g, and the thing on the scale is the module with the supplied 80mm SMA-MMCX pigtail attached - the kit-weight rule. (The Shopify variant's own 'weight':50 is a shipping weight, identical for both versions.) One hazard recorded: the brand's Betaflight VTX-table JSON for this version (atlatl_3W_vtx_table.json) is corrupt where its own page is not - its E band reads 5705,5685,5665,5665,5885,5905,5905,5905 where the page's table prints 5705,5685,5665,5645,5885,5905,5925,5945 - and its power labels are Betaflight's three-character display strings ('25 ','1.6','2.0','2.5','MAX'). Bands and channel count from it; numbers from the page. Both versions read as unavailable on 2026-09-25."
+  },
+  {
+   "type": "vtx",
+   "brand": "Holybro",
+   "model": "Atlatl HV micro",
+   "slug": "holybro-atlatl-hv-micro",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 800,
+    "frequency_range": "5645-5945 MHz",
+    "power_levels_mw": "25 / 200 / 500 / 800",
+    "channels": 40,
+    "input_voltage": "7-28V (2-6S)",
+    "mount_mm": "20x20mm",
+    "antenna_connector": "MMCX",
+    "weight_g": 3.6,
+    "price_usd": 27.59
+   },
+   "sources": [
+    "https://holybro.com/products/atlatl-hv-micro",
+    "https://cdn.shopifycdn.net/s/files/1/0604/5905/7341/files/Holybro_Atlatl_HV_micro_Manual_V1.1.pdf"
+   ],
+   "note": "Read 2026-09-25 off Holybro's own shop, the sixteenth VTX manufacturer catalogue read beside the US retail scrape and the fourth brand this catalogue carried no transmitter of at all (it already carries Holybro stacks, one of which ships this very module). holybro.com is Shopify: products.json?limit=250 is the whole catalogue in one request (178 SKUs, page=2 empty), product_type is the brand's own class label and 'VTX & OSD' holds five parts - these four transmitters and a Micro OSD V2. The labelled spec block is in body_html; nothing sits in the page HTML that is not in it, and docs.holybro.com (323 pages, all autopilot) documents no Atlatl. SKU 13012. The page's labelled block and p1 of the brand's own manual (V1.1) print the same lines: 'Output Power: 0.5 mW (pit mode), 25 mW, 200 mW, 500 mW, 800 mW', Audio 6.5 MHz Mono, Protocol SmartAudio 2.0, Antenna Connector MMCX, 'Input Voltage: 7 to 28 volts (2-6S LiPo)', Dimensions 30x26, 'Mounting Holes: Standard 20mm square to center of holes(M3)' and Weight 3.6g. power_levels_mw drops the 0.5 mW pit step. frequency_range is the manual's p3 channel table - the same 40-channel A/B/E/F/R set as the 5.8G Atlatl HV V2, edges 5645 and 5945 MHz. mount_mm takes the hole and not the screw: the box also contains four M2 anti-vibration grommets, which is the HDZero grommet case again. weight_g is 3.6 g although the brand's own scale photograph of the bare board reads 3.7 g - two self-consistent statements (page and manual) against one photograph, so the majority wins; on the 1.2G Atlatl, which has no manual, the same 0.1 g disagreement is one against one and publishes nothing. The board is silkscreened ATLATL Micro V1.2. Unavailable on 2026-09-25."
+  },
+  {
+   "type": "vtx",
+   "brand": "Holybro",
+   "model": "Atlatl HV V2",
+   "slug": "holybro-atlatl-hv-v2",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 800,
+    "frequency_range": "5645-5945 MHz",
+    "power_levels_mw": "25 / 200 / 500 / 800",
+    "channels": 40,
+    "input_voltage": "7-28V (2-6S)",
+    "mount_mm": "30.5x30.5mm",
+    "antenna_connector": "MMCX",
+    "weight_g": 9.3,
+    "price_usd": 31.59
+   },
+   "sources": [
+    "https://holybro.com/products/atlatl-hv-v2",
+    "https://cdn.shopifycdn.net/s/files/1/0604/5905/7341/files/Holybro-Atlatl-HV-v2-Manual.pdf"
+   ],
+   "note": "Read 2026-09-25 off Holybro's own shop, the sixteenth VTX manufacturer catalogue read beside the US retail scrape and the fourth brand this catalogue carried no transmitter of at all (it already carries Holybro stacks, one of which ships this very module). holybro.com is Shopify: products.json?limit=250 is the whole catalogue in one request (178 SKUs, page=2 empty), product_type is the brand's own class label and 'VTX & OSD' holds five parts - these four transmitters and a Micro OSD V2. The labelled spec block is in body_html; nothing sits in the page HTML that is not in it, and docs.holybro.com (323 pages, all autopilot) documents no Atlatl. SKU 13008. Three sources agree on every figure here. The page's labelled block and p1 of the brand's own 9-page manual print the same lines - 'Output Power: 0.5 mW (pit mode), 25 mW, 200 mW, 500 mW, 800 mW', Audio 6.5 MHz Mono, Protocol SmartAudio 2.0, Antenna Connector MMCX, 'Input Voltage: 7 to 28 volts (2-6S LiPo) with absolute maximum 42 volts', Dimensions 35x25x7mm (includes USB height), 'Mounting Holes: Standard 30.5mm square to center of holes', Weight 9.3g - and the board itself is silkscreened with the same power legend beside its LEDs ('Pit / 25 / 200 / 500 / 800'), the five band letters A B E F R and the channel numbers 1-8, read at full resolution. power_levels_mw drops the 0.5 mW pit step. frequency_range is the manual's p3 channel table, 40 channels whose edges are 5645 MHz (E4) and 5945 MHz (E8); the brand also ships it as a Betaflight vtxtable text file (bands 5, channels 8, powerlabels 25 200 500 800) that agrees. The board's own silkscreen reads ATLATL-HV V2.1 where the product is sold as V2. The manual's pinout row says 'B+ Input Voltage (7-42 volts)' against its own spec line's 7-28 V with a 42 V absolute maximum - the same document, and the spec line is what the field holds. Unavailable on 2026-09-25."
+  },
+  {
+   "type": "vtx",
+   "brand": "Holybro",
+   "model": "Atlatl HV V2 1.2GHz 1W",
+   "slug": "holybro-atlatl-hv-v2-1-2ghz-1w",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 1000,
+    "frequency_range": "1080-1380 MHz",
+    "power_levels_mw": "25 / 200 / 1000",
+    "channels": 9,
+    "input_voltage": "7-42V",
+    "mount_mm": "30.5x30.5mm",
+    "antenna_connector": "MMCX",
+    "price_usd": 48.99
+   },
+   "sources": [
+    "https://holybro.com/products/atlatl-hv-v2-1-2ghz-vtx"
+   ],
+   "note": "Read 2026-09-25 off Holybro's own shop, the sixteenth VTX manufacturer catalogue read beside the US retail scrape and the fourth brand this catalogue carried no transmitter of at all (it already carries Holybro stacks, one of which ships this very module). holybro.com is Shopify: products.json?limit=250 is the whole catalogue in one request (178 SKUs, page=2 empty), product_type is the brand's own class label and 'VTX & OSD' holds five parts - these four transmitters and a Micro OSD V2. The labelled spec block is in body_html; nothing sits in the page HTML that is not in it, and docs.holybro.com (323 pages, all autopilot) documents no Atlatl. SKU 13035. The labelled block prints 'Output Power: 0.5 mW (pit mode), 25 mW, 200 mW, 1000 mW', Audio 6.5 MHz Mono (6.0 MHz optional), Antenna Connector MMCX, Input Voltage 2-8S LiPo, Dimensions 35x35x9mm (including connector), 'Mounting Holes: Standard 30.5mm square to center of holes' and 'Weight: 9.3g (VTX Only)'; the features list repeats 'Variable transmit power: Pit/25/200/1000mw' and 'up to 9 frequency Channels'. power_levels_mw drops the 0.5 mW pit step, the way the rest of this column does. frequency_range is the block's own DIP-switch channel table, CH1 1080 / CH2 1120 / CH3 1160 / CH4 1200 / CH5 1240 / CH6 1280 / CH7 1320 / CH8 1380 / CH9 1258 MHz - nine channels, edges 1080 and 1380. input_voltage is the RF shield's own label, read at full resolution: 'AtlatlHV / 1.2G Video Tx / 25-1000mW / 7~42V'. The block's '2-8S LiPo' is a cell count and not a voltage, and the shield's power line confirms the 1000 mW. weight_g is deliberately EMPTY: the block says 9.3 g (VTX only) and the brand's own scale photograph of the bare board says 9.4 g, one manufacturer statement against one, which publishes neither. (9.3 g is also the figure the 5.8G Atlatl HV V2's block prints, so it may be that block's line rather than this board's.) Its sibling the Atlatl HV micro has the same 0.1 g disagreement and resolves the other way, because there a manual agrees with the page. This product has no manual on the shop. A dimension drawing in the images annotates 38 mm x 35 mm where the block says 35x35x9mm; the hole pattern is stated once and is what the field holds. Unavailable on 2026-09-25."
   },
   {
    "type": "vtx",
