@@ -3416,7 +3416,7 @@
   {
    "type": "battery",
    "brand": "LUMENIER",
-   "model": "() 1000mAh 3S",
+   "model": "1000mAh 3S",
    "slug": "lumenier-1000mah-3s",
    "specs": {
     "chemistry": "LiPo",
@@ -3500,7 +3500,7 @@
   {
    "type": "battery",
    "brand": "LUMENIER",
-   "model": "() 1300mAh 3S",
+   "model": "1300mAh 3S",
    "slug": "lumenier-1300mah-3s",
    "specs": {
     "chemistry": "LiPo",
@@ -3522,7 +3522,7 @@
   {
    "type": "battery",
    "brand": "LUMENIER",
-   "model": "() 1300mAh 4S",
+   "model": "1300mAh 4S",
    "slug": "lumenier-1300mah-4s",
    "specs": {
     "chemistry": "LiPo",
@@ -3585,7 +3585,7 @@
   {
    "type": "battery",
    "brand": "LUMENIER",
-   "model": "() 1500mAh 4S",
+   "model": "1500mAh 4S",
    "slug": "lumenier-1500mah-4s",
    "specs": {
     "chemistry": "LiPo",
