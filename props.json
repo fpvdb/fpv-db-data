@@ -2794,7 +2794,7 @@
   {
    "type": "prop",
    "brand": "HQProp",
-   "model": "HQ Prop MacroQuad 10x4.5x3 Tri-Blade 10\" Glass Fiber Nylon Prop - CCW ()",
+   "model": "HQ Prop MacroQuad 10x4.5x3 Tri-Blade 10\" Glass Fiber Nylon Prop - CCW",
    "slug": "hqprop-hq-prop-macroquad-10x4-5x3-tri-blade-10-glass-fiber-nylon-prop-ccw",
    "specs": {
     "diameter_in": 10.0,
@@ -2813,7 +2813,7 @@
   {
    "type": "prop",
    "brand": "HQProp",
-   "model": "HQ Prop MacroQuad 10x4.5x3R Tri-Blade 10\" Glass Fiber Nylon Prop - CW ()",
+   "model": "HQ Prop MacroQuad 10x4.5x3R Tri-Blade 10\" Glass Fiber Nylon Prop - CW",
    "slug": "hqprop-hq-prop-macroquad-10x4-5x3r-tri-blade-10-glass-fiber-nylon-prop-cw",
    "specs": {
     "diameter_in": 10.0,
@@ -2832,7 +2832,7 @@
   {
    "type": "prop",
    "brand": "HQProp",
-   "model": "HQ Prop MacroQuad 10x5x3 Tri-Blade 10\" Glass Reinforced Prop - CCW ()",
+   "model": "HQ Prop MacroQuad 10x5x3 Tri-Blade 10\" Glass Reinforced Prop - CCW",
    "slug": "hqprop-hq-prop-macroquad-10x5x3-tri-blade-10-glass-reinforced-prop-ccw",
    "specs": {
     "diameter_in": 10.0,
@@ -2851,7 +2851,7 @@
   {
    "type": "prop",
    "brand": "HQProp",
-   "model": "HQ Prop MacroQuad 10x5x3R Tri-Blade 10\" Glass Reinforced Prop - CW ()",
+   "model": "HQ Prop MacroQuad 10x5x3R Tri-Blade 10\" Glass Reinforced Prop - CW",
    "slug": "hqprop-hq-prop-macroquad-10x5x3r-tri-blade-10-glass-reinforced-prop-cw",
    "specs": {
     "diameter_in": 10.0,
@@ -2870,7 +2870,7 @@
   {
    "type": "prop",
    "brand": "HQProp",
-   "model": "HQ Prop MacroQuad 7x4.5 Bi-Blade 7\" Glass Fiber Nylon Prop - CCW ()",
+   "model": "HQ Prop MacroQuad 7x4.5 Bi-Blade 7\" Glass Fiber Nylon Prop - CCW",
    "slug": "hqprop-hq-prop-macroquad-7x4-5-bi-blade-7-glass-fiber-nylon-prop-ccw",
    "specs": {
     "diameter_in": 7.0,
@@ -2889,7 +2889,7 @@
   {
    "type": "prop",
    "brand": "HQProp",
-   "model": "HQ Prop MacroQuad 7x4.5x3 Tri-Blade 7\" Glass Reinforced Prop - CCW ()",
+   "model": "HQ Prop MacroQuad 7x4.5x3 Tri-Blade 7\" Glass Reinforced Prop - CCW",
    "slug": "hqprop-hq-prop-macroquad-7x4-5x3-tri-blade-7-glass-reinforced-prop-ccw",
    "specs": {
     "diameter_in": 7.0,
@@ -2908,7 +2908,7 @@
   {
    "type": "prop",
    "brand": "HQProp",
-   "model": "HQ Prop MacroQuad 8x4.3x3 Tri-Blade 8\" Glass Reinforced Prop - CCW ()",
+   "model": "HQ Prop MacroQuad 8x4.3x3 Tri-Blade 8\" Glass Reinforced Prop - CCW",
    "slug": "hqprop-hq-prop-macroquad-8x4-3x3-tri-blade-8-glass-reinforced-prop-ccw",
    "specs": {
     "diameter_in": 8.0,
@@ -2927,7 +2927,7 @@
   {
    "type": "prop",
    "brand": "HQProp",
-   "model": "HQ Prop MacroQuad 8x4.5x3 Tri-Blade 8\" Carbon or Glass Reinforced Prop - CCW ()",
+   "model": "HQ Prop MacroQuad 8x4.5x3 Tri-Blade 8\" Carbon or Glass Reinforced Prop - CCW",
    "slug": "hqprop-hq-prop-macroquad-8x4-5x3-tri-blade-8-carbon-or-glass-reinforced-prop-ccw",
    "specs": {
     "diameter_in": 8.0,
@@ -2947,7 +2947,7 @@
   {
    "type": "prop",
    "brand": "HQProp",
-   "model": "HQ Prop MacroQuad 8x4.5x3R Tri-Blade 8\" Glass Reinforced Prop - CW ()",
+   "model": "HQ Prop MacroQuad 8x4.5x3R Tri-Blade 8\" Glass Reinforced Prop - CW",
    "slug": "hqprop-hq-prop-macroquad-8x4-5x3r-tri-blade-8-glass-reinforced-prop-cw",
    "specs": {
     "diameter_in": 8.0,
@@ -2966,7 +2966,7 @@
   {
    "type": "prop",
    "brand": "HQProp",
-   "model": "HQ Prop MacroQuad 8x4x3 Tri-Blade 8\" Glass Fiber Nylon Prop - CW ()",
+   "model": "HQ Prop MacroQuad 8x4x3 Tri-Blade 8\" Glass Fiber Nylon Prop - CW",
    "slug": "hqprop-hq-prop-macroquad-8x4x3-tri-blade-8-glass-fiber-nylon-prop-cw",
    "specs": {
     "diameter_in": 8.0,
@@ -2985,7 +2985,7 @@
   {
    "type": "prop",
    "brand": "HQProp",
-   "model": "HQ Prop MacroQuad 9x5x3R Tri-Blade 9\" Glass Reinforced Prop - CW ()",
+   "model": "HQ Prop MacroQuad 9x5x3R Tri-Blade 9\" Glass Reinforced Prop - CW",
    "slug": "hqprop-hq-prop-macroquad-9x5x3r-tri-blade-9-glass-reinforced-prop-cw",
    "specs": {
     "diameter_in": 9.0,
@@ -3004,7 +3004,7 @@
   {
    "type": "prop",
    "brand": "HQProp",
-   "model": "HQ Prop MacroQuad Prop 7x4.5 Bi-Blade 7\" Glass Fiber Nylon Prop - CW ()",
+   "model": "HQ Prop MacroQuad Prop 7x4.5 Bi-Blade 7\" Glass Fiber Nylon Prop - CW",
    "slug": "hqprop-hq-prop-macroquad-prop-7x4-5-bi-blade-7-glass-fiber-nylon-prop-cw",
    "specs": {
     "diameter_in": 7.0,

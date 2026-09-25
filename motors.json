@@ -4075,7 +4075,7 @@
   {
    "type": "motor",
    "brand": "BetaFPV",
-   "model": "0702 II ()",
+   "model": "0702 II",
    "slug": "betafpv-0702-ii",
    "specs": {
     "stator": "0702",
@@ -4117,7 +4117,7 @@
   {
    "type": "motor",
    "brand": "BetaFPV",
-   "model": "0702SE II ()",
+   "model": "0702SE II",
    "slug": "betafpv-0702se-ii",
    "specs": {
     "stator": "0702",
@@ -4204,7 +4204,7 @@
   {
    "type": "motor",
    "brand": "BetaFPV",
-   "model": "Aquila20 1103 ()",
+   "model": "Aquila20 1103",
    "slug": "betafpv-aquila20-1103",
    "specs": {
     "stator": "1103",
@@ -4225,7 +4225,7 @@
   {
    "type": "motor",
    "brand": "BetaFPV",
-   "model": "Champion 0702 ()",
+   "model": "Champion 0702",
    "slug": "betafpv-champion-0702",
    "specs": {
     "stator": "0702",
@@ -4246,7 +4246,7 @@
   {
    "type": "motor",
    "brand": "BetaFPV",
-   "model": "Freestyle 0702 ()",
+   "model": "Freestyle 0702",
    "slug": "betafpv-freestyle-0702",
    "specs": {
     "stator": "0702",
@@ -4267,7 +4267,7 @@
   {
    "type": "motor",
    "brand": "BetaFPV",
-   "model": "Racing 0702 ()",
+   "model": "Racing 0702",
    "slug": "betafpv-racing-0702",
    "specs": {
     "stator": "0702",
@@ -21184,13 +21184,506 @@
     "max_cells": "2-3S",
     "shaft": "1.5mm",
     "recommended_props": "2-2.5in props (derived)",
-    "price_usd": 19.99
+    "price_usd": 19.99,
+    "max_thrust_g": 171.75,
+    "thrust_conditions": "T-Motor bench, four runs across two KV: at 6500 KV Gemfan GF3016 and HQProp HQ3020 on 2S (~8.4 V); at 5000 KV Gemfan GF2540 and HQProp HQ3020 on 3S (~12.2 V); 11 throttle points (50-100% in 5% steps) on each run",
+    "thrust_table": [
+     {
+      "kv": 6500,
+      "prop": "Gemfan GF3016",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 8.43,
+      "current_a": 1.72,
+      "rpm": 17718,
+      "thrust_g": 55.05,
+      "efficiency_gw": 3.79
+     },
+     {
+      "kv": 6500,
+      "prop": "Gemfan GF3016",
+      "cells": "2S",
+      "throttle": 55,
+      "voltage_v": 8.42,
+      "current_a": 2.1,
+      "rpm": 19173,
+      "thrust_g": 64.95,
+      "efficiency_gw": 3.67
+     },
+     {
+      "kv": 6500,
+      "prop": "Gemfan GF3016",
+      "cells": "2S",
+      "throttle": 60,
+      "voltage_v": 8.4,
+      "current_a": 2.55,
+      "rpm": 20590,
+      "thrust_g": 76.88,
+      "efficiency_gw": 3.58
+     },
+     {
+      "kv": 6500,
+      "prop": "Gemfan GF3016",
+      "cells": "2S",
+      "throttle": 65,
+      "voltage_v": 8.39,
+      "current_a": 2.97,
+      "rpm": 21803,
+      "thrust_g": 86.39,
+      "efficiency_gw": 3.47
+     },
+     {
+      "kv": 6500,
+      "prop": "Gemfan GF3016",
+      "cells": "2S",
+      "throttle": 70,
+      "voltage_v": 8.38,
+      "current_a": 3.43,
+      "rpm": 23078,
+      "thrust_g": 97.52,
+      "efficiency_gw": 3.39
+     },
+     {
+      "kv": 6500,
+      "prop": "Gemfan GF3016",
+      "cells": "2S",
+      "throttle": 75,
+      "voltage_v": 8.36,
+      "current_a": 3.91,
+      "rpm": 24199,
+      "thrust_g": 107.94,
+      "efficiency_gw": 3.3
+     },
+     {
+      "kv": 6500,
+      "prop": "Gemfan GF3016",
+      "cells": "2S",
+      "throttle": 80,
+      "voltage_v": 8.35,
+      "current_a": 4.42,
+      "rpm": 25442,
+      "thrust_g": 116.34,
+      "efficiency_gw": 3.15
+     },
+     {
+      "kv": 6500,
+      "prop": "Gemfan GF3016",
+      "cells": "2S",
+      "throttle": 85,
+      "voltage_v": 8.32,
+      "current_a": 4.98,
+      "rpm": 26480,
+      "thrust_g": 127.51,
+      "efficiency_gw": 3.07
+     },
+     {
+      "kv": 6500,
+      "prop": "Gemfan GF3016",
+      "cells": "2S",
+      "throttle": 90,
+      "voltage_v": 8.31,
+      "current_a": 5.51,
+      "rpm": 27293,
+      "thrust_g": 136.56,
+      "efficiency_gw": 2.98
+     },
+     {
+      "kv": 6500,
+      "prop": "Gemfan GF3016",
+      "cells": "2S",
+      "throttle": 95,
+      "voltage_v": 8.29,
+      "current_a": 6.19,
+      "rpm": 27915,
+      "thrust_g": 145.26,
+      "efficiency_gw": 2.83
+     },
+     {
+      "kv": 6500,
+      "prop": "Gemfan GF3016",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 8.27,
+      "current_a": 6.9,
+      "rpm": 28718,
+      "thrust_g": 153.53,
+      "efficiency_gw": 2.69
+     },
+     {
+      "kv": 6500,
+      "prop": "HQProp HQ3020",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 8.43,
+      "current_a": 1.81,
+      "rpm": 17420,
+      "thrust_g": 55.05,
+      "efficiency_gw": 3.61
+     },
+     {
+      "kv": 6500,
+      "prop": "HQProp HQ3020",
+      "cells": "2S",
+      "throttle": 55,
+      "voltage_v": 8.42,
+      "current_a": 2.24,
+      "rpm": 18865,
+      "thrust_g": 66.52,
+      "efficiency_gw": 3.54
+     },
+     {
+      "kv": 6500,
+      "prop": "HQProp HQ3020",
+      "cells": "2S",
+      "throttle": 60,
+      "voltage_v": 8.4,
+      "current_a": 2.72,
+      "rpm": 20297,
+      "thrust_g": 78.97,
+      "efficiency_gw": 3.46
+     },
+     {
+      "kv": 6500,
+      "prop": "HQProp HQ3020",
+      "cells": "2S",
+      "throttle": 65,
+      "voltage_v": 8.39,
+      "current_a": 3.13,
+      "rpm": 21327,
+      "thrust_g": 87.38,
+      "efficiency_gw": 3.32
+     },
+     {
+      "kv": 6500,
+      "prop": "HQProp HQ3020",
+      "cells": "2S",
+      "throttle": 70,
+      "voltage_v": 8.37,
+      "current_a": 3.61,
+      "rpm": 22560,
+      "thrust_g": 98.06,
+      "efficiency_gw": 3.25
+     },
+     {
+      "kv": 6500,
+      "prop": "HQProp HQ3020",
+      "cells": "2S",
+      "throttle": 75,
+      "voltage_v": 8.36,
+      "current_a": 4.08,
+      "rpm": 23570,
+      "thrust_g": 108.1,
+      "efficiency_gw": 3.17
+     },
+     {
+      "kv": 6500,
+      "prop": "HQProp HQ3020",
+      "cells": "2S",
+      "throttle": 80,
+      "voltage_v": 8.34,
+      "current_a": 4.58,
+      "rpm": 24531,
+      "thrust_g": 117.36,
+      "efficiency_gw": 3.07
+     },
+     {
+      "kv": 6500,
+      "prop": "HQProp HQ3020",
+      "cells": "2S",
+      "throttle": 85,
+      "voltage_v": 8.33,
+      "current_a": 5.1,
+      "rpm": 25528,
+      "thrust_g": 125.46,
+      "efficiency_gw": 2.96
+     },
+     {
+      "kv": 6500,
+      "prop": "HQProp HQ3020",
+      "cells": "2S",
+      "throttle": 90,
+      "voltage_v": 8.3,
+      "current_a": 5.71,
+      "rpm": 26602,
+      "thrust_g": 137.03,
+      "efficiency_gw": 2.89
+     },
+     {
+      "kv": 6500,
+      "prop": "HQProp HQ3020",
+      "cells": "2S",
+      "throttle": 95,
+      "voltage_v": 8.28,
+      "current_a": 6.34,
+      "rpm": 27580,
+      "thrust_g": 147.59,
+      "efficiency_gw": 2.81
+     },
+     {
+      "kv": 6500,
+      "prop": "HQProp HQ3020",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 8.26,
+      "current_a": 7.04,
+      "rpm": 28338,
+      "thrust_g": 156.34,
+      "efficiency_gw": 2.69
+     },
+     {
+      "kv": 5000,
+      "prop": "Gemfan GF2540",
+      "cells": "3S",
+      "throttle": 50,
+      "voltage_v": 12.22,
+      "current_a": 1.41,
+      "rpm": 19881,
+      "thrust_g": 58.85,
+      "efficiency_gw": 3.42
+     },
+     {
+      "kv": 5000,
+      "prop": "Gemfan GF2540",
+      "cells": "3S",
+      "throttle": 55,
+      "voltage_v": 12.21,
+      "current_a": 1.74,
+      "rpm": 21387,
+      "thrust_g": 68.8,
+      "efficiency_gw": 3.24
+     },
+     {
+      "kv": 5000,
+      "prop": "Gemfan GF2540",
+      "cells": "3S",
+      "throttle": 60,
+      "voltage_v": 12.2,
+      "current_a": 2.07,
+      "rpm": 22811,
+      "thrust_g": 78.63,
+      "efficiency_gw": 3.11
+     },
+     {
+      "kv": 5000,
+      "prop": "Gemfan GF2540",
+      "cells": "3S",
+      "throttle": 65,
+      "voltage_v": 12.19,
+      "current_a": 2.42,
+      "rpm": 24129,
+      "thrust_g": 87.49,
+      "efficiency_gw": 2.96
+     },
+     {
+      "kv": 5000,
+      "prop": "Gemfan GF2540",
+      "cells": "3S",
+      "throttle": 70,
+      "voltage_v": 12.18,
+      "current_a": 2.82,
+      "rpm": 25545,
+      "thrust_g": 97.92,
+      "efficiency_gw": 2.86
+     },
+     {
+      "kv": 5000,
+      "prop": "Gemfan GF2540",
+      "cells": "3S",
+      "throttle": 75,
+      "voltage_v": 12.17,
+      "current_a": 3.23,
+      "rpm": 26733,
+      "thrust_g": 108.01,
+      "efficiency_gw": 2.75
+     },
+     {
+      "kv": 5000,
+      "prop": "Gemfan GF2540",
+      "cells": "3S",
+      "throttle": 80,
+      "voltage_v": 12.16,
+      "current_a": 3.69,
+      "rpm": 28086,
+      "thrust_g": 120.67,
+      "efficiency_gw": 2.69
+     },
+     {
+      "kv": 5000,
+      "prop": "Gemfan GF2540",
+      "cells": "3S",
+      "throttle": 85,
+      "voltage_v": 12.14,
+      "current_a": 4.14,
+      "rpm": 29285,
+      "thrust_g": 129.85,
+      "efficiency_gw": 2.58
+     },
+     {
+      "kv": 5000,
+      "prop": "Gemfan GF2540",
+      "cells": "3S",
+      "throttle": 90,
+      "voltage_v": 12.13,
+      "current_a": 4.64,
+      "rpm": 30442,
+      "thrust_g": 140.0,
+      "efficiency_gw": 2.49
+     },
+     {
+      "kv": 5000,
+      "prop": "Gemfan GF2540",
+      "cells": "3S",
+      "throttle": 95,
+      "voltage_v": 12.11,
+      "current_a": 5.13,
+      "rpm": 31324,
+      "thrust_g": 148.95,
+      "efficiency_gw": 2.4
+     },
+     {
+      "kv": 5000,
+      "prop": "Gemfan GF2540",
+      "cells": "3S",
+      "throttle": 100,
+      "voltage_v": 12.09,
+      "current_a": 5.63,
+      "rpm": 32065,
+      "thrust_g": 156.57,
+      "efficiency_gw": 2.3
+     },
+     {
+      "kv": 5000,
+      "prop": "HQProp HQ3020",
+      "cells": "3S",
+      "throttle": 50,
+      "voltage_v": 12.23,
+      "current_a": 1.5,
+      "rpm": 19201,
+      "thrust_g": 67.14,
+      "efficiency_gw": 3.66
+     },
+     {
+      "kv": 5000,
+      "prop": "HQProp HQ3020",
+      "cells": "3S",
+      "throttle": 55,
+      "voltage_v": 12.22,
+      "current_a": 1.87,
+      "rpm": 20441,
+      "thrust_g": 77.63,
+      "efficiency_gw": 3.4
+     },
+     {
+      "kv": 5000,
+      "prop": "HQProp HQ3020",
+      "cells": "3S",
+      "throttle": 60,
+      "voltage_v": 12.2,
+      "current_a": 2.26,
+      "rpm": 21925,
+      "thrust_g": 87.87,
+      "efficiency_gw": 3.19
+     },
+     {
+      "kv": 5000,
+      "prop": "HQProp HQ3020",
+      "cells": "3S",
+      "throttle": 65,
+      "voltage_v": 12.2,
+      "current_a": 2.62,
+      "rpm": 23023,
+      "thrust_g": 96.45,
+      "efficiency_gw": 3.02
+     },
+     {
+      "kv": 5000,
+      "prop": "HQProp HQ3020",
+      "cells": "3S",
+      "throttle": 70,
+      "voltage_v": 12.18,
+      "current_a": 3.04,
+      "rpm": 24046,
+      "thrust_g": 108.87,
+      "efficiency_gw": 2.94
+     },
+     {
+      "kv": 5000,
+      "prop": "HQProp HQ3020",
+      "cells": "3S",
+      "throttle": 75,
+      "voltage_v": 12.17,
+      "current_a": 3.47,
+      "rpm": 25282,
+      "thrust_g": 120.29,
+      "efficiency_gw": 2.85
+     },
+     {
+      "kv": 5000,
+      "prop": "HQProp HQ3020",
+      "cells": "3S",
+      "throttle": 80,
+      "voltage_v": 12.16,
+      "current_a": 3.92,
+      "rpm": 26404,
+      "thrust_g": 132.24,
+      "efficiency_gw": 2.78
+     },
+     {
+      "kv": 5000,
+      "prop": "HQProp HQ3020",
+      "cells": "3S",
+      "throttle": 85,
+      "voltage_v": 12.14,
+      "current_a": 4.41,
+      "rpm": 27447,
+      "thrust_g": 143.5,
+      "efficiency_gw": 2.68
+     },
+     {
+      "kv": 5000,
+      "prop": "HQProp HQ3020",
+      "cells": "3S",
+      "throttle": 90,
+      "voltage_v": 12.12,
+      "current_a": 4.97,
+      "rpm": 28505,
+      "thrust_g": 155.09,
+      "efficiency_gw": 2.58
+     },
+     {
+      "kv": 5000,
+      "prop": "HQProp HQ3020",
+      "cells": "3S",
+      "throttle": 95,
+      "voltage_v": 12.11,
+      "current_a": 5.48,
+      "rpm": 29282,
+      "thrust_g": 164.96,
+      "efficiency_gw": 2.49
+     },
+     {
+      "kv": 5000,
+      "prop": "HQProp HQ3020",
+      "cells": "3S",
+      "throttle": 100,
+      "voltage_v": 12.09,
+      "current_a": 5.96,
+      "rpm": 29834,
+      "thrust_g": 171.75,
+      "efficiency_gw": 2.38
+     }
+    ],
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø15.5x15.6",
+    "resistance_mohm": "240 (5000KV) / 140 (6500KV)"
    },
    "_scraped_at": "2026-09-25",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-f1204-5000kv-motor",
-    "https://www.racedayquads.com/products/t-motor-f1204-6500kv-motor"
-   ]
+    "https://www.racedayquads.com/products/t-motor-f1204-6500kv-motor",
+    "https://www.tmotorhobby.com/goods-1119.html"
+   ],
+   "note": "Bench rows, configuration, dimensions and winding resistances are from T-Motor's own \"Product Drawing\", \"Specifications\" and \"Test Report\" images on tmotorhobby.com/goods-1119.html. Identity with our RaceDayQuads listings is five figures shared to the digit: both blocks give Φ15.5*15.6mm (a 1204 stator), a 1.5 mm shaft, 2~3S, 6.9 g incl. cable / 6.1 g excl. cable against our published 6.1 g, and the two windings the blocks and the report carry - 5000 and 6500 KV - are exactly the two RaceDayQuads sells. Max thrust is the 5000 KV HQProp HQ3020 3S 100% row, 171.75 g, where the page carried none; the 6500 KV winding was benched on 2S and peaks at 156.34 g, so the higher-KV winding is not the stronger one here. All 44 rows pass the efficiency identity - printed thrust / printed power is the printed efficiency on every one - and printed power is voltage x current on all 44 to within the band the two-decimal columns allow, with no run carrying an offset. Four source facts recorded rather than repaired. First, the spec-block cross-check lands on the 5000 KV block and not on the 6500 KV one: 72W / 6A are the 5000 KV HQ3020 100% row's 72.10 W and 5.96 A truncated, and the 6500 KV block's 7A is that winding's 7.04 A truncated, but its 60W stands 1.8 W above the 58.20 W that is the highest power anywhere in the winding's two runs, so nothing is derived from it. Second, the two windings' weights are printed identically (6.9 / 6.1 g) although their resistances differ by 100 mOhm, and our published figure is the excl.-cable one. Third, the drawing dimensions four M2 holes on a Ø9 bolt circle - a bolt circle and not a square pattern, so mount_mm stays empty - and writes its dimensions with a comma decimal separator (15,6, Ø1,5) as the V3115 and V3120 drawings do. Fourth, recommended_props is left at its derived \"2-2.5in props (derived)\" although the sheet benches a 2540, a 3016 and a 3020: a bench prop set is not a recommendation, and T-Motor states none."
   },
   {
    "type": "motor",
@@ -39432,7 +39925,7 @@
   {
    "type": "motor",
    "brand": "UMMAGAWD",
-   "model": "Aerolite 1605 - Gunmetal &",
+   "model": "Aerolite 1605 - Gunmetal",
    "slug": "ummagawd-aerolite-1605-gunmetal",
    "specs": {
     "stator": "1605",
@@ -39455,7 +39948,7 @@
   {
    "type": "motor",
    "brand": "VCI HOBBY",
-   "model": "0702 Pro DB ()",
+   "model": "0702 Pro DB",
    "slug": "vci-hobby-0702-pro-db",
    "specs": {
     "stator": "0702",
@@ -39475,7 +39968,7 @@
   {
    "type": "motor",
    "brand": "VCI HOBBY",
-   "model": "0702 Pro Lite ()",
+   "model": "0702 Pro Lite",
    "slug": "vci-hobby-0702-pro-lite",
    "specs": {
     "stator": "0702",
@@ -39601,7 +40094,7 @@
   {
    "type": "motor",
    "brand": "VCI HOBBY",
-   "model": "Spark 1204 ()",
+   "model": "Spark 1204",
    "slug": "vci-hobby-spark-1204",
    "specs": {
     "stator": "1204",
@@ -39621,7 +40114,7 @@
   {
    "type": "motor",
    "brand": "VCI HOBBY",
-   "model": "Spark 1303 ()",
+   "model": "Spark 1303",
    "slug": "vci-hobby-spark-1303",
    "specs": {
     "stator": "1303",
