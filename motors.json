@@ -31281,13 +31281,350 @@
     "max_cells": "1S",
     "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
-    "price_usd": 18.99
+    "price_usd": 18.99,
+    "max_thrust_g": 38.6,
+    "thrust_conditions": "T-Motor bench, 25000 KV winding only, five runs at 1S (4.2 V) on M12199, GF1219-3, GF1220-4, GF35mm-3 and GF35mm-4; 6 throttle points (50-100% in 10% steps) on each run",
+    "thrust_table": [
+     {
+      "kv": 25000,
+      "prop": "M12199",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 4.2,
+      "current_a": 1.7,
+      "rpm": 32817,
+      "thrust_g": 22.2,
+      "efficiency_gw": 3.08
+     },
+     {
+      "kv": 25000,
+      "prop": "M12199",
+      "cells": "1S",
+      "throttle": 60,
+      "voltage_v": 4.2,
+      "current_a": 2.1,
+      "rpm": 36857,
+      "thrust_g": 24.8,
+      "efficiency_gw": 2.82
+     },
+     {
+      "kv": 25000,
+      "prop": "M12199",
+      "cells": "1S",
+      "throttle": 70,
+      "voltage_v": 4.2,
+      "current_a": 2.5,
+      "rpm": 37627,
+      "thrust_g": 27.4,
+      "efficiency_gw": 2.66
+     },
+     {
+      "kv": 25000,
+      "prop": "M12199",
+      "cells": "1S",
+      "throttle": 80,
+      "voltage_v": 4.2,
+      "current_a": 2.9,
+      "rpm": 41128,
+      "thrust_g": 30.4,
+      "efficiency_gw": 2.51
+     },
+     {
+      "kv": 25000,
+      "prop": "M12199",
+      "cells": "1S",
+      "throttle": 90,
+      "voltage_v": 4.2,
+      "current_a": 3.4,
+      "rpm": 47978,
+      "thrust_g": 34.0,
+      "efficiency_gw": 2.38
+     },
+     {
+      "kv": 25000,
+      "prop": "M12199",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 4.2,
+      "current_a": 4.3,
+      "rpm": 55116,
+      "thrust_g": 38.6,
+      "efficiency_gw": 2.14
+     },
+     {
+      "kv": 25000,
+      "prop": "GF1219-3",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 4.2,
+      "current_a": 1.7,
+      "rpm": 30266,
+      "thrust_g": 18.9,
+      "efficiency_gw": 2.66
+     },
+     {
+      "kv": 25000,
+      "prop": "GF1219-3",
+      "cells": "1S",
+      "throttle": 60,
+      "voltage_v": 4.2,
+      "current_a": 2.1,
+      "rpm": 36753,
+      "thrust_g": 21.6,
+      "efficiency_gw": 2.48
+     },
+     {
+      "kv": 25000,
+      "prop": "GF1219-3",
+      "cells": "1S",
+      "throttle": 70,
+      "voltage_v": 4.2,
+      "current_a": 2.5,
+      "rpm": 39401,
+      "thrust_g": 24.4,
+      "efficiency_gw": 2.34
+     },
+     {
+      "kv": 25000,
+      "prop": "GF1219-3",
+      "cells": "1S",
+      "throttle": 80,
+      "voltage_v": 4.2,
+      "current_a": 2.9,
+      "rpm": 40119,
+      "thrust_g": 26.9,
+      "efficiency_gw": 2.26
+     },
+     {
+      "kv": 25000,
+      "prop": "GF1219-3",
+      "cells": "1S",
+      "throttle": 90,
+      "voltage_v": 4.2,
+      "current_a": 3.4,
+      "rpm": 47592,
+      "thrust_g": 30.7,
+      "efficiency_gw": 2.15
+     },
+     {
+      "kv": 25000,
+      "prop": "GF1219-3",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 4.2,
+      "current_a": 4.4,
+      "rpm": 54483,
+      "thrust_g": 35.2,
+      "efficiency_gw": 1.93
+     },
+     {
+      "kv": 25000,
+      "prop": "GF1220-4",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 4.2,
+      "current_a": 1.6,
+      "rpm": null,
+      "thrust_g": 16.9,
+      "efficiency_gw": 2.49
+     },
+     {
+      "kv": 25000,
+      "prop": "GF1220-4",
+      "cells": "1S",
+      "throttle": 60,
+      "voltage_v": 4.2,
+      "current_a": 2.0,
+      "rpm": null,
+      "thrust_g": 20.1,
+      "efficiency_gw": 2.42
+     },
+     {
+      "kv": 25000,
+      "prop": "GF1220-4",
+      "cells": "1S",
+      "throttle": 70,
+      "voltage_v": 4.2,
+      "current_a": 2.3,
+      "rpm": null,
+      "thrust_g": 23.0,
+      "efficiency_gw": 2.38
+     },
+     {
+      "kv": 25000,
+      "prop": "GF1220-4",
+      "cells": "1S",
+      "throttle": 80,
+      "voltage_v": 4.2,
+      "current_a": 2.7,
+      "rpm": null,
+      "thrust_g": 25.6,
+      "efficiency_gw": 2.3
+     },
+     {
+      "kv": 25000,
+      "prop": "GF1220-4",
+      "cells": "1S",
+      "throttle": 90,
+      "voltage_v": 4.2,
+      "current_a": 3.1,
+      "rpm": null,
+      "thrust_g": 29.4,
+      "efficiency_gw": 2.28
+     },
+     {
+      "kv": 25000,
+      "prop": "GF1220-4",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 4.2,
+      "current_a": 3.9,
+      "rpm": null,
+      "thrust_g": 35.0,
+      "efficiency_gw": 2.16
+     },
+     {
+      "kv": 25000,
+      "prop": "GF35mm-3",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 4.2,
+      "current_a": 1.8,
+      "rpm": 31027,
+      "thrust_g": 20.2,
+      "efficiency_gw": 2.66
+     },
+     {
+      "kv": 25000,
+      "prop": "GF35mm-3",
+      "cells": "1S",
+      "throttle": 60,
+      "voltage_v": 4.2,
+      "current_a": 2.2,
+      "rpm": 36212,
+      "thrust_g": 23.8,
+      "efficiency_gw": 2.53
+     },
+     {
+      "kv": 25000,
+      "prop": "GF35mm-3",
+      "cells": "1S",
+      "throttle": 70,
+      "voltage_v": 4.2,
+      "current_a": 2.7,
+      "rpm": 40036,
+      "thrust_g": 26.8,
+      "efficiency_gw": 2.33
+     },
+     {
+      "kv": 25000,
+      "prop": "GF35mm-3",
+      "cells": "1S",
+      "throttle": 80,
+      "voltage_v": 4.2,
+      "current_a": 3.2,
+      "rpm": 41620,
+      "thrust_g": 30.3,
+      "efficiency_gw": 2.3
+     },
+     {
+      "kv": 25000,
+      "prop": "GF35mm-3",
+      "cells": "1S",
+      "throttle": 90,
+      "voltage_v": 4.2,
+      "current_a": 4.0,
+      "rpm": 45675,
+      "thrust_g": 34.7,
+      "efficiency_gw": 2.1
+     },
+     {
+      "kv": 25000,
+      "prop": "GF35mm-3",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 4.1,
+      "current_a": 5.1,
+      "rpm": 48293,
+      "thrust_g": 38.6,
+      "efficiency_gw": 1.81
+     },
+     {
+      "kv": 25000,
+      "prop": "GF35mm-4",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 4.2,
+      "current_a": 1.9,
+      "rpm": 31490,
+      "thrust_g": 18.0,
+      "efficiency_gw": 2.33
+     },
+     {
+      "kv": 25000,
+      "prop": "GF35mm-4",
+      "cells": "1S",
+      "throttle": 60,
+      "voltage_v": 4.2,
+      "current_a": 2.3,
+      "rpm": 35446,
+      "thrust_g": 21.3,
+      "efficiency_gw": 2.22
+     },
+     {
+      "kv": 25000,
+      "prop": "GF35mm-4",
+      "cells": "1S",
+      "throttle": 70,
+      "voltage_v": 4.2,
+      "current_a": 2.8,
+      "rpm": 37894,
+      "thrust_g": 24.1,
+      "efficiency_gw": 2.08
+     },
+     {
+      "kv": 25000,
+      "prop": "GF35mm-4",
+      "cells": "1S",
+      "throttle": 80,
+      "voltage_v": 4.2,
+      "current_a": 3.3,
+      "rpm": 40622,
+      "thrust_g": 26.9,
+      "efficiency_gw": 1.95
+     },
+     {
+      "kv": 25000,
+      "prop": "GF35mm-4",
+      "cells": "1S",
+      "throttle": 90,
+      "voltage_v": 4.2,
+      "current_a": 4.1,
+      "rpm": 43724,
+      "thrust_g": 31.8,
+      "efficiency_gw": 1.85
+     },
+     {
+      "kv": 25000,
+      "prop": "GF35mm-4",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 4.1,
+      "current_a": 5.4,
+      "rpm": 46709,
+      "thrust_g": 36.1,
+      "efficiency_gw": 1.62
+     }
+    ],
+    "configuration": "9N12P"
    },
    "_scraped_at": "2026-09-26",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-m0802-ii-micro-motor-25000kv",
-    "https://www.racedayquads.com/products/t-motor-m0802-ii-micro-motor-27000kv"
-   ]
+    "https://www.racedayquads.com/products/t-motor-m0802-ii-micro-motor-27000kv",
+    "https://www.tmotorhobby.com/goods-1216.html"
+   ],
+   "note": "Bench rows and configuration are from T-Motor's own \"M0802 Product Drawing\", \"M0802 Specifications\" and \"M0802 Test Report\" images on tmotorhobby.com/goods-1216.html, the single-KV page for the 25000 KV winding. T-Motor's own M0802 II page, goods-1358, has no test report on it at all: it is a newer, section-based template carrying five product photographs, the line \"M0802 II KV22000/KV25000/KV27000\" and no description images - the three single-KV ids underneath it are the older template and do carry sheets. Identity of goods-1216 with our RaceDayQuads M0802 II 25000KV listing is eight figures to the digit: 25000 KV, 9N12P, an IN 1.5 mm / OUT 1 mm shaft, a JST-1.25 40 mm lead, 1.91 g including cable, 1S, 0.56 A idle at 4 V, 22.3 W max power (10s) and 5.39 A peak current (10s). Max thrust is 38.6 g, which the sheet reaches twice at 100% (M12199 and GF35mm-3), where the page carried none. The spec-block cross-check lands on a single row: the block's 22.3 W and 5.39 A are the GF35mm-4 100% row, printed 22.3 W and 5.4 A. All 30 rows match the efficiency printed beside them. Three source facts recorded rather than repaired. First, and it is why six of the 30 rows publish no RPM: the GF1220-4 run's RPM column is not ordered with the rows it sits on - 31919, 34015, 30427, 42520, 49189 and 57452 from 50% to 100% - while its throttle, voltage, current, thrust and power all rise together and thrust / power is the printed efficiency. Its six values sort into a plausible monotone series, but which row each belongs to is printed nowhere, so they are left empty rather than published at a row the sheet cannot support; the other four runs rise monotonically and are published as printed. Second, the Power column is not voltage x current on 13 of the 30 rows, by at most 0.4 W: the current column is printed to 0.1 A, which against a 1.6-5.4 A draw is the whole difference, and every row's efficiency follows the power printed beside it. Third, the drawing puts three M1.4 holes on a 6.6 mm bolt circle, so mount_mm stays empty for the fifteenth T-Motor page running, and it labels the lead XH-3P/1.25 where the Specifications block calls the same lead JST-1.25. The other two windings this page sells are not on it: goods-1215 (\"M0802 22000KV\") is a winding neither of our listings sells, and goods-1335 (\"M0802 KV27000\") is a different, older motor, not this page's 27000 KV - its block prints 1.78 g, an XH-3P/1.25 30 mm lead, 3.7 V, 0.62 A idle, 21 W and 5.65 A peak against our 27000KV listing's 1.91 g, 33.5 mm lead, 0.56 A, 22.3 W and 5.39 A."
   },
   {
    "type": "motor",
