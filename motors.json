@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25",
+ "generated": "2026-09-26",
  "count": 207,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
@@ -6382,50 +6382,6 @@
     "https://ueeshop.ly200-cdn.com/u_file/UPAH/UPAH113/2409/photo/9355a2e092.jpg"
    ],
    "note": "V3 bench sheets cover 900 KV and 1115 KV on 8in and 9in props. The 900 KV block gives 76.00 g Weight Including Cable with an 18# 250 mm lead, a 28.00 mm stator on a 12 mm Kawasaki 1200# 0.2 mm lamination, a 33.9x42 mm body, 12N14P and N52H magnets; published weight_g 76.5 g is RaceDayQuads' figure for the 1115 KV winding this page sells, which that sheet does not cover. mount_mm is withdrawn. This page published \"19x19mm (4-M3)\", and BrotherHobby's own drawing calls out \"O 19\" with \"4 - M3\" against a bell it marks \"O 33.9\" - a 19 mm bolt circle, i.e. a 13.4 mm square, not a 19 mm one. RaceDayQuads prints the same callout as \"Bolt Pattern: M3 (19X19mm)\" here and as \"Mounting Screw Pattern: M3 (19x19mm)\" on the Avenger 2810, whose drawing prints \"O 19\" too. That is a third manufacturer dimensioning its mount as a bolt-circle diameter after Axisflying and T-Motor, and the first time the 41%-too-large square has reached one of our own pages rather than staying in a retailer's copy. The callout lives here in prose until a mount_bolt_circle_mm column exists."
-  },
-  {
-   "type": "motor",
-   "brand": "BrotherHobby",
-   "model": "GOM 2207.5",
-   "slug": "brotherhobby-gom-2207-5",
-   "specs": {
-    "stator": "2207.5",
-    "kv_options": [
-     1920,
-     2500
-    ],
-    "max_cells": "4-6S",
-    "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 29.99,
-    "weight_g": 30.2
-   },
-   "_scraped_at": "2026-09-25",
-   "sources": [
-    "https://pyrodrone.com/products/hyperlite-2207-5-e-series-1922kv",
-    "https://www.racedayquads.com/products/brotherhobby-gom-2207-5-1920kv-motor",
-    "https://www.racedayquads.com/products/brotherhobby-gom-2207-5-2500kv-motor"
-   ]
-  },
-  {
-   "type": "motor",
-   "brand": "BrotherHobby",
-   "model": "LPD 2306.5",
-   "slug": "brotherhobby-lpd-2306-5",
-   "specs": {
-    "stator": "2306.5",
-    "kv_options": [
-     2000
-    ],
-    "max_cells": "4-6S",
-    "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 24.99,
-    "weight_g": 33.7
-   },
-   "_scraped_at": "2026-09-25",
-   "sources": [
-    "https://pyrodrone.com/products/hyperlite-2306-5-e-series-1922kv",
-    "https://www.racedayquads.com/products/brotherhobby-lpd-2306-5-2000kv-motor"
-   ]
   },
   {
    "type": "motor",
@@ -14519,7 +14475,6 @@
    },
    "_scraped_at": "2026-09-25",
    "sources": [
-    "https://pyrodrone.com/products/five33-2207-champions-edition-2070kv-brushless-fpv-drone-motor-1-pc",
     "https://www.racedayquads.com/products/five33-headsup-2207-1960kv-motor",
     "https://www.racedayquads.com/products/headsup-five33-2207-motor",
     "https://www.racedayquads.com/products/headsup-five33-2207-motor-w-mr30"
@@ -14742,6 +14697,28 @@
    "sources": [
     "https://www.racedayquads.com/products/flyfishrc-sword-2207-1950kv-motor-non-unibell-black",
     "https://www.racedayquads.com/products/flyfishrc-sword-2207-2050kv-motor-non-unibell-black"
+   ]
+  },
+  {
+   "type": "motor",
+   "brand": "Flywoo",
+   "model": "NIN V2 Dave_C Edition 1404",
+   "slug": "flywoo-nin-v2-dave-c-edition-1404",
+   "specs": {
+    "stator": "1404",
+    "kv_options": [
+     2750
+    ],
+    "max_cells": "4-6S",
+    "shaft": "1.5mm",
+    "recommended_props": "3-4in props (derived)",
+    "price_usd": 17.99,
+    "weight_g": 8.7
+   },
+   "_scraped_at": "2026-09-25",
+   "sources": [
+    "https://pyrodrone.com/products/flywoo-nin-v2-1404-2750kv-micro-motor-dave_c-edition",
+    "https://www.racedayquads.com/products/flywoo-nin-v2-dave_c-edition-1404-2750kv-micro-motor"
    ]
   },
   {
@@ -15139,7 +15116,6 @@
    },
    "_scraped_at": "2026-09-25",
    "sources": [
-    "https://pyrodrone.com/products/happymodel-ex1103-11000kv-brushless-fpv-drone-motor-for-happymodel-baseline-1-pc",
     "https://www.racedayquads.com/products/happymodel-1103-7000kv-motor-4-pack-for-larva-x"
    ]
   },
@@ -15560,7 +15536,6 @@
    },
    "_scraped_at": "2026-09-25",
    "sources": [
-    "https://pyrodrone.com/products/iflight-xing-x2806-5-fpv-nextgen-motor-1300kv",
     "https://www.racedayquads.com/products/iflight-xing-2806-5-race-motor-1300kv-1800kv"
    ]
   },
@@ -15702,7 +15677,6 @@
    },
    "_scraped_at": "2026-09-25",
    "sources": [
-    "https://pyrodrone.com/products/iflight-bob57-2506-1500kv-6s-brushless-fpv-drone-motor",
     "https://www.racedayquads.com/products/copy-of-iflight-xing2-2306-2555kv-motor",
     "https://www.racedayquads.com/products/copy-of-iflight-xing2-2506-1500kv-motor"
    ]
@@ -15923,6 +15897,28 @@
    "_scraped_at": "2026-09-25",
    "sources": [
     "https://www.racedayquads.com/products/quadifier-venom-2207-2111kv-motor-racing-motor"
+   ]
+  },
+  {
+   "type": "motor",
+   "brand": "RCINPOWER",
+   "model": "AOS RC Supernova 2207",
+   "slug": "rcinpower-aos-rc-supernova-2207",
+   "specs": {
+    "stator": "2207",
+    "kv_options": [
+     1570
+    ],
+    "max_cells": "8S",
+    "shaft": "4mm",
+    "recommended_props": "5-5.1in props (derived)",
+    "price_usd": 34.99,
+    "weight_g": 31.0
+   },
+   "_scraped_at": "2026-09-25",
+   "sources": [
+    "https://pyrodrone.com/products/rcinpower-aos-supernova-2207-1570kv-8s-brushless-fpv-drone-motor",
+    "https://www.racedayquads.com/products/aos-rc-supernova-2207-fpv-motor-1570kv"
    ]
   },
   {
@@ -24513,7 +24509,6 @@
    },
    "_scraped_at": "2026-09-25",
    "sources": [
-    "https://pyrodrone.com/products/t-motor-f1203-7000kv-motor",
     "https://www.racedayquads.com/products/t-motor-1203-7000kv-micro-motor",
     "https://www.tmotorhobby.com/goods-1156.html"
    ],
@@ -26417,7 +26412,6 @@
    },
    "_scraped_at": "2026-09-25",
    "sources": [
-    "https://pyrodrone.com/products/t-motor-f1408-motor-titanium-red-2800kv-9x9mm-mounting",
     "https://www.racedayquads.com/products/t-motor-f1408-1408-3950kv-motor"
    ]
   },
@@ -28313,9 +28307,9 @@
    },
    "_scraped_at": "2026-09-25",
    "sources": [
-    "https://pyrodrone.com/products/t-motor-velox-v3-2207-1750kv-motor",
     "https://www.racedayquads.com/products/t-motor-f50-2207-5-racing-motor-2150kv-2200kv"
-   ]
+   ],
+   "note": "max_cells is not stated as a cell count by either source: T-Motor's own F50 page lists only the two KV, and RaceDayQuads' listing prints \"Rated Voltage (LiPo): 24V\" for each winding, which is a 6S pack. The 6S published before 2026-09-26 came from Pyrodrone's Velox V3 2207 listing - a different motor that shares this stator size - and is now read from the F50's own rated voltage"
   },
   {
    "type": "motor",
@@ -31934,7 +31928,6 @@
    },
    "_scraped_at": "2026-09-25",
    "sources": [
-    "https://pyrodrone.com/products/t-motor-pacer-p1804-3400kv-ultra-light-freestyle-brushless-motor",
     "https://www.racedayquads.com/products/t-motor-p1804-2400kv-motor-choose-version",
     "https://www.tmotorhobby.com/goods-1250.html"
    ],
@@ -34123,7 +34116,6 @@
    },
    "_scraped_at": "2026-09-25",
    "sources": [
-    "https://pyrodrone.com/products/t-motor-velox-victory-v2808-cinematic-fpv-drone-motor-1300kv",
     "https://www.racedayquads.com/products/t-motor-v2808-1300kv-motor",
     "https://www.racedayquads.com/products/t-motor-v2808-1500kv-motor",
     "https://www.tmotorhobby.com/goods-1199.html"
@@ -34541,9 +34533,9 @@
    },
    "_scraped_at": "2026-09-25",
    "sources": [
-    "https://pyrodrone.com/products/t-motor-velox-v3008-cinematic-fpv-drone-motor-1350kv",
     "https://www.racedayquads.com/products/copy-of-t-motor-v3008-1155kv-motor",
-    "https://www.tmotorhobby.com/goods-1198.html"
+    "https://www.tmotorhobby.com/goods-1198.html",
+    "https://pyrodrone.com/products/t-motor-velox-v3008-cinematic-fpv-drone-motor-1350kv"
    ],
    "note": "Bench rows, configuration and dimensions are from T-Motor's own \"Test Report\", \"Specifications\" and \"Product Drawing\" images on tmotorhobby.com/goods-1198.html. Identity with our retail listings is exact on the figures that are this motor's own: the 30x8 mm stator (Pyrodrone: \"Stator Diameter 30mm / Stator Length 8mm\"), 12N14P, the O35.8x37 mm body RaceDayQuads prints as \"Motor Dimensions O35.8mm x 37mm\", and all three windings the sheet carries. kv_options goes from 1 to 3: our RaceDayQuads listing sells the 1155 KV and Pyrodrone the 1350 KV, and both the Specifications block and Pyrodrone's own \"Also available in 1155KV and 1500KV\" line carry a 1500 KV as well - 1155 KV is 69.2 g with a 0.94 A idle current at 10 V, 1350 KV 70 g and 1.18 A, 1500 KV 69.1 g and 1.36 A, all three 12N14P on a 4 mm bell shaft with an 18# 250 mm lead. Max thrust is the 1350 KV Gemfan GF8040-3 6S 100% row, 3352.4 g, where the page carried none. The spec-block cross-check lands on all three windings and lands on a single row each time, unlike the V2808's and the V3115's: 1314.4 W and 53.9 A are the 1155 KV T7546-3 100% row, 1680.9 W and 69.7 A the 1350 KV T7546-3 one, 1833.9 W and 76.4 A the 1500 KV GF8040-3 one, every figure printed in full rather than truncated or rounded. All 35 rows pass the efficiency identity - printed thrust / printed power is the printed efficiency on every one - and printed power is voltage x current to within the band the one-decimal columns allow on all 35, with no run carrying an offset, so nothing here has the V2208's or the V2306.5's constant. The Voltage column is a test voltage and not a rating: this template has no cell-range column, and every one of the seven runs is at 25.2 V, so the sheet adds no per-winding cell count to argue with our 6S - which is also what Pyrodrone states (\"No. of Cells (Lipo): 6S\"). weight_g is corrected from 61.1 g to 70 g, and it is the first published figure on a T-Motor page this queue has had to replace rather than fill. 61.1 g came off the RaceDayQuads listing, which prints it beside a \"Stator Dimensions: O28mm x 8mm\" - and both of those are the V2808 1300 KV listing's values to the digit, on a shop that gets this motor's own body diameter (O35.8) and continuous current (53.9 A) right. T-Motor's block gives 69.2 / 70 / 69.1 g across the three windings and Pyrodrone prints \"Weight: 70g (3cm wire)\" for the 1350 KV, matching the block to the digit, so 70 g is the figure a second source shares with the manufacturer and the one published here; the other two windings are in this note. A 3008 lighter than the 2808 we publish at 60.5 g was never physical. Three source facts recorded rather than repaired. First, the Specifications block gives the Shaft Diameter as 4 mm where the drawing calls out M5 on the threaded prop end, and Pyrodrone states both halves in so many words - \"Propeller Shaft Diameter: 5mm, Motor Bell Shaft Diameter: 4mm\" - so shaft stays at 5 mm, the same two-figure shaft as on the V2808 and the V2207 V3. Second, two runs print an efficiency that rises before it falls: the 1500 KV T6143-3 (2.92 then 3.01) and the 1155 KV GF8040-3 (4.12 then 4.33) at 20% and 40%, every row internally consistent, exactly as two runs on the V2808 sheet do. Third, three RPM cells are printed without the decimal every other cell in the column carries (9981, 14095, 13092 and 19126), which is the printed figure and is published as printed. recommended_props is left at its derived \"8in+\" although the sheet benches a T6143-3: a bench prop set is not a recommendation, and T-Motor states none. Mount is left unpublished for the same reason as on the V2808, V3115, V3120, V2208, V2306 V3 and V2207 V3: the drawing dimensions 19 between the top and bottom of the four M3 holes and 19 between the left and right ones with no diameter symbol, while printing the symbol on the O35.8 body two views away - a 19 mm bolt circle and a 13.4 mm square, not the 19x19 the mount column holds. RaceDayQuads reprints it faithfully here as \"Mounting Pattern: 19mm O\", which is the first time a retailer has stated a T-Motor bolt circle as a diameter in words. Propeller names are as this sheet prints them (T6143-3, T7546-3, GF8040-3), with the brand prefixed."
   },
@@ -36555,7 +36547,6 @@
    },
    "_scraped_at": "2026-09-25",
    "sources": [
-    "https://pyrodrone.com/products/t-motor-velox-v3115-cinematic-fpv-drone-motor-900kv",
     "https://www.racedayquads.com/products/t-motor-v3115-3115-640kv-motor",
     "https://www.racedayquads.com/products/t-motor-v3115-3115-900kv-motor",
     "https://www.tmotorhobby.com/goods-1330.html"
@@ -37468,7 +37459,6 @@
    },
    "_scraped_at": "2026-09-25",
    "sources": [
-    "https://pyrodrone.com/products/t-motor-velox-v3120-cinematic-fpv-drone-motor-700kv",
     "https://www.racedayquads.com/products/t-motor-v3120-3120-700kv-motor",
     "https://www.tmotorhobby.com/goods-1331.html"
    ],
@@ -44105,9 +44095,9 @@
    },
    "_scraped_at": "2026-09-25",
    "sources": [
-    "https://pyrodrone.com/products/t-motor-velox-v3-2207-1750kv-motor",
     "https://www.racedayquads.com/products/t-motor-velox-v2207-v3-5-power-system"
-   ]
+   ],
+   "note": "Weight and cell rating are the motor's, not the kit's: RaceDayQuads' own listing for this power system prints \"Weight (Incl. Cable): 37.3g\" and \"Rated Voltage(LiPo): 6S\" under 1750KV MOTOR, and 37.1 g under 1950KV MOTOR. The kit also weighs its flight controller (9 g), ESC (12.3 g) and propeller (5 g) separately, which is why the scraper's several-weights rule publishes none of them"
   },
   {
    "type": "motor",
