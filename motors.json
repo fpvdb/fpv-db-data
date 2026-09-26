@@ -4086,13 +4086,130 @@
     "weight_g": 1.55,
     "max_cells": "1S",
     "shaft": "1mm",
-    "recommended_props": "31-40mm whoop props (derived)",
-    "price_usd": 58.99
+    "recommended_props": "Gemfan 1210 2-blade, Gemfan 1208 3-blade or Gemfan 1219S 3-blade (31 mm whoop props, BetaFPV)",
+    "price_usd": 58.99,
+    "max_thrust_g": 37.2,
+    "thrust_conditions": "BetaFPV bench, 30000 KV winding on a Gemfan 1219S-3P at 1S (4 V); 10 throttle points (10-100% in 10% steps)",
+    "thrust_table": [
+     {
+      "kv": 30000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 10,
+      "voltage_v": 4,
+      "current_a": 0.22,
+      "rpm": null,
+      "thrust_g": 0.71,
+      "efficiency_gw": 0.81
+     },
+     {
+      "kv": 30000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 20,
+      "voltage_v": 4,
+      "current_a": 0.76,
+      "rpm": null,
+      "thrust_g": 2.91,
+      "efficiency_gw": 0.96
+     },
+     {
+      "kv": 30000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 30,
+      "voltage_v": 4,
+      "current_a": 1.37,
+      "rpm": null,
+      "thrust_g": 6.5,
+      "efficiency_gw": 1.19
+     },
+     {
+      "kv": 30000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 40,
+      "voltage_v": 4,
+      "current_a": 1.9,
+      "rpm": null,
+      "thrust_g": 10.0,
+      "efficiency_gw": 1.32
+     },
+     {
+      "kv": 30000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 4,
+      "current_a": 2.47,
+      "rpm": null,
+      "thrust_g": 14.36,
+      "efficiency_gw": 1.45
+     },
+     {
+      "kv": 30000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 60,
+      "voltage_v": 4,
+      "current_a": 2.87,
+      "rpm": null,
+      "thrust_g": 18.75,
+      "efficiency_gw": 1.63
+     },
+     {
+      "kv": 30000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 70,
+      "voltage_v": 4,
+      "current_a": 3.3,
+      "rpm": null,
+      "thrust_g": 24.0,
+      "efficiency_gw": 1.82
+     },
+     {
+      "kv": 30000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 80,
+      "voltage_v": 4,
+      "current_a": 3.8,
+      "rpm": null,
+      "thrust_g": 28.6,
+      "efficiency_gw": 1.88
+     },
+     {
+      "kv": 30000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 90,
+      "voltage_v": 4,
+      "current_a": 4.23,
+      "rpm": null,
+      "thrust_g": 32.4,
+      "efficiency_gw": 1.91
+     },
+     {
+      "kv": 30000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 4,
+      "current_a": 5.15,
+      "rpm": null,
+      "thrust_g": 37.2,
+      "efficiency_gw": 1.81
+     }
+    ],
+    "dimensions_mm": "Ø9x12.75"
    },
    "_scraped_at": "2026-09-26",
    "sources": [
-    "https://www.racedayquads.com/products/betafpv-0702-ii-motors-4pcs-30000kv"
-   ]
+    "https://www.racedayquads.com/products/betafpv-0702-ii-motors-4pcs-30000kv",
+    "https://betafpv.com/products/0702-ii-brushless-motors"
+   ],
+   "note": "Bench rows, dimensions and the prop list are from BetaFPV's own \"Outline Drawing / Load Performance\" sheet image on betafpv.com/products/0702-ii-brushless-motors, the first sheet read from this manufacturer. Identity with our RaceDayQuads listing is four figures to the digit: 30000 KV, 1.55 g including the 35 mm connector, a 1 mm shaft and 1S. Max thrust is 37.2 g, the 100% row, where the page carried none. One source fact recorded rather than repaired: the table's Model cell reads \"0702SE II 30000KV\" where its own Outline Drawing header one panel above reads \"0702 II 30000KV\" - the 0702SE II is a 23000/27000 KV motor on the same page's drawing, comparison table and spec block, and the same comparison table gives the 0702 II 30000KV a Max Thrust (GF 1219S-3) of 37.2 g, which is this table's 100% row, so the sheet is the 0702 II's and the \"SE\" in that one cell is not. The Speed (RPM) and Coil temp columns are struck through on every row of both sheets - BetaFPV publishes neither - so every row here carries no RPM. Every row's Input (W) is voltage x current exactly and its printed Efficiency is thrust / that power to the hundredth. The outline drawing puts three M1.4 holes on a 6.6 mm bolt circle (\"3-M1.4EQS\", the spec block's \"Hole Distance: 6.6mm\"), which is a bolt circle and not a mount span, so mount_mm stays empty; it also gives the body as O9 x 12.75 mm overall, 8.55 mm of body plus a 4.2 mm shaft, a 1 mm shaft over a 1.5 mm boss and a 35 mm 30AWG JST 1.25 3-pin lead. Recommended props are BetaFPV's own list, replacing our derived whoop-prop class. One product page sells three windings: 30000 KV is the 0702 II, 23000 and 27000 KV the 0702SE II, which is our separate page."
   },
   {
    "type": "motor",
@@ -4129,13 +4246,240 @@
     "weight_g": 1.45,
     "max_cells": "1S",
     "shaft": "1mm",
-    "recommended_props": "31-40mm whoop props (derived)",
-    "price_usd": 52.99
+    "recommended_props": "Gemfan 1210 2-blade, Gemfan 1208 3-blade or Gemfan 1219S 3-blade (31 mm whoop props, BetaFPV)",
+    "price_usd": 52.99,
+    "max_thrust_g": 35.4,
+    "thrust_conditions": "BetaFPV bench, 23000 and 27000 KV windings, one run each on a Gemfan 1219S-3P at 1S (4 V); 10 throttle points (10-100% in 10% steps) on each",
+    "thrust_table": [
+     {
+      "kv": 23000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 10,
+      "voltage_v": 4,
+      "current_a": 0.15,
+      "rpm": null,
+      "thrust_g": 0.55,
+      "efficiency_gw": 0.92
+     },
+     {
+      "kv": 23000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 20,
+      "voltage_v": 4,
+      "current_a": 0.57,
+      "rpm": null,
+      "thrust_g": 2.7,
+      "efficiency_gw": 1.18
+     },
+     {
+      "kv": 23000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 30,
+      "voltage_v": 4,
+      "current_a": 1.01,
+      "rpm": null,
+      "thrust_g": 5.48,
+      "efficiency_gw": 1.36
+     },
+     {
+      "kv": 23000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 40,
+      "voltage_v": 4,
+      "current_a": 1.42,
+      "rpm": null,
+      "thrust_g": 8.93,
+      "efficiency_gw": 1.57
+     },
+     {
+      "kv": 23000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 4,
+      "current_a": 1.83,
+      "rpm": null,
+      "thrust_g": 12.3,
+      "efficiency_gw": 1.68
+     },
+     {
+      "kv": 23000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 60,
+      "voltage_v": 4,
+      "current_a": 2.3,
+      "rpm": null,
+      "thrust_g": 16.08,
+      "efficiency_gw": 1.75
+     },
+     {
+      "kv": 23000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 70,
+      "voltage_v": 4,
+      "current_a": 2.67,
+      "rpm": null,
+      "thrust_g": 20.56,
+      "efficiency_gw": 1.93
+     },
+     {
+      "kv": 23000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 80,
+      "voltage_v": 4,
+      "current_a": 3.12,
+      "rpm": null,
+      "thrust_g": 24.5,
+      "efficiency_gw": 1.96
+     },
+     {
+      "kv": 23000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 90,
+      "voltage_v": 4,
+      "current_a": 3.49,
+      "rpm": null,
+      "thrust_g": 27.5,
+      "efficiency_gw": 1.97
+     },
+     {
+      "kv": 23000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 4,
+      "current_a": 4.19,
+      "rpm": null,
+      "thrust_g": 32.0,
+      "efficiency_gw": 1.91
+     },
+     {
+      "kv": 27000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 10,
+      "voltage_v": 4,
+      "current_a": 0.22,
+      "rpm": null,
+      "thrust_g": 0.7,
+      "efficiency_gw": 0.8
+     },
+     {
+      "kv": 27000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 20,
+      "voltage_v": 4,
+      "current_a": 0.77,
+      "rpm": null,
+      "thrust_g": 2.76,
+      "efficiency_gw": 0.9
+     },
+     {
+      "kv": 27000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 30,
+      "voltage_v": 4,
+      "current_a": 1.39,
+      "rpm": null,
+      "thrust_g": 5.94,
+      "efficiency_gw": 1.07
+     },
+     {
+      "kv": 27000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 40,
+      "voltage_v": 4,
+      "current_a": 1.92,
+      "rpm": null,
+      "thrust_g": 9.65,
+      "efficiency_gw": 1.26
+     },
+     {
+      "kv": 27000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 4,
+      "current_a": 2.42,
+      "rpm": null,
+      "thrust_g": 13.69,
+      "efficiency_gw": 1.41
+     },
+     {
+      "kv": 27000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 60,
+      "voltage_v": 4,
+      "current_a": 2.9,
+      "rpm": null,
+      "thrust_g": 18.35,
+      "efficiency_gw": 1.58
+     },
+     {
+      "kv": 27000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 70,
+      "voltage_v": 4,
+      "current_a": 3.34,
+      "rpm": null,
+      "thrust_g": 22.4,
+      "efficiency_gw": 1.68
+     },
+     {
+      "kv": 27000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 80,
+      "voltage_v": 4,
+      "current_a": 3.86,
+      "rpm": null,
+      "thrust_g": 26.9,
+      "efficiency_gw": 1.74
+     },
+     {
+      "kv": 27000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 90,
+      "voltage_v": 4,
+      "current_a": 4.32,
+      "rpm": null,
+      "thrust_g": 30.92,
+      "efficiency_gw": 1.79
+     },
+     {
+      "kv": 27000,
+      "prop": "GF 1219S-3P",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 4,
+      "current_a": 5.2,
+      "rpm": null,
+      "thrust_g": 35.4,
+      "efficiency_gw": 1.7
+     }
+    ],
+    "dimensions_mm": "Ø9x12.75"
    },
    "_scraped_at": "2026-09-26",
    "sources": [
-    "https://www.racedayquads.com/products/betafpv-0702se-ii-motors-4pcs-23000kv-27000kv"
-   ]
+    "https://www.racedayquads.com/products/betafpv-0702se-ii-motors-4pcs-23000kv-27000kv",
+    "https://betafpv.com/products/0702-ii-brushless-motors"
+   ],
+   "note": "Bench rows, dimensions and the prop list are from BetaFPV's own \"Outline Drawing / Load Performance\" sheet image for the 0702SE II on betafpv.com/products/0702-ii-brushless-motors, which heads itself \"0702SE II 23000KV / 27000KV\" and carries a ten-row table for each winding. Identity with our RaceDayQuads listing is four figures: both 23000 and 27000 KV, 1.45 g including the 35 mm connector, a 1 mm shaft and 1S. Max thrust is 35.4 g, the 27000 KV 100% row, where the page carried none - and the page's comparison table states exactly those two maxima, 32 g at 23000 KV and 35.4 g at 27000 KV, as the sheet's two 100% rows print them (32.00 and 35.40 g). Two source facts recorded rather than repaired: weight is stated per winding, 1.45 g at 23000 KV and 1.47 g at 27000 KV, and our page carries the 23000 KV figure our retail listing prints for both; and the lower winding is the more efficient one at every throttle point but the top, peaking at 1.97 g/W against 1.79. The Speed (RPM) and Coil temp columns are struck through on every row of both sheets - BetaFPV publishes neither - so every row here carries no RPM. Every row's Input (W) is voltage x current exactly and its printed Efficiency is thrust / that power to the hundredth. The outline drawing puts three M1.4 holes on a 6.6 mm bolt circle (\"3-M1.4EQS\", the spec block's \"Hole Distance: 6.6mm\"), which is a bolt circle and not a mount span, so mount_mm stays empty; it also gives the body as O9 x 12.75 mm overall, 8.55 mm of body plus a 4.2 mm shaft, a 1 mm shaft over a 1.5 mm boss and a 35 mm 30AWG JST 1.25 3-pin lead. Recommended props are BetaFPV's own list, replacing our derived whoop-prop class. One product page sells three windings: 30000 KV is the 0702 II, 23000 and 27000 KV the 0702SE II, which is our separate page."
   },
   {
    "type": "motor",
