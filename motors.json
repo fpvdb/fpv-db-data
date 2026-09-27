@@ -19851,13 +19851,18 @@
     "max_cells": "8-12S",
     "shaft": "5mm",
     "recommended_props": "HQ PROP 10x5x3",
-    "max_thrust_g": 5824.0,
-    "price_usd": 38.99
+    "max_thrust_g": 5824,
+    "price_usd": 38.99,
+    "configuration": "12N14P",
+    "dimensions_mm": "37.1x38.9",
+    "resistance_mohm": "110"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/lumenier-tourq-3120-fpv-motor-500kv"
-   ]
+    "https://www.racedayquads.com/products/lumenier-tourq-3120-fpv-motor-500kv",
+    "https://www.lumenier.com/products/lumenier-tourq-3120-fpv-motor-500kv"
+   ],
+   "note": "Lumenier publishes no bench table for any of its motors; its own Specifications block for the TOURQ 3120 500KV states single figures instead - Max Thrust 5824 g, Max Power 2968 W, Peak Current 59.89 A (60 s), Idle Current 0.87 A at 16 V, Internal Resistance 0.110 Ohm, and up to ~52.2 degC at 100% throttle for 15 s - on one tested prop, an HQ PROP 10x5x3. The pack the 5824 g was measured on is not stated (the block's range is 8-12S and its idle current is quoted at 16 V), and there is no throttle sweep, so these are peaks and not rows. 143 g including wire, 12N14P, 37.1 x 38.9 mm body, 6 mm inner shaft and 5 mm prop shaft, 300 mm 16AWG leads. Its \"Base Mounting Pattern: 4x M3 x 9mm\" names the screws and no span, so no mount pattern is published for this motor"
   },
   {
    "type": "motor",
@@ -19873,12 +19878,17 @@
     "max_cells": "3-8S",
     "shaft": "5mm",
     "recommended_props": "6-7in props (derived)",
-    "price_usd": 29.99
+    "price_usd": 29.99,
+    "configuration": "12N14P",
+    "dimensions_mm": "32x29",
+    "mount_mm": "16x16mm (M3)"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/lumenier-zip-v2-2407-blackout-motor-1700kv"
-   ]
+    "https://www.racedayquads.com/products/lumenier-zip-v2-2407-blackout-motor-1700kv",
+    "https://www.lumenier.com/products/lumenier-zip-v2-2407-blackout-motor-1700kv"
+   ],
+   "note": "Lumenier's own Specifications block for the ZIP V2 2407 Blackout 1700KV states 16x16 mm M3 base mounting, a 32 x 29 mm body, 12N14P, 37 g with short wires, 3-8S (\"6S most common for 1700KV\"), a 24 x 7 mm stator of 0.2 mm Kawasaki silicone steel, N52SH curved magnets, Japanese NMB 9x4x4 bearings, a 4 mm titanium-alloy inner shaft, a 5 mm prop shaft and 160 mm 18AWG leads - and no thrust, current or power figure of any kind. The weight and cell range confirm what our retail listing already published"
   },
   {
    "type": "motor",
@@ -19894,12 +19904,17 @@
     "max_cells": "3-8S",
     "shaft": "5mm",
     "recommended_props": "7-8in props (derived)",
-    "price_usd": 24.99
+    "price_usd": 24.99,
+    "configuration": "12N14P",
+    "dimensions_mm": "33x19.5",
+    "mount_mm": "19x19mm (M3)"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/lumenier-zip-v2-2807-blackout-motor-1700kv"
-   ]
+    "https://www.racedayquads.com/products/lumenier-zip-v2-2807-blackout-motor-1700kv",
+    "https://www.lumenier.com/products/lumenier-zip-v2-2807-blackout-motor-1700kv"
+   ],
+   "note": "Lumenier's page for the ZIP V2 2807 Blackout carries the ZIP V2 2807 Cinematic's SPECIFICATIONS block verbatim, down to its \"KV: 1300KV/1700KV/1950KV\" line, while the same page's Includes list names one winding - \"1x Lumeneir ZIP V2 2807 Motor - 1700KV (No Logo)\" - so kv_options stays at the single 1700 KV our retail source sells rather than taking the block's three. Mechanically the two are one motor and the shared figures are this one's: 19x19 mm M3 base mounting, a 33 x 19.5 mm body, 12N14P, 45 g with short wires, 3-8S, a 28 x 7 mm stator of 0.2 mm Kawasaki silicon steel, N52H curved magnets, Japanese NMB 12x6x4 bearings, a 4.8 mm titanium-alloy inner shaft, a 5 mm prop shaft and 180 mm 18AWG leads. No thrust, current or power figure is published"
   },
   {
    "type": "motor",
@@ -19917,12 +19932,17 @@
     "max_cells": "3-8S",
     "shaft": "5mm",
     "recommended_props": "7-8in props (derived)",
-    "price_usd": 37.99
+    "price_usd": 37.99,
+    "configuration": "12N14P",
+    "dimensions_mm": "33x19.5",
+    "mount_mm": "19x19mm (M3)"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/lumenier-zip-v2-2807-cinematic-motor-1300kv-1700kv-1950kv"
-   ]
+    "https://www.racedayquads.com/products/lumenier-zip-v2-2807-cinematic-motor-1300kv-1700kv-1950kv",
+    "https://www.lumenier.com/products/lumenier-zip-v2-2807-cinematic-motor-1300kv-1700kv-1950kv"
+   ],
+   "note": "Lumenier's own Specifications block for the ZIP V2 2807 Cinematic states 19x19 mm M3 base mounting, a 33 x 19.5 mm body, 12N14P, 45 g with short wires, 3-8S (\"6S most common\"), a 28 x 7 mm stator of 0.2 mm Kawasaki silicon steel, N52H curved magnets, Japanese NMB 12x6x4 bearings, a 4.8 mm titanium-alloy inner shaft, a 5 mm prop shaft, 7075 anodized aluminium bell and base, 180 mm 18AWG leads and all three windings (1300/1700/1950 KV) on this one page - and no thrust, current or power figure. The same block is reprinted on the brand's ZIP V2 2807 Blackout page, which sells only the 1700 KV"
   },
   {
    "type": "motor",
@@ -19939,12 +19959,17 @@
     "max_cells": "3-8S",
     "shaft": "5mm",
     "recommended_props": "7-8in props (derived)",
-    "price_usd": 44.49
+    "price_usd": 44.49,
+    "configuration": "12N14P",
+    "dimensions_mm": "33.7x25.8",
+    "mount_mm": "19x19mm (M3)"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/lumenier-zip-v2-2812-cinematic-motor-1150kv-1300kv"
-   ]
+    "https://www.racedayquads.com/products/lumenier-zip-v2-2812-cinematic-motor-1150kv-1300kv",
+    "https://www.lumenier.com/products/lumenier-zip-v2-2812-cinematic-motor-1150kv-1300kv"
+   ],
+   "note": "Lumenier's own Specifications block for the ZIP V2 2812 Cinematic states 19x19 mm M3 base mounting, a 33.7 x 25.8 mm body, 12N14P, 71 g with short wires, 3-8S (\"6S most common\"), a 28 x 12 mm stator of 0.2 mm Kawasaki silicon steel, N52H curved magnets, Japanese NMB 12x6x4 bearings, a 4.8 mm titanium-alloy inner shaft, a 5 mm prop shaft and 230 mm 18AWG leads - and no thrust, current or power figure. The weight and cell range confirm what our retail listing already published"
   },
   {
    "type": "motor",
@@ -19961,12 +19986,16 @@
     "max_cells": "4-6S",
     "shaft": "5mm",
     "recommended_props": "8in+ props (derived)",
-    "price_usd": 51.99
+    "price_usd": 51.99,
+    "configuration": "12N14P",
+    "mount_mm": "19x19mm (M3)"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/lumenier-zip-v2-3115-cinematic-motor-900kv-1050kv"
-   ]
+    "https://www.racedayquads.com/products/lumenier-zip-v2-3115-cinematic-motor-900kv-1050kv",
+    "https://www.lumenier.com/products/lumenier-zip-v2-3115-cinematic-motor-900kv-1050kv"
+   ],
+   "note": "Lumenier's own Specifications block for the ZIP V2 3115 Cinematic states 19x19 mm M3 base mounting, 12N14P, 98 g with short wires, \"No.of Cells(Lipo): 4-6S\", a 0.2 mm Kawasaki silicon steel stator, N52H arc magnets, Japanese NMB 11x5x5 bearings, a 4.8 mm titanium-alloy inner shaft, a 5 mm prop shaft and 50 cm of 18AWG 200 degC wire - and, alone in the ZIP V2 line, no body dimension, so dimensions_mm stays empty. The 4-6S is the brand's own figure for a 31 mm stator where its smaller 2807 and 2812 are rated 3-8S, and it confirms what our retail listing published. No thrust, current or power figure of any kind"
   },
   {
    "type": "motor",
