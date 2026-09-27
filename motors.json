@@ -65,8 +65,10 @@
    "_scraped_at": "2026-09-27",
    "sources": [
     "https://www.racedayquads.com/products/axis-flying-ae2207-1850kv-motor",
-    "https://www.racedayquads.com/products/axis-flying-ae2207-1960kv-motor"
-   ]
+    "https://www.racedayquads.com/products/axis-flying-ae2207-1960kv-motor",
+    "https://www.axisflying.com/products/ae2207-v1"
+   ],
+   "note": "Axisflying's own /products/ae2207-v1 page was read on 2026-09-27 and is not a source for this motor: its Basic Data block and its whole 16-row Test Data table are the AE2207 V2 page's 1960 KV block to the digit - 1960 KV, 12N14P, 64.46 mOhm, 27.5x33.2 mm, 5 mm shaft, 20#150 mm leads, 6S, 35.2 g including wire, 902.48 W, 38.65 A, 1703 g max pull, 0.95 A no-load, and the same BB4943.5 and 51466 runs already published on /motors/axisflying-ae2207-v2-2207/. The listing this page is built from gives 1850 and 1960 KV at 32.1 g, which no Axisflying block states, so the V1 page is a republished V2 sheet rather than this motor's own and the page stays without bench rows."
   },
   {
    "type": "motor",
@@ -2056,12 +2058,595 @@
     "weight_g": 32.6,
     "max_cells": "6S",
     "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 41.49
+    "price_usd": 41.49,
+    "max_thrust_g": 1950.54,
+    "thrust_conditions": "Axisflying bench, 1975 KV (Proxy Edition) and 2125 KV (Extreme Edition) at 6S / 24.00 V and 2725 KV at 4S / 16.00 V, on a BB4943.5 and a GF 51466; 20-100% in tens on the 6S windings, 30-100% on the 4S one",
+    "thrust_table": [
+     {
+      "kv": 1975,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 20,
+      "voltage_v": 24.0,
+      "current_a": 0.67,
+      "rpm": 8524,
+      "thrust_g": 53.3,
+      "efficiency_gw": 3.33
+     },
+     {
+      "kv": 1975,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 24.0,
+      "current_a": 1.93,
+      "rpm": 12446,
+      "thrust_g": 139.8,
+      "efficiency_gw": 3.02
+     },
+     {
+      "kv": 1975,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 24.0,
+      "current_a": 4.35,
+      "rpm": 16058,
+      "thrust_g": 314.0,
+      "efficiency_gw": 3.01
+     },
+     {
+      "kv": 1975,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.0,
+      "current_a": 7.43,
+      "rpm": 19357,
+      "thrust_g": 469.9,
+      "efficiency_gw": 2.63
+     },
+     {
+      "kv": 1975,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 24.0,
+      "current_a": 11.67,
+      "rpm": 22648,
+      "thrust_g": 665.4,
+      "efficiency_gw": 2.38
+     },
+     {
+      "kv": 1975,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 24.0,
+      "current_a": 15.98,
+      "rpm": 25363,
+      "thrust_g": 941.3,
+      "efficiency_gw": 2.45
+     },
+     {
+      "kv": 1975,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 24.0,
+      "current_a": 22.52,
+      "rpm": 28480,
+      "thrust_g": 1212.6,
+      "efficiency_gw": 2.24
+     },
+     {
+      "kv": 1975,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 24.0,
+      "current_a": 30.7,
+      "rpm": 30934,
+      "thrust_g": 1527.7,
+      "efficiency_gw": 2.07
+     },
+     {
+      "kv": 1975,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24.0,
+      "current_a": 42.29,
+      "rpm": 33324,
+      "thrust_g": 1770.3,
+      "efficiency_gw": 1.74
+     },
+     {
+      "kv": 1975,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 20,
+      "voltage_v": 24.0,
+      "current_a": 0.6,
+      "rpm": 7117,
+      "thrust_g": 58.7,
+      "efficiency_gw": 4.01
+     },
+     {
+      "kv": 1975,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 24.0,
+      "current_a": 2.0,
+      "rpm": 12456,
+      "thrust_g": 173.6,
+      "efficiency_gw": 3.62
+     },
+     {
+      "kv": 1975,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 24.0,
+      "current_a": 4.1,
+      "rpm": 15992,
+      "thrust_g": 326.9,
+      "efficiency_gw": 3.29
+     },
+     {
+      "kv": 1975,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.0,
+      "current_a": 7.6,
+      "rpm": 19379,
+      "thrust_g": 581.0,
+      "efficiency_gw": 3.18
+     },
+     {
+      "kv": 1975,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 24.0,
+      "current_a": 12.2,
+      "rpm": 22592,
+      "thrust_g": 739.3,
+      "efficiency_gw": 2.53
+     },
+     {
+      "kv": 1975,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 24.0,
+      "current_a": 17.1,
+      "rpm": 25270,
+      "thrust_g": 984.2,
+      "efficiency_gw": 2.4
+     },
+     {
+      "kv": 1975,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 24.0,
+      "current_a": 24.0,
+      "rpm": 28010,
+      "thrust_g": 1251.2,
+      "efficiency_gw": 2.17
+     },
+     {
+      "kv": 1975,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 24.0,
+      "current_a": 32.1,
+      "rpm": 30326,
+      "thrust_g": 1568.8,
+      "efficiency_gw": 2.04
+     },
+     {
+      "kv": 1975,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24.0,
+      "current_a": 44.7,
+      "rpm": null,
+      "thrust_g": 1814.7,
+      "efficiency_gw": 1.69
+     },
+     {
+      "kv": 2125,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 20,
+      "voltage_v": 24.0,
+      "current_a": 0.81,
+      "rpm": 9112,
+      "thrust_g": 67.25,
+      "efficiency_gw": 3.45
+     },
+     {
+      "kv": 2125,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 24.0,
+      "current_a": 2.53,
+      "rpm": 13514,
+      "thrust_g": 193.97,
+      "efficiency_gw": 3.19
+     },
+     {
+      "kv": 2125,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 24.0,
+      "current_a": 5.15,
+      "rpm": 17178,
+      "thrust_g": 344.97,
+      "efficiency_gw": 2.79
+     },
+     {
+      "kv": 2125,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.0,
+      "current_a": 9.39,
+      "rpm": 20725,
+      "thrust_g": 547.61,
+      "efficiency_gw": 2.43
+     },
+     {
+      "kv": 2125,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 24.0,
+      "current_a": 14.75,
+      "rpm": 24349,
+      "thrust_g": 852.83,
+      "efficiency_gw": 2.41
+     },
+     {
+      "kv": 2125,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 24.0,
+      "current_a": 20.53,
+      "rpm": 27213,
+      "thrust_g": 1077.06,
+      "efficiency_gw": 2.19
+     },
+     {
+      "kv": 2125,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 24.0,
+      "current_a": 28.62,
+      "rpm": 30230,
+      "thrust_g": 1360.33,
+      "efficiency_gw": 1.98
+     },
+     {
+      "kv": 2125,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 24.0,
+      "current_a": 37.62,
+      "rpm": 32559,
+      "thrust_g": 1689.54,
+      "efficiency_gw": 1.87
+     },
+     {
+      "kv": 2125,
+      "prop": "BB4943.5",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24.0,
+      "current_a": 50.79,
+      "rpm": 34747,
+      "thrust_g": 1926.71,
+      "efficiency_gw": 1.58
+     },
+     {
+      "kv": 2125,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 20,
+      "voltage_v": 24.0,
+      "current_a": 0.8,
+      "rpm": 9040,
+      "thrust_g": 68.4,
+      "efficiency_gw": 3.51
+     },
+     {
+      "kv": 2125,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 24.0,
+      "current_a": 2.7,
+      "rpm": 13393,
+      "thrust_g": 186.15,
+      "efficiency_gw": 2.93
+     },
+     {
+      "kv": 2125,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 24.0,
+      "current_a": 5.7,
+      "rpm": 16965,
+      "thrust_g": 370.03,
+      "efficiency_gw": 2.71
+     },
+     {
+      "kv": 2125,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.0,
+      "current_a": 9.9,
+      "rpm": 20664,
+      "thrust_g": 605.74,
+      "efficiency_gw": 2.55
+     },
+     {
+      "kv": 2125,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 24.0,
+      "current_a": 15.2,
+      "rpm": 23913,
+      "thrust_g": 842.3,
+      "efficiency_gw": 2.32
+     },
+     {
+      "kv": 2125,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 24.0,
+      "current_a": 21.1,
+      "rpm": 26790,
+      "thrust_g": 1145.02,
+      "efficiency_gw": 2.26
+     },
+     {
+      "kv": 2125,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 24.0,
+      "current_a": 30.0,
+      "rpm": 29572,
+      "thrust_g": 1404.32,
+      "efficiency_gw": 1.95
+     },
+     {
+      "kv": 2125,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 24.0,
+      "current_a": 40.1,
+      "rpm": 32098,
+      "thrust_g": 1676.58,
+      "efficiency_gw": 1.75
+     },
+     {
+      "kv": 2125,
+      "prop": "GF 51466",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24.0,
+      "current_a": 53.7,
+      "rpm": 34112,
+      "thrust_g": 1950.54,
+      "efficiency_gw": 1.51
+     },
+     {
+      "kv": 2725,
+      "prop": "BB4943.5",
+      "cells": "4S",
+      "throttle": 30,
+      "voltage_v": 16.0,
+      "current_a": 7.68,
+      "rpm": 15229,
+      "thrust_g": 352.95,
+      "efficiency_gw": 2.87
+     },
+     {
+      "kv": 2725,
+      "prop": "BB4943.5",
+      "cells": "4S",
+      "throttle": 40,
+      "voltage_v": 16.0,
+      "current_a": 12.85,
+      "rpm": 17269,
+      "thrust_g": 549.0,
+      "efficiency_gw": 2.67
+     },
+     {
+      "kv": 2725,
+      "prop": "BB4943.5",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16.0,
+      "current_a": 21.74,
+      "rpm": 19147,
+      "thrust_g": 757.66,
+      "efficiency_gw": 2.18
+     },
+     {
+      "kv": 2725,
+      "prop": "BB4943.5",
+      "cells": "4S",
+      "throttle": 60,
+      "voltage_v": 16.0,
+      "current_a": 25.21,
+      "rpm": 21164,
+      "thrust_g": 826.0,
+      "efficiency_gw": 2.05
+     },
+     {
+      "kv": 2725,
+      "prop": "BB4943.5",
+      "cells": "4S",
+      "throttle": 70,
+      "voltage_v": 16.0,
+      "current_a": 30.22,
+      "rpm": 23147,
+      "thrust_g": 964.0,
+      "efficiency_gw": 1.99
+     },
+     {
+      "kv": 2725,
+      "prop": "BB4943.5",
+      "cells": "4S",
+      "throttle": 80,
+      "voltage_v": 16.0,
+      "current_a": 36.65,
+      "rpm": 25325,
+      "thrust_g": 1123.0,
+      "efficiency_gw": 1.91
+     },
+     {
+      "kv": 2725,
+      "prop": "BB4943.5",
+      "cells": "4S",
+      "throttle": 90,
+      "voltage_v": 16.0,
+      "current_a": 41.22,
+      "rpm": 28607,
+      "thrust_g": 1258.0,
+      "efficiency_gw": 1.91
+     },
+     {
+      "kv": 2725,
+      "prop": "BB4943.5",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16.0,
+      "current_a": 46.17,
+      "rpm": 29982,
+      "thrust_g": 1459.38,
+      "efficiency_gw": 1.98
+     },
+     {
+      "kv": 2725,
+      "prop": "GF 51466",
+      "cells": "4S",
+      "throttle": 30,
+      "voltage_v": 16.0,
+      "current_a": 6.9,
+      "rpm": 14114,
+      "thrust_g": 318.0,
+      "efficiency_gw": 2.9
+     },
+     {
+      "kv": 2725,
+      "prop": "GF 51466",
+      "cells": "4S",
+      "throttle": 40,
+      "voltage_v": 16.0,
+      "current_a": 13.5,
+      "rpm": 16205,
+      "thrust_g": 586.9,
+      "efficiency_gw": 2.71
+     },
+     {
+      "kv": 2725,
+      "prop": "GF 51466",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16.0,
+      "current_a": 22.1,
+      "rpm": 18563,
+      "thrust_g": 818.85,
+      "efficiency_gw": 2.32
+     },
+     {
+      "kv": 2725,
+      "prop": "GF 51466",
+      "cells": "4S",
+      "throttle": 60,
+      "voltage_v": 16.0,
+      "current_a": 27.8,
+      "rpm": 20644,
+      "thrust_g": 968.0,
+      "efficiency_gw": 2.17
+     },
+     {
+      "kv": 2725,
+      "prop": "GF 51466",
+      "cells": "4S",
+      "throttle": 70,
+      "voltage_v": 16.0,
+      "current_a": 31.5,
+      "rpm": 22644,
+      "thrust_g": 1081.7,
+      "efficiency_gw": 2.15
+     },
+     {
+      "kv": 2725,
+      "prop": "GF 51466",
+      "cells": "4S",
+      "throttle": 80,
+      "voltage_v": 16.0,
+      "current_a": 36.8,
+      "rpm": 24919,
+      "thrust_g": 1245.61,
+      "efficiency_gw": 2.12
+     },
+     {
+      "kv": 2725,
+      "prop": "GF 51466",
+      "cells": "4S",
+      "throttle": 90,
+      "voltage_v": 16.0,
+      "current_a": 42.1,
+      "rpm": 26182,
+      "thrust_g": 1410.74,
+      "efficiency_gw": 2.1
+     },
+     {
+      "kv": 2725,
+      "prop": "GF 51466",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16.0,
+      "current_a": 47.9,
+      "rpm": 29868,
+      "thrust_g": 1513.26,
+      "efficiency_gw": 1.97
+     }
+    ],
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø27.5x33.4",
+    "shaft": "5mm",
+    "mount_mm": "Ø16mm (4-M3)",
+    "resistance_mohm": "56 (1975KV) / 45 (2125KV) / 36 (2725KV)"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/axisflying-blackbird-v3-2207-1975kv-motor"
-   ]
+    "https://www.racedayquads.com/products/axisflying-blackbird-v3-2207-1975kv-motor",
+    "https://www.axisflying.com/products/axisflying-black-bird-bb2207-brushless-motor-for-5-6inch-fpv-drone-freestyle-sbang-bando-diy-part"
+   ],
+   "note": "Axisflying publishes the whole Black Bird V3 sheet as description images on its own product page: a SPECS table, a dimension drawing and a TEST DATA table of 52 rows - three windings on two props, 20-100% in tens at 24.00 V for the 1975 and 2125 KV and 30-100% at 16.00 V for the 2725 KV. Identity with the RaceDayQuads listing we price from is the stator (2207.3), the 1975 KV winding and the 32.6 g weight, which is the SPECS table's Weight (Excl.Cable); the page body states 36.5 g for the same motor including its 150 mm cables, so the two figures are the same motor with and without its leads. The brand sells the 1975 KV as the Proxy Edition and the 2125 KV as the Extreme Edition, both 6S; the 2725 KV in the SPECS table is the 4S winding, which is what its Rated Voltage row (4~6S/4S) separates. The spec-block cross-check lands on all three windings, each time on the GF 51466 run: Peak Current 44.7 / 53.7 / 48 A against 44.7, 53.7 and 47.9 A at 100%, and Max.Power 1070 / 1288 / 766 W against 1072.61, 1288.79 and 766.22 W. Max thrust is the 2125 KV GF 51466 100% row, 1950.54 g, which the body restates as \"can get over 1.9KG and most current is about 50A\"; the 1975 KV winding our source sells peaks at 1814.7 g. Four source facts recorded rather than repaired. The 1975 KV GF 51466 100% row prints an RPM of 23157 between a 90% row of 30326 and nothing above it, so that row publishes no RPM. The 1975 KV BB4943.5 run's printed efficiency rises at 70% (2.38 -> 2.45 g/W) before falling again. The 2725 KV BB4943.5 run's efficiency also rises at 100% (1.91 -> 1.98 g/W) and its 40-50% step adds 8.89 A for 209 g where every neighbouring step adds less current for more thrust. And the mount is a bolt circle, not a square: the drawing calls out 4-M3 on a circle 16 mm across and the body says \"Motor mounting hole size: 4*M3 (16mm)\", which is an 11.3 mm square in the pattern the frame sees."
   },
   {
    "type": "motor",
@@ -16942,8 +17527,10 @@
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/emax-th12025-11000kv-motor-for-nanohark-x"
-   ]
+    "https://www.racedayquads.com/products/emax-th12025-11000kv-motor-for-nanohark-x",
+    "https://shop.emaxmodel.com/products/nanohawk-x-spare-parts-th12025-11000kv-motor"
+   ],
+   "note": "EMAX publishes this motor only as a Nanohawk X spare part (shop.emaxmodel.com), and that page carries no text of any kind - no spec block, no test report, six photographs and nothing else. The brand's bench tables, which this catalogue already carries for ten EMAX motors, exist for its Eco II, Eco III and RSIII lines and not for its whoop spares."
   },
   {
    "type": "motor",
@@ -21635,13 +22222,17 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 29.99
+    "price_usd": 29.99,
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø29.4x31.6"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
     "https://www.racedayquads.com/products/newbeedrone-smoov-2306-5-2450kv-motor",
-    "https://www.racedayquads.com/products/newbeedrone-smoov-v2-2306-5-1750kv-motor"
-   ]
+    "https://www.racedayquads.com/products/newbeedrone-smoov-v2-2306-5-1750kv-motor",
+    "https://newbeedrone.com/products/newbeedrone-2306-5-smoov-v2-ring-magnet-cinematic-fpv-motor-1750kv"
+   ],
+   "note": "NewBeeDrone's own product page for the 2306.5 Smoov V2 Ring Magnet publishes a labelled Specifications list and no bench table: 12N14P single-winding 0.15 mm lamination stator, 23 mm x 6.5 mm stator, 5 mm shaft, 29.4x31.6 mm body, 36 g including cable, 20AWG 150 mm wire, NSK/NMB 684ZZ bearings, N48SH ring magnets, a suggested propeller of 5-6 inch and a 30-60 A ESC, with the two windings given as 1750 KV for 6S and 2450 KV for 4S - both of which our listing already carries. The five product images are photographs."
   },
   {
    "type": "motor",
@@ -26817,8 +27408,10 @@
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/rush-fpv-reactor-racing-2207-5-1930kv-motor"
-   ]
+    "https://www.racedayquads.com/products/rush-fpv-reactor-racing-2207-5-1930kv-motor",
+    "https://rushfpv.net/products/rush-racing-v2-1930kv"
+   ],
+   "note": "RushFPV's own store lists this motor as RUSH Racing v2 1930kv/2030kv and publishes no text for it at all - the product body is empty and the six images are photographs. The first of them is a title card reading Reactor RACING V2 / 2207.5 / 1930KV, and two others show a case silkscreened KV2030, so the brand sells a second winding our source does not stock. There is no spec block and no bench table, so nothing was taken from it but the model name."
   },
   {
    "type": "motor",
@@ -26834,12 +27427,16 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 5.3
+    "price_usd": 5.3,
+    "mount_mm": "16x16mm",
+    "resistance_mohm": "64"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/rush-fpv-reactor-training-2207-1960kv-motor"
-   ]
+    "https://www.racedayquads.com/products/rush-fpv-reactor-training-2207-1960kv-motor",
+    "https://rushfpv.net/products/rush-reactor-training-2207-%E7%9A%84%E5%89%AF%E6%9C%AC"
+   ],
+   "note": "RushFPV's own store (rushfpv.net, not the dead rushfpv.com) publishes a labelled Specifications block for this motor and no bench table: 6S, 1960 KV, 22x7 mm stator, 16x16 mm mounting pattern, 5 mm shaft, 64 mOhm internal resistance, 20awg 150 mm wire and 33.4 g including wires - the weight and KV our listing already carried. The four product images are photographs; the case silkscreen reads RUSHFPV TRAINING 2207 KV1960, which is the identity. No RushFPV motor page on that store carries a thrust table."
   },
   {
    "type": "motor",
@@ -26855,12 +27452,16 @@
     "max_cells": "1S",
     "shaft": "1.5mm",
     "recommended_props": "31-40mm whoop props (derived)",
-    "price_usd": 39.99
+    "price_usd": 39.99,
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø12x14"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/sub250-m1-0803-19000kv-micro-whoop-motor-4-pack"
-   ]
+    "https://www.racedayquads.com/products/sub250-m1-0803-19000kv-micro-whoop-motor-4-pack",
+    "https://sub250.com/products/sub250-m1-0803-19000kv-1-5-mm-shaft-brushless-motor-for-nanofly16-pack-of-1-4"
+   ],
+   "note": "Sub250's own product page publishes a labelled Specifications block and no bench table: 9N12P, 8.4 mm x 2.8 mm stator, 1.5 mm shaft, 12x14 mm body, 2.2 g, 1S only on a recommended 380-530 mAh pack. The nine product images are renders. The brand's 1.0 mm shaft version of the same motor is a separate, discontinued page with the same block."
   },
   {
    "type": "motor",
