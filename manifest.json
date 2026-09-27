@@ -1,7 +1,7 @@
 {
  "generated": "2026-09-27",
  "counts": {
-  "motors": 207,
+  "motors": 206,
   "quads": 101,
   "batteries": 326,
   "props": 207,
@@ -9,7 +9,7 @@
   "cameras": 53,
   "vtx": 157
  },
- "total": 1163,
+ "total": 1162,
  "site": "https://fpv-db.com/data/",
  "license": "CC-BY-4.0"
 }
