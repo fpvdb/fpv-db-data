@@ -18252,12 +18252,132 @@
     "weight_g": 2.5,
     "max_cells": "1S",
     "recommended_props": "1.6-2 inches",
-    "price_usd": 15.99
+    "price_usd": 15.99,
+    "max_thrust_g": 88,
+    "thrust_conditions": "HGLRC bench, 21000 KV at 1S (3.7 V), 50% and 100% throttle on each of five 1.6-2in whoop props",
+    "thrust_table": [
+     {
+      "kv": 21000,
+      "prop": "GF1610R*2",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 3.7,
+      "current_a": 2.1,
+      "rpm": null,
+      "thrust_g": 29,
+      "efficiency_gw": 3.732
+     },
+     {
+      "kv": 21000,
+      "prop": "GF1610R*2",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 3.7,
+      "current_a": 7.5,
+      "rpm": null,
+      "thrust_g": 68,
+      "efficiency_gw": 2.45
+     },
+     {
+      "kv": 21000,
+      "prop": "GF1635R*3",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 3.7,
+      "current_a": 2.6,
+      "rpm": null,
+      "thrust_g": 31,
+      "efficiency_gw": 3.222
+     },
+     {
+      "kv": 21000,
+      "prop": "GF1635R*3",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 3.7,
+      "current_a": 8.9,
+      "rpm": null,
+      "thrust_g": 71,
+      "efficiency_gw": 2.156
+     },
+     {
+      "kv": 21000,
+      "prop": "GF1635R*4",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 3.7,
+      "current_a": 2.8,
+      "rpm": null,
+      "thrust_g": 34,
+      "efficiency_gw": 3.282
+     },
+     {
+      "kv": 21000,
+      "prop": "GF1635R*4",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 3.7,
+      "current_a": 9.9,
+      "rpm": null,
+      "thrust_g": 75,
+      "efficiency_gw": 2.048
+     },
+     {
+      "kv": 21000,
+      "prop": "GF2015R*2",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 3.7,
+      "current_a": 3.3,
+      "rpm": null,
+      "thrust_g": 42,
+      "efficiency_gw": 3.44
+     },
+     {
+      "kv": 21000,
+      "prop": "GF2015R*2",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 3.7,
+      "current_a": 10.3,
+      "rpm": null,
+      "thrust_g": 88,
+      "efficiency_gw": 2.309
+     },
+     {
+      "kv": 21000,
+      "prop": "GF2023R*3",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 3.7,
+      "current_a": 4.2,
+      "rpm": null,
+      "thrust_g": 40,
+      "efficiency_gw": 2.574
+     },
+     {
+      "kv": 21000,
+      "prop": "GF2023R*3",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 3.7,
+      "current_a": 13.3,
+      "rpm": null,
+      "thrust_g": 72,
+      "efficiency_gw": 1.463
+     }
+    ],
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø13.59x8.25",
+    "mount_mm": "3-M1.4-EQS-Ø6.6",
+    "shaft": "M1.5x3.75mm"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/hglrc-specter-1002-21000kv-micro-motor"
-   ]
+    "https://www.racedayquads.com/products/hglrc-specter-1002-21000kv-micro-motor",
+    "https://www.hglrc.com/products/hglrc-specter-1002-21000kv-brushless-motor"
+   ],
+   "note": "The rows are HGLRC's own 'Efficacy table', published as an image in the description gallery of the motor's product page on hglrc.com - the eighth brand this dataset has read a manufacturer sheet from, and the first whose sheet publishes a per-run MOTOR TEMPERATURE. One template across the whole SPECTER line: columns Prop (inch) / Voltages (V) / Throttle (%) / Load Currency (A) / Pull (g) / Power (W) / Efficiency (g/W) / Temperature (in full throttle load 5's). Two throttle points per prop run, 50% and 100%, no RPM column at all, and the temperature is one figure per voltage block measured after five seconds at full throttle, not per row. Full-throttle temperature runs 60 degC on the GF1610R*2 to 83 degC (the sheet labels it 'Hot') on the GF2023R*3. Every row's Power column is exactly 3.7 V x its own current. THIS PAGE'S SPEC FIGURES DISAGREE WITH THEMSELVES: the product page's text block states 13.5 A and 85 W, its Specification IMAGE states 13.3 A and 52 W, and the bench table's largest row is 13.3 A / 49.2 W - so the image's current is the table's own maximum and the text's is not. Neither figure is a field we carry; both are recorded rather than chosen between."
   },
   {
    "type": "motor",
@@ -18272,12 +18392,242 @@
     "weight_g": 3.35,
     "max_cells": "1-2S",
     "recommended_props": "1.6-2 inches",
-    "price_usd": 15.99
+    "price_usd": 15.99,
+    "max_thrust_g": 151,
+    "thrust_conditions": "HGLRC bench, 10000 KV at 2S (7.4 V), 50% and 100% throttle on each of ten 1.6-2.6in whoop props",
+    "thrust_table": [
+     {
+      "kv": 10000,
+      "prop": "GF1608R*3",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 7.4,
+      "current_a": 1.4,
+      "rpm": null,
+      "thrust_g": 43,
+      "efficiency_gw": 4.151
+     },
+     {
+      "kv": 10000,
+      "prop": "GF1608R*3",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 7.4,
+      "current_a": 5.7,
+      "rpm": null,
+      "thrust_g": 102,
+      "efficiency_gw": 2.418
+     },
+     {
+      "kv": 10000,
+      "prop": "GF1609R*4",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 7.4,
+      "current_a": 1.5,
+      "rpm": null,
+      "thrust_g": 47,
+      "efficiency_gw": 4.234
+     },
+     {
+      "kv": 10000,
+      "prop": "GF1609R*4",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 7.4,
+      "current_a": 6.3,
+      "rpm": null,
+      "thrust_g": 112,
+      "efficiency_gw": 2.402
+     },
+     {
+      "kv": 10000,
+      "prop": "GF1635R*3",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 7.4,
+      "current_a": 1.4,
+      "rpm": null,
+      "thrust_g": 44,
+      "efficiency_gw": 4.247
+     },
+     {
+      "kv": 10000,
+      "prop": "GF1635R*3",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 7.4,
+      "current_a": 5.7,
+      "rpm": null,
+      "thrust_g": 103,
+      "efficiency_gw": 2.442
+     },
+     {
+      "kv": 10000,
+      "prop": "GF1635R*4",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 7.4,
+      "current_a": 1.7,
+      "rpm": null,
+      "thrust_g": 51,
+      "efficiency_gw": 4.054
+     },
+     {
+      "kv": 10000,
+      "prop": "GF1635R*4",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 7.4,
+      "current_a": 6.3,
+      "rpm": null,
+      "thrust_g": 112,
+      "efficiency_gw": 2.402
+     },
+     {
+      "kv": 10000,
+      "prop": "GF2015R*2",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 7.4,
+      "current_a": 1.7,
+      "rpm": null,
+      "thrust_g": 59,
+      "efficiency_gw": 4.69
+     },
+     {
+      "kv": 10000,
+      "prop": "GF2015R*2",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 7.4,
+      "current_a": 7,
+      "rpm": null,
+      "thrust_g": 133,
+      "efficiency_gw": 2.568
+     },
+     {
+      "kv": 10000,
+      "prop": "GF2023R*3",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 7.4,
+      "current_a": 2.5,
+      "rpm": null,
+      "thrust_g": 62,
+      "efficiency_gw": 3.351
+     },
+     {
+      "kv": 10000,
+      "prop": "GF2023R*3",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 7.4,
+      "current_a": 10.2,
+      "rpm": null,
+      "thrust_g": 125,
+      "efficiency_gw": 1.656
+     },
+     {
+      "kv": 10000,
+      "prop": "EMAX2035*4",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 7.4,
+      "current_a": 3.2,
+      "rpm": null,
+      "thrust_g": 65,
+      "efficiency_gw": 2.745
+     },
+     {
+      "kv": 10000,
+      "prop": "EMAX2035*4",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 7.4,
+      "current_a": 10.8,
+      "rpm": null,
+      "thrust_g": 130,
+      "efficiency_gw": 1.627
+     },
+     {
+      "kv": 10000,
+      "prop": "GF45mm*2",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 7.4,
+      "current_a": 1.4,
+      "rpm": null,
+      "thrust_g": 46,
+      "efficiency_gw": 4.44
+     },
+     {
+      "kv": 10000,
+      "prop": "GF45mm*2",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 7.4,
+      "current_a": 5.8,
+      "rpm": null,
+      "thrust_g": 112,
+      "efficiency_gw": 2.61
+     },
+     {
+      "kv": 10000,
+      "prop": "GF45mm*3",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 7.4,
+      "current_a": 1.7,
+      "rpm": null,
+      "thrust_g": 55,
+      "efficiency_gw": 4.372
+     },
+     {
+      "kv": 10000,
+      "prop": "GF45mm*3",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 7.4,
+      "current_a": 7,
+      "rpm": null,
+      "thrust_g": 123,
+      "efficiency_gw": 2.375
+     },
+     {
+      "kv": 10000,
+      "prop": "GF65mm*2",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 7.4,
+      "current_a": 2.3,
+      "rpm": null,
+      "thrust_g": 65,
+      "efficiency_gw": 3.819
+     },
+     {
+      "kv": 10000,
+      "prop": "GF65mm*2",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 7.4,
+      "current_a": 9,
+      "rpm": null,
+      "thrust_g": 151,
+      "efficiency_gw": 2.267
+     }
+    ],
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø13.7x9.2",
+    "mount_mm": "3-M1.4-EQS-Ø6.6",
+    "shaft": "M1.5x3.8mm"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/hglrc-specter-1003-10000kv-micro-motor"
-   ]
+    "https://www.racedayquads.com/products/hglrc-specter-1003-10000kv-micro-motor",
+    "https://www.hglrc.com/products/specter-1003-10000kv-brushless-motor"
+   ],
+   "note": "The rows are HGLRC's own 'Efficacy table', published as an image in the description gallery of the motor's product page on hglrc.com - the eighth brand this dataset has read a manufacturer sheet from, and the first whose sheet publishes a per-run MOTOR TEMPERATURE. One template across the whole SPECTER line: columns Prop (inch) / Voltages (V) / Throttle (%) / Load Currency (A) / Pull (g) / Power (W) / Efficiency (g/W) / Temperature (in full throttle load 5's). Two throttle points per prop run, 50% and 100%, no RPM column at all, and the temperature is one figure per voltage block measured after five seconds at full throttle, not per row. Ten props is the widest prop set HGLRC benches on any SPECTER motor, and the only one that names a competitor's prop (EMAX2035*4) and sizes four of them in millimetres rather than inches. Full-throttle temperature runs 58-81 degC. Every row's Power column is exactly 7.4 V x its own current. The brand's own headline figures (11.5 A, 85 W, stated the same way in the page text and in the Specification image) are NOT a row of this table, whose largest is 10.8 A / 79.9 W."
   },
   {
    "type": "motor",
@@ -18292,12 +18642,154 @@
     "weight_g": 4.47,
     "max_cells": "1-2S",
     "recommended_props": "2-3 inches",
-    "price_usd": 16.49
+    "price_usd": 16.49,
+    "max_thrust_g": 226,
+    "thrust_conditions": "HGLRC bench, 11000 KV at 1S (3.7 V) and 2S (7.4 V), 50% and 100% throttle on each of four 2-3in props",
+    "thrust_table": [
+     {
+      "kv": 11000,
+      "prop": "GF 65R",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 3.7,
+      "current_a": 1.2,
+      "rpm": null,
+      "thrust_g": 44,
+      "efficiency_gw": 9.91
+     },
+     {
+      "kv": 11000,
+      "prop": "GF 65R",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 3.7,
+      "current_a": 5.9,
+      "rpm": null,
+      "thrust_g": 116,
+      "efficiency_gw": 5.314
+     },
+     {
+      "kv": 11000,
+      "prop": "GF 65R",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 7.4,
+      "current_a": 2.4,
+      "rpm": null,
+      "thrust_g": 86,
+      "efficiency_gw": 4.842
+     },
+     {
+      "kv": 11000,
+      "prop": "GF 65R",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 7.4,
+      "current_a": 9.7,
+      "rpm": null,
+      "thrust_g": 222,
+      "efficiency_gw": 3.093
+     },
+     {
+      "kv": 11000,
+      "prop": "HQ T65R",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 3.7,
+      "current_a": 1.7,
+      "rpm": null,
+      "thrust_g": 44,
+      "efficiency_gw": 6.995
+     },
+     {
+      "kv": 11000,
+      "prop": "HQ T65R",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 3.7,
+      "current_a": 5.9,
+      "rpm": null,
+      "thrust_g": 118,
+      "efficiency_gw": 5.405
+     },
+     {
+      "kv": 11000,
+      "prop": "HQ T65R",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 7.4,
+      "current_a": 3.5,
+      "rpm": null,
+      "thrust_g": 89,
+      "efficiency_gw": 3.436
+     },
+     {
+      "kv": 11000,
+      "prop": "HQ T65R",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 7.4,
+      "current_a": 11.9,
+      "rpm": null,
+      "thrust_g": 226,
+      "efficiency_gw": 2.566
+     },
+     {
+      "kv": 11000,
+      "prop": "HQT3x2R",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 3.7,
+      "current_a": 2.3,
+      "rpm": null,
+      "thrust_g": 61,
+      "efficiency_gw": 7.168
+     },
+     {
+      "kv": 11000,
+      "prop": "HQT3x2R",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 3.7,
+      "current_a": 8.4,
+      "rpm": null,
+      "thrust_g": 135,
+      "efficiency_gw": 4.344
+     },
+     {
+      "kv": 11000,
+      "prop": "GF3108",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 3.7,
+      "current_a": 2.3,
+      "rpm": null,
+      "thrust_g": 59,
+      "efficiency_gw": 6.933
+     },
+     {
+      "kv": 11000,
+      "prop": "GF3108",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 3.7,
+      "current_a": 8.3,
+      "rpm": null,
+      "thrust_g": 132,
+      "efficiency_gw": 4.298
+     }
+    ],
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø15.84x8.9",
+    "mount_mm": "4-M2-EQS-Ø9",
+    "shaft": "M1.5x4.8mm"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/hglrc-specter-1202-5-11000kv-micro-motor-titanium-green"
-   ]
+    "https://www.racedayquads.com/products/hglrc-specter-1202-5-11000kv-micro-motor-titanium-green",
+    "https://www.hglrc.com/products/specter-1202-5-11000kv-brushless-motor"
+   ],
+   "note": "The rows are HGLRC's own 'Efficacy table', published as an image in the description gallery of the motor's product page on hglrc.com - the eighth brand this dataset has read a manufacturer sheet from, and the first whose sheet publishes a per-run MOTOR TEMPERATURE. One template across the whole SPECTER line: columns Prop (inch) / Voltages (V) / Throttle (%) / Load Currency (A) / Pull (g) / Power (W) / Efficiency (g/W) / Temperature (in full throttle load 5's). Two throttle points per prop run, 50% and 100%, no RPM column at all, and the temperature is one figure per voltage block measured after five seconds at full throttle, not per row. Two of its four props are benched at 1S only: the HQT3x2R and the GF3108 rows print a 3.7 V block and then a pair of EMPTY rows where the 7.4 V block would be, so this motor's table is 12 rows, not 16. Every row's Power column is exactly its own voltage x its own current, and the brand's headline 12 A / 88 W is the HQ T65R 2S 100% row (11.9 A / 88.1 W). The page's '12A (5s)' is a five-SECOND burst rating, not a 5S cell count - '5's' is what the table's own temperature column measures over."
   },
   {
    "type": "motor",
@@ -18313,13 +18805,331 @@
     "weight_g": 10.0,
     "max_cells": "4-6S",
     "recommended_props": "2-4 inches",
-    "price_usd": 16.99
+    "price_usd": 16.99,
+    "max_thrust_g": 458,
+    "thrust_conditions": "HGLRC bench, 2750 KV at 4S/6S and 4800 KV at 3S/4S, two throttle points per prop run on each of four 2.5-4in props",
+    "thrust_table": [
+     {
+      "kv": 2750,
+      "prop": "GF2.5*4*3",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 14.8,
+      "current_a": 0.2,
+      "rpm": null,
+      "thrust_g": 58,
+      "efficiency_gw": 19.595
+     },
+     {
+      "kv": 2750,
+      "prop": "GF2.5*4*3",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 14.8,
+      "current_a": 2.3,
+      "rpm": null,
+      "thrust_g": 178,
+      "efficiency_gw": 5.229
+     },
+     {
+      "kv": 2750,
+      "prop": "GF2.5*4*3",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 22.2,
+      "current_a": 0.8,
+      "rpm": null,
+      "thrust_g": 105,
+      "efficiency_gw": 8.868
+     },
+     {
+      "kv": 2750,
+      "prop": "GF2.5*4*3",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 22.2,
+      "current_a": 3.75,
+      "rpm": null,
+      "thrust_g": 300,
+      "efficiency_gw": 5.405
+     },
+     {
+      "kv": 2750,
+      "prop": "HQ 3*2.5*3",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 14.8,
+      "current_a": 0.8,
+      "rpm": null,
+      "thrust_g": 89,
+      "efficiency_gw": 7.517
+     },
+     {
+      "kv": 2750,
+      "prop": "HQ 3*2.5*3",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 14.8,
+      "current_a": 4,
+      "rpm": null,
+      "thrust_g": 259,
+      "efficiency_gw": 4.375
+     },
+     {
+      "kv": 2750,
+      "prop": "HQ 3*2.5*3",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 22.2,
+      "current_a": 1.2,
+      "rpm": null,
+      "thrust_g": 140,
+      "efficiency_gw": 5.255
+     },
+     {
+      "kv": 2750,
+      "prop": "HQ 3*2.5*3",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 22.2,
+      "current_a": 6.3,
+      "rpm": null,
+      "thrust_g": 389,
+      "efficiency_gw": 2.781
+     },
+     {
+      "kv": 2750,
+      "prop": "HQ 3*3*3",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 14.8,
+      "current_a": 0.75,
+      "rpm": null,
+      "thrust_g": 106,
+      "efficiency_gw": 9.55
+     },
+     {
+      "kv": 2750,
+      "prop": "HQ 3*3*3",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 14.8,
+      "current_a": 4.3,
+      "rpm": null,
+      "thrust_g": 279,
+      "efficiency_gw": 4.384
+     },
+     {
+      "kv": 2750,
+      "prop": "HQ 3*3*3",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 22.2,
+      "current_a": 1.45,
+      "rpm": null,
+      "thrust_g": 161,
+      "efficiency_gw": 5.002
+     },
+     {
+      "kv": 2750,
+      "prop": "HQ 3*3*3",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 22.2,
+      "current_a": 6.9,
+      "rpm": null,
+      "thrust_g": 405,
+      "efficiency_gw": 2.644
+     },
+     {
+      "kv": 2750,
+      "prop": "GF4*2*2",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 14.8,
+      "current_a": 0.85,
+      "rpm": null,
+      "thrust_g": 128,
+      "efficiency_gw": 10.175
+     },
+     {
+      "kv": 2750,
+      "prop": "GF4*2*2",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 14.8,
+      "current_a": 5,
+      "rpm": null,
+      "thrust_g": 351,
+      "efficiency_gw": 4.743
+     },
+     {
+      "kv": 4800,
+      "prop": "GF2.5*4*3",
+      "cells": "3S",
+      "throttle": 25,
+      "voltage_v": 11.1,
+      "current_a": 1.5,
+      "rpm": null,
+      "thrust_g": 49,
+      "efficiency_gw": 2.943
+     },
+     {
+      "kv": 4800,
+      "prop": "GF2.5*4*3",
+      "cells": "3S",
+      "throttle": 50,
+      "voltage_v": 11.1,
+      "current_a": 7.3,
+      "rpm": null,
+      "thrust_g": 144,
+      "efficiency_gw": 1.777
+     },
+     {
+      "kv": 4800,
+      "prop": "GF2.5*4*3",
+      "cells": "4S",
+      "throttle": 75,
+      "voltage_v": 14.8,
+      "current_a": 1.7,
+      "rpm": null,
+      "thrust_g": 98,
+      "efficiency_gw": 3.895
+     },
+     {
+      "kv": 4800,
+      "prop": "GF2.5*4*3",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 14.8,
+      "current_a": 7.9,
+      "rpm": null,
+      "thrust_g": 288,
+      "efficiency_gw": 2.463
+     },
+     {
+      "kv": 4800,
+      "prop": "HQ 3*2.5*3",
+      "cells": "3S",
+      "throttle": 50,
+      "voltage_v": 11.1,
+      "current_a": 2.9,
+      "rpm": null,
+      "thrust_g": 70,
+      "efficiency_gw": 2.175
+     },
+     {
+      "kv": 4800,
+      "prop": "HQ 3*2.5*3",
+      "cells": "3S",
+      "throttle": 100,
+      "voltage_v": 11.1,
+      "current_a": 11.4,
+      "rpm": null,
+      "thrust_g": 216,
+      "efficiency_gw": 1.707
+     },
+     {
+      "kv": 4800,
+      "prop": "HQ 3*2.5*3",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 14.8,
+      "current_a": 2.7,
+      "rpm": null,
+      "thrust_g": 140,
+      "efficiency_gw": 3.504
+     },
+     {
+      "kv": 4800,
+      "prop": "HQ 3*2.5*3",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 14.8,
+      "current_a": 14.1,
+      "rpm": null,
+      "thrust_g": 432,
+      "efficiency_gw": 2.07
+     },
+     {
+      "kv": 4800,
+      "prop": "HQ 3*3*3",
+      "cells": "3S",
+      "throttle": 50,
+      "voltage_v": 11.1,
+      "current_a": 3.3,
+      "rpm": null,
+      "thrust_g": 89,
+      "efficiency_gw": 2.43
+     },
+     {
+      "kv": 4800,
+      "prop": "HQ 3*3*3",
+      "cells": "3S",
+      "throttle": 100,
+      "voltage_v": 11.1,
+      "current_a": 11.8,
+      "rpm": null,
+      "thrust_g": 229,
+      "efficiency_gw": 1.748
+     },
+     {
+      "kv": 4800,
+      "prop": "HQ 3*3*3",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 14.8,
+      "current_a": 3.6,
+      "rpm": null,
+      "thrust_g": 178,
+      "efficiency_gw": 3.341
+     },
+     {
+      "kv": 4800,
+      "prop": "HQ 3*3*3",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 14.8,
+      "current_a": 15.1,
+      "rpm": null,
+      "thrust_g": 458,
+      "efficiency_gw": 2.049
+     },
+     {
+      "kv": 4800,
+      "prop": "GF4*2*2",
+      "cells": "3S",
+      "throttle": 50,
+      "voltage_v": 11.1,
+      "current_a": 4.5,
+      "rpm": null,
+      "thrust_g": 121,
+      "efficiency_gw": 2.422
+     },
+     {
+      "kv": 4800,
+      "prop": "GF4*2*2",
+      "cells": "3S",
+      "throttle": 100,
+      "voltage_v": 11.1,
+      "current_a": 13.1,
+      "rpm": null,
+      "thrust_g": 293,
+      "efficiency_gw": 2.015
+     }
+    ],
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø19.13x12.25",
+    "mount_mm": "4-M2-EQS-Ø9",
+    "shaft": "M1.5x3.8mm"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
     "https://www.racedayquads.com/products/hglrc-specter-1404-2750kv-micro-motor",
-    "https://www.racedayquads.com/products/hglrc-specter-1404-4800kv-micro-motor"
-   ]
+    "https://www.racedayquads.com/products/hglrc-specter-1404-4800kv-micro-motor",
+    "https://www.hglrc.com/products/hglrc-specter-1404-2750kv-brushless-motor"
+   ],
+   "note": "The rows are HGLRC's own 'Efficacy table', published as an image in the description gallery of the motor's product page on hglrc.com - the eighth brand this dataset has read a manufacturer sheet from, and the first whose sheet publishes a per-run MOTOR TEMPERATURE. One template across the whole SPECTER line: columns Prop (inch) / Voltages (V) / Throttle (%) / Load Currency (A) / Pull (g) / Power (W) / Efficiency (g/W) / Temperature (in full throttle load 5's). Two throttle points per prop run, 50% and 100%, no RPM column at all, and the temperature is one figure per voltage block measured after five seconds at full throttle, not per row. This page carries THREE tables, one per winding, and only the two windings our listing sells are reproduced here; HGLRC also publishes a 5500 KV table (11.1/14.8 V, 9.6 g, rated 2-4S) for a version our retail source does not carry. The 2750 KV table's GF4*2*2 prop and the 4800 KV table's GF4*2*2 prop are benched at one voltage only, the second block left empty, so each table is 14 rows and not 16. TWO SOURCE DEFECTS, reproduced as printed rather than repaired: (1) on the 2750 KV table's GF2.5*4*3 22.2 V pair the Power column is 14.8 V x current, not 22.2 V x current (11.8 W at 0.8 A, 55.5 W at 3.75 A), which also inflates the efficiency those two rows print - every other row on both tables is its own voltage x its own current to the digit; (2) the 4800 KV table's GF2.5*4*3 block labels its four throttle points 25/50/75/100% where every other block on every SPECTER table prints 50/100%, and its currents (1.5, 7.3, 1.7, 7.9 A) are the low-high pattern of a 50/100% pair at each voltage. The windings also differ in rated voltage - HGLRC states 4-6S for the 2750 KV and 3-4S for the 4800 KV, against the single 4-6S our retail listing prints for the page. The brand's headline figures land: 6.9 A for the 2750 KV is that table's HQ 3*3*3 22.2 V 100% row, and 223 W for the 4800 KV is its HQ 3*3*3 14.8 V 100% row (223.5 W)."
   },
   {
    "type": "motor",
@@ -18334,12 +19144,198 @@
     "weight_g": 13.3,
     "max_cells": "4-6S",
     "recommended_props": "3-3.5 inch",
-    "price_usd": 19.49
+    "price_usd": 19.49,
+    "max_thrust_g": 815,
+    "thrust_conditions": "HGLRC bench, 2450 KV at 16 V (4S) and 24 V (6S), 50% and 100% throttle on each of four 3-4in props",
+    "thrust_table": [
+     {
+      "kv": 2450,
+      "prop": "HQ T76*3",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16,
+      "current_a": 2,
+      "rpm": null,
+      "thrust_g": 139,
+      "efficiency_gw": 4.344
+     },
+     {
+      "kv": 2450,
+      "prop": "HQ T76*3",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16,
+      "current_a": 10,
+      "rpm": null,
+      "thrust_g": 403,
+      "efficiency_gw": 2.519
+     },
+     {
+      "kv": 2450,
+      "prop": "HQ T76*3",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24,
+      "current_a": 4.3,
+      "rpm": null,
+      "thrust_g": 268,
+      "efficiency_gw": 2.597
+     },
+     {
+      "kv": 2450,
+      "prop": "HQ T76*3",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24,
+      "current_a": 17.6,
+      "rpm": null,
+      "thrust_g": 709,
+      "efficiency_gw": 1.679
+     },
+     {
+      "kv": 2450,
+      "prop": "HQ D90*3",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16,
+      "current_a": 3.3,
+      "rpm": null,
+      "thrust_g": 187,
+      "efficiency_gw": 3.542
+     },
+     {
+      "kv": 2450,
+      "prop": "HQ D90*3",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16,
+      "current_a": 12.5,
+      "rpm": null,
+      "thrust_g": 476,
+      "efficiency_gw": 2.38
+     },
+     {
+      "kv": 2450,
+      "prop": "HQ D90*3",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24,
+      "current_a": 6.6,
+      "rpm": null,
+      "thrust_g": 278,
+      "efficiency_gw": 1.755
+     },
+     {
+      "kv": 2450,
+      "prop": "HQ D90*3",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24,
+      "current_a": 16.6,
+      "rpm": null,
+      "thrust_g": 730,
+      "efficiency_gw": 1.832
+     },
+     {
+      "kv": 2450,
+      "prop": "GF 4024R*2",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16,
+      "current_a": 1.8,
+      "rpm": null,
+      "thrust_g": 146,
+      "efficiency_gw": 5.069
+     },
+     {
+      "kv": 2450,
+      "prop": "GF 4024R*2",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16,
+      "current_a": 9.1,
+      "rpm": null,
+      "thrust_g": 462,
+      "efficiency_gw": 3.173
+     },
+     {
+      "kv": 2450,
+      "prop": "GF 4024R*2",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24,
+      "current_a": 2.7,
+      "rpm": null,
+      "thrust_g": 274,
+      "efficiency_gw": 4.059
+     },
+     {
+      "kv": 2450,
+      "prop": "GF 4024R*2",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24,
+      "current_a": 13.9,
+      "rpm": null,
+      "thrust_g": 805,
+      "efficiency_gw": 2.317
+     },
+     {
+      "kv": 2450,
+      "prop": "GF 4023R*3",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16,
+      "current_a": 2.6,
+      "rpm": null,
+      "thrust_g": 161,
+      "efficiency_gw": 3.87
+     },
+     {
+      "kv": 2450,
+      "prop": "GF 4023R*3",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16,
+      "current_a": 11.1,
+      "rpm": null,
+      "thrust_g": 490,
+      "efficiency_gw": 2.759
+     },
+     {
+      "kv": 2450,
+      "prop": "GF 4023R*3",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24,
+      "current_a": 3.9,
+      "rpm": null,
+      "thrust_g": 271,
+      "efficiency_gw": 2.895
+     },
+     {
+      "kv": 2450,
+      "prop": "GF 4023R*3",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24,
+      "current_a": 18,
+      "rpm": null,
+      "thrust_g": 815,
+      "efficiency_gw": 1.887
+     }
+    ],
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø22.68x13.2",
+    "mount_mm": "12x12 (M2)",
+    "shaft": "M1.5x3.8mm"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/hglrc-specter-1804-2450kv-micro-motor"
-   ]
+    "https://www.racedayquads.com/products/hglrc-specter-1804-2450kv-micro-motor",
+    "https://www.hglrc.com/products/hglrc-specter-1804-3500kv-brushless-motor"
+   ],
+   "note": "The rows are HGLRC's own 'Efficacy table', published as an image in the description gallery of the motor's product page on hglrc.com - the eighth brand this dataset has read a manufacturer sheet from, and the first whose sheet publishes a per-run MOTOR TEMPERATURE. One template across the whole SPECTER line: columns Prop (inch) / Voltages (V) / Throttle (%) / Load Currency (A) / Pull (g) / Power (W) / Efficiency (g/W) / Temperature (in full throttle load 5's). Two throttle points per prop run, 50% and 100%, no RPM column at all, and the temperature is one figure per voltage block measured after five seconds at full throttle, not per row. The product page is titled for the 3500 KV and carries both windings' tables; only the 2450 KV our retail listing sells is reproduced here. The spec-block cross-check lands exactly: HGLRC's 18 A and 432 W for this winding are its GF 4023R*3 24 V 100% row, digit for digit. Source defect reproduced as printed: the GF 4024R*2 24 V pair's Power column is 25 V x current (67.5 W at 2.7 A, 347.5 W at 13.9 A) where its Voltages column prints 24; the other fourteen rows are their own printed voltage x current. The HQ D90*3 24 V block is also the one run on either table whose 50% row prints a LOWER efficiency than its own 100% row (1.755 against 1.832 g/W)."
   },
   {
    "type": "motor",
@@ -18354,12 +19350,198 @@
     "weight_g": 34.2,
     "max_cells": "5-6S",
     "recommended_props": "5-6 inch",
-    "price_usd": 23.99
+    "price_usd": 23.99,
+    "max_thrust_g": 2186,
+    "thrust_conditions": "HGLRC bench, 1900 KV at 21 V (5S) and 24 V (6S), 50% and 100% throttle on each of four 5in props",
+    "thrust_table": [
+     {
+      "kv": 1900,
+      "prop": "HQ R36",
+      "cells": "5S",
+      "throttle": 50,
+      "voltage_v": 21,
+      "current_a": 6.9,
+      "rpm": null,
+      "thrust_g": 693,
+      "efficiency_gw": 4.783
+     },
+     {
+      "kv": 1900,
+      "prop": "HQ R36",
+      "cells": "5S",
+      "throttle": 100,
+      "voltage_v": 21,
+      "current_a": 33.6,
+      "rpm": null,
+      "thrust_g": 1729,
+      "efficiency_gw": 2.45
+     },
+     {
+      "kv": 1900,
+      "prop": "HQ R36",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24,
+      "current_a": 8.7,
+      "rpm": null,
+      "thrust_g": 852,
+      "efficiency_gw": 4.08
+     },
+     {
+      "kv": 1900,
+      "prop": "HQ R36",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24,
+      "current_a": 41.0,
+      "rpm": null,
+      "thrust_g": 1911,
+      "efficiency_gw": 1.942
+     },
+     {
+      "kv": 1900,
+      "prop": "HQ Ethix S5",
+      "cells": "5S",
+      "throttle": 50,
+      "voltage_v": 21,
+      "current_a": 6.9,
+      "rpm": null,
+      "thrust_g": 683,
+      "efficiency_gw": 4.714
+     },
+     {
+      "kv": 1900,
+      "prop": "HQ Ethix S5",
+      "cells": "5S",
+      "throttle": 100,
+      "voltage_v": 21,
+      "current_a": 33.0,
+      "rpm": null,
+      "thrust_g": 1794,
+      "efficiency_gw": 2.589
+     },
+     {
+      "kv": 1900,
+      "prop": "HQ Ethix S5",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24,
+      "current_a": 8.7,
+      "rpm": null,
+      "thrust_g": 826,
+      "efficiency_gw": 3.956
+     },
+     {
+      "kv": 1900,
+      "prop": "HQ Ethix S5",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24,
+      "current_a": 40.0,
+      "rpm": null,
+      "thrust_g": 2126,
+      "efficiency_gw": 2.215
+     },
+     {
+      "kv": 1900,
+      "prop": "DAL T5148.5",
+      "cells": "5S",
+      "throttle": 50,
+      "voltage_v": 21,
+      "current_a": 6.9,
+      "rpm": null,
+      "thrust_g": 648,
+      "efficiency_gw": 4.472
+     },
+     {
+      "kv": 1900,
+      "prop": "DAL T5148.5",
+      "cells": "5S",
+      "throttle": 100,
+      "voltage_v": 21,
+      "current_a": 34.0,
+      "rpm": null,
+      "thrust_g": 1680,
+      "efficiency_gw": 2.353
+     },
+     {
+      "kv": 1900,
+      "prop": "DAL T5148.5",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24,
+      "current_a": 8.0,
+      "rpm": null,
+      "thrust_g": 785,
+      "efficiency_gw": 4.089
+     },
+     {
+      "kv": 1900,
+      "prop": "DAL T5148.5",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24,
+      "current_a": 42.6,
+      "rpm": null,
+      "thrust_g": 1974,
+      "efficiency_gw": 1.931
+     },
+     {
+      "kv": 1900,
+      "prop": "GF51466R",
+      "cells": "5S",
+      "throttle": 50,
+      "voltage_v": 21,
+      "current_a": 7.9,
+      "rpm": null,
+      "thrust_g": 735,
+      "efficiency_gw": 4.43
+     },
+     {
+      "kv": 1900,
+      "prop": "GF51466R",
+      "cells": "5S",
+      "throttle": 100,
+      "voltage_v": 21,
+      "current_a": 39.9,
+      "rpm": null,
+      "thrust_g": 1896,
+      "efficiency_gw": 2.263
+     },
+     {
+      "kv": 1900,
+      "prop": "GF51466R",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24,
+      "current_a": 9.4,
+      "rpm": null,
+      "thrust_g": 889,
+      "efficiency_gw": 3.941
+     },
+     {
+      "kv": 1900,
+      "prop": "GF51466R",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24,
+      "current_a": 47.7,
+      "rpm": null,
+      "thrust_g": 2186,
+      "efficiency_gw": 1.91
+     }
+    ],
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø28.97x32.15",
+    "mount_mm": "16x16 (M3)",
+    "shaft": "M5x13.2mm"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/hglrc-specter-2306-5-1900kv-motor"
-   ]
+    "https://www.racedayquads.com/products/hglrc-specter-2306-5-1900kv-motor",
+    "https://www.hglrc.com/products/specter-2306-5-1900kv"
+   ],
+   "note": "The rows are HGLRC's own 'Efficacy table', published as an image in the description gallery of the motor's product page on hglrc.com - the eighth brand this dataset has read a manufacturer sheet from, and the first whose sheet publishes a per-run MOTOR TEMPERATURE. One template across the whole SPECTER line: columns Prop (inch) / Voltages (V) / Throttle (%) / Load Currency (A) / Pull (g) / Power (W) / Efficiency (g/W) / Temperature (in full throttle load 5's). Two throttle points per prop run, 50% and 100%, no RPM column at all, and the temperature is one figure per voltage block measured after five seconds at full throttle, not per row. The cleanest of the SPECTER sheets: all sixteen rows are their own printed voltage x current to the digit, and the brand's headline 47.7 A / 1145 W is its GF51466R 24 V 100% row (1144.8 W). Its three 50%-throttle 21 V rows draw the same 6.9 A on three different props."
   },
   {
    "type": "motor",
