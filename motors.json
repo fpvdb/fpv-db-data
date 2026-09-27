@@ -17545,12 +17545,198 @@
     "max_cells": "4-6S",
     "shaft": "1.5mm",
     "recommended_props": "5in props (derived)",
-    "price_usd": 4.3
+    "price_usd": 4.3,
+    "max_thrust_g": 1127,
+    "thrust_conditions": "FETtec bench, 1800 KV on four props at 21 and 25.2 V (5S and 6S at 4.2 V/cell), 50% and 100% throttle, with the motor surface temperature after 5 s at full throttle",
+    "thrust_table": [
+     {
+      "kv": 1800,
+      "prop": "GF4024R",
+      "cells": "5S",
+      "throttle": 50,
+      "voltage_v": 21.0,
+      "current_a": 0.9,
+      "rpm": null,
+      "thrust_g": 141,
+      "efficiency_gw": 7.46
+     },
+     {
+      "kv": 1800,
+      "prop": "GF4024R",
+      "cells": "5S",
+      "throttle": 100,
+      "voltage_v": 21.0,
+      "current_a": 4.8,
+      "rpm": null,
+      "thrust_g": 486,
+      "efficiency_gw": 4.821
+     },
+     {
+      "kv": 1800,
+      "prop": "GF4024R",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 25.2,
+      "current_a": 1.3,
+      "rpm": null,
+      "thrust_g": 205,
+      "efficiency_gw": 6.258
+     },
+     {
+      "kv": 1800,
+      "prop": "GF4024R",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 25.2,
+      "current_a": 6.7,
+      "rpm": null,
+      "thrust_g": 682,
+      "efficiency_gw": 4.039
+     },
+     {
+      "kv": 1800,
+      "prop": "HQT5*3R",
+      "cells": "5S",
+      "throttle": 50,
+      "voltage_v": 21.0,
+      "current_a": 1.8,
+      "rpm": null,
+      "thrust_g": 286,
+      "efficiency_gw": 7.566
+     },
+     {
+      "kv": 1800,
+      "prop": "HQT5*3R",
+      "cells": "5S",
+      "throttle": 100,
+      "voltage_v": 21.0,
+      "current_a": 9.4,
+      "rpm": null,
+      "thrust_g": 866,
+      "efficiency_gw": 4.387
+     },
+     {
+      "kv": 1800,
+      "prop": "HQT5*3R",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 25.2,
+      "current_a": 2.7,
+      "rpm": null,
+      "thrust_g": 423,
+      "efficiency_gw": 6.217
+     },
+     {
+      "kv": 1800,
+      "prop": "HQT5*3R",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 25.2,
+      "current_a": 12.1,
+      "rpm": null,
+      "thrust_g": 1076,
+      "efficiency_gw": 3.529
+     },
+     {
+      "kv": 1800,
+      "prop": "HQT5*2*3R",
+      "cells": "5S",
+      "throttle": 50,
+      "voltage_v": 21.0,
+      "current_a": 1.7,
+      "rpm": null,
+      "thrust_g": 237,
+      "efficiency_gw": 6.639
+     },
+     {
+      "kv": 1800,
+      "prop": "HQT5*2*3R",
+      "cells": "5S",
+      "throttle": 100,
+      "voltage_v": 21.0,
+      "current_a": 8.6,
+      "rpm": null,
+      "thrust_g": 801,
+      "efficiency_gw": 4.435
+     },
+     {
+      "kv": 1800,
+      "prop": "HQT5*2*3R",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 25.2,
+      "current_a": 2.4,
+      "rpm": null,
+      "thrust_g": 356,
+      "efficiency_gw": 5.886
+     },
+     {
+      "kv": 1800,
+      "prop": "HQT5*2*3R",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 25.2,
+      "current_a": 11.3,
+      "rpm": null,
+      "thrust_g": 1033,
+      "efficiency_gw": 3.628
+     },
+     {
+      "kv": 1800,
+      "prop": "GF5125R",
+      "cells": "5S",
+      "throttle": 50,
+      "voltage_v": 21.0,
+      "current_a": 2.0,
+      "rpm": null,
+      "thrust_g": 320,
+      "efficiency_gw": 7.619
+     },
+     {
+      "kv": 1800,
+      "prop": "GF5125R",
+      "cells": "5S",
+      "throttle": 100,
+      "voltage_v": 21.0,
+      "current_a": 10.2,
+      "rpm": null,
+      "thrust_g": 921,
+      "efficiency_gw": 4.3
+     },
+     {
+      "kv": 1800,
+      "prop": "GF5125R",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 25.2,
+      "current_a": 2.6,
+      "rpm": null,
+      "thrust_g": 418,
+      "efficiency_gw": 6.38
+     },
+     {
+      "kv": 1800,
+      "prop": "GF5125R",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 25.2,
+      "current_a": 12.7,
+      "rpm": null,
+      "thrust_g": 1127,
+      "efficiency_gw": 3.521
+     }
+    ],
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø25x13.7",
+    "resistance_mohm": "220"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/fettec-motor-fm2004t-1800kv"
-   ]
+    "https://www.racedayquads.com/products/fettec-motor-fm2004t-1800kv",
+    "https://fettec.net/shop/elektronik/motoren/fettec-motor-fm2004t-1800kv",
+    "https://fettec.net/media/pdf/1b/b9/2e/FETTEC-2004-1800KV.pdf"
+   ],
+   "note": "FETtec publishes a one-page datasheet PDF per motor from its own shop (fettec.net, Shopware; the product page's \"Verfügbare Downloads\" link), and the FM2004T 1800KV sheet is a Technical Datas block, three dimension drawings and a 16-row test table: four props (GF4024R, HQT5*3R, HQT5*2*3R, GF5125R) at 21 and 25.2 V, 50% and 100% throttle each. The sheet prints volts only; 21 and 25.2 V are 5S and 6S at 4.2 V per cell, and its own No.of Cells row reads 4~6S. Identity with the RaceDayQuads listing we price from is the 1800 KV winding, the 20 x 4 mm stator, the 1.5 mm prop shaft and the 4-6S range. The block adds 12N14P, a Ø 25 x 13.7 mm body, a 3 mm inner shaft, 220 mOhm, 0.55 A idle at 10 V and a (0.6-2A)>84% efficiency band. Three source facts recorded rather than repaired. The sheet's Weight row is 15.5 g with 3 cm of wire where FETtec's own shop page and our retail listing both state 17 g, so the published weight stays at 17 g and the datasheet figure is the bare motor. The block's Max Current and Max Continuous Power are labelled 5S but are the 25.2 V (6S) GF5125R 100% row: 13 A and 330 W against that row's 12.7 A and 320.0 W, where the sheet's own 21 V 5S peak is 10.2 A and 214.2 W. And mount_mm stays empty: the bottom-view drawing dimensions 12 mm between opposite holes of a four-M2 cross and our listing calls the pattern \"12mmΦ\", so the 12 mm is a bolt circle - an 8.5 mm square in the pattern a frame sees - and this file keeps a bolt circle out of that field. Max thrust is the GF5125R 25.2 V 100% row, 1127 g at 320.0 W."
   },
   {
    "type": "motor",
@@ -17560,22 +17746,24 @@
    "specs": {
     "stator": "2207",
     "kv_options": [
-     1960,
-     2207
+     1960
     ],
     "weight_g": 28.4,
     "max_cells": "4-6S",
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 27.99,
-    "shaft": "5mm"
+    "shaft": "5mm",
+    "mount_mm": "16x16mm"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
     "https://pyrodrone.com/products/five33-headsup-2207-1960kv-brushless-fpv-drone-motor-1-pc",
     "https://www.racedayquads.com/products/five33-headsup-2207-1960kv-motor",
     "https://www.racedayquads.com/products/headsup-five33-2207-motor",
-    "https://www.racedayquads.com/products/headsup-five33-2207-motor-w-mr30"
-   ]
+    "https://www.racedayquads.com/products/headsup-five33-2207-motor-w-mr30",
+    "https://flyfive33.com/products/headsup-five33-2207-motor"
+   ],
+   "note": "FIVE33's own shop (flyfive33.com, now Shopify - the WordPress site its old spec-sheet image was hosted on is gone, which is why every retailer that hot-links it shows a broken image) lists this motor three ways (single, set of 4, set of 4 with MR30) and publishes a labelled spec list on each and no bench table: brand FIVE33 x Xnova, 2207, 1960 KV, 28.4 g, M5 prop shaft, 20AWG pre-tinned leads. Pyrodrone's listing adds the 22 x 7 mm stator and the 16 x 16 mm mounting pattern, and states the motor is manufactured by XNova. Every source for this motor - both shops and all three RaceDayQuads listings - states one winding, 1960 KV; kv_options had carried a second \"2207\", which is this motor's stator read as a KV by the retail scrape, and is removed."
   },
   {
    "type": "motor",
@@ -17958,12 +18146,15 @@
     "max_cells": "2-4S",
     "shaft": "3mm",
     "recommended_props": "3-4in props (derived)",
-    "price_usd": 15.99
+    "price_usd": 15.99,
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø21.5x16.0"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
     "https://www.racedayquads.com/products/flash-hobby-arthur-1506-4300kv-motor"
-   ]
+   ],
+   "note": "The listing's own Specifications block states 9N12P, a Ø 21.5 x 16.0 mm body, 375 W max power, a 17.05 A peak current, 2-4S, a 3 mm shaft with an M5 prop mount and 26AWG 110 mm leads - figures, but not a sweep, so they are a note and not rows. The motor is a Flash Hobby Arthur sold under a shop's own brand label; Flash Hobby publishes no FPV bench table, so this page has no table behind it at either name."
   },
   {
    "type": "motor",
@@ -22251,12 +22442,17 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 20.99
+    "price_usd": 20.99,
+    "configuration": "12N14P",
+    "mount_mm": "16x16mm",
+    "dimensions_mm": "Ø28.4x32.3"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/quadifier-venom-2207-2111kv-motor-racing-motor"
-   ]
+    "https://www.racedayquads.com/products/quadifier-venom-2207-2111kv-motor-racing-motor",
+    "https://www.quadifier.com/product-page/quadifier-venom-2207-2111kv-race-motor"
+   ],
+   "note": "Quadifier's own site (quadifier.com, Wix - its product list is /store-products-sitemap.xml, 93 URLs) publishes the same Specifications block our retail listing carries and no bench table: 12N14P, 16 x 16 mm mounting, a Ø 28.4 x 32.3 mm body, a 5 mm shaft, 6S, 2111 KV, NMB bearings and N52HS magnets. Its own page states the motor was \"designed in collaboration with FlyFishRC\", which is where the block's wording comes from. Two source facts recorded rather than repaired: the block gives a 23 mm stator diameter and a 6 mm stator height for a motor both the brand and the retailer title 2207, and it states the weight twice - 32.2 g in the block and 34.2 g \"including 150mm wire\" in the features list - so the published 32.2 g is the bare motor."
   },
   {
    "type": "motor",
@@ -54681,13 +54877,16 @@
     "max_cells": "2-4S",
     "shaft": "3mm",
     "recommended_props": "4in props (derived)",
-    "price_usd": 18.99
+    "price_usd": 18.99,
+    "mount_mm": "12x12mm (2-M2)",
+    "dimensions_mm": "Ø20.8x14.3"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
     "https://www.racedayquads.com/products/ummagawd-aerolite-1605-3600kv-motor-gunmetal-blue",
     "https://www.racedayquads.com/products/ummagawd-aerolite-1605-3800kv-micro-motor-gunmetal-purple"
-   ]
+   ],
+   "note": "UMMAGAWD's Aerolite 1605 does have a manufacturer datasheet, and it survives only as a square centre-crop. The image (Screenshot2023-01-24110326) is a Technical Datas block, three dimension drawings and a 12-row test table - HQ 3*4*3, GF D75 and HQ 4*3*3 at 11.1 and 14.8 V, 50% and 100% each - but every surviving copy is Shopify's 668x668 _crop_center variant, which cuts the block's KV row off the top and the table off at the bottom. The brand's own full-size file is 404 on its CDN and was never archived, and three retailers (RaceDayQuads, defianceRC, WREKD) all publish the same crop. The block's visible rows are a 5 mm stator length, a 3 mm shaft, a Ø 20.8 x 14.3 mm body, 13.8 g with 3 cm of wire, 1.2 A idle at 10 V, 3~4S, 360 W max continuous on 3S, 68 mOhm, 24.3 A max on 3S and a (4-7A)>84% efficiency band. Two source facts recorded rather than repaired: our retail listing transcribes that block as >83% and as \"13.8g (2cm Wires)\", and it gives the cell range as 2-4S where the sheet says 3~4S. The 12 rows are not published here because the sheet's own KV cell is inside the crop and this page carries both of the motor's windings - see \"Needs a human\" in docs/loop-state.md. The mount is the brand's own \"Installation hole position: 12x12mm, M2\"; the bottom-view drawing shows only TWO M2 holes, 12 mm apart on one bar, which is why the brand writes that it \"will mount to other frames with standard 12x12 (x4 holes)\"."
   },
   {
    "type": "motor",
