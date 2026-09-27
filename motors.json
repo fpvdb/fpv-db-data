@@ -15876,12 +15876,242 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "4-5 inch - 3 blade",
-    "price_usd": 17.99
+    "price_usd": 17.99,
+    "max_thrust_g": 1431,
+    "thrust_conditions": "GEPRC bench, 1960 KV at 6S (25.2 V nominal), 10 throttle points (10-100%) on each of two 5in props (5131, 5136)",
+    "thrust_table": [
+     {
+      "kv": 1960,
+      "prop": "5131",
+      "cells": "6S",
+      "throttle": 10,
+      "voltage_v": 25.2,
+      "current_a": 0.66,
+      "rpm": null,
+      "thrust_g": 42,
+      "efficiency_gw": 2.5
+     },
+     {
+      "kv": 1960,
+      "prop": "5131",
+      "cells": "6S",
+      "throttle": 20,
+      "voltage_v": 25.2,
+      "current_a": 2.25,
+      "rpm": null,
+      "thrust_g": 162,
+      "efficiency_gw": 2.86
+     },
+     {
+      "kv": 1960,
+      "prop": "5131",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 25.2,
+      "current_a": 4.43,
+      "rpm": null,
+      "thrust_g": 291,
+      "efficiency_gw": 2.61
+     },
+     {
+      "kv": 1960,
+      "prop": "5131",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 25.2,
+      "current_a": 7.28,
+      "rpm": null,
+      "thrust_g": 414,
+      "efficiency_gw": 2.26
+     },
+     {
+      "kv": 1960,
+      "prop": "5131",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 25.2,
+      "current_a": 10.19,
+      "rpm": null,
+      "thrust_g": 544,
+      "efficiency_gw": 2.12
+     },
+     {
+      "kv": 1960,
+      "prop": "5131",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 25.2,
+      "current_a": 15,
+      "rpm": null,
+      "thrust_g": 686,
+      "efficiency_gw": 1.82
+     },
+     {
+      "kv": 1960,
+      "prop": "5131",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 25.2,
+      "current_a": 20.8,
+      "rpm": null,
+      "thrust_g": 854,
+      "efficiency_gw": 1.64
+     },
+     {
+      "kv": 1960,
+      "prop": "5131",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 25.2,
+      "current_a": 26.98,
+      "rpm": null,
+      "thrust_g": 1063,
+      "efficiency_gw": 1.58
+     },
+     {
+      "kv": 1960,
+      "prop": "5131",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 25.2,
+      "current_a": 33.38,
+      "rpm": null,
+      "thrust_g": 1256,
+      "efficiency_gw": 1.51
+     },
+     {
+      "kv": 1960,
+      "prop": "5131",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 25.2,
+      "current_a": 42.06,
+      "rpm": null,
+      "thrust_g": 1412,
+      "efficiency_gw": 1.35
+     },
+     {
+      "kv": 1960,
+      "prop": "5136",
+      "cells": "6S",
+      "throttle": 10,
+      "voltage_v": 25.2,
+      "current_a": 0.66,
+      "rpm": null,
+      "thrust_g": 59,
+      "efficiency_gw": 3.53
+     },
+     {
+      "kv": 1960,
+      "prop": "5136",
+      "cells": "6S",
+      "throttle": 20,
+      "voltage_v": 25.2,
+      "current_a": 2.36,
+      "rpm": null,
+      "thrust_g": 184,
+      "efficiency_gw": 3.09
+     },
+     {
+      "kv": 1960,
+      "prop": "5136",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 25.2,
+      "current_a": 4.93,
+      "rpm": null,
+      "thrust_g": 321,
+      "efficiency_gw": 2.58
+     },
+     {
+      "kv": 1960,
+      "prop": "5136",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 25.2,
+      "current_a": 6.83,
+      "rpm": null,
+      "thrust_g": 448,
+      "efficiency_gw": 2.6
+     },
+     {
+      "kv": 1960,
+      "prop": "5136",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 25.2,
+      "current_a": 11.71,
+      "rpm": null,
+      "thrust_g": 598,
+      "efficiency_gw": 2.03
+     },
+     {
+      "kv": 1960,
+      "prop": "5136",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 25.2,
+      "current_a": 16.35,
+      "rpm": null,
+      "thrust_g": 776,
+      "efficiency_gw": 1.89
+     },
+     {
+      "kv": 1960,
+      "prop": "5136",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 25.2,
+      "current_a": 23.53,
+      "rpm": null,
+      "thrust_g": 932,
+      "efficiency_gw": 1.58
+     },
+     {
+      "kv": 1960,
+      "prop": "5136",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 25.2,
+      "current_a": 28.55,
+      "rpm": null,
+      "thrust_g": 1112,
+      "efficiency_gw": 1.56
+     },
+     {
+      "kv": 1960,
+      "prop": "5136",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 25.2,
+      "current_a": 35.46,
+      "rpm": null,
+      "thrust_g": 1263,
+      "efficiency_gw": 1.43
+     },
+     {
+      "kv": 1960,
+      "prop": "5136",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 25.2,
+      "current_a": 44.57,
+      "rpm": null,
+      "thrust_g": 1431,
+      "efficiency_gw": 1.3
+     }
+    ],
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø28x19.6",
+    "resistance_mohm": "69.85",
+    "mount_mm": "16x16mm"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/geprc-speedx2-2207e-motor-1960kv"
-   ]
+    "https://www.racedayquads.com/products/geprc-speedx2-2207e-motor-1960kv",
+    "https://geprc.com/product/geprc-speedx2-2207e-motor/"
+   ],
+   "note": "The rows are GEPRC's own bench table, published as an image in the description gallery of its product page on geprc.com - the seventh brand this dataset has read a manufacturer sheet from. The E-series template is one winding over two 5in props, ten throttle points each (10-100% in 10% steps), with columns Type / Prop (inch) / Voltages (V) / Throttle (%) / Current (A) / Thrust (G) / Power (W) / Efficiency (G/W) / Temperature (C). It publishes no per-row RPM, so that column is empty here. **The Voltages column is the nominal 6S pack voltage, 25.2 V, repeated on every row, not a measured per-row figure**: the sheet's own Power column sits progressively below 25.2 x current as throttle rises, which is the pack sagging under load. Printed Efficiency reproduces Thrust / printed Power on every row. Identity with GEPRC's own Specifications block is 1960 KV, 12N14P, a Ø28x19.6 mm body, a 5 mm shaft, 6S and 34.5 g with wire - and the block's own Max Watt (1104.7 W) and Peak Current (44.57 A) are the 5136 100% row here to the digit, which is the cross-check. GEPRC sells this motor in three windings (1500, 1960 and 2020 KV) and publishes a sheet for one of them, the 1960 KV this page carries; the table is headed 2207E-1960KV. Sheet temperatures: 120.5 C on the 5131 run, 128.6 C on the 5136 run."
   },
   {
    "type": "motor",
@@ -15897,12 +16127,242 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "4-5inch",
-    "price_usd": 19.49
+    "price_usd": 19.49,
+    "max_thrust_g": 1342,
+    "thrust_conditions": "GEPRC bench, 1860 KV at 6S (25.2 V nominal), 10 throttle points (10-100%) on each of two 5in props (5131, 5136)",
+    "thrust_table": [
+     {
+      "kv": 1860,
+      "prop": "5131",
+      "cells": "6S",
+      "throttle": 10,
+      "voltage_v": 25.2,
+      "current_a": 0.42,
+      "rpm": null,
+      "thrust_g": 36,
+      "efficiency_gw": 3.36
+     },
+     {
+      "kv": 1860,
+      "prop": "5131",
+      "cells": "6S",
+      "throttle": 20,
+      "voltage_v": 25.2,
+      "current_a": 1.57,
+      "rpm": null,
+      "thrust_g": 127,
+      "efficiency_gw": 3.21
+     },
+     {
+      "kv": 1860,
+      "prop": "5131",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 25.2,
+      "current_a": 3.32,
+      "rpm": null,
+      "thrust_g": 229,
+      "efficiency_gw": 2.73
+     },
+     {
+      "kv": 1860,
+      "prop": "5131",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 25.2,
+      "current_a": 4.91,
+      "rpm": null,
+      "thrust_g": 325,
+      "efficiency_gw": 2.63
+     },
+     {
+      "kv": 1860,
+      "prop": "5131",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 25.2,
+      "current_a": 7.27,
+      "rpm": null,
+      "thrust_g": 446,
+      "efficiency_gw": 2.44
+     },
+     {
+      "kv": 1860,
+      "prop": "5131",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 25.2,
+      "current_a": 11.9,
+      "rpm": null,
+      "thrust_g": 598,
+      "efficiency_gw": 2.0
+     },
+     {
+      "kv": 1860,
+      "prop": "5131",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 25.2,
+      "current_a": 17.17,
+      "rpm": null,
+      "thrust_g": 761,
+      "efficiency_gw": 1.77
+     },
+     {
+      "kv": 1860,
+      "prop": "5131",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 25.2,
+      "current_a": 21.73,
+      "rpm": null,
+      "thrust_g": 944,
+      "efficiency_gw": 1.74
+     },
+     {
+      "kv": 1860,
+      "prop": "5131",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 25.2,
+      "current_a": 28.53,
+      "rpm": null,
+      "thrust_g": 1169,
+      "efficiency_gw": 1.64
+     },
+     {
+      "kv": 1860,
+      "prop": "5131",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 25.2,
+      "current_a": 35.86,
+      "rpm": null,
+      "thrust_g": 1322,
+      "efficiency_gw": 1.48
+     },
+     {
+      "kv": 1860,
+      "prop": "5136",
+      "cells": "6S",
+      "throttle": 10,
+      "voltage_v": 25.2,
+      "current_a": 0.46,
+      "rpm": null,
+      "thrust_g": 40,
+      "efficiency_gw": 3.45
+     },
+     {
+      "kv": 1860,
+      "prop": "5136",
+      "cells": "6S",
+      "throttle": 20,
+      "voltage_v": 25.2,
+      "current_a": 1.59,
+      "rpm": null,
+      "thrust_g": 136,
+      "efficiency_gw": 3.38
+     },
+     {
+      "kv": 1860,
+      "prop": "5136",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 25.2,
+      "current_a": 3.36,
+      "rpm": null,
+      "thrust_g": 240,
+      "efficiency_gw": 2.83
+     },
+     {
+      "kv": 1860,
+      "prop": "5136",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 25.2,
+      "current_a": 5.34,
+      "rpm": null,
+      "thrust_g": 350,
+      "efficiency_gw": 2.6
+     },
+     {
+      "kv": 1860,
+      "prop": "5136",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 25.2,
+      "current_a": 7.57,
+      "rpm": null,
+      "thrust_g": 493,
+      "efficiency_gw": 2.59
+     },
+     {
+      "kv": 1860,
+      "prop": "5136",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 25.2,
+      "current_a": 12.72,
+      "rpm": null,
+      "thrust_g": 672,
+      "efficiency_gw": 2.1
+     },
+     {
+      "kv": 1860,
+      "prop": "5136",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 25.2,
+      "current_a": 19.22,
+      "rpm": null,
+      "thrust_g": 840,
+      "efficiency_gw": 1.74
+     },
+     {
+      "kv": 1860,
+      "prop": "5136",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 25.2,
+      "current_a": 24.53,
+      "rpm": null,
+      "thrust_g": 995,
+      "efficiency_gw": 1.62
+     },
+     {
+      "kv": 1860,
+      "prop": "5136",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 25.2,
+      "current_a": 30.32,
+      "rpm": null,
+      "thrust_g": 1173,
+      "efficiency_gw": 1.55
+     },
+     {
+      "kv": 1860,
+      "prop": "5136",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 25.2,
+      "current_a": 39.18,
+      "rpm": null,
+      "thrust_g": 1342,
+      "efficiency_gw": 1.38
+     }
+    ],
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø29x18.6",
+    "resistance_mohm": "83.17",
+    "mount_mm": "16x16mm"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/geprc-speedx2-2306e-motor-1860kv"
-   ]
+    "https://www.racedayquads.com/products/geprc-speedx2-2306e-motor-1860kv",
+    "https://geprc.com/product/geprc-speedx2-2306e-motor/"
+   ],
+   "note": "The rows are GEPRC's own bench table, published as an image in the description gallery of its product page on geprc.com - the seventh brand this dataset has read a manufacturer sheet from. The E-series template is one winding over two 5in props, ten throttle points each (10-100% in 10% steps), with columns Type / Prop (inch) / Voltages (V) / Throttle (%) / Current (A) / Thrust (G) / Power (W) / Efficiency (G/W) / Temperature (C). It publishes no per-row RPM, so that column is empty here. **The Voltages column is the nominal 6S pack voltage, 25.2 V, repeated on every row, not a measured per-row figure**: the sheet's own Power column sits progressively below 25.2 x current as throttle rises, which is the pack sagging under load. Printed Efficiency reproduces Thrust / printed Power on every row. Identity with GEPRC's own Specifications block is 1860 KV, 12N14P, a Ø29x18.6 mm body, a 5 mm shaft, 6S and 33.3 g with wire - and the block's own Max Watt (972.7 W) and Peak Current (39.18 A) are the 5136 100% row here to the digit, which is the cross-check. Sheet temperatures: 110.5 C on the 5131 run, 118.4 C on the 5136 run."
   },
   {
    "type": "motor",
@@ -15937,13 +16397,156 @@
     ],
     "weight_g": 71.4,
     "max_cells": "6S",
-    "recommended_props": "7-8in props (derived)",
-    "price_usd": 35.99
+    "recommended_props": "7-8 inch (GEPRC; bench-tested on Gemfan 7040-3 and Gemfan 8040-3)",
+    "price_usd": 35.99,
+    "max_thrust_g": 3502.1,
+    "thrust_conditions": "GEPRC bench, 1280 KV at 6S, 6 throttle points (50-100%) on each of two props (Gemfan 7040-3, Gemfan 8040-3)",
+    "thrust_table": [
+     {
+      "kv": 1280,
+      "prop": "Gemfan 7040-3",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.02,
+      "current_a": 9.76,
+      "rpm": null,
+      "thrust_g": 862.8,
+      "efficiency_gw": 3.68
+     },
+     {
+      "kv": 1280,
+      "prop": "Gemfan 7040-3",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 23.93,
+      "current_a": 13.34,
+      "rpm": null,
+      "thrust_g": 1092.6,
+      "efficiency_gw": 3.42
+     },
+     {
+      "kv": 1280,
+      "prop": "Gemfan 7040-3",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 23.8,
+      "current_a": 19.32,
+      "rpm": null,
+      "thrust_g": 1405.1,
+      "efficiency_gw": 3.05
+     },
+     {
+      "kv": 1280,
+      "prop": "Gemfan 7040-3",
+      "cells": "6S",
+      "throttle": 81,
+      "voltage_v": 23.68,
+      "current_a": 25.19,
+      "rpm": null,
+      "thrust_g": 1718.3,
+      "efficiency_gw": 2.88
+     },
+     {
+      "kv": 1280,
+      "prop": "Gemfan 7040-3",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 23.45,
+      "current_a": 36.23,
+      "rpm": null,
+      "thrust_g": 2251.5,
+      "efficiency_gw": 2.64
+     },
+     {
+      "kv": 1280,
+      "prop": "Gemfan 7040-3",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 23.25,
+      "current_a": 46.74,
+      "rpm": null,
+      "thrust_g": 2559.1,
+      "efficiency_gw": 2.35
+     },
+     {
+      "kv": 1280,
+      "prop": "Gemfan 8040-3",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 23.9,
+      "current_a": 14.28,
+      "rpm": null,
+      "thrust_g": 1226.7,
+      "efficiency_gw": 3.6
+     },
+     {
+      "kv": 1280,
+      "prop": "Gemfan 8040-3",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 23.7,
+      "current_a": 20.8,
+      "rpm": null,
+      "thrust_g": 1637.5,
+      "efficiency_gw": 3.3
+     },
+     {
+      "kv": 1280,
+      "prop": "Gemfan 8040-3",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 23.5,
+      "current_a": 31.08,
+      "rpm": null,
+      "thrust_g": 2186.2,
+      "efficiency_gw": 2.9
+     },
+     {
+      "kv": 1280,
+      "prop": "Gemfan 8040-3",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 23.3,
+      "current_a": 39.4,
+      "rpm": null,
+      "thrust_g": 2488.4,
+      "efficiency_gw": 2.7
+     },
+     {
+      "kv": 1280,
+      "prop": "Gemfan 8040-3",
+      "cells": "6S",
+      "throttle": 92,
+      "voltage_v": 23.1,
+      "current_a": 54.41,
+      "rpm": null,
+      "thrust_g": 2980.1,
+      "efficiency_gw": 2.3
+     },
+     {
+      "kv": 1280,
+      "prop": "Gemfan 8040-3",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 22.8,
+      "current_a": 68.52,
+      "rpm": null,
+      "thrust_g": 3502.1,
+      "efficiency_gw": 2.2
+     }
+    ],
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø36.04x36.53",
+    "resistance_mohm": "42",
+    "mount_mm": "19x19mm (M3)",
+    "shaft": "5mm"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/geprc-speedx2-2809-1280kv-motor"
-   ]
+    "https://www.racedayquads.com/products/geprc-speedx2-2809-1280kv-motor",
+    "https://geprc.com/product/geprc-speedx2-2809-1280kv-motor/"
+   ],
+   "note": "The rows are GEPRC's own bench table, published as an image in the description gallery of its product page on geprc.com - the seventh brand this dataset has read a manufacturer sheet from. This 2023 product uses a different template from the 2024 E series: its 'Motor Data Sheet' prints a MEASURED voltage per row (24.02 V down to 22.8 V as the pack sags), six throttle points rather than ten, two props named in full, and two odd steps - 81% on the 7040-3 run and 92% on the 8040-3 - which are the source's own. No per-row RPM. Every row reproduces its printed Power as Voltage x Current and its printed Efficiency as Thrust / Power. Identity with GEPRC's Specifications block is 1280 KV, a 28x9 mm stator, 12N14P, a Ø5 mm shaft, 25.2 V 6S and 71.4 g. **The block's Maximum power (1148.9 W) and Maximum current (49.35 A) do not land on this table**: they belong to a separate full-throttle run GEPRC advertises in another description image (23.28 V, 49.35 A, 1148.9 W, 2944 g, quoted as 3.08 g/W on the Gemfan 7040-3, 60 C after 10 s). That panel contradicts the sheet's own 7040-3 100% row (23.25 V, 46.74 A, 2559.1 g, 1086.8 W, 2.35 g/W) and it does not even reproduce itself - 2944 g / 1148.9 W is 2.56 g/W, not 3.08 - so the table is what is published here and the panel is recorded rather than merged. max_thrust_g is the table's own maximum, the Gemfan 8040-3 100% row. Sheet temperatures: 60 C on the 7040-3 run, 65 C on the 8040-3 run."
   },
   {
    "type": "motor",
