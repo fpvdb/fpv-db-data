@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-26",
+ "generated": "2026-09-27",
  "count": 207,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
@@ -15959,12 +15959,130 @@
     "max_cells": "1S",
     "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
-    "price_usd": 10.99
+    "price_usd": 10.99,
+    "max_thrust_g": 27.8,
+    "thrust_conditions": "Happymodel bench, 25000 KV on a Gemfan 1219 31mm at 1S (3.7 V) and on a Happymodel 40mm 4-blade at 2.6 V; 5 current steps per prop (1.03-4.41 A and 1.02-4.53 A), throttle not published",
+    "thrust_table": [
+     {
+      "kv": 25000,
+      "prop": "Gemfan 1219 propeller 31mm",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 1.03,
+      "rpm": null,
+      "thrust_g": 8.4,
+      "efficiency_gw": 2.204
+     },
+     {
+      "kv": 25000,
+      "prop": "Gemfan 1219 propeller 31mm",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 1.86,
+      "rpm": null,
+      "thrust_g": 14,
+      "efficiency_gw": 2.034
+     },
+     {
+      "kv": 25000,
+      "prop": "Gemfan 1219 propeller 31mm",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 3.05,
+      "rpm": null,
+      "thrust_g": 21.4,
+      "efficiency_gw": 1.896
+     },
+     {
+      "kv": 25000,
+      "prop": "Gemfan 1219 propeller 31mm",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 3.97,
+      "rpm": null,
+      "thrust_g": 26.6,
+      "efficiency_gw": 1.811
+     },
+     {
+      "kv": 25000,
+      "prop": "Gemfan 1219 propeller 31mm",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 4.41,
+      "rpm": null,
+      "thrust_g": 27.8,
+      "efficiency_gw": 1.704
+     },
+     {
+      "kv": 25000,
+      "prop": "Happymodel 40mm 4-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 2.6,
+      "current_a": 1.02,
+      "rpm": null,
+      "thrust_g": 7.6,
+      "efficiency_gw": 2.866
+     },
+     {
+      "kv": 25000,
+      "prop": "Happymodel 40mm 4-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 2.6,
+      "current_a": 1.99,
+      "rpm": null,
+      "thrust_g": 13.2,
+      "efficiency_gw": 2.551
+     },
+     {
+      "kv": 25000,
+      "prop": "Happymodel 40mm 4-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 2.6,
+      "current_a": 2.99,
+      "rpm": null,
+      "thrust_g": 18.9,
+      "efficiency_gw": 2.431
+     },
+     {
+      "kv": 25000,
+      "prop": "Happymodel 40mm 4-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 2.6,
+      "current_a": 3.98,
+      "rpm": null,
+      "thrust_g": 23.4,
+      "efficiency_gw": 2.261
+     },
+     {
+      "kv": 25000,
+      "prop": "Happymodel 40mm 4-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 2.6,
+      "current_a": 4.53,
+      "rpm": null,
+      "thrust_g": 25.2,
+      "efficiency_gw": 2.14
+     }
+    ],
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø10.5x14.9"
    },
    "_scraped_at": "2026-09-26",
    "sources": [
-    "https://www.racedayquads.com/products/happymodel-ex-0802-25000kv-whoop-micro-motor-for-mobula-6-hd-cw"
-   ]
+    "https://www.racedayquads.com/products/happymodel-ex-0802-25000kv-whoop-micro-motor-for-mobula-6-hd-cw",
+    "https://www.happymodel.cn/index.php/2020/05/29/happymodel-ex0802-new-series-brushless-motor-for-mobula6-mobula6-hd/"
+   ],
+   "note": "The rows are Happymodel's own bench table, published as an HTML table in the body of its product post on happymodel.cn - the first brand in this dataset whose bench data is markup rather than a photographed sheet, so every figure here is the source's own text. The template is a no-load block (2 V, its current, its speed and the KV that measurement implies) repeated beside a run of Voltage / Current / Thrust / Efficiency / Power rows and the propeller. It steps CURRENT, not throttle, and publishes no per-row RPM, so both those columns are empty here. No spec-block cross-check is possible on this brand: Happymodel's Specifications blocks state no maximum power and no maximum current. Every row reproduces its own printed power as Voltage x Current to within 0.01 W, and its printed efficiency as Thrust / Power. This post's table is the one Happymodel lays out differently - Model / No-load test / Propellers first, and Power BEFORE Efficiency, where its other motor posts put Efficiency first - so the column order was taken from each table's own header and checked by arithmetic rather than assumed from the brand. The 25000 KV block's no-load test is \"0.45A 50840RPM @2V 25420KV\". Identity with Happymodel's own Specifications block is six figures our RaceDayQuads listing reprints to the digit: the 8 mm x 2 mm stator, 25000 KV, a 1.0 mm shaft, 9N12P, Ø10.5x14.9 mm and 1.7 g. Two source facts recorded rather than repaired: the 40mm 4-blade run on this winding is benched at 2.6 V where every other run on the sheet is at 3.7 V (the 22000 and 19000 KV windings run the same prop at 3.7 V), and the table labels all three windings \"One-Piece Design\" where the block beside it describes a double E-clip design. The sheet also carries 22000 and 19000 KV windings of this same product, which this catalogue publishes no page for; their rows are not here because this page is the 25000 KV listing."
   },
   {
    "type": "motor",
@@ -15976,16 +16094,90 @@
     "kv_options": [
      20000
     ],
-    "weight_g": 2.0,
+    "weight_g": 2.45,
     "max_cells": "1S",
     "shaft": "1.5mm",
     "recommended_props": "40-65mm whoop/micro props (derived)",
-    "price_usd": 12.99
+    "price_usd": 12.99,
+    "max_thrust_g": 55.4,
+    "thrust_conditions": "Happymodel bench, 20000 KV on a Gemfan 2015-2 2-blade at 1S (3.7 V); 6 current steps 1.01-5.99 A, throttle not published",
+    "thrust_table": [
+     {
+      "kv": 20000,
+      "prop": "Gemfan 2015-2 2-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 1.01,
+      "rpm": null,
+      "thrust_g": 12.9,
+      "efficiency_gw": 3.452
+     },
+     {
+      "kv": 20000,
+      "prop": "Gemfan 2015-2 2-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 2.01,
+      "rpm": null,
+      "thrust_g": 23.3,
+      "efficiency_gw": 3.133
+     },
+     {
+      "kv": 20000,
+      "prop": "Gemfan 2015-2 2-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 3,
+      "rpm": null,
+      "thrust_g": 32.1,
+      "efficiency_gw": 2.892
+     },
+     {
+      "kv": 20000,
+      "prop": "Gemfan 2015-2 2-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 4,
+      "rpm": null,
+      "thrust_g": 40.8,
+      "efficiency_gw": 2.757
+     },
+     {
+      "kv": 20000,
+      "prop": "Gemfan 2015-2 2-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 5,
+      "rpm": null,
+      "thrust_g": 48.9,
+      "efficiency_gw": 2.643
+     },
+     {
+      "kv": 20000,
+      "prop": "Gemfan 2015-2 2-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 5.99,
+      "rpm": null,
+      "thrust_g": 55.4,
+      "efficiency_gw": 2.5
+     }
+    ],
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø13.5x12.5"
    },
    "_scraped_at": "2026-09-26",
    "sources": [
-    "https://www.racedayquads.com/products/happymodel-ex1002-20000kv-micro-motor"
-   ]
+    "https://www.racedayquads.com/products/happymodel-ex1002-20000kv-micro-motor",
+    "https://www.happymodel.cn/index.php/2022/09/14/happymodel-ex1002-kv20000-new-series-brushless-motor-for-mobula7-1s/"
+   ],
+   "note": "The rows are Happymodel's own bench table, published as an HTML table in the body of its product post on happymodel.cn - the first brand in this dataset whose bench data is markup rather than a photographed sheet, so every figure here is the source's own text. The template is a no-load block (2 V, its current, its speed and the KV that measurement implies) repeated beside a run of Voltage / Current / Thrust / Efficiency / Power rows and the propeller. It steps CURRENT, not throttle, and publishes no per-row RPM, so both those columns are empty here. No spec-block cross-check is possible on this brand: Happymodel's Specifications blocks state no maximum power and no maximum current. Every row reproduces its own printed power as Voltage x Current to within 0.01 W, and its printed efficiency as Thrust / Power. Its no-load block is 0.5 A and 41820 RPM at 2 V, i.e. a measured 20910 KV against a 20000 KV nameplate. Identity with Happymodel's own Specifications block is the 10 mm x 2 mm stator, 20000 KV, a 1.5 mm shaft, 9N12P and 1S-only. **weight_g was corrected 2 g -> 2.45 g**, and the reason is a find: our RaceDayQuads listing prints \"Motor Dimension: Ø10.5x13.5mm\", \"Wire length(include connector): 30mm\" and \"Weight: 2g\", which are the RS0802's three figures to the digit - Happymodel's own EX1002 block says Ø13.5mm*12.5mm, 40 mm of wire and 2.45 g. A Ø10.5 mm bell is the 8 mm-stator size on this brand (both the RS0802 and the EX0802 are Ø10.5); a 10 mm stator does not fit inside it, so the retailer pasted a sibling product's block and the manufacturer's figures are the ones published here."
   },
   {
    "type": "motor",
@@ -15998,15 +16190,122 @@
      11000
     ],
     "weight_g": 3.8,
-    "max_cells": "1S",
+    "max_cells": "1-2S",
     "shaft": "1.5mm",
     "recommended_props": "40-65mm whoop/micro props (derived)",
-    "price_usd": 11.99
+    "price_usd": 11.99,
+    "max_thrust_g": 121.9,
+    "thrust_conditions": "Happymodel bench, 11000 KV on a 2023R propeller at 2S (7.4 V); 9 current steps 1.07-9.20 A, throttle not published",
+    "thrust_table": [
+     {
+      "kv": 11000,
+      "prop": "2023R propeller",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 7.4,
+      "current_a": 1.07,
+      "rpm": null,
+      "thrust_g": 23,
+      "efficiency_gw": 2.905
+     },
+     {
+      "kv": 11000,
+      "prop": "2023R propeller",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 7.4,
+      "current_a": 2.12,
+      "rpm": null,
+      "thrust_g": 40.9,
+      "efficiency_gw": 2.607
+     },
+     {
+      "kv": 11000,
+      "prop": "2023R propeller",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 7.4,
+      "current_a": 3.17,
+      "rpm": null,
+      "thrust_g": 56.6,
+      "efficiency_gw": 2.413
+     },
+     {
+      "kv": 11000,
+      "prop": "2023R propeller",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 7.4,
+      "current_a": 4.05,
+      "rpm": null,
+      "thrust_g": 68.6,
+      "efficiency_gw": 2.289
+     },
+     {
+      "kv": 11000,
+      "prop": "2023R propeller",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 7.4,
+      "current_a": 5.04,
+      "rpm": null,
+      "thrust_g": 81.8,
+      "efficiency_gw": 2.193
+     },
+     {
+      "kv": 11000,
+      "prop": "2023R propeller",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 7.4,
+      "current_a": 6.19,
+      "rpm": null,
+      "thrust_g": 95,
+      "efficiency_gw": 2.074
+     },
+     {
+      "kv": 11000,
+      "prop": "2023R propeller",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 7.4,
+      "current_a": 7.23,
+      "rpm": null,
+      "thrust_g": 106.5,
+      "efficiency_gw": 1.991
+     },
+     {
+      "kv": 11000,
+      "prop": "2023R propeller",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 7.4,
+      "current_a": 8.27,
+      "rpm": null,
+      "thrust_g": 115.3,
+      "efficiency_gw": 1.884
+     },
+     {
+      "kv": 11000,
+      "prop": "2023R propeller",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 7.4,
+      "current_a": 9.2,
+      "rpm": null,
+      "thrust_g": 121.9,
+      "efficiency_gw": 1.791
+     }
+    ],
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø13.5x15.5"
    },
    "_scraped_at": "2026-09-26",
    "sources": [
-    "https://www.racedayquads.com/products/happymodel-ex-1103-11000kv-micro-motor"
-   ]
+    "https://www.racedayquads.com/products/happymodel-ex-1103-11000kv-micro-motor",
+    "https://www.happymodel.cn/index.php/2022/09/05/bassline-spare-part-ex1103-kv11000-brushless-motor/"
+   ],
+   "note": "The rows are Happymodel's own bench table, published as an HTML table in the body of its product post on happymodel.cn - the first brand in this dataset whose bench data is markup rather than a photographed sheet, so every figure here is the source's own text. The template is a no-load block (2 V, its current, its speed and the KV that measurement implies) repeated beside a run of Voltage / Current / Thrust / Efficiency / Power rows and the propeller. It steps CURRENT, not throttle, and publishes no per-row RPM, so both those columns are empty here. No spec-block cross-check is possible on this brand: Happymodel's Specifications blocks state no maximum power and no maximum current. Every row reproduces its own printed power as Voltage x Current to within 0.01 W, and its printed efficiency as Thrust / Power. Its no-load block is 0.38 A and 22010 RPM at 2 V, i.e. a measured 11005 KV against an 11000 KV nameplate - the closest agreement of the seven Happymodel windings read. Identity with Happymodel's own block is the 11 mm x 3 mm stator, 11000 KV, a Ø1.5 mm shaft, 9N12P, Ø13.5x15.5 mm and 3.8 g, the last of which our RaceDayQuads listing agrees with. **max_cells was corrected 1S -> 1-2S**: Happymodel's block says \"No.of Cells(Lipo):1-2S\" and the bench run is at 7.4 V, which is 2S, while our retail listing's own Input Voltage line is blank. One source fact recorded rather than repaired: the propeller cell of this table is a nested one-cell table, so a naive HTML parse loses the prop name - it is a 2023R, and the post's sheet image is named 1103-11000KV.jpg."
   },
   {
    "type": "motor",
@@ -16022,12 +16321,284 @@
     "max_cells": "3-4S",
     "shaft": "1.5mm",
     "recommended_props": "3-4in props (derived)",
-    "price_usd": 13.99
+    "price_usd": 13.99,
+    "max_thrust_g": 338.3,
+    "thrust_conditions": "Happymodel bench, 3500 KV on a Gemfan 4024 2-blade, a Gemfan 4023 3-blade and a Gemfan 3018 2-blade at 4S (14.8 V); 5-9 current steps per prop (1-9.5 A), the sheet's throttle column being a PWM value (1463-2200 us) and not a percentage",
+    "thrust_table": [
+     {
+      "kv": 3500,
+      "prop": "Gemfan 4024 2-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 1,
+      "rpm": null,
+      "thrust_g": 84.2,
+      "efficiency_gw": 5.689
+     },
+     {
+      "kv": 3500,
+      "prop": "Gemfan 4024 2-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 2,
+      "rpm": null,
+      "thrust_g": 136.9,
+      "efficiency_gw": 4.625
+     },
+     {
+      "kv": 3500,
+      "prop": "Gemfan 4024 2-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 3,
+      "rpm": null,
+      "thrust_g": 178.8,
+      "efficiency_gw": 4.027
+     },
+     {
+      "kv": 3500,
+      "prop": "Gemfan 4024 2-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 4,
+      "rpm": null,
+      "thrust_g": 213.3,
+      "efficiency_gw": 3.603
+     },
+     {
+      "kv": 3500,
+      "prop": "Gemfan 4024 2-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 5,
+      "rpm": null,
+      "thrust_g": 247.3,
+      "efficiency_gw": 3.342
+     },
+     {
+      "kv": 3500,
+      "prop": "Gemfan 4024 2-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 6,
+      "rpm": null,
+      "thrust_g": 275,
+      "efficiency_gw": 3.097
+     },
+     {
+      "kv": 3500,
+      "prop": "Gemfan 4024 2-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 7,
+      "rpm": null,
+      "thrust_g": 299,
+      "efficiency_gw": 2.886
+     },
+     {
+      "kv": 3500,
+      "prop": "Gemfan 4024 2-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 8.5,
+      "rpm": null,
+      "thrust_g": 338.3,
+      "efficiency_gw": 2.689
+     },
+     {
+      "kv": 3500,
+      "prop": "Gemfan 4024 2-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 8.4,
+      "rpm": null,
+      "thrust_g": 335.5,
+      "efficiency_gw": 2.699
+     },
+     {
+      "kv": 3500,
+      "prop": "Gemfan 4023 3-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 1,
+      "rpm": null,
+      "thrust_g": 78.8,
+      "efficiency_gw": 5.324
+     },
+     {
+      "kv": 3500,
+      "prop": "Gemfan 4023 3-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 2,
+      "rpm": null,
+      "thrust_g": 129.6,
+      "efficiency_gw": 4.378
+     },
+     {
+      "kv": 3500,
+      "prop": "Gemfan 4023 3-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 3,
+      "rpm": null,
+      "thrust_g": 168.8,
+      "efficiency_gw": 3.802
+     },
+     {
+      "kv": 3500,
+      "prop": "Gemfan 4023 3-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 4,
+      "rpm": null,
+      "thrust_g": 201.4,
+      "efficiency_gw": 3.402
+     },
+     {
+      "kv": 3500,
+      "prop": "Gemfan 4023 3-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 5,
+      "rpm": null,
+      "thrust_g": 230,
+      "efficiency_gw": 3.108
+     },
+     {
+      "kv": 3500,
+      "prop": "Gemfan 4023 3-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 6,
+      "rpm": null,
+      "thrust_g": 253.1,
+      "efficiency_gw": 2.85
+     },
+     {
+      "kv": 3500,
+      "prop": "Gemfan 4023 3-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 7,
+      "rpm": null,
+      "thrust_g": 270,
+      "efficiency_gw": 2.606
+     },
+     {
+      "kv": 3500,
+      "prop": "Gemfan 4023 3-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 8,
+      "rpm": null,
+      "thrust_g": 291.6,
+      "efficiency_gw": 2.463
+     },
+     {
+      "kv": 3500,
+      "prop": "Gemfan 4023 3-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 9.5,
+      "rpm": null,
+      "thrust_g": 327,
+      "efficiency_gw": 2.326
+     },
+     {
+      "kv": 3500,
+      "prop": "Gemfan 4023 3-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 9.2,
+      "rpm": null,
+      "thrust_g": 315,
+      "efficiency_gw": 2.313
+     },
+     {
+      "kv": 3500,
+      "prop": "Gemfan 3018 2-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 1,
+      "rpm": null,
+      "thrust_g": 66.9,
+      "efficiency_gw": 4.52
+     },
+     {
+      "kv": 3500,
+      "prop": "Gemfan 3018 2-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 2,
+      "rpm": null,
+      "thrust_g": 117.2,
+      "efficiency_gw": 3.959
+     },
+     {
+      "kv": 3500,
+      "prop": "Gemfan 3018 2-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 3,
+      "rpm": null,
+      "thrust_g": 165.5,
+      "efficiency_gw": 3.727
+     },
+     {
+      "kv": 3500,
+      "prop": "Gemfan 3018 2-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 4,
+      "rpm": null,
+      "thrust_g": 200,
+      "efficiency_gw": 3.378
+     },
+     {
+      "kv": 3500,
+      "prop": "Gemfan 3018 2-blade propeller",
+      "cells": "4S",
+      "throttle": null,
+      "voltage_v": 14.8,
+      "current_a": 4.4,
+      "rpm": null,
+      "thrust_g": 212,
+      "efficiency_gw": 3.256
+     }
+    ],
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø17.8x17.6"
    },
    "_scraped_at": "2026-09-26",
    "sources": [
-    "https://www.racedayquads.com/products/happymodel-ex-1404-3500kv-motor-for-crux35"
-   ]
+    "https://www.racedayquads.com/products/happymodel-ex-1404-3500kv-motor-for-crux35",
+    "https://www.happymodel.cn/index.php/2021/01/07/happymodel-ex1404-kv2750-kv3500-kv4800-brushless-motor/"
+   ],
+   "note": "The rows are Happymodel's own bench table, published as an HTML table in the body of its product post on happymodel.cn - the first brand in this dataset whose bench data is markup rather than a photographed sheet, so every figure here is the source's own text. The template is a no-load block (2 V, its current, its speed and the KV that measurement implies) repeated beside a run of Voltage / Current / Thrust / Efficiency / Power rows and the propeller. It steps CURRENT, not throttle, and publishes no per-row RPM, so both those columns are empty here. No spec-block cross-check is possible on this brand: Happymodel's Specifications blocks state no maximum power and no maximum current. Every row reproduces its own printed power as Voltage x Current to within 0.01 W, and its printed efficiency as Thrust / Power. This is the one Happymodel motor post that publishes a throttle column, and it is a **PWM command value in microseconds** (1463-2200), not a percentage, so `throttle` is left empty rather than filled with a number this dataset's other rows would read as percent. On the 3500 KV winding the steps are 1483/1607/1692/1758/1826/1883/1948/2200 us (Gemfan 4024 2-blade), 1463/1576/1655/1721/1787/1840/1907/blank/2200 us (4023 3-blade) and 1594/1759/1886/1980/2200 us (3018 2-blade). Its no-load block is 0.21 A and 7050 RPM at 2 V, i.e. a measured 3525 KV. Identity with Happymodel's own block is the 14 mm x 4 mm stator, 3500 KV, a Ø1.5 mm shaft, 9N12P, Ø17.8x17.6 mm, 8.7 g and \"KV3500 compatible with 3-4S Lipo\", which is this page's 3-4S. Three source facts recorded rather than repaired: each prop run ends in TWO full-throttle (2200 us) rows whose current differs slightly (8.5 A / 338.3 g then 8.4 A / 335.5 g on the 4024, 9.5 A / 327 g then 9.2 A / 315 g on the 4023), so the published maximum is the first of each pair; the 4023 run's 8 A row prints no throttle at all; and the post's third winding is headed EX1404-4850KV in the table against KV4800 in the title and the Specifications block. The 2750 and 4850 KV windings are not on this page - this catalogue publishes only the 3500 KV listing."
   },
   {
    "type": "motor",
@@ -16085,12 +16656,108 @@
     "max_cells": "1S",
     "shaft": "1.5mm",
     "recommended_props": "31-40mm whoop props (derived)",
-    "price_usd": 11.99
+    "price_usd": 11.99,
+    "max_thrust_g": 34.8,
+    "thrust_conditions": "Happymodel bench, 20000 KV on a Gemfan 1610 2-blade at 1S (3.7 V); 8 current steps 0.5-3.74 A, throttle not published",
+    "thrust_table": [
+     {
+      "kv": 20000,
+      "prop": "Gemfan 1610 2-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 0.5,
+      "rpm": null,
+      "thrust_g": 6.1,
+      "efficiency_gw": 3.297
+     },
+     {
+      "kv": 20000,
+      "prop": "Gemfan 1610 2-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 1,
+      "rpm": null,
+      "thrust_g": 11.3,
+      "efficiency_gw": 3.054
+     },
+     {
+      "kv": 20000,
+      "prop": "Gemfan 1610 2-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 1.5,
+      "rpm": null,
+      "thrust_g": 15.9,
+      "efficiency_gw": 2.865
+     },
+     {
+      "kv": 20000,
+      "prop": "Gemfan 1610 2-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 2,
+      "rpm": null,
+      "thrust_g": 20.8,
+      "efficiency_gw": 2.811
+     },
+     {
+      "kv": 20000,
+      "prop": "Gemfan 1610 2-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 2.5,
+      "rpm": null,
+      "thrust_g": 24.7,
+      "efficiency_gw": 2.67
+     },
+     {
+      "kv": 20000,
+      "prop": "Gemfan 1610 2-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 3,
+      "rpm": null,
+      "thrust_g": 29.4,
+      "efficiency_gw": 2.649
+     },
+     {
+      "kv": 20000,
+      "prop": "Gemfan 1610 2-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 3.5,
+      "rpm": null,
+      "thrust_g": 32.5,
+      "efficiency_gw": 2.51
+     },
+     {
+      "kv": 20000,
+      "prop": "Gemfan 1610 2-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 3.74,
+      "rpm": null,
+      "thrust_g": 34.8,
+      "efficiency_gw": 2.515
+     }
+    ],
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø10.5x13.5"
    },
    "_scraped_at": "2026-09-26",
    "sources": [
-    "https://www.racedayquads.com/products/happymodel-rs0802-20000kv-micro-motor-choose-your-version"
-   ]
+    "https://www.racedayquads.com/products/happymodel-rs0802-20000kv-micro-motor-choose-your-version",
+    "https://www.happymodel.cn/index.php/2022/01/19/happymodel-rs0802-kv20000-new-series-brushless-motor-for-mobula7-1s/"
+   ],
+   "note": "The rows are Happymodel's own bench table, published as an HTML table in the body of its product post on happymodel.cn - the first brand in this dataset whose bench data is markup rather than a photographed sheet, so every figure here is the source's own text. The template is a no-load block (2 V, its current, its speed and the KV that measurement implies) repeated beside a run of Voltage / Current / Thrust / Efficiency / Power rows and the propeller. It steps CURRENT, not throttle, and publishes no per-row RPM, so both those columns are empty here. No spec-block cross-check is possible on this brand: Happymodel's Specifications blocks state no maximum power and no maximum current. Every row reproduces its own printed power as Voltage x Current to within 0.01 W, and its printed efficiency as Thrust / Power. Its no-load block is 0.46 A and 40790 RPM at 2 V, i.e. a measured 20395 KV against a 20000 KV nameplate. Identity with Happymodel's own Specifications block is six figures to the digit: the 8 mm x 2 mm stator, 20000 KV, a 1.5 mm shaft, 9N12P, Ø10.5x13.5 mm and 2 g, all of which our RaceDayQuads listing reprints. The RS0802 is also sold as a 25000 KV winding; Happymodel's table covers only the 20000 KV one, so this page's rows are the whole of what the brand publishes for it."
   },
   {
    "type": "motor",
@@ -16128,13 +16795,307 @@
     "max_cells": "1S",
     "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
-    "price_usd": 11.99
+    "price_usd": 11.99,
+    "max_thrust_g": 31.4,
+    "thrust_conditions": "Happymodel bench, 23000 KV (Gemfan 31mm bi-blade, Gemfan 40mm bi-blade) and 26000 KV (HQPROP 31mm bi-blade, Gemfan 40mm bi-blade) at 1S (3.7 V); 5-7 current steps per run, throttle not published",
+    "thrust_table": [
+     {
+      "kv": 23000,
+      "prop": "Gemfan 31mm Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 0.52,
+      "rpm": null,
+      "thrust_g": 5.1,
+      "efficiency_gw": 2.651
+     },
+     {
+      "kv": 23000,
+      "prop": "Gemfan 31mm Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 1,
+      "rpm": null,
+      "thrust_g": 8.9,
+      "efficiency_gw": 2.405
+     },
+     {
+      "kv": 23000,
+      "prop": "Gemfan 31mm Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 1.53,
+      "rpm": null,
+      "thrust_g": 13.1,
+      "efficiency_gw": 2.314
+     },
+     {
+      "kv": 23000,
+      "prop": "Gemfan 31mm Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 1.99,
+      "rpm": null,
+      "thrust_g": 16.3,
+      "efficiency_gw": 2.214
+     },
+     {
+      "kv": 23000,
+      "prop": "Gemfan 31mm Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 2.5,
+      "rpm": null,
+      "thrust_g": 19.3,
+      "efficiency_gw": 2.086
+     },
+     {
+      "kv": 23000,
+      "prop": "Gemfan 31mm Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 2.86,
+      "rpm": null,
+      "thrust_g": 21.7,
+      "efficiency_gw": 2.051
+     },
+     {
+      "kv": 23000,
+      "prop": "Gemfan 40mm Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 1,
+      "rpm": null,
+      "thrust_g": 8.1,
+      "efficiency_gw": 2.189
+     },
+     {
+      "kv": 23000,
+      "prop": "Gemfan 40mm Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 1.5,
+      "rpm": null,
+      "thrust_g": 11.8,
+      "efficiency_gw": 2.126
+     },
+     {
+      "kv": 23000,
+      "prop": "Gemfan 40mm Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 2,
+      "rpm": null,
+      "thrust_g": 15.6,
+      "efficiency_gw": 2.108
+     },
+     {
+      "kv": 23000,
+      "prop": "Gemfan 40mm Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 2.5,
+      "rpm": null,
+      "thrust_g": 19.6,
+      "efficiency_gw": 2.119
+     },
+     {
+      "kv": 23000,
+      "prop": "Gemfan 40mm Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 3,
+      "rpm": null,
+      "thrust_g": 22.4,
+      "efficiency_gw": 2.018
+     },
+     {
+      "kv": 23000,
+      "prop": "Gemfan 40mm Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 3.5,
+      "rpm": null,
+      "thrust_g": 25.6,
+      "efficiency_gw": 1.977
+     },
+     {
+      "kv": 23000,
+      "prop": "Gemfan 40mm Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 4,
+      "rpm": null,
+      "thrust_g": 27.1,
+      "efficiency_gw": 1.831
+     },
+     {
+      "kv": 26000,
+      "prop": "HQPROP 31MM Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 0.98,
+      "rpm": null,
+      "thrust_g": 8,
+      "efficiency_gw": 2.206
+     },
+     {
+      "kv": 26000,
+      "prop": "HQPROP 31MM Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 1.49,
+      "rpm": null,
+      "thrust_g": 11.9,
+      "efficiency_gw": 2.159
+     },
+     {
+      "kv": 26000,
+      "prop": "HQPROP 31MM Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 1.99,
+      "rpm": null,
+      "thrust_g": 15.6,
+      "efficiency_gw": 2.119
+     },
+     {
+      "kv": 26000,
+      "prop": "HQPROP 31MM Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 2.5,
+      "rpm": null,
+      "thrust_g": 19.6,
+      "efficiency_gw": 2.119
+     },
+     {
+      "kv": 26000,
+      "prop": "HQPROP 31MM Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 2.8,
+      "rpm": null,
+      "thrust_g": 21.7,
+      "efficiency_gw": 2.095
+     },
+     {
+      "kv": 26000,
+      "prop": "Gemfan 40mm Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 1,
+      "rpm": null,
+      "thrust_g": 8.9,
+      "efficiency_gw": 2.405
+     },
+     {
+      "kv": 26000,
+      "prop": "Gemfan 40mm Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 1.5,
+      "rpm": null,
+      "thrust_g": 12.9,
+      "efficiency_gw": 2.324
+     },
+     {
+      "kv": 26000,
+      "prop": "Gemfan 40mm Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 2,
+      "rpm": null,
+      "thrust_g": 16.6,
+      "efficiency_gw": 2.243
+     },
+     {
+      "kv": 26000,
+      "prop": "Gemfan 40mm Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 2.5,
+      "rpm": null,
+      "thrust_g": 19.8,
+      "efficiency_gw": 2.141
+     },
+     {
+      "kv": 26000,
+      "prop": "Gemfan 40mm Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 3,
+      "rpm": null,
+      "thrust_g": 23.5,
+      "efficiency_gw": 2.117
+     },
+     {
+      "kv": 26000,
+      "prop": "Gemfan 40mm Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 3.5,
+      "rpm": null,
+      "thrust_g": 26.9,
+      "efficiency_gw": 2.077
+     },
+     {
+      "kv": 26000,
+      "prop": "Gemfan 40mm Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 4,
+      "rpm": null,
+      "thrust_g": 29.2,
+      "efficiency_gw": 1.973
+     },
+     {
+      "kv": 26000,
+      "prop": "Gemfan 40mm Bi-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 4.38,
+      "rpm": null,
+      "thrust_g": 31.4,
+      "efficiency_gw": 1.938
+     }
+    ],
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø9.5x14"
    },
    "_scraped_at": "2026-09-26",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-se-0702-23000kv-micro-motor",
-    "https://www.racedayquads.com/products/happymodel-se0702-0702-26000kv-motor"
-   ]
+    "https://www.racedayquads.com/products/happymodel-se0702-0702-26000kv-motor",
+    "https://www.happymodel.cn/index.php/2021/08/20/happymodel-se0702-kv26000-brushless-motors-for-1s-fpv-brushless-whoop/"
+   ],
+   "note": "The rows are Happymodel's own bench table, published as an HTML table in the body of its product post on happymodel.cn - the first brand in this dataset whose bench data is markup rather than a photographed sheet, so every figure here is the source's own text. The template is a no-load block (2 V, its current, its speed and the KV that measurement implies) repeated beside a run of Voltage / Current / Thrust / Efficiency / Power rows and the propeller. It steps CURRENT, not throttle, and publishes no per-row RPM, so both those columns are empty here. No spec-block cross-check is possible on this brand: Happymodel's Specifications blocks state no maximum power and no maximum current. Every row reproduces its own printed power as Voltage x Current to within 0.01 W, and its printed efficiency as Thrust / Power. Both of this page's windings are on the one SE0702 post, and each RUN carries its own no-load block rather than each winding: 0.41 A / 46670 RPM (23000 KV, 31mm) and 0.43 A / 46290 RPM (23000 KV, 40mm), 0.35 A / 51070 RPM (26000 KV, 31mm) and 0.54 A / 50540 RPM (26000 KV, 40mm), i.e. measured 23335 / 23145 and 25535 / 25270 KV. Identity with Happymodel's own block is the 7 mm x 2 mm stator, a Ø1 mm shaft, 9N12P, Ø9.5x14 mm, 1S-only and both of this page's KV appearing as its KV options. One source fact recorded rather than repaired: the post states the weight twice and differently - 1.46 g in its opening prose, 1.5 g in its Specifications block - which is exactly where this page's 1.46 g and our separate SE0702 28000 KV page's 1.5 g come from. Happymodel sells one SE0702 in three windings (23000 / 26000 / 28000); this catalogue carries it as two pages, which is a merge question for a human, not something a transcription burst should decide."
   },
   {
    "type": "motor",
@@ -16170,12 +17131,75 @@
     "max_cells": "1S",
     "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
-    "price_usd": 10.99
+    "price_usd": 10.99,
+    "max_thrust_g": 24.6,
+    "thrust_conditions": "Happymodel bench, 28000 KV on a Gemfan 1219 31mm tri-blade at 1S (3.7 V); 5 current steps 1.03-4.74 A, throttle not published",
+    "thrust_table": [
+     {
+      "kv": 28000,
+      "prop": "Gemfan 1219 31mm tri-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 1.03,
+      "rpm": null,
+      "thrust_g": 7.6,
+      "efficiency_gw": 1.994
+     },
+     {
+      "kv": 28000,
+      "prop": "Gemfan 1219 31mm tri-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 2.05,
+      "rpm": null,
+      "thrust_g": 14,
+      "efficiency_gw": 1.846
+     },
+     {
+      "kv": 28000,
+      "prop": "Gemfan 1219 31mm tri-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 3.07,
+      "rpm": null,
+      "thrust_g": 19.5,
+      "efficiency_gw": 1.717
+     },
+     {
+      "kv": 28000,
+      "prop": "Gemfan 1219 31mm tri-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 4.03,
+      "rpm": null,
+      "thrust_g": 23,
+      "efficiency_gw": 1.542
+     },
+     {
+      "kv": 28000,
+      "prop": "Gemfan 1219 31mm tri-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 4.74,
+      "rpm": null,
+      "thrust_g": 24.6,
+      "efficiency_gw": 1.403
+     }
+    ],
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø9.5x14"
    },
    "_scraped_at": "2026-09-26",
    "sources": [
-    "https://www.racedayquads.com/products/happymodel-se0702-0702-28000kv-micro-motor-choose-rotation"
-   ]
+    "https://www.racedayquads.com/products/happymodel-se0702-0702-28000kv-micro-motor-choose-rotation",
+    "https://www.happymodel.cn/index.php/2021/08/20/happymodel-se0702-kv26000-brushless-motors-for-1s-fpv-brushless-whoop/"
+   ],
+   "note": "The rows are Happymodel's own bench table, published as an HTML table in the body of its product post on happymodel.cn - the first brand in this dataset whose bench data is markup rather than a photographed sheet, so every figure here is the source's own text. The template is a no-load block (2 V, its current, its speed and the KV that measurement implies) repeated beside a run of Voltage / Current / Thrust / Efficiency / Power rows and the propeller. It steps CURRENT, not throttle, and publishes no per-row RPM, so both those columns are empty here. No spec-block cross-check is possible on this brand: Happymodel's Specifications blocks state no maximum power and no maximum current. Every row reproduces its own printed power as Voltage x Current to within 0.01 W, and its printed efficiency as Thrust / Power. This is the third winding of the same SE0702 post that supplies /motors/happymodel-se-0702/ - one product in three windings which this catalogue carries as two pages, because two RaceDayQuads listings (23000 + 26000 KV) were merged into one page and the 28000 KV listing is its own. Its no-load block is 0.55 A and 55960 RPM at 2 V, i.e. a measured 27980 KV. Identity with Happymodel's own block is six figures our retail listing reprints to the digit: the 7 mm x 2 mm stator, 28000 KV, a Ø1 mm shaft, 9N12P, Ø9.5x14 mm and 1.5 g. It is also the only winding of the three benched on a tri-blade, and the weakest per watt: 1.403 g/W at its 4.74 A top row against the 26000 KV winding's 1.938 g/W at 4.38 A."
   },
   {
    "type": "motor",
