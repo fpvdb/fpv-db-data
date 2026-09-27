@@ -22183,8 +22183,10 @@
    "_scraped_at": "2026-09-27",
    "sources": [
     "https://www.racedayquads.com/products/newbeedrone-flow-2207-2050kv-brushless-race-motor",
-    "https://www.racedayquads.com/products/newbeedrone-flow-2207-race-motor-2050kv-4-pack"
-   ]
+    "https://www.racedayquads.com/products/newbeedrone-flow-2207-race-motor-2050kv-4-pack",
+    "https://newbeedrone.com/products/newbeedrone-flow-2207-race-motor-2050kv-4-pack"
+   ],
+   "note": "NewBeeDrone's own product page for the Flow 2207 Race is marketing prose with no specifications block and no bench table: the only figure in it is a weight of 33.4+/-1 g, a tolerance rather than a measurement, against the 33.3 g our listing carries. Its six product images are photographs. The brand's shop is also a retailer's, so its motor category is mostly other makers' stock; NewBeeDrone publishes no test report for any motor of its own."
   },
   {
    "type": "motor",
@@ -22204,8 +22206,10 @@
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/4-pack-of-newbeedrone-flow-2207-2050kv-brushless-race-motors"
-   ]
+    "https://www.racedayquads.com/products/4-pack-of-newbeedrone-flow-2207-2050kv-brushless-race-motors",
+    "https://newbeedrone.com/products/newbeedrone-flow-2207-race-motor-2050kv-4-pack"
+   ],
+   "note": "NewBeeDrone's own product page for the Flow 2207 Race is marketing prose with no specifications block and no bench table: the only figure in it is a weight of 33.4+/-1 g, a tolerance rather than a measurement, against the 33.3 g our listing carries. Its six product images are photographs. The brand's shop is also a retailer's, so its motor category is mostly other makers' stock; NewBeeDrone publishes no test report for any motor of its own."
   },
   {
    "type": "motor",
