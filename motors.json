@@ -9417,13 +9417,330 @@
     "max_cells": "3-4S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 23.99
+    "price_usd": 23.99,
+    "max_thrust_g": 852,
+    "thrust_conditions": "Diatone bench, one prop per winding: 2650 KV on a GF51466 at 16 V (4S, 852 g at 100%), 1650 KV on a GF51466 3B at 24 V (6S, 836 g) and 3300 KV on a GF D90 at 16 V (4S, 642 g); throttle stepped in tens. The 852 g peak is the 2650 KV winding, which our retail source does not sell",
+    "thrust_table": [
+     {
+      "kv": 1650,
+      "prop": "GF51466 3B",
+      "cells": "6S",
+      "throttle": 20,
+      "voltage_v": 24,
+      "current_a": 2.34,
+      "rpm": 11562,
+      "thrust_g": 200.0,
+      "efficiency_gw": 3.57
+     },
+     {
+      "kv": 1650,
+      "prop": "GF51466 3B",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 24,
+      "current_a": 3.16,
+      "rpm": 13216,
+      "thrust_g": 280.0,
+      "efficiency_gw": 3.71
+     },
+     {
+      "kv": 1650,
+      "prop": "GF51466 3B",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 24,
+      "current_a": 4.92,
+      "rpm": 15084,
+      "thrust_g": 360.0,
+      "efficiency_gw": 3.06
+     },
+     {
+      "kv": 1650,
+      "prop": "GF51466 3B",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24,
+      "current_a": 7.17,
+      "rpm": 16868,
+      "thrust_g": 440.0,
+      "efficiency_gw": 2.57
+     },
+     {
+      "kv": 1650,
+      "prop": "GF51466 3B",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 24,
+      "current_a": 8.16,
+      "rpm": 17907,
+      "thrust_g": 520.0,
+      "efficiency_gw": 2.67
+     },
+     {
+      "kv": 1650,
+      "prop": "GF51466 3B",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 24,
+      "current_a": 9.73,
+      "rpm": 19036,
+      "thrust_g": 600.0,
+      "efficiency_gw": 2.58
+     },
+     {
+      "kv": 1650,
+      "prop": "GF51466 3B",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 24,
+      "current_a": 11.81,
+      "rpm": 20244,
+      "thrust_g": 680.0,
+      "efficiency_gw": 2.41
+     },
+     {
+      "kv": 1650,
+      "prop": "GF51466 3B",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 24,
+      "current_a": 13.92,
+      "rpm": 21150,
+      "thrust_g": 760.0,
+      "efficiency_gw": 2.28
+     },
+     {
+      "kv": 1650,
+      "prop": "GF51466 3B",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24,
+      "current_a": 15.95,
+      "rpm": 21739,
+      "thrust_g": 836.0,
+      "efficiency_gw": 2.19
+     },
+     {
+      "kv": 2650,
+      "prop": "GF51466",
+      "cells": "4S",
+      "throttle": 20,
+      "voltage_v": 16,
+      "current_a": 2.79,
+      "rpm": 8576,
+      "thrust_g": 135.0,
+      "efficiency_gw": 3.04
+     },
+     {
+      "kv": 2650,
+      "prop": "GF51466",
+      "cells": "4S",
+      "throttle": 30,
+      "voltage_v": 16,
+      "current_a": 4.55,
+      "rpm": 11903,
+      "thrust_g": 225.0,
+      "efficiency_gw": 3.11
+     },
+     {
+      "kv": 2650,
+      "prop": "GF51466",
+      "cells": "4S",
+      "throttle": 40,
+      "voltage_v": 16,
+      "current_a": 6.78,
+      "rpm": 14365,
+      "thrust_g": 315.0,
+      "efficiency_gw": 2.92
+     },
+     {
+      "kv": 2650,
+      "prop": "GF51466",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16,
+      "current_a": 9.68,
+      "rpm": 16012,
+      "thrust_g": 405.0,
+      "efficiency_gw": 2.63
+     },
+     {
+      "kv": 2650,
+      "prop": "GF51466",
+      "cells": "4S",
+      "throttle": 60,
+      "voltage_v": 16,
+      "current_a": 12.94,
+      "rpm": 17549,
+      "thrust_g": 495.0,
+      "efficiency_gw": 2.41
+     },
+     {
+      "kv": 2650,
+      "prop": "GF51466",
+      "cells": "4S",
+      "throttle": 70,
+      "voltage_v": 16,
+      "current_a": 15.41,
+      "rpm": 18630,
+      "thrust_g": 585.0,
+      "efficiency_gw": 2.39
+     },
+     {
+      "kv": 2650,
+      "prop": "GF51466",
+      "cells": "4S",
+      "throttle": 80,
+      "voltage_v": 16,
+      "current_a": 17.67,
+      "rpm": 19596,
+      "thrust_g": 675.0,
+      "efficiency_gw": 2.4
+     },
+     {
+      "kv": 2650,
+      "prop": "GF51466",
+      "cells": "4S",
+      "throttle": 90,
+      "voltage_v": 16,
+      "current_a": 22.3,
+      "rpm": 20756,
+      "thrust_g": 765.0,
+      "efficiency_gw": 2.16
+     },
+     {
+      "kv": 2650,
+      "prop": "GF51466",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16,
+      "current_a": 27.64,
+      "rpm": 22222,
+      "thrust_g": 852.0,
+      "efficiency_gw": 1.94
+     },
+     {
+      "kv": 3300,
+      "prop": "GF D90",
+      "cells": "4S",
+      "throttle": 10,
+      "voltage_v": 16,
+      "current_a": 3.07,
+      "rpm": 12580,
+      "thrust_g": 120,
+      "efficiency_gw": 2.44
+     },
+     {
+      "kv": 3300,
+      "prop": "GF D90",
+      "cells": "4S",
+      "throttle": 20,
+      "voltage_v": 16,
+      "current_a": 4.44,
+      "rpm": 15777,
+      "thrust_g": 180,
+      "efficiency_gw": 2.53
+     },
+     {
+      "kv": 3300,
+      "prop": "GF D90",
+      "cells": "4S",
+      "throttle": 30,
+      "voltage_v": 16,
+      "current_a": 5.86,
+      "rpm": 18940,
+      "thrust_g": 240,
+      "efficiency_gw": 2.56
+     },
+     {
+      "kv": 3300,
+      "prop": "GF D90",
+      "cells": "4S",
+      "throttle": 40,
+      "voltage_v": 16,
+      "current_a": 8.45,
+      "rpm": 21121,
+      "thrust_g": 300,
+      "efficiency_gw": 2.22
+     },
+     {
+      "kv": 3300,
+      "prop": "GF D90",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16,
+      "current_a": 15.51,
+      "rpm": 24163,
+      "thrust_g": 360,
+      "efficiency_gw": 1.45
+     },
+     {
+      "kv": 3300,
+      "prop": "GF D90",
+      "cells": "4S",
+      "throttle": 60,
+      "voltage_v": 16,
+      "current_a": 17.4,
+      "rpm": 26049,
+      "thrust_g": 420,
+      "efficiency_gw": 1.51
+     },
+     {
+      "kv": 3300,
+      "prop": "GF D90",
+      "cells": "4S",
+      "throttle": 70,
+      "voltage_v": 16,
+      "current_a": 19.03,
+      "rpm": 27898,
+      "thrust_g": 480,
+      "efficiency_gw": 1.58
+     },
+     {
+      "kv": 3300,
+      "prop": "GF D90",
+      "cells": "4S",
+      "throttle": 80,
+      "voltage_v": 16,
+      "current_a": 20.53,
+      "rpm": 29726,
+      "thrust_g": 540,
+      "efficiency_gw": 1.64
+     },
+     {
+      "kv": 3300,
+      "prop": "GF D90",
+      "cells": "4S",
+      "throttle": 90,
+      "voltage_v": 16,
+      "current_a": 23.58,
+      "rpm": 31515,
+      "thrust_g": 600,
+      "efficiency_gw": 1.59
+     },
+     {
+      "kv": 3300,
+      "prop": "GF D90",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16,
+      "current_a": 29.78,
+      "rpm": 33333,
+      "thrust_g": 642,
+      "efficiency_gw": 1.36
+     }
+    ],
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø28.9x29.4",
+    "resistance_mohm": "271 (1650KV) / 117 (2650KV) / 80 (3300KV)"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
     "https://www.racedayquads.com/products/diatone-mamba-toka-2203-5-3300kv-racing-motor",
-    "https://www.racedayquads.com/products/diatone-mamba-toka-2203-5-4200kv-motor"
-   ]
+    "https://www.racedayquads.com/products/diatone-mamba-toka-2203-5-4200kv-motor",
+    "https://www.diatone.us/products/mamba-toka-2203-5-1650kv-2650kv-3300kv-racing-motor-green"
+   ],
+   "note": "The rows are Diatone's own 'Load Performance / TEST DATA' tables, one datasheet image per winding in the description of the MAMBA TOKA 2203.5 product page on diatone.us - the eleventh brand this dataset has read a manufacturer sheet from. The page sells five windings (1650, 2200, 2650, 3300, 4200 KV) and states a spec block for each, but publishes a test table for only three; the 2200 and 4200 KV windings have no rows here because Diatone benched neither. Each sheet is one prop at one voltage over a throttle sweep in tens, and the cross-check lands on every sheet: the block's Maximum Power is that table's own 100% row to the digit (380.80 W at 1650 KV, 441.24 W at 2650, 475.10 W at 3300), and so is its Maximum Current on two of the three (27.64 A and 29.78 A) - the 1650 KV block prints 15.59 A where its own 100% row reads 15.95 A, a digit transposition reproduced here as the sheet prints it. Two more source facts recorded rather than repaired: the 3300 KV run's current jumps 8.45 A at 40% to 15.51 A at 50% while thrust rises by its usual 60 g, so the efficiency column collapses 2.22 -> 1.45 g/W and then climbs again to 1.64 at 80%; and the 1650 KV run's efficiency rises 2.57 -> 2.67 g/W between 50% and 60%. Mounting is left empty on purpose: both dimension drawings call out '4-M3 EQS' on a 'O16' bolt circle (four holes equally spaced on a 16 mm circle, i.e. an 11.3 mm square), while the same page's text block states 'Installation hole position: 16x16mm, M3' - the two describe different patterns, so neither is published. The winding resistances are the ones the three datasheets print; the text block states 232 and 120 mOhm for the 1650 and 2650 KV against the sheets' 271 and 117, agrees at 80 for the 3300 KV, and adds 160 and 65 mOhm for the two unbenched windings. Both sources print the unit wrong in one place: the datasheets label these figures 'Ohm' where the text block labels the same quantity 'mOhm'. kv_options is untouched at the 3300 and 4200 KV our retail source sells, which is what every other page here does with a manufacturer-only winding."
   },
   {
    "type": "motor",
