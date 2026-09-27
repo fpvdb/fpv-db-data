@@ -15828,18 +15828,313 @@
    "specs": {
     "stator": "0802",
     "kv_options": [
-     17000
+     17000,
+     22000
     ],
     "weight_g": 2.0,
     "max_cells": "1S",
     "shaft": "1mm",
-    "recommended_props": "31-40mm whoop props (derived)",
-    "price_usd": 14.49
+    "recommended_props": "1.4in and 1.6in whoop props (GEPRC: 1.6in freestyle for the 17000 KV, 1.4in freestyle for the 22000 KV; bench-tested on a Gemfan 1635 4-blade)",
+    "price_usd": 14.49,
+    "max_thrust_g": 44.02,
+    "thrust_conditions": "GEPRC bench, 17000 KV and 22000 KV at 1S (4.2 V) on a Gemfan 1635 4-blade; current stepped 0.5-5.0 A and 0.5-7.8 A, throttle not published",
+    "thrust_table": [
+     {
+      "kv": 17000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 0.5,
+      "rpm": null,
+      "thrust_g": 4.51,
+      "efficiency_gw": 2.15
+     },
+     {
+      "kv": 17000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 1.0,
+      "rpm": null,
+      "thrust_g": 8.66,
+      "efficiency_gw": 2.06
+     },
+     {
+      "kv": 17000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 1.5,
+      "rpm": null,
+      "thrust_g": 13.25,
+      "efficiency_gw": 2.1
+     },
+     {
+      "kv": 17000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 2.0,
+      "rpm": null,
+      "thrust_g": 17.36,
+      "efficiency_gw": 2.07
+     },
+     {
+      "kv": 17000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 2.5,
+      "rpm": null,
+      "thrust_g": 21.92,
+      "efficiency_gw": 2.09
+     },
+     {
+      "kv": 17000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 3.0,
+      "rpm": null,
+      "thrust_g": 26.57,
+      "efficiency_gw": 2.11
+     },
+     {
+      "kv": 17000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 3.5,
+      "rpm": null,
+      "thrust_g": 30.58,
+      "efficiency_gw": 2.08
+     },
+     {
+      "kv": 17000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 4.0,
+      "rpm": null,
+      "thrust_g": 33.65,
+      "efficiency_gw": 2.0
+     },
+     {
+      "kv": 17000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 4.5,
+      "rpm": null,
+      "thrust_g": 36.59,
+      "efficiency_gw": 1.94
+     },
+     {
+      "kv": 17000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 5.0,
+      "rpm": null,
+      "thrust_g": 39.21,
+      "efficiency_gw": 1.87
+     },
+     {
+      "kv": 22000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 0.5,
+      "rpm": null,
+      "thrust_g": 3.24,
+      "efficiency_gw": 1.54
+     },
+     {
+      "kv": 22000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 1.0,
+      "rpm": null,
+      "thrust_g": 6.57,
+      "efficiency_gw": 1.56
+     },
+     {
+      "kv": 22000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 1.5,
+      "rpm": null,
+      "thrust_g": 8.922,
+      "efficiency_gw": 1.42
+     },
+     {
+      "kv": 22000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 2.0,
+      "rpm": null,
+      "thrust_g": 11.13,
+      "efficiency_gw": 1.33
+     },
+     {
+      "kv": 22000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 2.5,
+      "rpm": null,
+      "thrust_g": 13.03,
+      "efficiency_gw": 1.24
+     },
+     {
+      "kv": 22000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 3.0,
+      "rpm": null,
+      "thrust_g": 15.87,
+      "efficiency_gw": 1.26
+     },
+     {
+      "kv": 22000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 3.5,
+      "rpm": null,
+      "thrust_g": 18.89,
+      "efficiency_gw": 1.29
+     },
+     {
+      "kv": 22000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 4.0,
+      "rpm": null,
+      "thrust_g": 23.36,
+      "efficiency_gw": 1.39
+     },
+     {
+      "kv": 22000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 4.5,
+      "rpm": null,
+      "thrust_g": 26.49,
+      "efficiency_gw": 1.4
+     },
+     {
+      "kv": 22000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 5.0,
+      "rpm": null,
+      "thrust_g": 29.8,
+      "efficiency_gw": 1.42
+     },
+     {
+      "kv": 22000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 5.5,
+      "rpm": null,
+      "thrust_g": 32.59,
+      "efficiency_gw": 1.41
+     },
+     {
+      "kv": 22000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 6.0,
+      "rpm": null,
+      "thrust_g": 36.13,
+      "efficiency_gw": 1.43
+     },
+     {
+      "kv": 22000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 6.5,
+      "rpm": null,
+      "thrust_g": 37.24,
+      "efficiency_gw": 1.36
+     },
+     {
+      "kv": 22000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 7.0,
+      "rpm": null,
+      "thrust_g": 40.02,
+      "efficiency_gw": 1.36
+     },
+     {
+      "kv": 22000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 7.5,
+      "rpm": null,
+      "thrust_g": 41.23,
+      "efficiency_gw": 1.31
+     },
+     {
+      "kv": 22000,
+      "prop": "GF1635 4B",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 7.8,
+      "rpm": null,
+      "thrust_g": 44.02,
+      "efficiency_gw": 1.34
+     }
+    ],
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø10.7x14.4"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/geprc-speedx2-0802-micro-motor-choose-version"
-   ]
+    "https://www.racedayquads.com/products/geprc-speedx2-0802-micro-motor-choose-version",
+    "https://geprc.com/product/geprc-speedx2-0802-brushless-motor-17000kv-22000kv/"
+   ],
+   "note": "The rows are GEPRC's own 'Load Performance' table, published as an image in the description gallery of its product page on geprc.com. This whoop line uses neither of the templates GEPRC's bigger motors use: it steps CURRENT rather than throttle (0.5 A at a time), holds the pack voltage fixed, prints an Input (W) column that is exactly Voltage x Current, and leaves its own Speed (RPM) column EMPTY on every row - so throttle and rpm are empty here. Printed efficiency reproduces Thrust / Input on every row. The cross-check is GEPRC's own per-winding summary panel in the same gallery, which gives each winding one power and one pull figure: they are each table's last row to the digit. GEPRC sells this motor in two windings and publishes a table for each, so both are here: 17000 KV (10 rows, 39.21 g at 5.00 A) and 22000 KV (16 rows, 44.02 g at 7.80 A), which is why **kv_options gained the 22000 KV** - our RaceDayQuads listing sells only the 17000 KV version, and the KV variants of one motor belong on one page. Identity with GEPRC's own Specifications block is the 8.4x2.0 mm stator, 9N12P, a Ø1.0 mm shaft, a Ø10.7x14.4 mm body, 2.0 g and a 1S 380-530 mAh pack, which the 4.2 V bench confirms. The 22000 KV curve is the source's own shape: its efficiency falls to 1.24 g/W at 2.5 A, recovers to 1.43 at 6.0 A and falls again - nothing here is smoothed."
   },
   {
    "type": "motor",
@@ -15852,15 +16147,133 @@
      11000
     ],
     "weight_g": 2.4,
-    "max_cells": "1S",
+    "max_cells": "2S",
     "shaft": "1mm",
-    "recommended_props": "31-40mm whoop props (derived)",
-    "price_usd": 11.99
+    "recommended_props": "1.6in whoop props (GEPRC: 1.6inch racing; bench-tested on a Gemfan 1635 3-blade)",
+    "price_usd": 11.99,
+    "max_thrust_g": 76.56,
+    "thrust_conditions": "GEPRC bench, 11000 KV at 2S (8.4 V) on a Gemfan 1635 3-blade; current stepped 0.5-4.9 A, throttle not published",
+    "thrust_table": [
+     {
+      "kv": 11000,
+      "prop": "GF1635 3B",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 8.4,
+      "current_a": 0.5,
+      "rpm": null,
+      "thrust_g": 8.19,
+      "efficiency_gw": 1.95
+     },
+     {
+      "kv": 11000,
+      "prop": "GF1635 3B",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 8.4,
+      "current_a": 1.0,
+      "rpm": null,
+      "thrust_g": 18.37,
+      "efficiency_gw": 2.19
+     },
+     {
+      "kv": 11000,
+      "prop": "GF1635 3B",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 8.4,
+      "current_a": 1.5,
+      "rpm": null,
+      "thrust_g": 27.49,
+      "efficiency_gw": 2.18
+     },
+     {
+      "kv": 11000,
+      "prop": "GF1635 3B",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 8.4,
+      "current_a": 2.0,
+      "rpm": null,
+      "thrust_g": 37.35,
+      "efficiency_gw": 2.22
+     },
+     {
+      "kv": 11000,
+      "prop": "GF1635 3B",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 8.4,
+      "current_a": 2.5,
+      "rpm": null,
+      "thrust_g": 46.5,
+      "efficiency_gw": 2.21
+     },
+     {
+      "kv": 11000,
+      "prop": "GF1635 3B",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 8.4,
+      "current_a": 3.0,
+      "rpm": null,
+      "thrust_g": 54.68,
+      "efficiency_gw": 2.17
+     },
+     {
+      "kv": 11000,
+      "prop": "GF1635 3B",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 8.4,
+      "current_a": 3.5,
+      "rpm": null,
+      "thrust_g": 61.6,
+      "efficiency_gw": 2.1
+     },
+     {
+      "kv": 11000,
+      "prop": "GF1635 3B",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 8.4,
+      "current_a": 4.0,
+      "rpm": null,
+      "thrust_g": 67.35,
+      "efficiency_gw": 2.0
+     },
+     {
+      "kv": 11000,
+      "prop": "GF1635 3B",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 8.4,
+      "current_a": 4.5,
+      "rpm": null,
+      "thrust_g": 73.5,
+      "efficiency_gw": 1.94
+     },
+     {
+      "kv": 11000,
+      "prop": "GF1635 3B",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 8.4,
+      "current_a": 4.9,
+      "rpm": null,
+      "thrust_g": 76.56,
+      "efficiency_gw": 1.86
+     }
+    ],
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø10.7x15"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/geprc-speedx2-0803-micro-motor-11000kv"
-   ]
+    "https://www.racedayquads.com/products/geprc-speedx2-0803-micro-motor-11000kv",
+    "https://geprc.com/product/geprc-speedx2-0803-brushless-motor-11000kv/"
+   ],
+   "note": "The rows are GEPRC's own 'Load Performance' table, published as an image in the description gallery of its product page on geprc.com. This whoop line uses neither of the templates GEPRC's bigger motors use: it steps CURRENT rather than throttle (0.5 A at a time), holds the pack voltage fixed, prints an Input (W) column that is exactly Voltage x Current, and leaves its own Speed (RPM) column EMPTY on every row - so throttle and rpm are empty here. Printed efficiency reproduces Thrust / Input on every row. The cross-check is GEPRC's own per-winding summary panel in the same gallery, which gives each winding one power and one pull figure: they are each table's last row to the digit. Identity with GEPRC's own Specifications block is the 8.4x2.8 mm stator, 9N12P, a Ø1.0 mm shaft, a Ø10.7x15 mm body and 2.4 g. **max_cells was corrected 1S -> 2S.** Our RaceDayQuads listing prints \"Input Voltage: 1S\"; GEPRC's own block says \"Recommended battery: 2S 380mAh-530mAh LiPo\" and benches this motor at 8.4 V, which is a 2S pack - the retailer's figure is the one that cannot be reconciled with the manufacturer's own test. Its 0802 sibling, published on the same page, really is 1S and really is benched at 4.2 V, so this is not a blanket brand correction."
   },
   {
    "type": "motor",
