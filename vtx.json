@@ -13,7 +13,7 @@
     "system": "analog",
     "max_power_mw": 600,
     "mount_mm": "20x20mm",
-    "antenna_connector": "MMCX",
+    "antenna_connector": "MMCX / U.FL",
     "price_usd": 26.49
    },
    "_scraped_at": "2026-09-28",
@@ -70,7 +70,6 @@
     "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 1000,
-    "antenna_connector": "MMCX",
     "price_usd": 32.49
    },
    "_scraped_at": "2026-09-28",
@@ -190,14 +189,14 @@
     "channels": 40,
     "input_voltage": "5-25V",
     "mount_mm": "25.5x25.5mm",
-    "antenna_connector": "IPEX",
+    "antenna_connector": "U.FL",
     "weight_g": 3.1,
     "price_usd": 20.9
    },
    "sources": [
     "https://www.axisflying.com/products/s-murfs-mini-vtx"
    ],
-   "note": "Read 2026-09-24 off Axisflying's own site, the fourteenth VTX manufacturer catalogue read beside the US retail scrape and the third brand this catalogue carried no transmitter of at all. www.axisflying.com is a UEEShop store with no products.json; its sitemap is named after the domain and is linked only from robots.txt. Its whole transmitter line is /collections/vtx. The brand's own Download Center (/download/vtx) serves six VTX manuals through a public POST (do_action=action.getDownloadCheck), all one-page image-only PDFs rendered here at 6x with Quartz/CoreGraphics. This product page has no description text at all - every figure came off the brand's own description images, read at full resolution. Its Product Specifications panel states Model Smurfs Mini, Frequency Band 5.8G Band / 5 Groups / 40 Channels, Power Levels 25/50/100mW, Antenna Connector IPEX, Input Voltage 5-25V, Configuration Mode Button / OSD, Product Dimensions 30X30mm, Product Weight 3.1g, Mounting Hole Spacing 25.5X25.5mm, VTX Protocol IRC Tramp, Pit Mode Not Supported. Two further panels corroborate it: a photograph of the board on a 0.1g pocket scale reading 3.1, and a dimension drawing annotating 25.5mm and 30mm. The bare PCB is silkscreened 'VTX_100mW' and carries the AXIS FLYING logo. Note that this is the one board in the line whose mounting pattern is not 20x20mm and whose antenna port is not MMCX or SMA."
+   "note": "Read 2026-09-24 off Axisflying's own site, the fourteenth VTX manufacturer catalogue read beside the US retail scrape and the third brand this catalogue carried no transmitter of at all. www.axisflying.com is a UEEShop store with no products.json; its sitemap is named after the domain and is linked only from robots.txt. Its whole transmitter line is /collections/vtx. The brand's own Download Center (/download/vtx) serves six VTX manuals through a public POST (do_action=action.getDownloadCheck), all one-page image-only PDFs rendered here at 6x with Quartz/CoreGraphics. This product page has no description text at all - every figure came off the brand's own description images, read at full resolution. Its Product Specifications panel states Model Smurfs Mini, Frequency Band 5.8G Band / 5 Groups / 40 Channels, Power Levels 25/50/100mW, Antenna Connector IPEX, Input Voltage 5-25V, Configuration Mode Button / OSD, Product Dimensions 30X30mm, Product Weight 3.1g, Mounting Hole Spacing 25.5X25.5mm, VTX Protocol IRC Tramp, Pit Mode Not Supported. Two further panels corroborate it: a photograph of the board on a 0.1g pocket scale reading 3.1, and a dimension drawing annotating 25.5mm and 30mm. The bare PCB is silkscreened 'VTX_100mW' and carries the AXIS FLYING logo. Note that this is the one board in the line whose mounting pattern is not 20x20mm and whose antenna port is not MMCX or SMA. Axisflying's own Product Specifications image prints 'Antenna Connector: IPEX' with no generation. IPEX-1 is the same connector as U.FL and is what the board carries - one micro-coax jack beside the 5.8G copper-tube whip the brand's Package Contents image shows terminated in it - so the column holds U.FL and this note holds the brand's unqualified word."
   },
   {
    "type": "vtx",
@@ -524,7 +523,7 @@
     "frequency_range": "5.730-5.815 GHz",
     "system": "Walksnail",
     "mount_mm": "25x25mm",
-    "antenna_connector": "IPEX",
+    "antenna_connector": "U.FL",
     "weight_g": 6.0,
     "price_usd": 39.99,
     "max_power_mw": 100,
@@ -1294,13 +1293,13 @@
     "input_voltage": "7-36V (2-8S)",
     "mount_mm": "20x20mm",
     "channels": 96,
-    "antenna_connector": "SMA female",
+    "antenna_connector": "SMA",
     "weight_g": 25.85
    },
    "sources": [
     "https://ft.systems/en/video-transmitter-vtx-ft-5-8/"
    ],
-   "note": "Ukrainian-made transmitter, 96 channels across 12 bands covering 4867-5945 MHz. 53x28.85x16 mm with an aluminium heatsink and a cooling fan; controlled over IRC Tramp from the flight controller. FT Systems quotes measured RF output of 2200-5080 mW across the range rather than a single figure, because a wideband amplifier does not deliver the same power at every frequency - the 4000 mW here is the nominal setting."
+   "note": "Ukrainian-made transmitter, 96 channels across 12 bands covering 4867-5945 MHz. 53x28.85x16 mm with an aluminium heatsink and a cooling fan; controlled over IRC Tramp from the flight controller. FT Systems quotes measured RF output of 2200-5080 mW across the range rather than a single figure, because a wideband amplifier does not deliver the same power at every frequency - the 4000 mW here is the nominal setting. FT Systems prints the connector as 'SMA female'; the column holds one spelling per connector, and the gender of the socket is not a different connector - every VTX SMA jack in this catalogue is the female one."
   },
   {
    "type": "vtx",
@@ -2457,13 +2456,13 @@
     "power_levels_mw": "0 (pit) / 25 / 50 / 100 / 200 / 400",
     "frequency_range": "5.8 GHz",
     "input_voltage": "6-26V",
-    "antenna_connector": "IPEX1 (U.FL)",
+    "antenna_connector": "U.FL",
     "price_usd": 50.99
    },
    "sources": [
     "https://darwinfpv.com/products/darwinfpv-vt5804-5-8g-25-50-100-200-400mw-vtx"
    ],
-   "note": "Read 2026-09-24 off DarwinFPV's shop, which sells this board as the 'DarwinFPV VT5804 5.8G 25/50/100/200/400mW VTX' - but the board is not DarwinFPV's. Its back is silkscreened with PandaRC's logo and 'VT5804_AIR V1.0' (image 4 of 4, read at full resolution), so the brand column holds the maker and the note holds the seller: the fourteenth burst's lesson, that a vendor field is a distribution fact rather than a spec, arriving here from a manufacturer's own store rather than from a retailer. power_levels_mw is the listing's whole sentence, 'it support 6 gears of power: 0-25-50-100-200-400mW', and max_power_mw is its top step. input_voltage and antenna_connector are off the annotated wiring diagram the listing publishes as its fourth image: 'DC-IN(6-26V)' against the Vin pad, 'IPXE1 ANT' (the brand's spelling of IPEX1) against the u.FL, and a pad rail of Video / GND / +5V / RX / GND / Vin wired out as VTX, GND, 5V-OUT, SA, GND, DC-IN. The chip is an RTC6705 and the board is a triangle that fits a whoop or toothpick frame's rear corner. weight_g is empty: the listing states 'It's <=3g', which is a bound and not a measurement, and no scale photograph accompanies this part as it does the rest of this shop's transmitters. mount_mm is unstated. This entry's page is not a second citation for anything: this catalogue carried no PandaRC part before it."
+   "note": "Read 2026-09-24 off DarwinFPV's shop, which sells this board as the 'DarwinFPV VT5804 5.8G 25/50/100/200/400mW VTX' - but the board is not DarwinFPV's. Its back is silkscreened with PandaRC's logo and 'VT5804_AIR V1.0' (image 4 of 4, read at full resolution), so the brand column holds the maker and the note holds the seller: the fourteenth burst's lesson, that a vendor field is a distribution fact rather than a spec, arriving here from a manufacturer's own store rather than from a retailer. power_levels_mw is the listing's whole sentence, 'it support 6 gears of power: 0-25-50-100-200-400mW', and max_power_mw is its top step. input_voltage and antenna_connector are off the annotated wiring diagram the listing publishes as its fourth image: 'DC-IN(6-26V)' against the Vin pad, 'IPXE1 ANT' (the brand's spelling of IPEX1) against the u.FL, and a pad rail of Video / GND / +5V / RX / GND / Vin wired out as VTX, GND, 5V-OUT, SA, GND, DC-IN. The chip is an RTC6705 and the board is a triangle that fits a whoop or toothpick frame's rear corner. weight_g is empty: the listing states 'It's <=3g', which is a bound and not a measurement, and no scale photograph accompanies this part as it does the rest of this shop's transmitters. mount_mm is unstated. This entry's page is not a second citation for anything: this catalogue carried no PandaRC part before it. The wiring diagram labels the jack 'IPEX1 (U.FL)'; IPEX-1 is Hirose's name for the U.FL connector, so the column holds U.FL and this note holds the maker's own spelling."
   },
   {
    "type": "vtx",
@@ -3093,7 +3092,7 @@
     "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 800,
-    "antenna_connector": "SMA",
+    "antenna_connector": "U.FL",
     "weight_g": 7.0,
     "price_usd": 71.99
    },
