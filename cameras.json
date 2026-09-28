@@ -192,6 +192,7 @@
    "specs": {
     "system": "Walksnail",
     "size_class": "micro",
+    "resolution": "1080P/60fps; 720P/100fps; 720P/60fps;1080P/120fps compatibility; 1080P/100fps compatibility",
     "fov_deg": 160,
     "sensor": "1/3.2\" 4Mp 4:3",
     "input_voltage": "6-25.2V",
@@ -696,6 +697,7 @@
    "specs": {
     "system": "HDZero",
     "size_class": "nano",
+    "resolution": "720@60fps 4:3",
     "fov_deg": 150,
     "sensor": "1/3\"",
     "input_voltage": "3.3-5V",
@@ -716,6 +718,7 @@
    "specs": {
     "system": "HDZero",
     "size_class": "nano",
+    "resolution": "720@60fps",
     "fov_deg": 155,
     "sensor": "1/2\"",
     "input_voltage": "3.3-5V",
@@ -1008,11 +1011,11 @@
    "specs": {
     "system": "analog",
     "size_class": "nano",
+    "resolution": "4K@30fps/2.7K@60fps/2.7K@50fps/1080P@60fps",
     "fov_deg": 140,
     "input_voltage": "5-20V",
     "weight_g": 10.2,
-    "price_usd": 99.99,
-    "resolution": "4K@30fps/2.7K@60fps/2.7K@50fps/1080P@60fps"
+    "price_usd": 99.99
    },
    "_scraped_at": "2026-09-28",
    "sources": [
