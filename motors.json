@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27",
+ "generated": "2026-09-28",
  "count": 206,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
@@ -21914,12 +21914,18 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "6-7in props (derived)",
-    "price_usd": 28.99
+    "price_usd": 28.99,
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø31.7x19.6",
+    "mount_mm": "16x16mm (M3)",
+    "resistance_mohm": "74.88 (1500KV)"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/iflight-bob57-2506-motor-1500kv"
-   ]
+    "https://www.racedayquads.com/products/iflight-bob57-2506-motor-1500kv",
+    "https://shop.iflight.com/BOB57-2506-1500KV-6S-FPV-Motor-Pro1786"
+   ],
+   "note": "iFlight's own block for the BOB57 2506 1500KV confirms the 38.2 g this page carried and adds 12N14P, 16x16 M3, 74.88 mOhm, a 5 mm shaft protruding 15 mm, 25.2 V and a 33.26 A / 817.5 W peak. Its Dimension line reads 31.7x19.6 mm where the XING2 2506's block - same 1500KV resistance, same peak current, same max watts, so electrically the same winding - reads 31.7x34.6 mm; the 15 mm difference is that motor's stated shaft protrusion, so the two pages appear to print the dimension with and without the shaft. Both are published as printed"
   },
   {
    "type": "motor",
@@ -21935,12 +21941,18 @@
     "max_cells": "8S",
     "shaft": "5mm",
     "recommended_props": "8in+ props (derived)",
-    "price_usd": 55.49
+    "price_usd": 55.49,
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø38.72x39.6",
+    "mount_mm": "19x19mm (M3)",
+    "resistance_mohm": "78 (900KV)"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/iflight-helion-10-3110-motor-900kv"
-   ]
+    "https://www.racedayquads.com/products/iflight-helion-10-3110-motor-900kv",
+    "https://shop.iflight.com/Helion10-3110-Motor-Pro2136"
+   ],
+   "note": "iFlight's own block for the Helion 10 3110 confirms the 900KV and the 77 g this page carried and adds 12N14P, 19x19 M3, 78 mOhm, Ø38.72x39.6 mm, a 5 mm shaft protruding 15 mm, 260 mm 18AWG leads, 33.6 V (8S) and a 65.54 A / 2143.8 W peak. No bench table"
   },
   {
    "type": "motor",
@@ -21963,7 +21975,8 @@
    "sources": [
     "https://www.racedayquads.com/products/iflight-r5-2207-2050kv-motor",
     "https://www.racedayquads.com/products/iflight-r5-2207-motor-1590kv-2050kv"
-   ]
+   ],
+   "note": "iFlight's own shop sells no R5 2207 motor: the Mach R5 pages in its sitemap are frames, frame kits, TPU and LED parts, and the replacement-parts page is plate thicknesses. Our two retail listings (1590KV and 2050KV) are the only source for this motor, and the 2050KV winding matches the one iFlight states on the XING2 2207 Black page. No manufacturer page, and no bench table - iFlight publishes none for any motor (checked 2026-09-28)"
   },
   {
    "type": "motor",
@@ -21979,13 +21992,19 @@
     "max_cells": "3-4S",
     "shaft": "1.5mm",
     "recommended_props": "2-2.5in props (derived)",
-    "price_usd": 19.49
+    "price_usd": 19.49,
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø17.58x16",
+    "mount_mm": "9x9mm (M2)",
+    "resistance_mohm": "386 (5000KV)"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
     "https://www.racedayquads.com/products/iflight-xing-1303-5000kv-micro-motor",
-    "https://www.racedayquads.com/products/iflight-xing-1303-micro-motor-5000kv"
-   ]
+    "https://www.racedayquads.com/products/iflight-xing-1303-micro-motor-5000kv",
+    "https://shop.iflight.com/xing-1303-5000kv-fpv-micro-motor-pro1292"
+   ],
+   "note": "iFlight's own block for the XING 1303 confirms 5000KV, 6.5 g, 3-4S and the 1.5 mm shaft this page carried, and adds Ø17.58x16 mm, 9x9 M2, 386 mOhm and a 6.13 A / 98.1 W peak. Its Configuration line says 12N14P, which is unusual for a 1303-class stator (nine of our ten other motors this size are 9N12P); it is published as printed. No bench table"
   },
   {
    "type": "motor",
@@ -21997,15 +22016,22 @@
     "kv_options": [
      2300
     ],
-    "weight_g": 25.5,
+    "weight_g": 23.7,
     "max_cells": "4S",
     "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 23.99
+    "price_usd": 23.99,
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø28.6x29.5",
+    "mount_mm": "12x12mm (M2)",
+    "shaft": "5mm",
+    "resistance_mohm": "72.41 (2300KV)"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
-    "https://www.racedayquads.com/products/iflight-xing-2205-2300kv-micro-motor"
-   ]
+    "https://www.racedayquads.com/products/iflight-xing-2205-2300kv-micro-motor",
+    "https://shop.iflight.com/xing-2205-fpv-nextgen-motor-black-pro1521"
+   ],
+   "note": "iFlight's own block for the XING 2205 lists three windings - 2300KV, 3200KV and 2450KV - and states each figure in that order: 23.7 / 24.6 / 25.3 g, 72.41 / 50.63 / 77.4 mOhm, a 17.91 A / 451.33 W, 33.06 A / 548.1 W and 38.43 A / 910 W peak, and a 4 mm shaft on the 3200KV against 5 mm on the other two. Our retail source sells only the 2300KV, so this page carries that winding's figures: the weight moved from the retailer's 25.5 g - which matches none of the three - to the manufacturer's 23.7 g, and the dimension is the one its own block labels (2300KV), Ø28.6x29.5 mm, against Ø28.6x29.55 mm for the other two. 12x12 M2 and 12N14P are stated once for the whole page. No bench table"
   },
   {
    "type": "motor",
@@ -22026,7 +22052,8 @@
    "_scraped_at": "2026-09-27",
    "sources": [
     "https://www.racedayquads.com/products/iflight-xing-2306-2450kv-motor"
-   ]
+   ],
+   "note": "iFlight no longer lists the original XING 2306 (the 2450KV motor this page carries): it is in neither the shop.iflight.com sitemap nor the XING category, which sells the XING2 2306 and the XING-E Pro 2306 instead. So there is no manufacturer page left to read this one against, and no bench table anywhere - iFlight publishes none for any motor (checked 2026-09-28)"
   },
   {
    "type": "motor",
@@ -22043,13 +22070,19 @@
     "recommended_props": "7-8in props (derived)",
     "price_usd": 40.99,
     "weight_g": 49.5,
-    "max_cells": "2-6S"
+    "max_cells": "2-6S",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø35.06x36.8",
+    "mount_mm": "19x19mm (M3)",
+    "resistance_mohm": "72.29 (1300KV) / 48.5 (1800KV)"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
     "https://pyrodrone.com/products/iflight-xing-x2806-5-fpv-nextgen-motor-1800kv",
-    "https://www.racedayquads.com/products/iflight-xing-2806-5-race-motor-1300kv-1800kv"
-   ]
+    "https://www.racedayquads.com/products/iflight-xing-2806-5-race-motor-1300kv-1800kv",
+    "https://shop.iflight.com/xing-x2806-5-fpv-nextgen-motor-pro1001"
+   ],
+   "note": "iFlight's own block for the XING 2806.5 confirms both windings (1300KV/1800KV) and the 5 mm shaft this page carried, and adds Ø35.06x36.8 mm, 19x19 M3, 12N14P, 72.29/48.5 mOhm, 24 V, 265 mm 18AWG leads and peaks of 48.33 A / 1132.9 W and 72.3 A / 1681.0 W. It states the weight per winding - 54.3 g (1300KV) and 53.3 g (1800KV) - where this page carries one figure, the retailer's 49.5 g, which matches neither; the field is left as it was and the manufacturer's two figures recorded here, because a page that carries both windings has no single weight to move it to. No bench table"
   },
   {
    "type": "motor",
@@ -22065,16 +22098,22 @@
     ],
     "weight_g": 33.8,
     "max_cells": "4-6S",
-    "shaft": "4mm",
+    "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 20.49
+    "price_usd": 20.49,
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø28.5x33.1",
+    "mount_mm": "16x16mm (M3)",
+    "resistance_mohm": "81.5 (1800KV) / 46.8 (2450KV) / 41 (2750KV)"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
     "https://www.racedayquads.com/products/iflight-xing-e-pro-2207-1800kv-motor",
     "https://www.racedayquads.com/products/iflight-xing-e-pro-2207-2450kv-motor",
-    "https://www.racedayquads.com/products/iflight-xing-e-pro-2207-2750kv-motor"
-   ]
+    "https://www.racedayquads.com/products/iflight-xing-e-pro-2207-2750kv-motor",
+    "https://shop.iflight.com/xing-e-pro-2207-2-6s-fpv-nextgen-motor-pro874"
+   ],
+   "note": "iFlight's own block for the XING-E Pro 2207 confirms all three windings (1800/2450/2750KV) and the 33.8 g this page carried, and corrects the shaft: the page published 4 mm off the retail listing where iFlight states 5 mm, protruding 13.5 mm. It also adds Ø28.5x33.1 mm, 16x16 M3, 12N14P, 81.5/46.8/41 mOhm and peaks of 35.22 A / 845.3 W, 42.63 A / 682.1 W and 50.03 A / 800.5 W. No bench table"
   },
   {
    "type": "motor",
@@ -22091,13 +22130,19 @@
     "max_cells": "2-6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 19.49
+    "price_usd": 19.49,
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø29.5x32.2",
+    "mount_mm": "16x16mm (M3)",
+    "resistance_mohm": "85.63 (1750KV) / 55.6 (2450KV)"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
     "https://www.racedayquads.com/products/iflight-xing-e-pro-2306-1700kv-motor",
-    "https://www.racedayquads.com/products/iflight-xing-e-pro-2306-2450kv-motor"
-   ]
+    "https://www.racedayquads.com/products/iflight-xing-e-pro-2306-2450kv-motor",
+    "https://shop.iflight.com/XING-E-Pro-2306-4S-6S-FPV-Motor-pro1565"
+   ],
+   "note": "iFlight's own block for the XING-E Pro 2306 states its two windings as 1750KV and 2450KV where our retail source sells the same pair as 1700KV and 2450KV; the page's kv_options are left as the retailer states them and the difference recorded here, because whether a manufacturer's winding list may overwrite a retailer's is an open question for this catalogue. The block confirms 33.8 g (1750KV; 33.6 g on the 2450KV) and the 5 mm shaft, and adds Ø29.5x32.2 mm, 16x16 M3, 12N14P, 85.63/55.6 mOhm, 25.2 V and 16.8 V, and peaks of 36.66 A / 920.2 W and 43.38 A / 712.7 W. No bench table"
   },
   {
    "type": "motor",
@@ -22111,18 +22156,24 @@
      3800,
      4600
     ],
-    "weight_g": 8.5,
-    "max_cells": "2-4S",
+    "weight_g": 9.1,
+    "max_cells": "3-4S",
     "shaft": "1.5mm",
     "recommended_props": "3-4in props (derived)",
-    "price_usd": 21.99
+    "price_usd": 21.99,
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø19.9x18.4",
+    "mount_mm": "9x9mm (M2)",
+    "resistance_mohm": "309 (3000KV) / 220 (3800KV) / 159 (4600KV)"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
     "https://www.racedayquads.com/products/iflight-xing2-1404-3000kv-micro-motor",
     "https://www.racedayquads.com/products/iflight-xing2-1404-3800kv-micro-motor",
-    "https://www.racedayquads.com/products/iflight-xing2-1404-4600kv-micro-motor"
-   ]
+    "https://www.racedayquads.com/products/iflight-xing2-1404-4600kv-micro-motor",
+    "https://shop.iflight.com/xing2-1404-toothpick-ultralight-build-unibell-pro1482"
+   ],
+   "note": "iFlight's own block for the XING2 1404 confirms all three windings (3000/3800/4600KV) and gives 9.1 g with wire against the 8.5 g the retail listing parsed, and 3S-4S against the retailer's 2-4S; both moved to the manufacturer's figure. It also adds Ø19.9x18.4 mm, 9x9 M2, 9N12P, 309/220/159 mOhm, 120 mm 26AWG leads and peaks of 13.8 A / 220.8 W, 15.84 A / 253.4 W and 17.99 A / 287.8 W. The block states no shaft diameter, so the 1.5 mm this page carries is still the retailer's. No bench table"
   },
   {
    "type": "motor",
@@ -22139,13 +22190,18 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 26.49
+    "price_usd": 26.49,
+    "configuration": "12N14P",
+    "mount_mm": "16x16mm (M3)"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
     "https://www.racedayquads.com/products/iflight-xing2-2207-1750kv-motor",
-    "https://www.racedayquads.com/products/iflight-xing2-2207-1855kv-motor"
-   ]
+    "https://www.racedayquads.com/products/iflight-xing2-2207-1855kv-motor",
+    "https://shop.iflight.com/xing2-2207-4s-6s-fpv-motor-unibell-pro1464",
+    "https://shop.iflight.com/XING2-2207-4S-6S-FPV-Motor-Unibell-Black-for-Nazgul-Evoque-F5-pro1610"
+   ],
+   "note": "iFlight sells the XING2 2207 as two product pages and they are not the same motor on paper. The Unibell page states 1855KV/2755KV, 30.5 g is not its figure - it gives 31.6 g - Ø29.08x32.6 mm and 50/41.5 mOhm; the Black (Nazgul Evoque F5) page states 1750KV/2750KV/2050KV, 30.5 g, Ø29x32.75 mm and 74.23 mOhm (1750KV/2750KV) / 56.3 mOhm (2050KV). This page's two KVs, 1750 and 1855, are one winding from each, and its 30.5 g is the Black page's. Only what both pages agree on is published from them - 16x16 M3, 12N14P, a 5 mm shaft protruding 13.5 mm and NSK 9x4x4 bearings; the dimension and the resistance are left empty because the two blocks disagree. Neither page carries a bench table"
   },
   {
    "type": "motor",
@@ -22158,17 +22214,22 @@
      1755,
      2555
     ],
-    "weight_g": 31.7,
-    "shaft": "M5",
+    "weight_g": 32.5,
+    "shaft": "5mm",
     "max_cells": "6S",
-    "max_thrust_g": 1800,
     "recommended_props": [
      "5\" tri-blade (e.g. HQProp 5x4.3x3)",
      "5.1\" freestyle props"
-    ]
+    ],
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø30x32.2",
+    "mount_mm": "16x16mm (M3)",
+    "resistance_mohm": "76.4 (1755KV) / 50 (2555KV)"
    },
-   "sources": [],
-   "note": "SEED DATA — verify against manufacturer page before launch"
+   "sources": [
+    "https://shop.iflight.com/xing2-2306-4s-6s-fpv-motor-unibell-pro1465"
+   ],
+   "note": "iFlight publishes no bench table for any motor - its product pages carry a labelled Specifications block and nothing with a throttle column (checked 2026-09-28 across eleven motor pages, none of which links a PDF either). This page was the catalogue's last unverified SEED DATA motor - props and batteries still carry one each - and iFlight's own block for the XING2 2306 confirms its two windings (1755KV/2555KV) and gives 32.5 g with wire against the 31.7 g the seed entry carried, Ø30x32.2 mm, 16x16 M3, 12N14P, a 5 mm shaft protruding 13.5 mm, 76.4/50 mOhm, 24 V (1755KV) and 16 V (2555KV), a 36.21 A / 869 W peak on the 1755KV and 51.3 A / 820.8 W on the 2555KV. The 1800 g max thrust the seed entry published was removed here: it cited no source and iFlight states no thrust figure for this motor. The recommended props are still this site's own reading of the class, not a manufacturer statement"
   },
   {
    "type": "motor",
@@ -22185,14 +22246,20 @@
     "max_cells": "6S",
     "recommended_props": "6-7in props (derived)",
     "price_usd": 28.99,
-    "shaft": "5mm"
+    "shaft": "5mm",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø31.7x34.6",
+    "mount_mm": "16x16mm (M3)",
+    "resistance_mohm": "74.88 (1500KV) / 47.6 (1850KV)"
    },
    "_scraped_at": "2026-09-27",
    "sources": [
     "https://pyrodrone.com/products/iflight-bob57-2506-1500kv-6s-brushless-fpv-drone-motor",
     "https://www.racedayquads.com/products/copy-of-iflight-xing2-2306-2555kv-motor",
-    "https://www.racedayquads.com/products/copy-of-iflight-xing2-2506-1500kv-motor"
-   ]
+    "https://www.racedayquads.com/products/copy-of-iflight-xing2-2506-1500kv-motor",
+    "https://shop.iflight.com/XING2-2506-FPV-Long-Range-Motor-Black-Pro1748"
+   ],
+   "note": "iFlight's own block for the XING2 2506 Black confirms both windings (1500KV/1850KV), the 38.2 g this page carried (that is the 1500KV; the 1850KV is 43.6 g) and the 5 mm shaft, and adds Ø31.7x34.6 mm, 16x16 M3, 12N14P, 74.88/47.6 mOhm, 25.2 V and peaks of 33.26 A / 817.5 W and 50.33 A / 1258.8 W. No bench table"
   },
   {
    "type": "motor",
