@@ -1619,20 +1619,20 @@
    "model": "Gaoneng 1100mAh 4S",
    "slug": "gnb-gaoneng-1100mah-4s",
    "specs": {
-    "chemistry": "LiHV",
+    "chemistry": "LiPo",
     "cells": "4S",
     "capacity_mah": 1100,
     "c_rating": "120C",
-    "weight_g": 122.0,
+    "weight_g": 133.0,
     "connector": "XT60",
-    "dimensions_mm": "25x35x76mm",
-    "energy_wh": 16.7,
-    "price_per_wh_usd": 1.61,
-    "price_usd": 26.99
+    "dimensions_mm": "26x35x76mm",
+    "energy_wh": 16.3,
+    "price_per_wh_usd": 1.6,
+    "price_usd": 25.99
    },
    "_scraped_at": "2026-09-28",
    "sources": [
-    "https://www.racedayquads.com/products/gaoneng-gnb-15-2v-4s-1100mah-120c-lihv-battery-xt60"
+    "https://www.racedayquads.com/products/gaoneng-gnb-14-8v-4s-1100mah-120c-lipo-battery-xt60"
    ]
   },
   {
@@ -1644,17 +1644,17 @@
     "chemistry": "LiHV",
     "cells": "6S",
     "capacity_mah": 1100,
-    "c_rating": "120C",
-    "weight_g": 173.0,
-    "connector": "XT60",
-    "dimensions_mm": "37x35x77mm",
+    "c_rating": "60C",
+    "weight_g": 130.0,
+    "connector": "XT30",
+    "dimensions_mm": "49x25x64mm",
     "energy_wh": 25.1,
-    "price_per_wh_usd": 1.59,
-    "price_usd": 39.99
+    "price_per_wh_usd": 1.55,
+    "price_usd": 38.99
    },
    "_scraped_at": "2026-09-28",
    "sources": [
-    "https://www.racedayquads.com/products/gaoneng-gnb-22-8v-6s-1100mah-120c-lihv-battery-xt60"
+    "https://www.racedayquads.com/products/gaoneng-gnb-22-8v-6s-1100mah-60c-lipo-battery-xt30"
    ]
   },
   {
@@ -3097,15 +3097,15 @@
     "capacity_mah": 530,
     "c_rating": "90C",
     "weight_g": 12.0,
-    "connector": "A30",
-    "dimensions_mm": "61x17.5x6.5mm",
+    "connector": "PH2.0",
+    "dimensions_mm": "6x17x60mm",
     "energy_wh": 2.0,
-    "price_per_wh_usd": 3.47,
-    "price_usd": 6.99
+    "price_per_wh_usd": 3.22,
+    "price_usd": 6.49
    },
    "_scraped_at": "2026-09-28",
    "sources": [
-    "https://www.racedayquads.com/products/gaoneng-gnb-3-8v-1s-530mah-90c-lihv-whoop-micro-battery-w-cabled-a30"
+    "https://www.racedayquads.com/products/gaoneng-gnb-3-8v-1s-530mah-90c-lihv-whoop-micro-battery-w-cabled-connector-ph2-0"
    ]
   },
   {
@@ -3513,18 +3513,17 @@
     "chemistry": "LiPo",
     "cells": "3S",
     "capacity_mah": 1300,
-    "c_rating": "60C",
-    "weight_g": 118.0,
+    "c_rating": "35C",
+    "weight_g": 100.0,
     "connector": "XT60",
-    "dimensions_mm": "72x34x24mm",
+    "dimensions_mm": "70x32x22mm",
     "energy_wh": 14.4,
     "price_per_wh_usd": 1.87,
     "price_usd": 26.99
    },
    "_scraped_at": "2026-09-28",
    "sources": [
-    "https://www.racedayquads.com/products/lumenier-1300mah-3s-35c-lipo-battery-xt60",
-    "https://www.racedayquads.com/products/lumenier-1300mah-3s-60c-lipo-battery-xt60"
+    "https://www.racedayquads.com/products/lumenier-1300mah-3s-35c-lipo-battery-xt60"
    ]
   },
   {
@@ -5350,20 +5349,20 @@
    "model": "RDQ Series 550mAh 2S",
    "slug": "rdq-rdq-series-550mah-2s",
    "specs": {
-    "chemistry": "LiHV",
+    "chemistry": "LiPo",
     "cells": "2S",
     "capacity_mah": 550,
-    "c_rating": "100C",
+    "c_rating": "90C",
     "weight_g": 30.0,
     "connector": "XT30",
     "dimensions_mm": "12x18x69mm",
-    "energy_wh": 4.2,
-    "price_per_wh_usd": 2.75,
-    "price_usd": 11.49
+    "energy_wh": 4.1,
+    "price_per_wh_usd": 2.7,
+    "price_usd": 10.99
    },
    "_scraped_at": "2026-09-28",
    "sources": [
-    "https://www.racedayquads.com/products/rdq-series-7-6v-2s-550mah-100c-lihv-battery-xt30"
+    "https://www.racedayquads.com/products/rdq-series-7-4v-2s-550mah-90c-lipo-battery-xt30"
    ]
   },
   {
