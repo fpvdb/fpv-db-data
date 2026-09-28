@@ -425,7 +425,7 @@
     "c_rating": "90C",
     "weight_g": 395.0,
     "connector": "EC5",
-    "dimensions_mm": "28x45x160mm",
+    "dimensions_mm": "160x45x28mm",
     "energy_wh": 57.7,
     "price_per_wh_usd": 0.85,
     "price_usd": 48.99
@@ -447,7 +447,7 @@
     "c_rating": "90C",
     "weight_g": 530.0,
     "connector": "EC5",
-    "dimensions_mm": "37x45x160mm",
+    "dimensions_mm": "160x45x37mm",
     "energy_wh": 77.0,
     "price_per_wh_usd": 0.95,
     "price_usd": 72.99
@@ -469,7 +469,7 @@
     "c_rating": "90C",
     "weight_g": 790.0,
     "connector": "EC5",
-    "dimensions_mm": "55x45x160mm",
+    "dimensions_mm": "160x45x55mm",
     "energy_wh": 115.4,
     "price_per_wh_usd": 0.94,
     "price_usd": 107.99
@@ -491,7 +491,7 @@
     "c_rating": "90C",
     "weight_g": 949.0,
     "connector": "EC5",
-    "dimensions_mm": "60x46.8x160mm",
+    "dimensions_mm": "160x46.8x60mm",
     "energy_wh": 137.6,
     "price_per_wh_usd": 0.89,
     "price_usd": 122.99
@@ -513,7 +513,7 @@
     "c_rating": "90C",
     "weight_g": 775.0,
     "connector": "EC5",
-    "dimensions_mm": "42x48x180mm",
+    "dimensions_mm": "180x48x42mm",
     "energy_wh": 140.6,
     "price_per_wh_usd": 1.02,
     "price_usd": 143.49
@@ -535,7 +535,7 @@
     "c_rating": "100C",
     "weight_g": 146.0,
     "connector": "XT60",
-    "dimensions_mm": "30x34x76mm",
+    "dimensions_mm": "76x34x30mm",
     "energy_wh": 16.3,
     "price_per_wh_usd": 2.24,
     "price_usd": 36.49
@@ -575,7 +575,7 @@
     "c_rating": "100C",
     "weight_g": 232.0,
     "connector": "XT60",
-    "dimensions_mm": "48x39x78mm",
+    "dimensions_mm": "78x39x48mm",
     "energy_wh": 29.6,
     "price_per_wh_usd": 1.37,
     "price_usd": 40.49
@@ -597,7 +597,7 @@
     "c_rating": "100C",
     "weight_g": 339.0,
     "connector": "XT60",
-    "dimensions_mm": "71x39x78mm",
+    "dimensions_mm": "78x39x71mm",
     "energy_wh": 44.4,
     "price_per_wh_usd": 1.28,
     "price_usd": 56.99
@@ -619,7 +619,7 @@
     "c_rating": "130C",
     "weight_g": 151.0,
     "connector": "XT60",
-    "dimensions_mm": "31x33x74mm",
+    "dimensions_mm": "74x33x31mm",
     "energy_wh": 19.2,
     "price_per_wh_usd": 1.27,
     "price_usd": 24.49
@@ -641,7 +641,7 @@
     "c_rating": "130C",
     "weight_g": 223.0,
     "connector": "XT60",
-    "dimensions_mm": "48x33x77mm",
+    "dimensions_mm": "77x33x48mm",
     "energy_wh": 28.9,
     "price_per_wh_usd": 1.26,
     "price_usd": 36.49
@@ -663,7 +663,7 @@
     "c_rating": "130C",
     "weight_g": 174.0,
     "connector": "XT60",
-    "dimensions_mm": "36x33x76mm",
+    "dimensions_mm": "76x33x36mm",
     "energy_wh": 22.2,
     "price_per_wh_usd": 1.42,
     "price_usd": 31.49
@@ -685,7 +685,7 @@
     "c_rating": "130C",
     "weight_g": 251.0,
     "connector": "XT60",
-    "dimensions_mm": "52x33x75mm",
+    "dimensions_mm": "75x33x52mm",
     "energy_wh": 33.3,
     "price_per_wh_usd": 1.31,
     "price_usd": 43.49
@@ -707,7 +707,7 @@
     "c_rating": "130C",
     "weight_g": 211.0,
     "connector": "XT60",
-    "dimensions_mm": "39.5x35x75mm",
+    "dimensions_mm": "75x35x39.5mm",
     "energy_wh": 24.4,
     "price_per_wh_usd": 1.35,
     "price_usd": 32.99
@@ -729,7 +729,7 @@
     "c_rating": "120C",
     "weight_g": 189.0,
     "connector": "XT60",
-    "dimensions_mm": "39.5x34.5x75mm",
+    "dimensions_mm": "75x34.5x39.5mm",
     "energy_wh": 22.2,
     "price_per_wh_usd": 1.64,
     "price_usd": 36.49
@@ -751,7 +751,7 @@
     "c_rating": "120C",
     "weight_g": 209.0,
     "connector": "XT60",
-    "dimensions_mm": "38.5x34x86mm",
+    "dimensions_mm": "86x34x38.5mm",
     "energy_wh": 26.6,
     "price_per_wh_usd": 1.37,
     "price_usd": 36.49
@@ -773,7 +773,7 @@
     "c_rating": "70C",
     "weight_g": 49.0,
     "connector": "XT30",
-    "dimensions_mm": "23x18x65mm",
+    "dimensions_mm": "65x18x23mm",
     "energy_wh": 5.0,
     "price_per_wh_usd": 1.0,
     "price_usd": 5.0
@@ -795,7 +795,7 @@
     "c_rating": "70C",
     "weight_g": 62.0,
     "connector": "XT30",
-    "dimensions_mm": "30x18x65mm",
+    "dimensions_mm": "65x18x30mm",
     "energy_wh": 6.7,
     "price_per_wh_usd": 0.54,
     "price_usd": 3.6
@@ -817,7 +817,7 @@
     "c_rating": "70C",
     "weight_g": 87.0,
     "connector": "XT30",
-    "dimensions_mm": "27x30x58mm",
+    "dimensions_mm": "58x30x27mm",
     "energy_wh": 9.6,
     "price_per_wh_usd": 1.97,
     "price_usd": 18.99
@@ -839,7 +839,7 @@
     "c_rating": "70C",
     "weight_g": 110.0,
     "connector": "XT30",
-    "dimensions_mm": "33x30x62mm",
+    "dimensions_mm": "62x30x33mm",
     "energy_wh": 12.6,
     "price_per_wh_usd": 1.91,
     "price_usd": 23.99
@@ -861,7 +861,7 @@
     "c_rating": "150C",
     "weight_g": 247.0,
     "connector": "XT60",
-    "dimensions_mm": "43x37x77mm",
+    "dimensions_mm": "77x37x43mm",
     "energy_wh": 33.3,
     "price_per_wh_usd": 1.62,
     "price_usd": 53.99
@@ -883,7 +883,7 @@
     "c_rating": "120C",
     "weight_g": 152.0,
     "connector": "XT60",
-    "dimensions_mm": "32x34x78mm",
+    "dimensions_mm": "78x34x32mm",
     "energy_wh": 17.8,
     "price_per_wh_usd": 1.52,
     "price_usd": 26.99
@@ -905,7 +905,7 @@
     "c_rating": "120C",
     "weight_g": 208.0,
     "connector": "XT60",
-    "dimensions_mm": "45x35x80mm",
+    "dimensions_mm": "80x35x45mm",
     "energy_wh": 26.6,
     "price_per_wh_usd": 1.13,
     "price_usd": 29.99
@@ -927,7 +927,7 @@
     "c_rating": "100C",
     "weight_g": 189.0,
     "connector": "XT60",
-    "dimensions_mm": "35x40x77mm",
+    "dimensions_mm": "77x40x35mm",
     "energy_wh": 22.9,
     "price_per_wh_usd": 1.18,
     "price_usd": 26.99
@@ -949,7 +949,7 @@
     "c_rating": "75C",
     "weight_g": 8.0,
     "connector": "BT2.0",
-    "dimensions_mm": "6x11x67mm",
+    "dimensions_mm": "67x11x6mm",
     "energy_wh": 1.3,
     "price_per_wh_usd": 18.04,
     "price_usd": 23.99
@@ -971,7 +971,7 @@
     "c_rating": "120C",
     "weight_g": 53.0,
     "connector": "XT30",
-    "dimensions_mm": "24x12x70mm",
+    "dimensions_mm": "70x12x24mm",
     "energy_wh": 6.7,
     "price_per_wh_usd": 2.25,
     "price_usd": 14.99
@@ -993,7 +993,7 @@
     "c_rating": "120C",
     "weight_g": 67.0,
     "connector": "XT30",
-    "dimensions_mm": "31.5x17x70mm",
+    "dimensions_mm": "70x17x31.5mm",
     "energy_wh": 8.9,
     "price_per_wh_usd": 2.03,
     "price_usd": 17.99
@@ -1015,7 +1015,7 @@
     "c_rating": "150C",
     "weight_g": 180.0,
     "connector": "XT60",
-    "dimensions_mm": "31x38x76mm",
+    "dimensions_mm": "76x38x31mm",
     "energy_wh": 23.3,
     "price_per_wh_usd": 2.32,
     "price_usd": 53.99
@@ -1037,7 +1037,7 @@
     "c_rating": "150C",
     "weight_g": 239.0,
     "connector": "XT60",
-    "dimensions_mm": "39.5x39x78mm",
+    "dimensions_mm": "78x39x39.5mm",
     "energy_wh": 31.1,
     "price_per_wh_usd": 1.96,
     "price_usd": 60.99
@@ -1059,7 +1059,7 @@
     "c_rating": "150C",
     "weight_g": 171.0,
     "connector": "XT60",
-    "dimensions_mm": "31x39x78mm",
+    "dimensions_mm": "78x39x31mm",
     "energy_wh": 22.9,
     "price_per_wh_usd": 1.72,
     "price_usd": 39.49
@@ -1081,7 +1081,7 @@
     "c_rating": "150C",
     "weight_g": 256.0,
     "connector": "XT60",
-    "dimensions_mm": "46x40x80mm",
+    "dimensions_mm": "80x40x46mm",
     "energy_wh": 34.4,
     "price_per_wh_usd": 1.82,
     "price_usd": 62.49
@@ -1125,7 +1125,7 @@
     "c_rating": "150C",
     "weight_g": 216.0,
     "connector": "XT60",
-    "dimensions_mm": "37x38x78mm",
+    "dimensions_mm": "78x38x37mm",
     "energy_wh": 28.9,
     "price_per_wh_usd": 1.59,
     "price_usd": 45.99
@@ -1234,7 +1234,7 @@
     "c_rating": "150C",
     "weight_g": 292.0,
     "connector": "XT60",
-    "dimensions_mm": "48x34x88mm",
+    "dimensions_mm": "88x34x48mm",
     "energy_wh": 41.1,
     "price_per_wh_usd": 1.68,
     "price_usd": 68.99
@@ -1388,7 +1388,7 @@
     "c_rating": "160C",
     "weight_g": 244.0,
     "connector": "XT60",
-    "dimensions_mm": "37.5x39x81mm",
+    "dimensions_mm": "81x39x37.5mm",
     "energy_wh": 32.9,
     "price_per_wh_usd": 1.86,
     "price_usd": 60.99
@@ -1581,7 +1581,7 @@
     "c_rating": "60C",
     "weight_g": 8.0,
     "connector": "PH2.0",
-    "dimensions_mm": "6.36x11.1x62mm",
+    "dimensions_mm": "62x11.1x6.36mm",
     "energy_wh": 1.4,
     "price_per_wh_usd": 6.23,
     "price_usd": 9.0
@@ -1603,7 +1603,7 @@
     "c_rating": "60C",
     "weight_g": 8.0,
     "connector": "PH2.0",
-    "dimensions_mm": "6.36x11.1x62mm",
+    "dimensions_mm": "62x11.1x6.36mm",
     "energy_wh": 1.4,
     "price_per_wh_usd": 6.23,
     "price_usd": 9.0
@@ -1625,7 +1625,7 @@
     "c_rating": "120C",
     "weight_g": 133.0,
     "connector": "XT60",
-    "dimensions_mm": "26x35x76mm",
+    "dimensions_mm": "76x35x26mm",
     "energy_wh": 16.3,
     "price_per_wh_usd": 1.6,
     "price_usd": 25.99
@@ -1647,7 +1647,7 @@
     "c_rating": "60C",
     "weight_g": 130.0,
     "connector": "XT30",
-    "dimensions_mm": "49x25x64mm",
+    "dimensions_mm": "64x25x49mm",
     "energy_wh": 25.1,
     "price_per_wh_usd": 1.55,
     "price_usd": 38.99
@@ -1692,7 +1692,7 @@
     "c_rating": "120C",
     "weight_g": 129.0,
     "connector": "XT60",
-    "dimensions_mm": "23.5x38x80mm",
+    "dimensions_mm": "80x38x23.5mm",
     "energy_wh": 19.8,
     "price_per_wh_usd": 1.77,
     "price_usd": 34.99
@@ -1714,7 +1714,7 @@
     "c_rating": "120C",
     "weight_g": 189.0,
     "connector": "XT60",
-    "dimensions_mm": "34x38x80mm",
+    "dimensions_mm": "80x38x34mm",
     "energy_wh": 29.6,
     "price_per_wh_usd": 1.55,
     "price_usd": 45.99
@@ -1779,7 +1779,7 @@
     "c_rating": "120C",
     "weight_g": 146.0,
     "connector": "XT60",
-    "dimensions_mm": "26x38x79mm",
+    "dimensions_mm": "79x38x26mm",
     "energy_wh": 22.8,
     "price_per_wh_usd": 1.47,
     "price_usd": 33.49
@@ -1801,7 +1801,7 @@
     "c_rating": "120C",
     "weight_g": 218.0,
     "connector": "XT60",
-    "dimensions_mm": "38x38x79mm",
+    "dimensions_mm": "79x38x38mm",
     "energy_wh": 34.2,
     "price_per_wh_usd": 1.43,
     "price_usd": 48.99
@@ -1823,7 +1823,7 @@
     "c_rating": "160C",
     "weight_g": 177.0,
     "connector": "XT60",
-    "dimensions_mm": "31x38x80mm",
+    "dimensions_mm": "80x38x31mm",
     "energy_wh": 22.6,
     "price_per_wh_usd": 1.5,
     "price_usd": 33.99
@@ -1845,7 +1845,7 @@
     "c_rating": "160C",
     "weight_g": 253.0,
     "connector": "XT60",
-    "dimensions_mm": "45x38x80mm",
+    "dimensions_mm": "80x38x45mm",
     "energy_wh": 34.0,
     "price_per_wh_usd": 1.32,
     "price_usd": 44.99
@@ -1867,7 +1867,7 @@
     "c_rating": "160C",
     "weight_g": 330.0,
     "connector": "XT60",
-    "dimensions_mm": "59x38x80mm",
+    "dimensions_mm": "80x38x59mm",
     "energy_wh": 45.3,
     "price_per_wh_usd": 1.31,
     "price_usd": 59.49
@@ -1889,7 +1889,7 @@
     "c_rating": "120C",
     "weight_g": 182.0,
     "connector": "XT60",
-    "dimensions_mm": "36x35x76mm",
+    "dimensions_mm": "76x35x36mm",
     "energy_wh": 22.9,
     "price_per_wh_usd": 1.12,
     "price_usd": 25.79
@@ -1911,7 +1911,7 @@
     "c_rating": "120C",
     "weight_g": 259.0,
     "connector": "XT60",
-    "dimensions_mm": "53x35x76mm",
+    "dimensions_mm": "76x35x53mm",
     "energy_wh": 34.4,
     "price_per_wh_usd": 1.5,
     "price_usd": 51.49
@@ -1933,7 +1933,7 @@
     "c_rating": "120C",
     "weight_g": 180.0,
     "connector": "XT60",
-    "dimensions_mm": "32x39x80mm",
+    "dimensions_mm": "80x39x32mm",
     "energy_wh": 28.1,
     "price_per_wh_usd": 1.37,
     "price_usd": 38.49
@@ -1955,7 +1955,7 @@
     "c_rating": "120C",
     "weight_g": 257.0,
     "connector": "XT60",
-    "dimensions_mm": "47x39x81mm",
+    "dimensions_mm": "81x39x47mm",
     "energy_wh": 42.2,
     "price_per_wh_usd": 1.35,
     "price_usd": 56.99
@@ -1977,7 +1977,7 @@
     "c_rating": "60C",
     "weight_g": 7.0,
     "connector": "PH2.0",
-    "dimensions_mm": "6.5x11.5x50mm",
+    "dimensions_mm": "50x11.5x6.5mm",
     "energy_wh": 1.1,
     "price_per_wh_usd": 3.94,
     "price_usd": 4.49
@@ -1999,7 +1999,7 @@
     "c_rating": "80C",
     "weight_g": 28.0,
     "connector": "XT30",
-    "dimensions_mm": "18x17x53mm",
+    "dimensions_mm": "53x17x18mm",
     "energy_wh": 3.4,
     "price_per_wh_usd": 2.92,
     "price_usd": 9.99
@@ -2021,7 +2021,7 @@
     "c_rating": "80C",
     "weight_g": 36.0,
     "connector": "XT30",
-    "dimensions_mm": "24x17x53mm",
+    "dimensions_mm": "53x17x24mm",
     "energy_wh": 4.6,
     "price_per_wh_usd": 2.96,
     "price_usd": 13.49
@@ -2043,7 +2043,7 @@
     "c_rating": "90C",
     "weight_g": 10.0,
     "connector": "A30",
-    "dimensions_mm": "6.7x17x49mm",
+    "dimensions_mm": "49x17x6.7mm",
     "energy_wh": 1.4,
     "price_per_wh_usd": 4.49,
     "price_usd": 6.49
@@ -2065,7 +2065,7 @@
     "c_rating": "90C",
     "weight_g": 22.0,
     "connector": "XT30",
-    "dimensions_mm": "13x17x52mm",
+    "dimensions_mm": "52x17x13mm",
     "energy_wh": 2.9,
     "price_per_wh_usd": 3.29,
     "price_usd": 9.49
@@ -2087,7 +2087,7 @@
     "c_rating": "90C",
     "weight_g": 32.0,
     "connector": "XT30",
-    "dimensions_mm": "20x17x55mm",
+    "dimensions_mm": "55x17x20mm",
     "energy_wh": 4.3,
     "price_per_wh_usd": 2.88,
     "price_usd": 12.49
@@ -2109,7 +2109,7 @@
     "c_rating": "90C",
     "weight_g": 43.0,
     "connector": "XT30",
-    "dimensions_mm": "27x17x54mm",
+    "dimensions_mm": "54x17x27mm",
     "energy_wh": 5.8,
     "price_per_wh_usd": 2.85,
     "price_usd": 16.49
@@ -2131,7 +2131,7 @@
     "c_rating": "80C",
     "weight_g": 12.0,
     "connector": "PH2.0",
-    "dimensions_mm": "6x17x59mm",
+    "dimensions_mm": "59x17x6mm",
     "energy_wh": 1.7,
     "price_per_wh_usd": 0.6,
     "price_usd": 1.0
@@ -2154,7 +2154,7 @@
     "c_rating": "80C",
     "weight_g": 27.0,
     "connector": "XT30",
-    "dimensions_mm": "13x17x64mm",
+    "dimensions_mm": "64x17x13mm",
     "energy_wh": 3.4,
     "price_per_wh_usd": 3.21,
     "price_usd": 10.99
@@ -2176,7 +2176,7 @@
     "c_rating": "80C",
     "weight_g": 40.0,
     "connector": "XT30",
-    "dimensions_mm": "19x17.5x64mm",
+    "dimensions_mm": "64x17.5x19mm",
     "energy_wh": 5.0,
     "price_per_wh_usd": 2.7,
     "price_usd": 13.49
@@ -2198,7 +2198,7 @@
     "c_rating": "80C",
     "weight_g": 51.0,
     "connector": "XT30",
-    "dimensions_mm": "25x17x65mm",
+    "dimensions_mm": "65x17x25mm",
     "energy_wh": 6.7,
     "price_per_wh_usd": 2.48,
     "price_usd": 16.49
@@ -2220,7 +2220,7 @@
     "c_rating": "80C",
     "weight_g": 77.0,
     "connector": "XT30",
-    "dimensions_mm": "39x17x66mm",
+    "dimensions_mm": "66x17x39mm",
     "energy_wh": 10.0,
     "price_per_wh_usd": 2.5,
     "price_usd": 24.99
@@ -2242,7 +2242,7 @@
     "c_rating": "90C",
     "weight_g": 12.0,
     "connector": "A30",
-    "dimensions_mm": "6.5x17.5x59mm",
+    "dimensions_mm": "59x17.5x6.5mm",
     "energy_wh": 2.0,
     "price_per_wh_usd": 3.47,
     "price_usd": 6.99
@@ -2264,7 +2264,7 @@
     "c_rating": "90C",
     "weight_g": 26.0,
     "connector": "XT30",
-    "dimensions_mm": "13x17x64mm",
+    "dimensions_mm": "64x17x13mm",
     "energy_wh": 4.0,
     "price_per_wh_usd": 2.73,
     "price_usd": 10.99
@@ -2286,7 +2286,7 @@
     "c_rating": "100C",
     "weight_g": 13.5,
     "connector": "A30",
-    "dimensions_mm": "6x18x65mm",
+    "dimensions_mm": "65x18x6mm",
     "energy_wh": 2.1,
     "price_per_wh_usd": 3.58,
     "price_usd": 7.49
@@ -2308,7 +2308,7 @@
     "c_rating": "100C",
     "weight_g": 43.0,
     "connector": "XT30",
-    "dimensions_mm": "18x18x70mm",
+    "dimensions_mm": "70x18x18mm",
     "energy_wh": 6.3,
     "price_per_wh_usd": 2.39,
     "price_usd": 14.99
@@ -2330,7 +2330,7 @@
     "c_rating": "100C",
     "weight_g": 56.0,
     "connector": "XT30",
-    "dimensions_mm": "24x18x71mm",
+    "dimensions_mm": "71x18x24mm",
     "energy_wh": 8.4,
     "price_per_wh_usd": 2.33,
     "price_usd": 19.49
@@ -2352,7 +2352,7 @@
     "c_rating": "5C",
     "weight_g": 178.0,
     "connector": "XT60",
-    "dimensions_mm": "20x53x81mm",
+    "dimensions_mm": "81x53x20mm",
     "energy_wh": 37.0,
     "price_per_wh_usd": 0.73,
     "price_usd": 26.99
@@ -2374,7 +2374,7 @@
     "c_rating": "120C",
     "weight_g": 36.0,
     "connector": "XT30",
-    "dimensions_mm": "11x30x61mm",
+    "dimensions_mm": "61x30x11mm",
     "energy_wh": 4.9,
     "price_per_wh_usd": 2.53,
     "price_usd": 12.49
@@ -2396,7 +2396,7 @@
     "c_rating": "120C",
     "weight_g": 53.0,
     "connector": "XT30",
-    "dimensions_mm": "16x30x63mm",
+    "dimensions_mm": "63x30x16mm",
     "energy_wh": 7.4,
     "price_per_wh_usd": 2.23,
     "price_usd": 16.49
@@ -2418,7 +2418,7 @@
     "c_rating": "120C",
     "weight_g": 70.0,
     "connector": "XT30",
-    "dimensions_mm": "21x30x63mm",
+    "dimensions_mm": "63x30x21mm",
     "energy_wh": 9.9,
     "price_per_wh_usd": 2.12,
     "price_usd": 20.99
@@ -2440,7 +2440,7 @@
     "c_rating": "90C",
     "weight_g": 15.5,
     "connector": "A30",
-    "dimensions_mm": "8x17.5x60mm",
+    "dimensions_mm": "60x17.5x8mm",
     "energy_wh": 2.5,
     "price_per_wh_usd": 2.99,
     "price_usd": 7.49
@@ -2483,7 +2483,7 @@
     "c_rating": "90C",
     "weight_g": 49.0,
     "connector": "XT30",
-    "dimensions_mm": "23.5x18x65mm",
+    "dimensions_mm": "65x18x23.5mm",
     "energy_wh": 7.5,
     "price_per_wh_usd": 2.39,
     "price_usd": 17.99
@@ -2505,7 +2505,7 @@
     "c_rating": "90C",
     "weight_g": 63.0,
     "connector": "XT30",
-    "dimensions_mm": "31x18x65mm",
+    "dimensions_mm": "65x18x31mm",
     "energy_wh": 10.0,
     "price_per_wh_usd": 2.04,
     "price_usd": 20.49
@@ -2527,7 +2527,7 @@
     "c_rating": "90C",
     "weight_g": 94.0,
     "connector": "XT30",
-    "dimensions_mm": "47x18x65mm",
+    "dimensions_mm": "65x18x47mm",
     "energy_wh": 15.0,
     "price_per_wh_usd": 2.09,
     "price_usd": 31.49
@@ -2549,7 +2549,7 @@
     "c_rating": "100C",
     "weight_g": 16.0,
     "connector": "A30",
-    "dimensions_mm": "7.5x18x65mm",
+    "dimensions_mm": "65x18x7.5mm",
     "energy_wh": 2.7,
     "price_per_wh_usd": 3.29,
     "price_usd": 8.99
@@ -2571,7 +2571,7 @@
     "c_rating": "100C",
     "weight_g": 36.0,
     "connector": "XT30",
-    "dimensions_mm": "14.5x18x70mm",
+    "dimensions_mm": "70x18x14.5mm",
     "energy_wh": 5.5,
     "price_per_wh_usd": 2.1,
     "price_usd": 11.49
@@ -2593,7 +2593,7 @@
     "c_rating": "100C",
     "weight_g": 54.0,
     "connector": "XT30",
-    "dimensions_mm": "22x18x71mm",
+    "dimensions_mm": "71x18x22mm",
     "energy_wh": 8.2,
     "price_per_wh_usd": 2.07,
     "price_usd": 16.99
@@ -2615,7 +2615,7 @@
     "c_rating": "100C",
     "weight_g": 72.0,
     "connector": "XT30",
-    "dimensions_mm": "30x18x71mm",
+    "dimensions_mm": "71x18x30mm",
     "energy_wh": 10.9,
     "price_per_wh_usd": 1.92,
     "price_usd": 20.99
@@ -2637,7 +2637,7 @@
     "c_rating": "100C",
     "weight_g": 106.0,
     "connector": "XT30",
-    "dimensions_mm": "44x8x72mm",
+    "dimensions_mm": "72x8x44mm",
     "energy_wh": 16.4,
     "price_per_wh_usd": 1.98,
     "price_usd": 32.49
@@ -2659,7 +2659,7 @@
     "c_rating": "60C",
     "weight_g": 38.0,
     "connector": "XT30",
-    "dimensions_mm": "18x18x70mm",
+    "dimensions_mm": "70x18x18mm",
     "energy_wh": 6.5,
     "price_per_wh_usd": 1.93,
     "price_usd": 12.49
@@ -2681,7 +2681,7 @@
     "c_rating": "120C",
     "weight_g": 68.0,
     "connector": "XT30",
-    "dimensions_mm": "20x30x63mm",
+    "dimensions_mm": "63x30x20mm",
     "energy_wh": 9.7,
     "price_per_wh_usd": 1.96,
     "price_usd": 18.99
@@ -2703,7 +2703,7 @@
     "c_rating": "60C",
     "weight_g": 73.0,
     "connector": "XT30",
-    "dimensions_mm": "32x18x73mm",
+    "dimensions_mm": "73x18x32mm",
     "energy_wh": 12.9,
     "price_per_wh_usd": 1.7,
     "price_usd": 21.99
@@ -2725,7 +2725,7 @@
     "c_rating": "120C",
     "weight_g": 130.0,
     "connector": "XT30",
-    "dimensions_mm": "40x30x64mm",
+    "dimensions_mm": "64x30x40mm",
     "energy_wh": 19.4,
     "price_per_wh_usd": 1.78,
     "price_usd": 34.49
@@ -2747,7 +2747,7 @@
     "c_rating": "120C",
     "weight_g": 100.0,
     "connector": "XT30",
-    "dimensions_mm": "30x30x65mm",
+    "dimensions_mm": "65x30x30mm",
     "energy_wh": 13.8,
     "price_per_wh_usd": 1.74,
     "price_usd": 23.99
@@ -2769,7 +2769,7 @@
     "c_rating": "120C",
     "weight_g": 148.0,
     "connector": "XT30",
-    "dimensions_mm": "45x30x65mm",
+    "dimensions_mm": "65x30x45mm",
     "energy_wh": 20.6,
     "price_per_wh_usd": 1.94,
     "price_usd": 39.99
@@ -2791,7 +2791,7 @@
     "c_rating": "80C",
     "weight_g": 44.0,
     "connector": "XT30",
-    "dimensions_mm": "14x28x62mm",
+    "dimensions_mm": "62x28x14mm",
     "energy_wh": 4.8,
     "price_per_wh_usd": 2.39,
     "price_usd": 11.49
@@ -2813,7 +2813,7 @@
     "c_rating": "80C",
     "weight_g": 79.0,
     "connector": "XT30",
-    "dimensions_mm": "26x28x64mm",
+    "dimensions_mm": "64x28x26mm",
     "energy_wh": 9.6,
     "price_per_wh_usd": 2.13,
     "price_usd": 20.49
@@ -2835,7 +2835,7 @@
     "c_rating": "80C",
     "weight_g": 118.0,
     "connector": "XT30",
-    "dimensions_mm": "39x28x65mm",
+    "dimensions_mm": "65x28x39mm",
     "energy_wh": 14.4,
     "price_per_wh_usd": 2.11,
     "price_usd": 30.49
@@ -2857,7 +2857,7 @@
     "c_rating": "80C",
     "weight_g": 80.0,
     "connector": "XT30",
-    "dimensions_mm": "24x30x63mm",
+    "dimensions_mm": "63x30x24mm",
     "energy_wh": 9.4,
     "price_per_wh_usd": 1.8,
     "price_usd": 16.99
@@ -2879,7 +2879,7 @@
     "c_rating": "80C",
     "weight_g": 102.0,
     "connector": "XT30",
-    "dimensions_mm": "31x30x64mm",
+    "dimensions_mm": "64x30x31mm",
     "energy_wh": 12.6,
     "price_per_wh_usd": 1.75,
     "price_usd": 21.99
@@ -2901,7 +2901,7 @@
     "c_rating": "80C",
     "weight_g": 150.0,
     "connector": "XT30",
-    "dimensions_mm": "45x30x65mm",
+    "dimensions_mm": "65x30x45mm",
     "energy_wh": 18.9,
     "price_per_wh_usd": 1.72,
     "price_usd": 32.49
@@ -2945,7 +2945,7 @@
     "c_rating": "80C",
     "weight_g": 28.0,
     "connector": "XT30",
-    "dimensions_mm": "14x17x61mm",
+    "dimensions_mm": "61x17x14mm",
     "energy_wh": 3.3,
     "price_per_wh_usd": 3.0,
     "price_usd": 9.99
@@ -2967,7 +2967,7 @@
     "c_rating": "100C",
     "weight_g": 13.5,
     "connector": "PH2.0",
-    "dimensions_mm": "6x18x65mm",
+    "dimensions_mm": "65x18x6mm",
     "energy_wh": 2.1,
     "price_per_wh_usd": 2.63,
     "price_usd": 5.49
@@ -2989,7 +2989,7 @@
     "c_rating": "100C",
     "weight_g": 29.0,
     "connector": "XT30",
-    "dimensions_mm": "12x18x69mm",
+    "dimensions_mm": "69x18x12mm",
     "energy_wh": 4.2,
     "price_per_wh_usd": 2.51,
     "price_usd": 10.49
@@ -3032,7 +3032,7 @@
     "c_rating": "80C",
     "weight_g": 8.5,
     "connector": "PH2.0",
-    "dimensions_mm": "6x17x48mm",
+    "dimensions_mm": "48x17x6mm",
     "energy_wh": 1.1,
     "price_per_wh_usd": 3.06,
     "price_usd": 3.49
@@ -3054,7 +3054,7 @@
     "c_rating": "90C",
     "weight_g": 10.0,
     "connector": "A30",
-    "dimensions_mm": "6.7x17x50mm",
+    "dimensions_mm": "50x17x6.7mm",
     "energy_wh": 1.4,
     "price_per_wh_usd": 4.15,
     "price_usd": 5.99
@@ -3076,7 +3076,7 @@
     "c_rating": "80C",
     "weight_g": 12.0,
     "connector": "PH2.0",
-    "dimensions_mm": "6x17x59mm",
+    "dimensions_mm": "59x17x6mm",
     "energy_wh": 1.7,
     "price_per_wh_usd": 3.0,
     "price_usd": 4.99
@@ -3098,7 +3098,7 @@
     "c_rating": "90C",
     "weight_g": 12.0,
     "connector": "PH2.0",
-    "dimensions_mm": "6x17x60mm",
+    "dimensions_mm": "60x17x6mm",
     "energy_wh": 2.0,
     "price_per_wh_usd": 3.22,
     "price_usd": 6.49
@@ -3120,7 +3120,7 @@
     "c_rating": "100C",
     "weight_g": 13.5,
     "connector": "A30",
-    "dimensions_mm": "6x18x65mm",
+    "dimensions_mm": "65x18x6mm",
     "energy_wh": 2.1,
     "price_per_wh_usd": 3.58,
     "price_usd": 7.49
@@ -3163,7 +3163,7 @@
     "c_rating": "100C",
     "weight_g": 18.5,
     "connector": "A30",
-    "dimensions_mm": "7.5x18x66mm",
+    "dimensions_mm": "66x18x7.5mm",
     "energy_wh": 2.7,
     "price_per_wh_usd": 2.92,
     "price_usd": 7.99
@@ -3207,7 +3207,7 @@
     "c_rating": "100C",
     "weight_g": 164.0,
     "connector": "XT60",
-    "dimensions_mm": "34x35x78mm",
+    "dimensions_mm": "78x35x34mm",
     "energy_wh": 19.2,
     "price_per_wh_usd": 1.51,
     "price_usd": 29.0
@@ -3229,7 +3229,7 @@
     "c_rating": "100C",
     "weight_g": 243.0,
     "connector": "XT60",
-    "dimensions_mm": "43x35x89mm",
+    "dimensions_mm": "89x35x43mm",
     "energy_wh": 28.9,
     "price_per_wh_usd": 3.78,
     "price_usd": 109.19
@@ -3251,7 +3251,7 @@
     "c_rating": "80C",
     "weight_g": 318.0,
     "connector": "XT60",
-    "dimensions_mm": "42.5x34.5x107.5mm",
+    "dimensions_mm": "107.5x34.5x42.5mm",
     "energy_wh": 40.7,
     "price_per_wh_usd": 3.5,
     "price_usd": 142.29
@@ -4636,7 +4636,7 @@
     "c_rating": "100C",
     "weight_g": 254.0,
     "connector": "XT60",
-    "dimensions_mm": "53x33x75mm",
+    "dimensions_mm": "75x33x53mm",
     "energy_wh": 33.3,
     "price_per_wh_usd": 3.24,
     "price_usd": 107.99
@@ -4701,7 +4701,7 @@
     "c_rating": "120C",
     "weight_g": 132.0,
     "connector": "XT60",
-    "dimensions_mm": "24x38x80mm",
+    "dimensions_mm": "80x38x24mm",
     "energy_wh": 19.8,
     "price_per_wh_usd": 1.77,
     "price_usd": 34.99
@@ -4723,7 +4723,7 @@
     "c_rating": "120C",
     "weight_g": 193.0,
     "connector": "XT60",
-    "dimensions_mm": "34x38x80mm",
+    "dimensions_mm": "80x38x34mm",
     "energy_wh": 29.6,
     "price_per_wh_usd": 1.72,
     "price_usd": 50.99
@@ -4745,7 +4745,7 @@
     "c_rating": "120C",
     "weight_g": 151.0,
     "connector": "XT60",
-    "dimensions_mm": "36x38x79mm",
+    "dimensions_mm": "79x38x36mm",
     "energy_wh": 22.8,
     "price_per_wh_usd": 1.56,
     "price_usd": 35.49
@@ -4767,7 +4767,7 @@
     "c_rating": "120C",
     "weight_g": 218.0,
     "connector": "XT60",
-    "dimensions_mm": "38x38x79mm",
+    "dimensions_mm": "79x38x38mm",
     "energy_wh": 34.2,
     "price_per_wh_usd": 1.55,
     "price_usd": 52.99
@@ -4984,7 +4984,7 @@
     "c_rating": "80C",
     "weight_g": 35.5,
     "connector": "XT30",
-    "dimensions_mm": "22x27x60mm",
+    "dimensions_mm": "60x27x22mm",
     "energy_wh": 4.6,
     "price_per_wh_usd": 3.18,
     "price_usd": 14.49
@@ -5049,7 +5049,7 @@
     "c_rating": "60C",
     "weight_g": 8.0,
     "connector": "PH2.0",
-    "dimensions_mm": "6.36x11.1x62mm",
+    "dimensions_mm": "62x11.1x6.36mm",
     "energy_wh": 1.4,
     "price_per_wh_usd": 4.84,
     "price_usd": 6.99
@@ -5092,7 +5092,7 @@
     "c_rating": "90C",
     "weight_g": 39.7,
     "connector": "XT30",
-    "dimensions_mm": "17x27x54mm",
+    "dimensions_mm": "54x27x17mm",
     "energy_wh": 5.8,
     "price_per_wh_usd": 2.6,
     "price_usd": 14.99
@@ -5114,7 +5114,7 @@
     "c_rating": "70C",
     "weight_g": 180.0,
     "connector": "XT60",
-    "dimensions_mm": "13x44x137mm",
+    "dimensions_mm": "137x44x13mm",
     "energy_wh": 34.2,
     "price_per_wh_usd": 1.17,
     "price_usd": 39.99
@@ -5180,7 +5180,7 @@
     "c_rating": "80C",
     "weight_g": 47.0,
     "connector": "XT30",
-    "dimensions_mm": "14.5x32x57mm",
+    "dimensions_mm": "57x32x14.5mm",
     "energy_wh": 5.0,
     "price_per_wh_usd": 2.5,
     "price_usd": 12.49
@@ -5202,7 +5202,7 @@
     "c_rating": "80C",
     "weight_g": 74.0,
     "connector": "XT30",
-    "dimensions_mm": "22x44x72mm",
+    "dimensions_mm": "72x44x22mm",
     "energy_wh": 10.3,
     "price_per_wh_usd": 2.39,
     "price_usd": 24.49
@@ -5311,7 +5311,7 @@
     "c_rating": "80C",
     "weight_g": 54.82,
     "connector": "XT30",
-    "dimensions_mm": "17.8x26.5x69.7mm",
+    "dimensions_mm": "69.7x26.5x17.8mm",
     "energy_wh": 8.0,
     "price_per_wh_usd": 2.13,
     "price_usd": 16.99
@@ -5333,7 +5333,7 @@
     "c_rating": "70C",
     "weight_g": 445.0,
     "connector": "XT60",
-    "dimensions_mm": "36x44x139mm",
+    "dimensions_mm": "139x44x36mm",
     "energy_wh": 81.4,
     "price_per_wh_usd": 0.86,
     "price_usd": 69.99
@@ -5355,7 +5355,7 @@
     "c_rating": "90C",
     "weight_g": 30.0,
     "connector": "XT30",
-    "dimensions_mm": "12x18x69mm",
+    "dimensions_mm": "69x18x12mm",
     "energy_wh": 4.1,
     "price_per_wh_usd": 2.7,
     "price_usd": 10.99
@@ -5377,7 +5377,7 @@
     "c_rating": "100C",
     "weight_g": 43.0,
     "connector": "XT30",
-    "dimensions_mm": "18x18x70mm",
+    "dimensions_mm": "70x18x18mm",
     "energy_wh": 6.3,
     "price_per_wh_usd": 2.63,
     "price_usd": 16.49
@@ -5399,7 +5399,7 @@
     "c_rating": "90C",
     "weight_g": 56.0,
     "connector": "XT30",
-    "dimensions_mm": "24x18x73mm",
+    "dimensions_mm": "73x18x24mm",
     "energy_wh": 8.1,
     "price_per_wh_usd": 2.52,
     "price_usd": 20.49
@@ -5421,7 +5421,7 @@
     "c_rating": "90C",
     "weight_g": 83.0,
     "connector": "XT30",
-    "dimensions_mm": "36x18x73mm",
+    "dimensions_mm": "73x18x36mm",
     "energy_wh": 12.2,
     "price_per_wh_usd": 2.21,
     "price_usd": 26.99
@@ -5508,7 +5508,7 @@
     "c_rating": "70C",
     "weight_g": 702.0,
     "connector": "XT90",
-    "dimensions_mm": "52x44x141mm",
+    "dimensions_mm": "141x44x52mm",
     "energy_wh": 148.2,
     "price_per_wh_usd": 1.14,
     "price_usd": 168.99
@@ -5618,7 +5618,7 @@
     "c_rating": "120C",
     "weight_g": 93.0,
     "connector": "XT30",
-    "dimensions_mm": "27x30x64mm",
+    "dimensions_mm": "64x30x27mm",
     "energy_wh": 12.3,
     "price_per_wh_usd": 2.19,
     "price_usd": 26.99
@@ -5640,7 +5640,7 @@
     "c_rating": "120C",
     "weight_g": 100.0,
     "connector": "XT30",
-    "dimensions_mm": "31x30x64mm",
+    "dimensions_mm": "64x30x31mm",
     "energy_wh": 14.8,
     "price_per_wh_usd": 2.16,
     "price_usd": 31.99
@@ -5986,7 +5986,7 @@
     "c_rating": "60C",
     "weight_g": 8.0,
     "connector": "PH2.0",
-    "dimensions_mm": "6.36x11.1x62mm",
+    "dimensions_mm": "62x11.1x6.36mm",
     "energy_wh": 1.4,
     "price_per_wh_usd": 4.84,
     "price_usd": 6.99
@@ -6030,7 +6030,7 @@
     "c_rating": "80C",
     "weight_g": 62.0,
     "connector": "XT30",
-    "dimensions_mm": "20x28x64mm",
+    "dimensions_mm": "64x28x20mm",
     "energy_wh": 7.2,
     "price_per_wh_usd": 2.15,
     "price_usd": 15.49
