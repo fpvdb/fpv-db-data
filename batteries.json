@@ -3377,7 +3377,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "10000mAh 4S",
    "slug": "lumenier-10000mah-4s",
    "specs": {
@@ -3399,7 +3399,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "10000mAh 6S",
    "slug": "lumenier-10000mah-6s",
    "specs": {
@@ -3421,7 +3421,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "1000mAh 3S",
    "slug": "lumenier-1000mah-3s",
    "specs": {
@@ -3443,7 +3443,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "11.1 V 700mAh 3S",
    "slug": "lumenier-11-1-v-700mah-3s",
    "specs": {
@@ -3465,7 +3465,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "12000mAh 4S",
    "slug": "lumenier-12000mah-4s",
    "specs": {
@@ -3487,7 +3487,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "13000mAh 6S",
    "slug": "lumenier-13000mah-6s",
    "specs": {
@@ -3509,7 +3509,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "1300mAh 3S",
    "slug": "lumenier-1300mah-3s",
    "specs": {
@@ -3531,7 +3531,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "1300mAh 4S",
    "slug": "lumenier-1300mah-4s",
    "specs": {
@@ -3553,7 +3553,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "1300mAh 6S",
    "slug": "lumenier-1300mah-6s",
    "specs": {
@@ -3575,7 +3575,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "1500mAh 3S",
    "slug": "lumenier-1500mah-3s",
    "specs": {
@@ -3597,7 +3597,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "1500mAh 4S",
    "slug": "lumenier-1500mah-4s",
    "specs": {
@@ -3619,7 +3619,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "1500mAh 6S",
    "slug": "lumenier-1500mah-6s",
    "specs": {
@@ -3641,7 +3641,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "16000mAh 4S",
    "slug": "lumenier-16000mah-4s",
    "specs": {
@@ -3663,7 +3663,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "1800mAh 4S",
    "slug": "lumenier-1800mah-4s",
    "specs": {
@@ -3685,7 +3685,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "500mAh 2S",
    "slug": "lumenier-500mah-2s",
    "specs": {
@@ -3707,7 +3707,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "5200mAh 4S",
    "slug": "lumenier-5200mah-4s",
    "specs": {
@@ -3729,7 +3729,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "8000mAh 4S",
    "slug": "lumenier-8000mah-4s",
    "specs": {
@@ -3751,7 +3751,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "CineLifter 2900mAh 6S",
    "slug": "lumenier-cinelifter-2900mah-6s",
    "specs": {
@@ -3773,7 +3773,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "CineLifter 3500mAh 6S",
    "slug": "lumenier-cinelifter-3500mah-6s",
    "specs": {
@@ -3795,7 +3795,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "CineLifter 4000mAh 6S",
    "slug": "lumenier-cinelifter-4000mah-6s",
    "specs": {
@@ -3817,7 +3817,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "CineLifter 4500mAh 6S",
    "slug": "lumenier-cinelifter-4500mah-6s",
    "specs": {
@@ -3839,7 +3839,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "CineLifter 5200mAh 6S",
    "slug": "lumenier-cinelifter-5200mah-6s",
    "specs": {
@@ -3861,7 +3861,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "CineLifter - AS150 4500mAh 6S",
    "slug": "lumenier-cinelifter-as150-4500mah-6s",
    "specs": {
@@ -3883,7 +3883,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "CineLifter - AS150 5200mAh 4S",
    "slug": "lumenier-cinelifter-as150-5200mah-4s",
    "specs": {
@@ -3905,7 +3905,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "CineLifter - AS150 5200mAh 6S",
    "slug": "lumenier-cinelifter-as150-5200mah-6s",
    "specs": {
@@ -3927,7 +3927,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "Graphene (XT-30) 700mAh 4S",
    "slug": "lumenier-graphene-xt-30-700mah-4s",
    "specs": {
@@ -3949,7 +3949,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "HV 450mAh 2S",
    "slug": "lumenier-hv-450mah-2s",
    "specs": {
@@ -3971,7 +3971,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "HV 450mAh 3S",
    "slug": "lumenier-hv-450mah-3s",
    "specs": {
@@ -3993,7 +3993,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "HV 550mAh 2S",
    "slug": "lumenier-hv-550mah-2s",
    "specs": {
@@ -4015,7 +4015,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "HV JST-2.0PXH 550mAh 1S",
    "slug": "lumenier-hv-jst-2-0pxh-550mah-1s",
    "specs": {
@@ -4037,7 +4037,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "HV (XT-30) 450mAh 4S",
    "slug": "lumenier-hv-xt-30-450mah-4s",
    "specs": {
@@ -4059,7 +4059,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "(JST) 1300mAh 3S",
    "slug": "lumenier-jst-1300mah-3s",
    "specs": {
@@ -4081,7 +4081,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "(JST) 300mAh 2S",
    "slug": "lumenier-jst-300mah-2s",
    "specs": {
@@ -4103,7 +4103,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "JST-PH 2.0 205mAh 1S",
    "slug": "lumenier-jst-ph-2-0-205mah-1s",
    "specs": {
@@ -4125,7 +4125,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "N2O Feather-Lite - XT-30 750mAh 2S",
    "slug": "lumenier-n2o-feather-lite-xt-30-750mah-2s",
    "specs": {
@@ -4147,7 +4147,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "N2O Feather-Lite - XT-30 750mAh 4S",
    "slug": "lumenier-n2o-feather-lite-xt-30-750mah-4s",
    "specs": {
@@ -4169,7 +4169,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "N2O Feather-Lite - XT-30 750mAh 6S",
    "slug": "lumenier-n2o-feather-lite-xt-30-750mah-6s",
    "specs": {
@@ -4191,7 +4191,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "N2O Feather-Lite - XT-60 1400mAh 4S",
    "slug": "lumenier-n2o-feather-lite-xt-60-1400mah-4s",
    "specs": {
@@ -4213,7 +4213,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "N2O Feather-Lite - XT-60 1400mAh 6S",
    "slug": "lumenier-n2o-feather-lite-xt-60-1400mah-6s",
    "specs": {
@@ -4235,7 +4235,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "N2O Feather-Lite (XT-60) 1550mAh 6S",
    "slug": "lumenier-n2o-feather-lite-xt-60-1550mah-6s",
    "specs": {
@@ -4257,7 +4257,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "N2O (XT-60) 1500mAh 4S",
    "slug": "lumenier-n2o-xt-60-1500mah-4s",
    "specs": {
@@ -4279,7 +4279,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "N2O (XT-60) 850mAh 6S",
    "slug": "lumenier-n2o-xt-60-850mah-6s",
    "specs": {
@@ -4301,7 +4301,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "NAV 18650 6000mAh 6S",
    "slug": "lumenier-nav-18650-6000mah-6s",
    "specs": {
@@ -4323,7 +4323,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "NAV Lithium-Ion 3000mAh 4S",
    "slug": "lumenier-nav-lithium-ion-3000mah-4s",
    "specs": {
@@ -4345,7 +4345,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "NAV Lithium-Ion 3000mAh 6S",
    "slug": "lumenier-nav-lithium-ion-3000mah-6s",
    "specs": {
@@ -4367,7 +4367,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "Silicon Graphene 1300mAh 6S",
    "slug": "lumenier-silicon-graphene-1300mah-6s",
    "specs": {
@@ -4389,7 +4389,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "(XT-30) 300mAh 2S",
    "slug": "lumenier-xt-30-300mah-2s",
    "specs": {
@@ -4411,7 +4411,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "(XT-30) 300mAh 3S",
    "slug": "lumenier-xt-30-300mah-3s",
    "specs": {
@@ -4433,7 +4433,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "(XT-30) 300mAh 4S",
    "slug": "lumenier-xt-30-300mah-4s",
    "specs": {
@@ -4455,7 +4455,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "(XT-30) 550mAh 2S",
    "slug": "lumenier-xt-30-550mah-2s",
    "specs": {
@@ -4477,7 +4477,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "(XT-30) 550mAh 3S",
    "slug": "lumenier-xt-30-550mah-3s",
    "specs": {
@@ -4499,7 +4499,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "(XT-30) 550mAh 4S",
    "slug": "lumenier-xt-30-550mah-4s",
    "specs": {
@@ -4521,7 +4521,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "(XT-30) 850mAh 2S",
    "slug": "lumenier-xt-30-850mah-2s",
    "specs": {
@@ -4543,7 +4543,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "(XT-30) 850mAh 3S",
    "slug": "lumenier-xt-30-850mah-3s",
    "specs": {
@@ -4565,7 +4565,7 @@
   },
   {
    "type": "battery",
-   "brand": "LUMENIER",
+   "brand": "Lumenier",
    "model": "(XT-30) 850mAh 4S",
    "slug": "lumenier-xt-30-850mah-4s",
    "specs": {
