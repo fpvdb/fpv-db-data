@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-29",
- "count": 206,
+ "count": 196,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -19,7 +19,7 @@
     "recommended_props": "3-4in props (derived)",
     "price_usd": 16.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/pre-order-aos-rc-supernova-1404-fpv-motor-4000kv"
    ]
@@ -40,7 +40,7 @@
     "recommended_props": "4in props (derived)",
     "price_usd": 17.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/pre-order-aos-rc-supernova-1605-fpv-motor-3900kv"
    ]
@@ -62,7 +62,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 15.89
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/axis-flying-ae2207-1850kv-motor",
     "https://www.racedayquads.com/products/axis-flying-ae2207-1960kv-motor",
@@ -446,7 +446,7 @@
     "dimensions_mm": "27.9x32.7",
     "resistance_mohm": "60.16 (1960KV) / 70.62 (1860KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/axis-flying-ae2306-5-1800kv-motor",
     "https://www.racedayquads.com/products/axis-flying-ae2306-5-1960kv-motor",
@@ -1182,7 +1182,7 @@
     "dimensions_mm": "27.5x33.2",
     "resistance_mohm": "64.46 (1960KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://pyrodrone.com/products/axisflying-c227-5-inch-2207-6s-cinematic-fpv-drone-motor-1960kv",
     "https://www.racedayquads.com/products/in-progress-axisflying-ae2207-v2-2207-1860kv-motor",
@@ -1831,7 +1831,7 @@
     "shaft": "5mm",
     "resistance_mohm": "63.42 (1860KV) / 61.49 (1960KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/axisflying-af2207-5-fpv-motor-1960kv",
     "https://www.axisflying.com/products/5-inch-brushless-motor"
@@ -2038,7 +2038,7 @@
     "dimensions_mm": "29.5x32.55",
     "resistance_mohm": "66 (2080KV) / 78.00 (1860KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/axisflying-af2406-x-modular-motor-1860kv-2080kv",
     "https://www.axisflying.com/products/modular-motor-af2406-4-6s"
@@ -2640,7 +2640,7 @@
     "shaft": "5mm",
     "resistance_mohm": "56 (1975KV) / 45 (2125KV) / 36 (2725KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/axisflying-blackbird-v3-2207-1975kv-motor",
     "https://www.axisflying.com/products/axisflying-black-bird-bb2207-brushless-motor-for-5-6inch-fpv-drone-freestyle-sbang-bando-diy-part"
@@ -3199,7 +3199,7 @@
     "dimensions_mm": "27.8x32.9",
     "resistance_mohm": "57.34 (2060KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/axisflying-blackbird-v4-2307-fpv-motor",
     "https://www.axisflying.com/products/co-brand-with-blackbird-v4-2307-5inch-brushless"
@@ -3330,7 +3330,7 @@
     "shaft": "1.5mm",
     "max_cells": "4S"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/axisflying-c157-2-1507-3750kv-micro-motor",
     "https://www.axisflying.com/products/motors-c157-2-4s"
@@ -3846,7 +3846,7 @@
     "mount_mm": "9x9mm (4-M2)",
     "resistance_mohm": "88 (2100KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/axisflying-c206-2006-motor-1960kv",
     "https://www.racedayquads.com/products/axisflying-c206-2006-motor-2750kv",
@@ -4322,132 +4322,12 @@
     "dimensions_mm": "Ø26.9x28.8",
     "resistance_mohm": "97.15 (1900KV) / 76.7 (2300KV & 3500KV) / 65.4 (2750KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/axisflying-c224-2204-5-1900kv-motor",
     "https://www.axisflying.com/products/fpv-brushless-motor-c224-22045"
    ],
    "note": "Axisflying sells this motor as \"Motor C224 4s\" (SKU A02010010) with only the 3500 KV winding offered at checkout, but the product page's single description image is the whole C224 sheet: a Chart drawing, four Specification blocks and two Testing data tables covering 1900, 2300, 2750 and 3500 KV, so all of it belongs on this page under the one-page-per-motor rule. Identity against the RaceDayQuads listing we price from is six figures shared to the digit: 2204.5 stator, 1900 KV, 12N14P, 6S, 20# AWG 150 mm silicone leads and a 5 mm shaft. The four spec blocks: 1900 KV, 97.15 mOhm, 6S, 24.5 g, 386.4 W, 16.1 A; 2300/3500 KV, 76.7 mOhm, 4-6S, 21 g, 567.8 W, 24.09 A; 2750 KV at 4S, 65.4 mOhm, 23.5 g, 289.2 W, 18.48 A; and 2750 KV at 6S, 65.4 mOhm, 23.5 g, 795.17 W, 34 A - all four sharing Phi 26.9x28.8 mm and the same leads. Each block's Max power and Max current are that run's own 100% row (386.40 W / 16.10 A, 567.80 W / 24.09 A, 289.26 W / 18.48 A, 795.17 W / 34.00 A), so the spec-block cross-check lands on every block and no prop block is missing from this transcription; all 40 rows also pass the efficiency identity and printed power = V x A. Five runs of eight throttle points (30-100%), one prop each: GF D90-3P at 1900 KV, D90-3B at 2300 and at 3500 KV, GF3630 at 2750 KV run twice, at 4S and 6S. Max thrust is the 2750 KV 6S run's 1294.38 g; the page carried no max thrust before. The 3500 KV winding has no spec block of its own - Axisflying merges it into one headed \"KV 2300 / 3500\" whose maxima are the 2300 KV row, where the 3500 KV run's own peak is 476.93 W / 30.71 A. Four cells are printed with the decimal separator missing or displaced, each pinned by the same row's other two printed columns rather than guessed: the 2300 KV 50% voltage reads \"2385\" (23.85 V, and the printed 121.87 W over 5.11 A is exactly 23.85 V); the 2750 KV 4S 70% thrust reads \"42565\" (425.65 g, since 425.65 g over the printed 144.03 W is the printed 2.96 g/W); and the 3500 KV efficiency at 70% and 80% reads \"2 16\" and \"2 15\", with the 90% power reading \"393 .94\", all three a space where the point belongs. Three more source facts recorded rather than repaired: the retail listing gives the weight as 22 g \"Incl. Cable\" where the sheet gives 24.5 g \"wire included\" for the same 1900 KV winding, so the two disagree about the same measurement and weight_g stays the retailer's, being rescraped daily; the 2750 KV 6S efficiency column is not monotonic (2.13 g/W at 50%, 2.17 at 60%, both rows internally consistent); and the drawing's mount callout is four M2 holes on a Phi 12 bolt circle, i.e. an 8.5 mm square, which the retail listing restates as \"Mounting Pattern: 12x12mm M2\" - mount_mm holds square patterns and is left empty here. recommended_props is the manufacturer's own: the listing heads the motor \"special designed for 3.5inch cinewhoop\" and names Gemfan D90-3 and HQ D90-3, against the 5-5.1in class our stator table had derived."
-  },
-  {
-   "type": "motor",
-   "brand": "Axisflying",
-   "model": "C227",
-   "slug": "axisflying-c227",
-   "specs": {
-    "kv_options": [
-     1960
-    ],
-    "max_cells": "4-6S",
-    "shaft": "5mm",
-    "price_usd": 27.49,
-    "max_thrust_g": 1582.6,
-    "thrust_conditions": "Axisflying bench, 1960 KV on a 5*5 three-blade prop at 6S (24.54-24.96 V), 8 throttle points (30-100%)",
-    "thrust_table": [
-     {
-      "kv": 1960,
-      "prop": "5x5 three-blade",
-      "cells": "6S",
-      "throttle": 30,
-      "voltage_v": 24.95,
-      "current_a": 4.1,
-      "rpm": 14776.4,
-      "thrust_g": 340.59,
-      "efficiency_gw": 3.42
-     },
-     {
-      "kv": 1960,
-      "prop": "5x5 three-blade",
-      "cells": "6S",
-      "throttle": 40,
-      "voltage_v": 24.96,
-      "current_a": 6.3,
-      "rpm": 17287.87,
-      "thrust_g": 482.22,
-      "efficiency_gw": 3.09
-     },
-     {
-      "kv": 1960,
-      "prop": "5x5 three-blade",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 24.88,
-      "current_a": 10.13,
-      "rpm": 20185.47,
-      "thrust_g": 644.61,
-      "efficiency_gw": 2.57
-     },
-     {
-      "kv": 1960,
-      "prop": "5x5 three-blade",
-      "cells": "6S",
-      "throttle": 60,
-      "voltage_v": 24.86,
-      "current_a": 14.59,
-      "rpm": 22828.6,
-      "thrust_g": 828.27,
-      "efficiency_gw": 2.3
-     },
-     {
-      "kv": 1960,
-      "prop": "5x5 three-blade",
-      "cells": "6S",
-      "throttle": 70,
-      "voltage_v": 24.77,
-      "current_a": 21.29,
-      "rpm": 25364.5,
-      "thrust_g": 1050.43,
-      "efficiency_gw": 1.99
-     },
-     {
-      "kv": 1960,
-      "prop": "5x5 three-blade",
-      "cells": "6S",
-      "throttle": 80,
-      "voltage_v": 24.64,
-      "current_a": 28.24,
-      "rpm": 27831.0,
-      "thrust_g": 1234.26,
-      "efficiency_gw": 1.76
-     },
-     {
-      "kv": 1960,
-      "prop": "5x5 three-blade",
-      "cells": "6S",
-      "throttle": 90,
-      "voltage_v": 24.58,
-      "current_a": 36.37,
-      "rpm": 27957.0,
-      "thrust_g": 1461.86,
-      "efficiency_gw": 1.63
-     },
-     {
-      "kv": 1960,
-      "prop": "5x5 three-blade",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.54,
-      "current_a": 42.74,
-      "rpm": 27957.0,
-      "thrust_g": 1582.6,
-      "efficiency_gw": 1.51
-     }
-    ],
-    "stator": "2207",
-    "weight_g": 35.8,
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø28x32.5",
-    "resistance_mohm": "64.75",
-    "recommended_props": [
-     "5in props - Axisflying gives the Application as \"5-inch Cinewhoop / Cinematic FPV\" and bench-tests the motor on a 5x5 three-blade"
-    ]
-   },
-   "_scraped_at": "2026-09-28",
-   "sources": [
-    "https://www.racedayquads.com/products/axisflying-c227-motor-1960kv",
-    "https://www.axisflying.com/products/c227-5-inch-c2207-1960kv-brushless-motor"
-   ],
-   "note": "Axisflying publishes the whole C227 sheet as the fifth of five description images on /products/c227-5-inch-c2207-1960kv-brushless-motor (C22705.jpg, 1175x2969): a dimension drawing, one Specification block and one Testing data table, the other four images being marketing art. Identity against the RaceDayQuads listing we price from is ten figures shared to the digit - 1960 KV, 12N14P, 64.75 mOhm, 5 mm shaft, 20# 150 mm silicone leads, 35.8 g wire included, 1048.66 W max power, 42.74 A peak, 1.1 A idle and a 28x32.5 mm body - so the retailer is reprinting this block. The sheet is one winding on one prop: 1960 KV on a 5*5 three-blade at 6S, eight throttle points (30-100%), ending at a motor internal temperature of 98 degC against a 26 degC ambient. The spec block's Max Power and Peak Current are that run's own 100% row (1048.66 W / 42.74 A), so the spec-block cross-check lands; all 8 rows also pass the efficiency identity and printed power = V x A. Max thrust is the 100% row's 1582.60 g; the page carried no max thrust before, and it carried no stator, weight or prop recommendation either, which is why it had no page. Three source facts recorded rather than repaired. First, the cell count: this motor is rated 4-6S by the product's own schema.org name (\"Motor C227 4-6s\", SKU A02010090), by the Specs list in the page body (\"Rated Voltage: 4-6S LiPo\") and by the image spec block (\"Rated Voltage 4-6S\"), while the page's HTML <title> tag ends \"... / Cinewhoop 6-8S\" and the variant label reads \"6s For 5inch drone\" - and it is the title tag that RaceDayQuads reprinted as \"Rated Voltage: 6-8S\", which is what our max_cells held. Three manufacturer statements and a 6S bench run against one SEO title, so max_cells is now 4-6S. Second, RPM is flat across the top of the run: 27957.00 at both 90% and 100% while thrust still rises 1461.86 -> 1582.60 g and current 36.37 -> 42.74 A, the same shape as the AF2207.5's 70% row. Third, five of the eight printed efficiencies are not exactly thrust / (V x A) - the 30% row prints 3.42 g/W where its own three columns give 3.33, the widest of them at 2.6% - so the column is rounded off the rig rather than computed off the printed row; all eight stay inside check_thrust.py's 6% band. The drawing's mount callout is four M3 holes on a Phi 16+/-0.05 bolt circle, i.e. an 11.3 mm square, restated in the page body as \"Mount: 4-M3\"; as on the AF2207.5 and the collaboration 2207.5 it is left out of mount_mm, which holds square patterns. recommended_props is the manufacturer's own: the body names the Application as \"5-inch Cinewhoop / Cinematic FPV\", which is the class our stator table had derived anyway."
   },
   {
    "type": "motor",
@@ -4649,7 +4529,7 @@
     "dimensions_mm": "Ø27.9x32.9",
     "resistance_mohm": "58.08 (1960KV) / 58.13 (1860KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/axisflying-x-supaflyfpv-x-syncfpv-2207-5-1860kv-motor",
     "https://www.racedayquads.com/products/axisflying-x-supaflyfpv-x-syncfpv-2207-5-1960kv-motor",
@@ -4788,7 +4668,7 @@
     ],
     "dimensions_mm": "Ø9x12.75"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-0702-ii-motors-4pcs-30000kv",
     "https://betafpv.com/products/0702-ii-brushless-motors"
@@ -4970,7 +4850,7 @@
     ],
     "dimensions_mm": "Ø9x12.75"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-0702se-0702-25000kv-brass-bushings-micro-motor-4-pack",
     "https://betafpv.com/products/0702-brushless-motors"
@@ -5219,7 +5099,7 @@
     ],
     "dimensions_mm": "Ø9x12.75"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-0702se-ii-motors-4pcs-23000kv-27000kv",
     "https://betafpv.com/products/0702-ii-brushless-motors"
@@ -5242,7 +5122,7 @@
     "recommended_props": "31-40mm whoop props (derived)",
     "price_usd": 45.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-0802se-19500kv-micro-motor"
    ]
@@ -5264,7 +5144,7 @@
     "recommended_props": "40-65mm whoop/micro props (derived)",
     "price_usd": 47.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-1103-11000kv-brushless-motors",
     "https://www.racedayquads.com/products/betafpv-1103-8500kv-micro-whoop-motor-4-pack"
@@ -5286,137 +5166,10 @@
     "recommended_props": "5in props (derived)",
     "price_usd": 39.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-1102-22000kv-motor-4-pack-choose-your-color"
    ]
-  },
-  {
-   "type": "motor",
-   "brand": "BetaFPV",
-   "model": "Aquila20 1103",
-   "slug": "betafpv-aquila20-1103",
-   "specs": {
-    "stator": "1103",
-    "kv_options": [
-     10500
-    ],
-    "weight_g": 3.5,
-    "max_cells": "2S",
-    "shaft": "1.5mm",
-    "recommended_props": "Gemfan 2218 3-blade (BetaFPV)",
-    "price_usd": 36.99,
-    "max_thrust_g": 142,
-    "thrust_conditions": "BetaFPV bench, 10500 KV on a Gemfan 2218 3-blade at 2S; 9 throttle points (20-100% in 10% steps), 7.94-7.82 V under load",
-    "thrust_table": [
-     {
-      "kv": 10500,
-      "prop": "GF 2218-3",
-      "cells": "2S",
-      "throttle": 20,
-      "voltage_v": 7.94,
-      "current_a": 0.29,
-      "rpm": 11191,
-      "thrust_g": 11,
-      "efficiency_gw": 4.86
-     },
-     {
-      "kv": 10500,
-      "prop": "GF 2218-3",
-      "cells": "2S",
-      "throttle": 30,
-      "voltage_v": 7.93,
-      "current_a": 0.8,
-      "rpm": 16957,
-      "thrust_g": 26,
-      "efficiency_gw": 4.03
-     },
-     {
-      "kv": 10500,
-      "prop": "GF 2218-3",
-      "cells": "2S",
-      "throttle": 40,
-      "voltage_v": 7.92,
-      "current_a": 1.62,
-      "rpm": 21901,
-      "thrust_g": 42,
-      "efficiency_gw": 3.31
-     },
-     {
-      "kv": 10500,
-      "prop": "GF 2218-3",
-      "cells": "2S",
-      "throttle": 50,
-      "voltage_v": 7.91,
-      "current_a": 2.66,
-      "rpm": 26154,
-      "thrust_g": 60,
-      "efficiency_gw": 2.85
-     },
-     {
-      "kv": 10500,
-      "prop": "GF 2218-3",
-      "cells": "2S",
-      "throttle": 60,
-      "voltage_v": 7.9,
-      "current_a": 3.85,
-      "rpm": 30416,
-      "thrust_g": 80,
-      "efficiency_gw": 2.63
-     },
-     {
-      "kv": 10500,
-      "prop": "GF 2218-3",
-      "cells": "2S",
-      "throttle": 70,
-      "voltage_v": 7.88,
-      "current_a": 5.16,
-      "rpm": 33674,
-      "thrust_g": 97,
-      "efficiency_gw": 2.39
-     },
-     {
-      "kv": 10500,
-      "prop": "GF 2218-3",
-      "cells": "2S",
-      "throttle": 80,
-      "voltage_v": 7.87,
-      "current_a": 6.57,
-      "rpm": 36610,
-      "thrust_g": 113,
-      "efficiency_gw": 2.19
-     },
-     {
-      "kv": 10500,
-      "prop": "GF 2218-3",
-      "cells": "2S",
-      "throttle": 90,
-      "voltage_v": 7.85,
-      "current_a": 8.1,
-      "rpm": 39019,
-      "thrust_g": 128,
-      "efficiency_gw": 2.01
-     },
-     {
-      "kv": 10500,
-      "prop": "GF 2218-3",
-      "cells": "2S",
-      "throttle": 100,
-      "voltage_v": 7.82,
-      "current_a": 9.9,
-      "rpm": 41219,
-      "thrust_g": 142,
-      "efficiency_gw": 1.83
-     }
-    ],
-    "dimensions_mm": "Ø13.6x13.8"
-   },
-   "_scraped_at": "2026-09-28",
-   "sources": [
-    "https://www.racedayquads.com/products/betafpv-aquila20-1103-motor-4-pcs-10500kv",
-    "https://betafpv.com/products/1103-brushless-motors-aquila20"
-   ],
-   "note": "The rows are BetaFPV's own load-performance sheet image on betafpv.com/products/1103-brushless-motors-aquila20, headed on the page \"Load performance of the 1103 Brushless Motors\": one winding (10500 KV) on one prop (GF 2218-3) at 2S, nine throttle points 20-100% in 10% steps, with the voltage sagging 7.94 -> 7.82 V under load. It is the 2026-line template the 0702 (2026) sheet uses - a published Speed (RPM) column, a per-row voltage and no Coil temp column - not the struck-through-RPM shape of the 0702 II and 0702 sheets. Identity with our RaceDayQuads listing and with BetaFPV's own spec block is five figures to the digit: the 1103 stator, 10500 KV, 3.5 g +/-0.1 g, a O1.5 mm shaft 5 mm long and 2S (4.2 V x 2); the table's Model cell reads \"C23 P1103-10500KV\". Max thrust is 142 g, the 100% row, where the page carried none. No spec-block cross-check is possible here: unlike BetaFPV's 0802 (2026) and 1102 (2026) blocks, this product's block states neither a Maximum Power nor a Maximum Current. Three source facts recorded rather than repaired. First, the 20% row's Input is 2.26 W where its own Voltage x Current is 7.94 x 0.29 = 2.30 W (the printed power implies 7.79 V); every other row reproduces V x A inside the two-decimal rounding of its own columns. Second, the 30% row prints 4.03 g/W where its own 26 g over 6.33 W is 4.11 - the Thrust column is an integer and 25.5 g / 6.33 W is 4.03, so the efficiency is computed from an unrounded thrust; both rows are inside check_thrust.py's band and nothing was reconstructed. Third, the outline drawing's own inch conversion for the shaft is wrong by a factor of ten (\"1.5mm/0.6in\" beside \"5mm/0.19in\", \"13.8mm/0.54in\" and \"13.6mm/0.53in\", which are all correct). That drawing gives the motor as O13.6 x 13.8 mm overall, 8.8 mm of body plus the 5 mm shaft, on a 52 mm 30AWG lead with the connector included; the spec block puts three M1.4 screws on a 6.6 mm hole distance, which is a bolt circle and not a mount span, so mount_mm stays empty. Recommended props are BetaFPV's own Recommended Parts entry for the page, replacing our derived whoop-prop class. This is BetaFPV's only 1103 product - our other 1103 page, betafpv-1103-micro-whoop (8500/11000 KV), has no sheet anywhere on the brand's site."
   },
   {
    "type": "motor",
@@ -5538,7 +5291,7 @@
     ],
     "dimensions_mm": "Ø9x11.95"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-champion-0702-motor-4-pcs-36000kv",
     "https://betafpv.com/products/0702-brushless-motors-2026"
@@ -5665,7 +5418,7 @@
     ],
     "dimensions_mm": "Ø9x11.95"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-freestyle-0702-motor-4-pcs-25000kv",
     "https://betafpv.com/products/0702-brushless-motors-2026"
@@ -5792,7 +5545,7 @@
     ],
     "dimensions_mm": "Ø9x11.95"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-racing-0702-motor-4-pcs-30000kv",
     "https://betafpv.com/products/0702-brushless-motors-2026"
@@ -6086,7 +5839,7 @@
     "dimensions_mm": "Ø30.3x36.5",
     "mount_mm": "16x16mm (M3)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/brotherhobby-avenger-2510-1250kv-motor",
     "https://ueeshop.ly200-cdn.com/u_file/UPAH/UPAH113/2409/photo/b569d04352.jpg"
@@ -6553,7 +6306,7 @@
     ],
     "shaft": "M5"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/brotherhobby-avenger-2806-5-1300kv",
     "https://ueeshop.ly200-cdn.com/u_file/UPAH/UPAH113/2403/photo/9f12820ed8.jpg"
@@ -6848,7 +6601,7 @@
     "resistance_mohm": "48.00",
     "shaft": "5mm"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/brotherhobby-avenger-2808-1500kv-motor",
     "https://www.brotherhobby.com/avenger-2808-motor-p00185p1.html"
@@ -7227,7 +6980,7 @@
      }
     ]
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/brotherhobby-avenger-2810-1500kv-motor",
     "https://www.racedayquads.com/products/brotherhobby-avenger-2810-motor-1350kv",
@@ -7785,392 +7538,12 @@
     "configuration": "12N14P",
     "dimensions_mm": "Ø30x35"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/avenger-v2-2507-1850kv-4-6s-long-range-fpv-motor-by-brotherhobby",
     "https://ueeshop.ly200-cdn.com/u_file/UPAH/UPAH113/2410/photo/a902ad1b53.jpg"
    ],
    "note": "Bench sheets cover the 1200/1500/1750/1850/2200 KV versions; 41.3 g with 16 cm wires, 12N14P, body Φ30x35 mm"
-  },
-  {
-   "type": "motor",
-   "brand": "BrotherHobby",
-   "model": "Avenger V3 2812",
-   "slug": "brotherhobby-avenger-v3-2812",
-   "specs": {
-    "stator": "2812",
-    "kv_options": [
-     1115
-    ],
-    "weight_g": 76.5,
-    "max_cells": "5-8S",
-    "recommended_props": "7-8in props (derived)",
-    "price_usd": 40.99,
-    "max_thrust_g": 3307,
-    "thrust_conditions": "BrotherHobby 2022 bench, 6S, 8 throttle points per KV/prop; 900KV on 40/50 A ESC, 1115KV on 60/80 A",
-    "thrust_table": [
-     {
-      "kv": 900,
-      "prop": "HQ 8X4.5X3",
-      "cells": "6S",
-      "throttle": 30,
-      "voltage_v": 25.2,
-      "current_a": 2.4,
-      "rpm": 6554,
-      "thrust_g": 388,
-      "efficiency_gw": 6.42
-     },
-     {
-      "kv": 900,
-      "prop": "HQ 8X4.5X3",
-      "cells": "6S",
-      "throttle": 40,
-      "voltage_v": 25.2,
-      "current_a": 4.1,
-      "rpm": 8310,
-      "thrust_g": 596,
-      "efficiency_gw": 5.77
-     },
-     {
-      "kv": 900,
-      "prop": "HQ 8X4.5X3",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 25.2,
-      "current_a": 6.8,
-      "rpm": 9590,
-      "thrust_g": 838,
-      "efficiency_gw": 4.89
-     },
-     {
-      "kv": 900,
-      "prop": "HQ 8X4.5X3",
-      "cells": "6S",
-      "throttle": 60,
-      "voltage_v": 25.2,
-      "current_a": 11.3,
-      "rpm": 10911,
-      "thrust_g": 1167,
-      "efficiency_gw": 4.1
-     },
-     {
-      "kv": 900,
-      "prop": "HQ 8X4.5X3",
-      "cells": "6S",
-      "throttle": 70,
-      "voltage_v": 25.1,
-      "current_a": 17.1,
-      "rpm": 12457,
-      "thrust_g": 1519,
-      "efficiency_gw": 3.54
-     },
-     {
-      "kv": 900,
-      "prop": "HQ 8X4.5X3",
-      "cells": "6S",
-      "throttle": 80,
-      "voltage_v": 25.1,
-      "current_a": 23.3,
-      "rpm": 13889,
-      "thrust_g": 1860,
-      "efficiency_gw": 3.18
-     },
-     {
-      "kv": 900,
-      "prop": "HQ 8X4.5X3",
-      "cells": "6S",
-      "throttle": 90,
-      "voltage_v": 25.0,
-      "current_a": 34.0,
-      "rpm": 14849,
-      "thrust_g": 2371.5,
-      "efficiency_gw": 2.79
-     },
-     {
-      "kv": 900,
-      "prop": "HQ 8X4.5X3",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 25.0,
-      "current_a": 35.9,
-      "rpm": 15532,
-      "thrust_g": 2406,
-      "efficiency_gw": 2.68
-     },
-     {
-      "kv": 900,
-      "prop": "HQ 9X5X3",
-      "cells": "6S",
-      "throttle": 30,
-      "voltage_v": 25.2,
-      "current_a": 3.0,
-      "rpm": 5954,
-      "thrust_g": 628,
-      "efficiency_gw": 8.31
-     },
-     {
-      "kv": 900,
-      "prop": "HQ 9X5X3",
-      "cells": "6S",
-      "throttle": 40,
-      "voltage_v": 25.2,
-      "current_a": 6.2,
-      "rpm": 7880,
-      "thrust_g": 977,
-      "efficiency_gw": 6.25
-     },
-     {
-      "kv": 900,
-      "prop": "HQ 9X5X3",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 25.1,
-      "current_a": 14.9,
-      "rpm": 9506,
-      "thrust_g": 1525,
-      "efficiency_gw": 4.08
-     },
-     {
-      "kv": 900,
-      "prop": "HQ 9X5X3",
-      "cells": "6S",
-      "throttle": 60,
-      "voltage_v": 25.1,
-      "current_a": 17.7,
-      "rpm": 10569,
-      "thrust_g": 1719,
-      "efficiency_gw": 3.87
-     },
-     {
-      "kv": 900,
-      "prop": "HQ 9X5X3",
-      "cells": "6S",
-      "throttle": 70,
-      "voltage_v": 25.0,
-      "current_a": 23.6,
-      "rpm": 11052,
-      "thrust_g": 1976,
-      "efficiency_gw": 3.35
-     },
-     {
-      "kv": 900,
-      "prop": "HQ 9X5X3",
-      "cells": "6S",
-      "throttle": 80,
-      "voltage_v": 25.0,
-      "current_a": 27.2,
-      "rpm": 11600,
-      "thrust_g": 2226,
-      "efficiency_gw": 3.27
-     },
-     {
-      "kv": 900,
-      "prop": "HQ 9X5X3",
-      "cells": "6S",
-      "throttle": 90,
-      "voltage_v": 24.9,
-      "current_a": 32.7,
-      "rpm": 12127,
-      "thrust_g": 2506,
-      "efficiency_gw": 3.08
-     },
-     {
-      "kv": 900,
-      "prop": "HQ 9X5X3",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.9,
-      "current_a": 45.1,
-      "rpm": 13059,
-      "thrust_g": 3021,
-      "efficiency_gw": 2.69
-     },
-     {
-      "kv": 1115,
-      "prop": "HQ 8X4.5X3",
-      "cells": "6S",
-      "throttle": 30,
-      "voltage_v": 25.2,
-      "current_a": 3.2,
-      "rpm": 7382,
-      "thrust_g": 484,
-      "efficiency_gw": 6.0
-     },
-     {
-      "kv": 1115,
-      "prop": "HQ 8X4.5X3",
-      "cells": "6S",
-      "throttle": 40,
-      "voltage_v": 25.2,
-      "current_a": 6.0,
-      "rpm": 9254,
-      "thrust_g": 779,
-      "efficiency_gw": 5.15
-     },
-     {
-      "kv": 1115,
-      "prop": "HQ 8X4.5X3",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 25.1,
-      "current_a": 11.0,
-      "rpm": 10942,
-      "thrust_g": 1162,
-      "efficiency_gw": 4.21
-     },
-     {
-      "kv": 1115,
-      "prop": "HQ 8X4.5X3",
-      "cells": "6S",
-      "throttle": 60,
-      "voltage_v": 25.1,
-      "current_a": 14.8,
-      "rpm": 12329,
-      "thrust_g": 1443,
-      "efficiency_gw": 3.88
-     },
-     {
-      "kv": 1115,
-      "prop": "HQ 8X4.5X3",
-      "cells": "6S",
-      "throttle": 70,
-      "voltage_v": 25.0,
-      "current_a": 27.3,
-      "rpm": 14420,
-      "thrust_g": 2019,
-      "efficiency_gw": 2.96
-     },
-     {
-      "kv": 1115,
-      "prop": "HQ 8X4.5X3",
-      "cells": "6S",
-      "throttle": 80,
-      "voltage_v": 24.8,
-      "current_a": 41.8,
-      "rpm": 16071,
-      "thrust_g": 2580,
-      "efficiency_gw": 2.49
-     },
-     {
-      "kv": 1115,
-      "prop": "HQ 8X4.5X3",
-      "cells": "6S",
-      "throttle": 90,
-      "voltage_v": 24.8,
-      "current_a": 53.2,
-      "rpm": 17203,
-      "thrust_g": 2967,
-      "efficiency_gw": 2.25
-     },
-     {
-      "kv": 1115,
-      "prop": "HQ 8X4.5X3",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.8,
-      "current_a": 57.3,
-      "rpm": 17315,
-      "thrust_g": 3076,
-      "efficiency_gw": 2.16
-     },
-     {
-      "kv": 1115,
-      "prop": "HQ 9X5X3",
-      "cells": "6S",
-      "throttle": 30,
-      "voltage_v": 25.2,
-      "current_a": 5.5,
-      "rpm": 7659,
-      "thrust_g": 829,
-      "efficiency_gw": 5.98
-     },
-     {
-      "kv": 1115,
-      "prop": "HQ 9X5X3",
-      "cells": "6S",
-      "throttle": 40,
-      "voltage_v": 25.2,
-      "current_a": 9.3,
-      "rpm": 8916,
-      "thrust_g": 1157,
-      "efficiency_gw": 4.94
-     },
-     {
-      "kv": 1115,
-      "prop": "HQ 9X5X3",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 25.1,
-      "current_a": 15.7,
-      "rpm": 10257,
-      "thrust_g": 1559,
-      "efficiency_gw": 3.96
-     },
-     {
-      "kv": 1115,
-      "prop": "HQ 9X5X3",
-      "cells": "6S",
-      "throttle": 60,
-      "voltage_v": 25.0,
-      "current_a": 22.7,
-      "rpm": 10882,
-      "thrust_g": 1937,
-      "efficiency_gw": 3.41
-     },
-     {
-      "kv": 1115,
-      "prop": "HQ 9X5X3",
-      "cells": "6S",
-      "throttle": 70,
-      "voltage_v": 24.9,
-      "current_a": 40.5,
-      "rpm": 14090,
-      "thrust_g": 2595,
-      "efficiency_gw": 2.57
-     },
-     {
-      "kv": 1115,
-      "prop": "HQ 9X5X3",
-      "cells": "6S",
-      "throttle": 80,
-      "voltage_v": 24.9,
-      "current_a": 55.2,
-      "rpm": 14195,
-      "thrust_g": 3176,
-      "efficiency_gw": 2.31
-     },
-     {
-      "kv": 1115,
-      "prop": "HQ 9X5X3",
-      "cells": "6S",
-      "throttle": 90,
-      "voltage_v": 24.8,
-      "current_a": 56.2,
-      "rpm": 14206,
-      "thrust_g": 3192,
-      "efficiency_gw": 2.29
-     },
-     {
-      "kv": 1115,
-      "prop": "HQ 9X5X3",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.8,
-      "current_a": 66.8,
-      "rpm": 14634,
-      "thrust_g": 3307,
-      "efficiency_gw": 2.0
-     }
-    ],
-    "shaft": "M5",
-    "dimensions_mm": "Ø33.9x42"
-   },
-   "_scraped_at": "2026-09-28",
-   "sources": [
-    "https://www.racedayquads.com/products/brotherhobby-avenger-v3-2812-1115kv",
-    "https://ueeshop.ly200-cdn.com/u_file/UPAH/UPAH113/2409/photo/9355a2e092.jpg"
-   ],
-   "note": "V3 bench sheets cover 900 KV and 1115 KV on 8in and 9in props. The 900 KV block gives 76.00 g Weight Including Cable with an 18# 250 mm lead, a 28.00 mm stator on a 12 mm Kawasaki 1200# 0.2 mm lamination, a 33.9x42 mm body, 12N14P and N52H magnets; published weight_g 76.5 g is RaceDayQuads' figure for the 1115 KV winding this page sells, which that sheet does not cover. mount_mm is withdrawn. This page published \"19x19mm (4-M3)\", and BrotherHobby's own drawing calls out \"O 19\" with \"4 - M3\" against a bell it marks \"O 33.9\" - a 19 mm bolt circle, i.e. a 13.4 mm square, not a 19 mm one. RaceDayQuads prints the same callout as \"Bolt Pattern: M3 (19X19mm)\" here and as \"Mounting Screw Pattern: M3 (19x19mm)\" on the Avenger 2810, whose drawing prints \"O 19\" too. That is a third manufacturer dimensioning its mount as a bolt-circle diameter after Axisflying and T-Motor, and the first time the 41%-too-large square has reached one of our own pages rather than staying in a retailer's copy. The callout lives here in prose until a mount_bolt_circle_mm column exists."
   },
   {
    "type": "motor",
@@ -8284,7 +7657,7 @@
     "resistance_mohm": "87.00",
     "shaft": "5mm"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/brotherhobby-r3-5-2205-2140kv-brushless-motor",
     "https://www.brotherhobbyracing.com/",
@@ -8307,7 +7680,7 @@
     "recommended_props": "5in props (derived)",
     "price_usd": 23.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/brotherhobby-tc-2004-3150kv-micro-motor"
    ],
@@ -8330,7 +7703,7 @@
     "price_usd": 19.49,
     "mount_mm": "Ø12 (4-M2)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/brotherhobby-tornado-t2-1407-3600kv-micro-motor",
     "https://www.brotherhobby.com/tornado-t2-1407-motor-p00194p1.html"
@@ -9241,7 +8614,7 @@
     "mount_mm": "Ø19 (4-M3)",
     "shaft": "5mm"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/brotherhobby-tornado-t5-3115-pro-1050kv-motor",
     "https://www.racedayquads.com/products/brotherhobby-tornado-t5-3115-pro-400kv-motor",
@@ -9535,7 +8908,7 @@
     "dimensions_mm": "Ø27x32.4",
     "mount_mm": "16x16mm (4-M3)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/brotherhobby-vs-2207-2400kv-motor",
     "https://ueeshop.ly200-cdn.com/u_file/UPAH/UPAH113/2505/photo/3bb27b86a0.jpg"
@@ -9914,7 +9287,7 @@
     ],
     "shaft": "M5"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/brotherhobby-vy-1507-4150v-micro-motor",
     "https://ueeshop.ly200-cdn.com/u_file/UPAH/UPAH113/2409/photo/4ced26887e.jpg"
@@ -9938,7 +9311,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 27.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-speedy-pizza-axis-flying-diavola-2207-2020kv-brushless-motors",
     "https://www.racedayquads.com/products/cnhl-speedy-pizza-axisflying-diavola-2207-1960kv-brushless-motors"
@@ -9960,7 +9333,7 @@
     "recommended_props": "3-4in props (derived)",
     "price_usd": 12.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/diatone-mamba-toka-1404-3000kv-micro-motor"
    ]
@@ -9981,7 +9354,7 @@
     "recommended_props": "3.5inch~5inch",
     "price_usd": 16.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/diatone-mamba-toka-2004-1700kv-micro-motor"
    ]
@@ -10318,7 +9691,7 @@
     "dimensions_mm": "Ø28.9x29.4",
     "resistance_mohm": "271 (1650KV) / 117 (2650KV) / 80 (3300KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/diatone-mamba-toka-2203-5-3300kv-racing-motor",
     "https://www.racedayquads.com/products/diatone-mamba-toka-2203-5-4200kv-motor",
@@ -10612,7 +9985,7 @@
     "max_cells": "6S",
     "shaft": "M5"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/emax-e3-series-2207-motor-1700kv-1900kv-2400kv",
     "https://shop.emaxmodel.com/products/eamx-ecoiii-series-2207-3-6s-1700kv-1900kv-2400kv-brushless-motor-drone-motor-accessories"
@@ -10905,7 +10278,7 @@
     "max_cells": "6S",
     "shaft": "M5"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/emax-e3-series-2306-motor-1700kv-1900kv-2400kv",
     "https://shop.emaxmodel.com/products/eamx-ecoiii-series-2306-3-6s-1700kv-1900kv-2400kv-brushless-motor-drone-motor-accessories"
@@ -11198,7 +10571,7 @@
     "max_cells": "6S",
     "shaft": "M5"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/emax-e3-series-2807-motor-1300kv-1500kv-1700kv",
     "https://shop.emaxmodel.com/products/eamx-ecoiii-series-2807-3-6s-1300kv-1500kv-1700kv-brushless-motor-drone-motor-accessories"
@@ -11402,7 +10775,7 @@
     ],
     "shaft": "M5"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/emax-e3-series-2808-motor-1300kv-1500kv",
     "https://shop.emaxmodel.com/products/eamx-ecoiii-series-2808-3-6s-1300kv-1500kv-brushless-motor-drone-motor-accessories"
@@ -12817,7 +12190,7 @@
      }
     ]
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/emax-eco-ii-2004-2000kv-motor",
     "https://www.racedayquads.com/products/emax-eco-ii-2004-2400kv-motor",
@@ -14169,7 +13542,7 @@
     "max_cells": "12S",
     "shaft": "M5"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/emax-eco-ii-3115-motor-400kv-500kv-640kv-900kv",
     "https://shop.emaxmodel.com/products/emax-ecoii3115-400kv-500kv-640kv-800kv-900kv-brushless-motor-for-fpv-racing-drone"
@@ -15078,7 +14451,7 @@
     "max_cells": "6S",
     "shaft": "M5"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/emax-eco-ii-series-2207-1700kv-motor",
     "https://www.racedayquads.com/products/emax-eco-ii-series-2207-1900kv-motor",
@@ -15989,7 +15362,7 @@
     "max_cells": "6S",
     "shaft": "M5"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/emax-eco-ii-2306-1700kv-motor",
     "https://www.racedayquads.com/products/emax-eco-ii-2306-1900kv-motor",
@@ -16723,7 +16096,7 @@
      }
     ]
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/emax-rsiii-series-2207-1800kv-motor",
     "https://www.racedayquads.com/products/emax-rsiii-series-2207-1800kv-motor-1",
@@ -17500,7 +16873,7 @@
      }
     ]
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/emax-rsiii-series-2306-1800kv-motor",
     "https://www.racedayquads.com/products/emax-rsiii-series-2306-2100kv-motor",
@@ -17524,7 +16897,7 @@
     "recommended_props": "2-2.5in props (derived)",
     "price_usd": 13.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/emax-th12025-11000kv-motor-for-nanohark-x",
     "https://shop.emaxmodel.com/products/nanohawk-x-spare-parts-th12025-11000kv-motor"
@@ -17730,7 +17103,7 @@
     "dimensions_mm": "Ø25x13.7",
     "resistance_mohm": "220"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/fettec-motor-fm2004t-1800kv",
     "https://fettec.net/shop/elektronik/motoren/fettec-motor-fm2004t-1800kv",
@@ -17755,7 +17128,7 @@
     "shaft": "5mm",
     "mount_mm": "16x16mm"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://pyrodrone.com/products/five33-headsup-2207-1960kv-brushless-fpv-drone-motor-1-pc",
     "https://www.racedayquads.com/products/five33-headsup-2207-1960kv-motor",
@@ -17781,7 +17154,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 20.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/flash-hobby-arthur-2207-5-2500kv-motor"
    ]
@@ -17802,7 +17175,7 @@
     "recommended_props": "7-8in props (derived)",
     "price_usd": 26.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/flash-hobby-arthur-2807-1300kv-motor"
    ]
@@ -17824,7 +17197,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 19.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/flash-hobby-king-2207-5-1900kv-motor-2",
     "https://www.racedayquads.com/products/flash-hobby-king-2207-5-2500kv-motor"
@@ -17845,7 +17218,7 @@
     "recommended_props": "2-2.5in props (derived)",
     "price_usd": 15.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/flyfishrc-flash-1303-5-5500kv-micro-motor"
    ]
@@ -17866,7 +17239,7 @@
     "recommended_props": "4-5in props (derived)",
     "price_usd": 19.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/flyfishrc-flash-1804-2450kv-micro-motor",
     "https://www.racedayquads.com/products/flyfishrc-flash-1804-3500kv-micro-motor"
@@ -17887,7 +17260,7 @@
     "recommended_props": "5in props (derived)",
     "price_usd": 20.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/flyfishrc-flash-2004-1800kv-micro-motor"
    ]
@@ -17909,9 +17282,9 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 26.49
+    "price_usd": 25.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/flyfishrc-flash-2207-1850kv-motor",
     "https://www.racedayquads.com/products/flyfishrc-flash-2207-1950kv-motor",
@@ -17935,7 +17308,7 @@
     "recommended_props": "6-7in props (derived)",
     "price_usd": 27.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/flyfishrc-flash-2406-1800kv-motor",
     "https://www.racedayquads.com/products/flyfishrc-flash-2406-1950kv-motor"
@@ -17956,7 +17329,7 @@
     "recommended_props": "7-8in props (derived)",
     "price_usd": 26.89
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/flyfishrc-flash-2806-5-1850kv-long-range-motor"
    ]
@@ -17978,7 +17351,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 17.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/flyfishrc-sword-2207-1950kv-motor-non-unibell-black",
     "https://www.racedayquads.com/products/flyfishrc-sword-2207-2050kv-motor-non-unibell-black"
@@ -18000,7 +17373,7 @@
     "price_usd": 17.99,
     "weight_g": 8.7
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://pyrodrone.com/products/flywoo-nin-v2-1404-2750kv-micro-motor-dave_c-edition",
     "https://www.racedayquads.com/products/flywoo-nin-v2-dave_c-edition-1404-2750kv-micro-motor"
@@ -18021,7 +17394,7 @@
     "recommended_props": "40-65mm whoop/micro props (derived)",
     "price_usd": 16.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/flywoo-robo-1003-14-800kv-micro-motor-gold-purple"
    ]
@@ -18042,7 +17415,7 @@
     "recommended_props": "3\"- 4\"",
     "price_usd": 16.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/flywoo-robo-1303-motor-6000kv"
    ]
@@ -18063,29 +17436,9 @@
     "recommended_props": "3-4in props (derived)",
     "price_usd": 17.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-datura-1404-3850kv-micro-motor"
-   ]
-  },
-  {
-   "type": "motor",
-   "brand": "Foxeer",
-   "model": "Datura 2105.5",
-   "slug": "foxeer-datura-2105-5",
-   "specs": {
-    "stator": "2105.5",
-    "kv_options": [
-     2650
-    ],
-    "weight_g": 20.5,
-    "max_cells": "4-6S",
-    "recommended_props": "5in props (derived)",
-    "price_usd": 23.99
-   },
-   "_scraped_at": "2026-09-28",
-   "sources": [
-    "https://www.racedayquads.com/products/foxeer-datura-2105-5-2650kv-motor"
    ]
   },
   {
@@ -18105,7 +17458,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 29.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-datura-2306-5-1850kv-motor",
     "https://www.racedayquads.com/products/foxeer-datura-2306-5-2550kv-motor"
@@ -18127,7 +17480,7 @@
     "recommended_props": "7-8in props (derived)",
     "price_usd": 32.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-datura-2806-5-1750kv-motor"
    ]
@@ -18150,7 +17503,7 @@
     "configuration": "9N12P",
     "dimensions_mm": "Ø21.5x16.0"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/flash-hobby-arthur-1506-4300kv-motor"
    ],
@@ -18172,7 +17525,7 @@
     "recommended_props": "3-4in props (derived)",
     "price_usd": 16.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/geprc-gr-1404-3850kv-micro-motor"
    ]
@@ -18486,7 +17839,7 @@
     "configuration": "9N12P",
     "dimensions_mm": "Ø10.7x14.4"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/geprc-speedx2-0802-micro-motor-choose-version",
     "https://geprc.com/product/geprc-speedx2-0802-brushless-motor-17000kv-22000kv/"
@@ -18625,7 +17978,7 @@
     "configuration": "9N12P",
     "dimensions_mm": "Ø10.7x15"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/geprc-speedx2-0803-micro-motor-11000kv",
     "https://geprc.com/product/geprc-speedx2-0803-brushless-motor-11000kv/"
@@ -18876,7 +18229,7 @@
     "resistance_mohm": "69.85",
     "mount_mm": "16x16mm"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/geprc-speedx2-2207e-motor-1960kv",
     "https://geprc.com/product/geprc-speedx2-2207e-motor/"
@@ -19127,7 +18480,7 @@
     "resistance_mohm": "83.17",
     "mount_mm": "16x16mm"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/geprc-speedx2-2306e-motor-1860kv",
     "https://geprc.com/product/geprc-speedx2-2306e-motor/"
@@ -19150,7 +18503,7 @@
     "recommended_props": "5-6inch",
     "price_usd": 20.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/geprc-speedx2-2407e-motor-1750kv"
    ]
@@ -19311,7 +18664,7 @@
     "mount_mm": "19x19mm (M3)",
     "shaft": "5mm"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/geprc-speedx2-2809-1280kv-motor",
     "https://geprc.com/product/geprc-speedx2-2809-1280kv-motor/"
@@ -19450,7 +18803,7 @@
     "configuration": "9N12P",
     "dimensions_mm": "Ø10.5x14.9"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-ex-0802-25000kv-whoop-micro-motor-for-mobula-6-hd-cw",
     "https://www.happymodel.cn/index.php/2020/05/29/happymodel-ex0802-new-series-brushless-motor-for-mobula6-mobula6-hd/"
@@ -19545,7 +18898,7 @@
     "configuration": "9N12P",
     "dimensions_mm": "Ø13.5x12.5"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-ex1002-20000kv-micro-motor",
     "https://www.happymodel.cn/index.php/2022/09/14/happymodel-ex1002-kv20000-new-series-brushless-motor-for-mobula7-1s/"
@@ -19673,7 +19026,7 @@
     "configuration": "9N12P",
     "dimensions_mm": "Ø13.5x15.5"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-ex-1103-11000kv-micro-motor",
     "https://www.happymodel.cn/index.php/2022/09/05/bassline-spare-part-ex1103-kv11000-brushless-motor/"
@@ -19966,7 +19319,7 @@
     "configuration": "9N12P",
     "dimensions_mm": "Ø17.8x17.6"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-ex-1404-3500kv-motor-for-crux35",
     "https://www.happymodel.cn/index.php/2021/01/07/happymodel-ex1404-kv2750-kv3500-kv4800-brushless-motor/"
@@ -19989,7 +19342,7 @@
     "price_usd": 12.99,
     "max_cells": "1-2S"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://pyrodrone.com/products/happymodel-ex1103-11000kv-brushless-fpv-drone-motor-for-happymodel-baseline-1-pc",
     "https://www.racedayquads.com/products/happymodel-1103-7000kv-motor-4-pack-for-larva-x"
@@ -20010,7 +19363,7 @@
     "recommended_props": "2-2.5in props (derived)",
     "price_usd": 14.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-ex1202-5-6400kv-micro-motor-for-crux3-cw"
    ]
@@ -20125,7 +19478,7 @@
     "configuration": "9N12P",
     "dimensions_mm": "Ø10.5x13.5"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-rs0802-20000kv-micro-motor-choose-your-version",
     "https://www.happymodel.cn/index.php/2022/01/19/happymodel-rs0802-kv20000-new-series-brushless-motor-for-mobula7-1s/"
@@ -20148,7 +19501,7 @@
     "recommended_props": "40-65mm whoop/micro props (derived)",
     "price_usd": 13.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-rs1102-motor-10000kv"
    ]
@@ -20462,7 +19815,7 @@
     "configuration": "9N12P",
     "dimensions_mm": "Ø9.5x14"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-se-0702-23000kv-micro-motor",
     "https://www.racedayquads.com/products/happymodel-se0702-0702-26000kv-motor",
@@ -20485,7 +19838,7 @@
     "recommended_props": "31-40mm whoop props (derived)",
     "price_usd": 11.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-se-0802-19000kv-micro-motor"
    ]
@@ -20567,7 +19920,7 @@
     "configuration": "9N12P",
     "dimensions_mm": "Ø9.5x14"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-se0702-0702-28000kv-micro-motor-choose-rotation",
     "https://www.happymodel.cn/index.php/2021/08/20/happymodel-se0702-kv26000-brushless-motors-for-1s-fpv-brushless-whoop/"
@@ -20590,7 +19943,7 @@
     "recommended_props": "31-40mm whoop props (derived)",
     "price_usd": 10.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-se0802-16000kv-1-2s-brushless-motor-4-pcs",
     "https://www.racedayquads.com/products/happymodel-se0802-16000kv-1-2s-whoop-micro-motor-for-mobula7-cw"
@@ -20729,7 +20082,7 @@
     "mount_mm": "3-M1.4-EQS-Ø6.6",
     "shaft": "M1.5x3.75mm"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/hglrc-specter-1002-21000kv-micro-motor",
     "https://www.hglrc.com/products/hglrc-specter-1002-21000kv-brushless-motor"
@@ -20979,7 +20332,7 @@
     "mount_mm": "3-M1.4-EQS-Ø6.6",
     "shaft": "M1.5x3.8mm"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/hglrc-specter-1003-10000kv-micro-motor",
     "https://www.hglrc.com/products/specter-1003-10000kv-brushless-motor"
@@ -21141,7 +20494,7 @@
     "mount_mm": "4-M2-EQS-Ø9",
     "shaft": "M1.5x4.8mm"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/hglrc-specter-1202-5-11000kv-micro-motor-titanium-green",
     "https://www.hglrc.com/products/specter-1202-5-11000kv-brushless-motor"
@@ -21480,7 +20833,7 @@
     "mount_mm": "4-M2-EQS-Ø9",
     "shaft": "M1.5x3.8mm"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/hglrc-specter-1404-2750kv-micro-motor",
     "https://www.racedayquads.com/products/hglrc-specter-1404-4800kv-micro-motor",
@@ -21687,7 +21040,7 @@
     "mount_mm": "12x12 (M2)",
     "shaft": "M1.5x3.8mm"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/hglrc-specter-1804-2450kv-micro-motor",
     "https://www.hglrc.com/products/hglrc-specter-1804-3500kv-brushless-motor"
@@ -21893,7 +21246,7 @@
     "mount_mm": "16x16 (M3)",
     "shaft": "M5x13.2mm"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/hglrc-specter-2306-5-1900kv-motor",
     "https://www.hglrc.com/products/specter-2306-5-1900kv"
@@ -21920,39 +21273,12 @@
     "mount_mm": "16x16mm (M3)",
     "resistance_mohm": "74.88 (1500KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/iflight-bob57-2506-motor-1500kv",
     "https://shop.iflight.com/BOB57-2506-1500KV-6S-FPV-Motor-Pro1786"
    ],
    "note": "iFlight's own block for the BOB57 2506 1500KV confirms the 38.2 g this page carried and adds 12N14P, 16x16 M3, 74.88 mOhm, a 5 mm shaft protruding 15 mm, 25.2 V and a 33.26 A / 817.5 W peak. Its Dimension line reads 31.7x19.6 mm where the XING2 2506's block - same 1500KV resistance, same peak current, same max watts, so electrically the same winding - reads 31.7x34.6 mm; the 15 mm difference is that motor's stated shaft protrusion, so the two pages appear to print the dimension with and without the shaft. Both are published as printed"
-  },
-  {
-   "type": "motor",
-   "brand": "iFlight",
-   "model": "Helion 10 3110",
-   "slug": "iflight-helion-10-3110",
-   "specs": {
-    "stator": "3110",
-    "kv_options": [
-     900
-    ],
-    "weight_g": 77.0,
-    "max_cells": "8S",
-    "shaft": "5mm",
-    "recommended_props": "8in+ props (derived)",
-    "price_usd": 55.49,
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø38.72x39.6",
-    "mount_mm": "19x19mm (M3)",
-    "resistance_mohm": "78 (900KV)"
-   },
-   "_scraped_at": "2026-09-28",
-   "sources": [
-    "https://www.racedayquads.com/products/iflight-helion-10-3110-motor-900kv",
-    "https://shop.iflight.com/Helion10-3110-Motor-Pro2136"
-   ],
-   "note": "iFlight's own block for the Helion 10 3110 confirms the 900KV and the 77 g this page carried and adds 12N14P, 19x19 M3, 78 mOhm, Ø38.72x39.6 mm, a 5 mm shaft protruding 15 mm, 260 mm 18AWG leads, 33.6 V (8S) and a 65.54 A / 2143.8 W peak. No bench table"
   },
   {
    "type": "motor",
@@ -21971,7 +21297,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 28.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/iflight-r5-2207-2050kv-motor",
     "https://www.racedayquads.com/products/iflight-r5-2207-motor-1590kv-2050kv"
@@ -21998,7 +21324,7 @@
     "mount_mm": "9x9mm (M2)",
     "resistance_mohm": "386 (5000KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/iflight-xing-1303-5000kv-micro-motor",
     "https://www.racedayquads.com/products/iflight-xing-1303-micro-motor-5000kv",
@@ -22026,7 +21352,7 @@
     "shaft": "5mm",
     "resistance_mohm": "72.41 (2300KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/iflight-xing-2205-2300kv-micro-motor",
     "https://shop.iflight.com/xing-2205-fpv-nextgen-motor-black-pro1521"
@@ -22049,7 +21375,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 20.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/iflight-xing-2306-2450kv-motor"
    ],
@@ -22076,7 +21402,7 @@
     "mount_mm": "19x19mm (M3)",
     "resistance_mohm": "72.29 (1300KV) / 48.5 (1800KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://pyrodrone.com/products/iflight-xing-x2806-5-fpv-nextgen-motor-1800kv",
     "https://www.racedayquads.com/products/iflight-xing-2806-5-race-motor-1300kv-1800kv",
@@ -22106,7 +21432,7 @@
     "mount_mm": "16x16mm (M3)",
     "resistance_mohm": "81.5 (1800KV) / 46.8 (2450KV) / 41 (2750KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/iflight-xing-e-pro-2207-1800kv-motor",
     "https://www.racedayquads.com/products/iflight-xing-e-pro-2207-2450kv-motor",
@@ -22136,7 +21462,7 @@
     "mount_mm": "16x16mm (M3)",
     "resistance_mohm": "85.63 (1750KV) / 55.6 (2450KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/iflight-xing-e-pro-2306-1700kv-motor",
     "https://www.racedayquads.com/products/iflight-xing-e-pro-2306-2450kv-motor",
@@ -22166,7 +21492,7 @@
     "mount_mm": "9x9mm (M2)",
     "resistance_mohm": "309 (3000KV) / 220 (3800KV) / 159 (4600KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/iflight-xing2-1404-3000kv-micro-motor",
     "https://www.racedayquads.com/products/iflight-xing2-1404-3800kv-micro-motor",
@@ -22194,7 +21520,7 @@
     "configuration": "12N14P",
     "mount_mm": "16x16mm (M3)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/iflight-xing2-2207-1750kv-motor",
     "https://www.racedayquads.com/products/iflight-xing2-2207-1855kv-motor",
@@ -22252,7 +21578,7 @@
     "mount_mm": "16x16mm (M3)",
     "resistance_mohm": "74.88 (1500KV) / 47.6 (1850KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://pyrodrone.com/products/iflight-bob57-2506-1500kv-6s-brushless-fpv-drone-motor",
     "https://www.racedayquads.com/products/copy-of-iflight-xing2-2306-2555kv-motor",
@@ -22281,7 +21607,7 @@
     "dimensions_mm": "37.1x38.9",
     "resistance_mohm": "110"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/lumenier-tourq-3120-fpv-motor-500kv",
     "https://www.lumenier.com/products/lumenier-tourq-3120-fpv-motor-500kv"
@@ -22307,7 +21633,7 @@
     "dimensions_mm": "32x29",
     "mount_mm": "16x16mm (M3)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/lumenier-zip-v2-2407-blackout-motor-1700kv",
     "https://www.lumenier.com/products/lumenier-zip-v2-2407-blackout-motor-1700kv"
@@ -22333,7 +21659,7 @@
     "dimensions_mm": "33x19.5",
     "mount_mm": "19x19mm (M3)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/lumenier-zip-v2-2807-blackout-motor-1700kv",
     "https://www.lumenier.com/products/lumenier-zip-v2-2807-blackout-motor-1700kv"
@@ -22361,39 +21687,12 @@
     "dimensions_mm": "33x19.5",
     "mount_mm": "19x19mm (M3)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/lumenier-zip-v2-2807-cinematic-motor-1300kv-1700kv-1950kv",
     "https://www.lumenier.com/products/lumenier-zip-v2-2807-cinematic-motor-1300kv-1700kv-1950kv"
    ],
    "note": "Lumenier's own Specifications block for the ZIP V2 2807 Cinematic states 19x19 mm M3 base mounting, a 33 x 19.5 mm body, 12N14P, 45 g with short wires, 3-8S (\"6S most common\"), a 28 x 7 mm stator of 0.2 mm Kawasaki silicon steel, N52H curved magnets, Japanese NMB 12x6x4 bearings, a 4.8 mm titanium-alloy inner shaft, a 5 mm prop shaft, 7075 anodized aluminium bell and base, 180 mm 18AWG leads and all three windings (1300/1700/1950 KV) on this one page - and no thrust, current or power figure. The same block is reprinted on the brand's ZIP V2 2807 Blackout page, which sells only the 1700 KV"
-  },
-  {
-   "type": "motor",
-   "brand": "Lumenier",
-   "model": "ZIP V2 2812 Cinematic",
-   "slug": "lumenier-zip-v2-2812-cinematic",
-   "specs": {
-    "stator": "2812",
-    "kv_options": [
-     1150,
-     1300
-    ],
-    "weight_g": 71.0,
-    "max_cells": "3-8S",
-    "shaft": "5mm",
-    "recommended_props": "7-8in props (derived)",
-    "price_usd": 44.49,
-    "configuration": "12N14P",
-    "dimensions_mm": "33.7x25.8",
-    "mount_mm": "19x19mm (M3)"
-   },
-   "_scraped_at": "2026-09-28",
-   "sources": [
-    "https://www.racedayquads.com/products/lumenier-zip-v2-2812-cinematic-motor-1150kv-1300kv",
-    "https://www.lumenier.com/products/lumenier-zip-v2-2812-cinematic-motor-1150kv-1300kv"
-   ],
-   "note": "Lumenier's own Specifications block for the ZIP V2 2812 Cinematic states 19x19 mm M3 base mounting, a 33.7 x 25.8 mm body, 12N14P, 71 g with short wires, 3-8S (\"6S most common\"), a 28 x 12 mm stator of 0.2 mm Kawasaki silicon steel, N52H curved magnets, Japanese NMB 12x6x4 bearings, a 4.8 mm titanium-alloy inner shaft, a 5 mm prop shaft and 230 mm 18AWG leads - and no thrust, current or power figure. The weight and cell range confirm what our retail listing already published"
   },
   {
    "type": "motor",
@@ -22414,7 +21713,7 @@
     "configuration": "12N14P",
     "mount_mm": "19x19mm (M3)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/lumenier-zip-v2-3115-cinematic-motor-900kv-1050kv",
     "https://www.lumenier.com/products/lumenier-zip-v2-3115-cinematic-motor-900kv-1050kv"
@@ -22437,7 +21736,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 23.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/newbeedrone-flow-2207-2050kv-brushless-race-motor",
     "https://www.racedayquads.com/products/newbeedrone-flow-2207-race-motor-2050kv-4-pack",
@@ -22461,7 +21760,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 83.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/4-pack-of-newbeedrone-flow-2207-2050kv-brushless-race-motors",
     "https://newbeedrone.com/products/newbeedrone-flow-2207-race-motor-2050kv-4-pack"
@@ -22487,7 +21786,7 @@
     "configuration": "12N14P",
     "dimensions_mm": "Ø29.4x31.6"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/newbeedrone-smoov-2306-5-2450kv-motor",
     "https://www.racedayquads.com/products/newbeedrone-smoov-v2-2306-5-1750kv-motor",
@@ -22514,7 +21813,7 @@
     "mount_mm": "16x16mm",
     "dimensions_mm": "Ø28.4x32.3"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/quadifier-venom-2207-2111kv-motor-racing-motor",
     "https://www.quadifier.com/product-page/quadifier-venom-2207-2111kv-race-motor"
@@ -22537,7 +21836,7 @@
     "price_usd": 34.99,
     "weight_g": 31.0
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://pyrodrone.com/products/rcinpower-aos-supernova-2207-1570kv-8s-brushless-fpv-drone-motor",
     "https://www.racedayquads.com/products/aos-rc-supernova-2207-fpv-motor-1570kv"
@@ -22786,7 +22085,7 @@
     "dimensions_mm": "27.6x19.5",
     "resistance_mohm": "45"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/rcinpower-aos-supernova-2207-1980kv-motor-chris-rosser",
     "https://www.rcinpower.com/G-SERIES/61.html"
@@ -22809,7 +22108,7 @@
     "recommended_props": "7-8in props (derived)",
     "price_usd": 39.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/draft-rcinpower-aos-supernova-2807-1400kv-motor"
    ]
@@ -22925,7 +22224,7 @@
     "dimensions_mm": "Ø16.1x10.9",
     "resistance_mohm": "125"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/rcinpower-gts-v2-1204-5000kv-motor",
     "https://www.rcinpower.com/G-SERIES/31.html"
@@ -22948,7 +22247,7 @@
     "recommended_props": "2-2.5in props (derived)",
     "price_usd": 16.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/rcinpower-gts-v2-1207-5000kv-motor"
    ]
@@ -22969,7 +22268,7 @@
     "recommended_props": "31-40mm whoop props (derived)",
     "price_usd": 14.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/rcinpower-gts-v3-0702-29000kv-micro-motor-red-silver"
    ]
@@ -22990,7 +22289,7 @@
     "recommended_props": "31-40mm whoop props (derived)",
     "price_usd": 14.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/rcinpower-gts-v3-0702-27000kv-micro-motor-teal-pink"
    ]
@@ -23239,7 +22538,7 @@
     "dimensions_mm": "9.6x9.6",
     "resistance_mohm": "206 / 175 (23000/27000KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/rcinpower-gts-v3-0703-23000kv-micro-motor",
     "https://www.racedayquads.com/products/rcinpower-gts-v3-0703-27000kv-micro-motor",
@@ -23536,7 +22835,7 @@
     "dimensions_mm": "11.2x8.2",
     "resistance_mohm": "117 / 105 / 95 (22000/25000/27000KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/rcinpower-gts-v3-1s-0802-22000kv-motors-choose-color",
     "https://www.racedayquads.com/products/rcinpower-gts-v3-1s-0802-25000kv-motors-choose-color",
@@ -23900,7 +23199,7 @@
     "dimensions_mm": "13.5x7.75",
     "resistance_mohm": "175 / 89 / 75 (14000/19000/22000KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/rcinpower-gts-v3-1002-14000kv-motor-choose-color",
     "https://www.racedayquads.com/products/rcinpower-gts-v3-1002-19000kv-motor-choose-color",
@@ -23927,1704 +23226,12 @@
     "recommended_props": "40-65mm whoop/micro props (derived)",
     "price_usd": 16.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/rcinpower-gts-v3-1003-10000kv-motor-choose-your-color",
     "https://www.racedayquads.com/products/rcinpower-gts-v3-1003-18000kv-micro-motor-choose-color",
     "https://www.racedayquads.com/products/rcinpower-gts-v3-1003-22000kv-micro-motor-choose-color"
    ]
-  },
-  {
-   "type": "motor",
-   "brand": "RCINPOWER",
-   "model": "GTS-V3 2104 Light",
-   "slug": "rcinpower-gts-v3-2104-light",
-   "specs": {
-    "stator": "2104",
-    "kv_options": [
-     1800
-    ],
-    "weight_g": 15.9,
-    "max_cells": "4-6S",
-    "shaft": "1.5mm",
-    "recommended_props": "5in props (derived)",
-    "price_usd": 23.99,
-    "max_thrust_g": 1156,
-    "thrust_conditions": "RCinPower bench, two T-mount KV sheets (1800, 3000), six props each at one or two voltages, 50% and 100% throttle; no RPM published",
-    "thrust_table": [
-     {
-      "kv": 1800,
-      "prop": "D76",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 24.0,
-      "current_a": 2.7,
-      "rpm": null,
-      "thrust_g": 231,
-      "efficiency_gw": 3.565
-     },
-     {
-      "kv": 1800,
-      "prop": "D76",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.0,
-      "current_a": 12.3,
-      "rpm": null,
-      "thrust_g": 613,
-      "efficiency_gw": 2.077
-     },
-     {
-      "kv": 1800,
-      "prop": "D90",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 24.0,
-      "current_a": 2.7,
-      "rpm": null,
-      "thrust_g": 273,
-      "efficiency_gw": 4.213
-     },
-     {
-      "kv": 1800,
-      "prop": "D90",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.0,
-      "current_a": 12.9,
-      "rpm": null,
-      "thrust_g": 738,
-      "efficiency_gw": 2.384
-     },
-     {
-      "kv": 1800,
-      "prop": "GF5126*2",
-      "cells": "5S",
-      "throttle": 50,
-      "voltage_v": 21.0,
-      "current_a": 2.95,
-      "rpm": null,
-      "thrust_g": 338,
-      "efficiency_gw": 5.456
-     },
-     {
-      "kv": 1800,
-      "prop": "GF5126*2",
-      "cells": "5S",
-      "throttle": 100,
-      "voltage_v": 21.0,
-      "current_a": 15.1,
-      "rpm": null,
-      "thrust_g": 913,
-      "efficiency_gw": 2.879
-     },
-     {
-      "kv": 1800,
-      "prop": "GF5126*2",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 24.0,
-      "current_a": 3.65,
-      "rpm": null,
-      "thrust_g": 419,
-      "efficiency_gw": 4.783
-     },
-     {
-      "kv": 1800,
-      "prop": "GF5126*2",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.0,
-      "current_a": 18.5,
-      "rpm": null,
-      "thrust_g": 1106,
-      "efficiency_gw": 2.491
-     },
-     {
-      "kv": 1800,
-      "prop": "GF5125*3",
-      "cells": "5S",
-      "throttle": 50,
-      "voltage_v": 21.0,
-      "current_a": 2.95,
-      "rpm": null,
-      "thrust_g": 327,
-      "efficiency_gw": 5.278
-     },
-     {
-      "kv": 1800,
-      "prop": "GF5125*3",
-      "cells": "5S",
-      "throttle": 100,
-      "voltage_v": 21.0,
-      "current_a": 15.2,
-      "rpm": null,
-      "thrust_g": 934,
-      "efficiency_gw": 2.926
-     },
-     {
-      "kv": 1800,
-      "prop": "GF5125*3",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 24.0,
-      "current_a": 3.9,
-      "rpm": null,
-      "thrust_g": 417,
-      "efficiency_gw": 4.455
-     },
-     {
-      "kv": 1800,
-      "prop": "GF5125*3",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.0,
-      "current_a": 18.5,
-      "rpm": null,
-      "thrust_g": 1117,
-      "efficiency_gw": 2.516
-     },
-     {
-      "kv": 1800,
-      "prop": "GF5130*3",
-      "cells": "5S",
-      "throttle": 50,
-      "voltage_v": 21.0,
-      "current_a": 3.5,
-      "rpm": null,
-      "thrust_g": 359,
-      "efficiency_gw": 4.884
-     },
-     {
-      "kv": 1800,
-      "prop": "GF5130*3",
-      "cells": "5S",
-      "throttle": 100,
-      "voltage_v": 21.0,
-      "current_a": 17.5,
-      "rpm": null,
-      "thrust_g": 956,
-      "efficiency_gw": 2.601
-     },
-     {
-      "kv": 1800,
-      "prop": "GF5130*3",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 24.0,
-      "current_a": 4.6,
-      "rpm": null,
-      "thrust_g": 439,
-      "efficiency_gw": 3.976
-     },
-     {
-      "kv": 1800,
-      "prop": "GF5130*3",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.0,
-      "current_a": 22.1,
-      "rpm": null,
-      "thrust_g": 1094,
-      "efficiency_gw": 2.063
-     },
-     {
-      "kv": 1800,
-      "prop": "GF6026",
-      "cells": "4S",
-      "throttle": 50,
-      "voltage_v": 16.0,
-      "current_a": 2.5,
-      "rpm": null,
-      "thrust_g": 274,
-      "efficiency_gw": 6.85
-     },
-     {
-      "kv": 1800,
-      "prop": "GF6026",
-      "cells": "4S",
-      "throttle": 100,
-      "voltage_v": 16.0,
-      "current_a": 13.1,
-      "rpm": null,
-      "thrust_g": 762,
-      "efficiency_gw": 3.635
-     },
-     {
-      "kv": 3000,
-      "prop": "D76",
-      "cells": "4S",
-      "throttle": 50,
-      "voltage_v": 16.0,
-      "current_a": 5.2,
-      "rpm": null,
-      "thrust_g": 248,
-      "efficiency_gw": 2.981
-     },
-     {
-      "kv": 3000,
-      "prop": "D76",
-      "cells": "4S",
-      "throttle": 100,
-      "voltage_v": 16.0,
-      "current_a": 22.9,
-      "rpm": null,
-      "thrust_g": 672,
-      "efficiency_gw": 1.834
-     },
-     {
-      "kv": 3000,
-      "prop": "D90",
-      "cells": "4S",
-      "throttle": 50,
-      "voltage_v": 16.0,
-      "current_a": 5.3,
-      "rpm": null,
-      "thrust_g": 299,
-      "efficiency_gw": 3.526
-     },
-     {
-      "kv": 3000,
-      "prop": "D90",
-      "cells": "4S",
-      "throttle": 100,
-      "voltage_v": 16.0,
-      "current_a": 24.1,
-      "rpm": null,
-      "thrust_g": 806,
-      "efficiency_gw": 2.09
-     },
-     {
-      "kv": 3000,
-      "prop": "GF5126*2",
-      "cells": "3S",
-      "throttle": 50,
-      "voltage_v": 12.0,
-      "current_a": 4.6,
-      "rpm": null,
-      "thrust_g": 292,
-      "efficiency_gw": 5.29
-     },
-     {
-      "kv": 3000,
-      "prop": "GF5126*2",
-      "cells": "3S",
-      "throttle": 100,
-      "voltage_v": 12.0,
-      "current_a": 22.4,
-      "rpm": null,
-      "thrust_g": 771,
-      "efficiency_gw": 2.868
-     },
-     {
-      "kv": 3000,
-      "prop": "GF5126*2",
-      "cells": "4S",
-      "throttle": 50,
-      "voltage_v": 16.0,
-      "current_a": 8.0,
-      "rpm": null,
-      "thrust_g": 468,
-      "efficiency_gw": 3.656
-     },
-     {
-      "kv": 3000,
-      "prop": "GF5126*2",
-      "cells": "4S",
-      "throttle": 100,
-      "voltage_v": 16.0,
-      "current_a": 32.1,
-      "rpm": null,
-      "thrust_g": 1121,
-      "efficiency_gw": 2.183
-     },
-     {
-      "kv": 3000,
-      "prop": "GF5125*3",
-      "cells": "3S",
-      "throttle": 50,
-      "voltage_v": 12.0,
-      "current_a": 4.9,
-      "rpm": null,
-      "thrust_g": 299,
-      "efficiency_gw": 5.085
-     },
-     {
-      "kv": 3000,
-      "prop": "GF5125*3",
-      "cells": "3S",
-      "throttle": 100,
-      "voltage_v": 12.0,
-      "current_a": 22.4,
-      "rpm": null,
-      "thrust_g": 793,
-      "efficiency_gw": 2.95
-     },
-     {
-      "kv": 3000,
-      "prop": "GF5125*3",
-      "cells": "4S",
-      "throttle": 50,
-      "voltage_v": 16.0,
-      "current_a": 7.5,
-      "rpm": null,
-      "thrust_g": 453,
-      "efficiency_gw": 3.775
-     },
-     {
-      "kv": 3000,
-      "prop": "GF5125*3",
-      "cells": "4S",
-      "throttle": 100,
-      "voltage_v": 16.0,
-      "current_a": 33.6,
-      "rpm": null,
-      "thrust_g": 1156,
-      "efficiency_gw": 2.15
-     },
-     {
-      "kv": 3000,
-      "prop": "GF5130*3",
-      "cells": "3S",
-      "throttle": 50,
-      "voltage_v": 12.0,
-      "current_a": 5.6,
-      "rpm": null,
-      "thrust_g": 316,
-      "efficiency_gw": 4.702
-     },
-     {
-      "kv": 3000,
-      "prop": "GF5130*3",
-      "cells": "3S",
-      "throttle": 100,
-      "voltage_v": 12.0,
-      "current_a": 25.1,
-      "rpm": null,
-      "thrust_g": 795,
-      "efficiency_gw": 2.639
-     },
-     {
-      "kv": 3000,
-      "prop": "GF5130*3",
-      "cells": "4S",
-      "throttle": 50,
-      "voltage_v": 16.0,
-      "current_a": 9.0,
-      "rpm": null,
-      "thrust_g": 471,
-      "efficiency_gw": 3.271
-     },
-     {
-      "kv": 3000,
-      "prop": "GF5130*3",
-      "cells": "4S",
-      "throttle": 100,
-      "voltage_v": 16.0,
-      "current_a": 36.2,
-      "rpm": null,
-      "thrust_g": 1117,
-      "efficiency_gw": 1.929
-     },
-     {
-      "kv": 3000,
-      "prop": "GF6026",
-      "cells": "3S",
-      "throttle": 50,
-      "voltage_v": 12.0,
-      "current_a": 6.6,
-      "rpm": null,
-      "thrust_g": 392,
-      "efficiency_gw": 4.949
-     },
-     {
-      "kv": 3000,
-      "prop": "GF6026",
-      "cells": "3S",
-      "throttle": 100,
-      "voltage_v": 12.0,
-      "current_a": 28.1,
-      "rpm": null,
-      "thrust_g": 927,
-      "efficiency_gw": 2.749
-     }
-    ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø25.35x13.8",
-    "mount_mm": "12x12mm",
-    "resistance_mohm": "210 (1800KV) / 110 (3000KV)"
-   },
-   "_scraped_at": "2026-09-28",
-   "sources": [
-    "https://www.racedayquads.com/products/rcinpower-gts-v3-2104-light-1800kv-motor-choose-color",
-    "https://www.rcinpower.com/G-SERIES/52.html"
-   ],
-   "note": "RCinPower's data-sheet page for this motor is titled \"GTS V3 2104T/M2\" and carries four tables - 2104-T and 2104-M2, each at 1800 and 3000 KV. Only the two T sheets are attached here. The T block is our retail listing to the digit (1800 KV, 12N14P, 21x4 mm stator, 3 mm inner / 1.5 mm outer shaft, 4-6S, 0.5 A idle at 10 V, 210 mOhm, 22.1 A, 530 W, 15.9 g with 3 cm wire), while the M2 block differs from it only in weight, 16 g, its shaft being threaded for an M2 prop mount; RCinPower's own family strip lists 2104 LIGHT and 2104 M2 as two products, so the M2 tables belong to a part we do not carry. Our listing sells the 1800 KV; the 3000 KV T sheet is included as published and is the 3-4S winding (0.9 A idle, 110 mOhm, 36.2 A, 580 W, same 15.9 g and same dimensions). Motor dimension Phi 25.35x13.8 mm, 12x12 mm four-bolt base mount, with a 5x5 mm four-hole pattern on the bell. Four things are reproduced as printed rather than corrected: (1) both blocks label their power and current maxima \"3S\" and neither run is 3S - the 1800 KV sheet's 530 W / 22.1 A is its GF5130*3 24 V (6S) full-throttle row exactly, and the 3000 KV sheet's 580 W / 36.2 A is its GF5130*3 16 V (4S) row, where the current matches exactly and the power is the table's 579.2 W rounded; (2) the screw size in both mount callouts (\"4 x M?\") is five pixels tall in the only image RCinPower publishes and is not legible, so the mount is recorded as its measured 12x12 mm span with no thread; (3) our retail listing prints \"Motor Dimensions: 23.35x13.8mm\" where all four manufacturer sheets and the dimensioned drawing print Phi 25.35x13.8 mm, so the manufacturer figure is the one published here; (4) the retail listing's 1.5 mm shaft is the outer (prop) shaft - the sheets print 3 mm inner and 1.5 mm outer. Temperature after 3 s at full throttle runs 52-78 degC on the 1800 KV sheet and 54-80 degC on the 3000 KV one, with the 3000 KV GF5130*3 16 V run flagged HOT"
-  },
-  {
-   "type": "motor",
-   "brand": "RCINPOWER",
-   "model": "GTS-V3 2105 Plus",
-   "slug": "rcinpower-gts-v3-2105-plus",
-   "specs": {
-    "stator": "2105.5",
-    "kv_options": [
-     2950
-    ],
-    "weight_g": 20.0,
-    "max_cells": "3-4S",
-    "shaft": "5mm",
-    "recommended_props": "5in props (derived)",
-    "price_usd": 25.49,
-    "max_thrust_g": 1236,
-    "thrust_conditions": "RCinPower bench, three KV sheets (1850, 2950, 3600), four to six props each at two voltages, 50% and 100% throttle; no RPM published",
-    "thrust_table": [
-     {
-      "kv": 1850,
-      "prop": "HQ T5*3R",
-      "cells": "5S",
-      "throttle": 50,
-      "voltage_v": 21.0,
-      "current_a": 2.1,
-      "rpm": null,
-      "thrust_g": 251,
-      "efficiency_gw": 5.692
-     },
-     {
-      "kv": 1850,
-      "prop": "HQ T5*3R",
-      "cells": "5S",
-      "throttle": 100,
-      "voltage_v": 21.0,
-      "current_a": 10.4,
-      "rpm": null,
-      "thrust_g": 737,
-      "efficiency_gw": 3.375
-     },
-     {
-      "kv": 1850,
-      "prop": "HQ T5*3R",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 24.0,
-      "current_a": 2.4,
-      "rpm": null,
-      "thrust_g": 302,
-      "efficiency_gw": 5.243
-     },
-     {
-      "kv": 1850,
-      "prop": "HQ T5*3R",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.0,
-      "current_a": 12.9,
-      "rpm": null,
-      "thrust_g": 900,
-      "efficiency_gw": 2.907
-     },
-     {
-      "kv": 1850,
-      "prop": "Gemfan 5125R",
-      "cells": "5S",
-      "throttle": 50,
-      "voltage_v": 21.0,
-      "current_a": 2.2,
-      "rpm": null,
-      "thrust_g": 249,
-      "efficiency_gw": 5.39
-     },
-     {
-      "kv": 1850,
-      "prop": "Gemfan 5125R",
-      "cells": "5S",
-      "throttle": 100,
-      "voltage_v": 21.0,
-      "current_a": 10.6,
-      "rpm": null,
-      "thrust_g": 759,
-      "efficiency_gw": 3.41
-     },
-     {
-      "kv": 1850,
-      "prop": "Gemfan 5125R",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 24.0,
-      "current_a": 2.5,
-      "rpm": null,
-      "thrust_g": 307,
-      "efficiency_gw": 5.117
-     },
-     {
-      "kv": 1850,
-      "prop": "Gemfan 5125R",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.0,
-      "current_a": 13,
-      "rpm": null,
-      "thrust_g": 933,
-      "efficiency_gw": 2.99
-     },
-     {
-      "kv": 1850,
-      "prop": "Gemfan 5130R",
-      "cells": "5S",
-      "throttle": 50,
-      "voltage_v": 21.0,
-      "current_a": 2.4,
-      "rpm": null,
-      "thrust_g": 268,
-      "efficiency_gw": 5.317
-     },
-     {
-      "kv": 1850,
-      "prop": "Gemfan 5130R",
-      "cells": "5S",
-      "throttle": 100,
-      "voltage_v": 21.0,
-      "current_a": 12.3,
-      "rpm": null,
-      "thrust_g": 800,
-      "efficiency_gw": 3.097
-     },
-     {
-      "kv": 1850,
-      "prop": "Gemfan 5130R",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 24.0,
-      "current_a": 3,
-      "rpm": null,
-      "thrust_g": 358,
-      "efficiency_gw": 4.972
-     },
-     {
-      "kv": 1850,
-      "prop": "Gemfan 5130R",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.0,
-      "current_a": 14.9,
-      "rpm": null,
-      "thrust_g": 973,
-      "efficiency_gw": 2.721
-     },
-     {
-      "kv": 1850,
-      "prop": "Gemfan 6026",
-      "cells": "5S",
-      "throttle": 50,
-      "voltage_v": 21.0,
-      "current_a": 2.5,
-      "rpm": null,
-      "thrust_g": 338,
-      "efficiency_gw": 6.438
-     },
-     {
-      "kv": 1850,
-      "prop": "Gemfan 6026",
-      "cells": "5S",
-      "throttle": 100,
-      "voltage_v": 21.0,
-      "current_a": 13.9,
-      "rpm": null,
-      "thrust_g": 944,
-      "efficiency_gw": 3.234
-     },
-     {
-      "kv": 1850,
-      "prop": "Gemfan 6026",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 24.0,
-      "current_a": 3.3,
-      "rpm": null,
-      "thrust_g": 422,
-      "efficiency_gw": 5.328
-     },
-     {
-      "kv": 1850,
-      "prop": "Gemfan 6026",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.0,
-      "current_a": 16.5,
-      "rpm": null,
-      "thrust_g": 1174,
-      "efficiency_gw": 2.965
-     },
-     {
-      "kv": 2950,
-      "prop": "Gemfan D76",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 24.0,
-      "current_a": 6.3,
-      "rpm": null,
-      "thrust_g": 389,
-      "efficiency_gw": 2.573
-     },
-     {
-      "kv": 2950,
-      "prop": "Gemfan D76",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.0,
-      "current_a": 26.8,
-      "rpm": null,
-      "thrust_g": 1028,
-      "efficiency_gw": 1.598
-     },
-     {
-      "kv": 2950,
-      "prop": "Gemfan D76*5",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 24.0,
-      "current_a": 7.6,
-      "rpm": null,
-      "thrust_g": 413,
-      "efficiency_gw": 2.264
-     },
-     {
-      "kv": 2950,
-      "prop": "Gemfan D76*5",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.0,
-      "current_a": 28.7,
-      "rpm": null,
-      "thrust_g": 1080,
-      "efficiency_gw": 1.568
-     },
-     {
-      "kv": 2950,
-      "prop": "Gemfan 4024R",
-      "cells": "3S",
-      "throttle": 50,
-      "voltage_v": 12.0,
-      "current_a": 2.6,
-      "rpm": null,
-      "thrust_g": 155,
-      "efficiency_gw": 4.968
-     },
-     {
-      "kv": 2950,
-      "prop": "Gemfan 4024R",
-      "cells": "3S",
-      "throttle": 100,
-      "voltage_v": 12.0,
-      "current_a": 12.5,
-      "rpm": null,
-      "thrust_g": 499,
-      "efficiency_gw": 3.327
-     },
-     {
-      "kv": 2950,
-      "prop": "Gemfan 4024R",
-      "cells": "4S",
-      "throttle": 50,
-      "voltage_v": 16.0,
-      "current_a": 4,
-      "rpm": null,
-      "thrust_g": 256,
-      "efficiency_gw": 4.0
-     },
-     {
-      "kv": 2950,
-      "prop": "Gemfan 4024R",
-      "cells": "4S",
-      "throttle": 100,
-      "voltage_v": 16.0,
-      "current_a": 19.5,
-      "rpm": null,
-      "thrust_g": 805,
-      "efficiency_gw": 2.58
-     },
-     {
-      "kv": 2950,
-      "prop": "HQ T5*3R",
-      "cells": "3S",
-      "throttle": 50,
-      "voltage_v": 12.0,
-      "current_a": 4.5,
-      "rpm": null,
-      "thrust_g": 287,
-      "efficiency_gw": 5.315
-     },
-     {
-      "kv": 2950,
-      "prop": "HQ T5*3R",
-      "cells": "3S",
-      "throttle": 100,
-      "voltage_v": 12.0,
-      "current_a": 20.8,
-      "rpm": null,
-      "thrust_g": 785,
-      "efficiency_gw": 3.145
-     },
-     {
-      "kv": 2950,
-      "prop": "HQ T5*3R",
-      "cells": "4S",
-      "throttle": 50,
-      "voltage_v": 16.0,
-      "current_a": 6.6,
-      "rpm": null,
-      "thrust_g": 439,
-      "efficiency_gw": 4.157
-     },
-     {
-      "kv": 2950,
-      "prop": "HQ T5*3R",
-      "cells": "4S",
-      "throttle": 100,
-      "voltage_v": 16.0,
-      "current_a": 30.9,
-      "rpm": null,
-      "thrust_g": 1176,
-      "efficiency_gw": 2.379
-     },
-     {
-      "kv": 2950,
-      "prop": "Gemfan 5125R",
-      "cells": "3S",
-      "throttle": 50,
-      "voltage_v": 12.0,
-      "current_a": 4,
-      "rpm": null,
-      "thrust_g": 257,
-      "efficiency_gw": 5.354
-     },
-     {
-      "kv": 2950,
-      "prop": "Gemfan 5125R",
-      "cells": "3S",
-      "throttle": 100,
-      "voltage_v": 12.0,
-      "current_a": 20.9,
-      "rpm": null,
-      "thrust_g": 806,
-      "efficiency_gw": 3.214
-     },
-     {
-      "kv": 2950,
-      "prop": "Gemfan 5125R",
-      "cells": "4S",
-      "throttle": 50,
-      "voltage_v": 16.0,
-      "current_a": 7.2,
-      "rpm": null,
-      "thrust_g": 453,
-      "efficiency_gw": 3.932
-     },
-     {
-      "kv": 2950,
-      "prop": "Gemfan 5125R",
-      "cells": "4S",
-      "throttle": 100,
-      "voltage_v": 16.0,
-      "current_a": 31.6,
-      "rpm": null,
-      "thrust_g": 1236,
-      "efficiency_gw": 2.445
-     },
-     {
-      "kv": 2950,
-      "prop": "Gemfan 6026",
-      "cells": "3S",
-      "throttle": 50,
-      "voltage_v": 12.0,
-      "current_a": 5.7,
-      "rpm": null,
-      "thrust_g": 370,
-      "efficiency_gw": 5.409
-     },
-     {
-      "kv": 2950,
-      "prop": "Gemfan 6026",
-      "cells": "3S",
-      "throttle": 100,
-      "voltage_v": 12.0,
-      "current_a": 26.7,
-      "rpm": null,
-      "thrust_g": 994,
-      "efficiency_gw": 3.102
-     },
-     {
-      "kv": 2950,
-      "prop": "Gemfan 6026",
-      "cells": "4S",
-      "throttle": 50,
-      "voltage_v": 16.0,
-      "current_a": 9,
-      "rpm": null,
-      "thrust_g": 597,
-      "efficiency_gw": 4.146
-     },
-     {
-      "kv": 3600,
-      "prop": "Gemfan D76*5",
-      "cells": "3S",
-      "throttle": 50,
-      "voltage_v": 12.0,
-      "current_a": 5.5,
-      "rpm": null,
-      "thrust_g": 221,
-      "efficiency_gw": 3.348
-     },
-     {
-      "kv": 3600,
-      "prop": "Gemfan D76*5",
-      "cells": "3S",
-      "throttle": 100,
-      "voltage_v": 12.0,
-      "current_a": 24.4,
-      "rpm": null,
-      "thrust_g": 589,
-      "efficiency_gw": 2.012
-     },
-     {
-      "kv": 3600,
-      "prop": "Gemfan D76*5",
-      "cells": "4S",
-      "throttle": 50,
-      "voltage_v": 16.0,
-      "current_a": 9.4,
-      "rpm": null,
-      "thrust_g": 347,
-      "efficiency_gw": 2.307
-     },
-     {
-      "kv": 3600,
-      "prop": "Gemfan D76*5",
-      "cells": "4S",
-      "throttle": 100,
-      "voltage_v": 16.0,
-      "current_a": 35.3,
-      "rpm": null,
-      "thrust_g": 889,
-      "efficiency_gw": 1.574
-     },
-     {
-      "kv": 3600,
-      "prop": "Gemfan D90*3",
-      "cells": "3S",
-      "throttle": 50,
-      "voltage_v": 12.0,
-      "current_a": 6.2,
-      "rpm": null,
-      "thrust_g": 310,
-      "efficiency_gw": 4.167
-     },
-     {
-      "kv": 3600,
-      "prop": "Gemfan D90*3",
-      "cells": "3S",
-      "throttle": 100,
-      "voltage_v": 12.0,
-      "current_a": 25.8,
-      "rpm": null,
-      "thrust_g": 711,
-      "efficiency_gw": 2.297
-     },
-     {
-      "kv": 3600,
-      "prop": "Gemfan D90*3",
-      "cells": "4S",
-      "throttle": 50,
-      "voltage_v": 16.0,
-      "current_a": 10.1,
-      "rpm": null,
-      "thrust_g": 437,
-      "efficiency_gw": 2.704
-     },
-     {
-      "kv": 3600,
-      "prop": "Gemfan D90*3",
-      "cells": "4S",
-      "throttle": 100,
-      "voltage_v": 16.0,
-      "current_a": 36.4,
-      "rpm": null,
-      "thrust_g": 1049,
-      "efficiency_gw": 1.801
-     },
-     {
-      "kv": 3600,
-      "prop": "Gemfan 4024R",
-      "cells": "3S",
-      "throttle": 50,
-      "voltage_v": 12.0,
-      "current_a": 4.8,
-      "rpm": null,
-      "thrust_g": 234,
-      "efficiency_gw": 4.063
-     },
-     {
-      "kv": 3600,
-      "prop": "Gemfan 4024R",
-      "cells": "3S",
-      "throttle": 100,
-      "voltage_v": 12.0,
-      "current_a": 22.6,
-      "rpm": null,
-      "thrust_g": 699,
-      "efficiency_gw": 2.577
-     },
-     {
-      "kv": 3600,
-      "prop": "Gemfan 4024R",
-      "cells": "4S",
-      "throttle": 50,
-      "voltage_v": 16.0,
-      "current_a": 7.9,
-      "rpm": null,
-      "thrust_g": 394,
-      "efficiency_gw": 3.117
-     },
-     {
-      "kv": 3600,
-      "prop": "Gemfan 4024R",
-      "cells": "4S",
-      "throttle": 100,
-      "voltage_v": 16.0,
-      "current_a": 35,
-      "rpm": null,
-      "thrust_g": 1081,
-      "efficiency_gw": 1.93
-     },
-     {
-      "kv": 3600,
-      "prop": "HQ T5*3R",
-      "cells": "3S",
-      "throttle": 50,
-      "voltage_v": 12.0,
-      "current_a": 8.8,
-      "rpm": null,
-      "thrust_g": 429,
-      "efficiency_gw": 4.063
-     },
-     {
-      "kv": 3600,
-      "prop": "HQ T5*3R",
-      "cells": "3S",
-      "throttle": 100,
-      "voltage_v": 12.0,
-      "current_a": 35.3,
-      "rpm": null,
-      "thrust_g": 1021,
-      "efficiency_gw": 2.41
-     }
-    ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø25.53x15.2",
-    "mount_mm": "12x12mm (4-M2)",
-    "resistance_mohm": "160 (1850KV) / 60 (2950KV) / 45 (3600KV)"
-   },
-   "_scraped_at": "2026-09-28",
-   "sources": [
-    "https://www.racedayquads.com/products/rcinpower-gts-v3-2105-plus-2950kv-motor-choose-color",
-    "https://www.rcinpower.com/G-SERIES/53.html"
-   ],
-   "note": "RCinPower builds the GTS V3 2105 Plus in 1850, 2950 and 3600 KV and publishes a data sheet for each; our retail listing covers the 2950 KV. The 1850 KV is the 5-6S winding and is benched at 21 V and 24 V; the 2950 and 3600 KV blocks rate the motor 3-4S and bench it at 12 V and 16 V. 12N14P, 21x5.5 mm stator, 3 mm inner shaft with an M5 prop thread, 12x12 mm four-bolt M2 mount, Phi 25.53x15.2 mm (the 3600 KV sheet prints 15.4 mm), internal resistance 160/60/45 mOhm for 1850/2950/3600 KV. Three things in the source are reproduced as printed rather than corrected: (1) the 2950 KV sheet benches its two Gemfan D76 duct props at 24 V - 6S on a motor its own block rates 3-4S - and the D76*5 full-throttle row draws 688.8 W against that block's 620 W max-continuous rating; (2) all three blocks head their power and current maxima \"3S\" even on the 5-6S 1850 KV, which is RCinPower's template label and not a 3S measurement; (3) the 3600 KV sheet leaves the HQ T5*3R 16 V rows blank. The 2950 KV sheet image is also clipped: the Gemfan 6026 16 V full-throttle row and the table footer are cut off, so that row is missing here - its block's 620 W and 38.8 A are 16 V x 38.8 A = 620.8 W, which is where it would have landed. Where the sheet is complete the same check passes exactly: the 1850 KV block's 396 W and 16.5 A are its Gemfan 6026 24 V full-throttle row, and the 3600 KV block's 582 W and 36.4 A are its Gemfan D90*3 16 V row. Weight is 20 g with 3 cm wire on the 1850 and 3600 KV sheets and 21 g on the 2950 KV one. Temperature after 3 s at full throttle runs 59-75 degC on the 1850 KV and 53-83 degC on the other two, with the 3600 KV Gemfan D90*3 16 V run flagged HOT; the 2950 KV Gemfan 6026 16 V temperature cell is clipped mid-glyph and is not readable"
-  },
-  {
-   "type": "motor",
-   "brand": "RCINPOWER",
-   "model": "GTS-V3 2107 Plus",
-   "slug": "rcinpower-gts-v3-2107-plus",
-   "specs": {
-    "stator": "2107.5",
-    "kv_options": [
-     1980,
-     2080,
-     2480
-    ],
-    "weight_g": 29.0,
-    "max_cells": "5-6S",
-    "shaft": "5mm",
-    "recommended_props": "5in props (derived)",
-    "price_usd": 31.49,
-    "max_thrust_g": 2269,
-    "thrust_conditions": "RCinPower bench, three KV sheets (1980, 2080, 2480), five props each at two voltages, 50% and 100% throttle; no RPM published",
-    "thrust_table": [
-     {
-      "kv": 1980,
-      "prop": "HQ EthiX S4",
-      "cells": "5S",
-      "throttle": 50,
-      "voltage_v": 21.0,
-      "current_a": 6.0,
-      "rpm": null,
-      "thrust_g": 615,
-      "efficiency_gw": 4.881
-     },
-     {
-      "kv": 1980,
-      "prop": "HQ EthiX S4",
-      "cells": "5S",
-      "throttle": 100,
-      "voltage_v": 21.0,
-      "current_a": 27.5,
-      "rpm": null,
-      "thrust_g": 1661,
-      "efficiency_gw": 2.876
-     },
-     {
-      "kv": 1980,
-      "prop": "HQ EthiX S4",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 24.0,
-      "current_a": 7.8,
-      "rpm": null,
-      "thrust_g": 780,
-      "efficiency_gw": 4.167
-     },
-     {
-      "kv": 1980,
-      "prop": "HQ EthiX S4",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.0,
-      "current_a": 32.9,
-      "rpm": null,
-      "thrust_g": 1959,
-      "efficiency_gw": 2.481
-     },
-     {
-      "kv": 1980,
-      "prop": "HQ EthiX S5",
-      "cells": "5S",
-      "throttle": 50,
-      "voltage_v": 21.0,
-      "current_a": 6.8,
-      "rpm": null,
-      "thrust_g": 672,
-      "efficiency_gw": 4.741
-     },
-     {
-      "kv": 1980,
-      "prop": "HQ EthiX S5",
-      "cells": "5S",
-      "throttle": 100,
-      "voltage_v": 21.0,
-      "current_a": 32.1,
-      "rpm": null,
-      "thrust_g": 1788,
-      "efficiency_gw": 2.652
-     },
-     {
-      "kv": 1980,
-      "prop": "HQ EthiX S5",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 24.0,
-      "current_a": 8.9,
-      "rpm": null,
-      "thrust_g": 843,
-      "efficiency_gw": 3.947
-     },
-     {
-      "kv": 1980,
-      "prop": "HQ EthiX S5",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.0,
-      "current_a": 38.8,
-      "rpm": null,
-      "thrust_g": 2112,
-      "efficiency_gw": 2.268
-     },
-     {
-      "kv": 1980,
-      "prop": "DAL T5147.5",
-      "cells": "5S",
-      "throttle": 50,
-      "voltage_v": 21.0,
-      "current_a": 5.7,
-      "rpm": null,
-      "thrust_g": 613,
-      "efficiency_gw": 5.121
-     },
-     {
-      "kv": 1980,
-      "prop": "DAL T5147.5",
-      "cells": "5S",
-      "throttle": 100,
-      "voltage_v": 21.0,
-      "current_a": 27.2,
-      "rpm": null,
-      "thrust_g": 1732,
-      "efficiency_gw": 3.032
-     },
-     {
-      "kv": 1980,
-      "prop": "DAL T5147.5",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 24.0,
-      "current_a": 6.3,
-      "rpm": null,
-      "thrust_g": 734,
-      "efficiency_gw": 4.854
-     },
-     {
-      "kv": 1980,
-      "prop": "DAL T5147.5",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.0,
-      "current_a": 33.2,
-      "rpm": null,
-      "thrust_g": 2065,
-      "efficiency_gw": 2.592
-     },
-     {
-      "kv": 1980,
-      "prop": "GF 5152",
-      "cells": "5S",
-      "throttle": 50,
-      "voltage_v": 21.0,
-      "current_a": 6.5,
-      "rpm": null,
-      "thrust_g": 627,
-      "efficiency_gw": 4.593
-     },
-     {
-      "kv": 1980,
-      "prop": "GF 5152",
-      "cells": "5S",
-      "throttle": 100,
-      "voltage_v": 21.0,
-      "current_a": 32.0,
-      "rpm": null,
-      "thrust_g": 1693,
-      "efficiency_gw": 2.519
-     },
-     {
-      "kv": 1980,
-      "prop": "GF 5152",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 24.0,
-      "current_a": 8.3,
-      "rpm": null,
-      "thrust_g": 787,
-      "efficiency_gw": 3.951
-     },
-     {
-      "kv": 1980,
-      "prop": "GF 5152",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.0,
-      "current_a": 38.9,
-      "rpm": null,
-      "thrust_g": 1951,
-      "efficiency_gw": 2.09
-     },
-     {
-      "kv": 1980,
-      "prop": "HQ 5.1*3.1*3R",
-      "cells": "5S",
-      "throttle": 50,
-      "voltage_v": 21.0,
-      "current_a": 6.8,
-      "rpm": null,
-      "thrust_g": 689,
-      "efficiency_gw": 4.861
-     },
-     {
-      "kv": 1980,
-      "prop": "HQ 5.1*3.1*3R",
-      "cells": "5S",
-      "throttle": 100,
-      "voltage_v": 21.0,
-      "current_a": 28.5,
-      "rpm": null,
-      "thrust_g": 1813,
-      "efficiency_gw": 3.029
-     },
-     {
-      "kv": 1980,
-      "prop": "HQ 5.1*3.1*3R",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 24.0,
-      "current_a": 7.6,
-      "rpm": null,
-      "thrust_g": 804,
-      "efficiency_gw": 4.408
-     },
-     {
-      "kv": 1980,
-      "prop": "HQ 5.1*3.1*3R",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.0,
-      "current_a": 34.4,
-      "rpm": null,
-      "thrust_g": 2163,
-      "efficiency_gw": 2.62
-     },
-     {
-      "kv": 2080,
-      "prop": "HQ EthiX S4",
-      "cells": "5S",
-      "throttle": 50,
-      "voltage_v": 21.0,
-      "current_a": 6.5,
-      "rpm": null,
-      "thrust_g": 653,
-      "efficiency_gw": 4.784
-     },
-     {
-      "kv": 2080,
-      "prop": "HQ EthiX S4",
-      "cells": "5S",
-      "throttle": 100,
-      "voltage_v": 21.0,
-      "current_a": 29.7,
-      "rpm": null,
-      "thrust_g": 1746,
-      "efficiency_gw": 2.799
-     },
-     {
-      "kv": 2080,
-      "prop": "HQ EthiX S4",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 24.0,
-      "current_a": 8.3,
-      "rpm": null,
-      "thrust_g": 823,
-      "efficiency_gw": 4.157
-     },
-     {
-      "kv": 2080,
-      "prop": "HQ EthiX S4",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.0,
-      "current_a": 35.6,
-      "rpm": null,
-      "thrust_g": 2030,
-      "efficiency_gw": 2.376
-     },
-     {
-      "kv": 2080,
-      "prop": "HQ EthiX S5",
-      "cells": "5S",
-      "throttle": 50,
-      "voltage_v": 21.0,
-      "current_a": 8.0,
-      "rpm": null,
-      "thrust_g": 734,
-      "efficiency_gw": 4.369
-     },
-     {
-      "kv": 2080,
-      "prop": "HQ EthiX S5",
-      "cells": "5S",
-      "throttle": 100,
-      "voltage_v": 21.0,
-      "current_a": 35.1,
-      "rpm": null,
-      "thrust_g": 1874,
-      "efficiency_gw": 2.542
-     },
-     {
-      "kv": 2080,
-      "prop": "HQ EthiX S5",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 24.0,
-      "current_a": 9.5,
-      "rpm": null,
-      "thrust_g": 880,
-      "efficiency_gw": 3.86
-     },
-     {
-      "kv": 2080,
-      "prop": "HQ EthiX S5",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.0,
-      "current_a": 43.4,
-      "rpm": null,
-      "thrust_g": 2269,
-      "efficiency_gw": 2.178
-     },
-     {
-      "kv": 2080,
-      "prop": "DAL T5147.5",
-      "cells": "5S",
-      "throttle": 50,
-      "voltage_v": 21.0,
-      "current_a": 6.0,
-      "rpm": null,
-      "thrust_g": 640,
-      "efficiency_gw": 5.079
-     },
-     {
-      "kv": 2080,
-      "prop": "DAL T5147.5",
-      "cells": "5S",
-      "throttle": 100,
-      "voltage_v": 21.0,
-      "current_a": 29.7,
-      "rpm": null,
-      "thrust_g": 1833,
-      "efficiency_gw": 2.939
-     },
-     {
-      "kv": 2080,
-      "prop": "DAL T5147.5",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 24.0,
-      "current_a": 7.4,
-      "rpm": null,
-      "thrust_g": 789,
-      "efficiency_gw": 4.443
-     },
-     {
-      "kv": 2080,
-      "prop": "DAL T5147.5",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.0,
-      "current_a": 36.6,
-      "rpm": null,
-      "thrust_g": 2126,
-      "efficiency_gw": 2.42
-     },
-     {
-      "kv": 2080,
-      "prop": "GF 5152",
-      "cells": "5S",
-      "throttle": 50,
-      "voltage_v": 21.0,
-      "current_a": 7.4,
-      "rpm": null,
-      "thrust_g": 675,
-      "efficiency_gw": 4.344
-     },
-     {
-      "kv": 2080,
-      "prop": "GF 5152",
-      "cells": "5S",
-      "throttle": 100,
-      "voltage_v": 21.0,
-      "current_a": 34.1,
-      "rpm": null,
-      "thrust_g": 1727,
-      "efficiency_gw": 2.412
-     },
-     {
-      "kv": 2080,
-      "prop": "GF 5152",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 24.0,
-      "current_a": 8.5,
-      "rpm": null,
-      "thrust_g": 832,
-      "efficiency_gw": 4.078
-     },
-     {
-      "kv": 2080,
-      "prop": "GF 5152",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.0,
-      "current_a": 42.6,
-      "rpm": null,
-      "thrust_g": 2029,
-      "efficiency_gw": 1.985
-     },
-     {
-      "kv": 2080,
-      "prop": "HQ 5.1*3.1*3R",
-      "cells": "5S",
-      "throttle": 50,
-      "voltage_v": 21.0,
-      "current_a": 6.8,
-      "rpm": null,
-      "thrust_g": 701,
-      "efficiency_gw": 4.909
-     },
-     {
-      "kv": 2080,
-      "prop": "HQ 5.1*3.1*3R",
-      "cells": "5S",
-      "throttle": 100,
-      "voltage_v": 21.0,
-      "current_a": 30.7,
-      "rpm": null,
-      "thrust_g": 1878,
-      "efficiency_gw": 2.913
-     },
-     {
-      "kv": 2080,
-      "prop": "HQ 5.1*3.1*3R",
-      "cells": "6S",
-      "throttle": 50,
-      "voltage_v": 24.0,
-      "current_a": 8.3,
-      "rpm": null,
-      "thrust_g": 856,
-      "efficiency_gw": 4.297
-     },
-     {
-      "kv": 2080,
-      "prop": "HQ 5.1*3.1*3R",
-      "cells": "6S",
-      "throttle": 100,
-      "voltage_v": 24.0,
-      "current_a": 37.1,
-      "rpm": null,
-      "thrust_g": 2251,
-      "efficiency_gw": 2.528
-     },
-     {
-      "kv": 2480,
-      "prop": "HQ EthiX S4",
-      "cells": "4S",
-      "throttle": 50,
-      "voltage_v": 16.0,
-      "current_a": 6.3,
-      "rpm": null,
-      "thrust_g": 533,
-      "efficiency_gw": 5.288
-     },
-     {
-      "kv": 2480,
-      "prop": "HQ EthiX S4",
-      "cells": "4S",
-      "throttle": 100,
-      "voltage_v": 16.0,
-      "current_a": 27.5,
-      "rpm": null,
-      "thrust_g": 1378,
-      "efficiency_gw": 3.132
-     },
-     {
-      "kv": 2480,
-      "prop": "HQ EthiX S4",
-      "cells": "5S",
-      "throttle": 50,
-      "voltage_v": 21.0,
-      "current_a": 9.3,
-      "rpm": null,
-      "thrust_g": 784,
-      "efficiency_gw": 4.014
-     },
-     {
-      "kv": 2480,
-      "prop": "HQ EthiX S4",
-      "cells": "5S",
-      "throttle": 100,
-      "voltage_v": 21.0,
-      "current_a": 39.6,
-      "rpm": null,
-      "thrust_g": 1931,
-      "efficiency_gw": 2.322
-     },
-     {
-      "kv": 2480,
-      "prop": "HQ EthiX S5",
-      "cells": "4S",
-      "throttle": 50,
-      "voltage_v": 16.0,
-      "current_a": 7.0,
-      "rpm": null,
-      "thrust_g": 552,
-      "efficiency_gw": 4.929
-     },
-     {
-      "kv": 2480,
-      "prop": "HQ EthiX S5",
-      "cells": "4S",
-      "throttle": 100,
-      "voltage_v": 16.0,
-      "current_a": 31.0,
-      "rpm": null,
-      "thrust_g": 1429,
-      "efficiency_gw": 2.881
-     },
-     {
-      "kv": 2480,
-      "prop": "HQ EthiX S5",
-      "cells": "5S",
-      "throttle": 50,
-      "voltage_v": 21.0,
-      "current_a": 10.8,
-      "rpm": null,
-      "thrust_g": 848,
-      "efficiency_gw": 3.739
-     },
-     {
-      "kv": 2480,
-      "prop": "HQ EthiX S5",
-      "cells": "5S",
-      "throttle": 100,
-      "voltage_v": 21.0,
-      "current_a": 46.3,
-      "rpm": null,
-      "thrust_g": 2085,
-      "efficiency_gw": 2.144
-     },
-     {
-      "kv": 2480,
-      "prop": "DAL T5147.5",
-      "cells": "4S",
-      "throttle": 50,
-      "voltage_v": 16.0,
-      "current_a": 5.7,
-      "rpm": null,
-      "thrust_g": 494,
-      "efficiency_gw": 5.417
-     },
-     {
-      "kv": 2480,
-      "prop": "DAL T5147.5",
-      "cells": "4S",
-      "throttle": 100,
-      "voltage_v": 16.0,
-      "current_a": 26.1,
-      "rpm": null,
-      "thrust_g": 1373,
-      "efficiency_gw": 3.288
-     },
-     {
-      "kv": 2480,
-      "prop": "DAL T5147.5",
-      "cells": "5S",
-      "throttle": 50,
-      "voltage_v": 21.0,
-      "current_a": 8.7,
-      "rpm": null,
-      "thrust_g": 804,
-      "efficiency_gw": 4.401
-     },
-     {
-      "kv": 2480,
-      "prop": "DAL T5147.5",
-      "cells": "5S",
-      "throttle": 100,
-      "voltage_v": 21.0,
-      "current_a": 39.4,
-      "rpm": null,
-      "thrust_g": 1992,
-      "efficiency_gw": 2.408
-     },
-     {
-      "kv": 2480,
-      "prop": "GF 5152",
-      "cells": "4S",
-      "throttle": 50,
-      "voltage_v": 16.0,
-      "current_a": 7.5,
-      "rpm": null,
-      "thrust_g": 534,
-      "efficiency_gw": 4.45
-     },
-     {
-      "kv": 2480,
-      "prop": "GF 5152",
-      "cells": "4S",
-      "throttle": 100,
-      "voltage_v": 16.0,
-      "current_a": 30.9,
-      "rpm": null,
-      "thrust_g": 1368,
-      "efficiency_gw": 2.767
-     },
-     {
-      "kv": 2480,
-      "prop": "GF 5152",
-      "cells": "5S",
-      "throttle": 50,
-      "voltage_v": 21.0,
-      "current_a": 10.4,
-      "rpm": null,
-      "thrust_g": 797,
-      "efficiency_gw": 3.649
-     },
-     {
-      "kv": 2480,
-      "prop": "GF 5152",
-      "cells": "5S",
-      "throttle": 100,
-      "voltage_v": 21.0,
-      "current_a": 46.4,
-      "rpm": null,
-      "thrust_g": 1921,
-      "efficiency_gw": 1.971
-     },
-     {
-      "kv": 2480,
-      "prop": "HQ 5.1*3.1*3R",
-      "cells": "4S",
-      "throttle": 50,
-      "voltage_v": 16.0,
-      "current_a": 6.3,
-      "rpm": null,
-      "thrust_g": 546,
-      "efficiency_gw": 5.417
-     },
-     {
-      "kv": 2480,
-      "prop": "HQ 5.1*3.1*3R",
-      "cells": "4S",
-      "throttle": 100,
-      "voltage_v": 16.0,
-      "current_a": 27.9,
-      "rpm": null,
-      "thrust_g": 1442,
-      "efficiency_gw": 3.23
-     },
-     {
-      "kv": 2480,
-      "prop": "HQ 5.1*3.1*3R",
-      "cells": "5S",
-      "throttle": 50,
-      "voltage_v": 21.0,
-      "current_a": 9.5,
-      "rpm": null,
-      "thrust_g": 844,
-      "efficiency_gw": 4.231
-     },
-     {
-      "kv": 2480,
-      "prop": "HQ 5.1*3.1*3R",
-      "cells": "5S",
-      "throttle": 100,
-      "voltage_v": 21.0,
-      "current_a": 40.7,
-      "rpm": null,
-      "thrust_g": 2100,
-      "efficiency_gw": 2.457
-     }
-    ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø26.29x30.85",
-    "mount_mm": "16x16mm",
-    "resistance_mohm": "55 (1980KV) / 53 (2080KV) / 48 (2480KV)"
-   },
-   "_scraped_at": "2026-09-28",
-   "sources": [
-    "https://www.racedayquads.com/products/rcinpower-gts-v3-2107-plus-1980kv-motor-choose-color",
-    "https://www.racedayquads.com/products/rcinpower-gts-v3-2107-plus-2080kv-motor-choose-color",
-    "https://www.racedayquads.com/products/rcinpower-gts-v3-2107-plus-2480kv-motor-choose-color",
-    "https://www.rcinpower.com/G-SERIES/54.html"
-   ],
-   "note": "RCinPower builds the GTS V3 2107 Plus in 1980, 2080 and 2480 KV and publishes a data sheet for each; all three KV are on our listing. 12N14P, 21x7.5 mm stator, 4 mm hollow inner shaft (the drawing's prop thread is Phi 5), 16x16 mm four-bolt mount, Phi 26.29x30.85 mm, 29 g with 3 cm wire on all three sheets, idle current 0.85 A at 10 V on the 1980 KV and 0.9 A on the other two, internal resistance 55/53/48 mOhm for 1980/2080/2480 KV. The 1980 and 2080 KV blocks rate the motor 5-6S and bench it at 21 V and 24 V; the 2480 KV block rates it 4-5S and benches it at 16 V and 21 V. Four things in the source are reproduced as printed rather than corrected: (1) the two marketing banners on RCinPower's first product image head the motor \"1920kv / 1980kv / 2500kv\", which contradicts the three data sheets, the family comparison strip on the second image and our retail listing - all of which say 1980/2080/2480, so the banner is the odd one out and nothing here is taken from it; (2) all three blocks label their power and current maxima \"5S\", but on the 1980 and 2080 KV sheets the row those maxima name is the 24 V (6S) one - only the 2480 KV sheet's 5S label matches its own table; (3) two 21 V rows print 6.8 A beside 141.8 W and 142.8 W under the same heading, i.e. the current column is rounded and the power column is not; (4) the screw size in the mount callout (\"4 x M?\") is five pixels tall in the only image RCinPower publishes and is not legible, so the mount is recorded as its measured 16x16 mm span without a thread. Where the sheets are complete the spec block's own maxima are the top row of its table, on all three: 934 W / 38.9 A is the 1980 KV GF 5152 24 V full-throttle row, 1042 W / 43.4 A the 2080 KV HQ EthiX S5 24 V row, and 975 W / 46.4 A the 2480 KV GF 5152 21 V row. Temperature after 3 s at full throttle runs 65-85 degC across the three sheets, with the 24 V EthiX S5, GF 5152 and HQ 5.1*3.1*3R runs and the 2480 KV 21 V EthiX S5 and GF 5152 runs flagged HOT"
   },
   {
    "type": "motor",
@@ -25643,7 +23250,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 32.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/rcinpower-gts-v4-2207-1960kv-motor-silver-pink",
     "https://www.racedayquads.com/products/rcinpower-gts-v4-2207-2040kv-motor-silver-pink"
@@ -25665,7 +23272,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 34.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/rcinpower-mck-gts-v4-2207-2100kv-motor"
    ]
@@ -26199,7 +23806,7 @@
     "dimensions_mm": "20.7x28.2",
     "resistance_mohm": "113 (2680KV) / 65 (3800KV) / 59 (4200KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/rcinpower-smoox-1507-2680kv-micro-motor-gunmetal",
     "https://www.racedayquads.com/products/rcinpower-smoox-plus-1507-2680kv-motor",
@@ -26224,7 +23831,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 33.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/rcinpower-vanover-2207-v3-motor"
    ]
@@ -26891,7 +24498,7 @@
     "shaft": "4mm hollow",
     "resistance_mohm": "64 (1860KV) / 49 (2020KV) / 34 (2420KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/rcinpower-wasp-major-22-6-6-6-1860kv-motor-gold",
     "https://www.racedayquads.com/products/rcinpower-wasp-major-22-6-6-6-2420kv-motor-gold",
@@ -28198,7 +25805,7 @@
     "configuration": "12N14P",
     "dimensions_mm": "Ø20.2x18"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/rdq-badass-2-1507-motor-2650kv-4000kv"
    ],
@@ -28757,7 +26364,7 @@
     "configuration": "12N14P",
     "dimensions_mm": "Ø28.5x19.7"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/rdq-badass-2-2207-5-motor-1400kv-1900kv-2400kv"
    ],
@@ -29646,7 +27253,7 @@
     "configuration": "12N14P",
     "dimensions_mm": "Ø28.8x17.6"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/rdq-badass-2-2306-5-motor-1400kv-1900kv-2400kv"
    ],
@@ -29668,7 +27275,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 27.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/rush-fpv-reactor-racing-2207-5-1930kv-motor",
     "https://rushfpv.net/products/rush-racing-v2-1930kv"
@@ -29693,7 +27300,7 @@
     "mount_mm": "16x16mm",
     "resistance_mohm": "64"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/rush-fpv-reactor-training-2207-1960kv-motor",
     "https://rushfpv.net/products/rush-reactor-training-2207-%E7%9A%84%E5%89%AF%E6%9C%AC"
@@ -29718,7 +27325,7 @@
     "configuration": "9N12P",
     "dimensions_mm": "Ø12x14"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/sub250-m1-0803-19000kv-micro-whoop-motor-4-pack",
     "https://sub250.com/products/sub250-m1-0803-19000kv-1-5-mm-shaft-brushless-motor-for-nanofly16-pack-of-1-4"
@@ -31686,7 +29293,7 @@
     "dimensions_mm": "Ø26.8x26.45",
     "resistance_mohm": "235 (1500KV) / 90 (2850KV) / 76 (3550KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-2203-5-1500kv-micro-motor",
     "https://www.racedayquads.com/products/t-motor-2203-5-3550kv-micro-motor",
@@ -32378,7 +29985,7 @@
     "dimensions_mm": "Ø33.4x38.05",
     "resistance_mohm": "61 (1100KV) / 42 (1350KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-f100-2810-1100kv-motor",
     "https://www.racedayquads.com/products/t-motor-f100-2810-1350kv-motor",
@@ -33135,7 +30742,7 @@
     "dimensions_mm": "Ø15.5x14.05",
     "resistance_mohm": "198"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://pyrodrone.com/products/t-motor-f1203-7000kv-motor",
     "https://www.racedayquads.com/products/t-motor-1203-7000kv-micro-motor",
@@ -33651,7 +31258,7 @@
     "dimensions_mm": "Ø15.5x15.6",
     "resistance_mohm": "240 (5000KV) / 140 (6500KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-f1204-5000kv-motor",
     "https://www.racedayquads.com/products/t-motor-f1204-6500kv-motor",
@@ -35015,7 +32622,7 @@
     "dimensions_mm": "Ø17.9x16.6",
     "resistance_mohm": "310 (2900KV) / 195 (3800KV) / 138 (4600KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-f1404-3800kv-micro-motor",
     "https://www.racedayquads.com/products/t-motor-f1404-4600kv-micro-motor",
@@ -35039,7 +32646,7 @@
     "price_usd": 18.89,
     "max_cells": "3-4S"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://pyrodrone.com/products/t-motor-f1408-ii-3950kv-fpv-drone-motor-titanium-red",
     "https://www.racedayquads.com/products/t-motor-f1408-1408-3950kv-motor"
@@ -35795,7 +33402,7 @@
     "dimensions_mm": "Ø18.9x29.7",
     "resistance_mohm": "131 (2700KV) / 81 (3800KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-f1507-3800kv-micro-motor",
     "https://www.tmotorhobby.com/goods-923.html"
@@ -36910,7 +34517,7 @@
      }
     ]
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-f40-pro-v-2306-8-1950kv-brushless-motor",
     "https://www.racedayquads.com/products/t-motor-f40-pro-v-2306-8-2150kv-brushless-motor",
@@ -36935,7 +34542,7 @@
     "price_usd": 37.99,
     "max_cells": "6S"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-f50-2207-5-racing-motor-2150kv-2200kv"
    ],
@@ -37402,7 +35009,7 @@
     ],
     "configuration": "12N14P"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/draft-t-motor-f60-pro-v-lv-2020kv-motor",
     "https://www.tmotorhobby.com/goods-1201.html"
@@ -38881,7 +36488,7 @@
      }
     ]
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-f60-pro-iv-v2-2207-5-1750kv-racing-motor-grey",
     "https://www.tmotorhobby.com/goods-960.html"
@@ -39350,7 +36957,7 @@
      }
     ]
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-f60-pro-v-1750kv-motor-gray",
     "https://www.racedayquads.com/products/t-motor-f60-pro-v-2020kv-motor-gray",
@@ -39819,7 +37426,7 @@
     ],
     "configuration": "12N14P"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-f60-pro-lv-1950kv-racing-motor-red-grey",
     "https://www.tmotorhobby.com/goods-1201.html"
@@ -39842,7 +37449,7 @@
     "recommended_props": "7-8in props (derived)",
     "price_usd": 37.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-f90-2806-5-1950kv-motor"
    ]
@@ -39863,7 +37470,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 37.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-its-2208-1750kv"
    ]
@@ -39884,7 +37491,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 36.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-its-2306-5-1750kv-olive-green"
    ]
@@ -40241,7 +37848,7 @@
     ],
     "configuration": "9N12P"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-m0802-ii-micro-motor-25000kv",
     "https://www.racedayquads.com/products/t-motor-m0802-ii-micro-motor-27000kv",
@@ -40932,7 +38539,7 @@
     "configuration": "9N12P",
     "dimensions_mm": "Ø14.5x13.55"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-m1103-11000kv-micro-motor",
     "https://www.racedayquads.com/products/t-motor-m1103-8000kv-micro-motor",
@@ -41072,7 +38679,7 @@
     ],
     "configuration": "12N14P"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-pacer-1604-2850kv-motor",
     "https://www.racedayquads.com/products/t-motor-pacer-1604-3800kv-motor",
@@ -41630,7 +39237,7 @@
     "configuration": "12N14P",
     "dimensions_mm": "Ø30.4x28.8"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-pacer-2505-1850kv-motor",
     "https://www.tmotorhobby.com/goods-1171.html"
@@ -42097,7 +39704,7 @@
      }
     ]
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://pyrodrone.com/products/t-motor-pacer-p1804-2400kv-ultra-light-freestyle-brushless-motor",
     "https://www.racedayquads.com/products/t-motor-p1804-2400kv-motor-choose-version",
@@ -43569,7 +41176,7 @@
     "dimensions_mm": "Ø28.1x31",
     "weight_g": 34.2
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-pacer-v3-2207-1750kv-motor",
     "https://www.racedayquads.com/products/t-motor-pacer-v3-2207-1950kv-motor",
@@ -43596,7 +41203,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 32.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-slatts-2306-3-1700kv",
     "https://www.racedayquads.com/products/t-motor-slatts-2306-3-2500kv-motor-choose-color"
@@ -44286,7 +41893,7 @@
     "configuration": "12N14P",
     "dimensions_mm": "Ø33.4x37"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://pyrodrone.com/products/t-motor-velox-victory-v2808-cinematic-fpv-drone-motor-1500kv",
     "https://www.racedayquads.com/products/t-motor-v2808-1300kv-motor",
@@ -46301,7 +43908,7 @@
     "dimensions_mm": "Ø37.2x51.1",
     "resistance_mohm": "145.38 (400KV) / 67.13 (640KV) / 38.08 (900KV) / 33.84 (1050KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://pyrodrone.com/products/t-motor-velox-v3115-cinematic-fpv-drone-motor-900kv",
     "https://www.racedayquads.com/products/t-motor-v3115-3115-640kv-motor",
@@ -47214,7 +44821,7 @@
     "dimensions_mm": "Ø37.2x56.1",
     "resistance_mohm": "76.35 (500KV) / 40.59 (700KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://pyrodrone.com/products/t-motor-velox-v3120-cinematic-fpv-drone-motor-700kv",
     "https://www.racedayquads.com/products/t-motor-v3120-3120-700kv-motor",
@@ -48699,7 +46306,7 @@
     "dimensions_mm": "Ø27.5x31.35",
     "resistance_mohm": "59 (1750KV) / 50 (1950KV) / 43 (2550KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-velox-2207-2550kv-motor-1",
     "https://www.racedayquads.com/products/t-motor-velox-v2-2207-1950kv-motor",
@@ -50183,7 +47790,7 @@
     "dimensions_mm": "27.6x31.45",
     "resistance_mohm": "74 (1750KV) / 53.5 (1950KV) / 41 (2550KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-velox-v2-2207-5-1750kv-motor-royal-blue",
     "https://www.racedayquads.com/products/t-motor-velox-v2-2207-5-1950kv-motor-royal-blue",
@@ -51668,7 +49275,7 @@
     "dimensions_mm": "Ø27.6x31.95",
     "resistance_mohm": "65 (1750KV) / 52 (1950KV) / 41 (2450KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-velox-v2-2208-1750kv-motor-grey",
     "https://www.racedayquads.com/products/t-motor-velox-v2-2208-1950kv-motor-grey",
@@ -51693,7 +49300,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 17.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-velox-v2-2306-1950kv-motor",
     "https://www.racedayquads.com/products/t-motor-velox-v2-2306-2400kv-motor"
@@ -52691,7 +50298,7 @@
     "dimensions_mm": "Ø28.6x30.45",
     "resistance_mohm": "67 (1950KV) / 47 (2550KV)"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-velox-v2-v2306-5-1950kv-motor",
     "https://www.tmotorhobby.com/goods-1110.html"
@@ -53824,7 +51431,7 @@
     "configuration": "12N14P",
     "dimensions_mm": "Ø27.5x31.8"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-velox-v2207-v3-0-2207-1500kv-motor",
     "https://www.racedayquads.com/products/t-motor-velox-v3-0-v2207-2207-1750kv-motor",
@@ -53851,7 +51458,7 @@
     "weight_g": 37.3,
     "max_cells": "6S"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-velox-v2207-v3-5-power-system"
    ],
@@ -54817,7 +52424,7 @@
     "configuration": "12N14P",
     "dimensions_mm": "Ø27.9x30.65"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-velox-v2306-v3-0-2306-1950kv-motor",
     "https://www.racedayquads.com/products/t-motor-velox-v3-0-v2306-2306-1750kv-motor",
@@ -54842,7 +52449,7 @@
     "recommended_props": "3-4in props (derived)",
     "price_usd": 21.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/ethix-flat-rats-v2-1507-2800kv-motor"
    ]
@@ -54863,7 +52470,7 @@
     "recommended_props": "6-7in props (derived)",
     "price_usd": 32.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/ethix-konasty-moon-boot-v2-2507-1750kv-motor-army-green",
     "https://www.racedayquads.com/products/ethix-konasty-moon-boot-v2-2507-2200kv-motor-army-green"
@@ -54884,7 +52491,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 33.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/ethix-mr-steele-silk-v5-2307-1750kv-motor-choose-color"
    ]
@@ -54904,7 +52511,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 24.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/draft-ethix-mr-steele-stout-motor-v3-legacy-1750kv"
    ]
@@ -54924,7 +52531,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 33.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/ethix-mr-steele-stout-v5-2307-1950kv-motor-blue"
    ]
@@ -54948,7 +52555,7 @@
     "mount_mm": "12x12mm (2-M2)",
     "dimensions_mm": "Ø20.8x14.3"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/ummagawd-aerolite-1605-3600kv-motor-gunmetal-blue",
     "https://www.racedayquads.com/products/ummagawd-aerolite-1605-3800kv-micro-motor-gunmetal-purple"
@@ -54970,7 +52577,7 @@
     "recommended_props": "31-40mm whoop props (derived)",
     "price_usd": 32.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/vci-hobby-0702-pro-db-motor-4-pcs-27000kv"
    ]
@@ -54990,7 +52597,7 @@
     "recommended_props": "31-40mm whoop props (derived)",
     "price_usd": 29.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/vci-hobby-0702-pro-lite-motor-4-pcs-27000kv"
    ]
@@ -55011,7 +52618,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 20.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/vci-hobby-2207-lt-motor-2160kv-fire"
    ]
@@ -55032,7 +52639,7 @@
     "recommended_props": "7-8in props (derived)",
     "price_usd": 29.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/vci-hobby-2808-1350kv-motor"
    ]
@@ -55052,7 +52659,7 @@
     "recommended_props": "7-8in props (derived)",
     "price_usd": 20.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/vci-hobby-ares-2808-motor-1350kv"
    ]
@@ -55074,7 +52681,7 @@
     "recommended_props": "31-40mm whoop props (derived)",
     "price_usd": 43.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/vci-hobby-spark-0702-22000kv-micro-motor-4-pack",
     "https://www.racedayquads.com/products/vci-hobby-spark-0702-29000kv-micro-motor-4-pack"
@@ -55096,7 +52703,7 @@
     "recommended_props": "31-40mm whoop props (derived)",
     "price_usd": 24.2
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/vci-hobby-spark-0703-16500kv-micro-motor-4-pack"
    ]
@@ -55116,7 +52723,7 @@
     "recommended_props": "2-2.5in props (derived)",
     "price_usd": 20.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/vci-hobby-spark-1204-motor-2-pcs-5600kv"
    ]
@@ -55136,7 +52743,7 @@
     "recommended_props": "2-2.5in props (derived)",
     "price_usd": 21.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/vci-hobby-spark-1303-motor-2-pcs-5400kv"
    ]
@@ -55156,7 +52763,7 @@
     "recommended_props": "3-4in props (derived)",
     "price_usd": 12.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/vci-hobby-spark-1404-motor-4000kv"
    ]
@@ -55176,7 +52783,7 @@
     "recommended_props": "4in props (derived)",
     "price_usd": 12.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/vci-hobby-spark-1605-motor-3650kv"
    ]
@@ -55196,7 +52803,7 @@
     "recommended_props": "5in props (derived)",
     "price_usd": 14.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/vci-hobby-spark-2006-motor-2150kv"
    ]
@@ -55218,7 +52825,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 20.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/vci-hobby-2208-1850kv-motor",
     "https://www.racedayquads.com/products/vci-hobby-2208-2450kv-motor"
@@ -55239,7 +52846,7 @@
     "recommended_props": "6-7in props (derived)",
     "price_usd": 18.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/vci-hobby-spark-2406-motor-1550kv"
    ]
@@ -55262,7 +52869,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 24.99
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/vci-spark-2207-pro-1950kv-motor",
     "https://www.racedayquads.com/products/vci-spark-2207-pro-2050kv-motor",
@@ -55285,7 +52892,7 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 25.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/vci-spark-2207-pro-2110kv-motor-yuki-edition"
    ]
@@ -55306,29 +52913,9 @@
     "recommended_props": "5-5.1in props (derived)",
     "price_usd": 23.49
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/vci-hobby-yuki-savage-2207-motor-2120kv"
-   ]
-  },
-  {
-   "type": "motor",
-   "brand": "VCI HOBBY",
-   "model": "ZOE 2010",
-   "slug": "vci-hobby-zoe-2010",
-   "specs": {
-    "stator": "2010",
-    "kv_options": [
-     1911
-    ],
-    "weight_g": 36.5,
-    "max_cells": "6S",
-    "recommended_props": "5in props (derived)",
-    "price_usd": 20.49
-   },
-   "_scraped_at": "2026-09-28",
-   "sources": [
-    "https://www.racedayquads.com/products/vci-hobby-zoe-2010-motor-1911kv"
    ]
   },
   {
@@ -55618,7 +53205,7 @@
     "configuration": "9N12P",
     "dimensions_mm": "18.6x13.2"
    },
-   "_scraped_at": "2026-09-28",
+   "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/xilo-stealth-1404-motor-4500kv"
    ],
