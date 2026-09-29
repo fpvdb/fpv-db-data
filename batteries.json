@@ -2637,15 +2637,16 @@
     "c_rating": "100C",
     "weight_g": 106.0,
     "connector": "XT30",
-    "dimensions_mm": "72x8x44mm",
     "energy_wh": 16.4,
     "price_per_wh_usd": 1.98,
     "price_usd": 32.49
    },
    "_scraped_at": "2026-09-29",
    "sources": [
-    "https://www.racedayquads.com/products/gaoneng-gnb-22-8v-6s-720mah-100c-lihv-micro-battery-long-type-xt30"
-   ]
+    "https://www.racedayquads.com/products/gaoneng-gnb-22-8v-6s-720mah-100c-lihv-micro-battery-long-type-xt30",
+    "https://www.racedayquads.com/products/rdq-series-22-8v-6s-720mah-100c-lihv-whoop-micro-battery-xt30"
+   ],
+   "note": "Size withheld: the listing prints \"Pack Dimension: 44x8x72mm (HxWxL)\" beside \"Net Weight: 106g (+/-4g)\", and 106 g in 25.3 cm3 is 4.18 g/cm3 - denser than the 2.7-2.9 of a bare 18650 cell, so no pack of cells is that size. The weight is the figure that survives its other check (155 Wh/kg, ordinary for a 6S LiHV micro pack), and the 8 is the suspect figure: the RDQ Series 720mAh 6S sold beside it - same capacity, cell count and C-rating - prints 74x44x18.5mm at 103 g. That is a different product, so its 18.5 is not written here. Gaoneng publishes no product page of its own - gnbbattery.com serves no catalogue - so there is no second figure to take"
   },
   {
    "type": "battery",
@@ -3369,8 +3370,10 @@
    },
    "_scraped_at": "2026-09-29",
    "sources": [
-    "https://www.racedayquads.com/products/iflight-defender-25-4s-550mah-battery"
-   ]
+    "https://www.racedayquads.com/products/iflight-defender-25-4s-550mah-battery",
+    "https://shop.iflight.com/Defender-25-Battery-Pro1925"
+   ],
+   "note": "The size is the housing's, not a pouch's: 105x35x31.5 mm around a 550mAh 4S is 0.60 g/cm3, a third of what a pack of cells weighs for its volume, because this pack is a moulded, vented shell with a latch and slide rails that only the Defender 25 accepts. iFlight's own page states the same 105*35*31.5mm (and the same three figures for the 900mAh version at 100 g - a size that does not move with the capacity is the enclosure's), 70+/-2 g, 8.14 Wh, 4S1P, 60C and XT30, so every figure here is the manufacturer's as well as the retailer's"
   },
   {
    "type": "battery",
@@ -4853,7 +4856,6 @@
     "c_rating": "100C",
     "weight_g": 212.5,
     "connector": "XT60",
-    "dimensions_mm": "79x23x34mm",
     "energy_wh": 31.1,
     "price_per_wh_usd": 1.17,
     "price_usd": 36.49
@@ -4861,7 +4863,8 @@
    "_scraped_at": "2026-09-29",
    "sources": [
     "https://www.racedayquads.com/products/rdq-series-11-1v-3s-2800mah-100c-lipo-battery-xt60"
-   ]
+   ],
+   "note": "Size withheld: the listing prints \"Dimensions: 79x23x34mm\" beside \"Weight: 212.5g (+/- 1%)\", which is 3.44 g/cm3 - denser than any lithium cell sold, so the two figures cannot both describe this pack. The weight is the one that survives its other check (146 Wh/kg, ordinary for a 3S LiPo), and at this class's 1.7-1.9 g/cm3 the pack would be about 112-125 cm3 against the 62 the three figures give. RDQ Series is RaceDayQuads' own house brand, so there is no second source to take a replacement from"
   },
   {
    "type": "battery",
