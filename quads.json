@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28",
+ "generated": "2026-09-29",
  "count": 101,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
@@ -1581,7 +1581,7 @@
     "prop_size_in": 5.1,
     "prop_mount": "M5",
     "motors": "GEPRC 2306.5 1850KV (6S) / 2450KV (4S)",
-    "vtx_system": "Caddx Nebula HD / analog variants",
+    "vtx_system": "Caddx Nebula HD (analog variants)",
     "typical_current_a": 13,
     "recommended_battery": {
      "cells": "6S",
