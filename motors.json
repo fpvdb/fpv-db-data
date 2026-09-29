@@ -17740,7 +17740,7 @@
   },
   {
    "type": "motor",
-   "brand": "FIVE33",
+   "brand": "Five33",
    "model": "HeadsUp 2207",
    "slug": "five33-headsup-2207",
    "specs": {
@@ -17763,7 +17763,7 @@
     "https://www.racedayquads.com/products/headsup-five33-2207-motor-w-mr30",
     "https://flyfive33.com/products/headsup-five33-2207-motor"
    ],
-   "note": "FIVE33's own shop (flyfive33.com, now Shopify - the WordPress site its old spec-sheet image was hosted on is gone, which is why every retailer that hot-links it shows a broken image) lists this motor three ways (single, set of 4, set of 4 with MR30) and publishes a labelled spec list on each and no bench table: brand FIVE33 x Xnova, 2207, 1960 KV, 28.4 g, M5 prop shaft, 20AWG pre-tinned leads. Pyrodrone's listing adds the 22 x 7 mm stator and the 16 x 16 mm mounting pattern, and states the motor is manufactured by XNova. Every source for this motor - both shops and all three RaceDayQuads listings - states one winding, 1960 KV; kv_options had carried a second \"2207\", which is this motor's stator read as a KV by the retail scrape, and is removed."
+   "note": "FIVE33's own shop (flyfive33.com, now Shopify - the WordPress site its old spec-sheet image was hosted on is gone, which is why every retailer that hot-links it shows a broken image) lists this motor three ways (single, set of 4, set of 4 with MR30) and publishes a labelled spec list on each and no bench table: brand FIVE33 x Xnova, 2207, 1960 KV, 28.4 g, M5 prop shaft, 20AWG pre-tinned leads. Pyrodrone's listing adds the 22 x 7 mm stator and the 16 x 16 mm mounting pattern, and states the motor is manufactured by XNova. Every source for this motor - both shops and all three RaceDayQuads listings - states one winding, 1960 KV; kv_options had carried a second \"2207\", which is this motor's stator read as a KV by the retail scrape, and is removed. Five33's own shop (flyfive33.com, now Shopify - the WordPress site its old spec-sheet image was hosted on is gone, which is why every retailer that hot-links it shows a broken image) lists this motor three ways (single, set of 4, set of 4 with MR30) and publishes a labelled spec list on each and no bench table: brand FIVE33 x Xnova, 2207, 1960 KV, 28.4 g, M5 prop shaft, 20AWG pre-tinned leads. Pyrodrone's listing adds the 22 x 7 mm stator and the 16 x 16 mm mounting pattern, and states the motor is manufactured by XNova. Every source for this motor - both shops and all three RaceDayQuads listings - states one winding, 1960 KV; kv_options had carried a second \"2207\", which is this motor's stator read as a KV by the retail scrape, and is removed."
   },
   {
    "type": "motor",
