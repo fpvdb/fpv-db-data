@@ -6358,17 +6358,19 @@
     "cells": "2S",
     "capacity_mah": 550,
     "c_rating": "95C",
-    "weight_g": 63.0,
+    "weight_g": 31.5,
     "connector": "XT30",
-    "dimensions_mm": "63x16x12mm",
+    "dimensions_mm": "61x19x15",
     "energy_wh": 4.1,
     "price_per_wh_usd": 3.31,
     "price_usd": 13.49
    },
    "_scraped_at": "2026-09-29",
    "sources": [
-    "https://www.racedayquads.com/products/tattu-r-line-7-4v-2s-550mah-95c-lipo-micro-battery-xt30"
-   ]
+    "https://www.racedayquads.com/products/tattu-r-line-7-4v-2s-550mah-95c-lipo-micro-battery-xt30",
+    "https://genstattu.com/tattu-rline-95c-550mah-2s1p-xt30.html"
+   ],
+   "note": "Weight and size are Tattu's own, not the retailer's: RaceDayQuads prints 63 g and 63x16x12 mm for this pack, and 63 g on 550mAh 2S is 65 Wh/kg - half the density of every other pack in the class, i.e. another object's figure. Gens Ace/Tattu's own product page for TA-RL-95C-550-2S1P-XT30 states Net Weight(+/-5g) 31.5 g and 61 mm L x 19 mm W x 15 mm H. Capacity, cell count, C-rating and connector agree on both pages"
   },
   {
    "type": "battery",
