@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29",
+ "generated": "2026-09-30",
  "count": 206,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
@@ -17533,7 +17533,7 @@
   },
   {
    "type": "motor",
-   "brand": "FETTEC",
+   "brand": "FETtec",
    "model": "FM2004T 2004",
    "slug": "fettec-fm2004t-2004",
    "specs": {
@@ -54931,7 +54931,7 @@
   },
   {
    "type": "motor",
-   "brand": "UMMAGAWD",
+   "brand": "Ummagawd",
    "model": "Aerolite 1605 - Gunmetal",
    "slug": "ummagawd-aerolite-1605-gunmetal",
    "specs": {
@@ -54953,7 +54953,7 @@
     "https://www.racedayquads.com/products/ummagawd-aerolite-1605-3600kv-motor-gunmetal-blue",
     "https://www.racedayquads.com/products/ummagawd-aerolite-1605-3800kv-micro-motor-gunmetal-purple"
    ],
-   "note": "UMMAGAWD's Aerolite 1605 does have a manufacturer datasheet, and it survives only as a square centre-crop. The image (Screenshot2023-01-24110326) is a Technical Datas block, three dimension drawings and a 12-row test table - HQ 3*4*3, GF D75 and HQ 4*3*3 at 11.1 and 14.8 V, 50% and 100% each - but every surviving copy is Shopify's 668x668 _crop_center variant, which cuts the block's KV row off the top and the table off at the bottom. The brand's own full-size file is 404 on its CDN and was never archived, and three retailers (RaceDayQuads, defianceRC, WREKD) all publish the same crop. The block's visible rows are a 5 mm stator length, a 3 mm shaft, a Ø 20.8 x 14.3 mm body, 13.8 g with 3 cm of wire, 1.2 A idle at 10 V, 3~4S, 360 W max continuous on 3S, 68 mOhm, 24.3 A max on 3S and a (4-7A)>84% efficiency band. Two source facts recorded rather than repaired: our retail listing transcribes that block as >83% and as \"13.8g (2cm Wires)\", and it gives the cell range as 2-4S where the sheet says 3~4S. The 12 rows are not published here because the sheet's own KV cell is inside the crop and this page carries both of the motor's windings - see \"Needs a human\" in docs/loop-state.md. The mount is the brand's own \"Installation hole position: 12x12mm, M2\"; the bottom-view drawing shows only TWO M2 holes, 12 mm apart on one bar, which is why the brand writes that it \"will mount to other frames with standard 12x12 (x4 holes)\"."
+   "note": "Ummagawd's Aerolite 1605 does have a manufacturer datasheet, and it survives only as a square centre-crop. The image (Screenshot2023-01-24110326) is a Technical Datas block, three dimension drawings and a 12-row test table - HQ 3*4*3, GF D75 and HQ 4*3*3 at 11.1 and 14.8 V, 50% and 100% each - but every surviving copy is Shopify's 668x668 _crop_center variant, which cuts the block's KV row off the top and the table off at the bottom. The brand's own full-size file is 404 on its CDN and was never archived, and three retailers (RaceDayQuads, defianceRC, WREKD) all publish the same crop. The block's visible rows are a 5 mm stator length, a 3 mm shaft, a Ø 20.8 x 14.3 mm body, 13.8 g with 3 cm of wire, 1.2 A idle at 10 V, 3~4S, 360 W max continuous on 3S, 68 mOhm, 24.3 A max on 3S and a (4-7A)>84% efficiency band. Two source facts recorded rather than repaired: our retail listing transcribes that block as >83% and as \"13.8g (2cm Wires)\", and it gives the cell range as 2-4S where the sheet says 3~4S. The 12 rows are not published here because the sheet's own KV cell is inside the crop and this page carries both of the motor's windings - see \"Needs a human\" in docs/loop-state.md. The mount is the brand's own \"Installation hole position: 12x12mm, M2\"; the bottom-view drawing shows only TWO M2 holes, 12 mm apart on one bar, which is why the brand writes that it \"will mount to other frames with standard 12x12 (x4 holes)\"."
   },
   {
    "type": "motor",
