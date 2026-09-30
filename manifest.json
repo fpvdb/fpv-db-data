@@ -6,10 +6,10 @@
   "batteries": 326,
   "props": 207,
   "stacks": 112,
-  "cameras": 53,
+  "cameras": 51,
   "vtx": 157
  },
- "total": 1162,
+ "total": 1160,
  "site": "https://fpv-db.com/data/",
  "license": "CC-BY-4.0"
 }
