@@ -5276,14 +5276,14 @@
    "model": "2022 Series 1102 Micro/Whoop",
    "slug": "betafpv-2022-series-1102-micro-whoop",
    "specs": {
-    "stator": "2022",
+    "stator": "1102",
     "kv_options": [
      22000
     ],
     "weight_g": 2.79,
     "max_cells": "1S",
     "shaft": "1.5mm",
-    "recommended_props": "5in props (derived)",
+    "recommended_props": "40-65mm whoop/micro props (derived)",
     "price_usd": 39.99
    },
    "_scraped_at": "2026-09-30",
