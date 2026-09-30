@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29",
+ "generated": "2026-09-30",
  "count": 112,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
@@ -51,7 +51,7 @@
   },
   {
    "type": "stack",
-   "brand": "AIRBOT",
+   "brand": "Airbot",
    "model": "Fenix G4 4-6S AIO Toothpick/Whoop (w/ 35A 32Bit AM32 4in1 ESC)",
    "slug": "airbot-fenix-g4-4-6s-aio-toothpick-whoop-w-35a-32bit-am32-4in1-esc",
    "specs": {
