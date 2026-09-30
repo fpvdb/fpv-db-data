@@ -2235,7 +2235,7 @@
    "slug": "hqprop-hq-prop-dt90mmx3-tri-blade-3-5-cinewhoop-prop",
    "specs": {
     "diameter_in": 3.5,
-    "pitch_in": 3.5,
+    "pitch_in": 3.0,
     "blades": 3,
     "mount": "1.5mm",
     "material": "Polycarbonate",
@@ -2244,8 +2244,10 @@
    },
    "_scraped_at": "2026-09-30",
    "sources": [
-    "https://www.racedayquads.com/products/hq-prop-dt90mmx3-tri-blade-3-cinewhoop-prop-4-pack-blue"
-   ]
+    "https://www.racedayquads.com/products/hq-prop-dt90mmx3-tri-blade-3-cinewhoop-prop-4-pack-blue",
+    "https://hqprop.com/hqprop-duct-t90mmx3-for-cinewhoop-grey-2cw2ccw-poly-carbonate-p0351.html"
+   ],
+   "note": "Pitch is HQProp's own, not the retailer's: RaceDayQuads sells this prop as two listings, Blue and Gray, whose spec blocks are otherwise identical (Propeller Diameter 90MM, Blades 3, Hub Diameter 11mm, Hub Thickness 5.5mm, Shaft 1.5mm, Weight 2.35g) and which print \"Pitch: 3.5\" and \"Pitch : 3\". Both titles read \"HQ Prop DT90MMX3 Tri-Blade 3.5\" Cinewhoop Prop 4 Pack\" and both Includes lines read \"HQ Prop T90MMX3\", so this is one product listed twice. HQProp's own product page for the Duct-T90MMX3 prints \"Pitch : 3\" - the same spaced line the Gray listing copies - beside the same 90MM diameter, 3 blades, Poly Carbonate, 2.35g and 11mm hub, and its DT90MMX4 sibling one SKU over prints \"Pitch : 3\" as well. The 3.5 is the diameter in inches (90 mm is 3.5\") read into the pitch row; the page's diameter_in stays 3.5 because that is what it is"
   },
   {
    "type": "prop",

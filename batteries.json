@@ -2645,7 +2645,6 @@
    },
    "_scraped_at": "2026-09-30",
    "sources": [
-    "https://pyrodrone.com/products/gaoneng-gnb-6s-720mah-100c-hv-li-po-battery-xt30",
     "https://www.racedayquads.com/products/gaoneng-gnb-22-8v-6s-720mah-100c-lihv-micro-battery-long-type-xt30",
     "https://www.racedayquads.com/products/rdq-series-22-8v-6s-720mah-100c-lihv-whoop-micro-battery-xt30"
    ],
@@ -3502,17 +3501,19 @@
     "cells": "6S",
     "capacity_mah": 13000,
     "c_rating": "20C",
-    "weight_g": 940.0,
+    "weight_g": 1410.0,
     "connector": "XT90",
-    "dimensions_mm": "182x74x32mm",
+    "dimensions_mm": "185x70x60mm",
     "energy_wh": 288.6,
     "price_per_wh_usd": 1.03,
     "price_usd": 295.99
    },
    "_scraped_at": "2026-09-30",
    "sources": [
-    "https://www.racedayquads.com/products/lumenier-13000mah-6s-20c-lipo-battery-xt90"
-   ]
+    "https://www.racedayquads.com/products/lumenier-13000mah-6s-20c-lipo-battery-xt90",
+    "https://www.racedayquads.com/products/lumenier-13000mah-6s-20c-lipo-battery-ec5"
+   ],
+   "note": "Weight and size are the EC5 listing's, because the XT90 one's whole spec block belongs to another pack: RaceDayQuads sells this battery twice, \"Lumenier 13000mAh 6S 20C LiPo Battery - XT90\" and \"- EC5\", and the XT90 listing prints Length 182 mm / Width 74 mm / Height 32 mm / Weight 940g - every figure identical to our lumenier-12000mah-4s, whose own listing prints the same four - while its body text still reads \"This 12000mAh 4S battery pack is the perfect solution...\". The EC5 listing of the same pack prints Length 185 mm / Width 70 mm / Height 60 mm / Weight 1410g, which is the only self-consistent reading: 940 g on 288.6 Wh is 307 Wh/kg, above anything lithium polymer reaches, and 1410 g in 777 cm3 is 1.81 g/cm3, inside the 1.66-1.85 every other pack of cells here sits at. The connector column stays XT90 because that is the listing this page describes; a plug does not move 470 g or 346 cm3. Lumenier's own product page for the pack states no weight and no size. At 1410 g the pack still reads 205 Wh/kg, 2% over the LiPo ceiling audit_specs uses - that is a question about a ceiling drawn from a population of high-C racing packs, not about this figure"
   },
   {
    "type": "battery",
@@ -5381,20 +5382,20 @@
    "model": "RDQ Series 550mAh 3S",
    "slug": "rdq-rdq-series-550mah-3s",
    "specs": {
-    "chemistry": "LiHV",
+    "chemistry": "LiPo",
     "cells": "3S",
     "capacity_mah": 550,
-    "c_rating": "100C",
+    "c_rating": "90C",
     "weight_g": 43.0,
     "connector": "XT30",
-    "dimensions_mm": "70x18x18mm",
-    "energy_wh": 6.3,
-    "price_per_wh_usd": 2.63,
-    "price_usd": 16.49
+    "dimensions_mm": "72x18x18mm",
+    "energy_wh": 6.1,
+    "price_per_wh_usd": 2.46,
+    "price_usd": 14.99
    },
    "_scraped_at": "2026-09-30",
    "sources": [
-    "https://www.racedayquads.com/products/rdq-series-11-4v-3s-550mah-100c-lihv-battery-xt30"
+    "https://www.racedayquads.com/products/rdq-series-11-1v-3s-550mah-90c-lipo-battery-xt30"
    ]
   },
   {
