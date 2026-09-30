@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-30",
- "count": 53,
+ "count": 51,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -262,36 +262,6 @@
    "_scraped_at": "2026-09-30",
    "sources": [
     "https://www.racedayquads.com/products/walksnail-avatar-mini-1s-v3-vtx-kit-combo-w-nano-camera"
-   ]
-  },
-  {
-   "type": "camera",
-   "brand": "Drone Nerds",
-   "model": "DJI Mini 4 Pro (DJI RC 2) All-In-One Omni Obstacle Sensing Mini Drone",
-   "slug": "drone-nerds-dji-mini-4-pro-dji-rc-2-all-in-one-omni-obstacle-sensing-mini-drone",
-   "specs": {
-    "system": "DJI",
-    "size_class": "mini",
-    "price_usd": 959.0
-   },
-   "_scraped_at": "2026-09-30",
-   "sources": [
-    "https://www.racedayquads.com/products/dji-mini-4-pro-dji-rc-2-all-in-one-omni-obstacle-sensing-mini-camera-drone"
-   ]
-  },
-  {
-   "type": "camera",
-   "brand": "Drone Nerds",
-   "model": "DJI Mini 4 Pro (RC-N2) All-In-One Omni Obstacle Sensing Mini Drone",
-   "slug": "drone-nerds-dji-mini-4-pro-rc-n2-all-in-one-omni-obstacle-sensing-mini-drone",
-   "specs": {
-    "system": "DJI",
-    "size_class": "mini",
-    "price_usd": 759.0
-   },
-   "_scraped_at": "2026-09-30",
-   "sources": [
-    "https://www.racedayquads.com/products/dji-mini-4-pro-rc-n2-all-in-one-omni-obstacle-sensing-mini-camera-drone"
    ]
   },
   {
