@@ -6877,7 +6877,7 @@
    "model": "Quad Gas w 320mAh 1S",
    "slug": "wrekd-co-quad-gas-w-320mah-1s",
    "specs": {
-    "chemistry": "LiPo",
+    "chemistry": "LiHV",
     "cells": "1S",
     "capacity_mah": 320,
     "c_rating": "75C",
@@ -6885,7 +6885,7 @@
     "connector": "BT2.0",
     "dimensions_mm": "62x11x7mm",
     "energy_wh": 1.2,
-    "price_per_wh_usd": 5.57,
+    "price_per_wh_usd": 5.42,
     "price_usd": 6.59
    },
    "_scraped_at": "2026-10-01",
@@ -6899,7 +6899,7 @@
    "model": "Quad Gas w/ for /Whoops 320mAh 1S",
    "slug": "wrekd-co-quad-gas-w-for-whoops-320mah-1s",
    "specs": {
-    "chemistry": "LiPo",
+    "chemistry": "LiHV",
     "cells": "1S",
     "capacity_mah": 320,
     "c_rating": "75C",
@@ -6907,7 +6907,7 @@
     "connector": "BT2.0",
     "dimensions_mm": "62x11x7mm",
     "energy_wh": 1.2,
-    "price_per_wh_usd": 27.83,
+    "price_per_wh_usd": 27.1,
     "price_usd": 32.95
    },
    "_scraped_at": "2026-10-01",
