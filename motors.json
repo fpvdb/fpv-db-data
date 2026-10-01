@@ -17,6 +17,8 @@
     "max_cells": "3-4S",
     "shaft": "1.5mm",
     "recommended_props": "3-4in props (derived)",
+    "configuration": "9N12P",
+    "dimensions_mm": "18.75x13.2",
     "price_usd": 16.99
    },
    "_scraped_at": "2026-10-01",
@@ -38,6 +40,7 @@
     "max_cells": "3-4S",
     "shaft": "1.5mm",
     "recommended_props": "4in props (derived)",
+    "configuration": "9N12P",
     "price_usd": 17.99
    },
    "_scraped_at": "2026-10-01",
@@ -60,6 +63,9 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø27.2x33.3",
+    "resistance_mohm": "60.5",
     "price_usd": 15.89
    },
    "_scraped_at": "2026-10-01",
@@ -85,6 +91,10 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "27.9x32.7",
+    "mount_mm": "16x16mm",
+    "resistance_mohm": "60.16 (1960KV) / 70.62 (1860KV)",
     "price_usd": 19.49,
     "max_thrust_g": 1760,
     "thrust_conditions": "Axisflying bench, 6S, 8 throttle points (30-100%) per KV on two 5in props",
@@ -441,10 +451,7 @@
       "thrust_g": 1670,
       "efficiency_gw": 1.94
      }
-    ],
-    "configuration": "12N14P",
-    "dimensions_mm": "27.9x32.7",
-    "resistance_mohm": "60.16 (1960KV) / 70.62 (1860KV)"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -468,8 +475,10 @@
     "weight_g": 35.2,
     "max_cells": "6S",
     "recommended_props": "5-5.1in props (derived)",
+    "resistance_mohm": "64.46 (1960KV)",
     "price_usd": 24.99,
     "shaft": "5mm",
+    "configuration": "12N14P",
     "max_thrust_g": 1798.2,
     "thrust_conditions": "Axisflying bench, 6S, 8 throttle points (30-100%) per KV on two 5in props; 1860/1960/2050/2100 KV tested",
     "thrust_table": [
@@ -1178,9 +1187,7 @@
       "efficiency_gw": 1.99
      }
     ],
-    "configuration": "12N14P",
-    "dimensions_mm": "27.5x33.2",
-    "resistance_mohm": "64.46 (1960KV)"
+    "dimensions_mm": "27.5x33.2"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -1205,6 +1212,7 @@
     "weight_g": 33.9,
     "max_cells": "6S",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
     "price_usd": 23.99,
     "max_thrust_g": 1388,
     "thrust_conditions": "Axisflying bench, 6S (23.6-24.0 V), 8 throttle points (30-100%) per prop; three props at 1860 KV and four at 1960 KV",
@@ -1826,9 +1834,8 @@
       "efficiency_gw": 1.12
      }
     ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø27x20.45",
     "shaft": "5mm",
+    "dimensions_mm": "Ø27x20.45",
     "resistance_mohm": "63.42 (1860KV) / 61.49 (1960KV)"
    },
    "_scraped_at": "2026-10-01",
@@ -1853,8 +1860,11 @@
     "max_cells": "4-6S",
     "shaft": "5mm",
     "recommended_props": "6-7in props (derived)",
+    "dimensions_mm": "29.5x32.55",
     "max_thrust_g": 1929,
     "price_usd": 32.49,
+    "configuration": "12N14P",
+    "mount_mm": "16x16mm (M3)",
     "thrust_conditions": "Axisflying bench, 6S (23.4-24.0 V), 8 throttle points (30-100%) per KV on the 51466 V2 prop",
     "thrust_table": [
      {
@@ -2034,12 +2044,11 @@
       "efficiency_gw": 1.9
      }
     ],
-    "configuration": "12N14P",
-    "dimensions_mm": "29.5x32.55",
     "resistance_mohm": "66 (2080KV) / 78.00 (1860KV)"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
+    "https://pyrodrone.com/products/axisflying-af2406-4-6s-modular-fpv-drone-motor-2080kv",
     "https://www.racedayquads.com/products/axisflying-af2406-x-modular-motor-1860kv-2080kv",
     "https://www.axisflying.com/products/modular-motor-af2406-4-6s"
    ],
@@ -2058,6 +2067,9 @@
     "weight_g": 32.6,
     "max_cells": "6S",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø27.5x33.4",
+    "mount_mm": "16x16mm (M3)",
     "price_usd": 41.49,
     "max_thrust_g": 1950.54,
     "thrust_conditions": "Axisflying bench, 1975 KV (Proxy Edition) and 2125 KV (Extreme Edition) at 6S / 24.00 V and 2725 KV at 4S / 16.00 V, on a BB4943.5 and a GF 51466; 20-100% in tens on the 6S windings, 30-100% on the 4S one",
@@ -2635,8 +2647,6 @@
       "efficiency_gw": 1.97
      }
     ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø27.5x33.4",
     "shaft": "5mm",
     "resistance_mohm": "56 (1975KV) / 45 (2125KV) / 36 (2725KV)"
    },
@@ -2661,7 +2671,9 @@
     "weight_g": 34.74,
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "dimensions_mm": "27.8x32.9",
     "price_usd": 25.99,
+    "configuration": "12N14P",
     "max_thrust_g": 1882.6,
     "thrust_conditions": "Axisflying bench, 6S, 8 throttle points (30-100%) per KV on three 5in props; 1960 KV (Mind Reader) and 2060 KV (Menace Edition), 29 degC ambient",
     "thrust_table": [
@@ -3195,12 +3207,11 @@
      }
     ],
     "max_cells": "6S",
-    "configuration": "12N14P",
-    "dimensions_mm": "27.8x32.9",
     "resistance_mohm": "57.34 (2060KV)"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
+    "https://pyrodrone.com/products/axisflying-blackbird-v4-2307-6s-top-quality-freestyle-sbang-fpv-drone-motor-2060kv",
     "https://www.racedayquads.com/products/axisflying-blackbird-v4-2307-fpv-motor",
     "https://www.axisflying.com/products/co-brand-with-blackbird-v4-2307-5inch-brushless"
    ],
@@ -3219,6 +3230,8 @@
     "recommended_props": [
      "3.5in (90 mm) cinewhoop props - Axisflying heads the sheet Cine157-2 / Suitable for AVATA 3.5\" and bench-tests the motor on an HQT90-4P"
     ],
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø19x18.3",
     "price_usd": 23.99,
     "max_thrust_g": 670.0,
     "thrust_conditions": "Axisflying bench, 3750 KV on an HQT90-4P four-blade prop at 4S (16.00 V), 9 throttle points (20-100%)",
@@ -3324,11 +3337,9 @@
      }
     ],
     "weight_g": 13.58,
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø19x18.3",
-    "resistance_mohm": "83",
     "shaft": "1.5mm",
-    "max_cells": "4S"
+    "max_cells": "4S",
+    "resistance_mohm": "83"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -3351,6 +3362,8 @@
     "weight_g": 22.0,
     "shaft": "1.5mm",
     "recommended_props": "5in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "24.7x19.9",
     "price_usd": 29.99,
     "max_thrust_g": 1311,
     "thrust_conditions": "Axisflying bench, 6S, throttle sweep per KV on the DT90-3 and DT90-4 props; 1960/2100/2500 KV tested, 26-28 degC ambient",
@@ -3841,8 +3854,6 @@
      }
     ],
     "max_cells": "4-6S",
-    "configuration": "12N14P",
-    "dimensions_mm": "24.7x19.9",
     "mount_mm": "9x9mm (4-M2)",
     "resistance_mohm": "88 (2100KV)"
    },
@@ -3873,6 +3884,8 @@
     "recommended_props": [
      "3.5in (90 mm) cinewhoop props - Axisflying names Gemfan D90-3 and HQ D90-3, and bench-tests the motor on GF D90-3P, D90-3B and GF3630"
     ],
+    "configuration": "12N14P",
+    "mount_mm": "12x12mm (M2)",
     "price_usd": 23.99,
     "max_thrust_g": 1294.38,
     "thrust_conditions": "Axisflying bench, 8 throttle points (30-100%) per run, one prop each: 1900 KV on GF D90-3P at 6S, 2300 KV on D90-3B at 6S, 2750 KV on GF3630 at 4S and again at 6S, 3500 KV on D90-3B at 4S",
@@ -4318,7 +4331,6 @@
       "efficiency_gw": 1.97
      }
     ],
-    "configuration": "12N14P",
     "dimensions_mm": "Ø26.9x28.8",
     "resistance_mohm": "97.15 (1900KV) / 76.7 (2300KV & 3500KV) / 65.4 (2750KV)"
    },
@@ -4340,6 +4352,7 @@
     ],
     "max_cells": "4-6S",
     "shaft": "5mm",
+    "configuration": "12N14P",
     "price_usd": 27.49,
     "max_thrust_g": 1582.6,
     "thrust_conditions": "Axisflying bench, 1960 KV on a 5*5 three-blade prop at 6S (24.54-24.96 V), 8 throttle points (30-100%)",
@@ -4435,12 +4448,11 @@
     ],
     "stator": "2207",
     "weight_g": 35.8,
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø28x32.5",
-    "resistance_mohm": "64.75",
     "recommended_props": [
      "5in props - Axisflying gives the Application as \"5-inch Cinewhoop / Cinematic FPV\" and bench-tests the motor on a 5x5 three-blade"
-    ]
+    ],
+    "dimensions_mm": "Ø28x32.5",
+    "resistance_mohm": "64.75"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -4464,6 +4476,9 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø27.9x32.9",
+    "resistance_mohm": "58.08 (1960KV) / 58.13 (1860KV)",
     "max_thrust_g": 1819,
     "price_usd": 23.99,
     "thrust_conditions": "Axisflying bench, 6S (23.3-24.4 V), 8 throttle points (30-100%) per KV on the BB4943.5 prop",
@@ -4644,10 +4659,7 @@
       "thrust_g": 1710.85,
       "efficiency_gw": 2.05
      }
-    ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø27.9x32.9",
-    "resistance_mohm": "58.08 (1960KV) / 58.13 (1860KV)"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -5812,6 +5824,8 @@
     "weight_g": 55.0,
     "max_cells": "5-7S",
     "recommended_props": "6-7in props (derived)",
+    "configuration": "12N14P",
+    "mount_mm": "16x16mm (M3)",
     "price_usd": 32.49,
     "max_thrust_g": 2717,
     "thrust_conditions": "BrotherHobby 2017 bench, 45 A ESC, 8 throttle points per KV; 930KV on 7S, 1030KV on 6S, 1380KV on 5S",
@@ -6082,9 +6096,7 @@
      }
     ],
     "shaft": "M5",
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø30.3x36.5",
-    "mount_mm": "16x16mm (M3)"
+    "dimensions_mm": "Ø30.3x36.5"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -6106,6 +6118,8 @@
     "weight_g": 41.0,
     "max_cells": "4-6S",
     "recommended_props": "7-8in props (derived)",
+    "configuration": "12N14P",
+    "mount_mm": "19x19mm (M3)",
     "price_usd": 32.49,
     "max_thrust_g": 2520,
     "thrust_conditions": "BrotherHobby bench, 8 throttle points per KV; 1300KV/1700KV on 6S, 1460KV/1920KV on 5S, plus a 4S 60 A run of the 1920KV on HQ 7x4x3",
@@ -6573,6 +6587,8 @@
     "weight_g": 55.0,
     "max_cells": "4-6S",
     "recommended_props": "7-8in props (derived)",
+    "configuration": "12N14P",
+    "mount_mm": "Ø19 (4-M3)",
     "price_usd": 27.99,
     "max_thrust_g": 2738,
     "thrust_conditions": "BrotherHobby 2022 bench, 6S 80 A ESC, 8 throttle points (30-100%) per winding on one prop each; 1350KV on HQ 8X4.5X3, 1500KV on HQ 7X3.5X3, 1900KV on HQ 6X3.5X3",
@@ -6842,11 +6858,9 @@
       "efficiency_gw": 1.65
      }
     ],
-    "configuration": "12N14P",
+    "shaft": "5mm",
     "dimensions_mm": "Ø33x36.2",
-    "mount_mm": "Ø19 (4-M3)",
-    "resistance_mohm": "48.00",
-    "shaft": "5mm"
+    "resistance_mohm": "48.00"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -7248,6 +7262,8 @@
     "weight_g": 38.0,
     "max_cells": "4-6S",
     "recommended_props": "6-7in props (derived)",
+    "configuration": "12N14P",
+    "mount_mm": "16x16mm (M3)",
     "price_usd": 28.99,
     "max_thrust_g": 2130,
     "thrust_conditions": "BrotherHobby 2017 bench, 8 throttle points per KV/prop; 1200/1500/1850 KV on 6S, 1500/1750/2200 KV on 5S",
@@ -7782,7 +7798,6 @@
      }
     ],
     "shaft": "M5",
-    "configuration": "12N14P",
     "dimensions_mm": "Ø30x35"
    },
    "_scraped_at": "2026-10-01",
@@ -7805,6 +7820,8 @@
     "weight_g": 76.5,
     "max_cells": "5-8S",
     "recommended_props": "7-8in props (derived)",
+    "configuration": "12N14P",
+    "mount_mm": "19x19mm (M3)",
     "price_usd": 40.99,
     "max_thrust_g": 3307,
     "thrust_conditions": "BrotherHobby 2022 bench, 6S, 8 throttle points per KV/prop; 900KV on 40/50 A ESC, 1115KV on 60/80 A",
@@ -8184,6 +8201,8 @@
     ],
     "weight_g": 27.18,
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "mount_mm": "Ø12 (4-M2)",
     "max_thrust_g": 881,
     "price_usd": 21.99,
     "thrust_conditions": "BrotherHobby 2020 bench, 2140 KV at 6S (25.2 V), 6S 35 A ESC, 8 throttle points (30-100%) on one 3.5 inch five-blade prop",
@@ -8278,11 +8297,9 @@
      }
     ],
     "max_cells": "6S",
-    "configuration": "12N14P",
+    "shaft": "5mm",
     "dimensions_mm": "Ø27x32.1",
-    "mount_mm": "Ø12 (4-M2)",
-    "resistance_mohm": "87.00",
-    "shaft": "5mm"
+    "resistance_mohm": "87.00"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -8305,6 +8322,8 @@
     "weight_g": 14.9,
     "max_cells": "4-6S",
     "recommended_props": "5in props (derived)",
+    "configuration": "12N14P",
+    "mount_mm": "12x12mm (M2)",
     "price_usd": 23.99
    },
    "_scraped_at": "2026-10-01",
@@ -8327,6 +8346,7 @@
     "max_cells": "3-4S",
     "shaft": "5mm",
     "recommended_props": "3-4in props (derived)",
+    "configuration": "9N12P",
     "price_usd": 19.49,
     "mount_mm": "Ø12 (4-M2)"
    },
@@ -8351,6 +8371,8 @@
     "weight_g": 110.0,
     "max_cells": "5-8S",
     "recommended_props": "8in+ props (derived)",
+    "configuration": "12N14P",
+    "mount_mm": "Ø19 (4-M3)",
     "price_usd": 55.49,
     "max_thrust_g": 4480,
     "thrust_conditions": "BrotherHobby bench (2018-2023 sheets), 8 throttle points (30-100%) per winding on one prop each; 400KV on 8S and again on 12S, 480/640/900/970/1050KV and both 1200KV runs on 6S, 1520KV on 4S",
@@ -9236,10 +9258,8 @@
       "efficiency_gw": 2.72
      }
     ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø37.5x49.5",
-    "mount_mm": "Ø19 (4-M3)",
-    "shaft": "5mm"
+    "shaft": "5mm",
+    "dimensions_mm": "Ø37.5x49.5"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -9263,7 +9283,9 @@
     "max_cells": "4-6S",
     "shaft": "M5",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
     "price_usd": 20.49,
+    "mount_mm": "16x16mm (4-M3)",
     "max_thrust_g": 1920,
     "thrust_conditions": "BrotherHobby 2020 bench, 8 throttle points per KV; 1720KV on 6S (40 A), 2400KV on 5S (55 A), 2700KV on 4S (48 A)",
     "thrust_table": [
@@ -9532,11 +9554,11 @@
       "efficiency_gw": 1.89
      }
     ],
-    "dimensions_mm": "Ø27x32.4",
-    "mount_mm": "16x16mm (4-M3)"
+    "dimensions_mm": "Ø27x32.4"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
+    "https://pyrodrone.com/products/brotherhobby-vs-2207-2400kv-fpv-motor",
     "https://www.racedayquads.com/products/brotherhobby-vs-2207-2400kv-motor",
     "https://ueeshop.ly200-cdn.com/u_file/UPAH/UPAH113/2505/photo/3bb27b86a0.jpg"
    ],
@@ -9555,6 +9577,7 @@
     "weight_g": 16.3,
     "max_cells": "4-6S",
     "recommended_props": "3-4in props (derived)",
+    "configuration": "12N14P",
     "price_usd": 21.99,
     "max_thrust_g": 879,
     "thrust_conditions": "BrotherHobby 2020 bench, 8 throttle points per KV; 1550KV and 3100KV on 6S, 1900KV and 4150KV on 4S",
@@ -9936,6 +9959,9 @@
     "max_cells": "4-6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø26.9x32.8",
+    "resistance_mohm": "60",
     "price_usd": 27.99
    },
    "_scraped_at": "2026-10-01",
@@ -9958,6 +9984,8 @@
     "max_cells": "3-6S",
     "shaft": "1.5mm",
     "recommended_props": "3-4in props (derived)",
+    "configuration": "9N12P",
+    "resistance_mohm": "310",
     "price_usd": 12.99
    },
    "_scraped_at": "2026-10-01",
@@ -9979,6 +10007,7 @@
     "max_cells": "4-6S",
     "shaft": "3mm",
     "recommended_props": "3.5inch~5inch",
+    "dimensions_mm": "Ø26.2x15.3",
     "price_usd": 16.99
    },
    "_scraped_at": "2026-10-01",
@@ -10001,6 +10030,9 @@
     "max_cells": "3-4S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø28.9x29.4",
+    "mount_mm": "16x16mm",
     "price_usd": 23.99,
     "max_thrust_g": 852,
     "thrust_conditions": "Diatone bench, one prop per winding: 2650 KV on a GF51466 at 16 V (4S, 852 g at 100%), 1650 KV on a GF51466 3B at 24 V (6S, 836 g) and 3300 KV on a GF D90 at 16 V (4S, 642 g); throttle stepped in tens. The 852 g peak is the 2650 KV winding, which our retail source does not sell",
@@ -10314,8 +10346,6 @@
       "efficiency_gw": 1.36
      }
     ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø28.9x29.4",
     "resistance_mohm": "271 (1650KV) / 117 (2650KV) / 80 (3300KV)"
    },
    "_scraped_at": "2026-10-01",
@@ -10340,6 +10370,8 @@
     ],
     "weight_g": 31.9,
     "recommended_props": "5\"-5.5\"",
+    "dimensions_mm": "28.6x32.8",
+    "mount_mm": "19x19mm",
     "price_usd": 17.99,
     "max_thrust_g": 1800,
     "thrust_conditions": "6S, EMAX AVAN 5026-3, 100% throttle, 1900KV; manufacturer payload test, 8 load points per KV; 2400KV tested on 4S",
@@ -10633,6 +10665,8 @@
     ],
     "weight_g": 29.4,
     "recommended_props": "5\"-5.5\"",
+    "dimensions_mm": "28.9x31.8",
+    "mount_mm": "19x19mm",
     "price_usd": 17.99,
     "max_thrust_g": 1760,
     "thrust_conditions": "6S, EMAX AVAN 5026-3, 100% throttle, 1900KV; manufacturer payload test, 8 load points per KV; 2400KV tested on 4S",
@@ -10926,6 +10960,8 @@
     ],
     "weight_g": 49.6,
     "recommended_props": "6\"-7\"",
+    "dimensions_mm": "34.8x34.9",
+    "mount_mm": "19x19mm",
     "price_usd": 23.99,
     "max_thrust_g": 2580,
     "thrust_conditions": "6S, EMAX AVIA 7040-3, 100% throttle, 1500KV; manufacturer payload test, 8 load points per KV; 1700KV tested on 4S",
@@ -11219,6 +11255,8 @@
     "weight_g": 53.6,
     "max_cells": "3-6S",
     "recommended_props": "6\"-7\"",
+    "dimensions_mm": "34.8x37",
+    "mount_mm": "19x19mm",
     "price_usd": 28.99,
     "max_thrust_g": 2640,
     "thrust_conditions": "6S, EMAX AVIA 7040-3, 100% throttle, 1500KV; manufacturer payload test, 8 load points per KV, 6S",
@@ -11425,6 +11463,9 @@
     "max_cells": "3-6S",
     "shaft": "1.5mm",
     "recommended_props": "5in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "24.7x19.2",
+    "mount_mm": "12x12mm",
     "price_usd": 16.49,
     "max_thrust_g": 1170,
     "thrust_conditions": "4S, EMAX AVAN 5120-3, 100% throttle, 3000KV; manufacturer bench, throttle sweep 40-100%; 4S rows at 16 V, 6S rows at 22.2-24 V",
@@ -16014,6 +16055,8 @@
     "max_cells": "3-6S",
     "recommended_props": "5\"-5.5\"",
     "price_usd": 23.99,
+    "dimensions_mm": "26.9x33",
+    "resistance_mohm": "42",
     "max_thrust_g": 2220,
     "thrust_conditions": "6S, HQ 5x4.8x3, 100% throttle, 2100KV; manufacturer payload test at fixed thrust points (300/500/700 g) plus max; 2500KV tested on 4S",
     "thrust_table": [
@@ -16725,6 +16768,7 @@
    },
    "_scraped_at": "2026-10-01",
    "sources": [
+    "https://pyrodrone.com/products/emax-rsiii-2207-2500kv-fpv-racing-motor",
     "https://www.racedayquads.com/products/emax-rsiii-series-2207-1800kv-motor",
     "https://www.racedayquads.com/products/emax-rsiii-series-2207-1800kv-motor-1",
     "https://www.racedayquads.com/products/emax-rsiii-series-2207-2500kv-motor-1",
@@ -17545,6 +17589,7 @@
     "max_cells": "4-6S",
     "shaft": "1.5mm",
     "recommended_props": "5in props (derived)",
+    "configuration": "12N14P",
     "price_usd": 4.3,
     "max_thrust_g": 1127,
     "thrust_conditions": "FETtec bench, 1800 KV on four props at 21 and 25.2 V (5S and 6S at 4.2 V/cell), 50% and 100% throttle, with the motor surface temperature after 5 s at full throttle",
@@ -17726,7 +17771,6 @@
       "efficiency_gw": 3.521
      }
     ],
-    "configuration": "12N14P",
     "dimensions_mm": "Ø25x13.7",
     "resistance_mohm": "220"
    },
@@ -17751,9 +17795,9 @@
     "weight_g": 28.4,
     "max_cells": "4-6S",
     "recommended_props": "5-5.1in props (derived)",
+    "mount_mm": "16x16mm",
     "price_usd": 27.99,
-    "shaft": "5mm",
-    "mount_mm": "16x16mm"
+    "shaft": "5mm"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -17779,6 +17823,8 @@
     "max_cells": "3-6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "mount_mm": "16x16mm",
     "price_usd": 20.49
    },
    "_scraped_at": "2026-10-01",
@@ -17800,6 +17846,8 @@
     "max_cells": "4-6S",
     "shaft": "5mm",
     "recommended_props": "7-8in props (derived)",
+    "configuration": "14N12P",
+    "mount_mm": "19x19mm",
     "price_usd": 26.49
    },
    "_scraped_at": "2026-10-01",
@@ -17822,6 +17870,8 @@
     "max_cells": "2-4S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "mount_mm": "16x16mm (M3)",
     "price_usd": 19.49
    },
    "_scraped_at": "2026-10-01",
@@ -17843,6 +17893,9 @@
     "weight_g": 7.5,
     "max_cells": "4S",
     "recommended_props": "2-2.5in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "17.6x11.5",
+    "mount_mm": "9x9mm",
     "price_usd": 15.49
    },
    "_scraped_at": "2026-10-01",
@@ -17864,6 +17917,9 @@
     "weight_g": 14.0,
     "max_cells": "4S",
     "recommended_props": "4-5in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "16.5x23.8",
+    "mount_mm": "12x12mm",
     "price_usd": 19.49
    },
    "_scraped_at": "2026-10-01",
@@ -17885,6 +17941,9 @@
     "weight_g": 16.6,
     "max_cells": "4S",
     "recommended_props": "5in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "16.5x26",
+    "mount_mm": "12x12mm",
     "price_usd": 20.49
    },
    "_scraped_at": "2026-10-01",
@@ -17909,6 +17968,8 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "mount_mm": "16x16mm",
     "price_usd": 25.49
    },
    "_scraped_at": "2026-10-01",
@@ -17933,6 +17994,9 @@
     "weight_g": 35.8,
     "max_cells": "6S",
     "recommended_props": "6-7in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "30.8x31.9",
+    "mount_mm": "16x16mm",
     "price_usd": 27.49
    },
    "_scraped_at": "2026-10-01",
@@ -17954,6 +18018,9 @@
     "weight_g": 48.3,
     "max_cells": "4-6S",
     "recommended_props": "7-8in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "34.6x33.5",
+    "mount_mm": "19x19mm",
     "price_usd": 26.89
    },
    "_scraped_at": "2026-10-01",
@@ -17976,6 +18043,9 @@
     "max_cells": "6S",
     "shaft": "4mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "26.9x32.4",
+    "mount_mm": "16x16mm",
     "price_usd": 17.99
    },
    "_scraped_at": "2026-10-01",
@@ -18019,6 +18089,8 @@
     "weight_g": 3.3,
     "max_cells": "1-2S",
     "recommended_props": "40-65mm whoop/micro props (derived)",
+    "configuration": "9N12P",
+    "dimensions_mm": "13.5x9.2",
     "price_usd": 16.99
    },
    "_scraped_at": "2026-10-01",
@@ -18040,6 +18112,7 @@
     "max_cells": "2-4S",
     "shaft": "1.5mm",
     "recommended_props": "3\"- 4\"",
+    "mount_mm": "9x9mm",
     "price_usd": 16.99
    },
    "_scraped_at": "2026-10-01",
@@ -18061,6 +18134,9 @@
     "max_cells": "3-4S",
     "shaft": "1.5mm",
     "recommended_props": "3-4in props (derived)",
+    "configuration": "9N12P",
+    "dimensions_mm": "19.2x16.9",
+    "mount_mm": "9x9mm",
     "price_usd": 17.99
    },
    "_scraped_at": "2026-10-01",
@@ -18081,6 +18157,9 @@
     "weight_g": 20.5,
     "max_cells": "4-6S",
     "recommended_props": "5in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "25.3x15.4",
+    "mount_mm": "12x12mm",
     "price_usd": 23.99
    },
    "_scraped_at": "2026-10-01",
@@ -18103,6 +18182,9 @@
     "max_cells": "3-4S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "28.9x30.2",
+    "mount_mm": "16x16mm",
     "price_usd": 29.99
    },
    "_scraped_at": "2026-10-01",
@@ -18125,6 +18207,9 @@
     "max_cells": "4-6S",
     "shaft": "4mm",
     "recommended_props": "7-8in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "34.3x18.8",
+    "mount_mm": "19x19mm (M3)",
     "price_usd": 32.49
    },
    "_scraped_at": "2026-10-01",
@@ -18146,8 +18231,8 @@
     "max_cells": "2-4S",
     "shaft": "3mm",
     "recommended_props": "3-4in props (derived)",
-    "price_usd": 15.99,
     "configuration": "9N12P",
+    "price_usd": 15.99,
     "dimensions_mm": "Ø21.5x16.0"
    },
    "_scraped_at": "2026-10-01",
@@ -18170,6 +18255,8 @@
     "max_cells": "2-4S",
     "shaft": "1.5mm",
     "recommended_props": "3-4in props (derived)",
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø18.3x14.5",
     "price_usd": 16.99
    },
    "_scraped_at": "2026-10-01",
@@ -18192,6 +18279,7 @@
     "max_cells": "1S",
     "shaft": "1mm",
     "recommended_props": "1.4in and 1.6in whoop props (GEPRC: 1.6in freestyle for the 17000 KV, 1.4in freestyle for the 22000 KV; bench-tested on a Gemfan 1635 4-blade)",
+    "configuration": "9N12P",
     "price_usd": 14.49,
     "max_thrust_g": 44.02,
     "thrust_conditions": "GEPRC bench, 17000 KV and 22000 KV at 1S (4.2 V) on a Gemfan 1635 4-blade; current stepped 0.5-5.0 A and 0.5-7.8 A, throttle not published",
@@ -18483,7 +18571,6 @@
       "efficiency_gw": 1.34
      }
     ],
-    "configuration": "9N12P",
     "dimensions_mm": "Ø10.7x14.4"
    },
    "_scraped_at": "2026-10-01",
@@ -18507,6 +18594,7 @@
     "max_cells": "2S",
     "shaft": "1mm",
     "recommended_props": "1.6in whoop props (GEPRC: 1.6inch racing; bench-tested on a Gemfan 1635 3-blade)",
+    "configuration": "9N12P",
     "price_usd": 11.99,
     "max_thrust_g": 76.56,
     "thrust_conditions": "GEPRC bench, 11000 KV at 2S (8.4 V) on a Gemfan 1635 3-blade; current stepped 0.5-4.9 A, throttle not published",
@@ -18622,7 +18710,6 @@
       "efficiency_gw": 1.86
      }
     ],
-    "configuration": "9N12P",
     "dimensions_mm": "Ø10.7x15"
    },
    "_scraped_at": "2026-10-01",
@@ -18646,6 +18733,8 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "4-5 inch - 3 blade",
+    "dimensions_mm": "Ø28x19.6",
+    "mount_mm": "16x16mm",
     "price_usd": 17.99,
     "max_thrust_g": 1431,
     "thrust_conditions": "GEPRC bench, 1960 KV at 6S (25.2 V nominal), 10 throttle points (10-100%) on each of two 5in props (5131, 5136)",
@@ -18872,9 +18961,7 @@
      }
     ],
     "configuration": "12N14P",
-    "dimensions_mm": "Ø28x19.6",
-    "resistance_mohm": "69.85",
-    "mount_mm": "16x16mm"
+    "resistance_mohm": "69.85"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -18897,6 +18984,8 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "4-5inch",
+    "dimensions_mm": "Ø29x18.6",
+    "mount_mm": "16x16mm",
     "price_usd": 19.49,
     "max_thrust_g": 1342,
     "thrust_conditions": "GEPRC bench, 1860 KV at 6S (25.2 V nominal), 10 throttle points (10-100%) on each of two 5in props (5131, 5136)",
@@ -19123,9 +19212,7 @@
      }
     ],
     "configuration": "12N14P",
-    "dimensions_mm": "Ø29x18.6",
-    "resistance_mohm": "83.17",
-    "mount_mm": "16x16mm"
+    "resistance_mohm": "83.17"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -19148,6 +19235,8 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "5-6inch",
+    "dimensions_mm": "Ø34x30",
+    "mount_mm": "16x16mm",
     "price_usd": 20.99
    },
    "_scraped_at": "2026-10-01",
@@ -19168,6 +19257,9 @@
     "weight_g": 71.4,
     "max_cells": "6S",
     "recommended_props": "7-8 inch (GEPRC; bench-tested on Gemfan 7040-3 and Gemfan 8040-3)",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø36.04x36.53",
+    "mount_mm": "19x19mm (M3)",
     "price_usd": 35.99,
     "max_thrust_g": 3502.1,
     "thrust_conditions": "GEPRC bench, 1280 KV at 6S, 6 throttle points (50-100%) on each of two props (Gemfan 7040-3, Gemfan 8040-3)",
@@ -19305,11 +19397,8 @@
       "efficiency_gw": 2.2
      }
     ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø36.04x36.53",
-    "resistance_mohm": "42",
-    "mount_mm": "19x19mm (M3)",
-    "shaft": "5mm"
+    "shaft": "5mm",
+    "resistance_mohm": "42"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -19332,6 +19421,8 @@
     "max_cells": "1S",
     "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø10.5x14.9",
     "price_usd": 10.99,
     "max_thrust_g": 27.8,
     "thrust_conditions": "Happymodel bench, 25000 KV on a Gemfan 1219 31mm at 1S (3.7 V) and on a Happymodel 40mm 4-blade at 2.6 V; 5 current steps per prop (1.03-4.41 A and 1.02-4.53 A), throttle not published",
@@ -19446,9 +19537,7 @@
       "thrust_g": 25.2,
       "efficiency_gw": 2.14
      }
-    ],
-    "configuration": "9N12P",
-    "dimensions_mm": "Ø10.5x14.9"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -19471,6 +19560,7 @@
     "max_cells": "1S",
     "shaft": "1.5mm",
     "recommended_props": "40-65mm whoop/micro props (derived)",
+    "configuration": "9N12P",
     "price_usd": 12.99,
     "max_thrust_g": 55.4,
     "thrust_conditions": "Happymodel bench, 20000 KV on a Gemfan 2015-2 2-blade at 1S (3.7 V); 6 current steps 1.01-5.99 A, throttle not published",
@@ -19542,7 +19632,6 @@
       "efficiency_gw": 2.5
      }
     ],
-    "configuration": "9N12P",
     "dimensions_mm": "Ø13.5x12.5"
    },
    "_scraped_at": "2026-10-01",
@@ -19566,7 +19655,9 @@
     "max_cells": "1-2S",
     "shaft": "1.5mm",
     "recommended_props": "40-65mm whoop/micro props (derived)",
+    "configuration": "9N12P",
     "price_usd": 11.99,
+    "dimensions_mm": "Ø13.5x15.5",
     "max_thrust_g": 121.9,
     "thrust_conditions": "Happymodel bench, 11000 KV on a 2023R propeller at 2S (7.4 V); 9 current steps 1.07-9.20 A, throttle not published",
     "thrust_table": [
@@ -19669,12 +19760,11 @@
       "thrust_g": 121.9,
       "efficiency_gw": 1.791
      }
-    ],
-    "configuration": "9N12P",
-    "dimensions_mm": "Ø13.5x15.5"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
+    "https://pyrodrone.com/products/happymodel-ex1103-11000kv-brushless-fpv-drone-motor-for-happymodel-baseline-1-pc",
     "https://www.racedayquads.com/products/happymodel-ex-1103-11000kv-micro-motor",
     "https://www.happymodel.cn/index.php/2022/09/05/bassline-spare-part-ex1103-kv11000-brushless-motor/"
    ],
@@ -19694,7 +19784,9 @@
     "max_cells": "3-4S",
     "shaft": "1.5mm",
     "recommended_props": "3-4in props (derived)",
+    "configuration": "9N12P",
     "price_usd": 13.99,
+    "dimensions_mm": "Ø17.8x17.6",
     "max_thrust_g": 338.3,
     "thrust_conditions": "Happymodel bench, 3500 KV on a Gemfan 4024 2-blade, a Gemfan 4023 3-blade and a Gemfan 3018 2-blade at 4S (14.8 V); 5-9 current steps per prop (1-9.5 A), the sheet's throttle column being a PWM value (1463-2200 us) and not a percentage",
     "thrust_table": [
@@ -19962,12 +20054,11 @@
       "thrust_g": 212,
       "efficiency_gw": 3.256
      }
-    ],
-    "configuration": "9N12P",
-    "dimensions_mm": "Ø17.8x17.6"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
+    "https://pyrodrone.com/products/happymodel-ex1404-1404-motor-3500kv",
     "https://www.racedayquads.com/products/happymodel-ex-1404-3500kv-motor-for-crux35",
     "https://www.happymodel.cn/index.php/2021/01/07/happymodel-ex1404-kv2750-kv3500-kv4800-brushless-motor/"
    ],
@@ -19986,6 +20077,7 @@
     "weight_g": 3.7,
     "shaft": "1.5mm",
     "recommended_props": "40-65mm whoop/micro props (derived)",
+    "dimensions_mm": "Ø13.5x16",
     "price_usd": 12.99,
     "max_cells": "1-2S"
    },
@@ -20008,6 +20100,8 @@
     "weight_g": 4.4,
     "max_cells": "2-3S",
     "recommended_props": "2-2.5in props (derived)",
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø15x15",
     "price_usd": 14.49
    },
    "_scraped_at": "2026-10-01",
@@ -20029,6 +20123,8 @@
     "max_cells": "1S",
     "shaft": "1.5mm",
     "recommended_props": "31-40mm whoop props (derived)",
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø10.5x13.5",
     "price_usd": 11.99,
     "max_thrust_g": 34.8,
     "thrust_conditions": "Happymodel bench, 20000 KV on a Gemfan 1610 2-blade at 1S (3.7 V); 8 current steps 0.5-3.74 A, throttle not published",
@@ -20121,9 +20217,7 @@
       "thrust_g": 34.8,
       "efficiency_gw": 2.515
      }
-    ],
-    "configuration": "9N12P",
-    "dimensions_mm": "Ø10.5x13.5"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -20146,6 +20240,8 @@
     "max_cells": "2S",
     "shaft": "1.5mm",
     "recommended_props": "40-65mm whoop/micro props (derived)",
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø13.5x14",
     "price_usd": 13.49
    },
    "_scraped_at": "2026-10-01",
@@ -20168,7 +20264,9 @@
     "max_cells": "1S",
     "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
+    "configuration": "9N12P",
     "price_usd": 11.99,
+    "dimensions_mm": "Ø9.5x14",
     "max_thrust_g": 31.4,
     "thrust_conditions": "Happymodel bench, 23000 KV (Gemfan 31mm bi-blade, Gemfan 40mm bi-blade) and 26000 KV (HQPROP 31mm bi-blade, Gemfan 40mm bi-blade) at 1S (3.7 V); 5-7 current steps per run, throttle not published",
     "thrust_table": [
@@ -20458,12 +20556,11 @@
       "thrust_g": 31.4,
       "efficiency_gw": 1.938
      }
-    ],
-    "configuration": "9N12P",
-    "dimensions_mm": "Ø9.5x14"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
+    "https://pyrodrone.com/products/happymodel-se0702-26000kv-cw-brushless-motor-for-1s-whoops",
     "https://www.racedayquads.com/products/happymodel-se-0702-23000kv-micro-motor",
     "https://www.racedayquads.com/products/happymodel-se0702-0702-26000kv-motor",
     "https://www.happymodel.cn/index.php/2021/08/20/happymodel-se0702-kv26000-brushless-motors-for-1s-fpv-brushless-whoop/"
@@ -20483,6 +20580,7 @@
     "weight_g": 1.9,
     "max_cells": "1S",
     "recommended_props": "31-40mm whoop props (derived)",
+    "configuration": "9N12P",
     "price_usd": 11.99
    },
    "_scraped_at": "2026-10-01",
@@ -20504,6 +20602,8 @@
     "max_cells": "1S",
     "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø9.5x14",
     "price_usd": 10.99,
     "max_thrust_g": 24.6,
     "thrust_conditions": "Happymodel bench, 28000 KV on a Gemfan 1219 31mm tri-blade at 1S (3.7 V); 5 current steps 1.03-4.74 A, throttle not published",
@@ -20563,9 +20663,7 @@
       "thrust_g": 24.6,
       "efficiency_gw": 1.403
      }
-    ],
-    "configuration": "9N12P",
-    "dimensions_mm": "Ø9.5x14"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -20588,6 +20686,8 @@
     "max_cells": "1-2S",
     "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø10.5x14.9",
     "price_usd": 10.99
    },
    "_scraped_at": "2026-10-01",
@@ -20724,10 +20824,10 @@
       "efficiency_gw": 1.463
      }
     ],
+    "shaft": "M1.5x3.75mm",
     "configuration": "9N12P",
     "dimensions_mm": "Ø13.59x8.25",
-    "mount_mm": "3-M1.4-EQS-Ø6.6",
-    "shaft": "M1.5x3.75mm"
+    "mount_mm": "3-M1.4-EQS-Ø6.6"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -20974,10 +21074,10 @@
       "efficiency_gw": 2.267
      }
     ],
+    "shaft": "M1.5x3.8mm",
     "configuration": "9N12P",
     "dimensions_mm": "Ø13.7x9.2",
-    "mount_mm": "3-M1.4-EQS-Ø6.6",
-    "shaft": "M1.5x3.8mm"
+    "mount_mm": "3-M1.4-EQS-Ø6.6"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -21136,10 +21236,10 @@
       "efficiency_gw": 4.298
      }
     ],
+    "shaft": "M1.5x4.8mm",
     "configuration": "9N12P",
     "dimensions_mm": "Ø15.84x8.9",
-    "mount_mm": "4-M2-EQS-Ø9",
-    "shaft": "M1.5x4.8mm"
+    "mount_mm": "4-M2-EQS-Ø9"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -21475,10 +21575,10 @@
       "efficiency_gw": 2.015
      }
     ],
+    "shaft": "M1.5x3.8mm",
     "configuration": "9N12P",
     "dimensions_mm": "Ø19.13x12.25",
-    "mount_mm": "4-M2-EQS-Ø9",
-    "shaft": "M1.5x3.8mm"
+    "mount_mm": "4-M2-EQS-Ø9"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -21501,6 +21601,7 @@
     "weight_g": 13.3,
     "max_cells": "4-6S",
     "recommended_props": "3-3.5 inch",
+    "mount_mm": "12x12 (M2)",
     "price_usd": 19.49,
     "max_thrust_g": 815,
     "thrust_conditions": "HGLRC bench, 2450 KV at 16 V (4S) and 24 V (6S), 50% and 100% throttle on each of four 3-4in props",
@@ -21682,10 +21783,9 @@
       "efficiency_gw": 1.887
      }
     ],
+    "shaft": "M1.5x3.8mm",
     "configuration": "12N14P",
-    "dimensions_mm": "Ø22.68x13.2",
-    "mount_mm": "12x12 (M2)",
-    "shaft": "M1.5x3.8mm"
+    "dimensions_mm": "Ø22.68x13.2"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -21707,6 +21807,7 @@
     "weight_g": 34.2,
     "max_cells": "5-6S",
     "recommended_props": "5-6 inch",
+    "mount_mm": "16x16 (M3)",
     "price_usd": 23.99,
     "max_thrust_g": 2186,
     "thrust_conditions": "HGLRC bench, 1900 KV at 21 V (5S) and 24 V (6S), 50% and 100% throttle on each of four 5in props",
@@ -21888,10 +21989,9 @@
       "efficiency_gw": 1.91
      }
     ],
+    "shaft": "M5x13.2mm",
     "configuration": "12N14P",
-    "dimensions_mm": "Ø28.97x32.15",
-    "mount_mm": "16x16 (M3)",
-    "shaft": "M5x13.2mm"
+    "dimensions_mm": "Ø28.97x32.15"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -21914,14 +22014,15 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "6-7in props (derived)",
-    "price_usd": 28.99,
     "configuration": "12N14P",
     "dimensions_mm": "Ø31.7x19.6",
     "mount_mm": "16x16mm (M3)",
+    "price_usd": 28.99,
     "resistance_mohm": "74.88 (1500KV)"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
+    "https://pyrodrone.com/products/iflight-bob57-2506-1500kv-6s-brushless-fpv-drone-motor",
     "https://www.racedayquads.com/products/iflight-bob57-2506-motor-1500kv",
     "https://shop.iflight.com/BOB57-2506-1500KV-6S-FPV-Motor-Pro1786"
    ],
@@ -21941,10 +22042,10 @@
     "max_cells": "8S",
     "shaft": "5mm",
     "recommended_props": "8in+ props (derived)",
-    "price_usd": 55.49,
     "configuration": "12N14P",
     "dimensions_mm": "Ø38.72x39.6",
     "mount_mm": "19x19mm (M3)",
+    "price_usd": 55.49,
     "resistance_mohm": "78 (900KV)"
    },
    "_scraped_at": "2026-10-01",
@@ -21969,6 +22070,9 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "28.2x19",
+    "mount_mm": "16x16mm",
     "price_usd": 28.99
    },
    "_scraped_at": "2026-10-01",
@@ -21992,10 +22096,10 @@
     "max_cells": "3-4S",
     "shaft": "1.5mm",
     "recommended_props": "2-2.5in props (derived)",
-    "price_usd": 19.49,
     "configuration": "12N14P",
     "dimensions_mm": "Ø17.58x16",
     "mount_mm": "9x9mm (M2)",
+    "price_usd": 19.49,
     "resistance_mohm": "386 (5000KV)"
    },
    "_scraped_at": "2026-10-01",
@@ -22019,11 +22123,11 @@
     "weight_g": 23.7,
     "max_cells": "4S",
     "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 23.99,
     "configuration": "12N14P",
+    "price_usd": 23.99,
+    "shaft": "5mm",
     "dimensions_mm": "Ø28.6x29.5",
     "mount_mm": "12x12mm (M2)",
-    "shaft": "5mm",
     "resistance_mohm": "72.41 (2300KV)"
    },
    "_scraped_at": "2026-10-01",
@@ -22047,6 +22151,8 @@
     "max_cells": "2-4S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "resistance_mohm": "47.3",
     "price_usd": 20.99
    },
    "_scraped_at": "2026-10-01",
@@ -22068,12 +22174,12 @@
     ],
     "shaft": "5mm",
     "recommended_props": "7-8in props (derived)",
-    "price_usd": 40.99,
-    "weight_g": 49.5,
-    "max_cells": "2-6S",
     "configuration": "12N14P",
     "dimensions_mm": "Ø35.06x36.8",
     "mount_mm": "19x19mm (M3)",
+    "price_usd": 40.99,
+    "weight_g": 49.5,
+    "max_cells": "2-6S",
     "resistance_mohm": "72.29 (1300KV) / 48.5 (1800KV)"
    },
    "_scraped_at": "2026-10-01",
@@ -22100,11 +22206,11 @@
     "max_cells": "4-6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 20.49,
     "configuration": "12N14P",
+    "resistance_mohm": "81.5 (1800KV) / 46.8 (2450KV) / 41 (2750KV)",
+    "price_usd": 20.49,
     "dimensions_mm": "Ø28.5x33.1",
-    "mount_mm": "16x16mm (M3)",
-    "resistance_mohm": "81.5 (1800KV) / 46.8 (2450KV) / 41 (2750KV)"
+    "mount_mm": "16x16mm (M3)"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -22130,11 +22236,11 @@
     "max_cells": "2-6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 19.49,
     "configuration": "12N14P",
+    "resistance_mohm": "85.63 (1750KV) / 55.6 (2450KV)",
+    "price_usd": 19.49,
     "dimensions_mm": "Ø29.5x32.2",
-    "mount_mm": "16x16mm (M3)",
-    "resistance_mohm": "85.63 (1750KV) / 55.6 (2450KV)"
+    "mount_mm": "16x16mm (M3)"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -22160,10 +22266,10 @@
     "max_cells": "3-4S",
     "shaft": "1.5mm",
     "recommended_props": "3-4in props (derived)",
-    "price_usd": 21.99,
     "configuration": "9N12P",
-    "dimensions_mm": "Ø19.9x18.4",
     "mount_mm": "9x9mm (M2)",
+    "price_usd": 21.99,
+    "dimensions_mm": "Ø19.9x18.4",
     "resistance_mohm": "309 (3000KV) / 220 (3800KV) / 159 (4600KV)"
    },
    "_scraped_at": "2026-10-01",
@@ -22190,9 +22296,10 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 26.49,
     "configuration": "12N14P",
-    "mount_mm": "16x16mm (M3)"
+    "dimensions_mm": "Ø29x19.25",
+    "mount_mm": "16x16mm (M3)",
+    "price_usd": 26.49
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -22245,11 +22352,11 @@
     "weight_g": 38.2,
     "max_cells": "6S",
     "recommended_props": "6-7in props (derived)",
+    "configuration": "12N14P",
+    "mount_mm": "16x16mm (M3)",
     "price_usd": 28.99,
     "shaft": "5mm",
-    "configuration": "12N14P",
     "dimensions_mm": "Ø31.7x34.6",
-    "mount_mm": "16x16mm (M3)",
     "resistance_mohm": "74.88 (1500KV) / 47.6 (1850KV)"
    },
    "_scraped_at": "2026-10-01",
@@ -22275,10 +22382,10 @@
     "max_cells": "8-12S",
     "shaft": "5mm",
     "recommended_props": "HQ PROP 10x5x3",
-    "max_thrust_g": 5824,
-    "price_usd": 38.99,
     "configuration": "12N14P",
     "dimensions_mm": "37.1x38.9",
+    "max_thrust_g": 5824,
+    "price_usd": 38.99,
     "resistance_mohm": "110"
    },
    "_scraped_at": "2026-10-01",
@@ -22302,9 +22409,9 @@
     "max_cells": "3-8S",
     "shaft": "5mm",
     "recommended_props": "6-7in props (derived)",
-    "price_usd": 29.99,
     "configuration": "12N14P",
     "dimensions_mm": "32x29",
+    "price_usd": 29.99,
     "mount_mm": "16x16mm (M3)"
    },
    "_scraped_at": "2026-10-01",
@@ -22328,9 +22435,9 @@
     "max_cells": "3-8S",
     "shaft": "5mm",
     "recommended_props": "7-8in props (derived)",
-    "price_usd": 24.99,
     "configuration": "12N14P",
     "dimensions_mm": "33x19.5",
+    "price_usd": 24.99,
     "mount_mm": "19x19mm (M3)"
    },
    "_scraped_at": "2026-10-01",
@@ -22356,9 +22463,9 @@
     "max_cells": "3-8S",
     "shaft": "5mm",
     "recommended_props": "7-8in props (derived)",
+    "dimensions_mm": "33x19.5",
     "price_usd": 37.99,
     "configuration": "12N14P",
-    "dimensions_mm": "33x19.5",
     "mount_mm": "19x19mm (M3)"
    },
    "_scraped_at": "2026-10-01",
@@ -22383,9 +22490,9 @@
     "max_cells": "3-8S",
     "shaft": "5mm",
     "recommended_props": "7-8in props (derived)",
-    "price_usd": 44.49,
     "configuration": "12N14P",
     "dimensions_mm": "33.7x25.8",
+    "price_usd": 44.49,
     "mount_mm": "19x19mm (M3)"
    },
    "_scraped_at": "2026-10-01",
@@ -22410,8 +22517,8 @@
     "max_cells": "4-6S",
     "shaft": "5mm",
     "recommended_props": "8in+ props (derived)",
-    "price_usd": 51.99,
     "configuration": "12N14P",
+    "price_usd": 51.99,
     "mount_mm": "19x19mm (M3)"
    },
    "_scraped_at": "2026-10-01",
@@ -22435,6 +22542,7 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "mount_mm": "16x16mm (M3)",
     "price_usd": 23.99
    },
    "_scraped_at": "2026-10-01",
@@ -22459,6 +22567,7 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "mount_mm": "16x16mm (M3)",
     "price_usd": 83.99
    },
    "_scraped_at": "2026-10-01",
@@ -22483,9 +22592,9 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "dimensions_mm": "Ø29.4x31.6",
     "price_usd": 29.99,
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø29.4x31.6"
+    "configuration": "12N14P"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -22509,9 +22618,9 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 20.99,
     "configuration": "12N14P",
     "mount_mm": "16x16mm",
+    "price_usd": 20.99,
     "dimensions_mm": "Ø28.4x32.3"
    },
    "_scraped_at": "2026-10-01",
@@ -22534,8 +22643,11 @@
     "max_cells": "8S",
     "shaft": "4mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "27.6x19.5",
     "price_usd": 34.99,
-    "weight_g": 31.0
+    "weight_g": 31.0,
+    "resistance_mohm": "65"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -22557,6 +22669,9 @@
     "max_cells": "5-6S",
     "shaft": "4mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "27.6x19.5",
+    "resistance_mohm": "45",
     "price_usd": 34.99,
     "max_thrust_g": 2547,
     "thrust_conditions": "RCinPower bench, five 5in props at 21 V (5S) and 24 V (6S), two throttle points each (50% and 100%); no RPM published",
@@ -22781,10 +22896,7 @@
       "thrust_g": 2311,
       "efficiency_gw": 1.773
      }
-    ],
-    "configuration": "12N14P",
-    "dimensions_mm": "27.6x19.5",
-    "resistance_mohm": "45"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -22807,6 +22919,10 @@
     "max_cells": "4-6S",
     "shaft": "4mm",
     "recommended_props": "7-8in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "32.9x35.3",
+    "mount_mm": "19x19mm",
+    "resistance_mohm": "58",
     "price_usd": 39.99
    },
    "_scraped_at": "2026-10-01",
@@ -22828,6 +22944,9 @@
     "max_cells": "3-4S",
     "shaft": "1.5mm",
     "recommended_props": "2-2.5in props (derived)",
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø16.1x10.9",
+    "resistance_mohm": "125",
     "price_usd": 15.49,
     "max_thrust_g": 186,
     "thrust_conditions": "RCinPower bench, one 5000 KV sheet, a single 2.5in tri-blade prop at 11.1 V and 14.8 V, four throttle points each (25/50/75/100%); no RPM published",
@@ -22920,10 +23039,7 @@
       "thrust_g": 186,
       "efficiency_gw": 2.244
      }
-    ],
-    "configuration": "9N12P",
-    "dimensions_mm": "Ø16.1x10.9",
-    "resistance_mohm": "125"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -22946,6 +23062,9 @@
     "max_cells": "3-4S",
     "shaft": "1.5mm",
     "recommended_props": "2-2.5in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "21.3x27.6",
+    "resistance_mohm": "120",
     "price_usd": 16.49
    },
    "_scraped_at": "2026-10-01",
@@ -22967,6 +23086,9 @@
     "max_cells": "1S",
     "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø9.6x8.1",
+    "resistance_mohm": "210",
     "price_usd": 14.49
    },
    "_scraped_at": "2026-10-01",
@@ -22988,6 +23110,9 @@
     "max_cells": "1S",
     "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø9.6x8.1",
+    "resistance_mohm": "222",
     "price_usd": 14.49
    },
    "_scraped_at": "2026-10-01",
@@ -23010,6 +23135,9 @@
     "max_cells": "1S",
     "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
+    "configuration": "9N12P",
+    "dimensions_mm": "9.6x9.6",
+    "resistance_mohm": "206 / 175 (23000/27000KV)",
     "price_usd": 15.99,
     "max_thrust_g": 49,
     "thrust_conditions": "RCinPower bench, 1S (4.2 V), five whoop props per KV, 50% and 100% throttle; 23000/27000 KV; no RPM published",
@@ -23234,10 +23362,7 @@
       "thrust_g": 49,
       "efficiency_gw": 1.716
      }
-    ],
-    "configuration": "9N12P",
-    "dimensions_mm": "9.6x9.6",
-    "resistance_mohm": "206 / 175 (23000/27000KV)"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -23263,6 +23388,8 @@
     "max_cells": "1S",
     "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
+    "configuration": "9N12P",
+    "resistance_mohm": "117 / 105 / 95 (22000/25000/27000KV)",
     "price_usd": 15.49,
     "max_thrust_g": 56,
     "thrust_conditions": "RCinPower bench, 1S (3.7 V), four whoop props per KV, 50% and 100% throttle; 22000/25000/27000 KV; no RPM published",
@@ -23532,9 +23659,7 @@
       "efficiency_gw": 2.102
      }
     ],
-    "configuration": "9N12P",
-    "dimensions_mm": "11.2x8.2",
-    "resistance_mohm": "117 / 105 / 95 (22000/25000/27000KV)"
+    "dimensions_mm": "11.2x8.2"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -23558,9 +23683,13 @@
      22000
     ],
     "weight_g": 2.5,
-    "max_cells": "1-2S",
+    "max_cells": "1S",
     "shaft": "1.5mm",
     "recommended_props": "40-65mm whoop/micro props (derived)",
+    "configuration": "9N12P",
+    "dimensions_mm": "13.5x7.75",
+    "mount_mm": "9x9mm",
+    "resistance_mohm": "175 / 89 / 75 (14000/19000/22000KV)",
     "price_usd": 15.99,
     "max_thrust_g": 115,
     "thrust_conditions": "RCinPower bench, 2S (7.4 V) on the 14000 KV and 1S (3.7 V) on the 19000/22000 KV, five props per KV, 50% and 100% throttle; no RPM published",
@@ -23895,10 +24024,7 @@
       "thrust_g": 76,
       "efficiency_gw": 1.467
      }
-    ],
-    "configuration": "9N12P",
-    "dimensions_mm": "13.5x7.75",
-    "resistance_mohm": "175 / 89 / 75 (14000/19000/22000KV)"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -23925,6 +24051,8 @@
     "max_cells": "1-2S",
     "shaft": "1.5mm",
     "recommended_props": "40-65mm whoop/micro props (derived)",
+    "configuration": "9N12P",
+    "dimensions_mm": "13.5x9.2",
     "price_usd": 16.99
    },
    "_scraped_at": "2026-10-01",
@@ -23948,6 +24076,10 @@
     "max_cells": "4-6S",
     "shaft": "1.5mm",
     "recommended_props": "5in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø25.35x13.8",
+    "mount_mm": "12x12mm",
+    "resistance_mohm": "210 (1800KV) / 110 (3000KV)",
     "price_usd": 23.99,
     "max_thrust_g": 1156,
     "thrust_conditions": "RCinPower bench, two T-mount KV sheets (1800, 3000), six props each at one or two voltages, 50% and 100% throttle; no RPM published",
@@ -24348,11 +24480,7 @@
       "thrust_g": 927,
       "efficiency_gw": 2.749
      }
-    ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø25.35x13.8",
-    "mount_mm": "12x12mm",
-    "resistance_mohm": "210 (1800KV) / 110 (3000KV)"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -24375,6 +24503,10 @@
     "max_cells": "3-4S",
     "shaft": "5mm",
     "recommended_props": "5in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø25.53x15.2",
+    "mount_mm": "12x12mm (4-M2)",
+    "resistance_mohm": "160 (1850KV) / 60 (2950KV) / 45 (3600KV)",
     "price_usd": 25.49,
     "max_thrust_g": 1236,
     "thrust_conditions": "RCinPower bench, three KV sheets (1850, 2950, 3600), four to six props each at two voltages, 50% and 100% throttle; no RPM published",
@@ -24918,11 +25050,7 @@
       "thrust_g": 1021,
       "efficiency_gw": 2.41
      }
-    ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø25.53x15.2",
-    "mount_mm": "12x12mm (4-M2)",
-    "resistance_mohm": "160 (1850KV) / 60 (2950KV) / 45 (3600KV)"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -24947,6 +25075,10 @@
     "max_cells": "5-6S",
     "shaft": "5mm",
     "recommended_props": "5in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø26.29x30.85",
+    "mount_mm": "16x16mm",
+    "resistance_mohm": "55 (1980KV) / 53 (2080KV) / 48 (2480KV)",
     "price_usd": 31.49,
     "max_thrust_g": 2269,
     "thrust_conditions": "RCinPower bench, three KV sheets (1980, 2080, 2480), five props each at two voltages, 50% and 100% throttle; no RPM published",
@@ -25611,11 +25743,7 @@
       "thrust_g": 2100,
       "efficiency_gw": 2.457
      }
-    ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø26.29x30.85",
-    "mount_mm": "16x16mm",
-    "resistance_mohm": "55 (1980KV) / 53 (2080KV) / 48 (2480KV)"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -25641,6 +25769,8 @@
     "max_cells": "5-6S",
     "shaft": "4mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "27.3x30.3",
     "price_usd": 32.49
    },
    "_scraped_at": "2026-10-01",
@@ -25663,6 +25793,9 @@
     "max_cells": "5-6S",
     "shaft": "4mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "27.3x30.3",
+    "resistance_mohm": "56",
     "price_usd": 34.99
    },
    "_scraped_at": "2026-10-01",
@@ -25684,6 +25817,9 @@
     "max_cells": "4-6S",
     "shaft": "5mm",
     "recommended_props": "3-4in props (derived)",
+    "configuration": "9N12P",
+    "dimensions_mm": "20.7x28.2",
+    "resistance_mohm": "113 (2680KV) / 65 (3800KV) / 59 (4200KV)",
     "price_usd": 22.99,
     "max_thrust_g": 1101,
     "thrust_conditions": "RCinPower bench, four props per KV at two voltages, 50% and 100% throttle; 2680 KV on 4S/6S, 3800 and 4200 KV on 3S/4S; no RPM published",
@@ -26194,10 +26330,7 @@
       "thrust_g": 890,
       "efficiency_gw": 3.873
      }
-    ],
-    "configuration": "9N12P",
-    "dimensions_mm": "20.7x28.2",
-    "resistance_mohm": "113 (2680KV) / 65 (3800KV) / 59 (4200KV)"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -26222,10 +26355,14 @@
     "max_cells": "5-6S",
     "shaft": "4mm",
     "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 33.99
+    "configuration": "12N14P",
+    "price_usd": 33.99,
+    "dimensions_mm": "Ø28.1x18.8",
+    "resistance_mohm": "46"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
+    "https://pyrodrone.com/products/rcinpower-vanover-v3-2207-brushless-fpv-drone-motor-2060kv",
     "https://www.racedayquads.com/products/rcinpower-vanover-2207-v3-motor"
    ]
   },
@@ -26243,6 +26380,7 @@
     "weight_g": 30.5,
     "max_cells": "4-5S",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
     "price_usd": 23.99,
     "max_thrust_g": 2410,
     "thrust_conditions": "RCinPower bench, three KV sheets (1860, 2020, 2420), five 5in and 6in props each at two voltages, 50% and 100% throttle; no RPM published",
@@ -26886,9 +27024,8 @@
       "efficiency_gw": 2.5
      }
     ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø28.49x30.6",
     "shaft": "4mm hollow",
+    "dimensions_mm": "Ø28.49x30.6",
     "resistance_mohm": "64 (1860KV) / 49 (2020KV) / 34 (2420KV)"
    },
    "_scraped_at": "2026-10-01",
@@ -27605,6 +27742,8 @@
     "weight_g": 17.0,
     "max_cells": "3-6S",
     "recommended_props": "3-4in props (derived)",
+    "configuration": "12N14P",
+    "mount_mm": "12x12mm",
     "price_usd": 12.59,
     "max_thrust_g": 868,
     "thrust_conditions": "RaceDayQuads bench, 50-100% in tens on three props per winding; 2650 KV at 14.8 and 22.2 V, 4000 KV at 14.8 V",
@@ -28194,8 +28333,6 @@
      }
     ],
     "shaft": "5mm",
-    "mount_mm": "12x12mm",
-    "configuration": "12N14P",
     "dimensions_mm": "Ø20.2x18"
    },
    "_scraped_at": "2026-10-01",
@@ -28219,6 +28356,8 @@
     "weight_g": 37.0,
     "max_cells": "4-6S",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "mount_mm": "16x16mm",
     "price_usd": 14.29,
     "max_thrust_g": 2058,
     "thrust_conditions": "RaceDayQuads bench, 6S / 24.00 V, 50-100% in tens; one prop at 1400 KV, four at 1900 KV, three at 2400 KV",
@@ -28753,8 +28892,6 @@
      }
     ],
     "shaft": "5mm",
-    "mount_mm": "16x16mm",
-    "configuration": "12N14P",
     "dimensions_mm": "Ø28.5x19.7"
    },
    "_scraped_at": "2026-10-01",
@@ -28778,6 +28915,8 @@
     "weight_g": 37.0,
     "max_cells": "3-6S",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "mount_mm": "16x16mm",
     "price_usd": 17.39,
     "max_thrust_g": 1927,
     "thrust_conditions": "RaceDayQuads bench, 50-100% in tens, measured voltage per row; 1400 and 1900 KV on 6S, 2400 KV on 4S and 5S",
@@ -29642,8 +29781,6 @@
      }
     ],
     "shaft": "5mm",
-    "mount_mm": "16x16mm",
-    "configuration": "12N14P",
     "dimensions_mm": "Ø28.8x17.6"
    },
    "_scraped_at": "2026-10-01",
@@ -29666,6 +29803,8 @@
     "max_cells": "5-6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "mount_mm": "16x16mm",
+    "resistance_mohm": "62",
     "price_usd": 27.49
    },
    "_scraped_at": "2026-10-01",
@@ -29689,9 +29828,9 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
-    "price_usd": 5.3,
     "mount_mm": "16x16mm",
-    "resistance_mohm": "64"
+    "resistance_mohm": "64",
+    "price_usd": 5.3
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -29714,8 +29853,8 @@
     "max_cells": "1S",
     "shaft": "1.5mm",
     "recommended_props": "31-40mm whoop props (derived)",
-    "price_usd": 39.99,
     "configuration": "9N12P",
+    "price_usd": 39.99,
     "dimensions_mm": "Ø12x14"
    },
    "_scraped_at": "2026-10-01",
@@ -29741,6 +29880,9 @@
     "max_cells": "3-4S",
     "shaft": "3mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø26.8x26.45",
+    "resistance_mohm": "235 (1500KV) / 90 (2850KV) / 76 (3550KV)",
     "price_usd": 24.99,
     "max_thrust_g": 1068.77,
     "thrust_conditions": "T-Motor bench, sixteen runs across three KV: at 1500 KV Gemfan D76, Gemfan 4023, Gemfan 5125 and HQ Duct 75MM*6 on 6S (~23.9 V); at 2850 KV the same four props on 4S (~15.8 V) and D76, 4023 and the duct again on 6S (~23.6 V); at 3550 KV Gemfan D90, Gemfan 4023 and Gemfan 5125 on 3S (~11.7 V) and the 4023 and D90 on 4S (~14.4 / ~15.6 V); 11 throttle points (50-100% in 5% steps) on each run",
@@ -31681,10 +31823,7 @@
       "thrust_g": 814.26,
       "efficiency_gw": 1.97
      }
-    ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø26.8x26.45",
-    "resistance_mohm": "235 (1500KV) / 90 (2850KV) / 76 (3550KV)"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -31709,6 +31848,9 @@
     "max_cells": "5-6S",
     "shaft": "4mm",
     "recommended_props": "7-8in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø33.4x38.05",
+    "resistance_mohm": "61 (1100KV) / 42 (1350KV)",
     "price_usd": 44.99,
     "max_thrust_g": 2597.38,
     "thrust_conditions": "T-Motor bench, four runs across two KV: at 1100 KV Gemfan GF7040-3 and HQProp HQ8045-3 on 6S (~24.9 V); at 1350 KV the GF7040-3 on 6S (~24.8 V) and the HQ8045-3 on 5S (~20.5 V); 15 throttle points (30-100% in 5% steps) on each run",
@@ -32373,10 +32515,7 @@
       "thrust_g": 2467.79,
       "efficiency_gw": 2.02
      }
-    ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø33.4x38.05",
-    "resistance_mohm": "61 (1100KV) / 42 (1350KV)"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -32399,8 +32538,11 @@
     "max_cells": "2-3S",
     "shaft": "1.5mm",
     "recommended_props": "2-2.5in props (derived)",
+    "configuration": "9N12P",
+    "resistance_mohm": "198",
     "price_usd": 18.99,
     "weight_g": 5.25,
+    "dimensions_mm": "Ø15.5x14.05",
     "max_thrust_g": 192.57,
     "thrust_conditions": "T-Motor bench, six runs on the single 7000 KV winding: GF2023-3 and GF2020-4 on 2S (~8.4 V) and on 3S (~12.6 V), GFD63-3 and G3018-2 on 2S; 11 throttle points (50-100% in 5% steps) on each run",
     "thrust_table": [
@@ -33130,10 +33272,7 @@
       "thrust_g": 165.51,
       "efficiency_gw": 2.4
      }
-    ],
-    "configuration": "9N12P",
-    "dimensions_mm": "Ø15.5x14.05",
-    "resistance_mohm": "198"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -33158,6 +33297,9 @@
     "max_cells": "2-3S",
     "shaft": "1.5mm",
     "recommended_props": "2-2.5in props (derived)",
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø15.5x15.6",
+    "resistance_mohm": "240 (5000KV) / 140 (6500KV)",
     "price_usd": 19.99,
     "max_thrust_g": 171.75,
     "thrust_conditions": "T-Motor bench, four runs across two KV: at 6500 KV Gemfan GF3016 and HQProp HQ3020 on 2S (~8.4 V); at 5000 KV Gemfan GF2540 and HQProp HQ3020 on 3S (~12.2 V); 11 throttle points (50-100% in 5% steps) on each run",
@@ -33646,10 +33788,7 @@
       "thrust_g": 171.75,
       "efficiency_gw": 2.38
      }
-    ],
-    "configuration": "9N12P",
-    "dimensions_mm": "Ø15.5x15.6",
-    "resistance_mohm": "240 (5000KV) / 140 (6500KV)"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -33675,6 +33814,9 @@
     "max_cells": "3-4S",
     "shaft": "1.5mm",
     "recommended_props": "3-4in props (derived)",
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø17.9x16.6",
+    "resistance_mohm": "310 (2900KV) / 195 (3800KV) / 138 (4600KV)",
     "price_usd": 21.99,
     "max_thrust_g": 480.22,
     "thrust_conditions": "T-Motor bench, eleven runs across three KV: at 2900 KV Gemfan GF3028-3, HQProp HQ3520-3, Gemfan GF4023-3 and Gemfan GF4024-2 on 4S (~16.8 V), GF3028-3 and HQ3520-3 on 5S (~21.0 V) and GF3028-3 on 6S (~25.2 V); at 3800 KV and again at 4600 KV, Gemfan GF3016 and HQProp HQ3*3*3 on 4S (~15.9 V); 11 throttle points (50-100% in 5% steps) on each run",
@@ -35010,10 +35152,7 @@
       "thrust_g": 310.57,
       "efficiency_gw": 0.98
      }
-    ],
-    "configuration": "9N12P",
-    "dimensions_mm": "Ø17.9x16.6",
-    "resistance_mohm": "310 (2900KV) / 195 (3800KV) / 138 (4600KV)"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -35036,8 +35175,12 @@
     "weight_g": 14.95,
     "shaft": "1.5mm",
     "recommended_props": "3-4in props (derived)",
+    "configuration": "9N12P",
+    "mount_mm": "12x12mm",
+    "resistance_mohm": "88",
     "price_usd": 18.89,
-    "max_cells": "3-4S"
+    "max_cells": "3-4S",
+    "dimensions_mm": "17.9x20.2"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -35060,6 +35203,9 @@
     "max_cells": "3-4S",
     "shaft": "2mm",
     "recommended_props": "3-4in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø18.9x29.7",
+    "resistance_mohm": "131 (2700KV) / 81 (3800KV)",
     "price_usd": 24.99,
     "max_thrust_g": 838.7,
     "thrust_conditions": "T-Motor bench, three props across two KV: Gemfan GF3035, Gemfan GF3052 and T-Motor T3140, all tri-blade, on 6S (~23.3 V) at 2700 KV and on 4S (~15.2 V) at 3800 KV; 11 throttle points (50-100% in 5% steps) on each run",
@@ -35790,10 +35936,7 @@
       "thrust_g": 673.83,
       "efficiency_gw": 1.72
      }
-    ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø18.9x29.7",
-    "resistance_mohm": "131 (2700KV) / 81 (3800KV)"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -36574,6 +36717,8 @@
     "max_cells": "5-6S",
     "shaft": "4mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "mount_mm": "16x16mm",
     "price_usd": 33.99,
     "max_thrust_g": 2108.3,
     "thrust_conditions": "6S, T-Motor T5147-3, 100% throttle, 2150KV; manufacturer bench, weight 34.5 g (1950KV) / 33.7 g (2150KV) incl. cable",
@@ -36931,6 +37076,9 @@
     "weight_g": 28.56,
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø27x29.5",
+    "mount_mm": "16x16mm",
     "max_thrust_g": 2136.0,
     "price_usd": 37.99,
     "max_cells": "6S"
@@ -36955,6 +37103,7 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
     "price_usd": 34.99,
     "max_thrust_g": 2083.5,
     "thrust_conditions": "T-Motor bench, 6S (25.2 V), 5 throttle points per KV on four 5in props",
@@ -37399,8 +37548,7 @@
       "thrust_g": 1921.2,
       "efficiency_gw": 1.54
      }
-    ],
-    "configuration": "12N14P"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -37423,6 +37571,8 @@
     "max_cells": "4-6S",
     "shaft": "4mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "26.8x32.7",
     "price_usd": 40.99,
     "max_thrust_g": 1837.77,
     "thrust_conditions": "T-Motor bench, 11 throttle points (50-100% in 5% steps) per KV on four T-Motor 5in tri-blades; 1750/1950 KV on 6S, 2550 KV on 4S",
@@ -38904,6 +39054,8 @@
     "max_cells": "4S",
     "shaft": "4mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "26.8x31.7",
     "price_usd": 33.99,
     "max_thrust_g": 2025.5,
     "thrust_conditions": "6S, T-Motor T5147-3, 100% throttle, 2020KV; manufacturer bench, per-KV weights 33.3-34.3 g incl. cable",
@@ -39372,6 +39524,9 @@
     "max_cells": "4-6S",
     "shaft": "4mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "26.8x32.7",
+    "resistance_mohm": "70",
     "price_usd": 34.99,
     "max_thrust_g": 2083.5,
     "thrust_conditions": "T-Motor bench, 6S (25.2 V), 5 throttle points per KV on four 5in props",
@@ -39816,8 +39971,7 @@
       "thrust_g": 1921.2,
       "efficiency_gw": 1.54
      }
-    ],
-    "configuration": "12N14P"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -39840,6 +39994,9 @@
     "max_cells": "5-6S",
     "shaft": "4mm",
     "recommended_props": "7-8in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø33.4x34.7",
+    "resistance_mohm": "45",
     "price_usd": 37.99
    },
    "_scraped_at": "2026-10-01",
@@ -39861,6 +40018,7 @@
     "max_cells": "6S",
     "shaft": "4mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
     "price_usd": 37.99,
     "max_thrust_g": 1887.5,
     "thrust_conditions": "T-Motor bench, one 1750 KV winding at 6S (24 V) on four 5in props (T-Motor F5146-3, Gemfan 51466-3, Gemfan F4-3 and Gemfan 5131-3); 10 throttle points (10-100% in 10% steps) on each run",
@@ -40305,8 +40463,7 @@
       "thrust_g": 1830.7,
       "efficiency_gw": 2.12
      }
-    ],
-    "configuration": "12N14P"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -40329,6 +40486,7 @@
     "max_cells": "6S",
     "shaft": "4mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
     "price_usd": 36.99,
     "max_thrust_g": 1756.8,
     "thrust_conditions": "T-Motor bench, one 1750 KV winding at 6S (24 V) on four 5in props (T-Motor F5146-3, Gemfan F4-3, Gemfan 51466-3 and Gemfan 5131-3); 10 throttle points (10-100% in 10% steps) on each run",
@@ -40773,8 +40931,7 @@
       "thrust_g": 1728.6,
       "efficiency_gw": 2.16
      }
-    ],
-    "configuration": "12N14P"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -40798,6 +40955,7 @@
     "max_cells": "1S",
     "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
+    "configuration": "9N12P",
     "price_usd": 18.99,
     "max_thrust_g": 38.6,
     "thrust_conditions": "T-Motor bench, 25000 KV winding only, five runs at 1S (4.2 V) on M12199, GF1219-3, GF1220-4, GF35mm-3 and GF35mm-4; 6 throttle points (50-100% in 10% steps) on each run",
@@ -41132,8 +41290,7 @@
       "thrust_g": 36.1,
       "efficiency_gw": 1.62
      }
-    ],
-    "configuration": "9N12P"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -41158,7 +41315,11 @@
     "max_cells": "2-4S",
     "shaft": "1.5mm",
     "recommended_props": "40-65mm whoop/micro props (derived)",
+    "configuration": "9N12P",
+    "dimensions_mm": "Ø14.5x13.55",
+    "resistance_mohm": "163",
     "price_usd": 14.49,
+    "mount_mm": "9x9mm",
     "max_thrust_g": 238.0,
     "thrust_conditions": "T-Motor bench, twelve runs across both windings: at 8000 KV GF1635-3 and GF2015-2 on 4S (~16.8 V), GF1636-4, GF2023-3 and GF65MMS-2 on 3S (~12.6 V) and GF65MMS-2, GF63MM-3 and GF3018-2 on 2S (~8.4 V); at 11000 KV GF1636-3 and GF2015-2 on 3S (~12.6 V) and GF2023-3 and GF65MMS-2 on 2S (~8.4 V); 5 throttle points (20-100% in 20% steps) on each run",
     "thrust_table": [
@@ -41822,12 +41983,11 @@
       "thrust_g": 173.8,
       "efficiency_gw": 1.86
      }
-    ],
-    "configuration": "9N12P",
-    "dimensions_mm": "Ø14.5x13.55"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
+    "https://pyrodrone.com/products/t-motor-m1103-1103-11000kv-fpv-drone-motor-blue",
     "https://www.racedayquads.com/products/t-motor-m1103-11000kv-micro-motor",
     "https://www.racedayquads.com/products/t-motor-m1103-8000kv-micro-motor",
     "https://www.tmotorhobby.com/goods-1214.html"
@@ -41849,6 +42009,7 @@
     "max_cells": "4S",
     "shaft": "2mm",
     "recommended_props": "4in props (derived)",
+    "configuration": "12N14P",
     "price_usd": 24.99,
     "max_thrust_g": 618.8,
     "thrust_conditions": "T-Motor bench, Gemfan 3520 tri-blade; 2850 KV on 6S, 3800 KV on 4S",
@@ -41963,8 +42124,7 @@
       "thrust_g": 514.1,
       "efficiency_gw": 1.85
      }
-    ],
-    "configuration": "12N14P"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -41988,6 +42148,9 @@
     "max_cells": "4-6S",
     "shaft": "4mm",
     "recommended_props": "6-7in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø30.4x28.8",
+    "resistance_mohm": "69",
     "price_usd": 31.99,
     "max_thrust_g": 1912.61,
     "thrust_conditions": "T-Motor bench, one 1850 KV winding over six runs: a Gemfan GF7040-3 and a T-Motor T6143-3 on 4S (~16.8 V), a T-Motor T5143-3 and a T6143-3 on 5S (~21 V), and the same two props again on 6S (~25 V); 8 throttle points (30-100% in 10% steps) on each run",
@@ -42520,9 +42683,7 @@
       "thrust_g": 1627.58,
       "efficiency_gw": 1.6
      }
-    ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø30.4x28.8"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -42544,6 +42705,8 @@
     "weight_g": 13.78,
     "max_cells": "3-6S",
     "recommended_props": "4-5in props (derived)",
+    "configuration": "12N14P",
+    "mount_mm": "12x12mm (M2)",
     "price_usd": 32.49,
     "shaft": "1.5mm",
     "max_thrust_g": 618.8,
@@ -44014,6 +44177,7 @@
     "max_cells": "6S",
     "shaft": "4mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
     "price_usd": 29.99,
     "max_thrust_g": 1815.3,
     "thrust_conditions": "T-Motor bench, two T-Motor 5in props (P49436-3, T5143S-3) across four KV: 1750, 1950 and 2080 KV at 6S, 2550 KV at 4S; 5 throttle points (20-100% in 20% steps) on each",
@@ -44459,9 +44623,8 @@
       "efficiency_gw": 1.93
      }
     ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø28.1x31",
-    "weight_g": 34.2
+    "weight_g": 34.2,
+    "dimensions_mm": "Ø28.1x31"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -44488,6 +44651,7 @@
     "max_cells": "4S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
     "price_usd": 32.99,
     "max_thrust_g": 1680.6,
     "thrust_conditions": "T-Motor bench, both windings on the same three 5in props (T-Motor T5143S-3, Gemfan F3-3 and HQ J37-3): 1700 KV at 6S (25.2 V) and 2500 KV at 4S (16.8 V); 5 throttle points (20-100% in 20% steps) on each run",
@@ -44822,8 +44986,7 @@
       "thrust_g": 1280.8,
       "efficiency_gw": 2.04
      }
-    ],
-    "configuration": "12N14P"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -44847,6 +45010,8 @@
     ],
     "weight_g": 60.5,
     "recommended_props": "7-8in props (derived)",
+    "configuration": "12N14P",
+    "resistance_mohm": "61",
     "price_usd": 34.99,
     "max_cells": "6S",
     "shaft": "5mm",
@@ -45514,7 +45679,6 @@
       "efficiency_gw": 2.13
      }
     ],
-    "configuration": "12N14P",
     "dimensions_mm": "Ø33.4x37"
    },
    "_scraped_at": "2026-10-01",
@@ -45542,6 +45706,9 @@
     "weight_g": 113.1,
     "max_cells": "3-12S",
     "recommended_props": "8in+ props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø37.2x51.1",
+    "resistance_mohm": "145.38 (400KV) / 67.13 (640KV) / 38.08 (900KV) / 33.84 (1050KV)",
     "price_usd": 62.99,
     "shaft": "5mm",
     "max_thrust_g": 4817,
@@ -47527,10 +47694,7 @@
       "thrust_g": 2566,
       "efficiency_gw": 3.9
      }
-    ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø37.2x51.1",
-    "resistance_mohm": "145.38 (400KV) / 67.13 (640KV) / 38.08 (900KV) / 33.84 (1050KV)"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -47555,6 +47719,9 @@
     "weight_g": 148.1,
     "max_cells": "3-12S",
     "recommended_props": "8in+ props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø37.2x56.1",
+    "resistance_mohm": "76.35 (500KV) / 40.59 (700KV)",
     "price_usd": 71.99,
     "shaft": "5mm",
     "max_thrust_g": 7142,
@@ -48440,10 +48607,7 @@
       "thrust_g": 6236,
       "efficiency_gw": 2.6
      }
-    ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø37.2x56.1",
-    "resistance_mohm": "76.35 (500KV) / 40.59 (700KV)"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -48469,6 +48633,9 @@
     "max_cells": "5-6S",
     "shaft": "4mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø27.5x31.35",
+    "resistance_mohm": "59 (1750KV) / 50 (1950KV) / 43 (2550KV)",
     "price_usd": 17.99,
     "max_thrust_g": 1879.29,
     "thrust_conditions": "T-Motor bench, four T-Motor 5in props (T5143S, T5146, T5147, T5150) across three KV: 1750 and 1950 KV at 6S (23 V), 2550 KV at 4S (15 V); 11 throttle points (50-100% in 5% steps) on each",
@@ -49925,10 +50092,7 @@
       "thrust_g": 1271.51,
       "efficiency_gw": 2.36
      }
-    ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø27.5x31.35",
-    "resistance_mohm": "59 (1750KV) / 50 (1950KV) / 43 (2550KV)"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -49953,6 +50117,8 @@
     "max_cells": "6S",
     "shaft": "4mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "27.6x31.45",
     "price_usd": 22.99,
     "max_thrust_g": 1681.89,
     "thrust_conditions": "T-Motor bench, 11 throttle points (50-100% in 5% steps) per KV on four T-Motor props; 1750/1950 KV on 6S, 2550 KV on 4S; 12 degC ambient",
@@ -51410,8 +51576,6 @@
       "efficiency_gw": 2.31
      }
     ],
-    "configuration": "12N14P",
-    "dimensions_mm": "27.6x31.45",
     "resistance_mohm": "74 (1750KV) / 53.5 (1950KV) / 41 (2550KV)"
    },
    "_scraped_at": "2026-10-01",
@@ -51438,6 +51602,8 @@
     "max_cells": "6S",
     "shaft": "4mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø27.6x31.95",
     "price_usd": 22.99,
     "max_thrust_g": 1856.13,
     "thrust_conditions": "T-Motor bench, four T-Motor 5in props (T5143S, T5146, T5147, T5150) across three KV: 1750 and 1950 KV at 6S (23 V), 2450 KV at 4S (15.5 V); 11 throttle points (50-100% in 5% steps) on each",
@@ -52895,8 +53061,6 @@
       "efficiency_gw": 2.33
      }
     ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø27.6x31.95",
     "resistance_mohm": "65 (1750KV) / 52 (1950KV) / 41 (2450KV)"
    },
    "_scraped_at": "2026-10-01",
@@ -52922,6 +53086,9 @@
     "max_cells": "5-6S",
     "shaft": "4mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø27.9x30.3",
+    "resistance_mohm": "64 (1950KV) / 49 (2400KV)",
     "price_usd": 17.99,
     "max_thrust_g": 1656.31,
     "thrust_conditions": "T-Motor bench, four T-Motor 5in props (T5143S, T5146, T5147, T5150) on each of two KV: 1950 KV at 6S (23.8-22.3 V) and 2400 KV at 4S (15.8-14.5 V); 11 throttle points (50-100% in 5% steps) per prop",
@@ -53894,10 +54061,7 @@
       "thrust_g": 1242.15,
       "efficiency_gw": 2.55
      }
-    ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø27.9x30.3",
-    "resistance_mohm": "64 (1950KV) / 49 (2400KV)"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -53922,6 +54086,9 @@
     "max_cells": "4-6S",
     "shaft": "4mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "dimensions_mm": "Ø28.6x30.45",
+    "resistance_mohm": "67 (1950KV) / 47 (2550KV)",
     "price_usd": 22.99,
     "max_thrust_g": 1699.82,
     "thrust_conditions": "T-Motor bench, five T-Motor props across two KV: T4943, T5143S, T5146 and T5147 at 1950 KV on 6S (24 V), T5143S, T5146, T5147 and T5150 at 2550 KV on 4S (15 V); 11 throttle points (50-100% in 5% steps) on each",
@@ -54894,10 +55061,7 @@
       "thrust_g": 1225.91,
       "efficiency_gw": 2.51
      }
-    ],
-    "configuration": "12N14P",
-    "dimensions_mm": "Ø28.6x30.45",
-    "resistance_mohm": "67 (1950KV) / 47 (2550KV)"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -54924,6 +55088,8 @@
     "max_cells": "8S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "mount_mm": "16x16mm",
     "price_usd": 18.99,
     "max_thrust_g": 1915.1,
     "thrust_conditions": "T-Motor bench, seven props across five KV: 1500 KV at 32 V on P49436-3 and F5146-3, at 24 V on T6143-3 and GF7042-2 and at 16 V on C7.5X4.6X3, 1750/1950/2050 KV at 24 V and 2550 KV at 16 V; 5 throttle points (20-100%) on the 5in props, 10 (10-100%) on the larger ones",
@@ -56029,7 +56195,6 @@
       "efficiency_gw": 1.59
      }
     ],
-    "configuration": "12N14P",
     "dimensions_mm": "Ø27.5x31.8"
    },
    "_scraped_at": "2026-10-01",
@@ -56055,6 +56220,8 @@
     ],
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "mount_mm": "16x16mm",
     "price_usd": 187.99,
     "weight_g": 37.3,
     "max_cells": "6S"
@@ -56082,6 +56249,8 @@
     "max_cells": "8S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12N14P",
+    "mount_mm": "16x16mm",
     "price_usd": 18.99,
     "max_thrust_g": 1969.9,
     "thrust_conditions": "T-Motor bench, seven props across four KV: 1500 KV at 32 V on P49436-3 and F5146-3, at 24 V on T6143-3 and GF7042-2 and at 16 V on C7.5X4.6X3, 1750/1950 KV at 24 V and 2550 KV at 16 V; 5 throttle points (20-100%) on the 5in props, 10 (10-100%) on the larger ones",
@@ -57022,7 +57191,6 @@
       "efficiency_gw": 1.56
      }
     ],
-    "configuration": "12N14P",
     "dimensions_mm": "Ø27.9x30.65"
    },
    "_scraped_at": "2026-10-01",
@@ -57069,6 +57237,7 @@
     "weight_g": 41.7,
     "max_cells": "6S",
     "recommended_props": "6-7in props (derived)",
+    "resistance_mohm": "64",
     "price_usd": 32.49
    },
    "_scraped_at": "2026-10-01",
@@ -57090,6 +57259,7 @@
     "weight_g": 36.5,
     "max_cells": "6S",
     "recommended_props": "5-5.1in props (derived)",
+    "resistance_mohm": "64",
     "price_usd": 33.99
    },
    "_scraped_at": "2026-10-01",
@@ -57110,6 +57280,7 @@
     "weight_g": 30.4,
     "max_cells": "6S",
     "recommended_props": "5-5.1in props (derived)",
+    "resistance_mohm": "98",
     "price_usd": 24.99
    },
    "_scraped_at": "2026-10-01",
@@ -57130,6 +57301,7 @@
     "weight_g": 36.5,
     "max_cells": "6S",
     "recommended_props": "5-5.1in props (derived)",
+    "resistance_mohm": "60",
     "price_usd": 33.99
    },
    "_scraped_at": "2026-10-01",
@@ -57153,8 +57325,8 @@
     "shaft": "3mm",
     "recommended_props": "4in props (derived)",
     "price_usd": 18.99,
-    "mount_mm": "12x12mm (2-M2)",
-    "dimensions_mm": "Ø20.8x14.3"
+    "dimensions_mm": "Ø20.8x14.3",
+    "mount_mm": "12x12mm (2-M2)"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -57176,6 +57348,7 @@
     "weight_g": 1.49,
     "max_cells": "1S",
     "recommended_props": "31-40mm whoop props (derived)",
+    "configuration": "9S12P",
     "price_usd": 32.49,
     "max_thrust_g": 38.8,
     "thrust_conditions": "VCI Hobby bench, 23000/27000/30000 KV at 1S (4 V), 10 throttle points (10-100%) per KV on a GF1219S-3",
@@ -57511,9 +57684,8 @@
       "efficiency_gw": 1.64
      }
     ],
-    "configuration": "9S12P",
-    "dimensions_mm": "Ø9x11.4",
-    "shaft": "1mm"
+    "shaft": "1mm",
+    "dimensions_mm": "Ø9x11.4"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -57535,6 +57707,7 @@
     "weight_g": 1.4,
     "max_cells": "1S",
     "recommended_props": "31-40mm whoop props (derived)",
+    "configuration": "9S12P",
     "price_usd": 29.99,
     "max_thrust_g": 37.1,
     "thrust_conditions": "VCI Hobby bench, 23000/27000/30000 KV at 1S (4 V), 10 throttle points (10-100%) per KV on a GF1219S-3",
@@ -57870,9 +58043,8 @@
       "efficiency_gw": 1.57
      }
     ],
-    "configuration": "9S12P",
-    "dimensions_mm": "Ø9x11.4",
-    "shaft": "1mm"
+    "shaft": "1mm",
+    "dimensions_mm": "Ø9x11.4"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -58189,6 +58361,9 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "7-8in props (derived)",
+    "configuration": "12S14P",
+    "dimensions_mm": "Ø37x41.9",
+    "resistance_mohm": "60",
     "price_usd": 29.99,
     "max_thrust_g": 2650,
     "thrust_conditions": "VCI Hobby bench, 1350 KV and 1550 KV at 6S (24 V), 8 throttle points (30-100%) per KV on two and three 6-7in props",
@@ -58633,9 +58808,7 @@
       "thrust_g": 2650,
       "efficiency_gw": 2.08
      }
-    ],
-    "configuration": "12S14P",
-    "dimensions_mm": "Ø37x41.9"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -58657,6 +58830,7 @@
     "weight_g": 66.0,
     "max_cells": "6S",
     "recommended_props": "7-8in props (derived)",
+    "configuration": "12S14P",
     "price_usd": 20.49,
     "max_thrust_g": 2502,
     "thrust_conditions": "VCI Hobby bench, 1350 KV at 6S (24 V), 8 throttle points (30-100%) on a GF 7037-3",
@@ -58750,9 +58924,8 @@
       "efficiency_gw": 2.37
      }
     ],
-    "configuration": "12S14P",
-    "dimensions_mm": "Ø34.5x40",
     "shaft": "5mm",
+    "dimensions_mm": "Ø34.5x40",
     "resistance_mohm": "60"
    },
    "_scraped_at": "2026-10-01",
@@ -58777,6 +58950,9 @@
     "max_cells": "1S",
     "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
+    "configuration": "9S12P",
+    "dimensions_mm": "9x12.2",
+    "resistance_mohm": "275",
     "price_usd": 43.99
    },
    "_scraped_at": "2026-10-01",
@@ -58799,6 +58975,9 @@
     "max_cells": "2S",
     "shaft": "1mm",
     "recommended_props": "31-40mm whoop props (derived)",
+    "configuration": "9S12P",
+    "dimensions_mm": "Ø9x12.9",
+    "resistance_mohm": "375",
     "price_usd": 24.2,
     "max_thrust_g": 67.0,
     "thrust_conditions": "VCI Hobby bench, 16500 KV at 2S (8 V) on two props, 19000 and 23500 KV at 1S (4 V) on four each, stepped by current rather than throttle",
@@ -59782,9 +59961,7 @@
       "thrust_g": 36.7,
       "efficiency_gw": 1.64
      }
-    ],
-    "configuration": "9S12P",
-    "dimensions_mm": "Ø9x12.9"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -59806,6 +59983,7 @@
     "weight_g": 5.8,
     "max_cells": "3-4S",
     "recommended_props": "2-2.5in props (derived)",
+    "configuration": "9S12P",
     "price_usd": 20.49,
     "max_thrust_g": 263,
     "thrust_conditions": "VCI Hobby bench, 4500 KV at 4S (16 V), 5600 KV at 4S (16 V) on two props and at 3S (12 V) on a third, and 8250 KV at 3S (12 V), 8 throttle points (30-100%) per run",
@@ -60251,9 +60429,8 @@
       "efficiency_gw": 1.75
      }
     ],
-    "configuration": "9S12P",
-    "dimensions_mm": "Ø15.3x14.3",
-    "shaft": "1.5mm"
+    "shaft": "1.5mm",
+    "dimensions_mm": "Ø15.3x14.3"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -60275,6 +60452,7 @@
     "weight_g": 7.1,
     "max_cells": "3S",
     "recommended_props": "2-2.5in props (derived)",
+    "configuration": "9S12P",
     "price_usd": 21.49,
     "max_thrust_g": 266,
     "thrust_conditions": "VCI Hobby bench, 5400, 6000 and 7200 KV at 3S (12 V), 8800 and 9600 KV at 2S (8 V), 8 throttle points (30-100%) per run",
@@ -60808,9 +60986,8 @@
       "efficiency_gw": 1.86
      }
     ],
-    "configuration": "9S12P",
-    "dimensions_mm": "Ø17.1x15.4",
-    "shaft": "1.5mm"
+    "shaft": "1.5mm",
+    "dimensions_mm": "Ø17.1x15.4"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -60832,6 +61009,7 @@
     "weight_g": 10.1,
     "max_cells": "4S",
     "recommended_props": "3-4in props (derived)",
+    "configuration": "9S12P",
     "price_usd": 12.99,
     "max_thrust_g": 422,
     "thrust_conditions": "VCI Hobby bench, 2450 and 2750 KV at 6S (24 V), 3750 and 4000 KV at 4S (16 V), one to three props per winding, 8 throttle points (30-100%) per run",
@@ -61541,9 +61719,8 @@
       "efficiency_gw": 2.01
      }
     ],
-    "configuration": "9S12P",
-    "dimensions_mm": "Ø19x16.4",
-    "shaft": "1.5mm"
+    "shaft": "1.5mm",
+    "dimensions_mm": "Ø19x16.4"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -61565,6 +61742,7 @@
     "weight_g": 12.7,
     "max_cells": "3S",
     "recommended_props": "4in props (derived)",
+    "configuration": "12S14P",
     "price_usd": 12.99,
     "max_thrust_g": 571,
     "thrust_conditions": "VCI Hobby bench, 1800 and 2450 KV at 6S (24 V), 2050, 2800, 3350 and 3650 KV at 4S (16 V), one prop and 8 throttle points (30-100%) per winding",
@@ -62098,9 +62276,8 @@
       "efficiency_gw": 1.85
      }
     ],
-    "configuration": "12S14P",
-    "dimensions_mm": "Ø20.6x17.4",
-    "shaft": "1.5mm"
+    "shaft": "1.5mm",
+    "dimensions_mm": "Ø20.6x17.4"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -62122,6 +62299,7 @@
     "weight_g": 21.4,
     "max_cells": "6S",
     "recommended_props": "5in props (derived)",
+    "configuration": "12S14P",
     "price_usd": 14.99,
     "max_thrust_g": 1340,
     "thrust_conditions": "VCI Hobby bench, 1850 KV at 6S (24 V) on three 5in props, 2150 KV at 6S (24 V) and 3450 KV at 4S (16 V) on one each, 8 throttle points (30-100%) per run",
@@ -62567,9 +62745,8 @@
       "efficiency_gw": 1.79
      }
     ],
-    "configuration": "12S14P",
-    "dimensions_mm": "Ø24.6x19.7",
-    "shaft": "1.5mm"
+    "shaft": "1.5mm",
+    "dimensions_mm": "Ø24.6x19.7"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -62593,6 +62770,9 @@
     "max_cells": "4S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12S14P",
+    "dimensions_mm": "Ø27x34.2",
+    "resistance_mohm": "40",
     "price_usd": 20.99,
     "max_thrust_g": 1831,
     "thrust_conditions": "VCI Hobby bench, 1950 KV at 6S (24 V) on four 5in props and 2450 KV at 4S (16 V) on one, 8 throttle points (30-100%) each",
@@ -63037,9 +63217,7 @@
       "thrust_g": 1682,
       "efficiency_gw": 2.08
      }
-    ],
-    "configuration": "12S14P",
-    "dimensions_mm": "Ø27x34.2"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -63062,6 +63240,7 @@
     "weight_g": 33.7,
     "max_cells": "6S",
     "recommended_props": "6-7in props (derived)",
+    "configuration": "12S14P",
     "price_usd": 18.49,
     "max_thrust_g": 1807,
     "thrust_conditions": "VCI Hobby bench, 1550 KV and 1850 KV at 4S (16 V), 8 throttle points (30-100%) per KV on one 6in and one 7in prop",
@@ -63243,9 +63422,8 @@
       "efficiency_gw": 2.08
      }
     ],
-    "configuration": "12S14P",
-    "dimensions_mm": "Ø28.8x32.3",
-    "shaft": "M5"
+    "shaft": "M5",
+    "dimensions_mm": "Ø28.8x32.3"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -63270,6 +63448,9 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12S14P",
+    "dimensions_mm": "Ø27x31.4",
+    "resistance_mohm": "55",
     "price_usd": 24.99,
     "max_thrust_g": 1970,
     "thrust_conditions": "VCI Hobby bench, 1950/2050/2100 KV at 6S (24 V), 8 throttle points (30-100%) per KV on each of four 5in props",
@@ -64330,9 +64511,7 @@
       "thrust_g": 1767,
       "efficiency_gw": 1.51
      }
-    ],
-    "configuration": "12S14P",
-    "dimensions_mm": "Ø27x31.4"
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
@@ -64357,6 +64536,9 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
+    "configuration": "12S14P",
+    "dimensions_mm": "27x31.4",
+    "resistance_mohm": "54",
     "price_usd": 25.49
    },
    "_scraped_at": "2026-10-01",
@@ -64758,6 +64940,7 @@
     "weight_g": 36.5,
     "max_cells": "6S",
     "recommended_props": "5in props (derived)",
+    "configuration": "12S14P",
     "price_usd": 20.49,
     "max_thrust_g": 1880,
     "thrust_conditions": "VCI Hobby bench, 1911 KV at 6S (24 V), 8 throttle points (30-100%) on a GF 51377-3",
@@ -64851,7 +65034,6 @@
       "efficiency_gw": 1.94
      }
     ],
-    "configuration": "12S14P",
     "shaft": "5mm",
     "resistance_mohm": "55"
    },
@@ -64876,6 +65058,8 @@
     "max_cells": "4S",
     "shaft": "1.5mm",
     "recommended_props": "3-4in props (derived)",
+    "configuration": "9N12P",
+    "mount_mm": "12x12mm (4-M2)",
     "max_thrust_g": 351,
     "price_usd": 17.99,
     "thrust_conditions": "XILO bench, 50-100% in tens, four prop runs at 12 and 15 V; the sheet has no RPM column",
@@ -65145,8 +65329,6 @@
       "efficiency_gw": 1.56
      }
     ],
-    "mount_mm": "12x12mm (4-M2)",
-    "configuration": "9N12P",
     "dimensions_mm": "18.6x13.2"
    },
    "_scraped_at": "2026-10-01",
