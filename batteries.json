@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30",
+ "generated": "2026-10-01",
  "count": 326,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
@@ -1558,7 +1558,7 @@
     "cells": "1S",
     "capacity_mah": 750,
     "c_rating": "80C",
-    "weight_g": 14.0,
+    "weight_g": 17.0,
     "connector": "A30",
     "energy_wh": 2.8,
     "price_per_wh_usd": 12.8,
@@ -1566,8 +1566,10 @@
    },
    "_scraped_at": "2026-09-30",
    "sources": [
-    "https://www.racedayquads.com/products/flywoo-explorer-v2-3-8v-1s-750mah-80c-lihv-battery-4-pack-a30"
-   ]
+    "https://www.racedayquads.com/products/flywoo-explorer-v2-3-8v-1s-750mah-80c-lihv-battery-4-pack-a30",
+    "https://flywoo.com/products/4pcs-flywoo-explorer-1s-750mah-hv-v2-a30-plug-lipo-battery-for-rc-drone"
+   ],
+   "note": "Weight is Flywoo's own, not the retailer's: RaceDayQuads prints \"Weight: 14g\", and 14 g on 2.9 Wh is 204 Wh/kg, above anything lithium polymer reaches - while the same block prints \"Capacity: 750 Ah\" and its own Includes line reads \"1x Flywoo Explorer V2 3.8V 1S 450mAh 80C LiHV Battery 4 Pack - A30\", i.e. a 450mAh pack. Flywoo's own shop states \"Weight: 17g\" for the 4PCS Explorer 1S 750mAh HV V2 A30 pack, beside the same \"Configuration: 1S1P / 4.35V / 1 Cell\", \"Discharge Rate: 80C\" and A30 plug the retailer prints. At 17 g the pack reads 168 Wh/kg, in class for a 1S LiHV. Flywoo states no size for it, so that field stays empty"
   },
   {
    "type": "battery",
@@ -2359,8 +2361,10 @@
    },
    "_scraped_at": "2026-09-30",
    "sources": [
-    "https://www.racedayquads.com/products/gaoneng-7-4v-2s-5000mah-5c-lipo-battery-w-xt60"
-   ]
+    "https://www.racedayquads.com/products/gaoneng-7-4v-2s-5000mah-5c-lipo-battery-w-xt60",
+    "https://www.hobbyrc.co.uk/gnb-5000mah-2s-5c-lipo-battery-for-radiomaster-tx16s"
+   ],
+   "note": "Every figure here is Gaoneng's own, read twice: the 208 Wh/kg this pack computes to is above the 200 ceiling audit_specs uses, and it is not a retailer's transcription error. RaceDayQuads prints \"Weight 178g (+/-1g)\" and \"Dimension 20x53x81mm Appr.\"; HobbyRC, an unrelated retailer, prints \"Weight: ~178g +-5%\" and \"Dimensions: ~81x53x20mm (without wires and connectors)\" for the same pack. Gaoneng publishes no product page of its own, so those two independent readings of its block are the whole record. The ceiling is the thing in question, not the weight: this is a 5C transmitter pack, and every pack in this catalogue rated 10C or under sits between 185 and 218 Wh/kg"
   },
   {
    "type": "battery",
