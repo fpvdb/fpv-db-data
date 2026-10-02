@@ -19,12 +19,151 @@
     "recommended_props": "3-4in props (derived)",
     "configuration": "9N12P",
     "dimensions_mm": "18.75x13.2",
-    "price_usd": 16.99
+    "price_usd": 16.99,
+    "max_thrust_g": 474,
+    "thrust_conditions": "RCinPower bench, three props at 16 V (4S) and 12 V (3S), 25/50/75/100% throttle; no RPM published",
+    "thrust_table": [
+     {
+      "kv": 4000,
+      "prop": "Gemfan 3016R*3",
+      "cells": "4S",
+      "throttle": 25,
+      "voltage_v": 16.0,
+      "current_a": 0.78,
+      "rpm": null,
+      "thrust_g": 37,
+      "efficiency_gw": 2.965
+     },
+     {
+      "kv": 4000,
+      "prop": "Gemfan 3016R*3",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16.0,
+      "current_a": 3.3,
+      "rpm": null,
+      "thrust_g": 164,
+      "efficiency_gw": 3.106
+     },
+     {
+      "kv": 4000,
+      "prop": "Gemfan 3016R*3",
+      "cells": "4S",
+      "throttle": 75,
+      "voltage_v": 16.0,
+      "current_a": 8.8,
+      "rpm": null,
+      "thrust_g": 337,
+      "efficiency_gw": 2.393
+     },
+     {
+      "kv": 4000,
+      "prop": "Gemfan 3016R*3",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16.0,
+      "current_a": 15.2,
+      "rpm": null,
+      "thrust_g": 474,
+      "efficiency_gw": 1.949
+     },
+     {
+      "kv": 4000,
+      "prop": "HQ TD2.9*2.7*3",
+      "cells": "4S",
+      "throttle": 25,
+      "voltage_v": 16.0,
+      "current_a": 1.2,
+      "rpm": null,
+      "thrust_g": 54,
+      "efficiency_gw": 2.813
+     },
+     {
+      "kv": 4000,
+      "prop": "HQ TD2.9*2.7*3",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16.0,
+      "current_a": 5.4,
+      "rpm": null,
+      "thrust_g": 212,
+      "efficiency_gw": 2.454
+     },
+     {
+      "kv": 4000,
+      "prop": "HQ TD2.9*2.7*3",
+      "cells": "4S",
+      "throttle": 75,
+      "voltage_v": 16.0,
+      "current_a": 13.9,
+      "rpm": null,
+      "thrust_g": 380,
+      "efficiency_gw": 1.709
+     },
+     {
+      "kv": 4000,
+      "prop": "HQ TD2.9*2.7*3",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16.0,
+      "current_a": 20.9,
+      "rpm": null,
+      "thrust_g": 473,
+      "efficiency_gw": 1.414
+     },
+     {
+      "kv": 4000,
+      "prop": "Gemfan 4024R*2",
+      "cells": "3S",
+      "throttle": 25,
+      "voltage_v": 12.0,
+      "current_a": 1.1,
+      "rpm": null,
+      "thrust_g": 41,
+      "efficiency_gw": 3.106
+     },
+     {
+      "kv": 4000,
+      "prop": "Gemfan 4024R*2",
+      "cells": "3S",
+      "throttle": 50,
+      "voltage_v": 12.0,
+      "current_a": 3.9,
+      "rpm": null,
+      "thrust_g": 182,
+      "efficiency_gw": 3.889
+     },
+     {
+      "kv": 4000,
+      "prop": "Gemfan 4024R*2",
+      "cells": "3S",
+      "throttle": 75,
+      "voltage_v": 12.0,
+      "current_a": 10.7,
+      "rpm": null,
+      "thrust_g": 350,
+      "efficiency_gw": 2.726
+     },
+     {
+      "kv": 4000,
+      "prop": "Gemfan 4024R*2",
+      "cells": "3S",
+      "throttle": 100,
+      "voltage_v": 12.0,
+      "current_a": 17.4,
+      "rpm": null,
+      "thrust_g": 454,
+      "efficiency_gw": 2.174
+     }
+    ],
+    "mount_mm": "9x9mm (4-M2)",
+    "resistance_mohm": "150"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
     "https://www.racedayquads.com/products/pre-order-aos-rc-supernova-1404-fpv-motor-4000kv"
-   ]
+   ],
+   "note": "The sheet is RC IN POWER's own test-report template (its footer prints INFO@RCINPOWER.COM) under the AOS RC name, and it is the description image on this retail listing; rcinpower.com's own G-SERIES index publishes no AOS 1404 at any id. It is headed \"MOTORS: AOS 1404 -4000KV\" and its Technical Datas block is the listing's Specifications block to the digit - 9N12P, 14 mm stator diameter, 4.5 mm stator length, 1.5 mm shaft (2 mm inside), 18.75x13.2 mm body, 10.2 g with 3 cm wire, idle 0.77 A at 10 V, 3S-4S, 335 W max continuous, 20.9 A max current - plus one figure the listing omits, an internal resistance of 150 mOhm. The block's maxima are its own HQ TD2.9*2.7*3 full-throttle row (334.4 W / 20.9 A), under a \"3S\" label that row contradicts: it is the 16 V (4S) run. Only three of the twelve rows are at 12 V. The drawings give two square M2 patterns and only one of them is the mount: 9x9 mm on the base, 5x5 mm on the bell, which is the prop pattern. The stator length the sheet and the listing both print is 4.5 mm, where the model name says 1404. Temperature after 3 s at full throttle: 72-83 degC"
   },
   {
    "type": "motor",
@@ -41,12 +180,152 @@
     "shaft": "1.5mm",
     "recommended_props": "4in props (derived)",
     "configuration": "9N12P",
-    "price_usd": 17.99
+    "price_usd": 17.99,
+    "max_thrust_g": 863,
+    "thrust_conditions": "RCinPower bench, three props at 16 V (4S), 25/50/75/100% throttle; no RPM published",
+    "thrust_table": [
+     {
+      "kv": 3900,
+      "prop": "HQ T90RMM*3",
+      "cells": "4S",
+      "throttle": 25,
+      "voltage_v": 16.0,
+      "current_a": 2.2,
+      "rpm": null,
+      "thrust_g": 112,
+      "efficiency_gw": 3.182
+     },
+     {
+      "kv": 3900,
+      "prop": "HQ T90RMM*3",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16.0,
+      "current_a": 9.1,
+      "rpm": null,
+      "thrust_g": 360,
+      "efficiency_gw": 2.473
+     },
+     {
+      "kv": 3900,
+      "prop": "HQ T90RMM*3",
+      "cells": "4S",
+      "throttle": 75,
+      "voltage_v": 16.0,
+      "current_a": 22.1,
+      "rpm": null,
+      "thrust_g": 610,
+      "efficiency_gw": 1.725
+     },
+     {
+      "kv": 3900,
+      "prop": "HQ T90RMM*3",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16.0,
+      "current_a": 33.3,
+      "rpm": null,
+      "thrust_g": 747,
+      "efficiency_gw": 1.402
+     },
+     {
+      "kv": 3900,
+      "prop": "Gemfan D90*5",
+      "cells": "4S",
+      "throttle": 25,
+      "voltage_v": 16.0,
+      "current_a": 2.5,
+      "rpm": null,
+      "thrust_g": 129,
+      "efficiency_gw": 3.225
+     },
+     {
+      "kv": 3900,
+      "prop": "Gemfan D90*5",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16.0,
+      "current_a": 11.9,
+      "rpm": null,
+      "thrust_g": 403,
+      "efficiency_gw": 2.117
+     },
+     {
+      "kv": 3900,
+      "prop": "Gemfan D90*5",
+      "cells": "4S",
+      "throttle": 75,
+      "voltage_v": 16.0,
+      "current_a": 27,
+      "rpm": null,
+      "thrust_g": 638,
+      "efficiency_gw": 1.477
+     },
+     {
+      "kv": 3900,
+      "prop": "Gemfan D90*5",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16.0,
+      "current_a": 38.5,
+      "rpm": null,
+      "thrust_g": 768,
+      "efficiency_gw": 1.247
+     },
+     {
+      "kv": 3900,
+      "prop": "Gemfan 4024*2",
+      "cells": "4S",
+      "throttle": 25,
+      "voltage_v": 16.0,
+      "current_a": 1.5,
+      "rpm": null,
+      "thrust_g": 91,
+      "efficiency_gw": 3.792
+     },
+     {
+      "kv": 3900,
+      "prop": "Gemfan 4024*2",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16.0,
+      "current_a": 6.7,
+      "rpm": null,
+      "thrust_g": 335,
+      "efficiency_gw": 3.125
+     },
+     {
+      "kv": 3900,
+      "prop": "Gemfan 4024*2",
+      "cells": "4S",
+      "throttle": 75,
+      "voltage_v": 16.0,
+      "current_a": 17.6,
+      "rpm": null,
+      "thrust_g": 637,
+      "efficiency_gw": 2.262
+     },
+     {
+      "kv": 3900,
+      "prop": "Gemfan 4024*2",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16.0,
+      "current_a": 29.1,
+      "rpm": null,
+      "thrust_g": 863,
+      "efficiency_gw": 1.854
+     }
+    ],
+    "dimensions_mm": "20.3x14.2",
+    "mount_mm": "9x9mm (4-M2)",
+    "resistance_mohm": "88"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
     "https://www.racedayquads.com/products/pre-order-aos-rc-supernova-1605-fpv-motor-3900kv"
-   ]
+   ],
+   "note": "The sheet is RC IN POWER's own test-report template (its footer prints INFO@RCINPOWER.COM) under the AOS RC name, and it is the description image on this retail listing; rcinpower.com's own G-SERIES index publishes no AOS 1605 at any id. It is headed \"MOTORS: AOS 1605 -3900KV\" and its Technical Datas block is the listing's Specifications block to the digit - 9N12P, 16 mm stator diameter, 5 mm stator length, 1.5 mm shaft (2 mm inside), 13.3 g with 3 cm wire, idle 1.26 A at 10 V, 3S-4S, 616 W max continuous, 38.5 A max current - plus one figure the listing omits, an internal resistance of 88 mOhm. It also settles a figure the listing mistypes: the body is Phi 20.3*14.2 mm, which the listing prints as \"20x3 x 14.2mm\". The block's maxima are its own Gemfan D90*5 full-throttle row (616.0 W / 38.5 A), under a \"3S\" label that row contradicts: every one of the twelve rows is at 16 V (4S). The base mount is 9x9 mm 4xM2, its two callouts drawn across the diagonals; the 5x5 mm pattern on the bell is the prop pattern. Temperature after 3 s at full throttle: 73-85 degC, the Gemfan D90*5 run marked \"HOT\" by the sheet itself"
   },
   {
    "type": "motor",
