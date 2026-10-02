@@ -61106,14 +61106,470 @@
     "recommended_props": "31-40mm whoop props (derived)",
     "configuration": "9S12P",
     "dimensions_mm": "9x12.2",
-    "resistance_mohm": "275",
-    "price_usd": 43.99
+    "resistance_mohm": "350 (22000KV) / 275 (29000KV)",
+    "price_usd": 43.99,
+    "max_thrust_g": 26.0,
+    "thrust_conditions": "VCI Hobby bench, 22000 and 29000 KV at 1S (4 V) on three props each, stepped by current rather than throttle",
+    "thrust_table": [
+     {
+      "kv": 22000,
+      "prop": "GF 35mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 0.5,
+      "rpm": null,
+      "thrust_g": 3.4,
+      "efficiency_gw": 1.7
+     },
+     {
+      "kv": 22000,
+      "prop": "GF 35mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 1.0,
+      "rpm": null,
+      "thrust_g": 7.1,
+      "efficiency_gw": 1.78
+     },
+     {
+      "kv": 22000,
+      "prop": "GF 35mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 1.5,
+      "rpm": null,
+      "thrust_g": 10.7,
+      "efficiency_gw": 1.78
+     },
+     {
+      "kv": 22000,
+      "prop": "GF 35mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 2.0,
+      "rpm": null,
+      "thrust_g": 15.6,
+      "efficiency_gw": 1.95
+     },
+     {
+      "kv": 22000,
+      "prop": "GF 35mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 2.5,
+      "rpm": null,
+      "thrust_g": 20.7,
+      "efficiency_gw": 2.07
+     },
+     {
+      "kv": 22000,
+      "prop": "GF 35mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 3.0,
+      "rpm": null,
+      "thrust_g": 24.2,
+      "efficiency_gw": 2.02
+     },
+     {
+      "kv": 22000,
+      "prop": "GF 35mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 3.3,
+      "rpm": null,
+      "thrust_g": 26.0,
+      "efficiency_gw": 1.97
+     },
+     {
+      "kv": 22000,
+      "prop": "GF 31mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 0.5,
+      "rpm": null,
+      "thrust_g": 2.7,
+      "efficiency_gw": 1.35
+     },
+     {
+      "kv": 22000,
+      "prop": "GF 31mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 1.0,
+      "rpm": null,
+      "thrust_g": 5.9,
+      "efficiency_gw": 1.48
+     },
+     {
+      "kv": 22000,
+      "prop": "GF 31mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 1.5,
+      "rpm": null,
+      "thrust_g": 9.6,
+      "efficiency_gw": 1.6
+     },
+     {
+      "kv": 22000,
+      "prop": "GF 31mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 2.0,
+      "rpm": null,
+      "thrust_g": 14.8,
+      "efficiency_gw": 1.85
+     },
+     {
+      "kv": 22000,
+      "prop": "GF 31mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 2.5,
+      "rpm": null,
+      "thrust_g": 19.8,
+      "efficiency_gw": 1.98
+     },
+     {
+      "kv": 22000,
+      "prop": "GF 31mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 3.0,
+      "rpm": null,
+      "thrust_g": 23.8,
+      "efficiency_gw": 1.98
+     },
+     {
+      "kv": 22000,
+      "prop": "GF 31mm-2",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 0.5,
+      "rpm": null,
+      "thrust_g": 3.0,
+      "efficiency_gw": 1.5
+     },
+     {
+      "kv": 22000,
+      "prop": "GF 31mm-2",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 1.0,
+      "rpm": null,
+      "thrust_g": 6.5,
+      "efficiency_gw": 1.63
+     },
+     {
+      "kv": 22000,
+      "prop": "GF 31mm-2",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 1.5,
+      "rpm": null,
+      "thrust_g": 10.4,
+      "efficiency_gw": 1.73
+     },
+     {
+      "kv": 22000,
+      "prop": "GF 31mm-2",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 2.0,
+      "rpm": null,
+      "thrust_g": 15.2,
+      "efficiency_gw": 1.9
+     },
+     {
+      "kv": 22000,
+      "prop": "GF 31mm-2",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 2.5,
+      "rpm": null,
+      "thrust_g": 20.1,
+      "efficiency_gw": 2.01
+     },
+     {
+      "kv": 22000,
+      "prop": "GF 31mm-2",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 3.0,
+      "rpm": null,
+      "thrust_g": 24.0,
+      "efficiency_gw": 2.0
+     },
+     {
+      "kv": 29000,
+      "prop": "GF 35mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 0.5,
+      "rpm": null,
+      "thrust_g": 2.5,
+      "efficiency_gw": 1.25
+     },
+     {
+      "kv": 29000,
+      "prop": "GF 35mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 1.0,
+      "rpm": null,
+      "thrust_g": 5.2,
+      "efficiency_gw": 1.3
+     },
+     {
+      "kv": 29000,
+      "prop": "GF 35mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 1.5,
+      "rpm": null,
+      "thrust_g": 7.3,
+      "efficiency_gw": 1.22
+     },
+     {
+      "kv": 29000,
+      "prop": "GF 35mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 2.0,
+      "rpm": null,
+      "thrust_g": 10.6,
+      "efficiency_gw": 1.33
+     },
+     {
+      "kv": 29000,
+      "prop": "GF 35mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 2.5,
+      "rpm": null,
+      "thrust_g": 14.0,
+      "efficiency_gw": 1.4
+     },
+     {
+      "kv": 29000,
+      "prop": "GF 35mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 3.0,
+      "rpm": null,
+      "thrust_g": 18.5,
+      "efficiency_gw": 1.54
+     },
+     {
+      "kv": 29000,
+      "prop": "GF 35mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 3.5,
+      "rpm": null,
+      "thrust_g": 22.2,
+      "efficiency_gw": 1.59
+     },
+     {
+      "kv": 29000,
+      "prop": "GF 35mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 4.0,
+      "rpm": null,
+      "thrust_g": 24.8,
+      "efficiency_gw": 1.55
+     },
+     {
+      "kv": 29000,
+      "prop": "GF 31mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 0.5,
+      "rpm": null,
+      "thrust_g": 2.1,
+      "efficiency_gw": 1.05
+     },
+     {
+      "kv": 29000,
+      "prop": "GF 31mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 1.0,
+      "rpm": null,
+      "thrust_g": 4.1,
+      "efficiency_gw": 1.03
+     },
+     {
+      "kv": 29000,
+      "prop": "GF 31mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 1.5,
+      "rpm": null,
+      "thrust_g": 6.3,
+      "efficiency_gw": 1.05
+     },
+     {
+      "kv": 29000,
+      "prop": "GF 31mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 2.0,
+      "rpm": null,
+      "thrust_g": 9.5,
+      "efficiency_gw": 1.19
+     },
+     {
+      "kv": 29000,
+      "prop": "GF 31mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 2.5,
+      "rpm": null,
+      "thrust_g": 13.7,
+      "efficiency_gw": 1.37
+     },
+     {
+      "kv": 29000,
+      "prop": "GF 31mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 3.0,
+      "rpm": null,
+      "thrust_g": 17.7,
+      "efficiency_gw": 1.48
+     },
+     {
+      "kv": 29000,
+      "prop": "GF 31mm-3",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 3.9,
+      "rpm": null,
+      "thrust_g": 22.9,
+      "efficiency_gw": 1.47
+     },
+     {
+      "kv": 29000,
+      "prop": "GF 31mm-2",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 0.5,
+      "rpm": null,
+      "thrust_g": 1.8,
+      "efficiency_gw": 0.9
+     },
+     {
+      "kv": 29000,
+      "prop": "GF 31mm-2",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 1.0,
+      "rpm": null,
+      "thrust_g": 4.0,
+      "efficiency_gw": 1.0
+     },
+     {
+      "kv": 29000,
+      "prop": "GF 31mm-2",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 1.5,
+      "rpm": null,
+      "thrust_g": 6.2,
+      "efficiency_gw": 1.03
+     },
+     {
+      "kv": 29000,
+      "prop": "GF 31mm-2",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 2.0,
+      "rpm": null,
+      "thrust_g": 9.7,
+      "efficiency_gw": 1.21
+     },
+     {
+      "kv": 29000,
+      "prop": "GF 31mm-2",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 2.5,
+      "rpm": null,
+      "thrust_g": 14.2,
+      "efficiency_gw": 1.42
+     },
+     {
+      "kv": 29000,
+      "prop": "GF 31mm-2",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 3.0,
+      "rpm": null,
+      "thrust_g": 19.1,
+      "efficiency_gw": 1.59
+     },
+     {
+      "kv": 29000,
+      "prop": "GF 31mm-2",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4,
+      "current_a": 3.8,
+      "rpm": null,
+      "thrust_g": 23.6,
+      "efficiency_gw": 1.55
+     }
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
     "https://www.racedayquads.com/products/vci-hobby-spark-0702-22000kv-micro-motor-4-pack",
     "https://www.racedayquads.com/products/vci-hobby-spark-0702-29000kv-micro-motor-4-pack"
-   ]
+   ],
+   "note": "The rows are VCI Hobby's own 'Testing Dates' tables, one per winding, published as images on the motor's RaceDayQuads listing rather than on vcihobby.com: VCI's own catalogue has no id for this motor at all - the 0702 line there is now the PRO LITE and the PRO DB - so the retailer's copy of the maker's sheet is the only surviving publication of it. THESE SHEETS STEP THE CURRENT, NOT THE THROTTLE: the columns are Model / Propeller / Voltage / Current / Thrust / Efficiency / Power / Temperature, the rows walk 0.50 A upwards to each winding's peak, and there is no throttle and no RPM column at all, so both are empty on every row here. Every one of the 41 rows reproduces both of the sheets' own identities: the printed Power is 4 V x the printed current, and the printed Efficiency is Thrust / that Power. The cross-check against each Specifications panel lands on a row: the 22000 KV panel's 3.3 A / 13.2 W and the 29000 KV panel's 4 A / 16 W are each that winding's GF 35mm-3 last row. Identity with our two retail listings is nine figures to the digit - 9S12P, Ø7*L2 mm stator, Ø9*L12.2 mm body, Ø1 mm shaft, 1S (4 V), 30AWG 30 mm leads, 350 and 275 mOhm and 1.53 / 1.52 g including cable, where weight_g holds the 29000 KV figure our source sold first. MAX THRUST READS 26.00 g, the 22000 KV winding's GF 35mm-3 peak, against 24.80 g for the 29000 KV. Temperature is one figure per prop run and not per row (53-68 C over the six runs), so it is not carried. The listing's third image is VCI's dimension drawing, which calls out 3-M1.4 EQS on a Ø6.6 bolt circle: a three-hole mount, so mount_mm stays empty."
   },
   {
    "type": "motor",
@@ -66674,7 +67130,7 @@
     "https://www.racedayquads.com/products/vci-spark-2207-pro-2100kv-motor",
     "https://vcihobby.com/sys-pd/178.html"
    ],
-   "note": "The rows are VCI Hobby's own 'Testing Data' table, published as an image in the Specifications tab of the motor's product page on vcihobby.com - the thirteenth brand this dataset has read a manufacturer sheet from. One image carries a complete block per winding: a Specifications panel and then columns Model / Propeller / Voltage (V) / Throttle (%) / Current (A) / Thrust (g) / Efficiency (g/W) / Power (W) / RPM / Temperature (C), eight throttle points (30-100% in tens) on each of four props at a fixed 24 V. The sheet's own note says the figures are from VCI's test platform and that the temperature is the spindle temperature after a 0-100% static run, so it is one figure per prop run and not per row - 98-151 C across the twelve runs here, and not a field this dataset carries. Every one of the 96 rows reproduces both of the sheet's own identities: the printed Power is 24 V x the printed current, and the printed Efficiency is Thrust / that Power. The cross-check against each winding's Specifications panel lands on a row: the 1950 KV panel's 44.73 A / 1073.52 W, the 2050 KV panel's 47.37 A / 1136.88 W and the 2100 KV panel's 50.27 A / 1206.48 W are each that winding's GF 51466-3B 100% row to the digit. Identity with our retail listing is the three KV, the 2207 stator (the panels print Ø22*L7 mm), the M5 shaft, 6S and the weight: VCI states 33.3/33.3/33.2 g including cable against RaceDayQuads' 33.7/33.3/33.2. The panels also give a per-winding internal resistance - 56, 55 and 54 mOhm - which is why resistance_mohm stays empty: this page is one motor in three windings and the field holds one number. The 1950 KV GF F3-3B run's RPM column is the source's own shape, 17712 at 50% and 18892 at 60% where every other run of this motor steps about 3000 RPM; nothing here is smoothed."
+   "note": "The rows are VCI Hobby's own 'Testing Data' table, published as an image in the Specifications tab of the motor's product page on vcihobby.com - the thirteenth brand this dataset has read a manufacturer sheet from. One image carries a complete block per winding: a Specifications panel and then columns Model / Propeller / Voltage (V) / Throttle (%) / Current (A) / Thrust (g) / Efficiency (g/W) / Power (W) / RPM / Temperature (C), eight throttle points (30-100% in tens) on each of four props at a fixed 24 V. The sheet's own note says the figures are from VCI's test platform and that the temperature is the spindle temperature after a 0-100% static run, so it is one figure per prop run and not per row - 98-151 C across the twelve runs here, and not a field this dataset carries. Every one of the 96 rows reproduces both of the sheet's own identities: the printed Power is 24 V x the printed current, and the printed Efficiency is Thrust / that Power. The cross-check against each winding's Specifications panel lands on a row: the 1950 KV panel's 44.73 A / 1073.52 W, the 2050 KV panel's 47.37 A / 1136.88 W and the 2100 KV panel's 50.27 A / 1206.48 W are each that winding's GF 51466-3B 100% row to the digit. Identity with our retail listing is the three KV, the 2207 stator (the panels print Ø22*L7 mm), the M5 shaft, 6S and the weight: VCI states 33.3/33.3/33.2 g including cable against RaceDayQuads' 33.7/33.3/33.2. The panels also give a per-winding internal resistance - 56, 55 and 54 mOhm - which is why resistance_mohm stays empty: this page is one motor in three windings and the field holds one number. The 1950 KV GF F3-3B run's RPM column is the source's own shape, 17712 at 50% and 18892 at 60% where every other run of this motor steps about 3000 RPM; nothing here is smoothed. The rows are VCI Hobby's own 'Testing Data' table, published as an image in the Specifications tab of the motor's product page on vcihobby.com - the thirteenth brand this dataset has read a manufacturer sheet from. One image carries a complete block per winding: a Specifications panel and then columns Model / Propeller / Voltage (V) / Throttle (%) / Current (A) / Thrust (g) / Efficiency (g/W) / Power (W) / RPM / Temperature (C), eight throttle points (30-100% in tens) on each of four props at a fixed 24 V. The sheet's own note says the figures are from VCI's test platform and that the temperature is the spindle temperature after a 0-100% static run, so it is one figure per prop run and not per row - 98-151 C across the twelve runs here, and not a field this dataset carries. Every one of the 96 rows reproduces both of the sheet's own identities: the printed Power is 24 V x the printed current, and the printed Efficiency is Thrust / that Power. The cross-check against each winding's Specifications panel lands on a row: the 1950 KV panel's 44.73 A / 1073.52 W, the 2050 KV panel's 47.37 A / 1136.88 W and the 2100 KV panel's 50.27 A / 1206.48 W are each that winding's GF 51466-3B 100% row to the digit. Identity with our retail listing is the three KV, the 2207 stator (the panels print Ø22*L7 mm), the M5 shaft, 6S and the weight: VCI states 33.3/33.3/33.2 g including cable against RaceDayQuads' 33.7/33.3/33.2. The panels also give a per-winding internal resistance - 56, 55 and 54 mOhm - which is why resistance_mohm stays empty: this page is one motor in three windings and the field holds one number. The 1950 KV GF F3-3B run's RPM column is the source's own shape, 17712 at 50% and 18892 at 60% where every other run of this motor steps about 3000 RPM; nothing here is smoothed. CAUTION, added 2026-10-02: the 2100 KV block of this sheet is reproduced a second time by VCI itself, headed VCI 2207 PRO-2110KV YUKI EDITION, on the RaceDayQuads listing of the Yuki motor - identical in all 32 rows and in its whole Specifications panel, the KV cell alone differing. Those rows are therefore on /motors/vci-hobby-vci-spark-2207-pro-yuki/ as well, and at most one of the two KV figures was the motor on the rig."
   },
   {
    "type": "motor",
@@ -66693,12 +67149,369 @@
     "configuration": "12S14P",
     "dimensions_mm": "27x31.4",
     "resistance_mohm": "54",
-    "price_usd": 25.49
+    "price_usd": 25.49,
+    "max_thrust_g": 1970,
+    "thrust_conditions": "VCI Hobby bench, 2110 KV at 6S (24 V), 8 throttle points (30-100%) on each of four 5in props",
+    "thrust_table": [
+     {
+      "kv": 2110,
+      "prop": "GF F3-3B",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 24,
+      "current_a": 0.74,
+      "rpm": 10013,
+      "thrust_g": 72,
+      "efficiency_gw": 4.05
+     },
+     {
+      "kv": 2110,
+      "prop": "GF F3-3B",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 24,
+      "current_a": 2.84,
+      "rpm": 14524,
+      "thrust_g": 259,
+      "efficiency_gw": 3.8
+     },
+     {
+      "kv": 2110,
+      "prop": "GF F3-3B",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24,
+      "current_a": 6.09,
+      "rpm": 18746,
+      "thrust_g": 430,
+      "efficiency_gw": 2.94
+     },
+     {
+      "kv": 2110,
+      "prop": "GF F3-3B",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 24,
+      "current_a": 10.55,
+      "rpm": 22458,
+      "thrust_g": 669,
+      "efficiency_gw": 2.64
+     },
+     {
+      "kv": 2110,
+      "prop": "GF F3-3B",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 24,
+      "current_a": 16.69,
+      "rpm": 25903,
+      "thrust_g": 976,
+      "efficiency_gw": 2.44
+     },
+     {
+      "kv": 2110,
+      "prop": "GF F3-3B",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 24,
+      "current_a": 23.89,
+      "rpm": 29813,
+      "thrust_g": 1250,
+      "efficiency_gw": 2.18
+     },
+     {
+      "kv": 2110,
+      "prop": "GF F3-3B",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 24,
+      "current_a": 32.97,
+      "rpm": 31780,
+      "thrust_g": 1558,
+      "efficiency_gw": 1.97
+     },
+     {
+      "kv": 2110,
+      "prop": "GF F3-3B",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24,
+      "current_a": 45.33,
+      "rpm": 34544,
+      "thrust_g": 1970,
+      "efficiency_gw": 1.81
+     },
+     {
+      "kv": 2110,
+      "prop": "GF F4-3B",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 24,
+      "current_a": 0.77,
+      "rpm": 9908,
+      "thrust_g": 69,
+      "efficiency_gw": 3.73
+     },
+     {
+      "kv": 2110,
+      "prop": "GF F4-3B",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 24,
+      "current_a": 3.13,
+      "rpm": 14311,
+      "thrust_g": 245,
+      "efficiency_gw": 3.26
+     },
+     {
+      "kv": 2110,
+      "prop": "GF F4-3B",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24,
+      "current_a": 6.58,
+      "rpm": 18233,
+      "thrust_g": 458,
+      "efficiency_gw": 2.9
+     },
+     {
+      "kv": 2110,
+      "prop": "GF F4-3B",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 24,
+      "current_a": 11.48,
+      "rpm": 21753,
+      "thrust_g": 756,
+      "efficiency_gw": 2.74
+     },
+     {
+      "kv": 2110,
+      "prop": "GF F4-3B",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 24,
+      "current_a": 18.01,
+      "rpm": 25166,
+      "thrust_g": 1036,
+      "efficiency_gw": 2.4
+     },
+     {
+      "kv": 2110,
+      "prop": "GF F4-3B",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 24,
+      "current_a": 26.37,
+      "rpm": 28206,
+      "thrust_g": 1412,
+      "efficiency_gw": 2.23
+     },
+     {
+      "kv": 2110,
+      "prop": "GF F4-3B",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 24,
+      "current_a": 36.11,
+      "rpm": 31252,
+      "thrust_g": 1672,
+      "efficiency_gw": 1.93
+     },
+     {
+      "kv": 2110,
+      "prop": "GF F4-3B",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24,
+      "current_a": 48.47,
+      "rpm": 32635,
+      "thrust_g": 1958,
+      "efficiency_gw": 1.68
+     },
+     {
+      "kv": 2110,
+      "prop": "GF 51466-3B",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 24,
+      "current_a": 0.88,
+      "rpm": 9870,
+      "thrust_g": 68,
+      "efficiency_gw": 3.22
+     },
+     {
+      "kv": 2110,
+      "prop": "GF 51466-3B",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 24,
+      "current_a": 3.15,
+      "rpm": 14255,
+      "thrust_g": 232,
+      "efficiency_gw": 3.07
+     },
+     {
+      "kv": 2110,
+      "prop": "GF 51466-3B",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24,
+      "current_a": 6.77,
+      "rpm": 18210,
+      "thrust_g": 421,
+      "efficiency_gw": 2.59
+     },
+     {
+      "kv": 2110,
+      "prop": "GF 51466-3B",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 24,
+      "current_a": 11.65,
+      "rpm": 21807,
+      "thrust_g": 693,
+      "efficiency_gw": 2.48
+     },
+     {
+      "kv": 2110,
+      "prop": "GF 51466-3B",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 24,
+      "current_a": 18.39,
+      "rpm": 25191,
+      "thrust_g": 992,
+      "efficiency_gw": 2.25
+     },
+     {
+      "kv": 2110,
+      "prop": "GF 51466-3B",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 24,
+      "current_a": 27.23,
+      "rpm": 28229,
+      "thrust_g": 1289,
+      "efficiency_gw": 1.97
+     },
+     {
+      "kv": 2110,
+      "prop": "GF 51466-3B",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 24,
+      "current_a": 37.19,
+      "rpm": 30724,
+      "thrust_g": 1569,
+      "efficiency_gw": 1.76
+     },
+     {
+      "kv": 2110,
+      "prop": "GF 51466-3B",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24,
+      "current_a": 50.27,
+      "rpm": 32533,
+      "thrust_g": 1818,
+      "efficiency_gw": 1.51
+     },
+     {
+      "kv": 2110,
+      "prop": "HQ 5.1*3.8-3B",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 24,
+      "current_a": 1.04,
+      "rpm": 9973,
+      "thrust_g": 92,
+      "efficiency_gw": 3.69
+     },
+     {
+      "kv": 2110,
+      "prop": "HQ 5.1*3.8-3B",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 24,
+      "current_a": 3.12,
+      "rpm": 14400,
+      "thrust_g": 224,
+      "efficiency_gw": 2.99
+     },
+     {
+      "kv": 2110,
+      "prop": "HQ 5.1*3.8-3B",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24,
+      "current_a": 6.73,
+      "rpm": 18503,
+      "thrust_g": 447,
+      "efficiency_gw": 2.77
+     },
+     {
+      "kv": 2110,
+      "prop": "HQ 5.1*3.8-3B",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 24,
+      "current_a": 11.59,
+      "rpm": 22038,
+      "thrust_g": 696,
+      "efficiency_gw": 2.5
+     },
+     {
+      "kv": 2110,
+      "prop": "HQ 5.1*3.8-3B",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 24,
+      "current_a": 18.28,
+      "rpm": 25339,
+      "thrust_g": 944,
+      "efficiency_gw": 2.15
+     },
+     {
+      "kv": 2110,
+      "prop": "HQ 5.1*3.8-3B",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 24,
+      "current_a": 26.8,
+      "rpm": 28662,
+      "thrust_g": 1213,
+      "efficiency_gw": 1.89
+     },
+     {
+      "kv": 2110,
+      "prop": "HQ 5.1*3.8-3B",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 24,
+      "current_a": 36.5,
+      "rpm": 31273,
+      "thrust_g": 1538,
+      "efficiency_gw": 1.76
+     },
+     {
+      "kv": 2110,
+      "prop": "HQ 5.1*3.8-3B",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24,
+      "current_a": 48.87,
+      "rpm": 33356,
+      "thrust_g": 1767,
+      "efficiency_gw": 1.51
+     }
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
     "https://www.racedayquads.com/products/vci-spark-2207-pro-2110kv-motor-yuki-edition"
-   ]
+   ],
+   "note": "The rows are VCI Hobby's own 'Testing Data' table, headed VCI 2207 PRO-2110KV YUKI EDITION and published as an image on the motor's RaceDayQuads listing; vcihobby.com sells this winding under id 178, whose own sheet heads the same block 2100KV. CAUTION: this table is identical, digit for digit and in all 32 rows, to the SPARK 2207 PRO-2100KV block of id 178 that /motors/vci-hobby-vci-spark-2207-pro/ carries - the same four props, the same currents, thrusts, powers and RPM - and so is the Specifications panel above it, down to the 54 mOhm, the 50.27 A peak and the 1206.48 W. The two sheets differ in the KV cell alone, 2110 against 2100, so one bench run is published under two names and at most one of the two KV figures was the motor on the rig. Both are reproduced as published. Every row reproduces both of the sheet's own identities: the printed Power is 24 V x the printed current, and the printed Efficiency is Thrust / that Power; the panel's 50.27 A / 1206.48 W is the GF 51466-3B 100% row. Identity with our retail listing is the 2207 stator (the panel prints Ø22*L7 mm), the M5 shaft, 6S, 12S14P, Ø27*L31.4 mm, 54 mOhm and 33.2 g including cable. Temperature is one figure per prop run and not per row (112-151 C over the four runs), so it is not carried."
   },
   {
    "type": "motor",
