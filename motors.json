@@ -18972,15 +18972,373 @@
     "shaft": "5mm",
     "recommended_props": "5-5.1in props (derived)",
     "configuration": "12N14P",
-    "dimensions_mm": "28.9x30.2",
+    "dimensions_mm": "28.99x30.2",
     "mount_mm": "16x16mm",
-    "price_usd": 29.99
+    "price_usd": 29.99,
+    "max_thrust_g": 1860,
+    "thrust_conditions": "Foxeer bench, both windings over the same eight 5in props: 1850 KV at 22.2 V (6S) and 2550 KV at 14.8 V (4S), 50% and 100% throttle; no RPM published",
+    "thrust_table": [
+     {
+      "kv": 1850,
+      "prop": "DAL T5143.5",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 22.2,
+      "current_a": 7.3,
+      "rpm": null,
+      "thrust_g": 535,
+      "efficiency_gw": 3.301
+     },
+     {
+      "kv": 1850,
+      "prop": "DAL T5143.5",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 22.2,
+      "current_a": 35.6,
+      "rpm": null,
+      "thrust_g": 1536,
+      "efficiency_gw": 1.944
+     },
+     {
+      "kv": 1850,
+      "prop": "DAL T5146.5",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 22.2,
+      "current_a": 8.6,
+      "rpm": null,
+      "thrust_g": 615,
+      "efficiency_gw": 3.221
+     },
+     {
+      "kv": 1850,
+      "prop": "DAL T5146.5",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 22.2,
+      "current_a": 38.2,
+      "rpm": null,
+      "thrust_g": 1627,
+      "efficiency_gw": 1.919
+     },
+     {
+      "kv": 1850,
+      "prop": "DAL T5147.5",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 22.2,
+      "current_a": 7.0,
+      "rpm": null,
+      "thrust_g": 525,
+      "efficiency_gw": 3.378
+     },
+     {
+      "kv": 1850,
+      "prop": "DAL T5147.5",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 22.2,
+      "current_a": 33.8,
+      "rpm": null,
+      "thrust_g": 1445,
+      "efficiency_gw": 1.926
+     },
+     {
+      "kv": 1850,
+      "prop": "DAL T5148.5",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 22.2,
+      "current_a": 8.6,
+      "rpm": null,
+      "thrust_g": 611,
+      "efficiency_gw": 3.2
+     },
+     {
+      "kv": 1850,
+      "prop": "DAL T5148.5",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 22.2,
+      "current_a": 38.5,
+      "rpm": null,
+      "thrust_g": 1622,
+      "efficiency_gw": 1.898
+     },
+     {
+      "kv": 1850,
+      "prop": "DAL N1",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 22.2,
+      "current_a": 8.8,
+      "rpm": null,
+      "thrust_g": 663,
+      "efficiency_gw": 3.394
+     },
+     {
+      "kv": 1850,
+      "prop": "DAL N1",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 22.2,
+      "current_a": 38.0,
+      "rpm": null,
+      "thrust_g": 1655,
+      "efficiency_gw": 1.962
+     },
+     {
+      "kv": 1850,
+      "prop": "DAL N2",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 22.2,
+      "current_a": 7.9,
+      "rpm": null,
+      "thrust_g": 571,
+      "efficiency_gw": 3.256
+     },
+     {
+      "kv": 1850,
+      "prop": "DAL N2",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 22.2,
+      "current_a": 37.7,
+      "rpm": null,
+      "thrust_g": 1542,
+      "efficiency_gw": 1.842
+     },
+     {
+      "kv": 1850,
+      "prop": "DAL T5046C",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 22.2,
+      "current_a": 8.8,
+      "rpm": null,
+      "thrust_g": 679,
+      "efficiency_gw": 3.476
+     },
+     {
+      "kv": 1850,
+      "prop": "DAL T5046C",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 22.2,
+      "current_a": 40.5,
+      "rpm": null,
+      "thrust_g": 1785,
+      "efficiency_gw": 1.985
+     },
+     {
+      "kv": 1850,
+      "prop": "DAL F6",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 22.2,
+      "current_a": 10.7,
+      "rpm": null,
+      "thrust_g": 770,
+      "efficiency_gw": 3.242
+     },
+     {
+      "kv": 1850,
+      "prop": "DAL F6",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 22.2,
+      "current_a": 47.5,
+      "rpm": null,
+      "thrust_g": 1860,
+      "efficiency_gw": 1.764
+     },
+     {
+      "kv": 2550,
+      "prop": "DAL T5143.5",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 14.8,
+      "current_a": 9.5,
+      "rpm": null,
+      "thrust_g": 485,
+      "efficiency_gw": 3.45
+     },
+     {
+      "kv": 2550,
+      "prop": "DAL T5143.5",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 14.8,
+      "current_a": 41.0,
+      "rpm": null,
+      "thrust_g": 1336,
+      "efficiency_gw": 2.202
+     },
+     {
+      "kv": 2550,
+      "prop": "DAL T5146.5",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 14.8,
+      "current_a": 10.5,
+      "rpm": null,
+      "thrust_g": 530,
+      "efficiency_gw": 3.411
+     },
+     {
+      "kv": 2550,
+      "prop": "DAL T5146.5",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 14.8,
+      "current_a": 43.4,
+      "rpm": null,
+      "thrust_g": 1398,
+      "efficiency_gw": 2.176
+     },
+     {
+      "kv": 2550,
+      "prop": "DAL T5147.5",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 14.8,
+      "current_a": 9.2,
+      "rpm": null,
+      "thrust_g": 467,
+      "efficiency_gw": 3.43
+     },
+     {
+      "kv": 2550,
+      "prop": "DAL T5147.5",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 14.8,
+      "current_a": 38.9,
+      "rpm": null,
+      "thrust_g": 1249,
+      "efficiency_gw": 2.169
+     },
+     {
+      "kv": 2550,
+      "prop": "DAL T5148.5",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 14.8,
+      "current_a": 9.9,
+      "rpm": null,
+      "thrust_g": 515,
+      "efficiency_gw": 3.515
+     },
+     {
+      "kv": 2550,
+      "prop": "DAL T5148.5",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 14.8,
+      "current_a": 43.0,
+      "rpm": null,
+      "thrust_g": 1339,
+      "efficiency_gw": 2.104
+     },
+     {
+      "kv": 2550,
+      "prop": "DAL N1",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 14.8,
+      "current_a": 10.0,
+      "rpm": null,
+      "thrust_g": 547,
+      "efficiency_gw": 3.696
+     },
+     {
+      "kv": 2550,
+      "prop": "DAL N1",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 14.8,
+      "current_a": 43.0,
+      "rpm": null,
+      "thrust_g": 1421,
+      "efficiency_gw": 2.233
+     },
+     {
+      "kv": 2550,
+      "prop": "DAL N2",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 14.8,
+      "current_a": 10.0,
+      "rpm": null,
+      "thrust_g": 516,
+      "efficiency_gw": 3.486
+     },
+     {
+      "kv": 2550,
+      "prop": "DAL N2",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 14.8,
+      "current_a": 42.2,
+      "rpm": null,
+      "thrust_g": 1294,
+      "efficiency_gw": 2.072
+     },
+     {
+      "kv": 2550,
+      "prop": "DAL T5046C",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 14.8,
+      "current_a": 11.0,
+      "rpm": null,
+      "thrust_g": 585,
+      "efficiency_gw": 3.593
+     },
+     {
+      "kv": 2550,
+      "prop": "DAL T5046C",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 14.8,
+      "current_a": 45.2,
+      "rpm": null,
+      "thrust_g": 1460,
+      "efficiency_gw": 2.182
+     },
+     {
+      "kv": 2550,
+      "prop": "DAL F6",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 14.8,
+      "current_a": 12.2,
+      "rpm": null,
+      "thrust_g": 660,
+      "efficiency_gw": 3.655
+     },
+     {
+      "kv": 2550,
+      "prop": "DAL F6",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 14.8,
+      "current_a": 51.9,
+      "rpm": null,
+      "thrust_g": 1576,
+      "efficiency_gw": 2.052
+     }
+    ],
+    "resistance_mohm": "50 (1850KV) / 30 (2550KV)"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-datura-2306-5-1850kv-motor",
     "https://www.racedayquads.com/products/foxeer-datura-2306-5-2550kv-motor"
-   ]
+   ],
+   "note": "Bench rows are Foxeer's own two test sheets, headed \"DATURA 2306.5-1850KV\" and \"DATURA 2306.5-2550KV\", published as the description images of this page's two retail listings; foxeer.com sells no motors and publishes none of this. Each sheet carries its own Technical Datas block, and each block's two maxima land exactly on its own DAL F6 full-throttle row - 1054 W / 47.5 A at 1850 KV, 768 W / 51.9 A at 2550 KV - under a \"3S\" label those rows contradict: the 1850 KV sheet runs at 22.2 V (6S) and the 2550 KV one at 14.8 V (4S). Every row's Power is its own Voltages x its own Load Currency and every printed Efficiency is its own Pull / Power. The blocks state the body as Phi 28.99*30.2 mm, which the retailer truncates to 28.9 mm, and confirm each listing's own internal resistance (50 mOhm on the 1850 KV listing, 30 on the 2550 KV one), which this page could not carry while the two claims sat on one slug and now carries per winding; the blocks also disagree with the published max_cells, which is the 2550 KV listing's 3-4S while the 1850 KV sheet and listing both say 4~6S - the field is per-motor and these two windings differ. Both sheets print the shaft as 4 mm (Hollow) where the drawing dimensions the prop end 5 mm, which is the figure the retailer sells it by and the one this page keeps. Temperature after 3 s at full throttle: 69-85 degC at 1850 KV, 66-82 degC at 2550 KV, the DAL F6 run marked HOT on both."
   },
   {
    "type": "motor",
@@ -18990,6 +19348,7 @@
    "specs": {
     "stator": "2806.5",
     "kv_options": [
+     1350,
      1750
     ],
     "weight_g": 46.0,
@@ -18999,12 +19358,370 @@
     "configuration": "12N14P",
     "dimensions_mm": "34.3x18.8",
     "mount_mm": "19x19mm (M3)",
-    "price_usd": 32.49
+    "price_usd": 32.49,
+    "max_thrust_g": 2711,
+    "thrust_conditions": "Foxeer bench, both windings over five 6-7in props at 16/21/24 V (4S/5S/6S), 50% and 100% throttle; no RPM published",
+    "thrust_table": [
+     {
+      "kv": 1350,
+      "prop": "GF6042",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.0,
+      "current_a": 5.3,
+      "rpm": null,
+      "thrust_g": 633,
+      "efficiency_gw": 4.976
+     },
+     {
+      "kv": 1350,
+      "prop": "GF6042",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24.0,
+      "current_a": 26.7,
+      "rpm": null,
+      "thrust_g": 1905,
+      "efficiency_gw": 2.973
+     },
+     {
+      "kv": 1350,
+      "prop": "GF7042",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.0,
+      "current_a": 7.7,
+      "rpm": null,
+      "thrust_g": 892,
+      "efficiency_gw": 4.827
+     },
+     {
+      "kv": 1350,
+      "prop": "GF7042",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24.0,
+      "current_a": 42.8,
+      "rpm": null,
+      "thrust_g": 2230,
+      "efficiency_gw": 2.171
+     },
+     {
+      "kv": 1350,
+      "prop": "DAL7040*2",
+      "cells": "5S",
+      "throttle": 50,
+      "voltage_v": 21.0,
+      "current_a": 4.8,
+      "rpm": null,
+      "thrust_g": 478,
+      "efficiency_gw": 4.742
+     },
+     {
+      "kv": 1350,
+      "prop": "DAL7040*2",
+      "cells": "5S",
+      "throttle": 100,
+      "voltage_v": 21.0,
+      "current_a": 25.4,
+      "rpm": null,
+      "thrust_g": 1483,
+      "efficiency_gw": 2.78
+     },
+     {
+      "kv": 1350,
+      "prop": "DAL7040*2",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.0,
+      "current_a": 6.0,
+      "rpm": null,
+      "thrust_g": 612,
+      "efficiency_gw": 4.25
+     },
+     {
+      "kv": 1350,
+      "prop": "DAL7040*2",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24.0,
+      "current_a": 32.1,
+      "rpm": null,
+      "thrust_g": 1811,
+      "efficiency_gw": 2.351
+     },
+     {
+      "kv": 1350,
+      "prop": "DAL F7*3",
+      "cells": "5S",
+      "throttle": 50,
+      "voltage_v": 21.0,
+      "current_a": 7.8,
+      "rpm": null,
+      "thrust_g": 697,
+      "efficiency_gw": 4.255
+     },
+     {
+      "kv": 1350,
+      "prop": "DAL F7*3",
+      "cells": "5S",
+      "throttle": 100,
+      "voltage_v": 21.0,
+      "current_a": 35.2,
+      "rpm": null,
+      "thrust_g": 1861,
+      "efficiency_gw": 2.518
+     },
+     {
+      "kv": 1350,
+      "prop": "DAL F7*3",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.0,
+      "current_a": 9.1,
+      "rpm": null,
+      "thrust_g": 891,
+      "efficiency_gw": 4.08
+     },
+     {
+      "kv": 1350,
+      "prop": "DAL F7*3",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24.0,
+      "current_a": 39.8,
+      "rpm": null,
+      "thrust_g": 2255,
+      "efficiency_gw": 2.361
+     },
+     {
+      "kv": 1350,
+      "prop": "DAL7056*3",
+      "cells": "5S",
+      "throttle": 50,
+      "voltage_v": 21.0,
+      "current_a": 6.5,
+      "rpm": null,
+      "thrust_g": 761,
+      "efficiency_gw": 5.575
+     },
+     {
+      "kv": 1350,
+      "prop": "DAL7056*3",
+      "cells": "5S",
+      "throttle": 100,
+      "voltage_v": 21.0,
+      "current_a": 33.3,
+      "rpm": null,
+      "thrust_g": 2179,
+      "efficiency_gw": 3.116
+     },
+     {
+      "kv": 1350,
+      "prop": "DAL7056*3",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.0,
+      "current_a": 8.8,
+      "rpm": null,
+      "thrust_g": 987,
+      "efficiency_gw": 4.673
+     },
+     {
+      "kv": 1350,
+      "prop": "DAL7056*3",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24.0,
+      "current_a": 40.1,
+      "rpm": null,
+      "thrust_g": 2587,
+      "efficiency_gw": 2.688
+     },
+     {
+      "kv": 1750,
+      "prop": "GF6042",
+      "cells": "5S",
+      "throttle": 50,
+      "voltage_v": 21.0,
+      "current_a": 8.0,
+      "rpm": null,
+      "thrust_g": 762,
+      "efficiency_gw": 4.536
+     },
+     {
+      "kv": 1750,
+      "prop": "GF6042",
+      "cells": "5S",
+      "throttle": 100,
+      "voltage_v": 21.0,
+      "current_a": 41.4,
+      "rpm": null,
+      "thrust_g": 2021,
+      "efficiency_gw": 2.325
+     },
+     {
+      "kv": 1750,
+      "prop": "GF6042",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.0,
+      "current_a": 9.2,
+      "rpm": null,
+      "thrust_g": 881,
+      "efficiency_gw": 3.99
+     },
+     {
+      "kv": 1750,
+      "prop": "GF6042",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24.0,
+      "current_a": 49.5,
+      "rpm": null,
+      "thrust_g": 2241,
+      "efficiency_gw": 1.886
+     },
+     {
+      "kv": 1750,
+      "prop": "GF7042",
+      "cells": "5S",
+      "throttle": 50,
+      "voltage_v": 21.0,
+      "current_a": 11.7,
+      "rpm": null,
+      "thrust_g": 1074,
+      "efficiency_gw": 4.371
+     },
+     {
+      "kv": 1750,
+      "prop": "GF7042",
+      "cells": "5S",
+      "throttle": 100,
+      "voltage_v": 21.0,
+      "current_a": 59.8,
+      "rpm": null,
+      "thrust_g": 2292,
+      "efficiency_gw": 1.825
+     },
+     {
+      "kv": 1750,
+      "prop": "DAL7040*2",
+      "cells": "5S",
+      "throttle": 50,
+      "voltage_v": 21.0,
+      "current_a": 8.7,
+      "rpm": null,
+      "thrust_g": 723,
+      "efficiency_gw": 3.957
+     },
+     {
+      "kv": 1750,
+      "prop": "DAL7040*2",
+      "cells": "5S",
+      "throttle": 100,
+      "voltage_v": 21.0,
+      "current_a": 44.3,
+      "rpm": null,
+      "thrust_g": 2004,
+      "efficiency_gw": 2.154
+     },
+     {
+      "kv": 1750,
+      "prop": "DAL7040*2",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.0,
+      "current_a": 11.2,
+      "rpm": null,
+      "thrust_g": 921,
+      "efficiency_gw": 3.426
+     },
+     {
+      "kv": 1750,
+      "prop": "DAL7040*2",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24.0,
+      "current_a": 54.8,
+      "rpm": null,
+      "thrust_g": 2409,
+      "efficiency_gw": 1.832
+     },
+     {
+      "kv": 1750,
+      "prop": "DAL7*3",
+      "cells": "5S",
+      "throttle": 50,
+      "voltage_v": 21.0,
+      "current_a": 10.1,
+      "rpm": null,
+      "thrust_g": 906,
+      "efficiency_gw": 4.272
+     },
+     {
+      "kv": 1750,
+      "prop": "DAL7*3",
+      "cells": "5S",
+      "throttle": 100,
+      "voltage_v": 21.0,
+      "current_a": 45.8,
+      "rpm": null,
+      "thrust_g": 2419,
+      "efficiency_gw": 2.515
+     },
+     {
+      "kv": 1750,
+      "prop": "DAL7056*3",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16.0,
+      "current_a": 8.8,
+      "rpm": null,
+      "thrust_g": 749,
+      "efficiency_gw": 5.32
+     },
+     {
+      "kv": 1750,
+      "prop": "DAL7056*3",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16.0,
+      "current_a": 39.3,
+      "rpm": null,
+      "thrust_g": 1971,
+      "efficiency_gw": 3.135
+     },
+     {
+      "kv": 1750,
+      "prop": "DAL7056*3",
+      "cells": "5S",
+      "throttle": 50,
+      "voltage_v": 21.0,
+      "current_a": 12.7,
+      "rpm": null,
+      "thrust_g": 1121,
+      "efficiency_gw": 4.203
+     },
+     {
+      "kv": 1750,
+      "prop": "DAL7056*3",
+      "cells": "5S",
+      "throttle": 100,
+      "voltage_v": 21.0,
+      "current_a": 55.4,
+      "rpm": null,
+      "thrust_g": 2711,
+      "efficiency_gw": 2.33
+     }
+    ],
+    "resistance_mohm": "60 (1350KV) / 50 (1750KV)"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-datura-2806-5-1750kv-motor"
-   ]
+   ],
+   "note": "Bench rows are Foxeer's own two test sheets, headed \"DATURA 2806.5 - 1350KV\" and \"DATURA 2806.5 - 1750KV\", both published on the single 1080x6100 description image of this retail listing, whose banner names the motor \"2806.5 - 1350KV/1750KV\": the 1350 KV winding is this motor and no listing of ours sells it, so it is added to the KV list off the maker's own sheet. Each sheet carries its own Technical Datas block; the 1350 KV block's maxima are its own GF7042 full-throttle row to the digit (1027 W / 42.8 A) and the 1750 KV block's split across two runs (1315 W on DAL7040*2 at 24 V, 59.8 A on GF7042 at 21 V), both under a \"5S\" label that the 24 V rows contradict. Every row's Power is its own Voltages x its own Load Currency and every printed Efficiency is its own Pull / Power. Two runs are printed with their cells empty - GF7042 at 24 V on the 1750 KV sheet and DAL7*3's second voltage - and are left out rather than reconstructed. The 1750 KV block's 50 mOhm is the listing's own figure; the 1350 KV winding's 60 mOhm is on no listing of ours. Both blocks print the shaft as 4 mm (Hollow), as the listing does. Temperature after 5 s at full throttle: 58-85 degC at 1350 KV, 65-85 degC at 1750 KV."
   },
   {
    "type": "motor",
