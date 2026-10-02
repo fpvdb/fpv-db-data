@@ -18104,12 +18104,149 @@
     "recommended_props": "5-5.1in props (derived)",
     "configuration": "12N14P",
     "mount_mm": "16x16mm",
-    "price_usd": 20.49
+    "price_usd": 20.49,
+    "max_thrust_g": 1590,
+    "thrust_conditions": "Flash Hobby bench, two 5in props at a nominal 16 V (4S), 50-100% throttle in 10% steps; no RPM published",
+    "thrust_table": [
+     {
+      "kv": 2500,
+      "prop": "DAL 5047 3R",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16.0,
+      "current_a": 8.58,
+      "rpm": null,
+      "thrust_g": 494,
+      "efficiency_gw": 3.53
+     },
+     {
+      "kv": 2500,
+      "prop": "DAL 5047 3R",
+      "cells": "4S",
+      "throttle": 60,
+      "voltage_v": 16.0,
+      "current_a": 14.19,
+      "rpm": null,
+      "thrust_g": 690,
+      "efficiency_gw": 2.99
+     },
+     {
+      "kv": 2500,
+      "prop": "DAL 5047 3R",
+      "cells": "4S",
+      "throttle": 70,
+      "voltage_v": 16.0,
+      "current_a": 21.51,
+      "rpm": null,
+      "thrust_g": 912,
+      "efficiency_gw": 2.6
+     },
+     {
+      "kv": 2500,
+      "prop": "DAL 5047 3R",
+      "cells": "4S",
+      "throttle": 80,
+      "voltage_v": 16.0,
+      "current_a": 30.63,
+      "rpm": null,
+      "thrust_g": 1133,
+      "efficiency_gw": 2.27
+     },
+     {
+      "kv": 2500,
+      "prop": "DAL 5047 3R",
+      "cells": "4S",
+      "throttle": 90,
+      "voltage_v": 16.0,
+      "current_a": 37.6,
+      "rpm": null,
+      "thrust_g": 1291,
+      "efficiency_gw": 2.11
+     },
+     {
+      "kv": 2500,
+      "prop": "DAL 5047 3R",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16.0,
+      "current_a": 38.94,
+      "rpm": null,
+      "thrust_g": 1305,
+      "efficiency_gw": 2.06
+     },
+     {
+      "kv": 2500,
+      "prop": "GF 6045x2",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16.0,
+      "current_a": 9.8,
+      "rpm": null,
+      "thrust_g": 700,
+      "efficiency_gw": 4.38
+     },
+     {
+      "kv": 2500,
+      "prop": "GF 6045x2",
+      "cells": "4S",
+      "throttle": 60,
+      "voltage_v": 16.0,
+      "current_a": 15.9,
+      "rpm": null,
+      "thrust_g": 927,
+      "efficiency_gw": 3.58
+     },
+     {
+      "kv": 2500,
+      "prop": "GF 6045x2",
+      "cells": "4S",
+      "throttle": 70,
+      "voltage_v": 16.0,
+      "current_a": 23.33,
+      "rpm": null,
+      "thrust_g": 1158,
+      "efficiency_gw": 3.05
+     },
+     {
+      "kv": 2500,
+      "prop": "GF 6045x2",
+      "cells": "4S",
+      "throttle": 80,
+      "voltage_v": 16.0,
+      "current_a": 32.25,
+      "rpm": null,
+      "thrust_g": 1380,
+      "efficiency_gw": 2.63
+     },
+     {
+      "kv": 2500,
+      "prop": "GF 6045x2",
+      "cells": "4S",
+      "throttle": 90,
+      "voltage_v": 16.0,
+      "current_a": 41.15,
+      "rpm": null,
+      "thrust_g": 1540,
+      "efficiency_gw": 2.3
+     },
+     {
+      "kv": 2500,
+      "prop": "GF 6045x2",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16.0,
+      "current_a": 43.55,
+      "rpm": null,
+      "thrust_g": 1590,
+      "efficiency_gw": 2.24
+     }
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
     "https://www.racedayquads.com/products/flash-hobby-arthur-2207-5-2500kv-motor"
-   ]
+   ],
+   "note": "Bench rows are Flash Hobby's own test table, headed \"A2207.5-2500kv\", published as a description image on this retail listing; flashhobby.com publishes no bench table for any FPV motor. The table carries no spec block of its own - the listing's does the cross-checking, and its \"Max pull: 1590\" is this table's Gemfan 6045x2 full-throttle row to the gram. The Volts column prints a flat nominal 16 on all twelve rows, but each row's own Power is 16.29 x its current, to 0.05 W on every row of both runs, so 16 is the pack's nominal voltage and not the bench's; the voltage is carried as printed and the efficiency column is the sheet's own thrust / power. Operating temperature: 59.3 degC on the DAL 5047 3R run, 68.2 degC on the Gemfan 6045x2 run."
   },
   {
    "type": "motor",
@@ -18127,12 +18264,248 @@
     "recommended_props": "7-8in props (derived)",
     "configuration": "14N12P",
     "mount_mm": "19x19mm",
-    "price_usd": 26.49
+    "price_usd": 26.49,
+    "max_thrust_g": 2036,
+    "thrust_conditions": "Flash Hobby bench, three 7in props at 23.9-24.7 V (6S), 40-100% throttle in 10% steps, with RPM",
+    "thrust_table": [
+     {
+      "kv": 1300,
+      "prop": "GF 7*3.5*3",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 24.74,
+      "current_a": 9.91,
+      "rpm": 13409,
+      "thrust_g": 817,
+      "efficiency_gw": 3.3
+     },
+     {
+      "kv": 1300,
+      "prop": "GF 7*3.5*3",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.65,
+      "current_a": 13.28,
+      "rpm": 14819,
+      "thrust_g": 1012,
+      "efficiency_gw": 3.1
+     },
+     {
+      "kv": 1300,
+      "prop": "GF 7*3.5*3",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 24.54,
+      "current_a": 16.89,
+      "rpm": 16149,
+      "thrust_g": 1202,
+      "efficiency_gw": 2.9
+     },
+     {
+      "kv": 1300,
+      "prop": "GF 7*3.5*3",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 24.42,
+      "current_a": 21.1,
+      "rpm": 17359,
+      "thrust_g": 1410,
+      "efficiency_gw": 2.7
+     },
+     {
+      "kv": 1300,
+      "prop": "GF 7*3.5*3",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 24.25,
+      "current_a": 27.09,
+      "rpm": 19053,
+      "thrust_g": 1680,
+      "efficiency_gw": 2.6
+     },
+     {
+      "kv": 1300,
+      "prop": "GF 7*3.5*3",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 24.05,
+      "current_a": 34.22,
+      "rpm": 20426,
+      "thrust_g": 1942,
+      "efficiency_gw": 2.4
+     },
+     {
+      "kv": 1300,
+      "prop": "GF 7*3.5*3",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 23.94,
+      "current_a": 37.91,
+      "rpm": 20874,
+      "thrust_g": 2036,
+      "efficiency_gw": 2.2
+     },
+     {
+      "kv": 1300,
+      "prop": "GF 7*4*3",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 24.74,
+      "current_a": 9.41,
+      "rpm": 14081,
+      "thrust_g": 780,
+      "efficiency_gw": 3.3
+     },
+     {
+      "kv": 1300,
+      "prop": "GF 7*4*3",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.65,
+      "current_a": 12.7,
+      "rpm": 15467,
+      "thrust_g": 974,
+      "efficiency_gw": 3.1
+     },
+     {
+      "kv": 1300,
+      "prop": "GF 7*4*3",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 24.55,
+      "current_a": 16.16,
+      "rpm": 16663,
+      "thrust_g": 1141,
+      "efficiency_gw": 2.9
+     },
+     {
+      "kv": 1300,
+      "prop": "GF 7*4*3",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 24.44,
+      "current_a": 20.0,
+      "rpm": 17818,
+      "thrust_g": 1346,
+      "efficiency_gw": 2.8
+     },
+     {
+      "kv": 1300,
+      "prop": "GF 7*4*3",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 24.25,
+      "current_a": 26.36,
+      "rpm": 19326,
+      "thrust_g": 1626,
+      "efficiency_gw": 2.5
+     },
+     {
+      "kv": 1300,
+      "prop": "GF 7*4*3",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 24.04,
+      "current_a": 33.79,
+      "rpm": 20673,
+      "thrust_g": 1908,
+      "efficiency_gw": 2.3
+     },
+     {
+      "kv": 1300,
+      "prop": "GF 7*4*3",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 23.91,
+      "current_a": 37.46,
+      "rpm": 21083,
+      "thrust_g": 1996,
+      "efficiency_gw": 2.2
+     },
+     {
+      "kv": 1300,
+      "prop": "GF 7042",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 24.71,
+      "current_a": 10.03,
+      "rpm": 12913,
+      "thrust_g": 793,
+      "efficiency_gw": 3.2
+     },
+     {
+      "kv": 1300,
+      "prop": "GF 7042",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.62,
+      "current_a": 13.42,
+      "rpm": 14327,
+      "thrust_g": 965,
+      "efficiency_gw": 2.9
+     },
+     {
+      "kv": 1300,
+      "prop": "GF 7042",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 24.51,
+      "current_a": 17.33,
+      "rpm": 15577,
+      "thrust_g": 1155,
+      "efficiency_gw": 2.7
+     },
+     {
+      "kv": 1300,
+      "prop": "GF 7042",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 24.37,
+      "current_a": 22.12,
+      "rpm": 16867,
+      "thrust_g": 1347,
+      "efficiency_gw": 2.5
+     },
+     {
+      "kv": 1300,
+      "prop": "GF 7042",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 24.18,
+      "current_a": 28.87,
+      "rpm": 18311,
+      "thrust_g": 1636,
+      "efficiency_gw": 2.3
+     },
+     {
+      "kv": 1300,
+      "prop": "GF 7042",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 23.96,
+      "current_a": 36.35,
+      "rpm": 19495,
+      "thrust_g": 1809,
+      "efficiency_gw": 2.1
+     },
+     {
+      "kv": 1300,
+      "prop": "GF 7042",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 23.86,
+      "current_a": 40.03,
+      "rpm": 19797,
+      "thrust_g": 1836,
+      "efficiency_gw": 1.9
+     }
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
     "https://www.racedayquads.com/products/flash-hobby-arthur-2807-1300kv-motor"
-   ]
+   ],
+   "note": "Bench rows are Flash Hobby's own test table, headed \"A2807-1300KV\", published as a description image on this retail listing; flashhobby.com publishes no bench table for any FPV motor. The image begins at the table's first data row - the header is not in it - so the columns are read off the arithmetic instead: Power is each row's own volts x amps to 0.15 W on all 21 rows (the GF7*3.5*3 60% row, 24.54 x 16.89 = 414.38 against a printed 414.5, is the only one past 0.05), printed Efficiency is Thrust / Power on all 21, and the one column left is five digits and monotone in throttle on each run, in the slot the brand's own Arthur 2207.5 sheet leaves out - RPM. The listing's \"Max pull: 1996g\" is this table's GF7*4*3 full-throttle row to the gram, not its maximum: the GF7*3.5*3 run reaches 2036 g. Operating temperature: 55.8 degC on GF7*3.5*3, 52.4 on GF7*4*3, 60.6 on GF7042."
   },
   {
    "type": "motor",
@@ -18151,13 +18524,150 @@
     "recommended_props": "5-5.1in props (derived)",
     "configuration": "12N14P",
     "mount_mm": "16x16mm (M3)",
-    "price_usd": 19.49
+    "price_usd": 19.49,
+    "max_thrust_g": 1479,
+    "thrust_conditions": "Flash Hobby bench, 1900 KV winding only, two 5in props at 23.1-23.9 V (6S), 50-100% throttle in 10% steps; no RPM published",
+    "thrust_table": [
+     {
+      "kv": 1900,
+      "prop": "GF 5040 2R",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 23.94,
+      "current_a": 6.22,
+      "rpm": null,
+      "thrust_g": 515,
+      "efficiency_gw": 3.46
+     },
+     {
+      "kv": 1900,
+      "prop": "GF 5040 2R",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 23.94,
+      "current_a": 10.47,
+      "rpm": null,
+      "thrust_g": 726,
+      "efficiency_gw": 2.9
+     },
+     {
+      "kv": 1900,
+      "prop": "GF 5040 2R",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 23.75,
+      "current_a": 15.49,
+      "rpm": null,
+      "thrust_g": 947,
+      "efficiency_gw": 2.57
+     },
+     {
+      "kv": 1900,
+      "prop": "GF 5040 2R",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 23.64,
+      "current_a": 22.05,
+      "rpm": null,
+      "thrust_g": 1211,
+      "efficiency_gw": 2.32
+     },
+     {
+      "kv": 1900,
+      "prop": "GF 5040 2R",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 23.51,
+      "current_a": 28.4,
+      "rpm": null,
+      "thrust_g": 1411,
+      "efficiency_gw": 2.11
+     },
+     {
+      "kv": 1900,
+      "prop": "GF 5040 2R",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 23.56,
+      "current_a": 28.4,
+      "rpm": null,
+      "thrust_g": 1406,
+      "efficiency_gw": 2.1
+     },
+     {
+      "kv": 1900,
+      "prop": "GF 5047 3R",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 23.67,
+      "current_a": 7.7,
+      "rpm": null,
+      "thrust_g": 577,
+      "efficiency_gw": 3.17
+     },
+     {
+      "kv": 1900,
+      "prop": "GF 5047 3R",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 23.48,
+      "current_a": 12.97,
+      "rpm": null,
+      "thrust_g": 817,
+      "efficiency_gw": 2.68
+     },
+     {
+      "kv": 1900,
+      "prop": "GF 5047 3R",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 23.45,
+      "current_a": 18.6,
+      "rpm": null,
+      "thrust_g": 1012,
+      "efficiency_gw": 2.32
+     },
+     {
+      "kv": 1900,
+      "prop": "GF 5047 3R",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 23.1,
+      "current_a": 26.1,
+      "rpm": null,
+      "thrust_g": 1267,
+      "efficiency_gw": 2.1
+     },
+     {
+      "kv": 1900,
+      "prop": "GF 5047 3R",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 23.18,
+      "current_a": 35.83,
+      "rpm": null,
+      "thrust_g": 1479,
+      "efficiency_gw": 1.78
+     },
+     {
+      "kv": 1900,
+      "prop": "GF 5047 3R",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 23.16,
+      "current_a": 35.43,
+      "rpm": null,
+      "thrust_g": 1462,
+      "efficiency_gw": 1.78
+     }
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
     "https://www.racedayquads.com/products/flash-hobby-king-2207-5-1900kv-motor-2",
     "https://www.racedayquads.com/products/flash-hobby-king-2207-5-2500kv-motor"
-   ]
+   ],
+   "note": "Bench rows are Flash Hobby's own test table, headed \"K2207.5 1900KV\" on both of its runs, published as the same description image on both of this page's retail listings - so the 2500 KV listing reprints the 1900 KV sheet, and this page's 2500 KV winding has no rows. Every row is its own printed volts x its own printed amps to 0.05 W. Two figures are recorded rather than repaired: the GF5040 2R run prints the same 28.4 A at 90% and 100% and a full-throttle thrust (1406 g) below its own 90% row (1411 g), and the GF5047 3R run does the same (35.43 A and 1462 g against 35.83 A and 1479 g); in both the printed efficiency follows the printed power, so this is what the sheet says. Neither listing's \"Max Pull\" lands on the table - 1619 g on the 1900 KV listing and 1513 g on the 2500 KV one, against a table maximum of 1479 g - so the blocks are describing a run this sheet does not publish. The page's max_cells is the 2500 KV listing's 2-4S while the 1900 KV listing states 3-6S, which is what this ~23.5 V sheet runs: the field is per-motor and the two windings differ. Operating temperature: 54.5 degC on the GF5040 2R run, 67.4 degC on the GF5047 3R run."
   },
   {
    "type": "motor",
