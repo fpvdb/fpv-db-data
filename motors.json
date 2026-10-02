@@ -5254,7 +5254,7 @@
     "recommended_props": "31-40mm whoop props (derived)",
     "price_usd": 45.49
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-0802se-19500kv-micro-motor"
    ]
@@ -17922,7 +17922,7 @@
     "mount_mm": "12x12mm",
     "price_usd": 19.49
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/flyfishrc-flash-1804-2450kv-micro-motor",
     "https://www.racedayquads.com/products/flyfishrc-flash-1804-3500kv-micro-motor"
@@ -18573,7 +18573,7 @@
     ],
     "dimensions_mm": "Ø10.7x14.4"
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/geprc-speedx2-0802-micro-motor-choose-version",
     "https://geprc.com/product/geprc-speedx2-0802-brushless-motor-17000kv-22000kv/"
@@ -18712,7 +18712,7 @@
     ],
     "dimensions_mm": "Ø10.7x15"
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/geprc-speedx2-0803-micro-motor-11000kv",
     "https://geprc.com/product/geprc-speedx2-0803-brushless-motor-11000kv/"
@@ -19539,7 +19539,7 @@
      }
     ]
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-ex-0802-25000kv-whoop-micro-motor-for-mobula-6-hd-cw",
     "https://www.happymodel.cn/index.php/2020/05/29/happymodel-ex0802-new-series-brushless-motor-for-mobula6-mobula6-hd/"
@@ -20219,7 +20219,7 @@
      }
     ]
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-rs0802-20000kv-micro-motor-choose-your-version",
     "https://www.happymodel.cn/index.php/2022/01/19/happymodel-rs0802-kv20000-new-series-brushless-motor-for-mobula7-1s/"
@@ -20583,7 +20583,7 @@
     "configuration": "9N12P",
     "price_usd": 11.99
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-se-0802-19000kv-micro-motor"
    ]
@@ -20690,7 +20690,7 @@
     "dimensions_mm": "Ø10.5x14.9",
     "price_usd": 10.99
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-se0802-16000kv-1-2s-brushless-motor-4-pcs",
     "https://www.racedayquads.com/products/happymodel-se0802-16000kv-1-2s-whoop-micro-motor-for-mobula7-cw"
@@ -21787,7 +21787,7 @@
     "configuration": "12N14P",
     "dimensions_mm": "Ø22.68x13.2"
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/hglrc-specter-1804-2450kv-micro-motor",
     "https://www.hglrc.com/products/hglrc-specter-1804-3500kv-brushless-motor"
@@ -24121,7 +24121,7 @@
     ],
     "dimensions_mm": "11.2x8.2"
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/rcinpower-gts-v3-1s-0802-22000kv-motors-choose-color",
     "https://www.racedayquads.com/products/rcinpower-gts-v3-1s-0802-25000kv-motors-choose-color",
@@ -32011,7 +32011,7 @@
     "price_usd": 39.99,
     "dimensions_mm": "Ø12x14"
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/sub250-m1-0803-19000kv-micro-whoop-motor-4-pack",
     "https://sub250.com/products/sub250-m1-0803-19000kv-1-5-mm-shaft-brushless-motor-for-nanofly16-pack-of-1-4"
@@ -43446,7 +43446,7 @@
      }
     ]
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-m0802-ii-micro-motor-25000kv",
     "https://www.racedayquads.com/products/t-motor-m0802-ii-micro-motor-27000kv",
@@ -44862,7 +44862,6 @@
     "configuration": "12N14P",
     "mount_mm": "12x12mm (M2)",
     "price_usd": 32.49,
-    "shaft": "1.5mm",
     "max_thrust_g": 618.8,
     "thrust_conditions": "T-Motor bench, four 4in props; 2400 KV on 6S, 3400 KV on 4S",
     "thrust_table": [
@@ -45308,9 +45307,8 @@
      }
     ]
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-02",
    "sources": [
-    "https://pyrodrone.com/products/t-motor-pacer-p1804-2400kv-ultra-light-freestyle-brushless-motor",
     "https://www.racedayquads.com/products/t-motor-p1804-2400kv-motor-choose-version",
     "https://www.tmotorhobby.com/goods-1250.html"
    ],
