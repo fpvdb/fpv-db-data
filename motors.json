@@ -10241,13 +10241,194 @@
     "configuration": "12N14P",
     "dimensions_mm": "Ø26.9x32.8",
     "resistance_mohm": "60",
-    "price_usd": 27.99
+    "price_usd": 27.99,
+    "max_thrust_g": 1730,
+    "thrust_conditions": "CNHL bench, 2020 KV winding on two 5.1in tri-blade props at 22.2 V (6S), 30-100% throttle in 10% steps",
+    "thrust_table": [
+     {
+      "kv": 2020,
+      "prop": "51477-3B",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 22.2,
+      "current_a": 5.4,
+      "rpm": 15745,
+      "thrust_g": 415.0,
+      "efficiency_gw": 3.46
+     },
+     {
+      "kv": 2020,
+      "prop": "51477-3B",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 22.2,
+      "current_a": 8.2,
+      "rpm": 18180,
+      "thrust_g": 565.0,
+      "efficiency_gw": 3.1
+     },
+     {
+      "kv": 2020,
+      "prop": "51477-3B",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 22.2,
+      "current_a": 11.4,
+      "rpm": 21514,
+      "thrust_g": 725.0,
+      "efficiency_gw": 2.86
+     },
+     {
+      "kv": 2020,
+      "prop": "51477-3B",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 22.2,
+      "current_a": 14.9,
+      "rpm": 22114,
+      "thrust_g": 865.0,
+      "efficiency_gw": 2.62
+     },
+     {
+      "kv": 2020,
+      "prop": "51477-3B",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 22.2,
+      "current_a": 20.3,
+      "rpm": 24317,
+      "thrust_g": 1085.0,
+      "efficiency_gw": 2.41
+     },
+     {
+      "kv": 2020,
+      "prop": "51477-3B",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 22.2,
+      "current_a": 26.5,
+      "rpm": 26357,
+      "thrust_g": 1300.0,
+      "efficiency_gw": 2.21
+     },
+     {
+      "kv": 2020,
+      "prop": "51477-3B",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 22.2,
+      "current_a": 34.0,
+      "rpm": 27857,
+      "thrust_g": 1530.0,
+      "efficiency_gw": 2.03
+     },
+     {
+      "kv": 2020,
+      "prop": "51477-3B",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 22.2,
+      "current_a": 40.6,
+      "rpm": 30394,
+      "thrust_g": 1730.0,
+      "efficiency_gw": 1.92
+     },
+     {
+      "kv": 2020,
+      "prop": "51466-3B",
+      "cells": "6S",
+      "throttle": 30,
+      "voltage_v": 22.2,
+      "current_a": 5.3,
+      "rpm": 15925,
+      "thrust_g": 375.0,
+      "efficiency_gw": 3.19
+     },
+     {
+      "kv": 2020,
+      "prop": "51466-3B",
+      "cells": "6S",
+      "throttle": 40,
+      "voltage_v": 22.2,
+      "current_a": 8.1,
+      "rpm": 18557,
+      "thrust_g": 550.0,
+      "efficiency_gw": 3.06
+     },
+     {
+      "kv": 2020,
+      "prop": "51466-3B",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 22.2,
+      "current_a": 11.3,
+      "rpm": 20691,
+      "thrust_g": 695.0,
+      "efficiency_gw": 2.77
+     },
+     {
+      "kv": 2020,
+      "prop": "51466-3B",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 22.2,
+      "current_a": 14.8,
+      "rpm": 22060,
+      "thrust_g": 854.0,
+      "efficiency_gw": 2.6
+     },
+     {
+      "kv": 2020,
+      "prop": "51466-3B",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 22.2,
+      "current_a": 19.5,
+      "rpm": 24642,
+      "thrust_g": 1010.0,
+      "efficiency_gw": 2.33
+     },
+     {
+      "kv": 2020,
+      "prop": "51466-3B",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 22.2,
+      "current_a": 26.1,
+      "rpm": 27077,
+      "thrust_g": 1240.0,
+      "efficiency_gw": 2.14
+     },
+     {
+      "kv": 2020,
+      "prop": "51466-3B",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 22.2,
+      "current_a": 33.5,
+      "rpm": 28285,
+      "thrust_g": 1492.0,
+      "efficiency_gw": 2.01
+     },
+     {
+      "kv": 2020,
+      "prop": "51466-3B",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 22.2,
+      "current_a": 39.8,
+      "rpm": 29588,
+      "thrust_g": 1689.0,
+      "efficiency_gw": 1.91
+     }
+    ]
    },
    "_scraped_at": "2026-10-01",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-speedy-pizza-axis-flying-diavola-2207-2020kv-brushless-motors",
     "https://www.racedayquads.com/products/cnhl-speedy-pizza-axisflying-diavola-2207-1960kv-brushless-motors"
-   ]
+   ],
+   "note": "Bench rows are the maker's own TEST DATA table, published as the last of the six description images both retail listings of this motor carry; chinahobbyline.com's catalogue has no FPV motor in it and publishes none of this. The table is one winding: its row label reads \"2207 KV2020\" and the bell in the same image set is printed \"2207 2020kv\", so the 1960 KV winding sold by the other listing - which reprints these identical images - has no rows here. Every row's Power is its own Voltage x its own Current and every printed Efficiency is Thrust / Power; RPM rises with throttle on both prop runs. The image's SPECS block states Max.Power 901.3w and Peak Current 40.6A, which are the 51477-3B full-throttle row's Power and Current to the digit and the maxima of their own columns, and it confirms this page's published 60 mOhm, 12N14P, 5 mm shaft, 4~6S, 30.5 g (excl. cable) and Phi 26.9*32.8 mm body. The drawing adds a Phi16 4-M3 bolt circle, which is a bolt circle and not the square mount_mm this schema carries, and an M5 prop thread on the Phi5 shaft. Voltage is printed as a flat 22.20 on all sixteen rows."
   },
   {
    "type": "motor",
