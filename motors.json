@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02",
+ "generated": "2026-10-03",
  "count": 206,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
@@ -19061,12 +19061,150 @@
     "recommended_props": "40-65mm whoop/micro props (derived)",
     "configuration": "9N12P",
     "dimensions_mm": "13.5x9.2",
-    "price_usd": 16.99
+    "price_usd": 16.99,
+    "max_thrust_g": 170,
+    "thrust_conditions": "Flywoo bench, 14800 KV on six 1.6in and 45mm props at 7.4 V (2S), 50% and 100% throttle",
+    "thrust_table": [
+     {
+      "kv": 14800,
+      "prop": "GF1608R*3",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 7.4,
+      "current_a": 2.4,
+      "rpm": null,
+      "thrust_g": 61,
+      "efficiency_gw": 3.435
+     },
+     {
+      "kv": 14800,
+      "prop": "GF1608R*3",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 7.4,
+      "current_a": 8.6,
+      "rpm": null,
+      "thrust_g": 141,
+      "efficiency_gw": 2.216
+     },
+     {
+      "kv": 14800,
+      "prop": "GF1609R*4",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 7.4,
+      "current_a": 2.5,
+      "rpm": null,
+      "thrust_g": 67,
+      "efficiency_gw": 3.622
+     },
+     {
+      "kv": 14800,
+      "prop": "GF1609R*4",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 7.4,
+      "current_a": 9.5,
+      "rpm": null,
+      "thrust_g": 154,
+      "efficiency_gw": 2.191
+     },
+     {
+      "kv": 14800,
+      "prop": "GF1635R*3",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 7.4,
+      "current_a": 2.4,
+      "rpm": null,
+      "thrust_g": 62,
+      "efficiency_gw": 3.491
+     },
+     {
+      "kv": 14800,
+      "prop": "GF1635R*3",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 7.4,
+      "current_a": 8.7,
+      "rpm": null,
+      "thrust_g": 143,
+      "efficiency_gw": 2.221
+     },
+     {
+      "kv": 14800,
+      "prop": "GF1635R*4",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 7.4,
+      "current_a": 2.8,
+      "rpm": null,
+      "thrust_g": 72,
+      "efficiency_gw": 3.475
+     },
+     {
+      "kv": 14800,
+      "prop": "GF1635R*4",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 7.4,
+      "current_a": 9.6,
+      "rpm": null,
+      "thrust_g": 154,
+      "efficiency_gw": 2.168
+     },
+     {
+      "kv": 14800,
+      "prop": "GF45mm*2",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 7.4,
+      "current_a": 2.4,
+      "rpm": null,
+      "thrust_g": 65,
+      "efficiency_gw": 3.66
+     },
+     {
+      "kv": 14800,
+      "prop": "GF45mm*2",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 7.4,
+      "current_a": 8.8,
+      "rpm": null,
+      "thrust_g": 155,
+      "efficiency_gw": 2.38
+     },
+     {
+      "kv": 14800,
+      "prop": "GF45mm*3",
+      "cells": "2S",
+      "throttle": 50,
+      "voltage_v": 7.4,
+      "current_a": 2.8,
+      "rpm": null,
+      "thrust_g": 77,
+      "efficiency_gw": 3.716
+     },
+     {
+      "kv": 14800,
+      "prop": "GF45mm*3",
+      "cells": "2S",
+      "throttle": 100,
+      "voltage_v": 7.4,
+      "current_a": 10.5,
+      "rpm": null,
+      "thrust_g": 170,
+      "efficiency_gw": 2.188
+     }
+    ],
+    "shaft": "1.5mm"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
     "https://www.racedayquads.com/products/flywoo-robo-1003-14-800kv-micro-motor-gold-purple"
-   ]
+   ],
+   "note": "Bench rows are Flywoo's own \"Product Parameters\" table, the last of the eight description images the retail listing carries from Flywoo's store CDN; flywoo.net itself is Cloudflare-walled to this fetcher and publishes none of this where it can be read. The set is one winding - the bell rendered in it is printed \"RB 1003 14800KV\" - and the whole table sits at a flat 7.4 V (2S), 50% and 100% throttle on six props. The sheet's fourth column has a defective header (it prints a bare \"3\"); every row's Power is 7.4 V x that column, so it is the current in amps. Every printed Efficiency is Pull divided by that power. There is no RPM column, so no row carries one. The sheet's own full-throttle temperatures, which this schema has no field for, are 59 C on GF1608R*3, 64 C on GF1609R*4, 58 C on GF1635R*3, 64 C on GF1635R*4, 62 C on GF45mm*2 and 68 C on GF45mm*3, each measured under a 3 s full-throttle load. The dimensional drawing states a Phi1.5 mm shaft (also stated as \"Output Shaft Diameter: 1.50MM\" in the listing block) and a 3xM1.4 pattern on a Phi6.6 mm circle, which is a bolt circle and not the square mount_mm this schema carries; it prints the body as Phi13.5 x 8.8 mm against the listing block's 13.5 x 9.2 mm, so the published figure is left as the block states it."
   },
   {
    "type": "motor",
