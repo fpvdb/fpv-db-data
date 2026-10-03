@@ -230,13 +230,14 @@
     "connector": "BT2.0",
     "dimensions_mm": "67.3x11.8x6.1mm",
     "energy_wh": 1.1,
-    "price_per_wh_usd": 35.52,
+    "price_per_wh_usd": 4.44,
     "price_usd": 40.49
    },
    "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-3-8v-1s-300mah-30c-lihv-whoop-micro-battery-8-pack-bt2-0"
-   ]
+   ],
+   "note": "Sold only as a box of 8: the $40.49 price is the box's, and price per Wh is that price over the 9.1 Wh the box holds (one pack is 1.1 Wh)."
   },
   {
    "type": "battery",
@@ -252,13 +253,14 @@
     "connector": "BT2.0",
     "dimensions_mm": "61x15x7.5mm",
     "energy_wh": 1.7,
-    "price_per_wh_usd": 20.75,
+    "price_per_wh_usd": 5.19,
     "price_usd": 35.49
    },
    "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-3-8v-1s-450mah-30c-lihv-whoop-micro-battery-4-pack-bt2-0"
-   ]
+   ],
+   "note": "Sold only as a box of 4: the $35.49 price is the box's, and price per Wh is that price over the 6.8 Wh the box holds (one pack is 1.7 Wh)."
   },
   {
    "type": "battery",
@@ -274,13 +276,14 @@
     "connector": "BT2.0",
     "dimensions_mm": "69.5x16.2x6.5mm",
     "energy_wh": 2.1,
-    "price_per_wh_usd": 15.55,
+    "price_per_wh_usd": 3.89,
     "price_usd": 32.49
    },
    "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-3-8v-1s-550mah-40c-lihv-whoop-micro-battery-4-pack-bt2-0"
-   ]
+   ],
+   "note": "Sold only as a box of 4: the $32.49 price is the box's, and price per Wh is that price over the 8.4 Wh the box holds (one pack is 2.1 Wh)."
   },
   {
    "type": "battery",
@@ -295,13 +298,14 @@
     "weight_g": 25.5,
     "connector": "BT2.0",
     "energy_wh": 4.2,
-    "price_per_wh_usd": 5.26,
+    "price_per_wh_usd": 2.63,
     "price_usd": 21.99
    },
    "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-3-8v-1s-1100mah-15c-lihv-aquila16-exclusive-battery-2-pack-bt2-0"
-   ]
+   ],
+   "note": "Sold only as a box of 2: the $21.99 price is the box's, and price per Wh is that price over the 8.4 Wh the box holds (one pack is 4.2 Wh)."
   },
   {
    "type": "battery",
@@ -317,13 +321,14 @@
     "connector": "BT2.0",
     "dimensions_mm": "54x10x6mm",
     "energy_wh": 1.1,
-    "price_per_wh_usd": 23.49,
+    "price_per_wh_usd": 4.7,
     "price_usd": 24.99
    },
    "_scraped_at": "2026-10-01",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-lava-ii-280mah-1s-95c-lihv-battery-pack-5-pcs-bt2-0"
-   ]
+   ],
+   "note": "Sold only as a box of 5: the $24.99 price is the box's, and price per Wh is that price over the 5.3 Wh the box holds (one pack is 1.1 Wh)."
   },
   {
    "type": "battery",
@@ -339,13 +344,14 @@
     "connector": "BT2.0",
     "dimensions_mm": "64x10x6mm",
     "energy_wh": 1.2,
-    "price_per_wh_usd": 22.2,
+    "price_per_wh_usd": 4.44,
     "price_usd": 26.99
    },
    "_scraped_at": "2026-10-01",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-lava-ii-320mah-1s-95c-lihv-battery-pack-5-pcs-bt2-0"
-   ]
+   ],
+   "note": "Sold only as a box of 5: the $26.99 price is the box's, and price per Wh is that price over the 6.1 Wh the box holds (one pack is 1.2 Wh)."
   },
   {
    "type": "battery",
@@ -361,13 +367,14 @@
     "connector": "BT2.0",
     "dimensions_mm": "61x15.5x6mm",
     "energy_wh": 1.8,
-    "price_per_wh_usd": 14.8,
+    "price_per_wh_usd": 3.7,
     "price_usd": 26.99
    },
    "_scraped_at": "2026-10-01",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-lava-ii-480mah-1s-95c-lihv-battery-pack-4-pcs-bt2-0"
-   ]
+   ],
+   "note": "Sold only as a box of 4: the $26.99 price is the box's, and price per Wh is that price over the 7.3 Wh the box holds (one pack is 1.8 Wh)."
   },
   {
    "type": "battery",
@@ -383,13 +390,14 @@
     "connector": "BT2.0",
     "dimensions_mm": "70x15x6.5mm",
     "energy_wh": 2.2,
-    "price_per_wh_usd": 13.15,
+    "price_per_wh_usd": 3.29,
     "price_usd": 28.99
    },
    "_scraped_at": "2026-10-01",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-lava-ii-580mah-1s-95c-lihv-battery-pack-4-pcs-bt2-0"
-   ]
+   ],
+   "note": "Sold only as a box of 4: the $28.99 price is the box's, and price per Wh is that price over the 8.8 Wh the box holds (one pack is 2.2 Wh)."
   },
   {
    "type": "battery",
@@ -405,13 +413,14 @@
     "connector": "BT2.0",
     "dimensions_mm": "80x15x6.5mm",
     "energy_wh": 2.6,
-    "price_per_wh_usd": 12.38,
+    "price_per_wh_usd": 3.1,
     "price_usd": 31.99
    },
    "_scraped_at": "2026-10-01",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-lava-ii-680mah-1s-95c-lihv-battery-pack-4-pcs-bt2-0"
-   ]
+   ],
+   "note": "Sold only as a box of 4: the $31.99 price is the box's, and price per Wh is that price over the 10.3 Wh the box holds (one pack is 2.6 Wh)."
   },
   {
    "type": "battery",
@@ -951,13 +960,14 @@
     "connector": "BT2.0",
     "dimensions_mm": "67x11x6mm",
     "energy_wh": 1.3,
-    "price_per_wh_usd": 18.04,
+    "price_per_wh_usd": 3.61,
     "price_usd": 23.99
    },
    "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-speedypizza-3-7v-1s-350mah-75c-lihv-battery-bt2-0"
-   ]
+   ],
+   "note": "Sold only as a box of 5: the $23.99 price is the box's, and price per Wh is that price over the 6.6 Wh the box holds (one pack is 1.3 Wh)."
   },
   {
    "type": "battery",
@@ -1346,13 +1356,14 @@
     "connector": "XT60",
     "dimensions_mm": "80x39x36mm",
     "energy_wh": 30.6,
-    "price_per_wh_usd": 5.12,
+    "price_per_wh_usd": 1.71,
     "price_usd": 156.99
    },
    "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/3-pack-of-dogcom-mck-edition-v2-0-22-2v-6s-1380mah-160c-lipo-battery-xt60-1"
-   ]
+   ],
+   "note": "Sold only as a box of 3: the $156.99 price is the box's, and price per Wh is that price over the 91.9 Wh the box holds (one pack is 30.6 Wh)."
   },
   {
    "type": "battery",
@@ -1519,13 +1530,14 @@
     "weight_g": 13.2,
     "connector": "GNB27",
     "energy_wh": 1.7,
-    "price_per_wh_usd": 15.78,
+    "price_per_wh_usd": 3.95,
     "price_usd": 26.99
    },
    "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/flywoo-explorer-4-35v-1s-450mah-80c-lihv-battery-4-pack-gnb27"
-   ]
+   ],
+   "note": "Sold only as a box of 4: the $26.99 price is the box's, and price per Wh is that price over the 6.8 Wh the box holds (one pack is 1.7 Wh)."
   },
   {
    "type": "battery",
@@ -1540,13 +1552,14 @@
     "weight_g": 13.2,
     "connector": "A30",
     "energy_wh": 1.7,
-    "price_per_wh_usd": 19.0,
+    "price_per_wh_usd": 4.75,
     "price_usd": 32.49
    },
    "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/flywoo-explorer-3-8v-1s-450mah-80c-lihv-battery-4-pack-gnb27"
-   ]
+   ],
+   "note": "Sold only as a box of 4: the $32.49 price is the box's, and price per Wh is that price over the 6.8 Wh the box holds (one pack is 1.7 Wh)."
   },
   {
    "type": "battery",
@@ -1561,7 +1574,6 @@
     "weight_g": 17.0,
     "connector": "A30",
     "energy_wh": 2.8,
-    "price_per_wh_usd": 12.8,
     "price_usd": 36.49
    },
    "_scraped_at": "2026-10-02",
@@ -1569,7 +1581,7 @@
     "https://www.racedayquads.com/products/flywoo-explorer-v2-3-8v-1s-750mah-80c-lihv-battery-4-pack-a30",
     "https://flywoo.com/products/4pcs-flywoo-explorer-1s-750mah-hv-v2-a30-plug-lipo-battery-for-rc-drone"
    ],
-   "note": "Weight is Flywoo's own, not the retailer's: RaceDayQuads prints \"Weight: 14g\", and 14 g on 2.9 Wh is 204 Wh/kg, above anything lithium polymer reaches - while the same block prints \"Capacity: 750 Ah\" and its own Includes line reads \"1x Flywoo Explorer V2 3.8V 1S 450mAh 80C LiHV Battery 4 Pack - A30\", i.e. a 450mAh pack. Flywoo's own shop states \"Weight: 17g\" for the 4PCS Explorer 1S 750mAh HV V2 A30 pack, beside the same \"Configuration: 1S1P / 4.35V / 1 Cell\", \"Discharge Rate: 80C\" and A30 plug the retailer prints. At 17 g the pack reads 168 Wh/kg, in class for a 1S LiHV. Flywoo states no size for it, so that field stays empty"
+   "note": "The listing's name sells a box of 4, and nothing on it names what the box holds, so no price per Wh is published; the price is the box's."
   },
   {
    "type": "battery",
@@ -1585,13 +1597,14 @@
     "connector": "PH2.0",
     "dimensions_mm": "62x11.1x6.36mm",
     "energy_wh": 1.4,
-    "price_per_wh_usd": 6.23,
+    "price_per_wh_usd": 0.62,
     "price_usd": 9.0
    },
    "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/10-pack-rdq-series-3-8v-1s-380mah-1s-60c-lihv-whoop-micro-battery-ph2-0"
-   ]
+   ],
+   "note": "Sold only as a box of 10: the $9.00 price is the box's, and price per Wh is that price over the 14.4 Wh the box holds (one pack is 1.4 Wh)."
   },
   {
    "type": "battery",
@@ -1607,13 +1620,14 @@
     "connector": "PH2.0",
     "dimensions_mm": "62x11.1x6.36mm",
     "energy_wh": 1.4,
-    "price_per_wh_usd": 6.23,
+    "price_per_wh_usd": 0.62,
     "price_usd": 9.0
    },
    "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/10-pack-of-rdq-series-3-8v-1s-380mah-1s-60c-lihv-whoop-micro-battery-ph2-0-plastic-head"
-   ]
+   ],
+   "note": "Sold only as a box of 10: the $9.00 price is the box's, and price per Wh is that price over the 14.4 Wh the box holds (one pack is 1.4 Wh)."
   },
   {
    "type": "battery",
@@ -3194,13 +3208,14 @@
     "connector": "XT60",
     "dimensions_mm": "78x38x24mm",
     "energy_wh": 22.2,
-    "price_per_wh_usd": 3.83,
+    "price_per_wh_usd": 1.28,
     "price_usd": 84.99
    },
    "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/3-pack-of-rdq-series-22-2v-6s-1000mah-100c-lipo-battery-xt60"
-   ]
+   ],
+   "note": "Sold only as a box of 3: the $84.99 price is the box's, and price per Wh is that price over the 66.6 Wh the box holds (one pack is 22.2 Wh)."
   },
   {
    "type": "battery",
@@ -3216,13 +3231,14 @@
     "connector": "XT60",
     "dimensions_mm": "78x35x34mm",
     "energy_wh": 19.2,
-    "price_per_wh_usd": 1.51,
+    "price_per_wh_usd": 0.5,
     "price_usd": 29.0
    },
    "_scraped_at": "2026-10-01",
    "sources": [
     "https://www.racedayquads.com/products/rdq-series-14-8v-4s-1300mah-100c-lipo-battery-3-pack-xt60"
-   ]
+   ],
+   "note": "Sold only as a box of 3: the $29.00 price is the box's, and price per Wh is that price over the 57.7 Wh the box holds (one pack is 19.2 Wh)."
   },
   {
    "type": "battery",
@@ -3238,13 +3254,14 @@
     "connector": "XT60",
     "dimensions_mm": "89x35x43mm",
     "energy_wh": 28.9,
-    "price_per_wh_usd": 3.78,
+    "price_per_wh_usd": 1.26,
     "price_usd": 109.19
    },
    "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/rdq-series-22-2v-6s-1300mah-100c-lipo-battery-3-pack-xt60"
-   ]
+   ],
+   "note": "Sold only as a box of 3: the $109.19 price is the box's, and price per Wh is that price over the 86.6 Wh the box holds (one pack is 28.9 Wh)."
   },
   {
    "type": "battery",
@@ -3260,13 +3277,14 @@
     "connector": "XT60",
     "dimensions_mm": "107.5x34.5x42.5mm",
     "energy_wh": 40.7,
-    "price_per_wh_usd": 3.5,
+    "price_per_wh_usd": 1.17,
     "price_usd": 142.29
    },
    "_scraped_at": "2026-10-01",
    "sources": [
     "https://www.racedayquads.com/products/3-pack-of-rdq-series-18-5v-5s-2200mah-80c-long-range-lipo-battery-xt60"
-   ]
+   ],
+   "note": "Sold only as a box of 3: the $142.29 price is the box's, and price per Wh is that price over the 122.1 Wh the box holds (one pack is 40.7 Wh)."
   },
   {
    "type": "battery",
@@ -3282,13 +3300,14 @@
     "connector": "PH2.0",
     "dimensions_mm": "62x17x6.9mm",
     "energy_wh": 1.7,
-    "price_per_wh_usd": 5.26,
+    "price_per_wh_usd": 1.05,
     "price_usd": 9.0
    },
    "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/rdq-series-3-8v-1s-450mah-80c-lihv-whoop-micro-battery-for-tinyhawk-5-pack-ph2-0"
-   ]
+   ],
+   "note": "Sold only as a box of 5: the $9.00 price is the box's, and price per Wh is that price over the 8.6 Wh the box holds (one pack is 1.7 Wh)."
   },
   {
    "type": "battery",
@@ -3304,13 +3323,14 @@
     "connector": "XT30",
     "dimensions_mm": "74x44x18.5mm",
     "energy_wh": 16.4,
-    "price_per_wh_usd": 1.77,
+    "price_per_wh_usd": 0.59,
     "price_usd": 29.0
    },
    "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/3-pack-of-rdq-series-22-8v-6s-720mah-100c-lihv-whoop-micro-battery-xt30"
-   ]
+   ],
+   "note": "Sold only as a box of 3: the $29.00 price is the box's, and price per Wh is that price over the 49.2 Wh the box holds (one pack is 16.4 Wh)."
   },
   {
    "type": "battery",
@@ -3326,14 +3346,15 @@
     "connector": "XT30",
     "dimensions_mm": "73x30x19mm",
     "energy_wh": 12.9,
-    "price_per_wh_usd": 1.47,
+    "price_per_wh_usd": 0.49,
     "price_usd": 19.0
    },
    "_scraped_at": "2026-10-01",
    "sources": [
     "https://www.racedayquads.com/products/3-pack-of-rdq-series-14-8v-4s-850mah-75c-lipo-micro-battery-xt60",
     "https://www.racedayquads.com/products/3-pack-of-rdq-series-15-2v-4s-850mah-60c-lihv-whoop-micro-battery-long-type-xt30"
-   ]
+   ],
+   "note": "Sold only as a box of 3: the $19.00 price is the box's, and price per Wh is that price over the 38.8 Wh the box holds (one pack is 12.9 Wh)."
   },
   {
    "type": "battery",
@@ -4606,13 +4627,14 @@
     "weight_g": 8.4,
     "connector": "NX69",
     "energy_wh": 1.1,
-    "price_per_wh_usd": 14.03,
+    "price_per_wh_usd": 3.51,
     "price_usd": 15.99
    },
    "_scraped_at": "2026-10-01",
    "sources": [
     "https://www.racedayquads.com/products/newbeedrone-nitro-nectar-300mah-1s-80c-hv-lipo-battery-4-pcs-nx69"
-   ]
+   ],
+   "note": "Sold only as a box of 4: the $15.99 price is the box's, and price per Wh is that price over the 4.6 Wh the box holds (one pack is 1.1 Wh)."
   },
   {
    "type": "battery",
@@ -4627,13 +4649,14 @@
     "weight_g": 14.3,
     "connector": "NX69",
     "energy_wh": 2.1,
-    "price_per_wh_usd": 5.5,
+    "price_per_wh_usd": 2.75,
     "price_usd": 11.49
    },
    "_scraped_at": "2026-10-01",
    "sources": [
     "https://www.racedayquads.com/products/newbeedrone-nitro-nectar-550mah-1s-80c-hv-lipo-battery-2pcs-nx69"
-   ]
+   ],
+   "note": "Sold only as a box of 2: the $11.49 price is the box's, and price per Wh is that price over the 4.2 Wh the box holds (one pack is 2.1 Wh)."
   },
   {
    "type": "battery",
@@ -4649,13 +4672,14 @@
     "connector": "XT60",
     "dimensions_mm": "75x33x53mm",
     "energy_wh": 33.3,
-    "price_per_wh_usd": 3.24,
+    "price_per_wh_usd": 1.08,
     "price_usd": 107.99
    },
    "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/3-pack-of-cnhl-black-series-22-2v-6s-1500mah-100c-lipo-battery-xt60-1"
-   ]
+   ],
+   "note": "Sold only as a box of 3: the $107.99 price is the box's, and price per Wh is that price over the 99.9 Wh the box holds (one pack is 33.3 Wh)."
   },
   {
    "type": "battery",
@@ -6859,13 +6883,14 @@
     "connector": "XT60",
     "dimensions_mm": "78x38x38mm",
     "energy_wh": 30.6,
-    "price_per_wh_usd": 4.01,
+    "price_per_wh_usd": 1.34,
     "price_usd": 122.97
    },
    "_scraped_at": "2026-10-02",
    "sources": [
     "https://www.racedayquads.com/products/quad-gas-6s-1380mah-150c-lipo-battery-3-pack-choose-red-or-black"
-   ]
+   ],
+   "note": "Sold only as a box of 3: the $122.97 price is the box's, and price per Wh is that price over the 91.9 Wh the box holds (one pack is 30.6 Wh)."
   },
   {
    "type": "battery",
@@ -6903,13 +6928,14 @@
     "connector": "BT2.0",
     "dimensions_mm": "62x11x7mm",
     "energy_wh": 1.2,
-    "price_per_wh_usd": 27.1,
+    "price_per_wh_usd": 5.42,
     "price_usd": 32.95
    },
    "_scraped_at": "2026-10-01",
    "sources": [
     "https://www.racedayquads.com/products/quad-gas-1s-320mah-75c-battery-w-bt2-0-for-micro-whoops-5-pcs"
-   ]
+   ],
+   "note": "Sold only as a box of 5: the $32.95 price is the box's, and price per Wh is that price over the 6.1 Wh the box holds (one pack is 1.2 Wh)."
   },
   {
    "type": "battery",
