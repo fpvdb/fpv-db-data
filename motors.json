@@ -18983,6 +18983,7 @@
    "specs": {
     "stator": "2806.5",
     "kv_options": [
+     1350,
      1850
     ],
     "weight_g": 48.3,
@@ -18991,12 +18992,282 @@
     "configuration": "12N14P",
     "dimensions_mm": "34.6x33.5",
     "mount_mm": "19x19mm",
-    "price_usd": 26.89
+    "price_usd": 26.89,
+    "max_thrust_g": 2382.6,
+    "thrust_conditions": "FlyFishRC bench, 24 V (6S), 1350 and 1850 KV on two 7in props, 50-100% throttle in tens",
+    "thrust_table": [
+     {
+      "kv": 1350,
+      "prop": "HQ J75",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 23.96,
+      "current_a": 9.33,
+      "rpm": 12083,
+      "thrust_g": 781.8,
+      "efficiency_gw": 3.5
+     },
+     {
+      "kv": 1350,
+      "prop": "HQ J75",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 23.88,
+      "current_a": 14.26,
+      "rpm": 14305,
+      "thrust_g": 1072.5,
+      "efficiency_gw": 3.15
+     },
+     {
+      "kv": 1350,
+      "prop": "HQ J75",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 23.82,
+      "current_a": 20.5,
+      "rpm": 16388,
+      "thrust_g": 1391.3,
+      "efficiency_gw": 2.85
+     },
+     {
+      "kv": 1350,
+      "prop": "HQ J75",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 23.73,
+      "current_a": 28.75,
+      "rpm": 17859,
+      "thrust_g": 1642.8,
+      "efficiency_gw": 2.41
+     },
+     {
+      "kv": 1350,
+      "prop": "HQ J75",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 23.62,
+      "current_a": 34.13,
+      "rpm": 19443,
+      "thrust_g": 1941.1,
+      "efficiency_gw": 2.41
+     },
+     {
+      "kv": 1350,
+      "prop": "HQ J75",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 23.51,
+      "current_a": 44.05,
+      "rpm": 20466,
+      "thrust_g": 2159.2,
+      "efficiency_gw": 2.08
+     },
+     {
+      "kv": 1350,
+      "prop": "GF 7042",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.0,
+      "current_a": 9.06,
+      "rpm": 12117,
+      "thrust_g": 817.4,
+      "efficiency_gw": 3.76
+     },
+     {
+      "kv": 1350,
+      "prop": "GF 7042",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 23.91,
+      "current_a": 14.04,
+      "rpm": 14402,
+      "thrust_g": 1124.9,
+      "efficiency_gw": 3.35
+     },
+     {
+      "kv": 1350,
+      "prop": "GF 7042",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 23.78,
+      "current_a": 19.58,
+      "rpm": 16547,
+      "thrust_g": 1466.7,
+      "efficiency_gw": 3.15
+     },
+     {
+      "kv": 1350,
+      "prop": "GF 7042",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 23.67,
+      "current_a": 28.04,
+      "rpm": 18086,
+      "thrust_g": 1658.7,
+      "efficiency_gw": 2.5
+     },
+     {
+      "kv": 1350,
+      "prop": "GF 7042",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 23.5,
+      "current_a": 34.71,
+      "rpm": 19666,
+      "thrust_g": 2063.4,
+      "efficiency_gw": 2.53
+     },
+     {
+      "kv": 1350,
+      "prop": "GF 7042",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 23.48,
+      "current_a": 44.75,
+      "rpm": 20564,
+      "thrust_g": 2171.3,
+      "efficiency_gw": 2.07
+     },
+     {
+      "kv": 1850,
+      "prop": "HQ J75",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 23.73,
+      "current_a": 21.07,
+      "rpm": 14852,
+      "thrust_g": null,
+      "efficiency_gw": null
+     },
+     {
+      "kv": 1850,
+      "prop": "HQ J75",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 23.45,
+      "current_a": 32.58,
+      "rpm": 17041,
+      "thrust_g": 1506.3,
+      "efficiency_gw": 1.97
+     },
+     {
+      "kv": 1850,
+      "prop": "HQ J75",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 23.23,
+      "current_a": 41.4,
+      "rpm": 18010,
+      "thrust_g": 1680.6,
+      "efficiency_gw": 1.75
+     },
+     {
+      "kv": 1850,
+      "prop": "HQ J75",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 23.16,
+      "current_a": 44.68,
+      "rpm": 19895,
+      "thrust_g": 2039.7,
+      "efficiency_gw": 1.97
+     },
+     {
+      "kv": 1850,
+      "prop": "HQ J75",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 22.98,
+      "current_a": 52.97,
+      "rpm": 20865,
+      "thrust_g": 2228.2,
+      "efficiency_gw": 1.83
+     },
+     {
+      "kv": 1850,
+      "prop": "HQ J75",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 22.92,
+      "current_a": 59.73,
+      "rpm": 21440,
+      "thrust_g": 2357.6,
+      "efficiency_gw": 1.72
+     },
+     {
+      "kv": 1850,
+      "prop": "GF 7042",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 23.69,
+      "current_a": 21.02,
+      "rpm": 14951,
+      "thrust_g": null,
+      "efficiency_gw": null
+     },
+     {
+      "kv": 1850,
+      "prop": "GF 7042",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 23.41,
+      "current_a": 32.53,
+      "rpm": 17142,
+      "thrust_g": null,
+      "efficiency_gw": null
+     },
+     {
+      "kv": 1850,
+      "prop": "GF 7042",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 23.19,
+      "current_a": 41.35,
+      "rpm": 18112,
+      "thrust_g": 1693.6,
+      "efficiency_gw": 1.77
+     },
+     {
+      "kv": 1850,
+      "prop": "GF 7042",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 23.12,
+      "current_a": 44.63,
+      "rpm": 19998,
+      "thrust_g": 2054.7,
+      "efficiency_gw": 1.99
+     },
+     {
+      "kv": 1850,
+      "prop": "GF 7042",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 22.94,
+      "current_a": 52.92,
+      "rpm": 20969,
+      "thrust_g": 2246.2,
+      "efficiency_gw": 1.85
+     },
+     {
+      "kv": 1850,
+      "prop": "GF 7042",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 22.88,
+      "current_a": 60.02,
+      "rpm": 21605,
+      "thrust_g": 2382.6,
+      "efficiency_gw": 1.73
+     }
+    ],
+    "shaft": "5mm"
    },
    "_scraped_at": "2026-10-01",
    "sources": [
     "https://www.racedayquads.com/products/flyfishrc-flash-2806-5-1850kv-long-range-motor"
-   ]
+   ],
+   "note": "Bench rows are FlyFishRC's own \"Test report\", the single description image the retail listing carries (the maker's site disallows this fetcher by name in robots.txt); the same image carries the spec table and the product drawing. Two windings at 24 V (6S) on HQ J75 and GF 7042, 50-100% throttle in tens. The sheet's 1850 KV block maxima - 2382.6 g, 1373.3 W, 60.02 A, the three figures the listing prints - are the GF 7042 100% row, and its 1350 KV block (2171.3 g, 1050.7 W, 44.75 A) is that winding's GF 7042 100% row. Only 1850 KV is sold on this listing; 1350 KV comes from the sheet and weighs 48 g against the 48.3 g published here. Three rows print an impossible thrust - 11059.6 g at 1850 KV / HQ J75 / 50%, 11070.6 g and 11071.6 g at 1850 KV / GF 7042 / 50% and 60% - and each prints an efficiency computed from it (22.12, 22.23 and 14.54 g/W), so both cells are left empty on those rows rather than repaired; their voltage, current, RPM and power are the sheet's and are kept. The product drawing marks the mount as \"Ø 19\" with a 4-M3 leader, a bolt circle, where the listing's spec block prints \"Mounting pattern: 19x19mm\", a square; the published figure is left as the block states it."
   },
   {
    "type": "motor",
