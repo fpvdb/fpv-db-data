@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04",
+ "generated": "2026-10-05",
  "count": 325,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
@@ -439,7 +439,7 @@
     "price_per_wh_usd": 0.85,
     "price_usd": 48.99
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-5200mah-3s-90c-11-1v-lipo-battery-ec5"
    ]
@@ -461,7 +461,7 @@
     "price_per_wh_usd": 0.95,
     "price_usd": 72.99
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-5200mah-4s-90c-14-8v-lipo-battery-ec5"
    ]
@@ -483,7 +483,7 @@
     "price_per_wh_usd": 0.94,
     "price_usd": 107.99
    },
-   "_scraped_at": "2026-10-04",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-5200mah-6s-90c-22-2v-lipo-battery-ec5"
    ]
@@ -505,7 +505,7 @@
     "price_per_wh_usd": 0.89,
     "price_usd": 122.99
    },
-   "_scraped_at": "2026-10-02",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-6200mah-6s-90c-22-2v-lipo-battery-ec5"
    ]
@@ -527,7 +527,7 @@
     "price_per_wh_usd": 1.02,
     "price_usd": 143.49
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-9500mah-4s-90c-14-8v-lipo-battery-ec5"
    ]
@@ -549,7 +549,7 @@
     "price_per_wh_usd": 2.24,
     "price_usd": 36.49
    },
-   "_scraped_at": "2026-10-04",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-black-series-14-8v-4s-1100mah-100c-lipo-battery-xt60"
    ]
@@ -589,7 +589,7 @@
     "price_per_wh_usd": 1.37,
     "price_usd": 40.49
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-black-series-14-8v-4s-2000mah-100c-lipo-battery-xt60"
    ]
@@ -611,7 +611,7 @@
     "price_per_wh_usd": 1.28,
     "price_usd": 56.99
    },
-   "_scraped_at": "2026-10-02",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-black-series-22-2v-6s-2000mah-100c-lipo-battery-xt60"
    ]
@@ -633,7 +633,7 @@
     "price_per_wh_usd": 1.27,
     "price_usd": 24.49
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-black-series-v2-0-14-8v-4s-1300mah-130c-lipo-battery-xt60"
    ]
@@ -655,7 +655,7 @@
     "price_per_wh_usd": 1.26,
     "price_usd": 36.49
    },
-   "_scraped_at": "2026-10-04",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-black-series-v2-0-1300mah-22-2v-130c-6s-lipo-battery-xt60"
    ]
@@ -677,7 +677,7 @@
     "price_per_wh_usd": 1.42,
     "price_usd": 31.49
    },
-   "_scraped_at": "2026-10-04",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-black-series-v2-0-14-8v-4s-1500mah-100c-lipo-battery-xt60"
    ]
@@ -699,7 +699,7 @@
     "price_per_wh_usd": 1.31,
     "price_usd": 43.49
    },
-   "_scraped_at": "2026-10-04",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-black-series-v2-0-1500mah-22-2v-6s-130c-lipo-battery-xt60"
    ]
@@ -721,7 +721,7 @@
     "price_per_wh_usd": 1.35,
     "price_usd": 32.99
    },
-   "_scraped_at": "2026-10-02",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-black-series-22-2v-6s-1100mah-100c-lipo-battery-xt60"
    ]
@@ -743,7 +743,7 @@
     "price_per_wh_usd": 1.64,
     "price_usd": 36.49
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-1500mah-120c-4s-ministar-li-po-battery"
    ]
@@ -765,7 +765,7 @@
     "price_per_wh_usd": 1.37,
     "price_usd": 36.49
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-ministar-14-8v-4s-1800mah-120c-lipo-battery-xt60"
    ]
@@ -787,7 +787,7 @@
     "price_per_wh_usd": 1.0,
     "price_usd": 5.0
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-450mah-3s-70c-11-1v-li-po-fpv-battery-for-2-and-3-quads-xt30"
    ]
@@ -809,7 +809,7 @@
     "price_per_wh_usd": 0.54,
     "price_usd": 3.6
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-450mah-4s-70c-ministar-14-8v-li-po-fpv-battery-for-2-and-3-quads-xt30"
    ]
@@ -831,7 +831,7 @@
     "price_per_wh_usd": 1.97,
     "price_usd": 18.99
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-650mah-4s-70c-ministar-fpv-lipo-for-2-3-quads-xt30"
    ]
@@ -853,7 +853,7 @@
     "price_per_wh_usd": 1.91,
     "price_usd": 23.99
    },
-   "_scraped_at": "2026-10-04",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-ministar-14-8v-4s-850mah-70c-lipo-micro-battery-xt30"
    ]
@@ -875,7 +875,7 @@
     "price_per_wh_usd": 1.62,
     "price_usd": 53.99
    },
-   "_scraped_at": "2026-10-02",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-speedy-pizza-series-pro-1500mah-22-2v-6s-150c-lipo-battery-xt60"
    ]
@@ -897,7 +897,7 @@
     "price_per_wh_usd": 1.52,
     "price_usd": 26.99
    },
-   "_scraped_at": "2026-10-04",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-speedy-pizza-14-8v-4s-1200mah-100c-lipo-battery-xt60"
    ]
@@ -919,7 +919,7 @@
     "price_per_wh_usd": 1.13,
     "price_usd": 29.99
    },
-   "_scraped_at": "2026-10-04",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-speedy-pizza-22-2v-6s-1200mah-100c-lipo-battery-xt60"
    ]
@@ -941,7 +941,7 @@
     "price_per_wh_usd": 1.18,
     "price_usd": 26.99
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-speedy-pizza-14-8v-4s-1550mah-100c-lipo-battery-xt60"
    ]
@@ -963,7 +963,7 @@
     "price_per_wh_usd": 3.61,
     "price_usd": 23.99
    },
-   "_scraped_at": "2026-10-04",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-speedypizza-3-7v-1s-350mah-75c-lihv-battery-bt2-0"
    ],
@@ -986,7 +986,7 @@
     "price_per_wh_usd": 2.25,
     "price_usd": 14.99
    },
-   "_scraped_at": "2026-10-04",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-speedypizza-11-1v-3s-600ah-120c-lipo-battery-xt30"
    ]
@@ -1008,7 +1008,7 @@
     "price_per_wh_usd": 2.03,
     "price_usd": 17.99
    },
-   "_scraped_at": "2026-10-04",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-speedypizza-14-8v-4s-600mah-120c-lipo-battery-xt30"
    ]
@@ -1030,7 +1030,7 @@
     "price_per_wh_usd": 2.32,
     "price_usd": 53.99
    },
-   "_scraped_at": "2026-10-02",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-ultra-black-series-22-2v-6s-1050mah-150c-lipo-battery-xt60"
    ]
@@ -1052,7 +1052,7 @@
     "price_per_wh_usd": 1.96,
     "price_usd": 60.99
    },
-   "_scraped_at": "2026-10-02",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-ultra-black-series-22-2v-6s-1400mah-150c-lipo-battery-xt60"
    ]
@@ -1074,7 +1074,7 @@
     "price_per_wh_usd": 1.72,
     "price_usd": 39.49
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-ultra-black-series-14-8v-4s-1550mah-150c-lipo-battery-xt60"
    ]
@@ -1096,7 +1096,7 @@
     "price_per_wh_usd": 1.82,
     "price_usd": 62.49
    },
-   "_scraped_at": "2026-10-02",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/cnhl-ultra-black-series-22-2v-6s-1550mah-150c-lipo-battery-xt60"
    ]
@@ -4647,7 +4647,7 @@
     "price_per_wh_usd": 1.08,
     "price_usd": 107.99
    },
-   "_scraped_at": "2026-10-02",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/3-pack-of-cnhl-black-series-22-2v-6s-1500mah-100c-lipo-battery-xt60-1"
    ],

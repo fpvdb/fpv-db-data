@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-04",
- "count": 206,
+ "generated": "2026-10-05",
+ "count": 204,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -159,7 +159,7 @@
     "mount_mm": "9x9mm (4-M2)",
     "resistance_mohm": "150"
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/pre-order-aos-rc-supernova-1404-fpv-motor-4000kv"
    ],
@@ -10358,7 +10358,7 @@
     "price_usd": 19.49,
     "mount_mm": "Ø12 (4-M2)"
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/brotherhobby-tornado-t2-1407-3600kv-micro-motor",
     "https://www.brotherhobby.com/tornado-t2-1407-motor-p00194p1.html"
@@ -12177,7 +12177,7 @@
     "resistance_mohm": "310",
     "price_usd": 12.99
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/diatone-mamba-toka-1404-3000kv-micro-motor"
    ]
@@ -21027,28 +21027,6 @@
   {
    "type": "motor",
    "brand": "Flywoo",
-   "model": "NIN V2 Dave_C Edition 1404",
-   "slug": "flywoo-nin-v2-dave-c-edition-1404",
-   "specs": {
-    "stator": "1404",
-    "kv_options": [
-     2750
-    ],
-    "max_cells": "4-6S",
-    "shaft": "1.5mm",
-    "recommended_props": "3-4in props (derived)",
-    "price_usd": 17.99,
-    "weight_g": 8.7
-   },
-   "_scraped_at": "2026-10-01",
-   "sources": [
-    "https://pyrodrone.com/products/flywoo-nin-v2-1404-2750kv-micro-motor-dave_c-edition",
-    "https://www.racedayquads.com/products/flywoo-nin-v2-dave_c-edition-1404-2750kv-micro-motor"
-   ]
-  },
-  {
-   "type": "motor",
-   "brand": "Flywoo",
    "model": "Robo 1003 - Gold/Purple",
    "slug": "flywoo-robo-1003-gold-purple",
    "specs": {
@@ -21247,7 +21225,7 @@
     "mount_mm": "9x9mm",
     "price_usd": 17.99
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-datura-1404-3850kv-micro-motor"
    ]
@@ -22084,7 +22062,7 @@
     "dimensions_mm": "Ø18.3x14.5",
     "price_usd": 16.99
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/geprc-gr-1404-3850kv-micro-motor"
    ]
@@ -23611,7 +23589,6 @@
     "recommended_props": "3-4in props (derived)",
     "configuration": "9N12P",
     "price_usd": 13.99,
-    "dimensions_mm": "Ø17.8x17.6",
     "max_thrust_g": 338.3,
     "thrust_conditions": "Happymodel bench, 3500 KV on a Gemfan 4024 2-blade, a Gemfan 4023 3-blade and a Gemfan 3018 2-blade at 4S (14.8 V); 5-9 current steps per prop (1-9.5 A), the sheet's throttle column being a PWM value (1463-2200 us) and not a percentage",
     "thrust_table": [
@@ -23879,11 +23856,11 @@
       "thrust_g": 212,
       "efficiency_gw": 3.256
      }
-    ]
+    ],
+    "dimensions_mm": "Ø17.8x17.6"
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-05",
    "sources": [
-    "https://pyrodrone.com/products/happymodel-ex1404-1404-motor-3500kv",
     "https://www.racedayquads.com/products/happymodel-ex-1404-3500kv-motor-for-crux35",
     "https://www.happymodel.cn/index.php/2021/01/07/happymodel-ex1404-kv2750-kv3500-kv4800-brushless-motor/"
    ],
@@ -25405,7 +25382,7 @@
     "dimensions_mm": "Ø19.13x12.25",
     "mount_mm": "4-M2-EQS-Ø9"
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/hglrc-specter-1404-2750kv-micro-motor",
     "https://www.racedayquads.com/products/hglrc-specter-1404-4800kv-micro-motor",
@@ -26097,7 +26074,7 @@
     "dimensions_mm": "Ø19.9x18.4",
     "resistance_mohm": "309 (3000KV) / 220 (3800KV) / 159 (4600KV)"
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/iflight-xing2-1404-3000kv-micro-motor",
     "https://www.racedayquads.com/products/iflight-xing2-1404-3800kv-micro-motor",
@@ -41133,39 +41110,13 @@
      }
     ]
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-f1404-3800kv-micro-motor",
     "https://www.racedayquads.com/products/t-motor-f1404-4600kv-micro-motor",
     "https://www.tmotorhobby.com/goods-1099.html"
    ],
    "note": "Bench rows, configuration, dimensions and winding resistances are from T-Motor's own \"Product Drawing\", \"Specifications\" and \"Test Report\" images on tmotorhobby.com/goods-1099.html. Identity with our RaceDayQuads listings is almost the whole block reprinted: on the 3800 KV listing RDQ prints Motor Dimensions O17.9x16.6mm, No.of Cells (Lipo) 3-4S, Configuration 9N12P, Idle Current (10V) .5A, Internal Resistance 195mOhm and Max. Power (60S) 304W, and on the 4600 KV one the same six lines with 0.6A, 138mOhm and 316W - every one of them the sheet's own figure for that winding, to the digit. kv_options goes from 2 to 3: the Specifications block carries a third Test Item, KV2900 at 310 mOhm, 4-6S, 0.4 A idle, a 10.45 A 60-second peak and 262 W max power, and the report benches it on seven runs. All three windings are 9N12P on a 24#AWG 150 mm lead in an O17.9*16.6 mm body, and the block gives all three a Weight (Incl. Cable) of 9.34 g where both retail listings round it to 9.3 g. Max thrust is the 2900 KV Gemfan GF3028-3 6S 100% row, 480.22 g, where the page carried none. All 121 rows pass the efficiency identity - printed thrust / printed power is the printed efficiency - and printed power is voltage x current on all 121 to within the band the two-decimal columns allow, with no run carrying an offset, so nothing here has the V2208's or the V2306.5's constant. Two efficiency cells are truncated rather than rounded (3.69 where 133.92 g / 36.24 W is 3.695, and 3.91 where 158.88 / 40.58 is 3.9152); both are the sheet's own printed value and are published as printed. Five source facts recorded rather than repaired. First, the spec-block cross-check identifies the run: on the 3800 KV and 4600 KV halves the block's Peak Current(60s) and Max. Power(60s) are the table maximum truncated (19 A and 304 W against the HQ3*3*3 100% row's 19.40 A and 304.72 W; 20 A and 316 W against that same prop's 20.23 A and 316.25 W), but on the 2900 KV half the two come apart - its 262 W is the GF3028-3 6S 100% row's 262.04 W, the largest power in that winding's table, while its 10.45 A is neither that row's 10.44 A nor the largest current in the table, which is the HQ3520-3 5S 100% row's 10.57 A. So the block quotes one run, the one that peaks in power, and renders that run's current a hundredth high; the F1507's \"one run, not the sheet's maximum\" reading holds, and what is new is that the run is identifiable. Second, the block states max_cells per winding - 4-6S at 2900 KV against 3-4S at 3800 and 4600 KV - and our published \"3-4S\" came off the two RaceDayQuads listings, so it is right for both windings the shop sells and wrong for the one this entry adds, which is 77 of the 121 rows. Third, the Product Drawing dimensions the mount as a bolt circle and prints the symbol: \"O9\" on a leader to the red pitch circle through four holes at 90 degrees, with \"4-M2\" on a leader to one of them. Measured against the drawing's own body circle the pitch circle spans 0.495 of it, against the 0.503 a 9 mm bolt circle predicts and the 0.711 a 9x9 square would - so it is a 9 mm bolt circle and a 6.4 mm square, and mount_mm stays unpublished as on the other T-Motor and Axisflying pages. Fourth, the shaft is two figures again and this sheet names three: the block's Shaft Diameter is 2 mm, the drawing calls out O1.5 on a 3 mm stub at the base and O5 on the bell boss, and RaceDayQuads publishes 1.5mm, which is the prop end and is what our page already carries. The drawing also writes its overall length with a comma - 16,6 - on a sheet whose block prints \"O17.9*16.6mm\" with a dot. Fifth, the two halves of the report were run at different ambient temperatures, so the Operating Temperature column is not comparable across the page: the 2900 KV sheet states 24 C ambient and reaches 49.5, 52, 56 and 58 C on its four 4S runs, 60 and 64 C on its two 5S runs and 68 C on the 6S one, while the 3800 and 4600 KV sheets state 8 C ambient and reach 48 and 45 C, and 50 and 45 C. The row schema holds no temperature column, so they are here. recommended_props is left at its derived \"3-4in props (derived)\" although the sheet benches a 3016, a 3028, a 3520, a 4023 and a 4024: a bench prop set is not a recommendation, and T-Motor states none. Propeller names are as this sheet prints them, with the brand prefixed."
-  },
-  {
-   "type": "motor",
-   "brand": "T-Motor",
-   "model": "F1408-II 1408",
-   "slug": "t-motor-f1408-ii-1408",
-   "specs": {
-    "stator": "1408",
-    "kv_options": [
-     3950
-    ],
-    "weight_g": 14.95,
-    "shaft": "1.5mm",
-    "recommended_props": "3-4in props (derived)",
-    "configuration": "9N12P",
-    "mount_mm": "12x12mm",
-    "resistance_mohm": "88",
-    "price_usd": 18.89,
-    "max_cells": "3-4S",
-    "dimensions_mm": "17.9x20.2"
-   },
-   "_scraped_at": "2026-10-01",
-   "sources": [
-    "https://pyrodrone.com/products/t-motor-f1408-ii-3950kv-fpv-drone-motor-titanium-red",
-    "https://www.racedayquads.com/products/t-motor-f1408-1408-3950kv-motor"
-   ]
   },
   {
    "type": "motor",
@@ -68155,7 +68106,7 @@
     "shaft": "1.5mm",
     "dimensions_mm": "Ø19x16.4"
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/vci-hobby-spark-1404-motor-4000kv",
     "https://vcihobby.com/sys-pd/73.html"
@@ -72121,7 +72072,7 @@
     ],
     "dimensions_mm": "18.6x13.2"
    },
-   "_scraped_at": "2026-10-01",
+   "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/xilo-stealth-1404-motor-4500kv"
    ],
