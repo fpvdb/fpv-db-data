@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-06",
- "count": 157,
+ "count": 158,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -1410,6 +1410,29 @@
     "https://geprc.com/product/geprc-maten-3-3g-5w-vtx-pro/"
    ],
    "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Block lines: 'Output Power: 25mW/200mW/1600mW/5000mW/Pit mode', 'Frequency Range: 3083-3495MHz', 'Channels: 48CH', 'Input Voltage: DC7-36V（2-8S Battery）', 'Mounting Pattern: 20x20mm(M2)', 'Antenna Connector: SMA', 'Weight: 28.4g (VTX only)', 'Dimension: 53x30x16.7mm'. This is the one page of the 3.3G line where the brand states the band's real edges rather than the round 3000-3500 - the same six A-F channel groups are printed below it and they run 3083 to 3495 MHz exactly. It is also the lightest and the widest-input of the three, and the only one with a single mounting pattern."
+  },
+  {
+   "type": "vtx",
+   "brand": "GEPRC",
+   "model": "MATEN 4.9G 2.5W VTX PRO",
+   "slug": "geprc-maten-4-9g-2-5w-vtx-pro",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 2500,
+    "power_levels_mw": "25 / 200 / 600 / 1600 / 2500",
+    "frequency_range": "4990-5200 MHz",
+    "channels": 8,
+    "input_voltage": "7-36V (2-8S)",
+    "mount_mm": "20x20mm M2 / 30.5x30.5mm M2",
+    "antenna_connector": "MMCX",
+    "weight_g": 20
+   },
+   "sources": [
+    "https://geprc.com/wp-content/uploads/2025/04/MATEN4.9G-2.5W-VTX-PRO%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf",
+    "https://geprc.com/maten-4-9g-2-5w-vtx-pro-irc-tramp/",
+    "https://geprc.com/wp-content/uploads/2025/07/MATEN-4.9G-2.5W-VTX-PRO-IRC-Tramp.txt"
+   ],
+   "note": "Read 2026-10-06 off GEPRC's own manual, the first MATEN this catalogue carries that geprc.com sells no product page for: it is in neither product-sitemap.xml nor the WooCommerce product list, so every figure here comes from the V1.0 manual PDF in the media library (MATEN4.9G-2.5W-VTX-PRO说明书.pdf, uploads/2025/04). Spec-block lines, paired by their position on the page: '产品名称 (product name): MATEN 4.9G 2.5W VTX PRO', '输出功率 (output power): 25mW/200mW/600mW/1600mW/2500mW/Pit mode', '频率 (frequency): 4990-5200MHz', '频道数 (channels): 8CH', '输入电压 (input voltage): DC7-36V（2-8S Battery）', '安装孔位 (mounting): 20x20mm(M2)、30.5x30.5mm(M2)', '天线接口 (antenna connector): MMCX', '控制协议 (protocol): IRC Tramp', '外尺寸 (dimension): 36.3x36.3x15.1mm', '重量 (weight): 20克' (20 g; the manual states no output-stage-only figure). 输出电压 5V@600mA is the camera rail. The five output-power steps are exactly the five powervalues of the maker's CLI dump, which the manual's own QR link (https://geprc.com/maten-4-9g-2-5w-vtx-pro-irc-tramp/, a 301 to the file) points at; Pit mode is a button mode and not a power level. One band of eight channels, 4990-5200 MHz, is the whole radio - see the VTX table."
   },
   {
    "type": "vtx",
