@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-06",
- "count": 206,
+ "count": 207,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -2438,6 +2438,25 @@
    "_scraped_at": "2026-10-05",
    "sources": [
     "https://www.racedayquads.com/products/hq-prop-durable-7x3-5x3-tri-blade-7-prop-4-pack"
+   ]
+  },
+  {
+   "type": "prop",
+   "brand": "HQProp",
+   "model": "HQ Prop Durable 7x4x3 Tri-Blade 7\" Prop",
+   "slug": "hqprop-hq-prop-durable-7x4x3-tri-blade-7-prop",
+   "specs": {
+    "diameter_in": 7.0,
+    "pitch_in": 4.0,
+    "blades": 3,
+    "mount": "5mm",
+    "material": "Polycarbonate",
+    "price_usd": 4.99,
+    "weight_g": 9.1
+   },
+   "_scraped_at": "2026-10-05",
+   "sources": [
+    "https://www.racedayquads.com/products/hq-durable-7x4x3-tri-blade-7-prop-4-pack"
    ]
   },
   {
