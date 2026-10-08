@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-08",
- "count": 158,
+ "count": 159,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -1279,6 +1279,27 @@
     "https://www.foxeer.com/foxeer-reaper-nano-v2-vtx-5-8g-72ch-350mw-tramp-g-583"
    ],
    "note": "Foxeer's own spec table (SKU MR1840, 'Name: Reaper Nano V2'): 5V in, 5V out, 72CH, 25mW/100mW/200mW/350mW, 0.8 g, 12*16 mm, 340 mA at 350 mW, Tramp control. The 72 channels are nine bands of eight running 5325-5945 MHz, which is what separates it from the 40-channel Reaper Nano we carry from the retail scrape - same 350 mW, different frequency table, so the two are separate parts and not one page. mount_mm is empty: 12*16 mm is the board, not a mounting pattern, and the page prints no pattern. antenna_connector is empty for the same reason - Foxeer's table names no connector. Out of stock at Foxeer on 2026-09-23."
+  },
+  {
+   "type": "vtx",
+   "brand": "FT Systems",
+   "model": "FT VTX 4.8-7.2GHz 4W 176CH",
+   "slug": "ft-systems-ft-vtx-4-8-7-2ghz-4w-176ch",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 4000,
+    "frequency_range": "4867-7210 MHz",
+    "power_levels_mw": "0 (pit) / 25 / 2000 / 4000",
+    "input_voltage": "7-36V (2-8S)",
+    "mount_mm": "20x20mm",
+    "channels": 176,
+    "antenna_connector": "SMA"
+   },
+   "sources": [
+    "https://ft.systems/en/video-transmitter-vtx-ft-4-8-7-2/",
+    "https://ft.systems/wp-content/uploads/2026/08/FT_VTX_4.8_7.2_GHZ.pdf"
+   ],
+   "note": "Ukrainian-made wideband transmitter: 176 channels in 22 bands (BAND_A to BAND_V) over 4867-7210 MHz, 52.25x28.85x19.2 mm, an aluminium heatsink with a fan, controlled over IRC Tramp. FT Systems quotes measured RF output of 2320-5490 mW across the range rather than one figure, because a wideband amplifier does not deliver the same power at every frequency - the 4000 mW here is the nominal setting, as on the 5.8 GHz sibling; at the 25 mW step the maker states up to 5 mW on 5.8 GHz and up to 100 mW in the 7.2 GHz band. The lowest step reads 0 mW on the module but the manual commands it as 9 mW. No weight: the product page says 30 g and the manual 25.85 g, which is the figure FT's 4.9-6 GHz manual prints for the thinner (16 mm) 5.8 model, so the two maker sources disagree one against one. FT prints the connector as 'SMA female'; the column holds one spelling per connector."
   },
   {
    "type": "vtx",
