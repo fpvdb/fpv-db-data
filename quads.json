@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-09",
+ "generated": "2026-10-10",
  "count": 101,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
@@ -369,7 +369,7 @@
     "prop_mount": "1.0mm shaft",
     "motors": "BetaFPV Freestyle 1102 (2026 series)",
     "vtx_system": "DJI O4 Wide",
-    "typical_current_a": 4,
+    "typical_current_a": 6,
     "manufacturer_flight_time_min": "5 (1S 580) / 6 (1S 680)",
     "recommended_battery": {
      "cells": "1S",
@@ -386,7 +386,7 @@
    "sources": [
     "https://betafpv.com/products/meteor75-pro-ii-o4-brushless-whoop-quadcopter"
    ],
-   "note": "O4 Wide HD whoop, GF 1811 3-blade, 80mm wheelbase."
+   "note": "O4 Wide HD whoop, GF 1811 3-blade, 80mm wheelbase. typical_current_a is ours, derived from BetaFPV's own 5 min on a 1S 580 (0.58 Ah x 0.8 / (5/60) = 5.6 A; its 6 min on a 680 gives 5.4 A). The 4 A here until 2026-10-10 was the lighter analog Meteor75 Pro's figure and had this 41.5 g O4 whoop flying 7-9 min."
   },
   {
    "type": "quad",
