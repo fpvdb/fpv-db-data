@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10",
+ "generated": "2026-10-11",
  "count": 101,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
@@ -1446,9 +1446,10 @@
     "flight_controller": "TAKER F722 45A 32-bit AIO"
    },
    "sources": [
+    "https://geprc.com/product/geprc-cinelog30-v3-o4-pro-quadcopter/",
     "https://oscarliang.com/geprc-cinelog30-v3/"
    ],
-   "note": "O4 Pro version, HQProp DT76x3 props. Connector XT30 is class-standard, not stated by GEPRC."
+   "note": "O4 Pro version, HQProp DT76x3 props. GEPRC's own page (read 2026-10-10) states Battery Connector XT30 and Recommended Battery LiHV 4S 660mAh-720mAh."
   },
   {
    "type": "quad",
@@ -1509,7 +1510,7 @@
    "sources": [
     "https://geprc.com/product/geprc-cinelog35-v3-o4-pro-fpv-drone/"
    ],
-   "note": "O4 Pro version, 142mm wheelbase, HQProp D-T90 props. Connector XT60 is class-standard."
+   "note": "O4 Pro version, 142mm wheelbase, HQProp D-T90 props. GEPRC's own page (read 2026-10-10) states Power Connector XT60 (XT60EW-M) and Recommended Battery LiPo 6S 1100mAh-1300mAh."
   },
   {
    "type": "quad",
@@ -1923,7 +1924,8 @@
      "cells": "1S",
      "capacity_mah": 450,
      "range_mah": "450-650",
-     "chemistry": "LiHV"
+     "chemistry": "LiHV",
+     "connector": "A30"
     },
     "receiver_options": "CRSF",
     "wheelbase_mm": 75
@@ -1931,7 +1933,7 @@
    "sources": [
     "https://www.happymodel.cn/index.php/2023/09/04/moblite7-walksnail-1s-75mm-digital-hd-brushless-whoop-v3/"
    ],
-   "note": "Walksnail V3 version. 75mm wheelbase, 40mm props. Battery connector varies by revision - verify before publish-critical use."
+   "note": "Walksnail V3 version. 75mm wheelbase, 40mm props. Happymodel's own page (read 2026-10-10) states Battery Plug GNB A30 (BT2.0 packs also compatible) and 1S only. The 450mAh (450-650) capacity is class-standard: Happymodel prints no capacity."
   },
   {
    "type": "quad",
@@ -2579,9 +2581,10 @@
     }
    },
    "sources": [
+    "https://web.archive.org/web/20230731103151/https://newbeedrone.com/products/acrobee65-blv4-bnf-crsf",
     "https://oscarliang.com/newbeedrone-acrobee65-blv4-tiny-whoop/"
    ],
-   "note": "Connector PH2.0 per NewBeeDrone Nitro Nectar line; verify on newbeedrone.com before publish-critical use."
+   "note": "NewBeeDrone's own page (archived 2023-07-31; the BLV4 is no longer listed) states Power Connector NBD-PH2.0, battery input 1-2S (2S with throttle cap under 50%) and recommends Nitro Nectar Gold 300mAh or 250mAh 1S PH2.0."
   },
   {
    "type": "quad",
