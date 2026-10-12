@@ -1470,6 +1470,7 @@
    },
    "_scraped_at": "2026-10-12",
    "sources": [
+    "https://pyrodrone.com/products/axisflying-c227-5-inch-2207-6s-cinematic-fpv-drone-motor-1960kv",
     "https://www.racedayquads.com/products/in-progress-axisflying-ae2207-v2-2207-1860kv-motor",
     "https://www.racedayquads.com/products/pre-order-axisflying-ae2207-v2-2207-1960kv-motor",
     "https://www.axisflying.com/products/5inch-brushless-economic-fpv-motor-ae2207-v2"
@@ -2326,6 +2327,7 @@
    },
    "_scraped_at": "2026-10-12",
    "sources": [
+    "https://pyrodrone.com/products/axisflying-af2406-4-6s-modular-fpv-drone-motor-2080kv",
     "https://www.racedayquads.com/products/axisflying-af2406-x-modular-motor-1860kv-2080kv",
     "https://www.axisflying.com/products/modular-motor-af2406-4-6s"
    ],
@@ -3488,6 +3490,7 @@
    },
    "_scraped_at": "2026-10-12",
    "sources": [
+    "https://pyrodrone.com/products/axisflying-blackbird-v4-2307-6s-top-quality-freestyle-sbang-fpv-drone-motor-2060kv",
     "https://www.racedayquads.com/products/axisflying-blackbird-v4-2307-fpv-motor",
     "https://www.axisflying.com/products/co-brand-with-blackbird-v4-2307-5inch-brushless"
    ],
@@ -11584,6 +11587,7 @@
    },
    "_scraped_at": "2026-10-12",
    "sources": [
+    "https://pyrodrone.com/products/brotherhobby-vs-2207-2400kv-fpv-motor",
     "https://www.racedayquads.com/products/brotherhobby-vs-2207-2400kv-motor",
     "https://ueeshop.ly200-cdn.com/u_file/UPAH/UPAH113/2505/photo/3bb27b86a0.jpg"
    ],
@@ -18974,6 +18978,7 @@
    },
    "_scraped_at": "2026-10-12",
    "sources": [
+    "https://pyrodrone.com/products/emax-rsiii-2207-2500kv-fpv-racing-motor",
     "https://www.racedayquads.com/products/emax-rsiii-series-2207-1800kv-motor",
     "https://www.racedayquads.com/products/emax-rsiii-series-2207-1800kv-motor-1",
     "https://www.racedayquads.com/products/emax-rsiii-series-2207-2500kv-motor-1",
@@ -20006,11 +20011,11 @@
    },
    "_scraped_at": "2026-10-12",
    "sources": [
+    "https://pyrodrone.com/products/five33-headsup-2207-1960kv-brushless-fpv-drone-motor-1-pc",
     "https://www.racedayquads.com/products/five33-headsup-2207-1960kv-motor",
     "https://www.racedayquads.com/products/headsup-five33-2207-motor",
     "https://www.racedayquads.com/products/headsup-five33-2207-motor-w-mr30",
-    "https://flyfive33.com/products/headsup-five33-2207-motor",
-    "https://pyrodrone.com/products/five33-headsup-2207-1960kv-brushless-fpv-drone-motor-1-pc"
+    "https://flyfive33.com/products/headsup-five33-2207-motor"
    ],
    "note": "Five33's own shop (flyfive33.com, now Shopify - the WordPress site its old spec-sheet image was hosted on is gone, which is why every retailer that hot-links it shows a broken image) lists this motor three ways (single, set of 4, set of 4 with MR30) and publishes a labelled spec list on each and no bench table: brand FIVE33 x Xnova, 2207, 1960 KV, 28.4 g, M5 prop shaft, 20AWG pre-tinned leads. Pyrodrone's listing adds the 22 x 7 mm stator and the 16 x 16 mm mounting pattern, and states the motor is manufactured by XNova. Every source for this motor - both shops and all three RaceDayQuads listings - states one winding, 1960 KV; kv_options had carried a second \"2207\", which is this motor's stator read as a KV by the retail scrape, and is removed."
   },
@@ -21058,6 +21063,7 @@
    },
    "_scraped_at": "2026-10-12",
    "sources": [
+    "https://pyrodrone.com/products/flywoo-nin-v2-1404-2750kv-micro-motor-dave_c-edition",
     "https://www.racedayquads.com/products/flywoo-nin-v2-dave_c-edition-1404-2750kv-micro-motor"
    ]
   },
@@ -23604,6 +23610,7 @@
    },
    "_scraped_at": "2026-10-12",
    "sources": [
+    "https://pyrodrone.com/products/happymodel-ex1103-11000kv-brushless-fpv-drone-motor-for-happymodel-baseline-1-pc",
     "https://www.racedayquads.com/products/happymodel-ex-1103-11000kv-micro-motor",
     "https://www.happymodel.cn/index.php/2022/09/05/bassline-spare-part-ex1103-kv11000-brushless-motor/"
    ],
@@ -23897,6 +23904,7 @@
    },
    "_scraped_at": "2026-10-12",
    "sources": [
+    "https://pyrodrone.com/products/happymodel-ex1404-1404-motor-3500kv",
     "https://www.racedayquads.com/products/happymodel-ex-1404-3500kv-motor-for-crux35",
     "https://www.happymodel.cn/index.php/2021/01/07/happymodel-ex1404-kv2750-kv3500-kv4800-brushless-motor/"
    ],
@@ -23921,6 +23929,7 @@
    },
    "_scraped_at": "2026-10-12",
    "sources": [
+    "https://pyrodrone.com/products/happymodel-ex1103-11000kv-brushless-fpv-drone-motor-for-happymodel-baseline-1-pc",
     "https://www.racedayquads.com/products/happymodel-1103-7000kv-motor-4-pack-for-larva-x"
    ]
   },
@@ -24397,6 +24406,7 @@
    },
    "_scraped_at": "2026-10-12",
    "sources": [
+    "https://pyrodrone.com/products/happymodel-se0702-26000kv-cw-brushless-motor-for-1s-whoops",
     "https://www.racedayquads.com/products/happymodel-se-0702-23000kv-micro-motor",
     "https://www.racedayquads.com/products/happymodel-se0702-0702-26000kv-motor",
     "https://www.happymodel.cn/index.php/2021/08/20/happymodel-se0702-kv26000-brushless-motors-for-1s-fpv-brushless-whoop/"
@@ -25774,6 +25784,7 @@
    },
    "_scraped_at": "2026-10-12",
    "sources": [
+    "https://pyrodrone.com/products/iflight-bob57-2506-1500kv-6s-brushless-fpv-drone-motor",
     "https://www.racedayquads.com/products/iflight-bob57-2506-motor-1500kv",
     "https://shop.iflight.com/BOB57-2506-1500KV-6S-FPV-Motor-Pro1786"
    ],
@@ -25935,6 +25946,7 @@
    },
    "_scraped_at": "2026-10-12",
    "sources": [
+    "https://pyrodrone.com/products/iflight-xing-x2806-5-fpv-nextgen-motor-1800kv",
     "https://www.racedayquads.com/products/iflight-xing-2806-5-race-motor-1300kv-1800kv",
     "https://shop.iflight.com/xing-x2806-5-fpv-nextgen-motor-pro1001"
    ],
@@ -26111,6 +26123,7 @@
    },
    "_scraped_at": "2026-10-12",
    "sources": [
+    "https://pyrodrone.com/products/iflight-bob57-2506-1500kv-6s-brushless-fpv-drone-motor",
     "https://www.racedayquads.com/products/copy-of-iflight-xing2-2306-2555kv-motor",
     "https://www.racedayquads.com/products/copy-of-iflight-xing2-2506-1500kv-motor",
     "https://shop.iflight.com/XING2-2506-FPV-Long-Range-Motor-Black-Pro1748"
@@ -26490,6 +26503,7 @@
    },
    "_scraped_at": "2026-10-12",
    "sources": [
+    "https://pyrodrone.com/products/rcinpower-aos-supernova-2207-1570kv-8s-brushless-fpv-drone-motor",
     "https://www.racedayquads.com/products/aos-rc-supernova-2207-fpv-motor-1570kv"
    ],
    "note": "RCinPower's own /G-SERIES/61.html publishes one AOS Supernova 2207 sheet and it is the 1980 KV Chris Rosser winding; the 1570 KV 8S sheet is the test-report image on this retail listing, headed \"AOS Supernova - 2207 1570KV\". 12N14P, 4 mm hollow shaft, 27.6x19.5 mm, 31 g with 2 cm wire, idle 1.1 A at 10 V, 8S, 65 mOhm. It is benched on the same five props as the 1980 KV sheet but at 32 V only, where that one runs 21 V and 24 V. The spec block's maxima are its own Gemfan 51466R full-throttle row to the digit (1414 W / 44.2 A), under a \"5S\" label on a motor the same block rates 8S. Temperature after 5 s at full throttle: 78-83 degC"
@@ -31623,6 +31637,7 @@
    },
    "_scraped_at": "2026-10-12",
    "sources": [
+    "https://pyrodrone.com/products/rcinpower-vanover-v3-2207-brushless-fpv-drone-motor-2060kv",
     "https://www.racedayquads.com/products/rcinpower-vanover-2207-v3-motor"
    ],
    "note": "RCinPower publishes no Vanover V3 sheet at any id on its own G-SERIES index; both windings are on one test-report image on the retail listing, headed \"VANOVER 2207 V3 2060KV\" and \"VANOVER 2207 V3 1920KV\". Both print 12N14P, a 4 mm hollow shaft, 28.1x18.8 mm and 31 g with 2 cm wire, 5~6S; idle current at 10 V is 1.3 A at 2060 KV and 1.1 A at 1920 KV, internal resistance 46 and 50 mOhm. The 2060 KV block's maxima are its own 24 V Gemfan 51466R full-throttle row to the digit (1428 W / 59.5 A), under a \"5S\" label the 24 V row contradicts. Three blocks of the 1920 KV sheet - Gemfan 51466R at 24 V, HQ R36 at 21 V and HQ R36 at 24 V - print their Load Currency cells the other way round, 50% drawing the 100% current and back, and the Power and Efficiency columns are computed from that order, so those six rows carry thrust and throttle only and their current, power and efficiency are withheld. Which column is the wrong one is settled by the sheet's own spec block: Max Current(5S) 55.8 A is printed against the Gemfan 51466R 24 V 50% row. Temperature after 5 s at full throttle: 67-83 degC on both sheets"
@@ -38537,6 +38552,7 @@
    },
    "_scraped_at": "2026-10-12",
    "sources": [
+    "https://pyrodrone.com/products/t-motor-f1203-7000kv-motor",
     "https://www.racedayquads.com/products/t-motor-1203-7000kv-micro-motor",
     "https://www.tmotorhobby.com/goods-1156.html"
    ],
@@ -40444,6 +40460,7 @@
    },
    "_scraped_at": "2026-10-12",
    "sources": [
+    "https://pyrodrone.com/products/t-motor-f1408-ii-3950kv-fpv-drone-motor-titanium-red",
     "https://www.racedayquads.com/products/t-motor-f1408-1408-3950kv-motor"
    ]
   },
@@ -46776,6 +46793,7 @@
    },
    "_scraped_at": "2026-10-12",
    "sources": [
+    "https://pyrodrone.com/products/t-motor-m1103-1103-11000kv-fpv-drone-motor-blue",
     "https://www.racedayquads.com/products/t-motor-m1103-11000kv-micro-motor",
     "https://www.racedayquads.com/products/t-motor-m1103-8000kv-micro-motor",
     "https://www.tmotorhobby.com/goods-1214.html"
@@ -47944,6 +47962,7 @@
    },
    "_scraped_at": "2026-10-12",
    "sources": [
+    "https://pyrodrone.com/products/t-motor-pacer-p1804-2400kv-ultra-light-freestyle-brushless-motor",
     "https://www.racedayquads.com/products/t-motor-p1804-2400kv-motor-choose-version",
     "https://www.tmotorhobby.com/goods-1250.html"
    ],
@@ -50470,6 +50489,7 @@
    },
    "_scraped_at": "2026-10-12",
    "sources": [
+    "https://pyrodrone.com/products/t-motor-velox-victory-v2808-cinematic-fpv-drone-motor-1500kv",
     "https://www.racedayquads.com/products/t-motor-v2808-1300kv-motor",
     "https://www.racedayquads.com/products/t-motor-v2808-1500kv-motor",
     "https://www.tmotorhobby.com/goods-1199.html"
@@ -52484,6 +52504,7 @@
    },
    "_scraped_at": "2026-10-12",
    "sources": [
+    "https://pyrodrone.com/products/t-motor-velox-v3115-cinematic-fpv-drone-motor-900kv",
     "https://www.racedayquads.com/products/t-motor-v3115-3115-640kv-motor",
     "https://www.racedayquads.com/products/t-motor-v3115-3115-900kv-motor",
     "https://www.tmotorhobby.com/goods-1330.html"
@@ -53396,6 +53417,7 @@
    },
    "_scraped_at": "2026-10-12",
    "sources": [
+    "https://pyrodrone.com/products/t-motor-velox-v3120-cinematic-fpv-drone-motor-700kv",
     "https://www.racedayquads.com/products/t-motor-v3120-3120-700kv-motor",
     "https://www.tmotorhobby.com/goods-1331.html"
    ],
