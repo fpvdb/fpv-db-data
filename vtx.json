@@ -1066,12 +1066,13 @@
     "input_voltage": "9-36V",
     "mount_mm": "20x20mm M2",
     "channels": 40,
-    "weight_g": 29.8
+    "weight_g": 29.8,
+    "power_draw": "2.1 A at 10 V"
    },
    "sources": [
     "https://www.foxeer.com/foxeer-reaper-3-3g-4w-40ch-vtx-tramp-g-598"
    ],
-   "note": "Foxeer's own spec table (SKU MR1847, 'Name: Reaper 3.3G 4W VTx'): 9~36V in, 5V out, Tramp control, 40CH, 250mW/500mW/1W/2W/4W, 29.8 g, 50*34*14.5 mm, 'Mounting Hole: 2 Groups/20*20mm M2 2.5mm depth' (two 20x20 groups, i.e. it bolts to a 20x20 stack either way round), fan, 2.1 A at 10 V. frequency_range is the span of the page's own channel table - five bands of eight from 3170 MHz (band E ch1) to 3630 MHz (band C ch8) - rather than the '3.3G' of the title, which is the class label. A 3.3 GHz link needs a licence in most countries; check local rules before transmitting."
+   "note": "Foxeer's own spec table (SKU MR1847, 'Name: Reaper 3.3G 4W VTx'): 9~36V in, 5V out, Tramp control, 40CH, 250mW/500mW/1W/2W/4W, 29.8 g, 50*34*14.5 mm, 'Mounting Hole: 2 Groups/20*20mm M2 2.5mm depth' (two 20x20 groups, i.e. it bolts to a 20x20 stack either way round), fan, 2.1 A at 10 V. frequency_range is the span of the page's own channel table - five bands of eight from 3170 MHz (band E ch1) to 3630 MHz (band C ch8) - rather than the '3.3G' of the title, which is the class label. A 3.3 GHz link needs a licence in most countries; check local rules before transmitting. power_draw is the maker's own supply figure, 'Consumption: 2.1A/10V', read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -1086,12 +1087,13 @@
     "input_voltage": "9-36V",
     "mount_mm": "20x20mm M2",
     "channels": 72,
-    "weight_g": 13.0
+    "weight_g": 13.0,
+    "power_draw": "850 mA at 10 V (1.8 W output)"
    },
    "sources": [
     "https://www.foxeer.com/foxeer-5-8g-reaper-extreme-1-8w-72ch-vtx-g-574"
    ],
-   "note": "Foxeer's own spec table (SKU MR1828, 'Name: Reaper Extreme 1.8W'): 9~36V in, 5V out, 72CH, 25mW/200mW/500mW/1W/1.8W, 13 g, 36*27.5*8 mm, mounting hole 20*20mm M2 2.8 mm deep, 850 mA at 10 V at full power. Same shell and same nine bands (5325-5945 MHz in the page's frequency table) as the 5.8 GHz Reaper Extreme V2; the amplifier is the difference. antenna_connector is empty: the table names no connector. Out of stock at Foxeer on 2026-09-23."
+   "note": "Foxeer's own spec table (SKU MR1828, 'Name: Reaper Extreme 1.8W'): 9~36V in, 5V out, 72CH, 25mW/200mW/500mW/1W/1.8W, 13 g, 36*27.5*8 mm, mounting hole 20*20mm M2 2.8 mm deep, 850 mA at 10 V at full power. Same shell and same nine bands (5325-5945 MHz in the page's frequency table) as the 5.8 GHz Reaper Extreme V2; the amplifier is the difference. antenna_connector is empty: the table names no connector. Out of stock at Foxeer on 2026-09-23. power_draw is the maker's own supply figure, 'Consumption: 850ma;10V/1.8W', read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -1105,12 +1107,13 @@
     "frequency_range": "4.9-6.0 GHz",
     "input_voltage": "9-36V",
     "channels": 80,
-    "weight_g": 15.2
+    "weight_g": 15.2,
+    "power_draw": "1.4 A at 10 V"
    },
    "sources": [
     "https://www.foxeer.com/foxeer-4-9-6g-reaper-extreme-3w-80ch-vtx-g-576"
    ],
-   "note": "Every figure from the spec table on Foxeer's own product page (SKU MR1831), whose 'Name' row reads 'Reaper Extreme 3W V2': 9~36V in, 5V out for the camera, 80CH, 25mW/200mW/500mW/1.5W/3W, 15.2 g, 38*29.2*11.5 mm, 1.4 A at 10 V, and 'Fan: Yes' - the only Extreme with active cooling. The 80 channels are ten bands of eight in the page's own frequency table, running from 4990 MHz (band X ch1) to 5945 MHz (band E ch8); band X and the L/U/O bands below 5.62 GHz are what a 72-channel 5.8 GHz-only Extreme does not have. mount_mm is empty because this page prints no mounting line at all - the 2.5 W Extreme's 20*20mm M2 is not copied onto it. antenna_connector likewise: the table names no connector. Betaflight accepts 64 channels, so two bands have to be dropped before the table is loaded (Foxeer's own note)."
+   "note": "Every figure from the spec table on Foxeer's own product page (SKU MR1831), whose 'Name' row reads 'Reaper Extreme 3W V2': 9~36V in, 5V out for the camera, 80CH, 25mW/200mW/500mW/1.5W/3W, 15.2 g, 38*29.2*11.5 mm, 1.4 A at 10 V, and 'Fan: Yes' - the only Extreme with active cooling. The 80 channels are ten bands of eight in the page's own frequency table, running from 4990 MHz (band X ch1) to 5945 MHz (band E ch8); band X and the L/U/O bands below 5.62 GHz are what a 72-channel 5.8 GHz-only Extreme does not have. mount_mm is empty because this page prints no mounting line at all - the 2.5 W Extreme's 20*20mm M2 is not copied onto it. antenna_connector likewise: the table names no connector. Betaflight accepts 64 channels, so two bands have to be dropped before the table is loaded (Foxeer's own note). power_draw is the maker's own supply figure, 'Consumption: 1.4A/10V', read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -1125,12 +1128,13 @@
     "input_voltage": "9-36V",
     "mount_mm": "20x20mm M2",
     "channels": 72,
-    "weight_g": 13.0
+    "weight_g": 13.0,
+    "power_draw": "1.2 A at 9 V"
    },
    "sources": [
     "https://www.foxeer.com/foxeer-5-8g-reaper-extreme-v2-2-5w-72ch-vtx-g-566"
    ],
-   "note": "Foxeer's own spec table (SKU MR1819, 'Name: Reaper Extreme V2'): 9~36V in, 5V out, 72CH, 25mW/200mW/500mW/1.5W/2.5W with the red LED flashing 1-5 times to show the step, 13 g, 36*27.5*8 mm, mounting hole 20*20mm M2 2.8 mm deep, 1.2 A at 9 V. This is the 5.8 GHz-only V2, nine bands of eight running 5325-5945 MHz in the page's frequency table (A/B/E/F/R/H/L/U/O) - not the 80-channel 4.9-6.0 GHz Extreme we carry separately, whose tenth band starts at 4990 MHz. The O band is left out of the default table because Betaflight accepts 64 channels. antenna_connector is empty: the table names no connector. Out of stock at Foxeer on 2026-09-23."
+   "note": "Foxeer's own spec table (SKU MR1819, 'Name: Reaper Extreme V2'): 9~36V in, 5V out, 72CH, 25mW/200mW/500mW/1.5W/2.5W with the red LED flashing 1-5 times to show the step, 13 g, 36*27.5*8 mm, mounting hole 20*20mm M2 2.8 mm deep, 1.2 A at 9 V. This is the 5.8 GHz-only V2, nine bands of eight running 5325-5945 MHz in the page's frequency table (A/B/E/F/R/H/L/U/O) - not the 80-channel 4.9-6.0 GHz Extreme we carry separately, whose tenth band starts at 4990 MHz. The O band is left out of the default table because Betaflight accepts 64 channels. antenna_connector is empty: the table names no connector. Out of stock at Foxeer on 2026-09-23. power_draw is the maker's own supply figure, 'Consumption: 1.2A/9V', read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -1146,13 +1150,14 @@
     "mount_mm": "20x20mm M2",
     "channels": 80,
     "antenna_connector": "MMCX",
-    "weight_g": 13.0
+    "weight_g": 13.0,
+    "power_draw": "1.2 A at 9 V"
    },
    "sources": [
     "https://www.arrishobby.com/products/foxeer-49g6g-reaper-extreme-v2-25w-80ch-vtx-with-mmcx-conenctor",
     "https://www.foxeer.com/foxeer-4-9g-6g-reaper-extreme-v3-2-5w-80ch-vtx-g-591"
    ],
-   "note": "Wideband version of the Reaper Extreme: 80 channels spread over 4.9-6.0 GHz instead of the 40-72 channels of the 5.8 GHz-only model. 36x27.5x8 mm CNC shell, 5 V BEC for the camera, built-in microphone, 1.2 A draw at 9 V. Retailer spec blocks disagree on the top step - some list 1.5 W as the maximum while the model is sold as 2.5 W; Foxeer's own manual gives the five steps recorded here. Second source 2026-09-23: Foxeer's own catalogue. The foxeer.com link this page used to carry (g-566) is the 5.8 GHz 72-channel Reaper Extreme V2, a different module with its own page here; the part Foxeer sells as the 80-channel 4.9G~6G 2.5W module is listed as 'Reaper Extreme V3' (SKU MR1844) and its spec table matches every value on this page - 9~36V in, 5V out, 80CH, 25mW/200mW/500mW/1.5W/2.5W, 13 g, 20*20mm M2 2.8 mm deep, 36*27.5*8 mm, 1.2 A at 9 V. Retailers sell the same module as 'Reaper Extreme V2 4.9G-6G 2.5W', which is the name this page was created under and the name a buyer searches; whether the page should be renamed to V3 is recorded as a question for a human rather than guessed at"
+   "note": "Wideband version of the Reaper Extreme: 80 channels spread over 4.9-6.0 GHz instead of the 40-72 channels of the 5.8 GHz-only model. 36x27.5x8 mm CNC shell, 5 V BEC for the camera, built-in microphone, 1.2 A draw at 9 V. Retailer spec blocks disagree on the top step - some list 1.5 W as the maximum while the model is sold as 2.5 W; Foxeer's own manual gives the five steps recorded here. Second source 2026-09-23: Foxeer's own catalogue. The foxeer.com link this page used to carry (g-566) is the 5.8 GHz 72-channel Reaper Extreme V2, a different module with its own page here; the part Foxeer sells as the 80-channel 4.9G~6G 2.5W module is listed as 'Reaper Extreme V3' (SKU MR1844) and its spec table matches every value on this page - 9~36V in, 5V out, 80CH, 25mW/200mW/500mW/1.5W/2.5W, 13 g, 20*20mm M2 2.8 mm deep, 36*27.5*8 mm, 1.2 A at 9 V. Retailers sell the same module as 'Reaper Extreme V2 4.9G-6G 2.5W', which is the name this page was created under and the name a buyer searches; whether the page should be renamed to V3 is recorded as a question for a human rather than guessed at. power_draw is the maker's own supply figure, 'Consumption: 1.2A/9V' (Foxeer lists this 80-channel module as Reaper Extreme V3), read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -1168,14 +1173,15 @@
     "channels": 80,
     "antenna_connector": "SMA",
     "mount_mm": "20x20mm M2",
-    "weight_g": 48.0
+    "weight_g": 48.0,
+    "power_draw": "3.3 A at 10 V, 1.5 A at 20 V (10 W output)"
    },
    "sources": [
     "https://qwinout.com/products/foxeer-4-9g-6g-reaper-infinity-5-8g-10w-80cn-vtx-2-8s-lipo-400mw-2w-5w-7-5w-10w-switchable-transmitter-for-long-range-rc-fpv-1",
     "https://www.foxeer.com/foxeer-4-9g-6g-reaper-infinity-10w-80ch-vtx-g-587",
     "https://www.foxeer.com/foxeer-4-9g-6g-reaper-infinity-v2-10w-80ch-vtx-g-622"
    ],
-   "note": "The 10 W step of the Infinity line. Output at this level is far above what most countries allow unlicensed on 5.8 GHz - check local rules before transmitting. Weight was left out until the manufacturer stated it, because the retail listings disagreed. Second source 2026-09-23, Foxeer's own spec table (SKU MR1841), and it corrects two values: the power steps are 1W/2.5W/5W/7.5W/10W, not the 400mW/2W/5W/7.5W/10W a retailer listed, and the input is 9~36V rather than '2-8S LiPo' (9 V rules 2S out). weight_g 48 g and mounting hole 20*20mm M2 with 2.5 mm depth are new, as is the 66*37*16 mm body and the 3.3 A it draws at 10 V. Foxeer lists a 'Reaper Infinity V2 10W' beside it (SKU MR1880) whose spec table is identical except for the control cable - GH1.25 8P against 6P - so both SKUs are cited on this one page rather than split into two pages differing in a connector"
+   "note": "The 10 W step of the Infinity line. Output at this level is far above what most countries allow unlicensed on 5.8 GHz - check local rules before transmitting. Weight was left out until the manufacturer stated it, because the retail listings disagreed. Second source 2026-09-23, Foxeer's own spec table (SKU MR1841), and it corrects two values: the power steps are 1W/2.5W/5W/7.5W/10W, not the 400mW/2W/5W/7.5W/10W a retailer listed, and the input is 9~36V rather than '2-8S LiPo' (9 V rules 2S out). weight_g 48 g and mounting hole 20*20mm M2 with 2.5 mm depth are new, as is the 66*37*16 mm body and the 3.3 A it draws at 10 V. Foxeer lists a 'Reaper Infinity V2 10W' beside it (SKU MR1880) whose spec table is identical except for the control cable - GH1.25 8P against 6P - so both SKUs are cited on this one page rather than split into two pages differing in a connector. power_draw is the maker's own supply figure, 'Consumption: 10V/3.3A & 20V/1.5A; 10W', read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -1191,12 +1197,13 @@
     "mount_mm": "20x20mm M2",
     "channels": 40,
     "antenna_connector": "SMA",
-    "weight_g": 58.0
+    "weight_g": 58.0,
+    "power_draw": "3 A at 9 V, 0.8 A at 36 V"
    },
    "sources": [
     "https://www.foxeer.com/foxeer-5-8g-reaper-infinity-5w-40ch-vtx-g-531"
    ],
-   "note": "The original 40-channel Infinity, from Foxeer's own spec table (SKU MR1796, 'Name: Reaper Infinity'): 9~36V in, 5V out, 40CH, 50mW/500mW/1000mW/2500mW/5000mW, 58 g, 72*41*17 mm, mounting hole 20*20mm M2, SMA, 3 A at 9 V or 0.8 A at 36 V. Five bands of eight (A/B/E/F/R) running 5645-5945 MHz. This is where the 58 g that used to sit on our 4.9-6.0 GHz Infinity V2 5W page came from - that module is 48 g by Foxeer's own table. Out of stock at Foxeer on 2026-09-23."
+   "note": "The original 40-channel Infinity, from Foxeer's own spec table (SKU MR1796, 'Name: Reaper Infinity'): 9~36V in, 5V out, 40CH, 50mW/500mW/1000mW/2500mW/5000mW, 58 g, 72*41*17 mm, mounting hole 20*20mm M2, SMA, 3 A at 9 V or 0.8 A at 36 V. Five bands of eight (A/B/E/F/R) running 5645-5945 MHz. This is where the 58 g that used to sit on our 4.9-6.0 GHz Infinity V2 5W page came from - that module is 48 g by Foxeer's own table. Out of stock at Foxeer on 2026-09-23. power_draw is the maker's own supply figure, 'Consumption: 9V/3A; 36V/0.8A', read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -1212,12 +1219,13 @@
     "mount_mm": "20x20mm M2",
     "channels": 64,
     "antenna_connector": "SMA",
-    "weight_g": 50.0
+    "weight_g": 50.0,
+    "power_draw": "4.7 A at 10 V, 2.0 A at 20 V (10 W output)"
    },
    "sources": [
     "https://www.foxeer.com/foxeer-reaper-infinity-7-2g-64ch-fpv-vtx-g-621"
    ],
-   "note": "Foxeer's own spec table (SKU MR1879), whose 'Name' row reads 'Reaper 7.2G 10W VTX' while the product title says Reaper Infinity 7.2G: 9~36V in, 5V out, 64CH, 1W/2.5W/5W/7.5W/10W, 50 g, 66.5*37*16.5 mm, 'Mounting Hole: 2 Groups/20*20mm M2 2.5mm depth', SMA, GH1.25 8P control cable, 4.7 A at 10 V at full power. The eight bands of eight run 6110-7190 MHz, which is the 6.1-7.2 GHz recorded here; one figure in the table is out of sequence (band H ends '7170 7190 7120' where every other row steps +20 MHz), so the top edge is taken from the 7190 MHz that fits the step and the anomaly is recorded rather than corrected. 10 W at 7 GHz is licensed spectrum almost everywhere - check local rules before transmitting."
+   "note": "Foxeer's own spec table (SKU MR1879), whose 'Name' row reads 'Reaper 7.2G 10W VTX' while the product title says Reaper Infinity 7.2G: 9~36V in, 5V out, 64CH, 1W/2.5W/5W/7.5W/10W, 50 g, 66.5*37*16.5 mm, 'Mounting Hole: 2 Groups/20*20mm M2 2.5mm depth', SMA, GH1.25 8P control cable, 4.7 A at 10 V at full power. The eight bands of eight run 6110-7190 MHz, which is the 6.1-7.2 GHz recorded here; one figure in the table is out of sequence (band H ends '7170 7190 7120' where every other row steps +20 MHz), so the top edge is taken from the 7190 MHz that fits the step and the anomaly is recorded rather than corrected. 10 W at 7 GHz is licensed spectrum almost everywhere - check local rules before transmitting. power_draw is the maker's own supply figure, 'Consumption: 10V/4.7A & 20V/2.0A;10W', read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -1233,14 +1241,16 @@
     "channels": 80,
     "antenna_connector": "SMA",
     "weight_g": 48.0,
-    "mount_mm": "20x20mm M2"
+    "mount_mm": "20x20mm M2",
+    "power_draw": "2.3 A at 10 V (5 W output)"
    },
    "sources": [
     "https://pyrodrone.com/products/foxeer-reaper-infinity-5-8g-5w-40ch-vtx-1",
     "https://druav.com/products/foxeer-4-9g-6g-reaper-infinity-v2-5w-80ch-vtx",
-    "https://www.foxeer.com/foxeer-4-9g-6g-reaper-infinity-v2-5w-80ch-vtx-g-588"
+    "https://www.foxeer.com/foxeer-4-9g-6g-reaper-infinity-v2-5w-80ch-vtx-g-588",
+    "https://www.foxeer.com/x-g-588"
    ],
-   "note": "Long-range transmitter: 66x37x16 mm, 48 g, 5 V output for the camera. The V2 widens the original 5.8 GHz 40-channel model to 4.9-6.0 GHz and 80 channels. Corrected 2026-09-23 against Foxeer's own spec table (SKU MR1839): weight_g was 58 g and is 48 g, and the '41x20x17 mm' in the note above was wrong too - the module is 66*37*16 mm. 58 g and 72*41*17 mm are the figures for the *original* 40-channel 5.8 GHz Infinity, which has its own page here, so the retail listings this page was built from were partly describing that part. The rest of the table confirms what was already published: 9~36V in, 5V out, 80CH, 1W/2W/3W/4W/5W, SMA, GH1.25 6P control cable, 2.3 A at 10 V. mount_mm (20*20mm M2 with 2.5 mm depth) is new from the same table"
+   "note": "Long-range transmitter: 66x37x16 mm, 48 g, 5 V output for the camera. The V2 widens the original 5.8 GHz 40-channel model to 4.9-6.0 GHz and 80 channels. Corrected 2026-09-23 against Foxeer's own spec table (SKU MR1839): weight_g was 58 g and is 48 g, and the '41x20x17 mm' in the note above was wrong too - the module is 66*37*16 mm. 58 g and 72*41*17 mm are the figures for the *original* 40-channel 5.8 GHz Infinity, which has its own page here, so the retail listings this page was built from were partly describing that part. The rest of the table confirms what was already published: 9~36V in, 5V out, 80CH, 1W/2W/3W/4W/5W, SMA, GH1.25 6P control cable, 2.3 A at 10 V. mount_mm (20*20mm M2 with 2.5 mm depth) is new from the same table. power_draw is the maker's own supply figure, 'Consumption: 10V/2.3A, 5W' (page titled 'Foxeer 4.9G~6G Reaper Infinity V2 5W 80CH VTx'), read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -1273,12 +1283,13 @@
     "frequency_range": "5.8 GHz",
     "input_voltage": "5V",
     "channels": 72,
-    "weight_g": 0.8
+    "weight_g": 0.8,
+    "power_draw": "340 mA at 350 mW output"
    },
    "sources": [
     "https://www.foxeer.com/foxeer-reaper-nano-v2-vtx-5-8g-72ch-350mw-tramp-g-583"
    ],
-   "note": "Foxeer's own spec table (SKU MR1840, 'Name: Reaper Nano V2'): 5V in, 5V out, 72CH, 25mW/100mW/200mW/350mW, 0.8 g, 12*16 mm, 340 mA at 350 mW, Tramp control. The 72 channels are nine bands of eight running 5325-5945 MHz, which is what separates it from the 40-channel Reaper Nano we carry from the retail scrape - same 350 mW, different frequency table, so the two are separate parts and not one page. mount_mm is empty: 12*16 mm is the board, not a mounting pattern, and the page prints no pattern. antenna_connector is empty for the same reason - Foxeer's table names no connector. Out of stock at Foxeer on 2026-09-23."
+   "note": "Foxeer's own spec table (SKU MR1840, 'Name: Reaper Nano V2'): 5V in, 5V out, 72CH, 25mW/100mW/200mW/350mW, 0.8 g, 12*16 mm, 340 mA at 350 mW, Tramp control. The 72 channels are nine bands of eight running 5325-5945 MHz, which is what separates it from the 40-channel Reaper Nano we carry from the retail scrape - same 350 mW, different frequency table, so the two are separate parts and not one page. mount_mm is empty: 12*16 mm is the board, not a mounting pattern, and the page prints no pattern. antenna_connector is empty for the same reason - Foxeer's table names no connector. Out of stock at Foxeer on 2026-09-23. power_draw is the maker's own supply figure, 'Consumption: 340mA @ 350mW' (no voltage printed), read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -1712,13 +1723,14 @@
     "channels": 40,
     "antenna_connector": "U.FL",
     "weight_g": 3.0,
-    "input_voltage": "4.8-5.5V"
+    "input_voltage": "4.8-5.5V",
+    "power_draw": "250-510 mA (typical)"
    },
    "sources": [
     "https://www.happymodel.cn/index.php/2019/07/03/happymodel-diamond-vtx-5-8g-40ch-25mw-200mw-switchable-vtx-with-dvr/",
     "https://www.happymodel.cn/wp-content/uploads/2019/07/Diamond-VTX-built-in-DVR-manual.pdf"
    ],
-   "note": "Happymodel's product post prints the block: Output power: 25~200mw switchable, Frequency: 40CH, Input voltage: 4.8v~5.5v, Current consumption: 250mA~510mA(type), Antenna: RG178 antenna U.FL interface, Frequency: 5.8GHz 5bands 40 channels, With Raceband, Smartaudio ready, Weight: 3g without antenna, plus the recorder rows: Video Output Size VGA (640x480), Video Output format NTSC, Record video size 1280x720 @25FPS, TF Card support Max.32G, Compress Format AVI. power_levels_mw is the manual's own instruction - \"set vtx_power=1\" is 25mw, \"=2\" 100mw, \"=3\" 200mw - and that manual prints the same 5-band 40-channel table (Band1 5865-5725, Band5 5658-5917 MHz). A transmitter that records to its own TF card on the VTX board rather than in the goggles; recording starts automatically at power-on and the manual warns there is no auto-save at power-off."
+   "note": "Happymodel's product post prints the block: Output power: 25~200mw switchable, Frequency: 40CH, Input voltage: 4.8v~5.5v, Current consumption: 250mA~510mA(type), Antenna: RG178 antenna U.FL interface, Frequency: 5.8GHz 5bands 40 channels, With Raceband, Smartaudio ready, Weight: 3g without antenna, plus the recorder rows: Video Output Size VGA (640x480), Video Output format NTSC, Record video size 1280x720 @25FPS, TF Card support Max.32G, Compress Format AVI. power_levels_mw is the manual's own instruction - \"set vtx_power=1\" is 25mw, \"=2\" 100mw, \"=3\" 200mw - and that manual prints the same 5-band 40-channel table (Band1 5865-5725, Band5 5658-5917 MHz). A transmitter that records to its own TF card on the VTX board rather than in the goggles; recording starts automatically at power-on and the manual warns there is no auto-save at power-off. power_draw is the maker's own supply figure, 'Current consumption: 250mA~510mA(type)', read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -1734,14 +1746,15 @@
     "price_usd": 33.99,
     "channels": 40,
     "input_voltage": "5V",
-    "power_levels_mw": "0 / 25 / 100 / 300"
+    "power_levels_mw": "0 / 25 / 100 / 300",
+    "power_draw": "under 650 mA at 5 V (300 mW output)"
    },
    "_scraped_at": "2026-10-17",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-ovx300-25-300mw-5-8ghz-u-fl-vtx-w-openvtx",
     "https://www.happymodel.cn/index.php/2021/07/27/happymodel-ovx300-ovx303-5-8g-40ch-300mw-vtx-openvtx/"
    ],
-   "note": "Happymodel's own post for the OVX300 and OVX303 prints the block: Model: OVX300, Frequency: 5.8G 40CH, Transmitting Power: 0/RCE/25mw/100mw/300mw, Power supply: DC 5V, Current (5v): <650ma (300mw), Weight: 0.9gram without antenna, Standard size: 14*15*3mm. It confirms the two figures this page already carried off the retail listing (300 mW, 0.9 g) and adds the channel count, the input voltage and the power steps. 14*15*3mm is the board, not a pattern: the OVX300 states no mounting holes at all - that is the OVX303's half of the same post - so mount_mm stays empty. power_levels_mw keeps the steps stated in milliwatts; the list also carries a step labelled 'RCE' between 0 and 25 whose power is never given a figure. The Betaflight vtxtable pasted under the blocks is not a source for this column: its powerlabels read '0 RCE 25 100 400' on a page whose two spec blocks both say 300, so it is the OVX306's table."
+   "note": "Happymodel's own post for the OVX300 and OVX303 prints the block: Model: OVX300, Frequency: 5.8G 40CH, Transmitting Power: 0/RCE/25mw/100mw/300mw, Power supply: DC 5V, Current (5v): <650ma (300mw), Weight: 0.9gram without antenna, Standard size: 14*15*3mm. It confirms the two figures this page already carried off the retail listing (300 mW, 0.9 g) and adds the channel count, the input voltage and the power steps. 14*15*3mm is the board, not a pattern: the OVX300 states no mounting holes at all - that is the OVX303's half of the same post - so mount_mm stays empty. power_levels_mw keeps the steps stated in milliwatts; the list also carries a step labelled 'RCE' between 0 and 25 whose power is never given a figure. The Betaflight vtxtable pasted under the blocks is not a source for this column: its powerlabels read '0 RCE 25 100 400' on a page whose two spec blocks both say 300, so it is the OVX306's table. power_draw is the maker's own supply figure, 'Current (5v): <650ma (300mw)' in the OVX300 block, read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -1758,14 +1771,15 @@
     "price_usd": 19.49,
     "channels": 40,
     "input_voltage": "5V",
-    "power_levels_mw": "0 / 25 / 100 / 300"
+    "power_levels_mw": "0 / 25 / 100 / 300",
+    "power_draw": "under 650 mA at 5 V (300 mW output)"
    },
    "_scraped_at": "2026-10-17",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-ovx303-25-300mw-5-8ghz-u-fl-vtx-w-openvtx",
     "https://www.happymodel.cn/index.php/2021/07/27/happymodel-ovx300-ovx303-5-8g-40ch-300mw-vtx-openvtx/"
    ],
-   "note": "Corrected against Happymodel's own post, whose OVX303 block reads: Model: OVX303, Frequency: 5.8G 40CH, Transmitting Power: 0/RCE/25mw/100mw/300mw, Power supply: DC 5V, Current (5v): <650ma (300mw), Weight: 1.5gram without antenna, Center distance of mounting holes: 16mmx16mm / 20mmx20mm / 25.5mmx25.5mm. The 0.9 g this page used to show came from RaceDayQuads' listing, which also prints 'Dimensions: 15x14mm' - both are the *OVX300's* figures from the same Happymodel post ('Weight: 0.9gram without antenna', 'Standard size: 14*15*3mm'), so the listing is partly its sibling's listing. mount_mm now keeps all three patterns the manufacturer states, as the stacks do; the listing's 'Stack Size: 16x16mm, 20x20mm, 25x25mm' differs in its last entry and 25.5x25.5 is the pattern frames are sold for. power_levels_mw keeps the steps stated in milliwatts; the list also carries an 'RCE' step with no figure."
+   "note": "Corrected against Happymodel's own post, whose OVX303 block reads: Model: OVX303, Frequency: 5.8G 40CH, Transmitting Power: 0/RCE/25mw/100mw/300mw, Power supply: DC 5V, Current (5v): <650ma (300mw), Weight: 1.5gram without antenna, Center distance of mounting holes: 16mmx16mm / 20mmx20mm / 25.5mmx25.5mm. The 0.9 g this page used to show came from RaceDayQuads' listing, which also prints 'Dimensions: 15x14mm' - both are the *OVX300's* figures from the same Happymodel post ('Weight: 0.9gram without antenna', 'Standard size: 14*15*3mm'), so the listing is partly its sibling's listing. mount_mm now keeps all three patterns the manufacturer states, as the stacks do; the listing's 'Stack Size: 16x16mm, 20x20mm, 25x25mm' differs in its last entry and 25.5x25.5 is the pattern frames are sold for. power_levels_mw keeps the steps stated in milliwatts; the list also carries an 'RCE' step with no figure. power_draw is the maker's own supply figure, 'Current (5v): <650ma (300mw)' in the OVX303 block, read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -1780,12 +1794,13 @@
     "channels": 48,
     "mount_mm": "25.5x25.5mm",
     "weight_g": 1.5,
-    "input_voltage": "5V"
+    "input_voltage": "5V",
+    "power_draw": "under 650 mA at 5 V (400 mW output)"
    },
    "sources": [
     "https://www.happymodel.cn/index.php/2022/02/25/happymodel-ovx306-openvtx-5-8g-48ch-400mw-vtx-replacement-of-whoop_vtx/"
    ],
-   "note": "Happymodel's own product post prints the labelled block: Model: OVX306, Frequency: 5.8G 48CH, Transmitting Power: 0/RCE/25mw/100mw/400mw, Power supply: DC 5V, Current (5v): <650ma (400mw), Weight: 1.5gram without antenna, Center distance of mounting holes: 25.5mmx25.5mm. power_levels_mw keeps only the steps the page states in milliwatts - the list also carries a step labelled 'RCE' between 0 and 25 whose power is never given a figure. frequency_range keeps the 5.8 GHz class label this column uses for the band; the two Betaflight vtxtables pasted on the same page (SmartAudio and Tramp) run from 5333 MHz (LOWRACE L1) to 5917 MHz (Raceband R8). No antenna connector is recorded: the page says only that the module is 'the same size as whoop_vtx and whoop_vtx_hp, and the interface are also exactly the same', which is a compatibility statement about two other boards and not this one's own spec. Sold as the replacement for the discontinued whoop_VTX and whoop_VTX_hp, and the transmitter the Cine8 kit has shipped with since 25 Feb 2022. Runs the open-source OpenVTx firmware, so both SmartAudio and Tramp are supported and detected automatically."
+   "note": "Happymodel's own product post prints the labelled block: Model: OVX306, Frequency: 5.8G 48CH, Transmitting Power: 0/RCE/25mw/100mw/400mw, Power supply: DC 5V, Current (5v): <650ma (400mw), Weight: 1.5gram without antenna, Center distance of mounting holes: 25.5mmx25.5mm. power_levels_mw keeps only the steps the page states in milliwatts - the list also carries a step labelled 'RCE' between 0 and 25 whose power is never given a figure. frequency_range keeps the 5.8 GHz class label this column uses for the band; the two Betaflight vtxtables pasted on the same page (SmartAudio and Tramp) run from 5333 MHz (LOWRACE L1) to 5917 MHz (Raceband R8). No antenna connector is recorded: the page says only that the module is 'the same size as whoop_vtx and whoop_vtx_hp, and the interface are also exactly the same', which is a compatibility statement about two other boards and not this one's own spec. Sold as the replacement for the discontinued whoop_VTX and whoop_VTX_hp, and the transmitter the Cine8 kit has shipped with since 25 Feb 2022. Runs the open-source OpenVTx firmware, so both SmartAudio and Tramp are supported and detected automatically. power_draw is the maker's own supply figure, 'Current (5v): <650ma (400mw)', read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -1800,13 +1815,14 @@
     "channels": 40,
     "antenna_connector": "U.FL",
     "weight_g": 2.0,
-    "input_voltage": "3.3-5.5V"
+    "input_voltage": "3.3-5.5V",
+    "power_draw": "300 mA (typical)"
    },
    "sources": [
     "https://www.happymodel.cn/index.php/2018/12/21/whoop_vtx-5-8g-40ch-25mw200mw-switchable-vtx-for-brushed-brushles-whoop/",
     "https://www.happymodel.cn/wp-content/uploads/2019/01/5.8G-25-200mw-switchable-Whoop_VTX-Manual.pdf"
    ],
-   "note": "Happymodel's product post prints the block: Output power: 25~200mw switchable, Frequency: 40CH, Input voltage: 3.3V 5.5V, Current consumption: 300mA(type), Antenna: RG178 antenna U.FL interface, Frequency: 5.8GHz 5bands 40 channels, With Raceband, Smartaudio ready, Weight: 2g without antenna. input_voltage is that line read as the range it prints without a separator. power_levels_mw is off the one-page manual, which labels the board's three power test points 25MW, 100MW and 200MW and prints the 5-band 40-channel table (Band1 5865-5725, Band5/Raceband 5658-5917 MHz). The same manual carries a warning worth repeating: 'In the Smartaudio control menu, the vtx power is actually 200mw when it shows 500mw and it's actually 100mw when it shows 200mw' - this radio's own on-screen menu prints power steps it does not have, so an OSD photograph is not a source for this column. Discontinued; Happymodel names the OVX306 as the replacement."
+   "note": "Happymodel's product post prints the block: Output power: 25~200mw switchable, Frequency: 40CH, Input voltage: 3.3V 5.5V, Current consumption: 300mA(type), Antenna: RG178 antenna U.FL interface, Frequency: 5.8GHz 5bands 40 channels, With Raceband, Smartaudio ready, Weight: 2g without antenna. input_voltage is that line read as the range it prints without a separator. power_levels_mw is off the one-page manual, which labels the board's three power test points 25MW, 100MW and 200MW and prints the 5-band 40-channel table (Band1 5865-5725, Band5/Raceband 5658-5917 MHz). The same manual carries a warning worth repeating: 'In the Smartaudio control menu, the vtx power is actually 200mw when it shows 500mw and it's actually 100mw when it shows 200mw' - this radio's own on-screen menu prints power steps it does not have, so an OSD photograph is not a source for this column. Discontinued; Happymodel names the OVX306 as the replacement. power_draw is the maker's own supply figure, 'Current consumption: 300mA(type)', read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -1819,12 +1835,13 @@
     "max_power_mw": 400,
     "channels": 40,
     "antenna_connector": "U.FL",
-    "input_voltage": "5V"
+    "input_voltage": "5V",
+    "power_draw": "400 mA (typical)"
    },
    "sources": [
     "https://www.happymodel.cn/index.php/2021/01/03/happymodel-5-8g-40ch-25mw400mw-vtx-for-cine8-and-brushless-whoop/"
    ],
-   "note": "Happymodel's product post prints the block: Brand name: happymodel, Item name: whoop_VTX_hp, Output power: 25~400mw switchable, Frequency: 40CH, Input voltage: 5V, Current consumption: 400mA(type), Antenna: directional linear U.FL interface, Frequency: 5.8GHz 5bands 40 channels, With Raceband, Smartaudio ready, Weight: 2.8g with antenna. weight_g is deliberately empty: the only weight the page states includes the antenna, and every other weight in this column is the module without one. The 'Package included' line on the same page reads '1x happymodel whoop_VTX_hp 5.8G 40CH 25mW~200mW Switchable VTX' - the non-HP board's figure copied into the HP's packing list; the post title, the spec block and the discontinuation notice all say 25~400 mW, so the packing list is the error. power_levels_mw is empty because the page states a range and no steps. Discontinued, with the OVX306 named as the replacement; this is the transmitter the Cine8 kit shipped with before 25 Feb 2022."
+   "note": "Happymodel's product post prints the block: Brand name: happymodel, Item name: whoop_VTX_hp, Output power: 25~400mw switchable, Frequency: 40CH, Input voltage: 5V, Current consumption: 400mA(type), Antenna: directional linear U.FL interface, Frequency: 5.8GHz 5bands 40 channels, With Raceband, Smartaudio ready, Weight: 2.8g with antenna. weight_g is deliberately empty: the only weight the page states includes the antenna, and every other weight in this column is the module without one. The 'Package included' line on the same page reads '1x happymodel whoop_VTX_hp 5.8G 40CH 25mW~200mW Switchable VTX' - the non-HP board's figure copied into the HP's packing list; the post title, the spec block and the discontinuation notice all say 25~400 mW, so the packing list is the error. power_levels_mw is empty because the page states a range and no steps. Discontinued, with the OVX306 named as the replacement; this is the transmitter the Cine8 kit shipped with before 25 Feb 2022. power_draw is the maker's own supply figure, 'Current consumption: 400mA(type)', read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -1840,14 +1857,16 @@
     "mount_mm": "25.5x25.5mm M2",
     "antenna_connector": "U.FL",
     "weight_g": 4.5,
-    "input_voltage": "4-12V"
+    "input_voltage": "4-12V",
+    "power_draw": "5-6 W"
    },
    "sources": [
     "https://www.hd-zero.com/product-page/hdzero-eco-vtx",
     "https://www.hd-zero.com/product-page/hdzero-eco-bundle",
-    "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf"
+    "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf",
+    "https://docs.hd-zero.com/vtx-summary"
    ],
-   "note": "HDZero's own product page prints the labelled block: Model HDZero Eco VTX, SKU HDZ3160, Frequency 5.8G, Resolution Default 1280*720@60fps, RF power 25mw/200mw, RF Connector U.FL, Interface Composite HD, Size 32.4x32.5mm (29x29mm inner), Weight 4.5grames/4mm Thickness (w/o shielding), Power 1000mA@5V, power input 1S-3S, Mounting 25.5x25.2 M2 soft mounting. The one VTX in the HDZero line that takes composite HD video over a single wire instead of a MIPI cable, which is why it pairs with the LUX/Eco camera and not with the MIPI cameras the rest of the system uses. mount_mm and input_voltage are the HDZero VTX User Manual v1.1 figures (p2 product table: 25.5x25.5, M2 (Soft), 4.5grams, 4V-12V, 5~6W, RF power output 25mW/200mW), because three manufacturer statements of the mounting pattern disagree in the last digit - 25.5x25.2 on the product page, '25 x 25 M2 Soft Mounting' on the Eco Bundle page and 25.5x25.5 in the manual - and 25.5x25.5 is the only one of the three that is a pattern frames are sold for. The manual's own Dimension row for this model (29x30) is not used: it repeats the Freestyle V2's figure and contradicts the product page's 32.4x32.5mm. channels is the manual's 'All VTXes support R1-R8, E1, F1, F2 and F4 channels' (p8), twelve; eight more (L1-L8) appear only after the low-band unlock firmware is flashed."
+   "note": "HDZero's own product page prints the labelled block: Model HDZero Eco VTX, SKU HDZ3160, Frequency 5.8G, Resolution Default 1280*720@60fps, RF power 25mw/200mw, RF Connector U.FL, Interface Composite HD, Size 32.4x32.5mm (29x29mm inner), Weight 4.5grames/4mm Thickness (w/o shielding), Power 1000mA@5V, power input 1S-3S, Mounting 25.5x25.2 M2 soft mounting. The one VTX in the HDZero line that takes composite HD video over a single wire instead of a MIPI cable, which is why it pairs with the LUX/Eco camera and not with the MIPI cameras the rest of the system uses. mount_mm and input_voltage are the HDZero VTX User Manual v1.1 figures (p2 product table: 25.5x25.5, M2 (Soft), 4.5grams, 4V-12V, 5~6W, RF power output 25mW/200mW), because three manufacturer statements of the mounting pattern disagree in the last digit - 25.5x25.2 on the product page, '25 x 25 M2 Soft Mounting' on the Eco Bundle page and 25.5x25.5 in the manual - and 25.5x25.5 is the only one of the three that is a pattern frames are sold for. The manual's own Dimension row for this model (29x30) is not used: it repeats the Freestyle V2's figure and contradicts the product page's 32.4x32.5mm. channels is the manual's 'All VTXes support R1-R8, E1, F1, F2 and F4 channels' (p8), twelve; eight more (L1-L8) appear only after the low-band unlock firmware is flashed. power_draw is the maker's own supply figure, 'Power Consumption: 5~6W' in the ECO column, read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -1863,14 +1882,16 @@
     "weight_g": 28.0,
     "price_usd": 99.99,
     "power_levels_mw": "25 / 200 (HAM licence unlock: 500 / 1000)",
-    "input_voltage": "2S-6S (1st batch 2S-4S)"
+    "input_voltage": "2S-6S (1st batch 2S-4S)",
+    "power_draw": "6-15 W"
    },
    "_scraped_at": "2026-10-17",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-freestyle-30x30-25-1000mw-digital-hd-vtx-u-fl",
-    "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf"
+    "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf",
+    "https://docs.hd-zero.com/vtx-dis-summary"
    ],
-   "note": "Manufacturer source 2026-09-23, and it names the part: this is the HDZero Freestyle V1, which the HDZero VTX User Manual v1.1 lists under 'Discontinued Video Transmitters' (p22) at 40x40 mm body, 30x30 M3 (Soft) mounting, 28 grams, 2S-6S power input, 6~15W, RF power output '25mW,200mW (500mW, 1W if with HAM license)', Secured U.FL, RHCP antenna included. The 28 g and the 30x30 pattern this page already published are that row exactly, which is how the retail title's 'Freestyle 30x30' is pinned to a model name. The manual adds (p28) that the first batch supports 2S-4S and ships with a 2S-6S BEC, the second batch and later 2S-6S with no BEC, and that the heat sink is part of the design. HDZero's shop no longer lists it, so there is no product page to cite - the manual is the whole manufacturer record."
+   "note": "Manufacturer source 2026-09-23, and it names the part: this is the HDZero Freestyle V1, which the HDZero VTX User Manual v1.1 lists under 'Discontinued Video Transmitters' (p22) at 40x40 mm body, 30x30 M3 (Soft) mounting, 28 grams, 2S-6S power input, 6~15W, RF power output '25mW,200mW (500mW, 1W if with HAM license)', Secured U.FL, RHCP antenna included. The 28 g and the 30x30 pattern this page already published are that row exactly, which is how the retail title's 'Freestyle 30x30' is pinned to a model name. The manual adds (p28) that the first batch supports 2S-4S and ships with a 2S-6S BEC, the second batch and later 2S-6S with no BEC, and that the heat sink is part of the design. HDZero's shop no longer lists it, so there is no product page to cite - the manual is the whole manufacturer record. power_draw is the maker's own supply figure, 'Power Consumption: 6~15W' in the Freestyle V1 (EOL, 30x30) column of HDZero's discontinued-VTX table, read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -1886,15 +1907,17 @@
     "price_usd": 179.99,
     "power_levels_mw": "25 / 200 (HAM licence unlock: 500 / 1000)",
     "input_voltage": "7-25V",
-    "channels": 12
+    "channels": 12,
+    "power_draw": "6-15 W"
    },
    "_scraped_at": "2026-10-17",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-freestyle-v2-20x20-25-1000mw-digital-hd-vtx-kit-u-fl",
     "https://www.hd-zero.com/product-page/hdzero-freestyle-v2-kit",
-    "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf"
+    "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf",
+    "https://docs.hd-zero.com/vtx-summary"
    ],
-   "note": "Second source 2026-09-23: this kit is the Freestyle V2 VTX plus a Nano 90 V2 camera (19x19 mount) and an RHCP antenna, and HDZero's kit page reprints the transmitter's block verbatim - 22.3 g, 29x30x14mm, 5.725-5.850GHz, Transmitter Power 25mW,200mW, 20x20mm M2 holes, Secured U.FL, Input Power 7-25V, 6-15W - with the same sentence that the VTX is capable of 1W at R1 once unlocked with a licence. weight_g stays empty on purpose: 22.3 g is the transmitter and this SKU is a box with a camera and an antenna in it, and no source weighs the box."
+   "note": "Second source 2026-09-23: this kit is the Freestyle V2 VTX plus a Nano 90 V2 camera (19x19 mount) and an RHCP antenna, and HDZero's kit page reprints the transmitter's block verbatim - 22.3 g, 29x30x14mm, 5.725-5.850GHz, Transmitter Power 25mW,200mW, 20x20mm M2 holes, Secured U.FL, Input Power 7-25V, 6-15W - with the same sentence that the VTX is capable of 1W at R1 once unlocked with a licence. weight_g stays empty on purpose: 22.3 g is the transmitter and this SKU is a box with a camera and an antenna in it, and no source weighs the box. power_draw is the maker's own supply figure, 'Power Consumption: 6~15W' in the Freestyle V2 column (the VTX in this kit), read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -1911,15 +1934,17 @@
     "price_usd": 118.99,
     "power_levels_mw": "25 / 200 (HAM licence unlock: 500 / 1000)",
     "input_voltage": "7-25V",
-    "channels": 12
+    "channels": 12,
+    "power_draw": "6-15 W"
    },
    "_scraped_at": "2026-10-17",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-freestyle-v2-20x20-25-1000mw-digital-hd-vtx-u-fl",
     "https://www.hd-zero.com/product-page/freestyle-v2-vtx",
-    "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf"
+    "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf",
+    "https://docs.hd-zero.com/vtx-summary"
    ],
-   "note": "Second source 2026-09-23: HDZero's own product page prints the labelled block - Manufacturer Divimath, Inc, Model HDZero Freestyle V2 VTX, Weight 22.3 g, Dimensions 29x30x14mm, Operating Frequency 5.725-5.850GHz, Transmitter Power 25mW,200mW, Mounting Pattern 20x20mm M2 holes, Antenna Interface Secured U.FL, Video In Secured MIPI, Input Power 7-25V, Power Consumption 6-15W - and the 1 W this page publishes is the same manufacturer's, stated twice outside that block: 'The VTX is capable of maximum 1W RF output at R1 channel if unlocked with license or approval from the local authorities' on the product page, and in the HDZero VTX User Manual v1.1 (linked from hd-zero.com/document), p2 'HDZero VTX Products' table as '25mW, 200mW (500mW, 1W with HAM license unlock)', with an Unlock RF Power Limit procedure on p18 citing FCC 47 CFR 97.215(c). So max_power_mw is the radio and power_levels_mw records that it ships limited to 200 mW; output also decreases as the channel frequency rises above R1. This is the TBS Unify Pro32 DP case from the other direction - there a retail title printed a locked-down subset as the whole radio, here the manufacturer's own spec block does."
+   "note": "Second source 2026-09-23: HDZero's own product page prints the labelled block - Manufacturer Divimath, Inc, Model HDZero Freestyle V2 VTX, Weight 22.3 g, Dimensions 29x30x14mm, Operating Frequency 5.725-5.850GHz, Transmitter Power 25mW,200mW, Mounting Pattern 20x20mm M2 holes, Antenna Interface Secured U.FL, Video In Secured MIPI, Input Power 7-25V, Power Consumption 6-15W - and the 1 W this page publishes is the same manufacturer's, stated twice outside that block: 'The VTX is capable of maximum 1W RF output at R1 channel if unlocked with license or approval from the local authorities' on the product page, and in the HDZero VTX User Manual v1.1 (linked from hd-zero.com/document), p2 'HDZero VTX Products' table as '25mW, 200mW (500mW, 1W with HAM license unlock)', with an Unlock RF Power Limit procedure on p18 citing FCC 47 CFR 97.215(c). So max_power_mw is the radio and power_levels_mw records that it ships limited to 200 mW; output also decreases as the channel frequency rises above R1. This is the TBS Unify Pro32 DP case from the other direction - there a retail title printed a locked-down subset as the whole radio, here the manufacturer's own spec block does. power_draw is the maker's own supply figure, 'Power Consumption: 6~15W' in the Freestyle V2 column, read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -1935,14 +1960,16 @@
     "weight_g": 5.9,
     "price_usd": 83.99,
     "power_levels_mw": "25 / 200",
-    "input_voltage": "7-17V (2S-4S)"
+    "input_voltage": "7-17V (2S-4S)",
+    "power_draw": "5-6 W"
    },
    "_scraped_at": "2026-10-17",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-race-v2-25-200mw-digital-hd-vtx-u-fl",
-    "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf"
+    "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf",
+    "https://docs.hd-zero.com/vtx-dis-summary"
    ],
-   "note": "Manufacturer source 2026-09-23: the HDZero VTX User Manual v1.1 lists the Race V2 under 'Discontinued Video Transmitters' (p22) at 34x34 mm body, 20x20 M4 (Soft) mounting, 6 grams, 7V-17V (2S-4S) power input, 5~6W, RF power output 25mW,200mW, Secured U.FL, no antenna included, and its own page (p26) labels the board '20x20 M4 mounting holes' with a 'Rubber Grommet (M4 to M3)' - the same hole-versus-screw pair as the Race V3. weight_g stays at the retailer's 5.9 g rather than moving to the manual's 6 grams: the manual's table rounds every weight in it to a whole gram (7, 6, 28) and 5.9 is the same figure at the resolution the column holds. HDZero's shop no longer lists this model."
+   "note": "Manufacturer source 2026-09-23: the HDZero VTX User Manual v1.1 lists the Race V2 under 'Discontinued Video Transmitters' (p22) at 34x34 mm body, 20x20 M4 (Soft) mounting, 6 grams, 7V-17V (2S-4S) power input, 5~6W, RF power output 25mW,200mW, Secured U.FL, no antenna included, and its own page (p26) labels the board '20x20 M4 mounting holes' with a 'Rubber Grommet (M4 to M3)' - the same hole-versus-screw pair as the Race V3. weight_g stays at the retailer's 5.9 g rather than moving to the manual's 6 grams: the manual's table rounds every weight in it to a whole gram (7, 6, 28) and 5.9 is the same figure at the resolution the column holds. HDZero's shop no longer lists this model. power_draw is the maker's own supply figure, 'Power Consumption: 5~6W' in the Race V2 (EOL) column of HDZero's discontinued-VTX table, read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -1959,15 +1986,17 @@
     "price_usd": 83.99,
     "power_levels_mw": "25 / 200",
     "input_voltage": "4-12V",
-    "channels": 12
+    "channels": 12,
+    "power_draw": "5-6 W"
    },
    "_scraped_at": "2026-10-17",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-race-v3-1080p-20x20-25-200mw-digital-hd-vtx",
     "https://www.hd-zero.com/product-page/hdzero-race-v3-vtx",
-    "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf"
+    "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf",
+    "https://docs.hd-zero.com/vtx-summary"
    ],
-   "note": "Second source 2026-09-23: HDZero's own product page prints the labelled block the retail listing paraphrases - Model HDZero Race V3, SKU HDZ3143, Frequency 5.725-5.850GHz, Resolution Default 540p90/720p60/1080p30, RF power 25mw/200mw, RF Connector Secured U.FL, Interface 4 lane MIPI CSI YUV422, Size 32mm x 28mm x 5mm, Weight 5.5g, Harness length 40mm, power input 4V-12V, Mounting 20mm x 20mm M4 with rubber grommets. It confirms the 200 mW, the 5.5 g and the 5.725-5.850 GHz already published and adds the two power steps and the input range. mount_mm gains the screw size: the holes are M4 and the included 'Rubber Grommet (M4 to M3)' reduces them to M3 screws, which is why the HDZero VTX User Manual v1.1 (linked from hd-zero.com/document), p2 'HDZero VTX Products' table prints the same pattern as '20x20 M3 (Soft)' - the table names the screw that goes through the grommet, the product page names the hole. channels is the manual's 'All VTXes support R1-R8, E1, F1, F2 and F4 channels' (p8); L1-L8 exist only after the low-band unlock firmware."
+   "note": "Second source 2026-09-23: HDZero's own product page prints the labelled block the retail listing paraphrases - Model HDZero Race V3, SKU HDZ3143, Frequency 5.725-5.850GHz, Resolution Default 540p90/720p60/1080p30, RF power 25mw/200mw, RF Connector Secured U.FL, Interface 4 lane MIPI CSI YUV422, Size 32mm x 28mm x 5mm, Weight 5.5g, Harness length 40mm, power input 4V-12V, Mounting 20mm x 20mm M4 with rubber grommets. It confirms the 200 mW, the 5.5 g and the 5.725-5.850 GHz already published and adds the two power steps and the input range. mount_mm gains the screw size: the holes are M4 and the included 'Rubber Grommet (M4 to M3)' reduces them to M3 screws, which is why the HDZero VTX User Manual v1.1 (linked from hd-zero.com/document), p2 'HDZero VTX Products' table prints the same pattern as '20x20 M3 (Soft)' - the table names the screw that goes through the grommet, the product page names the hole. channels is the manual's 'All VTXes support R1-R8, E1, F1, F2 and F4 channels' (p8); L1-L8 exist only after the low-band unlock firmware. power_draw is the maker's own supply figure, 'Power Consumption: 5~6W' in the Race V3 column, read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -2031,15 +2060,17 @@
     "price_usd": 59.49,
     "power_levels_mw": "25 / 200",
     "input_voltage": "3-12.6V (1S-3S)",
-    "channels": 12
+    "channels": 12,
+    "power_draw": "5-6 W"
    },
    "_scraped_at": "2026-10-17",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-whoop-v2-vtx",
     "https://www.hd-zero.com/product-page/hdzero-whoop-lite-v2-vtx",
-    "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf"
+    "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf",
+    "https://docs.hd-zero.com/vtx-summary"
    ],
-   "note": "Second source 2026-09-23: HDZero's own page for this transmitter - which lives at /product-page/hdzero-whoop-lite-v2-vtx although the product on it is the Whoop V2 - prints a Whoop V2 / Whoop Lite comparison table: RF Power Output 25 mW / 200 mW, Frequency Range 5.725-5.850 GHz, RF Connector Secured U.FL with brass bar, Video Connector MIPI, Size 31x31 mm (29x29 inner), Mounting Pattern 25.5x25.5 mm (M2), Weight 5.4 g (5.1 g w/o wires), Board Thickness ~1.6 mm, Power Input 3-12.6 V (1S-3S), Power Consumption 5-6 W. It confirms the 200 mW, the 25.5x25.5 pattern and the 5.4 g this page already published. weight_g stays 5.4, the as-shipped figure with the pre-soldered harness; the HDZero VTX User Manual v1.1 (linked from hd-zero.com/document), p2 'HDZero VTX Products' table rounds the same board to 5.3 grams and the product page gives 5.1 g without wires. channels is the manual's 'All VTXes support R1-R8, E1, F1, F2 and F4 channels' (p8). HDZero states this VTX has no reverse-polarity protection circuit, which it calls the number one failure cause."
+   "note": "Second source 2026-09-23: HDZero's own page for this transmitter - which lives at /product-page/hdzero-whoop-lite-v2-vtx although the product on it is the Whoop V2 - prints a Whoop V2 / Whoop Lite comparison table: RF Power Output 25 mW / 200 mW, Frequency Range 5.725-5.850 GHz, RF Connector Secured U.FL with brass bar, Video Connector MIPI, Size 31x31 mm (29x29 inner), Mounting Pattern 25.5x25.5 mm (M2), Weight 5.4 g (5.1 g w/o wires), Board Thickness ~1.6 mm, Power Input 3-12.6 V (1S-3S), Power Consumption 5-6 W. It confirms the 200 mW, the 25.5x25.5 pattern and the 5.4 g this page already published. weight_g stays 5.4, the as-shipped figure with the pre-soldered harness; the HDZero VTX User Manual v1.1 (linked from hd-zero.com/document), p2 'HDZero VTX Products' table rounds the same board to 5.3 grams and the product page gives 5.1 g without wires. channels is the manual's 'All VTXes support R1-R8, E1, F1, F2 and F4 channels' (p8). HDZero states this VTX has no reverse-polarity protection circuit, which it calls the number one failure cause. power_draw is the maker's own supply figure, 'Power Consumption: 5~6W' in the Whoop V2 column, read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -2056,15 +2087,17 @@
     "price_usd": 119.99,
     "power_levels_mw": "25 / 200",
     "input_voltage": "3-12.6V (1S-3S)",
-    "channels": 12
+    "channels": 12,
+    "power_draw": "5-6 W"
    },
    "_scraped_at": "2026-10-17",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-whoop-v2-bundle-nano-v3-camera",
     "https://www.hd-zero.com/product-page/hdzero-whoop-v2-bundle",
-    "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf"
+    "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf",
+    "https://docs.hd-zero.com/vtx-summary"
    ],
-   "note": "Second source 2026-09-23: this bundle's radio is the Whoop V2 VTX, and HDZero's own bundle page reprints that transmitter's comparison table in full - 25 mW / 200 mW, 5.725-5.850 GHz, Secured U.FL with brass bar, 31x31 mm (29x29 inner), Mounting Pattern 25.5x25.5 mm (M2), 5.4 g (5.1 g w/o wires), Power Input 3-12.6 V (1S-3S) - beside the Nano V3 camera's own (14x16x14mm, 2.2gram, 0.5 inch CMOS, FOV D:155 H:126 V:94). The columns hold the transmitter, so weight_g stays the 5.4 g of the module and not the bundle, which also contains the camera, a dipole antenna and a 40mm MIPI cable. channels is the manual's R1-R8, E1, F1, F2, F4 (p8)."
+   "note": "Second source 2026-09-23: this bundle's radio is the Whoop V2 VTX, and HDZero's own bundle page reprints that transmitter's comparison table in full - 25 mW / 200 mW, 5.725-5.850 GHz, Secured U.FL with brass bar, 31x31 mm (29x29 inner), Mounting Pattern 25.5x25.5 mm (M2), 5.4 g (5.1 g w/o wires), Power Input 3-12.6 V (1S-3S) - beside the Nano V3 camera's own (14x16x14mm, 2.2gram, 0.5 inch CMOS, FOV D:155 H:126 V:94). The columns hold the transmitter, so weight_g stays the 5.4 g of the module and not the bundle, which also contains the camera, a dipole antenna and a 40mm MIPI cable. channels is the manual's R1-R8, E1, F1, F2, F4 (p8). power_draw is the maker's own supply figure, 'Power Consumption: 5~6W' in the Whoop V2 column (the VTX in this bundle), read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -2770,14 +2803,15 @@
     "price_usd": 47.99,
     "channels": 48,
     "input_voltage": "7-36V DC",
-    "power_levels_mw": "25 / 200 / 500 / 800"
+    "power_levels_mw": "25 / 200 / 500 / 800",
+    "power_draw": "at 12 V: 40 mA pit mode, 95 mA at 25 mW, 185 mA at 200 mW, 250 mA at 500 mW, 380 mA at 800 mW"
    },
    "_scraped_at": "2026-10-17",
    "sources": [
     "https://www.racedayquads.com/products/rush-fpv-tank-mini-25-800mw-20x20-5-8ghz-vtx-mmcx",
     "https://rushfpv.net/products/tank-ultimate-mini-vtx"
    ],
-   "note": "RushFPV calls this one the Tank Ultimate MINI2. Its spec block: 7-36 V DC in, 5 V 1 A out, 48 channels (37 on the US version), power PIT/25/200/500/800 mW, installation hole 20 x 20 mm, board 28 x 28 x 3.3 mm, and 'Weight: 4.46 g (without dust cover), 5.4 g (with dust cover)'. The 4.46 g this page shows is the first of those two; which of them the column should hold is the open question about a part weighed with and without an accessory, so the figure is left as it is and both are recorded here."
+   "note": "RushFPV calls this one the Tank Ultimate MINI2. Its spec block: 7-36 V DC in, 5 V 1 A out, 48 channels (37 on the US version), power PIT/25/200/500/800 mW, installation hole 20 x 20 mm, board 28 x 28 x 3.3 mm, and 'Weight: 4.46 g (without dust cover), 5.4 g (with dust cover)'. The 4.46 g this page shows is the first of those two; which of them the column should hold is the open question about a part weighed with and without an accessory, so the figure is left as it is and both are recorded here. power_draw is the maker's own supply figure, '12V Input Current: 40mA@Pitmode, 95mA@25mW, 185mA@200mW, 250mA@500mW, 380mA@800mW', read 2026-10-09 off the maker's product JSON; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
