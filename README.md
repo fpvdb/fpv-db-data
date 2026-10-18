@@ -25,6 +25,16 @@ JSON files carry nested structures intact; in CSV, nested fields
 (`thrust_table`, `recommended_battery`) are JSON-encoded strings and
 lists are `|`-joined.
 
+## Mirrors
+
+Monthly snapshots of the same tables, with the thrust bench rows split into
+their own `motor_thrust` table (one row per KV, prop, voltage and throttle step):
+
+- Hugging Face: [fpvdb/fpv-components](https://huggingface.co/datasets/fpvdb/fpv-components) (JSONL, browsable in Data Studio)
+- Kaggle: [fpvdbcom/fpv-drone-components](https://www.kaggle.com/datasets/fpvdbcom/fpv-drone-components) (CSV)
+
+This repository stays the canonical, daily copy.
+
 ## License
 
 **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** — free for

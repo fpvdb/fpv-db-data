@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17",
+ "generated": "2026-10-18",
  "count": 101,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
@@ -13,22 +13,24 @@
     "weight_no_battery_g": 385,
     "prop_size_in": 6,
     "prop_mount": "M5",
-    "motors": "Axisflying AE2306.5 1800KV",
+    "motors": "Axisflying AF223 1610KV",
     "vtx_system": "DJI Vista/Nebula HD (Walksnail variant on Kolas 7)",
-    "typical_current_a": 10,
+    "typical_current_a": 4.2,
     "recommended_battery": {
      "cells": "6S",
-     "capacity_mah": 2200,
-     "range_mah": "1800-3000",
+     "capacity_mah": 1300,
+     "range_mah": "1300-1700",
      "connector": "XT60",
      "chemistry": "LiPo / Li-ion"
     },
-    "wheelbase_mm": 245
+    "wheelbase_mm": 245,
+    "flight_controller": "F722 35-40A 6S AIO",
+    "receiver_options": "ExpressLRS 2.4GHz or TBS Crossfire"
    },
    "sources": [
     "https://www.getfpv.com/axisflying-kolas-6-long-range-6-bnf-hd-drone-6s.html"
    ],
-   "note": "Foldable arms, 245mm. BNF ~385g with electronics (frame alone 138g). Gemfan 6030 folding props."
+   "note": "Foldable arms, 245mm. BNF ~385g with electronics (frame alone 138g). Gemfan 6030 folding props. flight_controller, receiver_options read 2026-10-17 off the cited GetFPV listing's spec block. Motors and recommended pack follow the cited GetFPV listing since 2026-10-17 (owner's call): it prints \"Motors: AF223 1610KV 6S\" twice and \"Recommended Battery Size: 1300-1700mAh 6S\" with \"Flight Time: Up to 15 Minutes\"; the AE2306.5 1800KV and 2200mAh figures this page carried until then came from the 2026-09-02 bulk fill and are on no source we have. Axisflying no longer lists the Kolas 6. typical_current_a is our cruise estimate from that pack and 15 minutes"
   },
   {
    "type": "quad",
@@ -518,12 +520,15 @@
      "range_mah": "450-650",
      "connector": "XT30",
      "chemistry": "LiPo (LAVA 75C)"
-    }
+    },
+    "wheelbase_mm": 93.7,
+    "flight_controller": "F4 2-3S 20A AIO FC V1",
+    "receiver_options": "ELRS, TBS"
    },
    "sources": [
     "https://www.getfpv.com/betafpv-pavo20-pro-cinewhoop-no-fpv-system.html"
    ],
-   "note": "Weight without battery and air unit. Gemfan 2218 3-blade props."
+   "note": "Weight without battery and air unit. Gemfan 2218 3-blade props. wheelbase_mm, flight_controller, receiver_options read 2026-10-17 off the cited GetFPV listing's spec block."
   },
   {
    "type": "quad",
@@ -1002,12 +1007,14 @@
      "connector": "XT60",
      "chemistry": "LiPo"
     },
-    "wheelbase_mm": 210
+    "wheelbase_mm": 210,
+    "camera": "Caddx Ratel 1200TVL HDR",
+    "flight_controller": "Mini Magnum III F4"
    },
    "sources": [
     "https://www.getfpv.com/emax-hawk-pro-5-4s-6s-fpv-racing-drone-1700kv-2400kv-pnp.html"
    ],
-   "note": "Legacy racing platform, 210mm wheelbase. Battery range is class-standard."
+   "note": "Legacy racing platform, 210mm wheelbase. Battery range is class-standard. camera, flight_controller read 2026-10-17 off the cited GetFPV listing's spec block."
   },
   {
    "type": "quad",
@@ -1055,12 +1062,14 @@
      "connector": "PH2.0 x2",
      "chemistry": "LiHV (80C)"
     },
-    "wheelbase_mm": 115
+    "wheelbase_mm": 115,
+    "camera": "RunCam Nano 2 1/3\" 700TVL CMOS",
+    "flight_controller": "F4 (MATEKF411RX Firmware)"
    },
    "sources": [
     "https://www.getfpv.com/emax-tinyhawk-ii-freestyle-2s-micro-brushless-fpv-drone-frsky-bnf.html"
    ],
-   "note": "Runs two 1S 450 packs in series. Avan Rush 2.5in props, 115mm wheelbase."
+   "note": "Runs two 1S 450 packs in series. Avan Rush 2.5in props, 115mm wheelbase. camera, flight_controller read 2026-10-17 off the cited GetFPV listing's spec block."
   },
   {
    "type": "quad",
@@ -1217,12 +1226,14 @@
      "range_mah": "450-650",
      "connector": "XT30",
      "chemistry": "LiPo"
-    }
+    },
+    "camera": "Flywoo 1.2g 1S Nano camera V2",
+    "flight_controller": "GOKU Versatile F405 2S 12A AIO"
    },
    "sources": [
     "https://www.getfpv.com/flywoo-firefly-nano-baby-20-2s-micro-quadcopter-bnf-analog.html"
    ],
-   "note": "Battery range/connector are class-standard values, not confirmed by Flywoo spec table."
+   "note": "Battery range/connector are class-standard values, not confirmed by Flywoo spec table. camera, flight_controller read 2026-10-17 off the cited GetFPV listing's spec block."
   },
   {
    "type": "quad",
@@ -1295,12 +1306,13 @@
      "range_mah": "1300-3000 or Li-ion",
      "connector": "XT60",
      "chemistry": "LiPo / Li-ion"
-    }
+    },
+    "flight_controller": "GOKUF722"
    },
    "sources": [
     "https://www.getfpv.com/flywoo-mr-croc-6-6s-fpv-quadcopter-w-gps-dji-digital-hd-fpv-system.html"
    ],
-   "note": "With GPS. 7in variant 498g (NIN 2806.5). Battery range is class-standard."
+   "note": "With GPS. 7in variant 498g (NIN 2806.5). Battery range is class-standard. flight_controller read 2026-10-17 off the cited GetFPV listing's spec block."
   },
   {
    "type": "quad",
@@ -2063,12 +2075,13 @@
      "connector": "XT30",
      "chemistry": "LiPo"
     },
-    "wheelbase_mm": 140
+    "wheelbase_mm": 140,
+    "flight_controller": "Zeus35 Pro AIO"
    },
    "sources": [
     "https://www.getfpv.com/hglrc-veyron30cr-3-cinewhoop-bnf-hd-w-caddx-polar-micro-vista-6s-1800kv-tbs-crossfire.html"
    ],
-   "note": "140mm wheelbase."
+   "note": "140mm wheelbase. flight_controller read 2026-10-17 off the cited GetFPV listing's spec block."
   },
   {
    "type": "quad",
@@ -2144,12 +2157,13 @@
      "connector": "XT30",
      "chemistry": "LiPo / Li-ion"
     },
-    "wheelbase_mm": 178
+    "wheelbase_mm": 178,
+    "flight_controller": "SucceX-E mini F4"
    },
    "sources": [
     "https://www.getfpv.com/iflight-chimera4-4-4s-lr-hd-freestyle-quadcopter-w-caddx-nebula-nano-digital-hd-system-bnf-11905.html"
    ],
-   "note": "178mm wheelbase."
+   "note": "178mm wheelbase. flight_controller read 2026-10-17 off the cited GetFPV listing's spec block."
   },
   {
    "type": "quad",
@@ -2204,7 +2218,7 @@
    "sources": [
     "https://www.getfpv.com/iflight-cidora-sl5-5-fpv-racing-drone-pnp.html"
    ],
-   "note": "V2.1 HD version 445.4g. Squashed-X frame."
+   "note": "V2.1 HD version 445.4g. Squashed-X frame. The cited GetFPV listing is the older analog PNP (XING CAMO X2306 2450KV 4S or 1700KV 6S, 215 mm wheelbase, 384.2 g without the GoPro mount), not the V2.1 HD this page describes; none of the HD figures here are on it, and iFlight no longer lists the Cidora SL5"
   },
   {
    "type": "quad",
@@ -2224,12 +2238,15 @@
      "capacity_mah": 900,
      "connector": "quick-release shell",
      "chemistry": "LiPo (25C)"
-    }
+    },
+    "wheelbase_mm": 81,
+    "flight_controller": "Defender 16/20 F411 AIO"
    },
    "sources": [
-    "https://www.getfpv.com/iflight-defender-16-1-6-sub250-drone-hd-w-dji-o3-2s.html"
+    "https://www.getfpv.com/iflight-defender-16-1-6-sub250-drone-hd-w-dji-o3-2s.html",
+    "https://shop.iflight.com/Defender-16-Motor-Pro2018"
    ],
-   "note": "Dry weight derived: 120g takeoff minus 48.5g pack. Proprietary crash-protected battery shell."
+   "note": "Dry weight derived: 120g takeoff minus 48.5g pack. Proprietary crash-protected battery shell. wheelbase_mm, flight_controller read 2026-10-17 off the cited GetFPV listing's spec block. Motor: iFlight's own Defender 16 Motor page says 'March 5, 2024 : Defender 16 motor upgraded from 1002 14000KV motor to 1103 14000KV motor'; the GetFPV listing still prints the 1002 and a 128g takeoff weight."
   },
   {
    "type": "quad",
@@ -2302,12 +2319,15 @@
      "range_mah": "1300 (4S) / 1050 (6S)",
      "connector": "XT60",
      "chemistry": "LiPo"
-    }
+    },
+    "wheelbase_mm": 145,
+    "camera": "RunCam Nano2 2.1MM NTSC 4:3",
+    "flight_controller": "SucceX-E mini F7"
    },
    "sources": [
     "https://www.getfpv.com/iflight-green-hornet-v3-3-bnf-cinewhoop-w-runcam-nano-2-pnp-4s-6s.html"
    ],
-   "note": "Bumper-guard cinewhoop, RunCam Nano 2."
+   "note": "Bumper-guard cinewhoop, RunCam Nano 2. wheelbase_mm, camera, flight_controller read 2026-10-17 off the cited GetFPV listing's spec block."
   },
   {
    "type": "quad",
@@ -2475,12 +2495,14 @@
      "connector": "XT60",
      "chemistry": "LiPo"
     },
-    "wheelbase_mm": 245
+    "wheelbase_mm": 245,
+    "flight_controller": "BLITZ F722",
+    "receiver_options": "DJI BNF, ELRS, or TBS Crossfire"
    },
    "sources": [
     "https://www.getfpv.com/iflight-nazgul5-v3-hd-5-fpv-freestyle-bnf-w-dji-o3-air-unit-6s.html"
    ],
-   "note": "HD O3 version. Wheelbase 245mm, Nazgul 5140 props."
+   "note": "HD O3 version. Wheelbase 245mm, Nazgul 5140 props. flight_controller, receiver_options read 2026-10-17 off the cited GetFPV listing's spec block. The cited GetFPV listing does not print the 435 g dry or 660 g all-up weights shown here; it gives \"Takeoff Weight: Approx. 620 g\" with no pack named, and a 255 mm wheelbase against the 245 mm here. Both pages' figures are kept until an iFlight source turns up (iFlight no longer lists the Nazgul5 V3)"
   },
   {
    "type": "quad",
@@ -2500,12 +2522,14 @@
      "range_mah": "650-850",
      "connector": "XT30",
      "chemistry": "LiPo"
-    }
+    },
+    "wheelbase_mm": 108,
+    "flight_controller": "SucceX-D Whoop AIO V3.2"
    },
    "sources": [
     "https://www.getfpv.com/iflight-protek25-pusher-2-5-4s-hd-bnf-cinewhoop-w-caddx-polar-vista-digital-hd-system.html"
    ],
-   "note": "Pusher variant 143.8g; standard ProTek25 194.3g with 1404 5500KV."
+   "note": "Pusher variant 143.8g; standard ProTek25 194.3g with 1404 5500KV. wheelbase_mm, flight_controller read 2026-10-17 off the cited GetFPV listing's spec block."
   },
   {
    "type": "quad",
@@ -2676,7 +2700,7 @@
     "weight_no_battery_g": 420,
     "prop_size_in": 5.1,
     "prop_mount": "M5",
-    "motors": "SpeedyBee 2306.5 1800KV",
+    "motors": "SpeedyBee 2306 1900KV",
     "vtx_system": "DJI O3 (analog variant available)",
     "typical_current_a": 13,
     "recommended_battery": {
@@ -2685,12 +2709,14 @@
      "range_mah": "1050-1500",
      "connector": "XT60",
      "chemistry": "LiPo"
-    }
+    },
+    "wheelbase_mm": 226,
+    "receiver_options": "PNP, ELRS, or TBS Crossfire"
    },
    "sources": [
     "https://www.getfpv.com/speedybee-master-5-v2-drone.html"
    ],
-   "note": "HD O3 version 420g (analog ~410g)."
+   "note": "HD O3 version 420g (analog ~410g). wheelbase_mm, receiver_options read 2026-10-17 off the cited GetFPV listing's spec block. Motors follow the cited GetFPV listing since 2026-10-17 (owner's call): it prints \"Motors: 2306-1900KV (6S)\" for both the O3 and analog versions; the 2306.5 1800KV this page carried came from the 2026-09-02 bulk fill. SpeedyBee no longer lists the Master 5 V2"
   },
   {
    "type": "quad",
@@ -2745,7 +2771,7 @@
    "sources": [
     "https://www.getfpv.com/sub250-nanofly20-2-drone-hd-w-dji-o4.html"
    ],
-   "note": "2S O4 HD version 77g; 1S analog 33g. HQ 51mm props, 88mm wheelbase."
+   "note": "2S O4 HD version 77g; 1S analog 33g. HQ 51mm props, 88mm wheelbase. The cited GetFPV listing now returns 404 with no archived copy, and sub250.com prints the NanoFly20 specs only as images; the figures here are kept as first recorded on 2026-09-02"
   },
   {
    "type": "quad",
@@ -2794,12 +2820,13 @@
      "connector": "XT60",
      "chemistry": "LiPo"
     },
-    "wheelbase_mm": 225
+    "wheelbase_mm": 232,
+    "flight_controller": "Pacer single-sided F7 FC"
    },
    "sources": [
     "https://www.getfpv.com/t-motor-ft5-mkii-v2-hd-5-6s-fpv-freestyle-drone-w-dji-air-unit-pnp.html"
    ],
-   "note": "Battery range is class-standard - T-Motor does not publish a recommendation. T4943 props, 225mm."
+   "note": "Battery range is class-standard - T-Motor does not publish a recommendation. T4943 props. Wheelbase 232mm (the listing's \"Wheelbase: 232mm\"; 225 is the body width, \"Body Size: 233mmx225mmx67mm\"; corrected 2026-10-17). flight_controller read 2026-10-17 off the cited GetFPV listing's spec block."
   }
  ]
 }

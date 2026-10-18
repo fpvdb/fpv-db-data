@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17",
+ "generated": "2026-10-18",
  "count": 159,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
@@ -14,12 +14,16 @@
     "max_power_mw": 600,
     "mount_mm": "20x20mm",
     "antenna_connector": "MMCX / U.FL",
-    "price_usd": 26.49
+    "price_usd": 26.49,
+    "power_levels_mw": "25 / 200 / 400 / 600"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
-    "https://www.racedayquads.com/products/akk-fx3-ultimate-mini-20x20-25-600mw-5-8ghz-vtx-w-smart-audio-mmcx-u-fl"
-   ]
+    "https://www.racedayquads.com/products/akk-fx3-ultimate-mini-20x20-25-600mw-5-8ghz-vtx-w-smart-audio-mmcx-u-fl",
+    "https://www.akktek.com/akk-fx3-ultimate.html",
+    "https://docs.google.com/document/d/1B97Ol2UQOWj8A2ZzzsRcIU3JlOwlX6hYAzeutjb6c1E/edit"
+   ],
+   "note": "power_levels_mw is AKK's own: the four levels its FX3-ultimate product page lists, and the power labels of the FX3-ultimate block in AKK's VTX table document (both read 2026-10-17)."
   },
   {
    "type": "vtx",
@@ -34,12 +38,15 @@
     "channels": 37,
     "antenna_connector": "MMCX",
     "weight_g": 8.8,
-    "price_usd": 28.99
+    "price_usd": 28.99,
+    "power_levels_mw": "25 / 200 / 600 / 1000"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
-    "https://www.racedayquads.com/products/akk-infinite-dvr-30x30-25-1000mw-5-8ghz-vtx-w-smart-audio-mmcx"
-   ]
+    "https://www.racedayquads.com/products/akk-infinite-dvr-30x30-25-1000mw-5-8ghz-vtx-w-smart-audio-mmcx",
+    "https://docs.google.com/document/d/1B97Ol2UQOWj8A2ZzzsRcIU3JlOwlX6hYAzeutjb6c1E/edit"
+   ],
+   "note": "power_levels_mw is the power labels of the 'Infinite DVR VTX Table' block in AKK's own VTX table document, read 2026-10-17; that block also lists 37 channels, as this page does. The table itself is not offered as a Betaflight table here: its '1000' label is four characters and Betaflight takes at most three, and the maker's table is published only as the maker wrote it."
   },
   {
    "type": "vtx",
@@ -57,9 +64,11 @@
     "price_usd": 54.99
    },
    "sources": [
-    "https://darwinfpv.com/products/darwinfpv-akk-5-8g-1600mw-1-6w-vtx"
+    "https://darwinfpv.com/products/darwinfpv-akk-5-8g-1600mw-1-6w-vtx",
+    "https://www.akktek.com/akk-race-ranger-n-a-for-us-customer.html",
+    "https://docs.google.com/document/d/1B97Ol2UQOWj8A2ZzzsRcIU3JlOwlX6hYAzeutjb6c1E/edit"
    ],
-   "note": "Read 2026-09-24 off DarwinFPV's shop, and it is an AKK radio: the board is printed 'AKK RACE RANGER' with AKK's logo and it ships in an AKK box, both read at full resolution in the brand's own photographs, so the brand column holds AKK and not the shop that sells it. This matters because akktek.com has been unreadable since the thirteenth burst - every path answers a Cloudflare interactive challenge - and this is the first AKK part in this catalogue whose figures come from a stated spec block rather than from the US retail scrape's title. The block, published in full on the listing: 'Input voltage: 7V-28V', 'Output power: 200mW 400mW 800mW 1600mW', '(International version)', 'Antenna connector: MMCX', 'Cable connector: JST.6pin', 'Dimensions: 36(W) x 36(D)mm, 30.5 x 30.5mm(hole)', 'Power supply: 5V camera@under 500mA max', 'Weigh: 9.6g(excluding antenna)', SmartAudio with a one-button setup and a microphone. mount_mm takes the hole spacing and not the 36x36 body. weight_g is deliberately empty although the block states 9.6 g: the brand's own scale photograph of this module with its cable reads 18.0 g, and a finned aluminium case this size is not a 9.6 g part with 8 g of cable, so the two figures are for two configurations the page does not distinguish - the seventh burst's kit-weight rule. It is the sixteenth-burst question, which of a kit's weights a column should hold, arriving on a part whose two figures differ by a factor of two."
+   "note": "Read 2026-09-24 off DarwinFPV's shop, and it is an AKK radio: the board is printed 'AKK RACE RANGER' with AKK's logo and it ships in an AKK box, both read at full resolution in the brand's own photographs, so the brand column holds AKK and not the shop that sells it. This matters because akktek.com has been unreadable since the thirteenth burst - every path answers a Cloudflare interactive challenge - and this is the first AKK part in this catalogue whose figures come from a stated spec block rather than from the US retail scrape's title. The block, published in full on the listing: 'Input voltage: 7V-28V', 'Output power: 200mW 400mW 800mW 1600mW', '(International version)', 'Antenna connector: MMCX', 'Cable connector: JST.6pin', 'Dimensions: 36(W) x 36(D)mm, 30.5 x 30.5mm(hole)', 'Power supply: 5V camera@under 500mA max', 'Weigh: 9.6g(excluding antenna)', SmartAudio with a one-button setup and a microphone. mount_mm takes the hole spacing and not the 36x36 body. weight_g is deliberately empty although the block states 9.6 g: the brand's own scale photograph of this module with its cable reads 18.0 g, and a finned aluminium case this size is not a 9.6 g part with 8 g of cable, so the two figures are for two configurations the page does not distinguish - the seventh burst's kit-weight rule. It is the sixteenth-burst question, which of a kit's weights a column should hold, arriving on a part whose two figures differ by a factor of two. AKK's own product page (akktek.com, read 2026-10-17) now sells an 'Updated Version' that starts at 25 mW (25 / 400 / 800 / 1600); the levels above are the version DarwinFPV lists. AKK's VTX table document carries a Race Ranger block (labels 200 400 800 1600) that is not offered as a Betaflight table here, because '1600' is four characters and Betaflight takes at most three."
   },
   {
    "type": "vtx",
@@ -72,7 +81,7 @@
     "max_power_mw": 1000,
     "price_usd": 32.49
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/rdq-mach-3-video-transmitter-25-1000mw-5-8ghz-vtx-choose-version"
    ]
@@ -448,7 +457,7 @@
     "channels": 8,
     "input_voltage": "5V"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-c04-camera-and-vtx-module-cetus-v2",
     "https://betafpv.com/products/c04-camera-and-vtx-module"
@@ -530,7 +539,7 @@
     "power_levels_mw": "25 / 100",
     "channels": 3
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/walksnail-ascent-lite-vtx-kit",
     "https://www.caddxfpv.com/products/walksnail-ascent-lite-kit",
@@ -546,21 +555,21 @@
    "specs": {
     "frequency_range": "5.725-5.850 GHz",
     "system": "Walksnail",
-    "max_power_mw": 2000,
     "mount_mm": "25.5x25.5mm / 20x20mm",
     "antenna_connector": "MMCX",
     "weight_g": 52.0,
     "price_usd": 203.49,
-    "channels": 4
+    "channels": 4,
+    "max_eirp_dbm": 33
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/walksnail-avatar-gt2-kit",
     "https://www.caddxfpv.com/products/walksnail-avatar-gt2-kit",
     "https://wiki.caddxfpv.com/en/Avatar-HD-Series/Air-Unit/GT2",
     "https://cdn.shopify.com/s/files/1/0036/3921/4169/files/Avatar_GT2_Kit_User_Manual_EN_CHS_V1.1.pdf"
    ],
-   "note": "Second source 2026-09-23: Walksnail's own product page, whose spec block confirms every figure this page already carried off the retail listing - 5.725-5.850 GHz, 'Mounting Hole 25.5*25.5mm; 20*20mm', MMCX, '52g (Antenna Not Included)' - and adds 4 channels, an 11.1-25.2 V input and a 34*36*23.5mm body. The power figure is the one thing the two sources state differently in kind: the retail listing sells it as a 2 W radio, Walksnail's wiki calls it 'intelligent adaptive transmission power of up to 2 W', and the spec block's only numeric power row is 'Transmission Power (EIRP) FCC: <=33dBm', which is 1995 mW. 2 W is kept here because both manufacturer statements name it as transmission power, but note that the Avatar GT - the GT2's predecessor, one page over - is queued for the opposite reading of the same pair of numbers, and that asymmetry is recorded in docs/loop-state.md under 'Needs a human'. The GT2's manual adds that output is limited to 10 mW while standby mode is on."
+   "note": "Second source 2026-09-23: Walksnail's own product page, whose spec block confirms every figure this page already carried off the retail listing - 5.725-5.850 GHz, 'Mounting Hole 25.5*25.5mm; 20*20mm', MMCX, '52g (Antenna Not Included)' - and adds 4 channels, an 11.1-25.2 V input and a 34*36*23.5mm body. The power figure is the one thing the two sources state differently in kind: the retail listing sells it as a 2 W radio, Walksnail's wiki calls it 'intelligent adaptive transmission power of up to 2 W', and the spec block's only numeric power row is 'Transmission Power (EIRP) FCC: <=33dBm', which is 1995 mW. 2 W is kept here because both manufacturer statements name it as transmission power, but note that the Avatar GT - the GT2's predecessor, one page over - is queued for the opposite reading of the same pair of numbers, and that asymmetry is recorded in docs/loop-state.md under 'Needs a human'. The GT2's manual adds that output is limited to 10 mW while standby mode is on. Since 2026-10-17 (owner) the maker's EIRP ceiling has its own column: max_eirp_dbm 33, the spec block's 'Transmission Power (EIRP) FCC: <=33dBm'; the 2000 mW max_power_mw carried until then was that ceiling restated (33 dBm is 1995 mW) and is cleared, because the maker states no conducted output for this unit. max_power_mw still holds conducted milliwatts only and stays empty here."
   },
   {
    "type": "vtx",
@@ -576,7 +585,7 @@
     "max_power_mw": 500,
     "channels": 8
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/walksnail-avatar-hd-mini-1s-kit",
     "https://www.caddxfpv.com/products/walksnail-avatar-hd-mini-1s-kit",
@@ -635,7 +644,7 @@
     "weight_g": 68.0,
     "price_usd": 1399.0
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/cubepilot-herelink-blue-air-unit-v1-1"
    ]
@@ -653,7 +662,7 @@
     "weight_g": 68.0,
     "price_usd": 3999.0
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/cubepilot-herelink-blue-bundle-v1-1"
    ]
@@ -830,7 +839,7 @@
     "max_power_mw": 700,
     "power_levels_mw": "25 / 50 / 100 / 200 / 400 / 700"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/dji-o4-air-unit",
     "https://dl.djicdn.com/downloads/DJI_O4_Air_Unit_Series/UM/DJI_O4_Air_Unit_Series_User_Manual_v1.0_en.pdf"
@@ -850,7 +859,7 @@
     "max_power_mw": 1200,
     "power_levels_mw": "25 / 50 / 100 / 200 / 400 / 700 / 1200"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/dji-o4-air-unit-pro",
     "https://dl.djicdn.com/downloads/DJI_O4_Air_Unit_Series/UM/DJI_O4_Air_Unit_Series_User_Manual_v1.0_en.pdf"
@@ -870,7 +879,7 @@
     "power_levels_mw": "25 / 50 / 100 / 200 / 400 / 700 / 1200",
     "mount_mm": "20x20mm / 25.5x25.5mm"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/dji-o4-air-unit-pro-transmission-module",
     "https://dl.djicdn.com/downloads/DJI_O4_Air_Unit_Series/UM/DJI_O4_Air_Unit_Series_User_Manual_v1.0_en.pdf",
@@ -910,7 +919,7 @@
     "mount_mm": "25.5x25.5mm",
     "input_voltage": "5V"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/emax-wyvern-link-alpha-openipc-100mw-vtx",
     "https://shop.emax-usa.com/products/wyvern-link-alpha-openipc-100mw-video-transmitter",
@@ -930,7 +939,7 @@
     "price_usd": 107.99,
     "mount_mm": "30.5x30.5mm"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/emax-wyvern-link-alpha-v1-openipc-800mw-vtx",
     "https://shop.emax-usa.com/products/wyvern-link-alpha-openipc-800mw-video-transmitter",
@@ -950,7 +959,7 @@
     "weight_g": 13.76,
     "price_usd": 89.99
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/emax-wyvern-link-openipc-200mw-vtx",
     "https://shop.emax-usa.com/products/wyvern-link-alpha-openipc-200mw-video-transmitter-vtx",
@@ -986,7 +995,7 @@
     "weight_g": 13.0,
     "price_usd": 74.99
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/fat-shark-aura-vtx-ndaa"
    ]
@@ -1006,7 +1015,7 @@
     "weight_g": 3.0,
     "price_usd": 19.99
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/flywoo-goku-hm600-25-600mw-5-8ghz-20x20-25x25-30x30-vtx-u-fl"
    ]
@@ -1025,7 +1034,7 @@
     "weight_g": 3.0,
     "price_usd": 29.99
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/flywoo-goku-hm850-16x16-20x20-25x25-25-850mw-5-8ghz-vtx-u-fl"
    ]
@@ -1046,7 +1055,7 @@
     "power_levels_mw": "25 / 200",
     "input_voltage": "8-26V (3-6S)"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-hdzero-hd-720p-25-200mw-digital-vtx-race-edition",
     "https://www.foxeer.com/foxeer-hdzero-hd-720p-digital-vtx-race-edition-g-509"
@@ -1265,7 +1274,7 @@
     "antenna_connector": "U.FL",
     "price_usd": 29.99
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-reaper-nano-25-350mw-5-8g-micro-vtx-u-fl"
    ],
@@ -1569,7 +1578,7 @@
     "system": "analog",
     "max_power_mw": 3000,
     "power_levels_mw": "25 / 200 / 600 / 1600 / 3000",
-    "frequency_range": "4.9-5.8 GHz",
+    "frequency_range": "4990-5945 MHz",
     "channels": 80,
     "input_voltage": "7-36V (2-8S)",
     "mount_mm": "20x20mm M2 / 30.5x30.5mm M2",
@@ -1580,7 +1589,7 @@
    "sources": [
     "https://geprc.com/product/geprc-maten-5-8g-3w-vtx-pro/"
    ],
-   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Block lines: 'Output power: 25mW/200mW/600mW/1600mW/3000mW/Pit mode', 'Frequency：4.9G-5.8G', 'Channels: 80CH', 'Input voltage: DC7-36V（2-8S Battery）', 'Mounting Hole Size：20x20mm(M2),30.5×30.5mm(M2)', 'Antenna Connector: MMCX', 'Weight: 21.1g', 'Dimension: 36.3×36.3×15.1mm'. Same shell and mounting as the 2.5W PRO, dual-core amplifier. frequency_range is the brand's own '4.9G-5.8G' written as a span; its 80-channel sibling states the same coverage as 4884-6184MHz, but this page does not, so the figure is not borrowed across pages."
+   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Block lines: 'Output power: 25mW/200mW/600mW/1600mW/3000mW/Pit mode', 'Frequency：4.9G-5.8G', 'Channels: 80CH', 'Input voltage: DC7-36V（2-8S Battery）', 'Mounting Hole Size：20x20mm(M2),30.5×30.5mm(M2)', 'Antenna Connector: MMCX', 'Weight: 21.1g', 'Dimension: 36.3×36.3×15.1mm'. Same shell and mounting as the 2.5W PRO, dual-core amplifier. frequency_range is the brand's own '4.9G-5.8G' written as a span; its 80-channel sibling states the same coverage as 4884-6184MHz, but this page does not, so the figure is not borrowed across pages. Frequency range is the edges GEPRC's own Betaflight CLI dump for this module prints, set 2026-10-17 (owner's call): the product block's \"Frequency: 4.9G-5.8G\" rounds the X band's 4990 MHz floor to 4.9 and stops at 5.8, while the dump tunes 5325-5945 MHz in its eight active bands (19 of 62 frequencies above 5800) and its notes publish the X (4990-5200) and H (5653-5933) bands commented out. Both edges here are printed in that dump"
   },
   {
    "type": "vtx",
@@ -1634,7 +1643,7 @@
     "system": "analog",
     "max_power_mw": 5000,
     "power_levels_mw": "300 / 600 / 1600 / 3000 / 5000",
-    "frequency_range": "4.9-5.8 GHz",
+    "frequency_range": "4990-5945 MHz",
     "channels": 80,
     "input_voltage": "7-36V (2-8S)",
     "mount_mm": "20x20mm M2 / 25.5x25.5mm M2",
@@ -1645,7 +1654,7 @@
    "sources": [
     "https://geprc.com/product/geprc-maten-5-8g-5w-vtx-pro/"
    ],
-   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Block lines: 'Output Power: 300mW/600mW/1600mW/3000mW/5000mW/Pit mode', 'Frequency：4.9-5.8GHz', 'Channels: 80CH', 'Input Voltage: DC7-36V（2-8S Battery）', 'Mounting Hole Size：20x20mm(M2),25.5×25.5mm(M2)', 'Antenna Connector: SMA', 'Weight: 49.5g（VTX only）', 'Dimension: 60×33.2×19.1mm'. The lowest step is 300 mW, not the 25 mW every other MATEN starts at, stated identically in the block and in the feature list ('Five adjustable power levels, up to 5000mW') - this module cannot be turned down to a bench-safe power, which is a fact about the part and not a typo to normalise. Same 60×33.2×19.1mm shell as the 1.2G 5W PRO."
+   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Block lines: 'Output Power: 300mW/600mW/1600mW/3000mW/5000mW/Pit mode', 'Frequency：4.9-5.8GHz', 'Channels: 80CH', 'Input Voltage: DC7-36V（2-8S Battery）', 'Mounting Hole Size：20x20mm(M2),25.5×25.5mm(M2)', 'Antenna Connector: SMA', 'Weight: 49.5g（VTX only）', 'Dimension: 60×33.2×19.1mm'. The lowest step is 300 mW, not the 25 mW every other MATEN starts at, stated identically in the block and in the feature list ('Five adjustable power levels, up to 5000mW') - this module cannot be turned down to a bench-safe power, which is a fact about the part and not a typo to normalise. Same 60×33.2×19.1mm shell as the 1.2G 5W PRO. Frequency range is the edges GEPRC's own Betaflight CLI dump for this module prints, set 2026-10-17 (owner's call): the product block's \"Frequency: 4.9G-5.8G\" rounds the X band's 4990 MHz floor to 4.9 and stops at 5.8, while the dump tunes 5325-5945 MHz in its eight active bands (19 of 62 frequencies above 5800) and its notes publish the X (4990-5200) and H (5653-5933) bands commented out. Both edges here are printed in that dump"
   },
   {
    "type": "vtx",
@@ -1749,7 +1758,7 @@
     "power_levels_mw": "0 / 25 / 100 / 300",
     "power_draw": "under 650 mA at 5 V (300 mW output)"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-ovx300-25-300mw-5-8ghz-u-fl-vtx-w-openvtx",
     "https://www.happymodel.cn/index.php/2021/07/27/happymodel-ovx300-ovx303-5-8g-40ch-300mw-vtx-openvtx/"
@@ -1774,7 +1783,7 @@
     "power_levels_mw": "0 / 25 / 100 / 300",
     "power_draw": "under 650 mA at 5 V (300 mW output)"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-ovx303-25-300mw-5-8ghz-u-fl-vtx-w-openvtx",
     "https://www.happymodel.cn/index.php/2021/07/27/happymodel-ovx300-ovx303-5-8g-40ch-300mw-vtx-openvtx/"
@@ -1885,7 +1894,7 @@
     "input_voltage": "2S-6S (1st batch 2S-4S)",
     "power_draw": "6-15 W"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-freestyle-30x30-25-1000mw-digital-hd-vtx-u-fl",
     "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf",
@@ -1910,7 +1919,7 @@
     "channels": 12,
     "power_draw": "6-15 W"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-freestyle-v2-20x20-25-1000mw-digital-hd-vtx-kit-u-fl",
     "https://www.hd-zero.com/product-page/hdzero-freestyle-v2-kit",
@@ -1937,7 +1946,7 @@
     "channels": 12,
     "power_draw": "6-15 W"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-freestyle-v2-20x20-25-1000mw-digital-hd-vtx-u-fl",
     "https://www.hd-zero.com/product-page/freestyle-v2-vtx",
@@ -1963,7 +1972,7 @@
     "input_voltage": "7-17V (2S-4S)",
     "power_draw": "5-6 W"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-race-v2-25-200mw-digital-hd-vtx-u-fl",
     "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf",
@@ -1989,7 +1998,7 @@
     "channels": 12,
     "power_draw": "5-6 W"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-race-v3-1080p-20x20-25-200mw-digital-hd-vtx",
     "https://www.hd-zero.com/product-page/hdzero-race-v3-vtx",
@@ -2014,7 +2023,7 @@
     "input_voltage": "2.8-13V",
     "weight_g": 4.9
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-whoop-lite-25x25-200mw-digital-hd-vtx-u-fl",
     "https://www.hd-zero.com/product-page/hdzero-whoop-lite-v2-vtx",
@@ -2037,7 +2046,7 @@
     "power_levels_mw": "25 / 200",
     "input_voltage": "2.8-13V"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-whoop-lite-bundle-kit",
     "https://www.hd-zero.com/product-page/hdzero-whoop-lite-v2-vtx",
@@ -2063,7 +2072,7 @@
     "channels": 12,
     "power_draw": "5-6 W"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-whoop-v2-vtx",
     "https://www.hd-zero.com/product-page/hdzero-whoop-lite-v2-vtx",
@@ -2090,7 +2099,7 @@
     "channels": 12,
     "power_draw": "5-6 W"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-whoop-v2-bundle-nano-v3-camera",
     "https://www.hd-zero.com/product-page/hdzero-whoop-v2-bundle",
@@ -2220,7 +2229,7 @@
     "power_levels_mw": "25 / 100 / 200 / 400 / 800",
     "input_voltage": "6-26V"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/hglrc-zeus-20x20-30x30-25-800mw-5-8ghz-vtx-with-mmcx-to-sma-adapter",
     "https://www.hglrc.com/products/hglrc-zeus-800mw-smart-mounting-20-20-30-30-vtx-for-fpv-racing-drone"
@@ -2244,7 +2253,7 @@
     "power_levels_mw": "25 / 100 / 200 / 350",
     "input_voltage": "5V"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/hglrc-zeus-nano-25-350mw-5-8ghz-16x16-20x20-25x25-vtx-u-fl",
     "https://www.hglrc.com/products/hglrc-zeus-nano-vtx-350mw-for-fpv-racing-drone"
@@ -2396,7 +2405,7 @@
     "power_levels_mw": "25 / 400 / 800 / 1600",
     "input_voltage": "7-34V"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/iflight-blitz-30x30-25-1000mw-5-8ghz-vtx-mmcx",
     "https://shop.iflight.com/BLITZ-1.6W-VTX-Adjustable-Pro1703",
@@ -2444,7 +2453,7 @@
     "https://shop.iflight.com/BLITZ-Whoop-1.6W-VTX-Adjustable-Pro1982",
     "https://shop.iflight.com/index.php?route=product/product/download&download_id=503"
    ],
-   "note": "iFlight's product page prints the labelled block: Input voltage: 7V~34V, Interface: IPEX, Power levels: PIT/25mW/400mW/800mW/1600mW, Channels: 44 (including Raceband), Mounting pattern: 25.5x25.5mm/Φ1.6, Lightweight: 16.5g (excluding antenna), VTX telemetry: IRC Tramp, and repeats the four steps as 'RC Tramp VTX table values: 25mW/400mW/800mW/1600mW'. power_levels_mw drops PIT, the way the rest of this column does. mount_mm is deliberately EMPTY: the brand states two different patterns for one board - the product page's 25.5x25.5mm/Φ1.6 and the manual's (B013728_BLITZ Whoop 1.6W VTX Instructions_20250506.pdf) 'Mounting Pattern: 25*25mm/Φ2mm' - and a column that has to choose between two manufacturer figures publishes neither. input_voltage is the manual's port line, 'VBAT: 2-8S, 7-34V DC Positive Input', which agrees with the page. The manual's LED legend contradicts its own spec line - it reads '1 flash=25mW, 2 flashes=100mW, 3 flashes=200mW', three steps that are not this radio's four - and is the same boilerplate legend printed in the non-Whoop BLITZ 1.6W manual; the power figures here come from the two places that agree, the page block and the manual's Specs line. antenna_connector is the column's U.FL spelling for the IPEX the manufacturer prints. The board switches camera video through itself (Camera in / Camera out / Video in) and carries a microphone."
+   "note": "iFlight's product page prints the labelled block: Input voltage: 7V~34V, Interface: IPEX, Power levels: PIT/25mW/400mW/800mW/1600mW, Channels: 44 (including Raceband), Mounting pattern: 25.5x25.5mm/Φ1.6, Lightweight: 16.5g (excluding antenna), VTX telemetry: IRC Tramp, and repeats the four steps as 'RC Tramp VTX table values: 25mW/400mW/800mW/1600mW'. power_levels_mw drops PIT, the way the rest of this column does. mount_mm is deliberately EMPTY: the brand states two different patterns for one board - the product page's 25.5x25.5mm/Φ1.6 and the manual's (B013728_BLITZ Whoop 1.6W VTX Instructions_20250506.pdf) 'Mounting Pattern: 25*25mm/Φ2mm' - and a column that has to choose between two manufacturer figures publishes neither. input_voltage is the manual's port line, 'VBAT: 2-8S, 7-34V DC Positive Input', which agrees with the page. The manual's LED legend contradicts its own spec line - it reads '1 flash=25mW, 2 flashes=100mW, 3 flashes=200mW', three steps that are not this radio's four - and is the same boilerplate legend printed in the non-Whoop BLITZ 1.6W manual; the power figures here come from the two places that agree, the page block and the manual's Specs line. antenna_connector is the column's U.FL spelling for the IPEX the manufacturer prints. The board switches camera video through itself (Camera in / Camera out / Video in) and carries a microphone. Channels is the 44 iFlight's product block prints (\"44 (including Raceband)\"); iFlight's own Betaflight VTX table download for this board lists 47 frequencies in six bands. Both figures are iFlight's, and the table is shown below as published"
   },
   {
    "type": "vtx",
@@ -2504,7 +2513,7 @@
     "weight_g": 2.2,
     "price_usd": 82.49
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/immersionrc-ghost-hybrid-duo-v2-2-4ghz-receiver-20-600mw-5-8ghz-vtx"
    ]
@@ -2523,7 +2532,7 @@
     "weight_g": 2.2,
     "price_usd": 54.99
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/immersionrc-ghost-hybrid-uno-v2-2-4ghz-receiver-20-600mw-5-8ghz-vtx"
    ]
@@ -2567,7 +2576,7 @@
     "input_voltage": "3.7-5V",
     "power_levels_mw": "25 / 200 / 400 / 800"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/speedybee-tx800-20x20-25-800mw-5-8ghz-vtx-mmcx",
     "https://store-fhxxhuiq8q.mybigcommerce.com/product_images/TX800/TX800-manual_EN.pdf",
@@ -2605,13 +2614,13 @@
     "power_levels_mw": "25 / 200 / 1000 / 2500",
     "frequency_range": "1.3 / 3.3 GHz",
     "input_voltage": "7-30V",
-    "channels": 8,
+    "channels": 32,
     "antenna_connector": "SMA"
    },
    "sources": [
     "https://rushfpv.net/products/1-3g-3-3g-dual-band-vtx-transmitter-module"
    ],
-   "note": "Two SMA ports on one module: port B is 1G3, port A is 3G3, and the four bands (1G3A, 1G3B, 3G3A, 3G3B) are split two to each port, eight channels each. Label: power steps PIT / 25 / 200 / 1000 / 2500 mW, 7-30 V. RushFPV also sells a 4 W version of this module under the same product page; it has no label photograph of its own, so it is not published as a separate page and the 4 W figure is not written into this one. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+   "note": "Two SMA ports on one module: port B is 1G3, port A is 3G3, and the four bands (1G3A, 1G3B, 3G3A, 3G3B) are split two to each port, eight channels each. Label: power steps PIT / 25 / 200 / 1000 / 2500 mW, 7-30 V. RushFPV also sells a 4 W version of this module under the same product page; it has no label photograph of its own, so it is not published as a separate page and the 4 W figure is not written into this one. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder. Channels is 32 since 2026-10-17: four bands of eight, as RushFPV's own Betaflight table for this module holds them (bands A, B, E and F, eight frequencies each), which matches the four bands (1G3A, 1G3B, 3G3A, 3G3B) this note describes. RushFPV does not print 32 anywhere; the 8 this page showed until then was one band's count"
   },
   {
    "type": "vtx",
@@ -2744,7 +2753,7 @@
     "weight_g": 15.0,
     "price_usd": 93.99
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/rushfpv-max-solo-25-1000-mw-5-8ghz-vtx-mmcx",
     "https://rushfpv.net/products/rushfpv-max-solo-vtx"
@@ -2783,7 +2792,7 @@
     "weight_g": 6.8,
     "price_usd": 44.49
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/rush-fpv-tank-ii-ultimate-30x30-25-800mw-5-8ghz-vtx-w-smart-audio-mmcx"
    ]
@@ -2806,7 +2815,7 @@
     "power_levels_mw": "25 / 200 / 500 / 800",
     "power_draw": "at 12 V: 40 mA pit mode, 95 mA at 25 mW, 185 mA at 200 mW, 250 mA at 500 mW, 380 mA at 800 mW"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/rush-fpv-tank-mini-25-800mw-20x20-5-8ghz-vtx-mmcx",
     "https://rushfpv.net/products/tank-ultimate-mini-vtx"
@@ -2827,7 +2836,7 @@
     "weight_g": 6.66,
     "price_usd": 39.99
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/rushfpv-tank-plus-25-800mw-5-8ghz-37ch-vtx-mmcx"
    ]
@@ -2848,7 +2857,7 @@
     "input_voltage": "7-36V DC",
     "power_levels_mw": "25 / 400 / 800 / MAX"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/rush-fpv-tank-solo-25-1600mw-5-8ghz-vtx-w-smart-audio-mmcx",
     "https://rushfpv.net/products/tank-solo-vtx"
@@ -2871,7 +2880,7 @@
     "input_voltage": "5V",
     "power_levels_mw": "25 / 100 / 200 / 350"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/rush-fpv-tiny-tank-25-350mw-5-8ghz-vtx-u-fl",
     "https://rushfpv.net/products/tank-tiny-vtx"
@@ -3165,7 +3174,7 @@
     "weight_g": 7.58,
     "price_usd": 58.99
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-ft800-20x20-25-800mw-5-8ghz-vtx-mmcx"
    ]
@@ -3183,7 +3192,7 @@
     "weight_g": 7.0,
     "price_usd": 71.99
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/tbs-unify-evo-25-800mw-5-8ghz-vtx-sma"
    ],
@@ -3205,7 +3214,7 @@
     "power_levels_mw": "25 / 200 / 500 / 800",
     "input_voltage": "6-25V"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/tbs-unify-pro-hv-25-800mw-5-8ghz-vtx-sma",
     "https://www.team-blacksheep.com/products/prod:unify_pro_hv_sma",
@@ -3228,7 +3237,7 @@
     "power_levels_mw": "25 / 200",
     "input_voltage": "6-25V"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/tbs-unify-pro-hv-race-25-200mw-5-8ghz-vtx-sma",
     "https://www.team-blacksheep.com/products/prod:unify_pro_hv_race"
@@ -3250,7 +3259,7 @@
     "power_levels_mw": "25 / 200 / 500 / 800",
     "input_voltage": "4.5-5.5V"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/tbs-unify-pro-v3-25-800mw-5-8ghz-vtx-sma",
     "https://www.team-blacksheep.com/products/prod:unify_pro_sma",
@@ -3273,7 +3282,7 @@
     "input_voltage": "6-25V (2-6S)",
     "power_levels_mw": "10 / 25 / 100 / 200 / 400 / 500 / 999 / MAX"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/tbs-unify-pro32-dp-25-400mw-5-8ghz-vtx-mmcx",
     "https://www.team-blacksheep.com/products/prod:pro32_dp"
@@ -3295,7 +3304,7 @@
     "power_levels_mw": "25 / 100 / 400 / 1000+",
     "input_voltage": "6-25V"
    },
-   "_scraped_at": "2026-10-17",
+   "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/tbs-unify-pro32-hv-25-1000mw-5-8ghz-vtx-mmcx",
     "https://www.team-blacksheep.com/products/prod:unifypro32_hv"
