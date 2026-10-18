@@ -3212,15 +3212,17 @@
     "weight_g": 7.0,
     "price_usd": 59.99,
     "power_levels_mw": "25 / 200 / 500 / 800",
-    "input_voltage": "6-25V"
+    "input_voltage": "6-25V",
+    "power_draw": "250 mA at 25 mW, 320 mA at 200 mW, 460 mA at 500 mW, 600 mA at 800 mW"
    },
    "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/tbs-unify-pro-hv-25-800mw-5-8ghz-vtx-sma",
     "https://www.team-blacksheep.com/products/prod:unify_pro_hv_sma",
-    "https://www.team-blacksheep.com/products/prod:unify_pro_hv"
+    "https://www.team-blacksheep.com/products/prod:unify_pro_hv",
+    "https://www.team-blacksheep.com/tbs-unify-pro-5g8-manual.pdf"
    ],
-   "note": "Second source 2026-09-23: TBS's own spec block for the Unify Pro 5G8 HV - Analog, 6-25 V in, Min/Max Frequency Band 5658/5945 MHz, Output Power 25 / 200 / 500 / 800 mW, 31 x 22 x 6 mm, 7 g, pit mode yes. It confirms the 800 mW and the 7 g already published. TBS sells this radio as two SKUs, (SMA) and (RP-SMA), whose spec blocks are identical, so both are cited on this one page. Both blocks name the connector u.FL, which is the connector on the board; the SMA in this page's name and in antenna_connector is the pigtail the SKU ships with, and that is what the retail listing sells it as."
+   "note": "Second source 2026-09-23: TBS's own spec block for the Unify Pro 5G8 HV - Analog, 6-25 V in, Min/Max Frequency Band 5658/5945 MHz, Output Power 25 / 200 / 500 / 800 mW, 31 x 22 x 6 mm, 7 g, pit mode yes. It confirms the 800 mW and the 7 g already published. TBS sells this radio as two SKUs, (SMA) and (RP-SMA), whose spec blocks are identical, so both are cited on this one page. Both blocks name the connector u.FL, which is the connector on the board; the SMA in this page's name and in antenna_connector is the pigtail the SKU ships with, and that is what the retail listing sells it as. power_draw is the maker's own supply figure, 'Power consumption 25mW: 250mA, 200mW: 320mA, 500mW: 460mA, 800mW: 600mA', the cell the Unify Pro manual's spec table spans over its V2 5G8 and 5G8 HV columns, read 2026-10-18 at full resolution; no supply voltage is printed beside it. It is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -3235,14 +3237,16 @@
     "weight_g": 7.0,
     "price_usd": 35.99,
     "power_levels_mw": "25 / 200",
-    "input_voltage": "6-25V"
+    "input_voltage": "6-25V",
+    "power_draw": "250 mA at 25 mW, 320 mA at 200 mW"
    },
    "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/tbs-unify-pro-hv-race-25-200mw-5-8ghz-vtx-sma",
-    "https://www.team-blacksheep.com/products/prod:unify_pro_hv_race"
+    "https://www.team-blacksheep.com/products/prod:unify_pro_hv_race",
+    "https://www.team-blacksheep.com/tbs-unify-pro-5g8-manual.pdf"
    ],
-   "note": "Second source 2026-09-23: TBS's own spec block for the Unify Pro 5G8 HV Race (SMA) - Analog, 6-25 V in, Min/Max Frequency Band 5658/5945 MHz, Output Power 25 / 200 mW, 31 x 22 x 6 mm, 7 g, pit mode yes. Same board as the Unify Pro 5G8 HV to the millimetre and the gram; the Race is the two-step race-legal version of it, and it is the only one of the three HV SKUs TBS sells in one connector flavour only."
+   "note": "Second source 2026-09-23: TBS's own spec block for the Unify Pro 5G8 HV Race (SMA) - Analog, 6-25 V in, Min/Max Frequency Band 5658/5945 MHz, Output Power 25 / 200 mW, 31 x 22 x 6 mm, 7 g, pit mode yes. Same board as the Unify Pro 5G8 HV to the millimetre and the gram; the Race is the two-step race-legal version of it, and it is the only one of the three HV SKUs TBS sells in one connector flavour only. power_draw is the maker's own supply figure, 'Power consumption 25mW: 250mA, 200mW: 320mA' in the TBS UNIFY PRO HV RACE column of the Unify Pro manual's spec table, read 2026-10-18 at full resolution; no supply voltage is printed beside it. It is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -3257,15 +3261,17 @@
     "weight_g": 5.0,
     "price_usd": 47.99,
     "power_levels_mw": "25 / 200 / 500 / 800",
-    "input_voltage": "4.5-5.5V"
+    "input_voltage": "4.5-5.5V",
+    "power_draw": "250 mA at 25 mW, 320 mA at 200 mW, 460 mA at 500 mW, 600 mA at 800 mW"
    },
    "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/tbs-unify-pro-v3-25-800mw-5-8ghz-vtx-sma",
     "https://www.team-blacksheep.com/products/prod:unify_pro_sma",
-    "https://www.team-blacksheep.com/products/prod:unify_pro"
+    "https://www.team-blacksheep.com/products/prod:unify_pro",
+    "https://www.team-blacksheep.com/tbs-unify-pro-5g8-manual.pdf"
    ],
-   "note": "Second source 2026-09-23: TBS's own spec block for the Unify Pro 5G8 V3 - Analog, 4.5-5.5 V in (this is the 5 V one, not the HV), Min/Max Frequency Band 5658/5945 MHz, Output Power 25m / 200 / 500 / 800 mW, 18 x 25 x 4 mm, 5 g, pit mode no. It confirms the 800 mW and the 5 g already published. Sold as two SKUs, (SMA) and (RP-SMA), with identical blocks, so both are cited here; as on the HV, the block's own connector line says u.FL and the SMA is the pigtail."
+   "note": "Second source 2026-09-23: TBS's own spec block for the Unify Pro 5G8 V3 - Analog, 4.5-5.5 V in (this is the 5 V one, not the HV), Min/Max Frequency Band 5658/5945 MHz, Output Power 25m / 200 / 500 / 800 mW, 18 x 25 x 4 mm, 5 g, pit mode no. It confirms the 800 mW and the 5 g already published. Sold as two SKUs, (SMA) and (RP-SMA), with identical blocks, so both are cited here; as on the HV, the block's own connector line says u.FL and the SMA is the pigtail. power_draw is the maker's own supply figure, 'Power consumption 25mW: 250mA, 200mW: 320mA, 500mW: 460mA, 800mW: 600mA' in the TBS UNIFY PRO V2 5G8 column of the Unify Pro manual's spec table (the manual this V3 listing links; the column's input cell names the V3: 'Unify PRO V3 max. 13V peaks'), read 2026-10-18 at full resolution; no supply voltage is printed beside it. It is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -3280,14 +3286,16 @@
     "weight_g": 8.7,
     "price_usd": 59.99,
     "input_voltage": "6-25V (2-6S)",
-    "power_levels_mw": "10 / 25 / 100 / 200 / 400 / 500 / 999 / MAX"
+    "power_levels_mw": "10 / 25 / 100 / 200 / 400 / 500 / 999 / MAX",
+    "power_draw": "up to 1.8 A at maximum power"
    },
    "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/tbs-unify-pro32-dp-25-400mw-5-8ghz-vtx-mmcx",
-    "https://www.team-blacksheep.com/products/prod:pro32_dp"
+    "https://www.team-blacksheep.com/products/prod:pro32_dp",
+    "https://www.team-blacksheep.com/tbs-unify-pro32-manual.pdf"
    ],
-   "note": "Corrected 2026-09-23 against TBS's own product page, which is the same module our retail listing sells - 37 x 28 x 10 mm, 8.7 g, MMCX on both - and describes it as a '3W wide band 5.8GHz video transmitter', 'World's lightest 3 Watt video transmitter', 'Frequency range: 4990 - 6030 MHz'. Its spec block reads Min/Max Frequency Band 4990/6030 MHz and Output Power 10 / 25 / 100 / 200 / 400 / 500 / 999 / MAX mW; the unnumbered MAX step is the 3 W the page headlines twice. The retail listing printed '25-400mW 5.8GHz' and a three-step block (14 dBm / 20 dBm / 26 dBm), which is the FCC-legal subset this SKU ships enabled - TBS's own footnote says the transmitter ships with only legal channels and power levels unlocked and points at the manual for the rest. So the retailer was describing a configuration and the manufacturer the radio; the columns now hold the radio and the model name no longer prints the retailer's ceiling. The URL still carries it. Wideband operation needs wideband antennas: TBS warns that running the top steps into a 5.8-only antenna bricks the unit."
+   "note": "Corrected 2026-09-23 against TBS's own product page, which is the same module our retail listing sells - 37 x 28 x 10 mm, 8.7 g, MMCX on both - and describes it as a '3W wide band 5.8GHz video transmitter', 'World's lightest 3 Watt video transmitter', 'Frequency range: 4990 - 6030 MHz'. Its spec block reads Min/Max Frequency Band 4990/6030 MHz and Output Power 10 / 25 / 100 / 200 / 400 / 500 / 999 / MAX mW; the unnumbered MAX step is the 3 W the page headlines twice. The retail listing printed '25-400mW 5.8GHz' and a three-step block (14 dBm / 20 dBm / 26 dBm), which is the FCC-legal subset this SKU ships enabled - TBS's own footnote says the transmitter ships with only legal channels and power levels unlocked and points at the manual for the rest. So the retailer was describing a configuration and the manufacturer the radio; the columns now hold the radio and the model name no longer prints the retailer's ceiling. The URL still carries it. Wideband operation needs wideband antennas: TBS warns that running the top steps into a 5.8-only antenna bricks the unit. power_draw is the maker's own supply figure, 'PRO DP32 MAX: up to 1,8A' in the PRO32 HV (MMCX) / PRO32 DP column of the Unify Pro32 manual's spec table; the column's 25 mW and 1000 mW+ lines are not taken for the DP, because the cell does not say they cover it, read 2026-10-18 at full resolution; no supply voltage is printed beside it. It is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -3302,14 +3310,16 @@
     "weight_g": 8.7,
     "price_usd": 59.99,
     "power_levels_mw": "25 / 100 / 400 / 1000+",
-    "input_voltage": "6-25V"
+    "input_voltage": "6-25V",
+    "power_draw": "90-130 mA at 25 mW, 300-450 mA at 1000 mW+ (22 V to 14.8 V)"
    },
    "_scraped_at": "2026-10-18",
    "sources": [
     "https://www.racedayquads.com/products/tbs-unify-pro32-hv-25-1000mw-5-8ghz-vtx-mmcx",
-    "https://www.team-blacksheep.com/products/prod:unifypro32_hv"
+    "https://www.team-blacksheep.com/products/prod:unifypro32_hv",
+    "https://www.team-blacksheep.com/tbs-unify-pro32-manual.pdf"
    ],
-   "note": "Second source 2026-09-23: TBS's own spec block for the Unify Pro32 HV (MMCX) - Video System Analog, 6-25 V in, Min/Max Frequency Band 5658/5945 MHz, Output Power 25 / 100 / 400 / 1000+ mW, MMCX, 37 x 25 x 5.8 mm, 8.7 g, audio yes, pit mode yes, SmartAudio yes, CE certified. It confirms the 1000 mW and the 8.7 g already published. The '+' is TBS's own: the block writes the top step as 1000+mW. mount_mm stays empty - 37 x 25 x 5.8 mm is the board, and the page prints no mounting pattern."
+   "note": "Second source 2026-09-23: TBS's own spec block for the Unify Pro32 HV (MMCX) - Video System Analog, 6-25 V in, Min/Max Frequency Band 5658/5945 MHz, Output Power 25 / 100 / 400 / 1000+ mW, MMCX, 37 x 25 x 5.8 mm, 8.7 g, audio yes, pit mode yes, SmartAudio yes, CE certified. It confirms the 1000 mW and the 8.7 g already published. The '+' is TBS's own: the block writes the top step as 1000+mW. mount_mm stays empty - 37 x 25 x 5.8 mm is the board, and the page prints no mounting pattern. power_draw is the maker's own supply figure, 'Power consumption 25mW: 90mA - 130mA (22V - 14.8V), 1000mW+: 300mA - 450mA (22V - 14.8V)' in the TBS UNIFY PRO32 HV (MMCX) / PRO32 DP column of the Unify Pro32 manual's spec table, read 2026-10-18 at full resolution. It is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -3323,12 +3333,14 @@
     "frequency_range": "5.8 GHz",
     "input_voltage": "5-13V",
     "antenna_connector": "U.FL",
-    "weight_g": 1.0
+    "weight_g": 1.0,
+    "power_draw": "210 mA at 25 mW, 390 mA at 400 mW"
    },
    "sources": [
-    "https://www.team-blacksheep.com/products/prod:unifypro32_nano"
+    "https://www.team-blacksheep.com/products/prod:unifypro32_nano",
+    "https://www.team-blacksheep.com/tbs-unify-pro32-manual.pdf"
    ],
-   "note": "TBS's own spec block: Video System Analog, Min/Max Input Voltage 5/13 V, Min/Max Frequency Band 5658/5945 MHz, Output Power 25 / 100 / 400 / 500+ mW, NTSC/PAL, 75 Ohm video input, audio no, pit mode yes, SmartAudio yes, OSD support yes, u.FL, 15 x 13 x 2 mm, 1 g. max_power_mw is the 500 of that top step, which the page's own highlights repeat as 'Up to 500mw+ of output power'; the '+' is TBS's and is kept in power_levels_mw rather than turned into a number. mount_mm is empty - 15 x 13 x 2 mm is the board and the page prints no mounting pattern - and so is channels, which the block never states. This is the nano of the Pro32 family, the same radio class as the Pro32 HV we carry at a fifth of its weight. TBS notes that the transmitter ships with only legal channels and power levels enabled; a HAM licence is required for the rest. Out of stock at TBS on 2026-09-23."
+   "note": "TBS's own spec block: Video System Analog, Min/Max Input Voltage 5/13 V, Min/Max Frequency Band 5658/5945 MHz, Output Power 25 / 100 / 400 / 500+ mW, NTSC/PAL, 75 Ohm video input, audio no, pit mode yes, SmartAudio yes, OSD support yes, u.FL, 15 x 13 x 2 mm, 1 g. max_power_mw is the 500 of that top step, which the page's own highlights repeat as 'Up to 500mw+ of output power'; the '+' is TBS's and is kept in power_levels_mw rather than turned into a number. mount_mm is empty - 15 x 13 x 2 mm is the board and the page prints no mounting pattern - and so is channels, which the block never states. This is the nano of the Pro32 family, the same radio class as the Pro32 HV we carry at a fifth of its weight. TBS notes that the transmitter ships with only legal channels and power levels enabled; a HAM licence is required for the rest. Out of stock at TBS on 2026-09-23. power_draw is the maker's own supply figure, 'Power consumption 25mW: 210mA, 400mW: 390mA' in the TBS UNIFY PRO32 5G8 nano column of the Unify Pro32 manual's spec table, read 2026-10-18 at full resolution; no supply voltage is printed beside it. It is the VTX's input draw, not its RF output."
   }
  ]
 }
