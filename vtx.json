@@ -287,13 +287,14 @@
     "channels": 16,
     "mount_mm": "20x20mm",
     "antenna_connector": "MMCX",
-    "price_usd": 79.9
+    "price_usd": 79.9,
+    "power_draw": "900 mA at 12 V"
    },
    "sources": [
     "https://www.axisflying.com/products/33g-25w-analog-vtx",
     "https://ueeshop.ly200-cdn.com/u_file/UPBG/UPBG828/2604/25/file/TERKVTX33G25W.pdf"
    ],
-   "note": "Read 2026-09-24 off Axisflying's own site, the fourteenth VTX manufacturer catalogue read beside the US retail scrape and the third brand this catalogue carried no transmitter of at all. www.axisflying.com is a UEEShop store with no products.json; its sitemap is named after the domain and is linked only from robots.txt. Its whole transmitter line is /collections/vtx. The brand's own Download Center (/download/vtx) serves six VTX manuals through a public POST (do_action=action.getDownloadCheck), all one-page image-only PDFs rendered here at 6x with Quartz/CoreGraphics. Page and manual agree on the power steps (25mW/400mW/1W/2.5W with PIT, the manual adding @12V900mA), on MMCX, on the 20*20mm mounting and on 3.3G A/B two groups / 16 frequencies, and the page prints the band edges 3170-3470MHz. They disagree on three other fields, so this page publishes without them: input voltage is '7-36V (2-8S LiPo)' on the page and '9-28V' in the manual; weight is '~25g (excluding antenna)' on the page and '27.5g' in the manual; dimensions are 53x28.85x16mm on the page and 53.79*27.8*13.5mm in the manual - the last being the figure the 5.8G TERKs also carry, so the manual may be reusing the 5.8G shell's sheet. Two manufacturer statements for one field publish neither."
+   "note": "Read 2026-09-24 off Axisflying's own site, the fourteenth VTX manufacturer catalogue read beside the US retail scrape and the third brand this catalogue carried no transmitter of at all. www.axisflying.com is a UEEShop store with no products.json; its sitemap is named after the domain and is linked only from robots.txt. Its whole transmitter line is /collections/vtx. The brand's own Download Center (/download/vtx) serves six VTX manuals through a public POST (do_action=action.getDownloadCheck), all one-page image-only PDFs rendered here at 6x with Quartz/CoreGraphics. Page and manual agree on the power steps (25mW/400mW/1W/2.5W with PIT, the manual adding @12V900mA), on MMCX, on the 20*20mm mounting and on 3.3G A/B two groups / 16 frequencies, and the page prints the band edges 3170-3470MHz. They disagree on three other fields, so this page publishes without them: input voltage is '7-36V (2-8S LiPo)' on the page and '9-28V' in the manual; weight is '~25g (excluding antenna)' on the page and '27.5g' in the manual; dimensions are 53x28.85x16mm on the page and 53.79*27.8*13.5mm in the manual - the last being the figure the 5.8G TERKs also carry, so the manual may be reusing the 5.8G shell's sheet. Two manufacturer statements for one field publish neither. power_draw is the maker's own supply figure, the '@12V...mA' tail of the Output Power line in Axisflying's TERK VTX manual (TERKVTX33G25W.pdf), 'Output Power: 25mW,400mW,1W,2.5W @12V900mA', read 2026-10-19 at full resolution off the PDF's embedded page image. The manual does not say at which power level the current is drawn. It is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -352,13 +353,14 @@
     "mount_mm": "20x20mm",
     "antenna_connector": "MMCX",
     "weight_g": 27.5,
-    "price_usd": 57.9
+    "price_usd": 57.9,
+    "power_draw": "1300 mA at 12 V"
    },
    "sources": [
     "https://www.axisflying.com/products/terk58g-3w-analog-vtx",
     "https://ueeshop.ly200-cdn.com/u_file/UPBG/UPBG828/2604/25/file/TERKVTX58G3W.pdf"
    ],
-   "note": "Read 2026-09-24 off Axisflying's own site, the fourteenth VTX manufacturer catalogue read beside the US retail scrape and the third brand this catalogue carried no transmitter of at all. www.axisflying.com is a UEEShop store with no products.json; its sitemap is named after the domain and is linked only from robots.txt. Its whole transmitter line is /collections/vtx. The brand's own Download Center (/download/vtx) serves six VTX manuals through a public POST (do_action=action.getDownloadCheck), all one-page image-only PDFs rendered here at 6x with Quartz/CoreGraphics. Page and manual agree that the maximum is 3W and on 7-36V DC, MMCX, 53.79*27.8*13.5mm, 27.5g and 20*20mm, but they disagree on the steps below it and on the channel count, and the manual wins both because it agrees with itself three ways. Its spec block says '5.8G band, 7 frequency groups, 56 transmission frequencies' and 'Output Power 25mW,400mW,600mw,1.6W,3.0W @12V1300mA'; its button description says 1 blink for 25mW, 2 for 400mW, 3 for 600mW, 4 for 1.6W and 5 for 3.0W; and its Betaflight VTX Table screenshot shows 7 bands x 8 channels (BOSCAM_A/B/E, FATSHARK, RACEBAND, LOWRACE, BAND_X) with power values 25/400/600/1600/3000 and labels 25/400/600/1.6/3.0. The product page instead says '5.8GHz (6 groups, 48 channels)' and '25mW/400mW/1W/3W', which is the 5.8G 5W page's block with the top number changed."
+   "note": "Read 2026-09-24 off Axisflying's own site, the fourteenth VTX manufacturer catalogue read beside the US retail scrape and the third brand this catalogue carried no transmitter of at all. www.axisflying.com is a UEEShop store with no products.json; its sitemap is named after the domain and is linked only from robots.txt. Its whole transmitter line is /collections/vtx. The brand's own Download Center (/download/vtx) serves six VTX manuals through a public POST (do_action=action.getDownloadCheck), all one-page image-only PDFs rendered here at 6x with Quartz/CoreGraphics. Page and manual agree that the maximum is 3W and on 7-36V DC, MMCX, 53.79*27.8*13.5mm, 27.5g and 20*20mm, but they disagree on the steps below it and on the channel count, and the manual wins both because it agrees with itself three ways. Its spec block says '5.8G band, 7 frequency groups, 56 transmission frequencies' and 'Output Power 25mW,400mW,600mw,1.6W,3.0W @12V1300mA'; its button description says 1 blink for 25mW, 2 for 400mW, 3 for 600mW, 4 for 1.6W and 5 for 3.0W; and its Betaflight VTX Table screenshot shows 7 bands x 8 channels (BOSCAM_A/B/E, FATSHARK, RACEBAND, LOWRACE, BAND_X) with power values 25/400/600/1600/3000 and labels 25/400/600/1.6/3.0. The product page instead says '5.8GHz (6 groups, 48 channels)' and '25mW/400mW/1W/3W', which is the 5.8G 5W page's block with the top number changed. power_draw is the maker's own supply figure, the '@12V...mA' tail of the Output Power line in Axisflying's TERK VTX manual (TERKVTX58G3W.pdf), 'Output Power: 25mW,400mW,600mw,1.6W,3.0W @12V1300mA', read 2026-10-19 at full resolution off the PDF's embedded page image. The manual does not say at which power level the current is drawn. It is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -375,13 +377,14 @@
     "mount_mm": "20x20mm",
     "antenna_connector": "MMCX",
     "weight_g": 27.5,
-    "price_usd": 96.0
+    "price_usd": 96.0,
+    "power_draw": "1300 mA at 12 V"
    },
    "sources": [
     "https://www.axisflying.com/products/58g-5w-analog-vtx",
     "https://ueeshop.ly200-cdn.com/u_file/UPBG/UPBG828/2604/25/file/TERKVTX58G5W.pdf"
    ],
-   "note": "Read 2026-09-24 off Axisflying's own site, the fourteenth VTX manufacturer catalogue read beside the US retail scrape and the third brand this catalogue carried no transmitter of at all. www.axisflying.com is a UEEShop store with no products.json; its sitemap is named after the domain and is linked only from robots.txt. Its whole transmitter line is /collections/vtx. The brand's own Download Center (/download/vtx) serves six VTX manuals through a public POST (do_action=action.getDownloadCheck), all one-page image-only PDFs rendered here at 6x with Quartz/CoreGraphics. The one model in this line whose page and manual agree on every field: 5.8G band, 6 frequency groups, 48 transmission frequencies; Output Power 25mW,400mW,1W,5W (the manual adding @12V1300mA, the page adding 'PIT mode available'); Input 7-36V DC (2-8S LiPo); MMCX 50 ohm; 53.79*27.8*13.5mm; 27.5g; button and OSD control over SmartAudio/IRC Tramp. The page block has no mounting row at all - the 20*20mm comes from the manual."
+   "note": "Read 2026-09-24 off Axisflying's own site, the fourteenth VTX manufacturer catalogue read beside the US retail scrape and the third brand this catalogue carried no transmitter of at all. www.axisflying.com is a UEEShop store with no products.json; its sitemap is named after the domain and is linked only from robots.txt. Its whole transmitter line is /collections/vtx. The brand's own Download Center (/download/vtx) serves six VTX manuals through a public POST (do_action=action.getDownloadCheck), all one-page image-only PDFs rendered here at 6x with Quartz/CoreGraphics. The one model in this line whose page and manual agree on every field: 5.8G band, 6 frequency groups, 48 transmission frequencies; Output Power 25mW,400mW,1W,5W (the manual adding @12V1300mA, the page adding 'PIT mode available'); Input 7-36V DC (2-8S LiPo); MMCX 50 ohm; 53.79*27.8*13.5mm; 27.5g; button and OSD control over SmartAudio/IRC Tramp. The page block has no mounting row at all - the 20*20mm comes from the manual. power_draw is the maker's own supply figure, the '@12V...mA' tail of the Output Power line in Axisflying's TERK VTX manual (TERKVTX58G5W.pdf), 'Output Power: 25mW,400mW,1W,5W @12V1300mA', read 2026-10-19 at full resolution off the PDF's embedded page image. The manual does not say at which power level the current is drawn. It is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -1513,12 +1516,13 @@
     "mount_mm": "20x20mm M2 / 30.5x30.5mm M3",
     "antenna_connector": "SMA",
     "weight_g": 110.0,
-    "price_usd": 149.99
+    "price_usd": 149.99,
+    "power_draw": "3.5 A peak"
    },
    "sources": [
     "https://geprc.com/product/geprc-maten-5-8g-10w-vtx-pro/"
    ],
-   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Block lines: 'Output Power: 25mW/2.5W/5W/10W/Pit mode', 'Frequency：4884-6184MHz', 'Channels: 104CH', 'Input Voltage: DC12-36V（3-8S Battery）', 'Mounting Hole Size:20x20mm(M2),30.5×30.5mm(M3)', 'Antenna Connector: SMA', 'Weight: 110g（VTX only）', 'Dimension: 78.5×43.6×25.3mm', 'Peak Operating Current：3.5A'. Every one of those figures is repeated in the page's own specification *image*, which also prints the 104 channels as thirteen bands (A, B, E, F, R, L, U, O, H, X, J, K, Z) running 4884 MHz at J CH1 to 6184 MHz at Z CH8 - the stated span is the table's edges exactly, and the image carries a note that a Betaflight configurator can only address 64 of the 104. Checking the infographic against the text was the seventeenth burst's HGLRC rule; on this brand the two agree."
+   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Block lines: 'Output Power: 25mW/2.5W/5W/10W/Pit mode', 'Frequency：4884-6184MHz', 'Channels: 104CH', 'Input Voltage: DC12-36V（3-8S Battery）', 'Mounting Hole Size:20x20mm(M2),30.5×30.5mm(M3)', 'Antenna Connector: SMA', 'Weight: 110g（VTX only）', 'Dimension: 78.5×43.6×25.3mm', 'Peak Operating Current：3.5A'. Every one of those figures is repeated in the page's own specification *image*, which also prints the 104 channels as thirteen bands (A, B, E, F, R, L, U, O, H, X, J, K, Z) running 4884 MHz at J CH1 to 6184 MHz at Z CH8 - the stated span is the table's edges exactly, and the image carries a note that a Betaflight configurator can only address 64 of the 104. Checking the infographic against the text was the seventeenth burst's HGLRC rule; on this brand the two agree. power_draw is the maker's own supply figure, 'Peak Operating Current：3.5A' in the Specifications block of GEPRC's product page (read 2026-10-04, cached copy; geprc.com refused a fetch of its manual PDFs with 403 on 2026-10-19, so none was retried); no supply voltage is printed beside it. It is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
