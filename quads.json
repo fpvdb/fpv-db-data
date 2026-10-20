@@ -1201,12 +1201,13 @@
      "range_mah": "18650 3000 Li-ion or 750 LiPo",
      "connector": "XT30",
      "chemistry": "Li-ion / LiPo"
-    }
+    },
+    "flight_controller": "GOKU F722 Pro Mini V2 45A Stack"
    },
    "sources": [
     "https://flywoo.net/products/explorer-lr-4-o4-pro-v2-sub250-micro-long-range"
    ],
-   "note": "AUW 246g with 4S 750 LiPo. Recommended Li-ion: Sony/Molicel 18650 4S1P."
+   "note": "AUW 246g with 4S 750 LiPo. Recommended Li-ion: Sony/Molicel 18650 4S1P. flight_controller read 2026-10-20 off the cited Flywoo page's Specifications block (no wheelbase or receiver line there)."
   },
   {
    "type": "quad",
@@ -1254,12 +1255,16 @@
      "range_mah": "450-750",
      "connector": "A30",
      "chemistry": "LiHV"
-    }
+    },
+    "camera": "DJI O4 Camera / Flywoo O4 Wide Camera",
+    "flight_controller": "GOKU F405 HD 1S 5A AIO W/TXCO ELRS",
+    "receiver_options": "Onboard ELRS (BNF-DJI version without ELRS RX)",
+    "prop_mount": "1.5mm shaft"
    },
    "sources": [
     "https://flywoo.net/products/firefly18-1s-nano-baby-v3-o4-tiny-drone"
    ],
-   "note": "~36g with O4 (25.9g without FPV system; 56g AUW with 1S 750). HQ 45mm bi-blade props."
+   "note": "~36g with O4 (25.9g without FPV system; 56g AUW with 1S 750). HQ 45mm bi-blade props. camera, flight_controller, receiver_options read 2026-10-20 off the cited Flywoo page's Specifications block ('Electronic: GOKU F405 HD 1S 1S 5A AIO W/TXCO ELRS (BNF-DJI without ELRS RX)', the doubled '1S' dropped); prop_mount from its box list '8* 45mmx2 1.5mm shaft Props'. No wheelbase printed."
   },
   {
    "type": "quad",
