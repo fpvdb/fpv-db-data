@@ -31147,7 +31147,8 @@
       "thrust_g": 890,
       "efficiency_gw": 3.873
      }
-    ]
+    ],
+    "mount_mm": "12x12mm (4-M2)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -31155,7 +31156,7 @@
     "https://www.racedayquads.com/products/rcinpower-smoox-plus-1507-2680kv-motor",
     "https://www.rcinpower.com/G-SERIES/34.html"
    ],
-   "note": "RCinPower builds the SmooX 1507 Plus in 2680, 3800 and 4200 KV and publishes a sheet for each; our retail listing covers the 2680 KV, which is the only one rated to 6S (the faster windings are 3-4S). 9N12P, 15x7 mm stator, 2 mm shaft, 20.7x28.2 mm, 16.8 g with 3 cm wire. The 4200 KV sheet has no 4S row for the Gemfan 5125, and RCinPower flags 85-89 degC runs as Hot"
+   "note": "RCinPower builds the SmooX 1507 Plus in 2680, 3800 and 4200 KV and publishes a sheet for each; our retail listing covers the 2680 KV, which is the only one rated to 6S (the faster windings are 3-4S). 9N12P, 15x7 mm stator, 20.7x28.2 mm, 16.8 g with 3 cm wire. The sheet's block prints a 2 mm shaft diameter while its drawing shows a threaded Ø5 prop shaft (12.3 mm) and a 12x12 mm 4 x M2 mount; the shaft shown is the prop end. The 4200 KV sheet has no 4S row for the Gemfan 5125, and RCinPower flags 85-89 degC runs as Hot"
   },
   {
    "type": "motor",
