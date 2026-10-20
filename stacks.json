@@ -84,12 +84,16 @@
     "kind": "stack",
     "esc_current_a": 55,
     "price_usd": 136.99,
-    "mount_class": "30x30"
+    "mount_class": "30x30",
+    "weight_g": 31
    },
    "_scraped_at": "2026-10-20",
    "sources": [
-    "https://www.racedayquads.com/products/axisflying-argus-f722-3-6s-30x30-stack-combo-f7-fc-32bit-55a-4in1-esc"
-   ]
+    "https://www.racedayquads.com/products/axisflying-argus-f722-3-6s-30x30-stack-combo-f7-fc-32bit-55a-4in1-esc",
+    "https://www.axisflying.com/products/argus-plug-and-play-stack-55a-65a-f7",
+    "https://ueeshop.ly200-cdn.com/u_file/UPBG/UPBG828/2604/14/photo/04-170052f16a.jpg"
+   ],
+   "note": "weight_g is Axisflying's own figure for the whole stack, read 2026-10-20: its Argus STACK 55A/65A & F7 page sells a regular and a PRO version, and its 'Stack Parameter' image prints both - \"Type: ARGUS Stack (Regular version) / Size: 48.6 x 44 x 20.8 / Weight: 31g\" beside \"Type: ARGUS Pro Stack / Size: 48.6 x 46.6 x 26 / Weight: 59g\"; the page's text Specs line, \"Argus 55A / 65A STACK - Size: 48.6*44*20.8 mm / Weight: 31g\", agrees. This listing is the regular 55A version (the PRO with its aluminium cover is a separate page here), so 31 g. The figure covers the 55A and 65A builds alike, as the maker prints it"
   },
   {
    "type": "stack",
@@ -146,12 +150,16 @@
     "kind": "stack",
     "esc_current_a": 65,
     "price_usd": 187.49,
-    "mount_class": "30x30"
+    "mount_class": "30x30",
+    "weight_g": 59
    },
    "_scraped_at": "2026-10-20",
    "sources": [
-    "https://www.racedayquads.com/products/axisflying-argus-pro-f722-3-6s-30x30-stack-combo-f7-fc-32bit-65a-4in1-esc"
-   ]
+    "https://www.racedayquads.com/products/axisflying-argus-pro-f722-3-6s-30x30-stack-combo-f7-fc-32bit-65a-4in1-esc",
+    "https://www.axisflying.com/products/argus-plug-and-play-stack-55a-65a-f7",
+    "https://ueeshop.ly200-cdn.com/u_file/UPBG/UPBG828/2604/14/photo/04-170052f16a.jpg"
+   ],
+   "note": "weight_g is Axisflying's own figure for the whole PRO stack, read 2026-10-20 off the 'Stack Parameter' image on its Argus STACK 55A/65A & F7 page: \"Type: ARGUS Pro Stack / Size: 48.6 x 46.6 x 26 / Weight: 59g\", beside the regular version's 31 g. The PRO is the version wrapped in the CNC aluminium cover this listing calls a heatsink, and the 59 g covers the 55A and 65A builds alike, as the maker prints it"
   },
   {
    "type": "stack",
