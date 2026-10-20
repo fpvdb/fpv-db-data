@@ -19731,7 +19731,77 @@
     "max_cells": "4-6S",
     "mount_mm": "16x16mm",
     "price_usd": 27.99,
-    "shaft": "5mm"
+    "shaft": "5mm",
+    "max_thrust_g": 1827,
+    "thrust_conditions": "MCK prop, 100% throttle, 1960KV; FIVE33's own bench sheet (\"Evan Turner 2207 1960KV\"), 6 points 50-100%; battery voltage not printed",
+    "thrust_table": [
+     {
+      "kv": 1960,
+      "prop": "MCK",
+      "cells": null,
+      "throttle": 50,
+      "voltage_v": null,
+      "current_a": 16.0,
+      "rpm": null,
+      "thrust_g": 855,
+      "efficiency_gw": 2.41
+     },
+     {
+      "kv": 1960,
+      "prop": "MCK",
+      "cells": null,
+      "throttle": 60,
+      "voltage_v": null,
+      "current_a": 19.7,
+      "rpm": null,
+      "thrust_g": 995,
+      "efficiency_gw": 2.28
+     },
+     {
+      "kv": 1960,
+      "prop": "MCK",
+      "cells": null,
+      "throttle": 70,
+      "voltage_v": null,
+      "current_a": 23.4,
+      "rpm": null,
+      "thrust_g": 1155,
+      "efficiency_gw": 2.22
+     },
+     {
+      "kv": 1960,
+      "prop": "MCK",
+      "cells": null,
+      "throttle": 80,
+      "voltage_v": null,
+      "current_a": 29.6,
+      "rpm": null,
+      "thrust_g": 1380,
+      "efficiency_gw": 2.1
+     },
+     {
+      "kv": 1960,
+      "prop": "MCK",
+      "cells": null,
+      "throttle": 90,
+      "voltage_v": null,
+      "current_a": 38.5,
+      "rpm": null,
+      "thrust_g": 1665,
+      "efficiency_gw": 1.95
+     },
+     {
+      "kv": 1960,
+      "prop": "MCK",
+      "cells": null,
+      "throttle": 100,
+      "voltage_v": null,
+      "current_a": 43.0,
+      "rpm": null,
+      "thrust_g": 1827,
+      "efficiency_gw": 1.91
+     }
+    ]
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -19739,9 +19809,10 @@
     "https://www.racedayquads.com/products/five33-headsup-2207-1960kv-motor",
     "https://www.racedayquads.com/products/headsup-five33-2207-motor",
     "https://www.racedayquads.com/products/headsup-five33-2207-motor-w-mr30",
-    "https://flyfive33.com/products/headsup-five33-2207-motor"
+    "https://flyfive33.com/products/headsup-five33-2207-motor",
+    "https://web.archive.org/web/20220221143741/https://flyfive33.com/wp-content/uploads/2019/12/81255828_569675637163820_7084228287630671872_n.jpg"
    ],
-   "note": "Five33's own shop (flyfive33.com, now Shopify - the WordPress site its old spec-sheet image was hosted on is gone, which is why every retailer that hot-links it shows a broken image) lists this motor three ways (single, set of 4, set of 4 with MR30) and publishes a labelled spec list on each and no bench table: brand FIVE33 x Xnova, 2207, 1960 KV, 28.4 g, M5 prop shaft, 20AWG pre-tinned leads. Pyrodrone's listing adds the 22 x 7 mm stator and the 16 x 16 mm mounting pattern, and states the motor is manufactured by XNova. Every source for this motor - both shops and all three RaceDayQuads listings - states one winding, 1960 KV; kv_options had carried a second \"2207\", which is this motor's stator read as a KV by the retail scrape, and is removed."
+   "note": "Five33's own shop (flyfive33.com, now Shopify - the WordPress site its old spec-sheet image was hosted on is gone, which is why every retailer that hot-links it shows a broken image) lists this motor three ways (single, set of 4, set of 4 with MR30) and publishes a labelled spec list on each and no bench table: brand FIVE33 x Xnova, 2207, 1960 KV, 28.4 g, M5 prop shaft, 20AWG pre-tinned leads. Pyrodrone's listing adds the 22 x 7 mm stator and the 16 x 16 mm mounting pattern, and states the motor is manufactured by XNova. Every source for this motor - both shops and all three RaceDayQuads listings - states one winding, 1960 KV; kv_options had carried a second \"2207\", which is this motor's stator read as a KV by the retail scrape, and is removed. Five33's own shop (flyfive33.com, now Shopify - the WordPress site its old spec-sheet image was hosted on is gone, which is why every retailer that hot-links it shows a broken image) lists this motor three ways (single, set of 4, set of 4 with MR30) and publishes a labelled spec list on each: brand FIVE33 x Xnova, 2207, 1960 KV, 28.4 g, M5 prop shaft, 20AWG pre-tinned leads. Pyrodrone's listing adds the 22 x 7 mm stator and the 16 x 16 mm mounting pattern, and states the motor is manufactured by XNova. Every source for this motor - both shops and all three RaceDayQuads listings - states one winding, 1960 KV; kv_options had carried a second \"2207\", which is this motor's stator read as a KV by the retail scrape, and is removed. Bench sheet: the old WordPress image is the one the RaceDayQuads MR30 listing still links under \"Motor spec sheet below. Testing conducted with MCK prop\"; flyfive33.com 404s it since 2024, and the rows are read from the Internet Archive's 2022 copy of the full upload (372 x 194 px; its left edge clips one column before Throttle). The sheet prints no voltage, cell count or RPM; its Watts column is Amps x 22.2 on all six rows, and its g/W is Thrust / Watts."
   },
   {
    "type": "motor",
