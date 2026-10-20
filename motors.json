@@ -27433,7 +27433,7 @@
    "sources": [
     "https://www.racedayquads.com/products/flash-hobby-arthur-1506-4300kv-motor"
    ],
-   "note": "The listing's own Specifications block states 9N12P, a Ø 21.5 x 16.0 mm body, 375 W max power, a 17.05 A peak current, 2-4S, a 3 mm shaft with an M5 prop mount and 26AWG 110 mm leads - figures, but not a sweep, so they are a note and not rows. The motor is a Flash Hobby Arthur sold under a shop's own brand label; Flash Hobby publishes no FPV bench table, so this page has no table behind it at either name."
+   "note": "The listing's own Specifications block states 9N12P, a Ø 21.5 x 16.0 mm body, 375 W max power, a 17.05 A peak current, 2-4S, a 3 mm shaft with an M5 prop mount and 26AWG 110 mm leads - figures, but not a sweep, so they are a note and not rows. The motor is a Flash Hobby Arthur sold under a shop's own brand label. Flash Hobby's own A1506 page (flashhobby.com/a1506-rc-brushless-motor.html, Web Archive copy of 2021-05-10; same text on the 2023 and 2025 copies) does print a bench table for its A1506-4300KV (GF3028 and GF3056 3-blade props at 11 V and 15 V, 50-100% throttle, 482 g at 15 V and 280 W), but it is not attached here, because that page describes a different body: 15.5 g including the cables, an 18.0 x 27.2 mm motor, a 1.5 mm shaft (2.0 mm from 2023) and a 9 x 9 mm mount (12 x 12 mm from 2023), where this listing states 18.0 g, a 21.5 x 16.0 mm body and a 3 mm shaft. The listing's 375 W is the maker's figure for the 3100 KV winding, not the 4300 KV it sells. Until a source ties the two together, this page has no table behind it."
   },
   {
    "type": "motor",
