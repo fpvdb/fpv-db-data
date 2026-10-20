@@ -2109,7 +2109,8 @@
     ],
     "shaft": "5mm",
     "dimensions_mm": "Ø27x20.45",
-    "resistance_mohm": "63.42 (1860KV) / 61.49 (1960KV)"
+    "resistance_mohm": "63.42 (1860KV) / 61.49 (1960KV)",
+    "mount_bolt_circle_mm": "Ø16 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -2340,7 +2341,6 @@
     "max_cells": "6S",
     "configuration": "12N14P",
     "dimensions_mm": "Ø27.5x33.4",
-    "mount_mm": "16x16mm (M3)",
     "price_usd": 41.49,
     "max_thrust_g": 1814.7,
     "thrust_conditions": "Axisflying bench, 1975 KV (Proxy Edition) and 2125 KV (Extreme Edition) at 6S / 24.00 V and 2725 KV at 4S / 16.00 V, on a BB4943.5 and a GF 51466; 20-100% in tens on the 6S windings, 30-100% on the 4S one",
@@ -2919,7 +2919,8 @@
      }
     ],
     "shaft": "5mm",
-    "resistance_mohm": "56 (1975KV) / 45 (2125KV) / 36 (2725KV)"
+    "resistance_mohm": "56 (1975KV) / 45 (2125KV) / 36 (2725KV)",
+    "mount_bolt_circle_mm": "Ø16 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -3607,7 +3608,8 @@
     "shaft": "1.5mm",
     "max_cells": "4S",
     "recommended_props": "3.5in (90 mm) cinewhoop props - Axisflying heads the sheet Cine157-2 / Suitable for AVATA 3.5\" and bench-tests the motor on an HQT90-4P",
-    "resistance_mohm": "83"
+    "resistance_mohm": "83",
+    "mount_bolt_circle_mm": "Ø12 (4-M2)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -4149,7 +4151,6 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "configuration": "12N14P",
-    "mount_mm": "12x12mm (M2)",
     "price_usd": 23.99,
     "max_thrust_g": 1294.38,
     "thrust_conditions": "Axisflying bench, 8 throttle points (30-100%) per run, one prop each: 1900 KV on GF D90-3P at 6S, 2300 KV on D90-3B at 6S, 2750 KV on GF3630 at 4S and again at 6S, 3500 KV on D90-3B at 4S",
@@ -4597,7 +4598,8 @@
     ],
     "recommended_props": "3.5in (90 mm) cinewhoop props - Axisflying names Gemfan D90-3 and HQ D90-3, and bench-tests the motor on GF D90-3P, D90-3B and GF3630",
     "dimensions_mm": "Ø26.9x28.8",
-    "resistance_mohm": "97.15 (1900KV) / 76.7 (2300KV & 3500KV) / 65.4 (2750KV)"
+    "resistance_mohm": "97.15 (1900KV) / 76.7 (2300KV & 3500KV) / 65.4 (2750KV)",
+    "mount_bolt_circle_mm": "Ø12 (4-M2)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -4715,7 +4717,8 @@
     "weight_g": 35.8,
     "recommended_props": "5in props - Axisflying gives the Application as \"5-inch Cinewhoop / Cinematic FPV\" and bench-tests the motor on a 5x5 three-blade",
     "dimensions_mm": "Ø28x32.5",
-    "resistance_mohm": "64.75"
+    "resistance_mohm": "64.75",
+    "mount_bolt_circle_mm": "Ø16 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -4921,7 +4924,8 @@
       "thrust_g": 1710.85,
       "efficiency_gw": 2.05
      }
-    ]
+    ],
+    "mount_bolt_circle_mm": "Ø16 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -5060,7 +5064,8 @@
      }
     ],
     "recommended_props": "Gemfan 1210 2-blade, Gemfan 1208 3-blade or Gemfan 1219S 3-blade (31 mm whoop props, BetaFPV)",
-    "dimensions_mm": "Ø9x12.75"
+    "dimensions_mm": "Ø9x12.75",
+    "mount_bolt_circle_mm": "Ø6.6 (3-M1.4)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -5491,7 +5496,8 @@
      }
     ],
     "recommended_props": "Gemfan 1210 2-blade, Gemfan 1208 3-blade or Gemfan 1219S 3-blade (31 mm whoop props, BetaFPV)",
-    "dimensions_mm": "Ø9x12.75"
+    "dimensions_mm": "Ø9x12.75",
+    "mount_bolt_circle_mm": "Ø6.6 (3-M1.4)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -6014,7 +6020,8 @@
       "thrust_g": 35.3,
       "efficiency_gw": 2.2
      }
-    ]
+    ],
+    "mount_bolt_circle_mm": "Ø6.6 (3-M1.4)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -6130,7 +6137,8 @@
      }
     ],
     "recommended_props": "Gemfan 1811 3-blade or Gemfan 45mm 3-blade (BetaFPV)",
-    "dimensions_mm": "Ø13.8x13.6"
+    "dimensions_mm": "Ø13.8x13.6",
+    "mount_bolt_circle_mm": "Ø6.6 (3-M1.4)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -7403,7 +7411,8 @@
       "thrust_g": 114.0,
       "efficiency_gw": 1.43
      }
-    ]
+    ],
+    "mount_bolt_circle_mm": "Ø6.6 (3-M1.4)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -7656,7 +7665,8 @@
      }
     ],
     "recommended_props": "Gemfan 1207 3-blade (BetaFPV)",
-    "dimensions_mm": "Ø9x11.95"
+    "dimensions_mm": "Ø9x11.95",
+    "mount_bolt_circle_mm": "Ø6.6 (3-M1.4)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -7783,7 +7793,8 @@
      }
     ],
     "recommended_props": "Gemfan 1219S 3-blade (BetaFPV)",
-    "dimensions_mm": "Ø9x11.95"
+    "dimensions_mm": "Ø9x11.95",
+    "mount_bolt_circle_mm": "Ø6.6 (3-M1.4)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -7910,7 +7921,8 @@
      }
     ],
     "recommended_props": "Gemfan 1207 3-blade (BetaFPV)",
-    "dimensions_mm": "Ø9x11.95"
+    "dimensions_mm": "Ø9x11.95",
+    "mount_bolt_circle_mm": "Ø6.6 (3-M1.4)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -9922,7 +9934,6 @@
     "weight_g": 76.5,
     "max_cells": "5-8S",
     "configuration": "12N14P",
-    "mount_mm": "19x19mm (M3)",
     "price_usd": 40.99,
     "max_thrust_g": 3307,
     "thrust_conditions": "BrotherHobby 2022 bench, 6S, 8 throttle points per KV/prop; 900KV on 40/50 A ESC, 1115KV on 60/80 A",
@@ -10281,7 +10292,8 @@
      }
     ],
     "shaft": "M5",
-    "dimensions_mm": "Ø33.9x42"
+    "dimensions_mm": "Ø33.9x42",
+    "mount_bolt_circle_mm": "Ø19 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -12236,7 +12248,8 @@
       "thrust_g": 1689.0,
       "efficiency_gw": 1.91
      }
-    ]
+    ],
+    "mount_bolt_circle_mm": "Ø16 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -19700,7 +19713,8 @@
      }
     ],
     "dimensions_mm": "Ø25x13.7",
-    "resistance_mohm": "220"
+    "resistance_mohm": "220",
+    "mount_bolt_circle_mm": "Ø12 (4-M2)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -21085,7 +21099,8 @@
      }
     ],
     "weight_g": 2.5,
-    "dimensions_mm": "13.5x7.75"
+    "dimensions_mm": "13.5x7.75",
+    "mount_bolt_circle_mm": "Ø6.6 (3-M1.4)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -21246,7 +21261,8 @@
       "efficiency_gw": 2.188
      }
     ],
-    "shaft": "1.5mm"
+    "shaft": "1.5mm",
+    "mount_bolt_circle_mm": "Ø6.6 (3-M1.4)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -40712,7 +40728,8 @@
       "thrust_g": 814.26,
       "efficiency_gw": 1.97
      }
-    ]
+    ],
+    "mount_bolt_circle_mm": "Ø12 (4-M2)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -41403,7 +41420,8 @@
       "thrust_g": 2467.79,
       "efficiency_gw": 2.02
      }
-    ]
+    ],
+    "mount_bolt_circle_mm": "Ø19 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -42159,7 +42177,8 @@
       "thrust_g": 165.51,
       "efficiency_gw": 2.4
      }
-    ]
+    ],
+    "mount_bolt_circle_mm": "Ø9 (4-M2)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -42674,7 +42693,8 @@
       "thrust_g": 171.75,
       "efficiency_gw": 2.38
      }
-    ]
+    ],
+    "mount_bolt_circle_mm": "Ø9 (4-M2)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -44037,7 +44057,8 @@
       "thrust_g": 310.57,
       "efficiency_gw": 0.98
      }
-    ]
+    ],
+    "mount_bolt_circle_mm": "Ø9 (4-M2)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -46278,7 +46299,8 @@
       "thrust_g": 673.83,
       "efficiency_gw": 1.72
      }
-    ]
+    ],
+    "mount_bolt_circle_mm": "Ø12 (4-M2)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -51277,7 +51299,8 @@
       "thrust_g": 1830.7,
       "efficiency_gw": 2.12
      }
-    ]
+    ],
+    "mount_bolt_circle_mm": "Ø16 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -51744,7 +51767,8 @@
       "thrust_g": 1728.6,
       "efficiency_gw": 2.16
      }
-    ]
+    ],
+    "mount_bolt_circle_mm": "Ø16 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -52101,7 +52125,8 @@
       "thrust_g": 36.1,
       "efficiency_gw": 1.62
      }
-    ]
+    ],
+    "mount_bolt_circle_mm": "Ø6.6 (3-M1.4)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -52129,7 +52154,6 @@
     "dimensions_mm": "Ø14.5x13.55",
     "resistance_mohm": "163",
     "price_usd": 14.49,
-    "mount_mm": "9x9mm",
     "max_thrust_g": 238.0,
     "thrust_conditions": "T-Motor bench, twelve runs across both windings: at 8000 KV GF1635-3 and GF2015-2 on 4S (~16.8 V), GF1636-4, GF2023-3 and GF65MMS-2 on 3S (~12.6 V) and GF65MMS-2, GF63MM-3 and GF3018-2 on 2S (~8.4 V); at 11000 KV GF1636-3 and GF2015-2 on 3S (~12.6 V) and GF2023-3 and GF65MMS-2 on 2S (~8.4 V); 5 throttle points (20-100% in 20% steps) on each run",
     "thrust_table": [
@@ -52793,7 +52817,8 @@
       "thrust_g": 173.8,
       "efficiency_gw": 1.86
      }
-    ]
+    ],
+    "mount_bolt_circle_mm": "Ø9 (4-M2)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -53491,7 +53516,8 @@
       "thrust_g": 1627.58,
       "efficiency_gw": 1.6
      }
-    ]
+    ],
+    "mount_bolt_circle_mm": "Ø16 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -55789,7 +55815,8 @@
       "thrust_g": 1280.8,
       "efficiency_gw": 2.04
      }
-    ]
+    ],
+    "mount_bolt_circle_mm": "Ø16 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -58495,7 +58522,8 @@
       "thrust_g": 2566,
       "efficiency_gw": 3.9
      }
-    ]
+    ],
+    "mount_bolt_circle_mm": "Ø19 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -59407,7 +59435,8 @@
       "thrust_g": 6236,
       "efficiency_gw": 2.6
      }
-    ]
+    ],
+    "mount_bolt_circle_mm": "Ø19 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -63858,7 +63887,8 @@
       "efficiency_gw": 2.33
      }
     ],
-    "resistance_mohm": "65 (1750KV) / 52 (1950KV) / 41 (2450KV)"
+    "resistance_mohm": "65 (1750KV) / 52 (1950KV) / 41 (2450KV)",
+    "mount_bolt_circle_mm": "Ø16 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -64857,7 +64887,8 @@
       "thrust_g": 1242.15,
       "efficiency_gw": 2.55
      }
-    ]
+    ],
+    "mount_bolt_circle_mm": "Ø16 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -65856,7 +65887,8 @@
       "thrust_g": 1225.91,
       "efficiency_gw": 2.51
      }
-    ]
+    ],
+    "mount_bolt_circle_mm": "Ø16 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -70188,7 +70220,8 @@
       "thrust_g": 23.6,
       "efficiency_gw": 1.55
      }
-    ]
+    ],
+    "mount_bolt_circle_mm": "Ø6.6 (3-M1.4)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
