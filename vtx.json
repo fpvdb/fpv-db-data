@@ -2646,12 +2646,13 @@
     "max_power_mw": 1600,
     "frequency_range": "1.08-1.36 GHz",
     "channels": 9,
-    "antenna_connector": "U.FL"
+    "antenna_connector": "U.FL",
+    "power_draw": "230-500 mA at 12 V"
    },
    "sources": [
     "https://rushfpv.net/products/1-6w-1-3g"
    ],
-   "note": "A bare board, not a cased brick. Its silkscreen prints nine channels - 1080, 1120, 1160, 1200, 1240, 1258, 1280, 1320 and 1360 MHz - and a power level that sweeps PIT to 1600 mW rather than stepping through named levels, so power_levels stays empty while the maximum does not. U.FL (IPEX) antenna socket; six-pin VIDEO / GND / 5V / DATA / GND / DC-IN harness. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+   "note": "A bare board, not a cased brick. Its silkscreen prints nine channels - 1080, 1120, 1160, 1200, 1240, 1258, 1280, 1320 and 1360 MHz - and a power level that sweeps PIT to 1600 mW rather than stepping through named levels, so power_levels stays empty while the maximum does not. U.FL (IPEX) antenna socket; six-pin VIDEO / GND / 5V / DATA / GND / DC-IN harness. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder. power_draw is the maker's own supply figure, 'Power Consumption: 230mA - 500mA @12V' on Rush's sheet '1.3GHz analog video transmitter module' (V1.2; image 1G3-1600_V12.jpg), read 2026-10-20 at native resolution off the listing's image (Shopify CDN through common.UA, listed by scraper/propose_vtx_power_draw.py --images); the sheet does not say which power level each end is; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
