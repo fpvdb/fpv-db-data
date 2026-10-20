@@ -26003,10 +26003,278 @@
     "max_cells": "2-6S",
     "shaft": "5mm",
     "configuration": "12N14P",
-    "resistance_mohm": "85.63 (1750KV) / 55.6 (2450KV)",
+    "resistance_mohm": "85.63 (1700KV) / 55.6 (2450KV)",
     "price_usd": 19.49,
     "dimensions_mm": "Ø29.5x32.2",
-    "mount_mm": "16x16mm (M3)"
+    "mount_mm": "16x16mm (M3)",
+    "max_thrust_g": 1604,
+    "thrust_conditions": "iFlight test report per winding, 6 throttle points (50-100%) on two props (Nazgul 5140, Gemfan 51466): 1700 KV at 6S (25.2 V), 2450 KV at 4S (16.8 V)",
+    "thrust_table": [
+     {
+      "kv": 1700,
+      "prop": "Nazgul 5140",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 25.51,
+      "current_a": 7.48,
+      "rpm": null,
+      "thrust_g": 576,
+      "efficiency_gw": 3.021
+     },
+     {
+      "kv": 1700,
+      "prop": "Nazgul 5140",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 25.47,
+      "current_a": 11.28,
+      "rpm": null,
+      "thrust_g": 744,
+      "efficiency_gw": 2.59
+     },
+     {
+      "kv": 1700,
+      "prop": "Nazgul 5140",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 25.37,
+      "current_a": 16.7,
+      "rpm": null,
+      "thrust_g": 935,
+      "efficiency_gw": 2.208
+     },
+     {
+      "kv": 1700,
+      "prop": "Nazgul 5140",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 25.34,
+      "current_a": 22.78,
+      "rpm": null,
+      "thrust_g": 1096,
+      "efficiency_gw": 1.899
+     },
+     {
+      "kv": 1700,
+      "prop": "Nazgul 5140",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 25.22,
+      "current_a": 29.17,
+      "rpm": null,
+      "thrust_g": 1266,
+      "efficiency_gw": 1.721
+     },
+     {
+      "kv": 1700,
+      "prop": "Nazgul 5140",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 25.1,
+      "current_a": 36.66,
+      "rpm": null,
+      "thrust_g": 1401,
+      "efficiency_gw": 1.523
+     },
+     {
+      "kv": 1700,
+      "prop": "Gemfan 51466",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 25.5,
+      "current_a": 6.78,
+      "rpm": null,
+      "thrust_g": 578,
+      "efficiency_gw": 3.345
+     },
+     {
+      "kv": 1700,
+      "prop": "Gemfan 51466",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 25.44,
+      "current_a": 10.43,
+      "rpm": null,
+      "thrust_g": 797,
+      "efficiency_gw": 3.004
+     },
+     {
+      "kv": 1700,
+      "prop": "Gemfan 51466",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 25.42,
+      "current_a": 15.59,
+      "rpm": null,
+      "thrust_g": 1047,
+      "efficiency_gw": 2.641
+     },
+     {
+      "kv": 1700,
+      "prop": "Gemfan 51466",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 25.25,
+      "current_a": 21.63,
+      "rpm": null,
+      "thrust_g": 1257,
+      "efficiency_gw": 2.301
+     },
+     {
+      "kv": 1700,
+      "prop": "Gemfan 51466",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 25.3,
+      "current_a": 27.91,
+      "rpm": null,
+      "thrust_g": 1480,
+      "efficiency_gw": 2.096
+     },
+     {
+      "kv": 1700,
+      "prop": "Gemfan 51466",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 25.12,
+      "current_a": 35.44,
+      "rpm": null,
+      "thrust_g": 1604,
+      "efficiency_gw": 1.802
+     },
+     {
+      "kv": 2450,
+      "prop": "Nazgul 5140",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16.9,
+      "current_a": 9.2,
+      "rpm": null,
+      "thrust_g": 485,
+      "efficiency_gw": 3.12
+     },
+     {
+      "kv": 2450,
+      "prop": "Nazgul 5140",
+      "cells": "4S",
+      "throttle": 60,
+      "voltage_v": 16.83,
+      "current_a": 13.57,
+      "rpm": null,
+      "thrust_g": 646,
+      "efficiency_gw": 2.826
+     },
+     {
+      "kv": 2450,
+      "prop": "Nazgul 5140",
+      "cells": "4S",
+      "throttle": 70,
+      "voltage_v": 16.75,
+      "current_a": 19.61,
+      "rpm": null,
+      "thrust_g": 797,
+      "efficiency_gw": 2.426
+     },
+     {
+      "kv": 2450,
+      "prop": "Nazgul 5140",
+      "cells": "4S",
+      "throttle": 80,
+      "voltage_v": 16.73,
+      "current_a": 25.24,
+      "rpm": null,
+      "thrust_g": 946,
+      "efficiency_gw": 2.241
+     },
+     {
+      "kv": 2450,
+      "prop": "Nazgul 5140",
+      "cells": "4S",
+      "throttle": 90,
+      "voltage_v": 16.61,
+      "current_a": 34.58,
+      "rpm": null,
+      "thrust_g": 1095,
+      "efficiency_gw": 1.906
+     },
+     {
+      "kv": 2450,
+      "prop": "Nazgul 5140",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16.43,
+      "current_a": 43.38,
+      "rpm": null,
+      "thrust_g": 1254,
+      "efficiency_gw": 1.76
+     },
+     {
+      "kv": 2450,
+      "prop": "Gemfan 51466",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16.92,
+      "current_a": 8.38,
+      "rpm": null,
+      "thrust_g": 500,
+      "efficiency_gw": 3.524
+     },
+     {
+      "kv": 2450,
+      "prop": "Gemfan 51466",
+      "cells": "4S",
+      "throttle": 60,
+      "voltage_v": 16.97,
+      "current_a": 12.51,
+      "rpm": null,
+      "thrust_g": 680,
+      "efficiency_gw": 3.204
+     },
+     {
+      "kv": 2450,
+      "prop": "Gemfan 51466",
+      "cells": "4S",
+      "throttle": 70,
+      "voltage_v": 16.85,
+      "current_a": 18.45,
+      "rpm": null,
+      "thrust_g": 885,
+      "efficiency_gw": 2.846
+     },
+     {
+      "kv": 2450,
+      "prop": "Gemfan 51466",
+      "cells": "4S",
+      "throttle": 80,
+      "voltage_v": 16.73,
+      "current_a": 25.38,
+      "rpm": null,
+      "thrust_g": 1067,
+      "efficiency_gw": 2.512
+     },
+     {
+      "kv": 2450,
+      "prop": "Gemfan 51466",
+      "cells": "4S",
+      "throttle": 90,
+      "voltage_v": 16.57,
+      "current_a": 32.89,
+      "rpm": null,
+      "thrust_g": 1248,
+      "efficiency_gw": 2.291
+     },
+     {
+      "kv": 2450,
+      "prop": "Gemfan 51466",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16.38,
+      "current_a": 42.03,
+      "rpm": null,
+      "thrust_g": 1447,
+      "efficiency_gw": 2.102
+     }
+    ]
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -26014,7 +26282,7 @@
     "https://www.racedayquads.com/products/iflight-xing-e-pro-2306-2450kv-motor",
     "https://shop.iflight.com/XING-E-Pro-2306-4S-6S-FPV-Motor-pro1565"
    ],
-   "note": "iFlight's own block for the XING-E Pro 2306 states its two windings as 1750KV and 2450KV where our retail source sells the same pair as 1700KV and 2450KV; the page's kv_options are left as the retailer states them and the difference recorded here, because whether a manufacturer's winding list may overwrite a retailer's is an open question for this catalogue. The block confirms 33.8 g (1750KV; 33.6 g on the 2450KV) and the 5 mm shaft, and adds Ø29.5x32.2 mm, 16x16 M3, 12N14P, 85.63/55.6 mOhm, 25.2 V and 16.8 V, and peaks of 36.66 A / 920.2 W and 43.38 A / 712.7 W. No bench table"
+   "note": "iFlight's product page carries one TEST REPORT image per winding (XING-E-Pro-2306-1700KV.png and -2450KV.png, 1307x2000 each): a spec table, the drawing and a 12-row datasheet on Nazgul 5140 and Gemfan 51466. The page's text block states the windings as 1750KV and 2450KV, but the 1700KV test report, the shop's own KV selector (1700KV / 2450KV) and our retail source all say 1700, and the report is self-consistent: its 100% row, 25.1 V x 36.66 A = 920.2 W, is the Peak Current and Max Watt both documents print. So kv_options keep 1700 and the 1750 is recorded here as the text block's figure (two maker documents disagree; the self-consistent one wins). All 24 rows pass printed power = V x A and the efficiency identity. Max thrust is the 1700 KV winding's 1604 g on the Gemfan 51466 at 6S. The reports confirm 33.8 g / 33.6 g with wire, the 5 mm shaft protruding 13.5 mm, Ø29.5x32.2 mm, 16x16 M3, 12N14P, 85.63/55.6 mOhm, 160 mm 20AWG leads, N52H magnets and NSK 9x4x4 bearings; the input volts are 25.2 V (1700KV) and 16.8 V (2450KV), the bench pack of each run."
   },
   {
    "type": "motor",
