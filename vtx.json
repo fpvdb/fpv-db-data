@@ -159,7 +159,7 @@
     "system": "analog",
     "max_power_mw": 1200,
     "power_levels_mw": "200 / 800 / 1200",
-    "frequency_range": "5.8 GHz",
+    "frequency_range": "5645-5945 MHz",
     "channels": 40,
     "input_voltage": "7-26V",
     "mount_mm": "20x30mm",
@@ -167,9 +167,10 @@
     "price_usd": 45.0
    },
    "sources": [
-    "https://www.skyzonefpv.com/products/atomrc-tx1200-analog-vtx"
+    "https://www.skyzonefpv.com/products/atomrc-tx1200-analog-vtx",
+    "https://cdn.shopifycdn.net/s/files/1/0597/9668/4956/files/TX1200EN.jpg?v=1686901624"
    ],
-   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. A labelled specification block in text: Item ATOMRC TX1200 Analog VTX, Weight 17g, Dimension 25.5X36.5mm, Power 200/800/1200mW, Voltage 7~26V, CH 40, Mounting Hole 20X30mm. The 25.5x36.5mm is the body and the 20x30mm is what the brand labels as the hole pattern, which is what mount_mm holds - a rectangular pattern, printed as such. The brand states no antenna connector for it."
+   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. A labelled specification block in text: Item ATOMRC TX1200 Analog VTX, Weight 17g, Dimension 25.5X36.5mm, Power 200/800/1200mW, Voltage 7~26V, CH 40, Mounting Hole 20X30mm. The 25.5x36.5mm is the body and the 20x30mm is what the brand labels as the hole pattern, which is what mount_mm holds - a rectangular pattern, printed as such. The brand states no antenna connector for it. frequency_range re-read 2026-10-20 (burst 210) off the brand's own description image (TX1200EN.jpg, 1000 px wide, read at native resolution): a 'Frequency Table' of five bands A/B/E/F/R x CH1-CH8, 40 cells, lowest E4 5645M and highest E8 5945M, which is the block's own 'CH: 40' - so the span is the maker's whole table, not a class label. The table's heading reads 'ISM 5.8GHz 48 Channel Diversity receiver', a receiver template's caption over a 40-cell grid; it is recorded here and not used as a channel count."
   },
   {
    "type": "vtx",
@@ -180,14 +181,18 @@
     "system": "analog",
     "max_power_mw": 1200,
     "power_levels_mw": "200 / 800 / 1200",
-    "frequency_range": "5.8 GHz",
+    "frequency_range": "4990-5945 MHz",
     "input_voltage": "7-26V",
-    "price_usd": 45.0
+    "price_usd": 45.0,
+    "channels": 56,
+    "mount_mm": "30.5x30.5mm M3",
+    "weight_g": 5.0
    },
    "sources": [
-    "https://www.skyzonefpv.com/products/atomrc-tx1201-5-8g-1-2w-vtx"
+    "https://www.skyzonefpv.com/products/atomrc-tx1201-5-8g-1-2w-vtx",
+    "https://cdn.shopifycdn.net/s/files/1/0597/9668/4956/files/TX1201.jpg?v=1702632198"
    ],
-   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. The page is a feature list, not a block: 'Support X Band(5G Hz) and Low Band', '200/800/1200mW adjustable power output', '7-26V Wide Range Voltage input', an LED segment display and Button/IRC control. Its board is silkscreened 'ATOMRC TX1201 V1.1', read at full resolution, which is what identifies it as this brand's own. frequency_range holds the 5.8 GHz of the brand's own title; the X and Low band support the features claim is not given as edges anywhere the brand publishes, and no channel count is stated, so channels is empty. No weight, mounting pattern or connector is stated either."
+   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. The page is a feature list, not a block: 'Support X Band(5G Hz) and Low Band', '200/800/1200mW adjustable power output', '7-26V Wide Range Voltage input', an LED segment display and Button/IRC control. Its board is silkscreened 'ATOMRC TX1201 V1.1', read at full resolution, which is what identifies it as this brand's own. Re-read 2026-10-20 (burst 210): the page's long description image (TX1201.jpg, 1000x11800, read at native resolution) does print what the text omits. Its 'Frequency Table' ('The L-band and X-band are added to 40 regular frequencies') is seven bands x CH1-CH8: A/B/E/F/R as standard, L 5362M-5621M and X 4990M-5200M, 56 cells, lowest X1 4990M, highest E8 5945M; its Specification table prints 'Frequency: 56', 'Mounting holes: 30.5*30.5 M3', 'Weight: 5±0.2g', 'Size: 35.9*35.9mm', 'Input voltage: 7~26V' and 'Power: 200mw/800mw/1200mw', agreeing with the text. frequency_range is the table's edges (56 = 7 x 8, so the whole table), channels the 56, mount_mm the hole line, weight_g the 5 g without its tolerance. The image's '56 Frequency' icon repeats the count. No antenna connector is stated."
   },
   {
    "type": "vtx",
@@ -219,7 +224,7 @@
     "system": "analog",
     "max_power_mw": 800,
     "power_levels_mw": "200 / 500 / 800",
-    "frequency_range": "5.8 GHz",
+    "frequency_range": "5645-5945 MHz",
     "channels": 40,
     "input_voltage": "7-26V",
     "mount_mm": "16x26mm",
@@ -227,9 +232,10 @@
     "price_usd": 29.99
    },
    "sources": [
-    "https://atomrc.com/products/atomrc-tx800-analog-vtx"
+    "https://atomrc.com/products/atomrc-tx800-analog-vtx",
+    "https://cdn.shopifycdn.net/s/files/1/0377/3051/7125/files/TX800--EN.jpg?v=1686897591"
    ],
-   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. Read on atomrc.com, which is where this brand's own transmitters live; the labelled block says Item ATOMRC TX800 Analog VTX, Weight 3.2g, Dimension 29*20mm, Power 200/500/800 mW, Voltage 7~26V, CH 40, Mounting Hole 16*26mm - the same shape of block the TX1200's page carries, with the body dimension and the hole pattern printed as separate lines. Not to be confused with the SpeedyBee TX800 this catalogue already carries at /vtx/runcam-speedybee-tx800-20x20-25-800mw-5-8ghz-mmcx/: that board is 20x20mm, 5.6 g and 3.7-5V, this one is 29*20mm, 3.2 g and 7~26V, and the two share only a number that names their power."
+   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. Read on atomrc.com, which is where this brand's own transmitters live; the labelled block says Item ATOMRC TX800 Analog VTX, Weight 3.2g, Dimension 29*20mm, Power 200/500/800 mW, Voltage 7~26V, CH 40, Mounting Hole 16*26mm - the same shape of block the TX1200's page carries, with the body dimension and the hole pattern printed as separate lines. Not to be confused with the SpeedyBee TX800 this catalogue already carries at /vtx/runcam-speedybee-tx800-20x20-25-800mw-5-8ghz-mmcx/: that board is 20x20mm, 5.6 g and 3.7-5V, this one is 29*20mm, 3.2 g and 7~26V, and the two share only a number that names their power. frequency_range re-read 2026-10-20 (burst 210) off the brand's own description image (TX800--EN.jpg, 1000 px wide, read at native resolution): a 'Frequency Table' of five bands A/B/E/F/R x CH1-CH8, 40 cells, lowest E4 5645M and highest E8 5945M, which is the block's own 'CH: 40' - so the span is the maker's whole table, not a class label. The table's heading reads 'ISM 5.8GHz 48 Channel Diversity receiver', a receiver template's caption over a 40-cell grid; it is recorded here and not used as a channel count."
   },
   {
    "type": "vtx",
@@ -739,12 +745,13 @@
     "mount_mm": "20x20mm / 25.5x25.5mm / 30.5x30.5mm",
     "weight_g": 4.2,
     "price_usd": 40.99,
-    "power_draw": "510 mA at 10 V (1.2 W output)"
+    "power_draw": "510 mA at 10 V (1.2 W output)",
+    "antenna_connector": "U.FL"
    },
    "sources": [
     "https://darwinfpv.com/products/darwinfpv-5-8g-40ch-400mw-800mw-1200mw-baby-ape-vtx"
    ],
-   "note": "Read 2026-09-24 off DarwinFPV's own shop. The page is prose with no spec block, and the figures come from three different kinds of statement. max_power_mw and input_voltage are feature lines: 'With 1200mW transmit power', 'Supports 7-33V wide voltage input'. mount_mm is the feature line 'tri-mode mounting compatibility (20x20/25.5x25.5/30.5x30.5mm)' and is confirmed by the brand's own dimension drawing (image 6 of 7, read at full resolution), which dimensions the same three spacings - 20mm, 25.5mm and 30.5mm - across a 37x37mm board 4.5mm tall on a 1mm PCB. weight_g 4.2 is read at full resolution off the brand's photograph of the bare board on a 0.1 g scale (image 7 of 7). power_levels_mw is the brand's own product handle and its retail title for this part, '400mW 800mW 1200mW'; the body text states only the 1200. channels 40 is the title's '40CH'. antenna_connector is empty: the packing list's '5.8G-IPEX1/U.FL-RF113-80mm Copper Tube Antenna' is the antenna in the box rather than a statement about the board, though the u.FL is visible in the photographs. Stated in prose and not fielded: 'No Burnout' PA protection with the antenna disconnected, a 3oz copper PCB in place of a heatsink, a dual-stage filter, 5 km in the brand's own test. power_draw is the maker's own supply figure, 'Current: 10V/510mA@1.2W' in DarwinFPV's Specifications table image for the 'DarwinFPV 5.8G 1.2W VTX' (1_Sheet2.png), read 2026-10-20 at native resolution off the listing's spec-sheet image (Shopify CDN through common.UA, listed by scraper/propose_vtx_power_draw.py --images); it is the VTX's input draw, not its RF output."
+   "note": "Read 2026-09-24 off DarwinFPV's own shop. The page is prose with no spec block, and the figures come from three different kinds of statement. max_power_mw and input_voltage are feature lines: 'With 1200mW transmit power', 'Supports 7-33V wide voltage input'. mount_mm is the feature line 'tri-mode mounting compatibility (20x20/25.5x25.5/30.5x30.5mm)' and is confirmed by the brand's own dimension drawing (image 6 of 7, read at full resolution), which dimensions the same three spacings - 20mm, 25.5mm and 30.5mm - across a 37x37mm board 4.5mm tall on a 1mm PCB. weight_g 4.2 is read at full resolution off the brand's photograph of the bare board on a 0.1 g scale (image 7 of 7). power_levels_mw is the brand's own product handle and its retail title for this part, '400mW 800mW 1200mW'; the body text states only the 1200. channels 40 is the title's '40CH'. antenna_connector is empty: the packing list's '5.8G-IPEX1/U.FL-RF113-80mm Copper Tube Antenna' is the antenna in the box rather than a statement about the board, though the u.FL is visible in the photographs. Stated in prose and not fielded: 'No Burnout' PA protection with the antenna disconnected, a 3oz copper PCB in place of a heatsink, a dual-stage filter, 5 km in the brand's own test. power_draw is the maker's own supply figure, 'Current: 10V/510mA@1.2W' in DarwinFPV's Specifications table image for the 'DarwinFPV 5.8G 1.2W VTX' (1_Sheet2.png), read 2026-10-20 at native resolution off the listing's spec-sheet image (Shopify CDN through common.UA, listed by scraper/propose_vtx_power_draw.py --images); it is the VTX's input draw, not its RF output. Re-read 2026-10-20 (burst 210): the Specifications image (the 2678 px original) labels 'Antenna Interface: U.FL/IPEX1', so antenna_connector is now the maker's own line (U.FL, the catalogue's one spelling); its other rows agree with the fields above ('Output Power 400mW/800mW/1.2W', 'Input Power DC 7-33V', three hole patterns, 'Weight(without the antenna) 4.2±2g'). 'Output Frequency: 40CH(A-B-E-F-R)' names bands but no frequency, so frequency_range keeps the 5.8 GHz label."
   },
   {
    "type": "vtx",
@@ -802,12 +809,18 @@
     "frequency_range": "5.8 GHz",
     "weight_g": 21.8,
     "price_usd": 49.99,
-    "power_draw": "900 mA at 10 V (2.5 W output)"
+    "power_draw": "900 mA at 10 V (2.5 W output)",
+    "channels": 40,
+    "input_voltage": "7-33V",
+    "mount_mm": "20x20mm M2",
+    "antenna_connector": "MMCX",
+    "power_levels_mw": "200 / 800 / 1000 / 2500"
    },
    "sources": [
-    "https://darwinfpv.com/products/darwinfpv-5-8g-2-5w-waterproof-vtx"
+    "https://darwinfpv.com/products/darwinfpv-5-8g-2-5w-waterproof-vtx",
+    "https://cdn.shopify.com/s/files/1/0585/5841/5023/files/Specifications_cecba17b-8e85-4195-86ec-762d93d4f68a.jpg?v=1726900014"
    ],
-   "note": "Read 2026-09-24 off DarwinFPV's own shop. Unlike the 1000 mW Cement beside it this page has no spec block at all - it is prose plus a packing list - so only two fields could be filled. max_power_mw is the brand's own sentence, 'features a powerful 2500mW output, offering strong penetration and stable transmission', restated by the title and by the first feature line ('2500mW High Power Output'); it is output power in milliwatts, and DarwinFPV states no EIRP or dBm figure anywhere on the page. weight_g 21.8 is read at full resolution off the brand's own photograph of the module on a scale (image 5 of 6, a 0.1 g pocket scale with the Chinese unit legend), which is the only weight DarwinFPV publishes for this part; no other unit is physically possible for a part this size. input_voltage is deliberately empty although the case is silkscreened with it: the label reads '7-__V' with the digits hidden behind the connector in the only photograph that shows that face. mount_mm, channels and antenna_connector are empty for want of any statement - the packing list's 'MMCX pigtail antenna (140mm)' describes what is in the box, which is the props' 'for T-mount builds' rule one class over. Stated in prose and not fielded: aluminium CNC housing with an active fan, IP67 to 0.5 m for 30 minutes, two-stage filtering, reverse-polarity/surge/over-temperature protection, SmartAudio. power_draw is the maker's own supply figure, 'Current: 10V/900mA@2.5W' in DarwinFPV's Specifications table image (Specifications_cecba17b...jpg, 2400 px wide), read 2026-10-20 at native resolution off the listing's spec-sheet image (Shopify CDN through common.UA, listed by scraper/propose_vtx_power_draw.py --images); it is the VTX's input draw, not its RF output."
+   "note": "Read 2026-09-24 off DarwinFPV's own shop. Unlike the 1000 mW Cement beside it this page has no spec block at all - it is prose plus a packing list - so only two fields could be filled. max_power_mw is the brand's own sentence, 'features a powerful 2500mW output, offering strong penetration and stable transmission', restated by the title and by the first feature line ('2500mW High Power Output'); it is output power in milliwatts, and DarwinFPV states no EIRP or dBm figure anywhere on the page. weight_g 21.8 is read at full resolution off the brand's own photograph of the module on a scale (image 5 of 6, a 0.1 g pocket scale with the Chinese unit legend), which is the only weight DarwinFPV publishes for this part; no other unit is physically possible for a part this size. input_voltage is deliberately empty although the case is silkscreened with it: the label reads '7-__V' with the digits hidden behind the connector in the only photograph that shows that face. mount_mm, channels and antenna_connector are empty for want of any statement - the packing list's 'MMCX pigtail antenna (140mm)' describes what is in the box, which is the props' 'for T-mount builds' rule one class over. Stated in prose and not fielded: aluminium CNC housing with an active fan, IP67 to 0.5 m for 30 minutes, two-stage filtering, reverse-polarity/surge/over-temperature protection, SmartAudio. power_draw is the maker's own supply figure, 'Current: 10V/900mA@2.5W' in DarwinFPV's Specifications table image (Specifications_cecba17b...jpg, 2400 px wide), read 2026-10-20 at native resolution off the listing's spec-sheet image (Shopify CDN through common.UA, listed by scraper/propose_vtx_power_draw.py --images); it is the VTX's input draw, not its RF output. Re-read 2026-10-20 (burst 210), same image: its labelled rows fill what the prose left empty - 'Output power: 200mW/800mW/1W/2.5W' (power_levels_mw), 'Input power: DC 7-33V' (input_voltage; the case label's hidden digits are 33), 'Output frequency: 40CH(A-B-E-F-R)' (channels), 'Antenna interface: MMCX', 'Installation hole position: 20x20mm (M2)' (mount_mm), 'Dimensions: 32x28.5x15mm (including the fan)', 'Weight(without the antenna): 21.8±2g' (agrees with the scale photograph). The sheet names the five bands but prints no frequency, so frequency_range keeps the 5.8 GHz label: a span from the standard band plan would be our figure, not DarwinFPV's."
   },
   {
    "type": "vtx",
