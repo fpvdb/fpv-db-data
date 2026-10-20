@@ -1851,13 +1851,14 @@
     "channels": 104,
     "input_voltage": "7-36V (2-8S)",
     "mount_mm": "20x20mm M2 / 25.5x25.5mm M2",
+    "antenna_connector": "MMCX / SMA",
     "weight_g": 35.6,
     "price_usd": 59.99
    },
    "sources": [
     "https://geprc.com/product/geprc-maten-5-8g-3w-vtx-pro-v2/"
    ],
-   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Block lines: 'Output Power: 25mW/200mW/600mW/1600mW/3000mW/Pit mode', 'Frequency：4884-6184MHz', 'Channels: 104CH', 'Input Voltage: DC7-36V(2-8S Battery)', 'Mounting Hole Size：20x20mm(M2),25.5×25.5mm(M2)', 'Weight: 35.6g (VTX only)'. antenna_connector is deliberately empty: the block states 'Antenna Connector: MMCX, SMA' and the page sells an MMCX SKU and an SMA SKU at the same $59.99, with the dimension line giving each its own figure ('57.5×31.5×17.5mm(SMA) , 50×31.5×17.5mm(MMCX)'). A connector printed as a choice is two hub versions of one radio, which is the props' mount rule in CLAUDE.md one class over. The V2 is a different radio from the 3W PRO above it, not a revision of the listing: 104 channels against 80, 35.6 g against 21.1 g, and a 25.5mm second pattern where the older board has 30.5mm."
+   "note": "Read 2026-09-24 off GEPRC's own site, the thirteenth VTX manufacturer catalogue read beside the US retail scrape and the second brand this catalogue carried no transmitter of at all. geprc.com is WooCommerce: /wp-json/wp/v2/product lists the whole catalogue and product_cat=211 ('Electronics', 114 SKUs) holds the transmitters, but the REST API's content field is only the description gallery - the labelled Specifications block is in the product page HTML, so every figure here was read off the page itself. Block lines: 'Output Power: 25mW/200mW/600mW/1600mW/3000mW/Pit mode', 'Frequency：4884-6184MHz', 'Channels: 104CH', 'Input Voltage: DC7-36V(2-8S Battery)', 'Mounting Hole Size：20x20mm(M2),25.5×25.5mm(M2)', 'Weight: 35.6g (VTX only)'. antenna_connector is 'MMCX / SMA': the block states 'Antenna Connector: MMCX, SMA' and the page sells an MMCX SKU and an SMA SKU at the same $59.99, with the dimension line giving each its own figure ('57.5×31.5×17.5mm(SMA) , 50×31.5×17.5mm(MMCX)'), and GEPRC's own spec image (2026/04 '2-1.jpg' in the page gallery, read 2026-10-20) prints the same line. Two hub versions of one radio are written as one ' / '-joined value, as on the AKK FX3 and RDQ Mach 3 pages (filled 2026-10-20, 248th burst; until then left empty under the props' mount rule). The V2 is a different radio from the 3W PRO above it, not a revision of the listing: 104 channels against 80, 35.6 g against 21.1 g, and a 25.5mm second pattern where the older board has 30.5mm."
   },
   {
    "type": "vtx",
