@@ -6042,12 +6042,108 @@
     "weight_g": 2.85,
     "max_cells": "1S",
     "shaft": "1.5mm",
-    "price_usd": 46.49
+    "price_usd": 46.49,
+    "max_thrust_g": 66.6,
+    "thrust_conditions": "BetaFPV bench, 21000 KV on a Gemfan 1811-3 at 1S; 8 throttle points (30-100% in 10% steps), 3.92-3.81 V under load",
+    "thrust_table": [
+     {
+      "kv": 21000,
+      "prop": "GF 1811-3",
+      "cells": "1S",
+      "throttle": 30,
+      "voltage_v": 3.92,
+      "current_a": 0.8,
+      "rpm": 16081,
+      "thrust_g": 9.6,
+      "efficiency_gw": 3.05
+     },
+     {
+      "kv": 21000,
+      "prop": "GF 1811-3",
+      "cells": "1S",
+      "throttle": 40,
+      "voltage_v": 3.91,
+      "current_a": 1.54,
+      "rpm": 21132,
+      "thrust_g": 16.7,
+      "efficiency_gw": 2.77
+     },
+     {
+      "kv": 21000,
+      "prop": "GF 1811-3",
+      "cells": "1S",
+      "throttle": 50,
+      "voltage_v": 3.9,
+      "current_a": 2.52,
+      "rpm": 25443,
+      "thrust_g": 24.8,
+      "efficiency_gw": 2.53
+     },
+     {
+      "kv": 21000,
+      "prop": "GF 1811-3",
+      "cells": "1S",
+      "throttle": 60,
+      "voltage_v": 3.88,
+      "current_a": 3.57,
+      "rpm": 29730,
+      "thrust_g": 34.1,
+      "efficiency_gw": 2.46
+     },
+     {
+      "kv": 21000,
+      "prop": "GF 1811-3",
+      "cells": "1S",
+      "throttle": 70,
+      "voltage_v": 3.87,
+      "current_a": 4.73,
+      "rpm": 33111,
+      "thrust_g": 42.4,
+      "efficiency_gw": 2.31
+     },
+     {
+      "kv": 21000,
+      "prop": "GF 1811-3",
+      "cells": "1S",
+      "throttle": 80,
+      "voltage_v": 3.85,
+      "current_a": 6.01,
+      "rpm": 36309,
+      "thrust_g": 50.2,
+      "efficiency_gw": 2.17
+     },
+     {
+      "kv": 21000,
+      "prop": "GF 1811-3",
+      "cells": "1S",
+      "throttle": 90,
+      "voltage_v": 3.83,
+      "current_a": 7.41,
+      "rpm": 39179,
+      "thrust_g": 58.5,
+      "efficiency_gw": 2.06
+     },
+     {
+      "kv": 21000,
+      "prop": "GF 1811-3",
+      "cells": "1S",
+      "throttle": 100,
+      "voltage_v": 3.81,
+      "current_a": 9.18,
+      "rpm": 41913,
+      "thrust_g": 66.6,
+      "efficiency_gw": 1.91
+     }
+    ],
+    "recommended_props": "Gemfan 1811 3-blade or Gemfan 45mm 3-blade (BetaFPV)",
+    "dimensions_mm": "Ø13.8x13.6"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
-    "https://www.racedayquads.com/products/betafpv-1102-brushless-motors-2026-4-pcs-21000kv"
-   ]
+    "https://www.racedayquads.com/products/betafpv-1102-brushless-motors-2026-4-pcs-21000kv",
+    "https://betafpv.com/products/1102-brushless-motors-2026"
+   ],
+   "note": "The rows are BetaFPV's own \"Outline Drawing / Load Performance\" sheet image (1102_Brushless_Motors_2026_load_performance.jpg, 1600x1600) on betafpv.com/products/1102-brushless-motors-2026: one eight-row table headed \"Freestyle 1102 - 21000KV\" on a GF 1811-3 at 1S, 30-100% throttle in 10% steps, with Speed (RPM) and a per-row voltage (3.92 V down to 3.81 V under load). Its Input (W) is voltage x current to the tenth on every row, and its Efficiency is thrust over voltage x current within 0.01 g/W (the voltage and current columns are rounded, so 9.6 / (3.92 x 0.80) gives 3.06 where the sheet prints 3.05). The spec-block cross-check lands on the sheet's own 100% row: \"Maximum Power: 35W\" and \"Maximum Current: 9.2A\" are that row's 35.0 W and 9.18 A. Identity for this page: the maker's spec block and our retail listing agree on 21000 KV, 2.85 g, 4.2 V (1S) and a 1.5 mm shaft, and the listing's title names the 2026 line; the 2022-series 1102 (/motors/betafpv-2022-series-1102-micro-whoop/) is a different motor. The outline drawing gives the body as O13.8 x 13.6 mm overall (8.6 mm of body plus a 5 mm shaft), a 1.5 mm shaft, three M1.4 holes on a 6.6 mm bolt circle (\"3-M1.4 EQS\", a bolt circle, so mount_mm stays empty) and a 37 mm 28AWG JST 1.25 3-pin lead. Max thrust is 66.6 g, the 100% row, where the page carried none. Recommended props are the two BetaFPV names under Recommended Parts (GF 1811 3-Blade, GF 45mm 3-Blade); the bench run is on the first."
   },
   {
    "type": "motor",
