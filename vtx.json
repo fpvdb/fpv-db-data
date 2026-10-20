@@ -689,16 +689,20 @@
    "model": "Herelink Blue Air Unit V1.1",
    "slug": "cubepilot-herelink-blue-air-unit-v1-1",
    "specs": {
-    "system": "analog",
+    "system": "Digital HD (other)",
     "max_power_mw": 200,
     "antenna_connector": "MMCX",
     "weight_g": 68.0,
-    "price_usd": 1399.0
+    "price_usd": 1399.0,
+    "frequency_range": "2.4 GHz"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
-    "https://www.racedayquads.com/products/cubepilot-herelink-blue-air-unit-v1-1"
-   ]
+    "https://www.racedayquads.com/products/cubepilot-herelink-blue-air-unit-v1-1",
+    "https://docs.cubepilot.org/cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue",
+    "https://docs.cubepilot.org/cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/herelink-blue-user-guide/air-unit/air-unit-specifications"
+   ],
+   "note": "CubePilot's own HereLink Blue documentation (docs.cubepilot.org, Union Robotics partner pages, read 2026-10-20) prints the system's radio table: 'Frequency Band: 2.4GHz ISM', 'Receive Sensitivity: -99dBm@20MHz BW', and calls HereLink Blue 'an integrated remote controller, ground station and wireless digital transmission system' carrying 'HD video'; its Air Unit specification page states 'Signal Bandwidth: 20MHz/10MHz' and prints no frequency of its own, so the system's band is the air unit's. system is therefore Digital HD (other), not the analog the retail scrape assigned for want of a digital keyword in the listing. The listing itself calls it 'a long-range digital video and data transmission module'. weight_g stays the listing's 68 g for the NW Blue V1.1 unit (78 x 30 x 17 mm); CubePilot's page shows 90 g with antennas for a 104.5 x 30.5 x 16 mm housing, a different case."
   },
   {
    "type": "vtx",
@@ -706,8 +710,8 @@
    "model": "Herelink Blue Bundle V1.1",
    "slug": "cubepilot-herelink-blue-bundle-v1-1",
    "specs": {
-    "frequency_range": "5.8 GHz",
-    "system": "analog",
+    "frequency_range": "2.4 GHz",
+    "system": "Digital HD (other)",
     "max_power_mw": 200,
     "antenna_connector": "MMCX",
     "weight_g": 68.0,
@@ -715,8 +719,10 @@
    },
    "_scraped_at": "2026-10-20",
    "sources": [
-    "https://www.racedayquads.com/products/cubepilot-herelink-blue-bundle-v1-1"
-   ]
+    "https://www.racedayquads.com/products/cubepilot-herelink-blue-bundle-v1-1",
+    "https://docs.cubepilot.org/cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue"
+   ],
+   "note": "CubePilot's own HereLink Blue documentation (docs.cubepilot.org, Union Robotics partner pages, read 2026-10-20) prints the system's radio table: 'Frequency Band: 2.4GHz ISM', 'Receive Sensitivity: -99dBm@20MHz BW', and calls HereLink Blue 'an integrated remote controller, ground station and wireless digital transmission system' carrying 'HD video'; its Air Unit specification page states 'Signal Bandwidth: 20MHz/10MHz' and prints no frequency of its own, so the system's band is the air unit's. system is therefore Digital HD (other), not the analog the retail scrape assigned for want of a digital keyword in the listing. The bundle listing prints the same 'Frequency Band: 2.4 GHz ISM'; the '5.8 GHz' this page carried until 2026-10-20 was the controller's '5.8 GHz WiFi' line, which the scraper now steps over."
   },
   {
    "type": "vtx",
@@ -938,7 +944,8 @@
     "price_usd": 169.0,
     "max_power_mw": 1200,
     "power_levels_mw": "25 / 50 / 100 / 200 / 400 / 700 / 1200",
-    "mount_mm": "20x20mm / 25.5x25.5mm"
+    "mount_mm": "20x20mm / 25.5x25.5mm",
+    "frequency_range": "5.170-5.250 / 5.725-5.850 GHz"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -946,7 +953,7 @@
     "https://dl.djicdn.com/downloads/DJI_O4_Air_Unit_Series/UM/DJI_O4_Air_Unit_Series_User_Manual_v1.0_en.pdf",
     "https://www.racedayquads.com/products/dji-o4-air-unit-pro"
    ],
-   "note": "This SKU is the O4 Air Unit Pro's video transmission module sold without the camera - the retail listing gives 'Compatibility: DJI O4 Air Unit Pro' and sells it for repair and replacement - so it is the same radio as the kit and carries the kit's figures from DJI's O4 Air Unit Series user manual v1.0 (section 4.3, p17). Output power in milliwatts, not EIRP. mount_mm is the kit listing's 'VTX Mounting Pattern: 20x20/25.5x25.5mm' line: this SKU is that kit's transmission module, so it is the same board with the same holes, and its own listing states no pattern at all. What it used to hold was '33.5x13mm', two of the three figures the same listing prints as 'Dimensions: 33.5 x 33.5 x 13 mm (L x W x H)'."
+   "note": "This SKU is the O4 Air Unit Pro's video transmission module sold without the camera - the retail listing gives 'Compatibility: DJI O4 Air Unit Pro' and sells it for repair and replacement - so it is the same radio as the kit and carries the kit's figures from DJI's O4 Air Unit Series user manual v1.0 (section 4.3, p17). Output power in milliwatts, not EIRP. mount_mm is the kit listing's 'VTX Mounting Pattern: 20x20/25.5x25.5mm' line: this SKU is that kit's transmission module, so it is the same board with the same holes, and its own listing states no pattern at all. What it used to hold was '33.5x13mm', two of the three figures the same listing prints as 'Dimensions: 33.5 x 33.5 x 13 mm (L x W x H)'. This SKU is the O4 Air Unit Pro's video transmission module sold without the camera - the retail listing gives 'Compatibility: DJI O4 Air Unit Pro' and sells it for repair and replacement - so it is the same radio as the kit and carries the kit's figures from DJI's O4 Air Unit Series user manual v1.0 (section 4.3, p17). Output power in milliwatts, not EIRP. mount_mm is the kit listing's 'VTX Mounting Pattern: 20x20/25.5x25.5mm' line: this SKU is that kit's transmission module, so it is the same board with the same holes, and its own listing states no pattern at all. What it used to hold was '33.5x13mm', two of the three figures the same listing prints as 'Dimensions: 33.5 x 33.5 x 13 mm (L x W x H)'. frequency_range is the same manual's section 4.4 (p17), which covers the whole O4 Air Unit series: in Auto mode the unit 'will automatically select the channel with optimal signal strength between 5.170GHz and 5.250GHz or between 5.725GHz and 5.850GHz' - the span the kit's page already prints."
   },
   {
    "type": "vtx",
