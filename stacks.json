@@ -83,7 +83,6 @@
     "mount_mm": "30.5x30.5mm",
     "kind": "stack",
     "esc_current_a": 55,
-    "weight_g": 16.2,
     "price_usd": 136.99,
     "mount_class": "30x30"
    },
@@ -146,7 +145,6 @@
     "mount_mm": "30.5x30.5mm",
     "kind": "stack",
     "esc_current_a": 65,
-    "weight_g": 32.0,
     "price_usd": 187.49,
     "mount_class": "30x30"
    },
@@ -168,7 +166,6 @@
     "mount_mm": "30.5x30.5mm",
     "kind": "stack",
     "esc_current_a": 60,
-    "weight_g": 7.0,
     "price_usd": 119.99,
     "mount_class": "30x30"
    },
@@ -484,7 +481,6 @@
     "mount_mm": "20x20mm",
     "kind": "stack",
     "esc_current_a": 40,
-    "weight_g": 6.0,
     "price_usd": 71.99,
     "mount_class": "20x20"
    },
@@ -569,7 +565,6 @@
     "mount_mm": "20x20mm",
     "kind": "stack",
     "esc_current_a": 60,
-    "weight_g": 5.0,
     "price_usd": 154.99,
     "mount_class": "20x20"
    },
@@ -682,7 +677,6 @@
     "mount_mm": "16x16mm",
     "kind": "stack",
     "esc_current_a": 35,
-    "weight_g": 2.3,
     "price_usd": 89.99,
     "mount_class": "16x16"
    },
@@ -725,7 +719,6 @@
     "mcu": "F722",
     "kind": "stack",
     "esc_current_a": 45,
-    "weight_g": 9.9,
     "price_usd": 83.99,
     "mount_class": "20x20"
    },
@@ -878,7 +871,6 @@
     "mount_mm": "30.5x30.5mm",
     "kind": "stack",
     "esc_current_a": 50,
-    "weight_g": 6.6,
     "price_usd": 155.99,
     "mount_class": "30x30"
    },
@@ -921,7 +913,6 @@
     "mount_mm": "30.5x30.5mm",
     "kind": "stack",
     "esc_current_a": 50,
-    "weight_g": 7.7,
     "price_usd": 69.99,
     "mount_class": "30x30"
    },
@@ -1054,7 +1045,6 @@
     "esc_firmware": "G_H_30 – Rev. 16.7 – Multi",
     "kind": "stack",
     "esc_current_a": 50,
-    "weight_g": 8.5,
     "price_usd": 92.49,
     "mount_class": "30x30"
    },
@@ -1266,7 +1256,6 @@
     "mount_mm": "20x20mm",
     "kind": "stack",
     "esc_current_a": 70,
-    "weight_g": 13.4,
     "price_usd": 164.99,
     "mount_class": "20x20"
    },
@@ -1383,7 +1372,6 @@
     "mount_mm": "30.5x30.5mm",
     "kind": "stack",
     "esc_current_a": 60,
-    "weight_g": 29.0,
     "price_usd": 76.99,
     "mount_class": "30x30"
    },
@@ -1449,7 +1437,6 @@
     "esc_firmware": "Hobbywing_XRotor_BLHeli-32 Version",
     "kind": "stack",
     "esc_current_a": 45,
-    "weight_g": 12.0,
     "price_usd": 159.99,
     "mount_class": "20x20"
    },
@@ -1470,7 +1457,6 @@
     "max_cells": "4-6S",
     "kind": "stack",
     "esc_current_a": 50,
-    "weight_g": 7.0,
     "price_usd": 122.49,
     "mount_class": "30x30"
    },
@@ -1513,7 +1499,6 @@
     "max_cells": "2-6S",
     "kind": "stack",
     "esc_current_a": 55,
-    "weight_g": 7.8,
     "price_usd": 116.99,
     "mount_class": "30x30"
    },
@@ -1535,7 +1520,6 @@
     "esc_firmware": "BLHeli32",
     "kind": "stack",
     "esc_current_a": 55,
-    "weight_g": 7.8,
     "price_usd": 155.99,
     "mount_class": "30x30"
    },
@@ -1579,7 +1563,6 @@
     "max_cells": "2-6S",
     "kind": "stack",
     "esc_current_a": 55,
-    "weight_g": 5.0,
     "price_usd": 124.99,
     "mount_class": "20x20"
    },
@@ -1601,7 +1584,6 @@
     "max_cells": "2-6S",
     "kind": "stack",
     "esc_current_a": 55,
-    "weight_g": 5.0,
     "price_usd": 95.99,
     "mount_class": "20x20"
    },
@@ -1624,7 +1606,6 @@
     "esc_firmware": "BLHeli32",
     "kind": "stack",
     "esc_current_a": 55,
-    "weight_g": 11.3,
     "price_usd": 139.99,
     "mount_class": "20x20"
    },
@@ -1757,7 +1738,6 @@
     "esc_firmware": "AM32",
     "kind": "stack",
     "esc_current_a": 80,
-    "weight_g": 4.8,
     "price_usd": 92.49,
     "mount_class": "20x20"
    },
@@ -1884,7 +1864,6 @@
     "esc_firmware": "BLHeli_S J-H-40",
     "kind": "stack",
     "esc_current_a": 35,
-    "weight_g": 13.5,
     "price_usd": 110.99,
     "mount_class": "20x20"
    },
@@ -1905,7 +1884,6 @@
     "esc_firmware": "BLHeli_S JH50",
     "kind": "stack",
     "esc_current_a": 50,
-    "weight_g": 9.6,
     "price_usd": 86.49,
     "mount_class": "30x30"
    },
@@ -1926,7 +1904,6 @@
     "esc_firmware": "BLHeli_S J-H-40",
     "kind": "stack",
     "esc_current_a": 55,
-    "weight_g": 10.5,
     "price_usd": 86.49,
     "mount_class": "30x30"
    },
@@ -1946,7 +1923,6 @@
     "mount_mm": "30.5x30.5mm",
     "kind": "stack",
     "esc_current_a": 55,
-    "weight_g": 8.1,
     "price_usd": 119.99,
     "mount_class": "30x30"
    },
@@ -1969,7 +1945,6 @@
     "esc_firmware": "BLHeli_S JH40",
     "kind": "stack",
     "esc_current_a": 35,
-    "weight_g": 5.7,
     "price_usd": 95.99,
     "mount_class": "20x20"
    },
@@ -1991,7 +1966,6 @@
     "esc_firmware": "SpeedyBee BL32 50A",
     "kind": "stack",
     "esc_current_a": 50,
-    "weight_g": 9.0,
     "price_usd": 151.49,
     "mount_class": "30x30"
    },
@@ -2012,7 +1986,6 @@
     "mount_mm": "20x20mm / 30.5x30.5mm",
     "kind": "stack",
     "esc_current_a": 70,
-    "weight_g": 7.5,
     "price_usd": 199.49,
     "mount_class": "20x20"
    },
@@ -2035,7 +2008,6 @@
     "bec_output": "none",
     "kind": "stack",
     "esc_current_a": 60,
-    "weight_g": 6.9,
     "price_usd": 113.99,
     "mount_class": "30x30"
    },
@@ -2057,7 +2029,6 @@
     "esc_firmware": "BLHeli_32",
     "kind": "stack",
     "esc_current_a": 60,
-    "weight_g": 4.9,
     "price_usd": 131.99,
     "mount_class": "20x20"
    },
@@ -2078,7 +2049,6 @@
     "max_cells": "3-6S",
     "kind": "stack",
     "esc_current_a": 50,
-    "weight_g": 6.0,
     "price_usd": 77.99,
     "mount_class": "30x30"
    },
@@ -2100,7 +2070,6 @@
     "esc_firmware": "BLHELI 32 ESC",
     "kind": "stack",
     "esc_current_a": 45,
-    "weight_g": 6.9,
     "price_usd": 118.99,
     "mount_class": "30x30"
    },
@@ -2123,7 +2092,6 @@
     "bec_output": "none",
     "kind": "stack",
     "esc_current_a": 50,
-    "weight_g": 6.9,
     "price_usd": 118.99,
     "mount_class": "30x30"
    },
@@ -2146,7 +2114,6 @@
     "bec_output": "none",
     "kind": "stack",
     "esc_current_a": 60,
-    "weight_g": 17.0,
     "price_usd": 117.99,
     "mount_class": "30x30"
    },
@@ -2168,7 +2135,6 @@
     "esc_firmware": "BLHeli_32",
     "kind": "stack",
     "esc_current_a": 65,
-    "weight_g": 19.0,
     "price_usd": 137.99,
     "mount_class": "30x30"
    },
@@ -2191,7 +2157,6 @@
     "max_cells": "3-6S",
     "kind": "stack",
     "esc_current_a": 60,
-    "weight_g": 10.1,
     "price_usd": 140.49,
     "mount_class": "30x30"
    },
@@ -2214,7 +2179,6 @@
     "bec_output": "none",
     "kind": "stack",
     "esc_current_a": 40,
-    "weight_g": 6.0,
     "price_usd": 103.49,
     "mount_class": "20x20"
    },
@@ -2237,7 +2201,6 @@
     "bec_output": "none",
     "kind": "stack",
     "esc_current_a": 55,
-    "weight_g": 4.2,
     "price_usd": 101.99,
     "mount_class": "20x20"
    },
@@ -2283,7 +2246,6 @@
     "fc_firmware": "TMTR-TMOTORVELOXF7V2 (BETAFLIGHT)",
     "kind": "stack",
     "esc_current_a": 50,
-    "weight_g": 9.2,
     "price_usd": 137.99,
     "mount_class": "30x30"
    },
@@ -2394,7 +2356,6 @@
     "fc_firmware": "TMOTORF7 (Betaflight)",
     "kind": "stack",
     "esc_current_a": 55,
-    "weight_g": 7.4,
     "price_usd": 181.99,
     "mount_class": "30x30"
    },
@@ -2417,7 +2378,6 @@
     "gyro": "BMI270",
     "kind": "stack",
     "esc_current_a": 55,
-    "weight_g": 17.3,
     "price_usd": 174.99,
     "mount_class": "30x30"
    },
@@ -2439,7 +2399,6 @@
     "mount_mm": "30.5x30.5mm",
     "kind": "stack",
     "esc_current_a": 50,
-    "weight_g": 9.0,
     "price_usd": 112.99,
     "mount_class": "30x30"
    },
