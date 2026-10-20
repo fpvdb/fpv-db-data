@@ -12201,7 +12201,7 @@
      1050
     ],
     "weight_g": 110.0,
-    "max_cells": "6-12S",
+    "max_cells": "6-12S (400KV) / 5-8S (1050KV)",
     "configuration": "12N14P",
     "price_usd": 55.49,
     "max_thrust_g": 4449,
@@ -15608,7 +15608,7 @@
      3000
     ],
     "weight_g": 18.0,
-    "max_cells": "3-6S",
+    "max_cells": "4-6S (2000/2400KV) / 3-6S (3000KV)",
     "shaft": "1.5mm",
     "configuration": "12N14P",
     "dimensions_mm": "24.7x19.2",
@@ -21009,7 +21009,7 @@
      2500
     ],
     "weight_g": 29.3,
-    "max_cells": "3-6S",
+    "max_cells": "3-6S (1800/2100KV) / 3-4S (2500KV)",
     "recommended_props": "5\"-5.5\"",
     "price_usd": 23.99,
     "dimensions_mm": "26.9x33",
@@ -21873,7 +21873,7 @@
      2500
     ],
     "weight_g": 27.9,
-    "max_cells": "3-6S",
+    "max_cells": "3-6S (1800/2100KV) / 3-4S (2500KV)",
     "recommended_props": "5\"-5.5\"",
     "price_usd": 23.99,
     "max_thrust_g": 1980,
@@ -23638,7 +23638,7 @@
      2500
     ],
     "weight_g": 36.0,
-    "max_cells": "2-4S",
+    "max_cells": "3-6S (1900KV) / 2-4S (2500KV)",
     "shaft": "5mm",
     "configuration": "12N14P",
     "mount_mm": "16x16mm (M3)",
@@ -23893,7 +23893,7 @@
      2750
     ],
     "weight_g": 32.2,
-    "max_cells": "6S",
+    "max_cells": "6S (1850/1950/2005KV) / 3-4S (2750KV)",
     "shaft": "5mm",
     "configuration": "12N14P",
     "mount_mm": "16x16mm",
@@ -24284,7 +24284,7 @@
      2050
     ],
     "weight_g": 34.4,
-    "max_cells": "6S",
+    "max_cells": "6S (1950KV) / 4S (2050KV)",
     "shaft": "4mm",
     "configuration": "12N14P",
     "dimensions_mm": "26.9x32.4",
@@ -24873,7 +24873,7 @@
      2550
     ],
     "weight_g": 32.0,
-    "max_cells": "3-4S",
+    "max_cells": "4-6S (1850KV) / 3-4S (2550KV)",
     "shaft": "5mm",
     "configuration": "12N14P",
     "dimensions_mm": "28.99x30.2",
@@ -31578,7 +31578,7 @@
      2750
     ],
     "weight_g": 33.8,
-    "max_cells": "2-4S",
+    "max_cells": "4-6S (1800KV) / 2-4S (2450/2750KV)",
     "shaft": "5mm",
     "configuration": "12N14P",
     "resistance_mohm": "81.5 (1800KV) / 46.8 (2450KV) / 41 (2750KV)",
@@ -33393,7 +33393,7 @@
      1855
     ],
     "weight_g": 30.5,
-    "max_cells": "6S",
+    "max_cells": "6S (1750KV) / 4S (1855KV)",
     "shaft": "5mm",
     "configuration": "12N14P",
     "dimensions_mm": "Ø29x19.25",
@@ -34834,7 +34834,7 @@
      2450
     ],
     "weight_g": 36.0,
-    "max_cells": "6S",
+    "max_cells": "6S (1750KV) / 4S (2450KV)",
     "shaft": "5mm",
     "dimensions_mm": "Ø29.4x31.6",
     "price_usd": 29.99,
@@ -36182,7 +36182,7 @@
      22000
     ],
     "weight_g": 2.5,
-    "max_cells": "1S",
+    "max_cells": "1-2S (14000KV) / 1S (19000/22000KV)",
     "shaft": "1.5mm",
     "configuration": "9N12P",
     "dimensions_mm": "13.5x7.75",
@@ -36606,7 +36606,7 @@
      22000
     ],
     "weight_g": 3.45,
-    "max_cells": "1-2S",
+    "max_cells": "1-2S (10000KV) / 1S (22000KV)",
     "shaft": "1.5mm",
     "configuration": "9N12P",
     "dimensions_mm": "13.5x9.2",
@@ -38479,7 +38479,7 @@
      2480
     ],
     "weight_g": 29.0,
-    "max_cells": "4-5S",
+    "max_cells": "5-6S (1980/2080KV) / 4-5S (2480KV)",
     "shaft": "5mm",
     "configuration": "12N14P",
     "dimensions_mm": "Ø26.29x30.85",
@@ -45105,7 +45105,7 @@
      3550
     ],
     "weight_g": 19.7,
-    "max_cells": "3-4S",
+    "max_cells": "6S (1500KV) / 3-4S (3550KV)",
     "shaft": "3mm",
     "configuration": "12N14P",
     "dimensions_mm": "Ø26.8x26.45",
@@ -61625,7 +61625,7 @@
      3800
     ],
     "weight_g": 11.6,
-    "max_cells": "4S",
+    "max_cells": "6S (2850KV) / 4S (3800KV)",
     "shaft": "2mm",
     "configuration": "12N14P",
     "price_usd": 24.99,
@@ -64161,7 +64161,7 @@
      2080,
      2550
     ],
-    "max_cells": "6S",
+    "max_cells": "6S (1750/1950KV) / 5-6S (2080KV) / 4S (2550KV)",
     "shaft": "4mm",
     "configuration": "12N14P",
     "price_usd": 29.99,
@@ -69395,7 +69395,7 @@
      2550
     ],
     "weight_g": 34.3,
-    "max_cells": "5-6S",
+    "max_cells": "5-6S (1950KV) / 4S (2550KV)",
     "shaft": "4mm",
     "configuration": "12N14P",
     "dimensions_mm": "Ø27.5x31.35",
@@ -86486,7 +86486,7 @@
      2450
     ],
     "weight_g": 36.3,
-    "max_cells": "4S",
+    "max_cells": "6S (1850KV) / 4S (2450KV)",
     "shaft": "5mm",
     "configuration": "12S14P",
     "dimensions_mm": "Ø27x34.2",
