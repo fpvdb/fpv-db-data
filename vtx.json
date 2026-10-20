@@ -420,12 +420,13 @@
     "mount_mm": "26x26mm",
     "antenna_connector": "MMCX",
     "weight_g": 4.9,
-    "input_voltage": "7-35V"
+    "input_voltage": "7-35V",
+    "power_draw": "under 300 mA at 8 V (400 mW output)"
    },
    "sources": [
     "https://betafpv.com/products/a03-400mw-5-8g-vtx"
    ],
-   "note": "BetaFPV's product page prints the labelled block: Output power: PIT/RCE/25mW/100mW/400mW (10-26dBm), Supply voltage range: 7-35V, Current (8v): <300mA (400mW), Weight: 4.9g (excluding antenna), VTX size: 30.34*30.34*4.6mm, Mounting Hole Size: 26*26mm, Antenna: Air Antenna (MMCX Straight), Frequency: 5.8GHz 48 channels, Raceband: 5658~5917MHz, Channel SEL: SmartAudioV2.0 & Tramp. The board runs OpenVTx firmware, which is where the RCE (race) step comes from; power_levels_mw keeps the two named steps beside the three in milliwatts, as this column does elsewhere. Every figure is confirmed by the page's own graphics at full resolution: the dimension drawing measures 26mm x 26mm between hole centres, the scale photograph reads 4.90 g, the LED legend's power row is 0 / RCE / 25 / 100 / 400, and the A03 VTX Frequency Table is six bands of eight (A, B, E, F, R, L) - 48, which is what the block says. mount_mm is the mounting line, not the 30.34*30.34mm body."
+   "note": "BetaFPV's product page prints the labelled block: Output power: PIT/RCE/25mW/100mW/400mW (10-26dBm), Supply voltage range: 7-35V, Current (8v): <300mA (400mW), Weight: 4.9g (excluding antenna), VTX size: 30.34*30.34*4.6mm, Mounting Hole Size: 26*26mm, Antenna: Air Antenna (MMCX Straight), Frequency: 5.8GHz 48 channels, Raceband: 5658~5917MHz, Channel SEL: SmartAudioV2.0 & Tramp. The board runs OpenVTx firmware, which is where the RCE (race) step comes from; power_levels_mw keeps the two named steps beside the three in milliwatts, as this column does elsewhere. Every figure is confirmed by the page's own graphics at full resolution: the dimension drawing measures 26mm x 26mm between hole centres, the scale photograph reads 4.90 g, the LED legend's power row is 0 / RCE / 25 / 100 / 400, and the A03 VTX Frequency Table is six bands of eight (A, B, E, F, R, L) - 48, which is what the block says. mount_mm is the mounting line, not the 30.34*30.34mm body. power_draw is the maker's own supply figure, 'Current (8v): <300mA (400mW)' in BetaFPV's spec list, read 2026-10-20 through scraper/propose_vtx_power_draw.py (the store's products.json, common.UA; the proposer now strips tags before decoding '&lt;'); it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -685,12 +686,13 @@
     "input_voltage": "7-33V",
     "mount_mm": "20x20mm / 25.5x25.5mm / 30.5x30.5mm",
     "weight_g": 4.2,
-    "price_usd": 40.99
+    "price_usd": 40.99,
+    "power_draw": "510 mA at 10 V (1.2 W output)"
    },
    "sources": [
     "https://darwinfpv.com/products/darwinfpv-5-8g-40ch-400mw-800mw-1200mw-baby-ape-vtx"
    ],
-   "note": "Read 2026-09-24 off DarwinFPV's own shop. The page is prose with no spec block, and the figures come from three different kinds of statement. max_power_mw and input_voltage are feature lines: 'With 1200mW transmit power', 'Supports 7-33V wide voltage input'. mount_mm is the feature line 'tri-mode mounting compatibility (20x20/25.5x25.5/30.5x30.5mm)' and is confirmed by the brand's own dimension drawing (image 6 of 7, read at full resolution), which dimensions the same three spacings - 20mm, 25.5mm and 30.5mm - across a 37x37mm board 4.5mm tall on a 1mm PCB. weight_g 4.2 is read at full resolution off the brand's photograph of the bare board on a 0.1 g scale (image 7 of 7). power_levels_mw is the brand's own product handle and its retail title for this part, '400mW 800mW 1200mW'; the body text states only the 1200. channels 40 is the title's '40CH'. antenna_connector is empty: the packing list's '5.8G-IPEX1/U.FL-RF113-80mm Copper Tube Antenna' is the antenna in the box rather than a statement about the board, though the u.FL is visible in the photographs. Stated in prose and not fielded: 'No Burnout' PA protection with the antenna disconnected, a 3oz copper PCB in place of a heatsink, a dual-stage filter, 5 km in the brand's own test."
+   "note": "Read 2026-09-24 off DarwinFPV's own shop. The page is prose with no spec block, and the figures come from three different kinds of statement. max_power_mw and input_voltage are feature lines: 'With 1200mW transmit power', 'Supports 7-33V wide voltage input'. mount_mm is the feature line 'tri-mode mounting compatibility (20x20/25.5x25.5/30.5x30.5mm)' and is confirmed by the brand's own dimension drawing (image 6 of 7, read at full resolution), which dimensions the same three spacings - 20mm, 25.5mm and 30.5mm - across a 37x37mm board 4.5mm tall on a 1mm PCB. weight_g 4.2 is read at full resolution off the brand's photograph of the bare board on a 0.1 g scale (image 7 of 7). power_levels_mw is the brand's own product handle and its retail title for this part, '400mW 800mW 1200mW'; the body text states only the 1200. channels 40 is the title's '40CH'. antenna_connector is empty: the packing list's '5.8G-IPEX1/U.FL-RF113-80mm Copper Tube Antenna' is the antenna in the box rather than a statement about the board, though the u.FL is visible in the photographs. Stated in prose and not fielded: 'No Burnout' PA protection with the antenna disconnected, a 3oz copper PCB in place of a heatsink, a dual-stage filter, 5 km in the brand's own test. power_draw is the maker's own supply figure, 'Current: 10V/510mA@1.2W' in DarwinFPV's Specifications table image for the 'DarwinFPV 5.8G 1.2W VTX' (1_Sheet2.png), read 2026-10-20 at native resolution off the listing's spec-sheet image (Shopify CDN through common.UA, listed by scraper/propose_vtx_power_draw.py --images); it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -747,12 +749,13 @@
     "max_power_mw": 2500,
     "frequency_range": "5.8 GHz",
     "weight_g": 21.8,
-    "price_usd": 49.99
+    "price_usd": 49.99,
+    "power_draw": "900 mA at 10 V (2.5 W output)"
    },
    "sources": [
     "https://darwinfpv.com/products/darwinfpv-5-8g-2-5w-waterproof-vtx"
    ],
-   "note": "Read 2026-09-24 off DarwinFPV's own shop. Unlike the 1000 mW Cement beside it this page has no spec block at all - it is prose plus a packing list - so only two fields could be filled. max_power_mw is the brand's own sentence, 'features a powerful 2500mW output, offering strong penetration and stable transmission', restated by the title and by the first feature line ('2500mW High Power Output'); it is output power in milliwatts, and DarwinFPV states no EIRP or dBm figure anywhere on the page. weight_g 21.8 is read at full resolution off the brand's own photograph of the module on a scale (image 5 of 6, a 0.1 g pocket scale with the Chinese unit legend), which is the only weight DarwinFPV publishes for this part; no other unit is physically possible for a part this size. input_voltage is deliberately empty although the case is silkscreened with it: the label reads '7-__V' with the digits hidden behind the connector in the only photograph that shows that face. mount_mm, channels and antenna_connector are empty for want of any statement - the packing list's 'MMCX pigtail antenna (140mm)' describes what is in the box, which is the props' 'for T-mount builds' rule one class over. Stated in prose and not fielded: aluminium CNC housing with an active fan, IP67 to 0.5 m for 30 minutes, two-stage filtering, reverse-polarity/surge/over-temperature protection, SmartAudio."
+   "note": "Read 2026-09-24 off DarwinFPV's own shop. Unlike the 1000 mW Cement beside it this page has no spec block at all - it is prose plus a packing list - so only two fields could be filled. max_power_mw is the brand's own sentence, 'features a powerful 2500mW output, offering strong penetration and stable transmission', restated by the title and by the first feature line ('2500mW High Power Output'); it is output power in milliwatts, and DarwinFPV states no EIRP or dBm figure anywhere on the page. weight_g 21.8 is read at full resolution off the brand's own photograph of the module on a scale (image 5 of 6, a 0.1 g pocket scale with the Chinese unit legend), which is the only weight DarwinFPV publishes for this part; no other unit is physically possible for a part this size. input_voltage is deliberately empty although the case is silkscreened with it: the label reads '7-__V' with the digits hidden behind the connector in the only photograph that shows that face. mount_mm, channels and antenna_connector are empty for want of any statement - the packing list's 'MMCX pigtail antenna (140mm)' describes what is in the box, which is the props' 'for T-mount builds' rule one class over. Stated in prose and not fielded: aluminium CNC housing with an active fan, IP67 to 0.5 m for 30 minutes, two-stage filtering, reverse-polarity/surge/over-temperature protection, SmartAudio. power_draw is the maker's own supply figure, 'Current: 10V/900mA@2.5W' in DarwinFPV's Specifications table image (Specifications_cecba17b...jpg, 2400 px wide), read 2026-10-20 at native resolution off the listing's spec-sheet image (Shopify CDN through common.UA, listed by scraper/propose_vtx_power_draw.py --images); it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -2658,12 +2661,13 @@
    "specs": {
     "system": "analog",
     "max_power_mw": 4000,
-    "frequency_range": "1.3 GHz"
+    "frequency_range": "1.3 GHz",
+    "power_draw": "at 12 V: 160 mA pit mode, 270 mA at 25 mW, 420 mA at 200 mW, 780 mA at 1000 mW, 1400 mA at 4000 mW"
    },
    "sources": [
     "https://rushfpv.net/products/1-3g-4w-vtx-v2-transmitter-module"
    ],
-   "note": "No spec block and no label photograph, so the 4 W is the manufacturer's own model name and nothing else is filled. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+   "note": "No spec block and no label photograph, so the 4 W is the manufacturer's own model name and nothing else is filled. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder. power_draw is the maker's own supply figure, the 'Current @12V' row of the power-level table on Rush's SPECIFICATION sheet '1.3GHz 4W Video Transmitter' (REV. A, 12-05-2024; image 13_4W_SPEC_00.jpg): PIT 160mA, 25mW 270mA, 200mW 420mA, 1000mW 780mA, 4000mW 1400mA, read 2026-10-20 at native resolution off the listing's spec-sheet image (Shopify CDN through common.UA, listed by scraper/propose_vtx_power_draw.py --images); it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -2690,12 +2694,13 @@
    "specs": {
     "system": "analog",
     "max_power_mw": 4000,
-    "frequency_range": "3.3 GHz"
+    "frequency_range": "3.3 GHz",
+    "power_draw": "at 12 V: 160 mA pit mode, 270 mA at 25 mW, 550 mA at 200 mW, 880 mA at 1000 mW, 1400 mA at 4000 mW"
    },
    "sources": [
     "https://rushfpv.net/products/3-3g-4w-vtx-transmitter-module"
    ],
-   "note": "No spec block and no readable label photograph on RushFPV's page, so the 4 W is the manufacturer's own model name and the power steps, band plan and input voltage are left empty rather than copied from the 3.3 GHz 2 W module next to it. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+   "note": "No spec block and no readable label photograph on RushFPV's page, so the 4 W is the manufacturer's own model name and the power steps, band plan and input voltage are left empty rather than copied from the 3.3 GHz 2 W module next to it. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder. power_draw is the maker's own supply figure, the 'Current @12V' row of the power-level table on Rush's SPECIFICATION sheet '3.3GHz 4W Video Transmitter' (REV. A, 12-05-2024; image 33_4W_SPEC_00.jpg): PIT 160mA, 25mW 270mA, 200mW 550mA, 1000mW 880mA, 4000mW 1400mA, read 2026-10-20 at native resolution off the listing's spec-sheet image (Shopify CDN through common.UA, listed by scraper/propose_vtx_power_draw.py --images); it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -2726,12 +2731,13 @@
     "power_levels_mw": "25 / 200 / 1000 / 2500",
     "frequency_range": "4.9 / 5.8 GHz",
     "input_voltage": "7-30V",
-    "antenna_connector": "SMA"
+    "antenna_connector": "SMA",
+    "power_draw": "at 12 V: 40 mA pit mode, 140 mA at 25 mW, 300 mA at 200 mW, 450 mA at 1000 mW, 750 mA at 2500 mW"
    },
    "sources": [
     "https://rushfpv.net/products/5-8g-4-9g-dual-band-vtx-transmitter-module"
    ],
-   "note": "Two SMA ports on one module: port A is 5G8 and carries the six 5.8 GHz bands (A, B, E, F, R, L), port B is 4G9 and carries the single X band. Label: power steps PIT / 25 / 200 / 1000 / 2500 mW, 7-30 V. The label names no channel count, so that column stays empty. Ships with a 4.9 GHz 120 mm and a 5.8 GHz Cherry2 123 mm SMA antenna. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+   "note": "Two SMA ports on one module: port A is 5G8 and carries the six 5.8 GHz bands (A, B, E, F, R, L), port B is 4G9 and carries the single X band. Label: power steps PIT / 25 / 200 / 1000 / 2500 mW, 7-30 V. The label names no channel count, so that column stays empty. Ships with a 4.9 GHz 120 mm and a 5.8 GHz Cherry2 123 mm SMA antenna. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder. power_draw is the maker's own supply figure, the 'Current @12V' row of the RF Power table on Rush's SPECIFICATION sheet '4.9 / 5.8GHz 2.5W Video Transmitter' (REV. A, 08-27-2024; page 2, image 4958_SPEC_01.jpg): PIT 40 mA, 25mW 140 mA, 200mW 300 mA, 1000mW 450mA, 2500mW 750mA, read 2026-10-20 at native resolution off the listing's spec-sheet image (Shopify CDN through common.UA, listed by scraper/propose_vtx_power_draw.py --images); it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
