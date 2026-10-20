@@ -2106,7 +2106,7 @@
     "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf",
     "https://docs.hd-zero.com/vtx-summary"
    ],
-   "note": "HDZero's own product page prints the labelled block: Model HDZero Eco VTX, SKU HDZ3160, Frequency 5.8G, Resolution Default 1280*720@60fps, RF power 25mw/200mw, RF Connector U.FL, Interface Composite HD, Size 32.4x32.5mm (29x29mm inner), Weight 4.5grames/4mm Thickness (w/o shielding), Power 1000mA@5V, power input 1S-3S, Mounting 25.5x25.2 M2 soft mounting. The one VTX in the HDZero line that takes composite HD video over a single wire instead of a MIPI cable, which is why it pairs with the LUX/Eco camera and not with the MIPI cameras the rest of the system uses. mount_mm and input_voltage are the HDZero VTX User Manual v1.1 figures (p2 product table: 25.5x25.5, M2 (Soft), 4.5grams, 4V-12V, 5~6W, RF power output 25mW/200mW), because three manufacturer statements of the mounting pattern disagree in the last digit - 25.5x25.2 on the product page, '25 x 25 M2 Soft Mounting' on the Eco Bundle page and 25.5x25.5 in the manual - and 25.5x25.5 is the only one of the three that is a pattern frames are sold for. The manual's own Dimension row for this model (29x30) is not used: it repeats the Freestyle V2's figure and contradicts the product page's 32.4x32.5mm. channels is the manual's 'All VTXes support R1-R8, E1, F1, F2 and F4 channels' (p8), twelve; eight more (L1-L8) appear only after the low-band unlock firmware is flashed. power_draw is the maker's own supply figure, 'Power Consumption: 5~6W' in the ECO column, read 2026-10-17; it is the VTX's input draw, not its RF output."
+   "note": "HDZero's own product page prints the labelled block: Model HDZero Eco VTX, SKU HDZ3160, Frequency 5.8G, Resolution Default 1280*720@60fps, RF power 25mw/200mw, RF Connector U.FL, Interface Composite HD, Size 32.4x32.5mm (29x29mm inner), Weight 4.5grames/4mm Thickness (w/o shielding), Power 1000mA@5V, power input 1S-3S, Mounting 25.5x25.2 M2 soft mounting. The one VTX in the HDZero line that takes composite HD video over a single wire instead of a MIPI cable, which is why it pairs with the LUX/Eco camera and not with the MIPI cameras the rest of the system uses. mount_mm and input_voltage are the HDZero VTX User Manual v1.1 figures (p2 product table: 25.5x25.5, M2 (Soft), 4.5grams, 4V-12V, 5~6W, RF power output 25mW/200mW), because three manufacturer statements of the mounting pattern disagree in the last digit - 25.5x25.2 on the product page, '25 x 25 M2 Soft Mounting' on the Eco Bundle page and 25.5x25.5 in the manual - and 25.5x25.5 is the only one of the three that is a pattern frames are sold for. The manual's own Dimension row for this model (29x30) is not used: it repeats the Freestyle V2's figure and contradicts the product page's 32.4x32.5mm. channels is the manual's 'All VTXes support R1-R8, E1, F1, F2 and F4 channels' (p8), twelve; eight more (L1-L8) appear only after the low-band unlock firmware is flashed. power_draw is the maker's own supply figure, 'Power Consumption: 5~6W' in the ECO column, read 2026-10-17; it is the VTX's input draw, not its RF output. The 12 channels are, by the HDZero VTX User Manual v1.1's menu page (p8, re-read 2026-10-20), R1-R8, E1, F1, F2 and F4, with L1-L8 added only by the regional low-band unlock (p18). The manual names channels, not frequencies, and the product page's 'Frequency 5.8G' is the only frequency figure, so frequency_range keeps that label."
   },
   {
    "type": "vtx",
@@ -2123,7 +2123,8 @@
     "price_usd": 99.99,
     "power_levels_mw": "25 / 200",
     "input_voltage": "2S-6S (1st batch 2S-4S)",
-    "power_draw": "6-15 W"
+    "power_draw": "6-15 W",
+    "channels": 12
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -2131,7 +2132,7 @@
     "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf",
     "https://docs.hd-zero.com/vtx-dis-summary"
    ],
-   "note": "Manufacturer source 2026-09-23, and it names the part: this is the HDZero Freestyle V1, which the HDZero VTX User Manual v1.1 lists under 'Discontinued Video Transmitters' (p22) at 40x40 mm body, 30x30 M3 (Soft) mounting, 28 grams, 2S-6S power input, 6~15W, RF power output '25mW,200mW (500mW, 1W if with HAM license)', Secured U.FL, RHCP antenna included. The 28 g and the 30x30 pattern this page already published are that row exactly, which is how the retail title's 'Freestyle 30x30' is pinned to a model name. The manual adds (p28) that the first batch supports 2S-4S and ships with a 2S-6S BEC, the second batch and later 2S-6S with no BEC, and that the heat sink is part of the design. HDZero's shop no longer lists it, so there is no product page to cite - the manual is the whole manufacturer record. power_levels_mw holds the legal steps only, 25 / 200 (owner ruling 2026-10-20); the manual's licence-only steps, '500mW, 1W if with HAM license', stay here and not in the column. power_draw is the maker's own supply figure, 'Power Consumption: 6~15W' in the Freestyle V1 (EOL, 30x30) column of HDZero's discontinued-VTX table, read 2026-10-17; it is the VTX's input draw, not its RF output."
+   "note": "Manufacturer source 2026-09-23, and it names the part: this is the HDZero Freestyle V1, which the HDZero VTX User Manual v1.1 lists under 'Discontinued Video Transmitters' (p22) at 40x40 mm body, 30x30 M3 (Soft) mounting, 28 grams, 2S-6S power input, 6~15W, RF power output '25mW,200mW (500mW, 1W if with HAM license)', Secured U.FL, RHCP antenna included. The 28 g and the 30x30 pattern this page already published are that row exactly, which is how the retail title's 'Freestyle 30x30' is pinned to a model name. The manual adds (p28) that the first batch supports 2S-4S and ships with a 2S-6S BEC, the second batch and later 2S-6S with no BEC, and that the heat sink is part of the design. HDZero's shop no longer lists it, so there is no product page to cite - the manual is the whole manufacturer record. power_levels_mw holds the legal steps only, 25 / 200 (owner ruling 2026-10-20); the manual's licence-only steps, '500mW, 1W if with HAM license', stay here and not in the column. power_draw is the maker's own supply figure, 'Power Consumption: 6~15W' in the Freestyle V1 (EOL, 30x30) column of HDZero's discontinued-VTX table, read 2026-10-17; it is the VTX's input draw, not its RF output. channels is the HDZero VTX User Manual v1.1's own list, re-read 2026-10-20: 'Using VTX Menu' (p8) says 'All VTXes support R1-R8, E1, F1, F2 and F4 channels. You will get an additional 8 channels L1-L8 if you unlock the low band', and the 'Unlock Low Band' page (p18) has it flashed from HDZero's Unlock_Lowband.zip after 'Make sure your region allows low band before unlocking' - so 12 is the count as shipped and the L1-L8 band is a regional unlock, not counted. The manual keeps the Freestyle V1's own page (p27), so the menu line covers it."
   },
   {
    "type": "vtx",
@@ -2201,7 +2202,8 @@
     "price_usd": 83.99,
     "power_levels_mw": "25 / 200",
     "input_voltage": "7-17V (2S-4S)",
-    "power_draw": "5-6 W"
+    "power_draw": "5-6 W",
+    "channels": 12
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -2209,7 +2211,7 @@
     "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf",
     "https://docs.hd-zero.com/vtx-dis-summary"
    ],
-   "note": "Manufacturer source 2026-09-23: the HDZero VTX User Manual v1.1 lists the Race V2 under 'Discontinued Video Transmitters' (p22) at 34x34 mm body, 20x20 M4 (Soft) mounting, 6 grams, 7V-17V (2S-4S) power input, 5~6W, RF power output 25mW,200mW, Secured U.FL, no antenna included, and its own page (p26) labels the board '20x20 M4 mounting holes' with a 'Rubber Grommet (M4 to M3)' - the same hole-versus-screw pair as the Race V3. weight_g stays at the retailer's 5.9 g rather than moving to the manual's 6 grams: the manual's table rounds every weight in it to a whole gram (7, 6, 28) and 5.9 is the same figure at the resolution the column holds. HDZero's shop no longer lists this model. power_draw is the maker's own supply figure, 'Power Consumption: 5~6W' in the Race V2 (EOL) column of HDZero's discontinued-VTX table, read 2026-10-17; it is the VTX's input draw, not its RF output."
+   "note": "Manufacturer source 2026-09-23: the HDZero VTX User Manual v1.1 lists the Race V2 under 'Discontinued Video Transmitters' (p22) at 34x34 mm body, 20x20 M4 (Soft) mounting, 6 grams, 7V-17V (2S-4S) power input, 5~6W, RF power output 25mW,200mW, Secured U.FL, no antenna included, and its own page (p26) labels the board '20x20 M4 mounting holes' with a 'Rubber Grommet (M4 to M3)' - the same hole-versus-screw pair as the Race V3. weight_g stays at the retailer's 5.9 g rather than moving to the manual's 6 grams: the manual's table rounds every weight in it to a whole gram (7, 6, 28) and 5.9 is the same figure at the resolution the column holds. HDZero's shop no longer lists this model. power_draw is the maker's own supply figure, 'Power Consumption: 5~6W' in the Race V2 (EOL) column of HDZero's discontinued-VTX table, read 2026-10-17; it is the VTX's input draw, not its RF output. channels is the HDZero VTX User Manual v1.1's own list, re-read 2026-10-20: 'Using VTX Menu' (p8) says 'All VTXes support R1-R8, E1, F1, F2 and F4 channels. You will get an additional 8 channels L1-L8 if you unlock the low band', and the 'Unlock Low Band' page (p18) has it flashed from HDZero's Unlock_Lowband.zip after 'Make sure your region allows low band before unlocking' - so 12 is the count as shipped and the L1-L8 band is a regional unlock, not counted. The manual keeps this discontinued transmitter's own page, so the menu line covers it. The manual names channels, not frequencies, so frequency_range stays HDZero's own '5.8GHz' label."
   },
   {
    "type": "vtx",
@@ -2252,7 +2254,8 @@
     "price_usd": 77.99,
     "power_levels_mw": "25 / 200",
     "input_voltage": "2.8-13V",
-    "weight_g": 4.9
+    "weight_g": 4.9,
+    "channels": 12
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -2260,7 +2263,7 @@
     "https://www.hd-zero.com/product-page/hdzero-whoop-lite-v2-vtx",
     "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf"
    ],
-   "note": "Manufacturer source 2026-09-23, and it survives only on its successor's page: HDZero has discontinued the Whoop Lite, so there is no product page for it, but the Whoop V2's page prints a 'Whoop Lite VTX Comparison' column that states its figures - Standard U.FL (no retention bar), Size 32.5x32.5 mm (29x29 inner), Weight 4.9 g (4.6 g w/o wires), Board Thickness ~1.2 mm (no shielding), recommended use 65-85 mm whoops - and the HDZero VTX User Manual v1.1 keeps its own page for it (p24): 720p60, 'capable of delivering up to 200mW on 5.8GHz', power input range 2.8V - 13V, no reverse polarity protection, M2 gummies for soft mounting, zip ties for antenna retention, and removable grounded protection cases on both sides. weight_g is the 4.9 g with the wires, the same as-shipped basis as the Whoop V2's 5.4 g. power_levels_mw is the manual's selectable pair (p8, 'selectable between 25mW, 200mW'). mount_mm keeps the retailer's 25x25mm: the manufacturer states M2 soft mounting for this model but prints no pattern for it anywhere, so there is nothing to correct it with."
+   "note": "Manufacturer source 2026-09-23, and it survives only on its successor's page: HDZero has discontinued the Whoop Lite, so there is no product page for it, but the Whoop V2's page prints a 'Whoop Lite VTX Comparison' column that states its figures - Standard U.FL (no retention bar), Size 32.5x32.5 mm (29x29 inner), Weight 4.9 g (4.6 g w/o wires), Board Thickness ~1.2 mm (no shielding), recommended use 65-85 mm whoops - and the HDZero VTX User Manual v1.1 keeps its own page for it (p24): 720p60, 'capable of delivering up to 200mW on 5.8GHz', power input range 2.8V - 13V, no reverse polarity protection, M2 gummies for soft mounting, zip ties for antenna retention, and removable grounded protection cases on both sides. weight_g is the 4.9 g with the wires, the same as-shipped basis as the Whoop V2's 5.4 g. power_levels_mw is the manual's selectable pair (p8, 'selectable between 25mW, 200mW'). mount_mm keeps the retailer's 25x25mm: the manufacturer states M2 soft mounting for this model but prints no pattern for it anywhere, so there is nothing to correct it with. channels is the HDZero VTX User Manual v1.1's own list, re-read 2026-10-20: 'Using VTX Menu' (p8) says 'All VTXes support R1-R8, E1, F1, F2 and F4 channels. You will get an additional 8 channels L1-L8 if you unlock the low band', and the 'Unlock Low Band' page (p18) has it flashed from HDZero's Unlock_Lowband.zip after 'Make sure your region allows low band before unlocking' - so 12 is the count as shipped and the L1-L8 band is a regional unlock, not counted. The manual keeps this discontinued transmitter's own page (p24), so the menu line covers it. The manual names channels, not frequencies, so frequency_range stays HDZero's own '5.8GHz' label."
   },
   {
    "type": "vtx",
@@ -2275,7 +2278,8 @@
     "antenna_connector": "U.FL",
     "price_usd": 119.99,
     "power_levels_mw": "25 / 200",
-    "input_voltage": "2.8-13V"
+    "input_voltage": "2.8-13V",
+    "channels": 12
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -2283,7 +2287,7 @@
     "https://www.hd-zero.com/product-page/hdzero-whoop-lite-v2-vtx",
     "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf"
    ],
-   "note": "Manufacturer source 2026-09-23: the radio in this bundle is the Whoop Lite, discontinued by HDZero and documented in the HDZero VTX User Manual v1.1 (p24) - 720p60, up to 200mW on 5.8GHz, power input 2.8V-13V, M2 gummies for soft mounting - and in the 'Whoop Lite VTX Comparison' column of the Whoop V2's product page. frequency_range was '5.727-5.850 GHz', a figure that appears in one retail line and nowhere else: the same retailer's page for the bare module says 5.8 GHz, every other HDZero page says 5.725-5.850 GHz, and no manufacturer source prints a 5.727 edge, so this holds the band label HDZero itself uses for the model. weight_g stays empty: 4.9 g is the transmitter and this SKU is a bundle."
+   "note": "Manufacturer source 2026-09-23: the radio in this bundle is the Whoop Lite, discontinued by HDZero and documented in the HDZero VTX User Manual v1.1 (p24) - 720p60, up to 200mW on 5.8GHz, power input 2.8V-13V, M2 gummies for soft mounting - and in the 'Whoop Lite VTX Comparison' column of the Whoop V2's product page. frequency_range was '5.727-5.850 GHz', a figure that appears in one retail line and nowhere else: the same retailer's page for the bare module says 5.8 GHz, every other HDZero page says 5.725-5.850 GHz, and no manufacturer source prints a 5.727 edge, so this holds the band label HDZero itself uses for the model. weight_g stays empty: 4.9 g is the transmitter and this SKU is a bundle. channels is the HDZero VTX User Manual v1.1's own list, re-read 2026-10-20: 'Using VTX Menu' (p8) says 'All VTXes support R1-R8, E1, F1, F2 and F4 channels. You will get an additional 8 channels L1-L8 if you unlock the low band', and the 'Unlock Low Band' page (p18) has it flashed from HDZero's Unlock_Lowband.zip after 'Make sure your region allows low band before unlocking' - so 12 is the count as shipped and the L1-L8 band is a regional unlock, not counted. The bundle's radio is the Whoop Lite, which the manual covers (p24)."
   },
   {
    "type": "vtx",
@@ -3425,7 +3429,8 @@
    "_scraped_at": "2026-10-20",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-ft800-20x20-25-800mw-5-8ghz-vtx-mmcx"
-   ]
+   ],
+   "note": "No maker source to cite: on 2026-10-20 none of T-Motor's three stores lists the FT800 - tmotorhobby.com's search finds only the FT200 among T-Motor transmitters, and t-hobby.com and store.tmotor.com sell no VTX at all - so this page's figures are the retail listing's and frequency_range stays its '5.8GHz' label."
   },
   {
    "type": "vtx",
