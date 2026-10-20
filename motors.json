@@ -23877,13 +23877,16 @@
     "shaft": "1.5mm",
     "dimensions_mm": "Ø13.5x16",
     "price_usd": 12.99,
-    "max_cells": "1-2S"
+    "max_cells": "2-3S"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
     "https://pyrodrone.com/products/happymodel-ex1103-11000kv-brushless-fpv-drone-motor-for-happymodel-baseline-1-pc",
-    "https://www.racedayquads.com/products/happymodel-1103-7000kv-motor-4-pack-for-larva-x"
-   ]
+    "https://www.racedayquads.com/products/happymodel-1103-7000kv-motor-4-pack-for-larva-x",
+    "https://www.happymodel.cn/index.php/2019/06/04/happymodel-ex1103-kv6000-8000-12000-2-4s-brushless-motor/",
+    "https://www.happymodel.cn/index.php/2019/10/24/happymodel-ex1103s-kv7000-motors-upgrade-for-larva-x/"
+   ],
+   "note": "Happymodel's own EX1103 post (2019-06-04) prints this motor's figures - 9N12P, 11 x 3 mm stator, 1.5 mm shaft, Ø13.5 x 16 mm, 3.7 g - and rates the 7000 KV winding \"support 2-3S original motors for Larva X\"; its EX1103S KV7000 post (the Larva X upgrade named in RaceDayQuads' Includes line, 3.8 g, Ø13.5 x 15.5 mm) also says 2-3S. The 1-2S this page published until 2026-10-20 was Pyrodrone's EX1103 11000 KV (Baseline) rating, filled by scraper/enrich_from_pyrodrone.py on a shared model name; that is another winding, and per-winding fields are no longer filled from a donor that sells none of the page's KV. The 2019 post's bench table covers 6000, 8000 and 12000 KV only and the EX1103S post has none, so this page has no bench rows."
   },
   {
    "type": "motor",
