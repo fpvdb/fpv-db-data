@@ -28036,7 +28036,209 @@
     "mount_mm": "9x9mm (M2)",
     "price_usd": 21.99,
     "dimensions_mm": "Ø19.9x18.4",
-    "resistance_mohm": "309 (3000KV) / 220 (3800KV) / 159 (4600KV)"
+    "resistance_mohm": "309 (3000KV) / 220 (3800KV) / 159 (4600KV)",
+    "max_thrust_g": 574,
+    "thrust_conditions": "iFlight test report per winding, 6 throttle points (50-100%) on a 4030 prop at 16 V (4S), 3000/3800/4600KV",
+    "thrust_table": [
+     {
+      "kv": 3000,
+      "prop": "4030",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16,
+      "current_a": 2.4,
+      "rpm": null,
+      "thrust_g": 186,
+      "efficiency_gw": 4.844
+     },
+     {
+      "kv": 3000,
+      "prop": "4030",
+      "cells": "4S",
+      "throttle": 60,
+      "voltage_v": 16,
+      "current_a": 3.13,
+      "rpm": null,
+      "thrust_g": 215,
+      "efficiency_gw": 4.293
+     },
+     {
+      "kv": 3000,
+      "prop": "4030",
+      "cells": "4S",
+      "throttle": 70,
+      "voltage_v": 16,
+      "current_a": 4.51,
+      "rpm": null,
+      "thrust_g": 269,
+      "efficiency_gw": 3.728
+     },
+     {
+      "kv": 3000,
+      "prop": "4030",
+      "cells": "4S",
+      "throttle": 80,
+      "voltage_v": 16,
+      "current_a": 6.1,
+      "rpm": null,
+      "thrust_g": 307,
+      "efficiency_gw": 3.145
+     },
+     {
+      "kv": 3000,
+      "prop": "4030",
+      "cells": "4S",
+      "throttle": 90,
+      "voltage_v": 16,
+      "current_a": 9.4,
+      "rpm": null,
+      "thrust_g": 362,
+      "efficiency_gw": 2.407
+     },
+     {
+      "kv": 3000,
+      "prop": "4030",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16,
+      "current_a": 13.8,
+      "rpm": null,
+      "thrust_g": 489,
+      "efficiency_gw": 2.215
+     },
+     {
+      "kv": 3800,
+      "prop": "4030",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16,
+      "current_a": 2.56,
+      "rpm": null,
+      "thrust_g": 192,
+      "efficiency_gw": 4.688
+     },
+     {
+      "kv": 3800,
+      "prop": "4030",
+      "cells": "4S",
+      "throttle": 60,
+      "voltage_v": 16,
+      "current_a": 4.41,
+      "rpm": null,
+      "thrust_g": 298,
+      "efficiency_gw": 4.223
+     },
+     {
+      "kv": 3800,
+      "prop": "4030",
+      "cells": "4S",
+      "throttle": 70,
+      "voltage_v": 16,
+      "current_a": 7.02,
+      "rpm": null,
+      "thrust_g": 381,
+      "efficiency_gw": 3.392
+     },
+     {
+      "kv": 3800,
+      "prop": "4030",
+      "cells": "4S",
+      "throttle": 80,
+      "voltage_v": 16,
+      "current_a": 9.91,
+      "rpm": null,
+      "thrust_g": 452,
+      "efficiency_gw": 2.851
+     },
+     {
+      "kv": 3800,
+      "prop": "4030",
+      "cells": "4S",
+      "throttle": 90,
+      "voltage_v": 16,
+      "current_a": 11.51,
+      "rpm": null,
+      "thrust_g": 481,
+      "efficiency_gw": 2.612
+     },
+     {
+      "kv": 3800,
+      "prop": "4030",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16,
+      "current_a": 15.84,
+      "rpm": null,
+      "thrust_g": 512,
+      "efficiency_gw": 2.02
+     },
+     {
+      "kv": 4600,
+      "prop": "4030",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16,
+      "current_a": 3.12,
+      "rpm": null,
+      "thrust_g": 254,
+      "efficiency_gw": 5.088
+     },
+     {
+      "kv": 4600,
+      "prop": "4030",
+      "cells": "4S",
+      "throttle": 60,
+      "voltage_v": 16,
+      "current_a": 5.97,
+      "rpm": null,
+      "thrust_g": 382,
+      "efficiency_gw": 3.999
+     },
+     {
+      "kv": 4600,
+      "prop": "4030",
+      "cells": "4S",
+      "throttle": 70,
+      "voltage_v": 16,
+      "current_a": 8.22,
+      "rpm": null,
+      "thrust_g": 452,
+      "efficiency_gw": 3.437
+     },
+     {
+      "kv": 4600,
+      "prop": "4030",
+      "cells": "4S",
+      "throttle": 80,
+      "voltage_v": 16,
+      "current_a": 10.72,
+      "rpm": null,
+      "thrust_g": 491,
+      "efficiency_gw": 2.863
+     },
+     {
+      "kv": 4600,
+      "prop": "4030",
+      "cells": "4S",
+      "throttle": 90,
+      "voltage_v": 16,
+      "current_a": 13.74,
+      "rpm": null,
+      "thrust_g": 539,
+      "efficiency_gw": 2.452
+     },
+     {
+      "kv": 4600,
+      "prop": "4030",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16,
+      "current_a": 17.99,
+      "rpm": null,
+      "thrust_g": 574,
+      "efficiency_gw": 1.994
+     }
+    ]
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -28045,7 +28247,7 @@
     "https://www.racedayquads.com/products/iflight-xing2-1404-4600kv-micro-motor",
     "https://shop.iflight.com/xing2-1404-toothpick-ultralight-build-unibell-pro1482"
    ],
-   "note": "iFlight's own block for the XING2 1404 confirms all three windings (3000/3800/4600KV) and gives 9.1 g with wire against the 8.5 g the retail listing parsed, and 3S-4S against the retailer's 2-4S; both moved to the manufacturer's figure. It also adds Ø19.9x18.4 mm, 9x9 M2, 9N12P, 309/220/159 mOhm, 120 mm 26AWG leads and peaks of 13.8 A / 220.8 W, 15.84 A / 253.4 W and 17.99 A / 287.8 W. The block states no shaft diameter, so the 1.5 mm this page carries is still the retailer's. No bench table"
+   "note": "iFlight's own block for the XING2 1404 confirms all three windings (3000/3800/4600KV) and gives 9.1 g with wire against the 8.5 g the retail listing parsed, and 3S-4S against the retailer's 2-4S; both moved to the manufacturer's figure. It also adds Ø19.9x18.4 mm, 9x9 M2, 9N12P, 309/220/159 mOhm, 120 mm 26AWG leads and peaks of 13.8 A / 220.8 W, 15.84 A / 253.4 W and 17.99 A / 287.8 W. The block states no shaft diameter, so the 1.5 mm this page carries is still the retailer's. No bench table. iFlight's product page carries one TEST REPORT image per winding (XING2-1404-3000KV.png, -3800KV.png, -4600KV-1.png): a spec table, the drawing and a 6-row datasheet on a 4030 prop at 16 V (4S), 50-100% throttle. They confirm all three windings, 9.1 g with wire for each, 3-4S, Ø19.9x18.4 mm (the drawing's 18.4 is the body; the 1.5 mm shaft protrudes a further 4 mm), 9x9 M2, 9N12P, 309/220/159 mOhm, a 1.5 mm shaft, 120 mm 26AWG leads, N52H curved magnets and NSK 5x2x2 bearings, and each sheet's peak (13.8 A / 220.8 W, 15.84 A / 253.4 W, 17.99 A / 287.8 W) is its 100% row. All 18 rows pass V x A and the efficiency identity (the 3000KV sheet prints power to the whole watt; its g/W is thrust over 16 V x A). The retail listing's 8.5 g and 2-4S moved to the maker's 9.1 g and 3-4S. Max thrust is 574 g, 4600KV on a 4030 at 16 V"
   },
   {
    "type": "motor",
