@@ -81027,12 +81027,16 @@
     ],
     "weight_g": 15.8,
     "max_cells": "6S",
-    "price_usd": 21.99
+    "price_usd": 21.99,
+    "dimensions_mm": "Ø19.8x17.5",
+    "mount_mm": "12x12mm (M2)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
-    "https://www.racedayquads.com/products/ethix-flat-rats-v2-1507-2800kv-motor"
-   ]
+    "https://www.racedayquads.com/products/ethix-flat-rats-v2-1507-2800kv-motor",
+    "https://web.archive.org/web/20221208052953/https://www.team-blacksheep.com/products/prod:ethix_fr_2_1507"
+   ],
+   "note": "Team BlackSheep's own product page for the Ethix Flat Rats V2 1507 2800kv (Web Archive copy of 2022-12-08) prints the Specifications block: 15.8 g with wires, 6S, Base Mounting Pattern 12x12mm with M2 thread, Motor Overall Dimensions φ19.8mmx17.5mm, 2 mm shaft, and Internal Resistance \"0.23mΩ\" - a figure no 1507 winding has, so resistance_mohm stays empty. Its gallery is product photos only: TBS published no bench sheet for this motor."
   },
   {
    "type": "motor",
@@ -81069,12 +81073,16 @@
     "weight_g": 36.5,
     "max_cells": "6S",
     "resistance_mohm": "64",
-    "price_usd": 33.99
+    "price_usd": 33.99,
+    "dimensions_mm": "Ø28.6x18.2",
+    "mount_mm": "16x16mm (M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
-    "https://www.racedayquads.com/products/ethix-mr-steele-silk-v5-2307-1750kv-motor-choose-color"
-   ]
+    "https://www.racedayquads.com/products/ethix-mr-steele-silk-v5-2307-1750kv-motor-choose-color",
+    "https://web.archive.org/web/20230204222721/https://www.team-blacksheep.com/products/prod:ethix_silkv5_p"
+   ],
+   "note": "Team BlackSheep's own product page for the Silk V5 (Web Archive copy of 2023-02-04) prints 23mm*7mm, 1750kv, 36.5 g with wires, 6S, 64 mOhm, Base Mounting Pattern 16x16mm with M3 thread (\"16x16(only)\" in its V5 highlights), Motor Overall Dimensions φ28.6mm*18.2mm. Its \"Shaft Diameter 4mm\" is the inner shaft of a 2307 (prop thread not printed), so shaft stays empty. Gallery is product photos only: no bench sheet."
   },
   {
    "type": "motor",
@@ -81089,12 +81097,15 @@
     "weight_g": 30.4,
     "max_cells": "6S",
     "resistance_mohm": "98",
-    "price_usd": 24.99
+    "price_usd": 24.99,
+    "dimensions_mm": "Ø27.5x17.2"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
-    "https://www.racedayquads.com/products/draft-ethix-mr-steele-stout-motor-v3-legacy-1750kv"
-   ]
+    "https://www.racedayquads.com/products/draft-ethix-mr-steele-stout-motor-v3-legacy-1750kv",
+    "https://web.archive.org/web/20211026152725/https://www.team-blacksheep.com/products/prod:stoutv3_legacy"
+   ],
+   "note": "Team BlackSheep's own product page for the Stout V3 Legacy (Web Archive copy of 2021-10-26) prints 23mm*6mm, 1750kv, 15turn DLRK, 30.4 g with wires, 6S, 98 mOhm, Motor Overall Dimensions φ27.5mm*17.2mm and Base Mounting Pattern 19x19mm; mount_mm stays empty because the V5 page calls its own 16x16 base \"(only)\", which says the earlier bases carried more than the one pattern this block prints. Gallery is product photos only: no bench sheet."
   },
   {
    "type": "motor",
@@ -81109,12 +81120,16 @@
     "weight_g": 36.5,
     "max_cells": "6S",
     "resistance_mohm": "60",
-    "price_usd": 33.99
+    "price_usd": 33.99,
+    "dimensions_mm": "Ø28.6x18.2",
+    "mount_mm": "16x16mm (M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
-    "https://www.racedayquads.com/products/ethix-mr-steele-stout-v5-2307-1950kv-motor-blue"
-   ]
+    "https://www.racedayquads.com/products/ethix-mr-steele-stout-v5-2307-1950kv-motor-blue",
+    "https://web.archive.org/web/20230204223438/https://www.team-blacksheep.com/products/prod:ethix_stoutv5"
+   ],
+   "note": "Team BlackSheep's own product page for the Stout V5 (Web Archive copy of 2023-02-04) prints 23mm*7mm, 1950kv, 36.5 g with wires, 6S, 60 mOhm, Base Mounting Pattern 16x16mm with M3 thread, Motor Overall Dimensions φ28.6mm*18.2mm. Its \"Shaft Diameter 4mm\" is the inner shaft of a 2307 (prop thread not printed), so shaft stays empty. Gallery is product photos only: no bench sheet."
   },
   {
    "type": "motor",
