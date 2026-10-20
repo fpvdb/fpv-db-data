@@ -26300,16 +26300,150 @@
     "configuration": "12N14P",
     "price_usd": 23.99,
     "shaft": "5mm",
-    "dimensions_mm": "Ø28.6x29.5",
     "mount_mm": "12x12mm (M2)",
-    "resistance_mohm": "72.41 (2300KV)"
+    "resistance_mohm": "72.41 (2300KV)",
+    "thrust_conditions": "iFlight test report for the 2450KV winding (not sold on this page), 6 throttle points (50-100%) on an HQ 4*3*3 and a Gemfan 3630 at 6S (24.1-23.7 V under load)",
+    "thrust_table": [
+     {
+      "kv": 2450,
+      "prop": "HQ 4*3*3",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.09,
+      "current_a": 8.32,
+      "rpm": null,
+      "thrust_g": 528,
+      "efficiency_gw": 2.63
+     },
+     {
+      "kv": 2450,
+      "prop": "HQ 4*3*3",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 24.04,
+      "current_a": 13.02,
+      "rpm": null,
+      "thrust_g": 705,
+      "efficiency_gw": 2.25
+     },
+     {
+      "kv": 2450,
+      "prop": "HQ 4*3*3",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 23.96,
+      "current_a": 18.15,
+      "rpm": null,
+      "thrust_g": 896,
+      "efficiency_gw": 2.06
+     },
+     {
+      "kv": 2450,
+      "prop": "HQ 4*3*3",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 23.87,
+      "current_a": 24.55,
+      "rpm": null,
+      "thrust_g": 1079,
+      "efficiency_gw": 1.84
+     },
+     {
+      "kv": 2450,
+      "prop": "HQ 4*3*3",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 23.75,
+      "current_a": 32.66,
+      "rpm": null,
+      "thrust_g": 1302,
+      "efficiency_gw": 1.68
+     },
+     {
+      "kv": 2450,
+      "prop": "HQ 4*3*3",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 23.68,
+      "current_a": 38.43,
+      "rpm": null,
+      "thrust_g": 1458,
+      "efficiency_gw": 1.6
+     },
+     {
+      "kv": 2450,
+      "prop": "Gemfan 3630",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.13,
+      "current_a": 6.58,
+      "rpm": null,
+      "thrust_g": 391,
+      "efficiency_gw": 2.46
+     },
+     {
+      "kv": 2450,
+      "prop": "Gemfan 3630",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 24.08,
+      "current_a": 9.9,
+      "rpm": null,
+      "thrust_g": 533,
+      "efficiency_gw": 2.24
+     },
+     {
+      "kv": 2450,
+      "prop": "Gemfan 3630",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 24.02,
+      "current_a": 13.95,
+      "rpm": null,
+      "thrust_g": 691,
+      "efficiency_gw": 2.06
+     },
+     {
+      "kv": 2450,
+      "prop": "Gemfan 3630",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 23.96,
+      "current_a": 18.86,
+      "rpm": null,
+      "thrust_g": 861,
+      "efficiency_gw": 1.91
+     },
+     {
+      "kv": 2450,
+      "prop": "Gemfan 3630",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 23.87,
+      "current_a": 24.64,
+      "rpm": null,
+      "thrust_g": 1046,
+      "efficiency_gw": 1.78
+     },
+     {
+      "kv": 2450,
+      "prop": "Gemfan 3630",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 23.76,
+      "current_a": 31.97,
+      "rpm": null,
+      "thrust_g": 1265,
+      "efficiency_gw": 1.67
+     }
+    ]
    },
    "_scraped_at": "2026-10-20",
    "sources": [
     "https://www.racedayquads.com/products/iflight-xing-2205-2300kv-micro-motor",
     "https://shop.iflight.com/xing-2205-fpv-nextgen-motor-black-pro1521"
    ],
-   "note": "iFlight's own block for the XING 2205 lists three windings - 2300KV, 3200KV and 2450KV - and states each figure in that order: 23.7 / 24.6 / 25.3 g, 72.41 / 50.63 / 77.4 mOhm, a 17.91 A / 451.33 W, 33.06 A / 548.1 W and 38.43 A / 910 W peak, and a 4 mm shaft on the 3200KV against 5 mm on the other two. Our retail source sells only the 2300KV, so this page carries that winding's figures: the weight moved from the retailer's 25.5 g - which matches none of the three - to the manufacturer's 23.7 g, and the dimension is the one its own block labels (2300KV), Ø28.6x29.5 mm, against Ø28.6x29.55 mm for the other two. 12x12 M2 and 12N14P are stated once for the whole page. No bench table"
+   "note": "iFlight's own block for the XING 2205 lists three windings - 2300KV, 3200KV and 2450KV - and states each figure in that order: 23.7 / 24.6 / 25.3 g, 72.41 / 50.63 / 77.4 mOhm, a 17.91 A / 451.33 W, 33.06 A / 548.1 W and 38.43 A / 910 W peak, and a 4 mm shaft on the 3200KV against 5 mm on the other two. Our retail source sells only the 2300KV, so this page carries that winding's figures: the weight moved from the retailer's 25.5 g - which matches none of the three - to the manufacturer's 23.7 g. 12x12 M2 and 12N14P are stated once for the whole page. iFlight's product page carries one TEST REPORT image, for the 2450KV winding only (XING 2205 2450KV.png): the spec table, a drawing and a 12-row datasheet on an HQ 4*3*3 and a Gemfan 3630 at the sagging 6S pack voltage (24.13-23.68 V), 50-100%. It confirms 25.3 g with wire, 77.4 mOhm, 12x12 M2, 12N14P, a 5 mm shaft, 160 mm 22AWG leads, N52H curved magnets and NSK 8x3x4 bearings, and its 38.43 A / 910 W peak is the HQ prop's 100% row; all 12 rows pass V x A against the printed power and the printed g/W. Its drawing shows the block's 'Dimension' Ø28.6x29.55 mm is the overall length, a 13.5 mm shaft plus a 16.0 mm body, so the 2300KV block's Ø28.6x29.5 mm also includes the shaft; with no 2300KV drawing to give that winding's body, the dimension is left off this page. The rows are the 2450KV's, a winding this page does not sell, so they carry no max thrust figure here (the 2450KV peak is 1458 g on the HQ 4*3*3)"
   },
   {
    "type": "motor",
