@@ -44235,7 +44235,7 @@
     "https://www.racedayquads.com/products/draft-t-motor-f60-pro-v-lv-2020kv-motor",
     "https://www.tmotorhobby.com/goods-1201.html"
    ],
-   "note": "Same motor as the F60 Pro V-LV listing; T-Motor's test report covers 1950 KV and 2020 KV, 12N14P, 4 mm shaft"
+   "note": "Same motor as the F60 Pro V-LV listing; T-Motor's test report covers 1950 KV and 2020 KV, 12N14P. T-Motor's spec table prints Shaft Diameter 4 mm (the bell shaft); its product drawing calls out an M5 thread on a 5 mm prop shaft, so shaft is the drawing's 5mm (owner ruling 2026-10-20)"
   },
   {
    "type": "motor",
@@ -44249,7 +44249,7 @@
     ],
     "weight_g": 35.8,
     "max_cells": "4-6S",
-    "shaft": "4mm",
+    "shaft": "5mm",
     "configuration": "12N14P",
     "dimensions_mm": "26.8x32.7",
     "price_usd": 40.99,
@@ -45715,7 +45715,7 @@
     "https://www.racedayquads.com/products/t-motor-f60-pro-iv-v2-2207-5-1750kv-racing-motor-grey",
     "https://www.tmotorhobby.com/goods-960.html"
    ],
-   "note": "T-Motor publishes a 5%-step sweep for this motor: 132 load points across 1750/1950/2550 KV and the T5143S/T5146/T5147/T5150 props, with motor surface temperature at 100% throttle (53-88 degC, 25 degC ambient)"
+   "note": "T-Motor publishes a 5%-step sweep for this motor: 132 load points across 1750/1950/2550 KV and the T5143S/T5146/T5147/T5150 props, with motor surface temperature at 100% throttle (53-88 degC, 25 degC ambient). T-Motor's spec table prints Shaft Diameter 4 mm (the bell shaft); its product drawing calls out an M5 thread on a 5 mm prop shaft, so shaft is the drawing's 5mm (owner ruling 2026-10-20)"
   },
   {
    "type": "motor",
