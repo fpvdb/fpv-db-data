@@ -1393,13 +1393,16 @@
     "max_power_mw": 350,
     "channels": 40,
     "antenna_connector": "U.FL",
-    "price_usd": 29.99
+    "price_usd": 29.99,
+    "power_levels_mw": "25 / 100 / 200 / 350",
+    "input_voltage": "5V"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
-    "https://www.racedayquads.com/products/foxeer-reaper-nano-25-350mw-5-8g-micro-vtx-u-fl"
+    "https://www.racedayquads.com/products/foxeer-reaper-nano-25-350mw-5-8g-micro-vtx-u-fl",
+    "https://inew.foxeer.com/upload/image/20210811/20210811010434_58249.jpg"
    ],
-   "note": "This is the 40-channel Reaper Nano. Foxeer's own catalogue (checked 2026-09-23) no longer lists it - what it sells is the 72-channel Reaper Nano V2, which has the same 350 mW ceiling and a different frequency table, and which is a separate page here. No manufacturer citation is added to this page because the page that would be cited describes the other part."
+   "note": "This is the 40-channel Reaper Nano. Foxeer's own catalogue (checked 2026-09-23) no longer lists it - what it sells is the 72-channel Reaper Nano V2, which has the same 350 mW ceiling and a different frequency table, and which is a separate page here. No manufacturer citation is added to this page because the page that would be cited describes the other part. This is the 40-channel Reaper Nano (V1). Foxeer's own catalogue no longer lists it - what it sells is the 72-channel Reaper Nano V2 (goods 583, images uploaded 2024-12), which has the same 350 mW ceiling and a different frequency table, and which is a separate page here; foxeer.com goods ids 300-439 (read 2026-10-20) hold only the 'Reaper Nano VTx V1 Extension Board' (goods 404), no page for this transmitter. The cited source is Foxeer's own product graphic for it, uploaded 2021-08-11 to Foxeer's image server and embedded in the retail listing: 'REAPER NANO VTX', <1g, 12*16mm, 350mW, Tramp, a pinout naming VIDEO / GND / 5V OUT / TRAMP / GND / 5V IN pads and an LED legend CHANNEL / BAND / POWER, and the power row '25 - 100 - 200 - 350mW', read at full resolution (1080x1500). power_levels_mw and input_voltage (the 5V IN pad, which the retail block's 'Input Voltage: 5V DC' repeats) come from it. The graphic prints no channel table and no frequencies, so frequency_range keeps the 5.8 GHz label and channels stays the retail block's 40CH. power_draw stays empty: the retail block's '340mA @ 350mW' is the V2's maker figure word for word, and a retailer figure that equals a sibling SKU's maker figure is not taken."
   },
   {
    "type": "vtx",
