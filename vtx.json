@@ -1182,7 +1182,7 @@
     "system": "analog",
     "max_power_mw": 1800,
     "power_levels_mw": "25 / 200 / 500 / 1000 / 1800",
-    "frequency_range": "5.8 GHz",
+    "frequency_range": "5325-5945 MHz",
     "input_voltage": "9-36V",
     "mount_mm": "20x20mm M2",
     "channels": 72,
@@ -1192,7 +1192,7 @@
    "sources": [
     "https://www.foxeer.com/foxeer-5-8g-reaper-extreme-1-8w-72ch-vtx-g-574"
    ],
-   "note": "Foxeer's own spec table (SKU MR1828, 'Name: Reaper Extreme 1.8W'): 9~36V in, 5V out, 72CH, 25mW/200mW/500mW/1W/1.8W, 13 g, 36*27.5*8 mm, mounting hole 20*20mm M2 2.8 mm deep, 850 mA at 10 V at full power. Same shell and same nine bands (5325-5945 MHz in the page's frequency table) as the 5.8 GHz Reaper Extreme V2; the amplifier is the difference. antenna_connector is empty: the table names no connector. Out of stock at Foxeer on 2026-09-23. power_draw is the maker's own supply figure, 'Consumption: 850ma;10V/1.8W', read 2026-10-17; it is the VTX's input draw, not its RF output."
+   "note": "Foxeer's own spec table (SKU MR1828, 'Name: Reaper Extreme 1.8W'): 9~36V in, 5V out, 72CH, 25mW/200mW/500mW/1W/1.8W, 13 g, 36*27.5*8 mm, mounting hole 20*20mm M2 2.8 mm deep, 850 mA at 10 V at full power. Same shell and same nine bands (5325-5945 MHz in the page's frequency table) as the 5.8 GHz Reaper Extreme V2; the amplifier is the difference. antenna_connector is empty: the table names no connector. Out of stock at Foxeer on 2026-09-23. power_draw is the maker's own supply figure, 'Consumption: 850ma;10V/1.8W', read 2026-10-17; it is the VTX's input draw, not its RF output. frequency_range is the edges of that table (U1 5325, E8 5945; read again 2026-10-20)."
   },
   {
    "type": "vtx",
@@ -1223,7 +1223,7 @@
     "system": "analog",
     "max_power_mw": 2500,
     "power_levels_mw": "25 / 200 / 500 / 1500 / 2500",
-    "frequency_range": "5.8 GHz",
+    "frequency_range": "5325-5945 MHz",
     "input_voltage": "9-36V",
     "mount_mm": "20x20mm M2",
     "channels": 72,
@@ -1233,7 +1233,7 @@
    "sources": [
     "https://www.foxeer.com/foxeer-5-8g-reaper-extreme-v2-2-5w-72ch-vtx-g-566"
    ],
-   "note": "Foxeer's own spec table (SKU MR1819, 'Name: Reaper Extreme V2'): 9~36V in, 5V out, 72CH, 25mW/200mW/500mW/1.5W/2.5W with the red LED flashing 1-5 times to show the step, 13 g, 36*27.5*8 mm, mounting hole 20*20mm M2 2.8 mm deep, 1.2 A at 9 V. This is the 5.8 GHz-only V2, nine bands of eight running 5325-5945 MHz in the page's frequency table (A/B/E/F/R/H/L/U/O) - not the 80-channel 4.9-6.0 GHz Extreme we carry separately, whose tenth band starts at 4990 MHz. The O band is left out of the default table because Betaflight accepts 64 channels. antenna_connector is empty: the table names no connector. Out of stock at Foxeer on 2026-09-23. power_draw is the maker's own supply figure, 'Consumption: 1.2A/9V', read 2026-10-17; it is the VTX's input draw, not its RF output."
+   "note": "Foxeer's own spec table (SKU MR1819, 'Name: Reaper Extreme V2'): 9~36V in, 5V out, 72CH, 25mW/200mW/500mW/1.5W/2.5W with the red LED flashing 1-5 times to show the step, 13 g, 36*27.5*8 mm, mounting hole 20*20mm M2 2.8 mm deep, 1.2 A at 9 V. This is the 5.8 GHz-only V2, nine bands of eight running 5325-5945 MHz in the page's frequency table (A/B/E/F/R/H/L/U/O) - not the 80-channel 4.9-6.0 GHz Extreme we carry separately, whose tenth band starts at 4990 MHz. The O band is left out of the default table because Betaflight accepts 64 channels. antenna_connector is empty: the table names no connector. Out of stock at Foxeer on 2026-09-23. power_draw is the maker's own supply figure, 'Consumption: 1.2A/9V', read 2026-10-17; it is the VTX's input draw, not its RF output. frequency_range is the edges of that table (U1 5325, E8 5945; read again 2026-10-20)."
   },
   {
    "type": "vtx",
@@ -1291,7 +1291,7 @@
     "system": "analog",
     "max_power_mw": 5000,
     "power_levels_mw": "50 / 500 / 1000 / 2500 / 5000",
-    "frequency_range": "5.8 GHz",
+    "frequency_range": "5645-5945 MHz",
     "input_voltage": "9-36V",
     "mount_mm": "20x20mm M2",
     "channels": 40,
@@ -1302,7 +1302,7 @@
    "sources": [
     "https://www.foxeer.com/foxeer-5-8g-reaper-infinity-5w-40ch-vtx-g-531"
    ],
-   "note": "The original 40-channel Infinity, from Foxeer's own spec table (SKU MR1796, 'Name: Reaper Infinity'): 9~36V in, 5V out, 40CH, 50mW/500mW/1000mW/2500mW/5000mW, 58 g, 72*41*17 mm, mounting hole 20*20mm M2, SMA, 3 A at 9 V or 0.8 A at 36 V. Five bands of eight (A/B/E/F/R) running 5645-5945 MHz. This is where the 58 g that used to sit on our 4.9-6.0 GHz Infinity V2 5W page came from - that module is 48 g by Foxeer's own table. Out of stock at Foxeer on 2026-09-23. power_draw is the maker's own supply figure, 'Consumption: 9V/3A; 36V/0.8A', read 2026-10-17; it is the VTX's input draw, not its RF output."
+   "note": "The original 40-channel Infinity, from Foxeer's own spec table (SKU MR1796, 'Name: Reaper Infinity'): 9~36V in, 5V out, 40CH, 50mW/500mW/1000mW/2500mW/5000mW, 58 g, 72*41*17 mm, mounting hole 20*20mm M2, SMA, 3 A at 9 V or 0.8 A at 36 V. Five bands of eight (A/B/E/F/R) running 5645-5945 MHz. This is where the 58 g that used to sit on our 4.9-6.0 GHz Infinity V2 5W page came from - that module is 48 g by Foxeer's own table. Out of stock at Foxeer on 2026-09-23. power_draw is the maker's own supply figure, 'Consumption: 9V/3A; 36V/0.8A', read 2026-10-17; it is the VTX's input draw, not its RF output. frequency_range is the edges of that table (E4 5645, E8 5945; read again 2026-10-20)."
   },
   {
    "type": "vtx",
@@ -1401,7 +1401,7 @@
     "system": "analog",
     "max_power_mw": 350,
     "power_levels_mw": "25 / 100 / 200 / 350",
-    "frequency_range": "5.8 GHz",
+    "frequency_range": "5325-5945 MHz",
     "input_voltage": "5V",
     "channels": 72,
     "weight_g": 0.8,
@@ -1410,7 +1410,7 @@
    "sources": [
     "https://www.foxeer.com/foxeer-reaper-nano-v2-vtx-5-8g-72ch-350mw-tramp-g-583"
    ],
-   "note": "Foxeer's own spec table (SKU MR1840, 'Name: Reaper Nano V2'): 5V in, 5V out, 72CH, 25mW/100mW/200mW/350mW, 0.8 g, 12*16 mm, 340 mA at 350 mW, Tramp control. The 72 channels are nine bands of eight running 5325-5945 MHz, which is what separates it from the 40-channel Reaper Nano we carry from the retail scrape - same 350 mW, different frequency table, so the two are separate parts and not one page. mount_mm is empty: 12*16 mm is the board, not a mounting pattern, and the page prints no pattern. antenna_connector is empty for the same reason - Foxeer's table names no connector. Out of stock at Foxeer on 2026-09-23. power_draw is the maker's own supply figure, 'Consumption: 340mA @ 350mW' (no voltage printed), read 2026-10-17; it is the VTX's input draw, not its RF output."
+   "note": "Foxeer's own spec table (SKU MR1840, 'Name: Reaper Nano V2'): 5V in, 5V out, 72CH, 25mW/100mW/200mW/350mW, 0.8 g, 12*16 mm, 340 mA at 350 mW, Tramp control. The 72 channels are nine bands of eight running 5325-5945 MHz, which is what separates it from the 40-channel Reaper Nano we carry from the retail scrape - same 350 mW, different frequency table, so the two are separate parts and not one page. mount_mm is empty: 12*16 mm is the board, not a mounting pattern, and the page prints no pattern. antenna_connector is empty for the same reason - Foxeer's table names no connector. Out of stock at Foxeer on 2026-09-23. power_draw is the maker's own supply figure, 'Consumption: 340mA @ 350mW' (no voltage printed), read 2026-10-17; it is the VTX's input draw, not its RF output. frequency_range is the edges of that table (U1 5325, E8 5945; read again 2026-10-20)."
   },
   {
    "type": "vtx",
@@ -2596,7 +2596,7 @@
    "model": "BLITZ 25mW Race VTX",
    "slug": "iflight-blitz-25mw-race-vtx",
    "specs": {
-    "frequency_range": "5.8 GHz",
+    "frequency_range": "5658-5917 MHz",
     "system": "analog",
     "max_power_mw": 25,
     "channels": 8,
@@ -2608,7 +2608,7 @@
     "https://shop.iflight.com/BLITZ-5.8GHz-25mW-Race-VTX-Pro2207",
     "https://shop.iflight.com/index.php?route=product/product/download&download_id=393"
    ],
-   "note": "iFlight's product page prints the labelled block: Item: BLITZ RACE 25mW VTX, Input voltage: DC 7-26V, Volts input: 2-6S, LED lamp output voltage 5V current 2A, Fixed transmitting power: 25mW(14dbm), Antenna connector: IPEX, VTX input connector: SH0.8 4P, LED connector: SH0.8 3P. power_levels_mw is deliberately empty: this radio has no selectable power, and both the block and the feature list call the figure fixed - so max_power_mw here is the only power the board has, not the top of a list. channels is the manual's own frequency table (B015949_BLITZ RACE 25mW VTX Instructions_20241030.pdf), which prints ONE band - RACE, CH1-CH8, 5658-5917 MHz - and whose LED legend says the channel is 'cycled in RACE BAND 1-8CH'; the product page states no channel count at all, and this is the only transmitter in this column locked to a single band. mount_mm is the page's own 'Double mounting holes: 30.5*30.5mm / 20*20mm'. antenna_connector is normalised to the column's U.FL spelling; iFlight writes IPEX in the block and 'iPex/UFL' in the same page's packing list ('1 x iPex/UFL to M2 SMA F Adapter Cable'), which is the same connector. weight_g is empty: neither the page nor the manual states one. The board carries an LED-strip controller (5V 2A output on an SH0.8 3P connector), which is why it also has a colour button."
+   "note": "iFlight's product page prints the labelled block: Item: BLITZ RACE 25mW VTX, Input voltage: DC 7-26V, Volts input: 2-6S, LED lamp output voltage 5V current 2A, Fixed transmitting power: 25mW(14dbm), Antenna connector: IPEX, VTX input connector: SH0.8 4P, LED connector: SH0.8 3P. power_levels_mw is deliberately empty: this radio has no selectable power, and both the block and the feature list call the figure fixed - so max_power_mw here is the only power the board has, not the top of a list. channels is the manual's own frequency table (B015949_BLITZ RACE 25mW VTX Instructions_20241030.pdf), which prints ONE band - RACE, CH1-CH8, 5658-5917 MHz - and whose LED legend says the channel is 'cycled in RACE BAND 1-8CH'; the product page states no channel count at all, and this is the only transmitter in this column locked to a single band. mount_mm is the page's own 'Double mounting holes: 30.5*30.5mm / 20*20mm'. antenna_connector is normalised to the column's U.FL spelling; iFlight writes IPEX in the block and 'iPex/UFL' in the same page's packing list ('1 x iPex/UFL to M2 SMA F Adapter Cable'), which is the same connector. weight_g is empty: neither the page nor the manual states one. The board carries an LED-strip controller (5V 2A output on an SH0.8 3P connector), which is why it also has a colour button. frequency_range is that one band's edges, the whole radio (R1 5658, R8 5917; manual read again 2026-10-20)."
   },
   {
    "type": "vtx",
@@ -2705,7 +2705,7 @@
    "model": "Borg Race 5.8G 200mW VTX",
    "slug": "iflight-borg-race-5-8g-200mw-vtx",
    "specs": {
-    "frequency_range": "5.8 GHz",
+    "frequency_range": "5362-5917 MHz",
     "system": "analog",
     "max_power_mw": 200,
     "power_levels_mw": "25 / 100 / 200",
@@ -2719,7 +2719,7 @@
     "https://shop.iflight.com/Borg-Race-5.8G-200mW-VTX-Pro2394",
     "https://shop.iflight.com/index.php?route=product/product/download&download_id=500"
    ],
-   "note": "iFlight's product page prints the labelled block: Power: PIT/25mw/100mw/200mw, Antenna interface: IPEX, VTX protocol: IRC Tramp, Output 16 channels, Size: 25*25*3.7mm, Mounting pattern: 20*20mm, Weight: 3.5g - and the manual (BV19232_Borg Race 5.8G 200mW VTX lnstructions.pdf) repeats every line of it. channels is 16 because the manual's frequency table is two bands of eight and not the usual five or six: BAND R 5658-5917 MHz and BAND L 5362-5621 MHz, with its LED legend confirming '1 flash=Band R, 2 flashes=Band L'. That is the whole radio - there is no A/B/E/F here - and it is why frequency_range keeps the 5.8 GHz class label this column uses for the band while the measured 5362-5917 MHz span stays in this note. input_voltage is the manual's port line, 'DC IN: Positive, input voltage 4.5-28V', which the page's feature list states as 4.5V-28V and 2S-6S. antenna_connector is the column's U.FL spelling: the block says IPEX and the page's feature list says IPEX-1, which is U.FL. The 25*25*3.7mm size is the board, not a pattern; mount_mm is the labelled mounting line. Like the BLITZ Race 25mW it drives an LED strip, with 1.5A current limiting."
+   "note": "iFlight's product page prints the labelled block: Power: PIT/25mw/100mw/200mw, Antenna interface: IPEX, VTX protocol: IRC Tramp, Output 16 channels, Size: 25*25*3.7mm, Mounting pattern: 20*20mm, Weight: 3.5g - and the manual (BV19232_Borg Race 5.8G 200mW VTX lnstructions.pdf) repeats every line of it. channels is 16 because the manual's frequency table is two bands of eight and not the usual five or six: BAND R 5658-5917 MHz and BAND L 5362-5621 MHz, with its LED legend confirming '1 flash=Band R, 2 flashes=Band L'. That is the whole radio - there is no A/B/E/F here - and frequency_range is the table's edges, 5362-5917 MHz (L1 5362, R8 5917; manual read again 2026-10-20), not the 5.8 GHz class label it held until then. input_voltage is the manual's port line, 'DC IN: Positive, input voltage 4.5-28V', which the page's feature list states as 4.5V-28V and 2S-6S. antenna_connector is the column's U.FL spelling: the block says IPEX and the page's feature list says IPEX-1, which is U.FL. The 25*25*3.7mm size is the board, not a pattern; mount_mm is the labelled mounting line. Like the BLITZ Race 25mW it drives an LED strip, with 1.5A current limiting."
   },
   {
    "type": "vtx",
@@ -2787,7 +2787,7 @@
    "model": "TX800 20x20 25-800mW 5.8GHz - MMCX",
    "slug": "runcam-speedybee-tx800-20x20-25-800mw-5-8ghz-mmcx",
    "specs": {
-    "frequency_range": "5.8 GHz",
+    "frequency_range": "5645-5945 MHz",
     "system": "analog",
     "max_power_mw": 800,
     "mount_mm": "20x20mm",
@@ -2805,7 +2805,7 @@
     "https://docs.speedybee.cn/en/fpv/vtx_vrx/tx800/how-to-unlock-or-lock-the-tx800-switch-channels-and-bands-and-change-increase-ou.html",
     "https://www.speedybee.com/tx800-download/"
    ],
-   "note": "Brand corrected from RunCam to SpeedyBee: the board's own silkscreen reads SpeedyBee TX800, SpeedyBee sells it and hosts its manual, and RunCam is the vendor field of the RaceDayQuads listing the scrape read - a shop's supplier, not the part's manufacturer. The slug still carries the wrong brand because a published URL does not move, and model_set drops the 'SpeedyBee' the title carried: clean_model() strips the brand it was given, so a corrected brand leaves its own name printed twice. Cited against SpeedyBee's own TX800 user manual, which prints: Power in 3.7-5V, Power out 5V, board 28x28mm with the four holes on a 20x20mm pattern, 'Long press 5 seconds to enter POWER mode; each 5-second press switches to 25/200/400/800mW in sequence', and a 5-band 8-channel frequency table (A, B, E, Airwave, Race Band) running 5645-5945 MHz - 40 channels, which is what channels holds. frequency_range keeps the 5.8 GHz class label this column uses for the band. SpeedyBee's knowledge base repeats the four power steps per LED state but heads the band question 'switch between Band1/2/3/4/5/6' - six bands is the TX ULTRA's table, not this radio's, so a brand's FAQ can carry a sibling's figure the way a retail listing can. Discontinued: the TX800 is gone from speedybee.com's catalogue and survives only in the downloads and the knowledge base."
+   "note": "Brand corrected from RunCam to SpeedyBee: the board's own silkscreen reads SpeedyBee TX800, SpeedyBee sells it and hosts its manual, and RunCam is the vendor field of the RaceDayQuads listing the scrape read - a shop's supplier, not the part's manufacturer. The slug still carries the wrong brand because a published URL does not move, and model_set drops the 'SpeedyBee' the title carried: clean_model() strips the brand it was given, so a corrected brand leaves its own name printed twice. Cited against SpeedyBee's own TX800 user manual, which prints: Power in 3.7-5V, Power out 5V, board 28x28mm with the four holes on a 20x20mm pattern, 'Long press 5 seconds to enter POWER mode; each 5-second press switches to 25/200/400/800mW in sequence', and a 5-band 8-channel frequency table (A, B, E, Airwave, Race Band) running 5645-5945 MHz - 40 channels, which is what channels holds. frequency_range is that table's edges (E4 5645, E8 5945; manual read again 2026-10-20). SpeedyBee's knowledge base repeats the four power steps per LED state but heads the band question 'switch between Band1/2/3/4/5/6' - six bands is the TX ULTRA's table, not this radio's, so a brand's FAQ can carry a sibling's figure the way a retail listing can. Discontinued: the TX800 is gone from speedybee.com's catalogue and survives only in the downloads and the knowledge base."
   },
   {
    "type": "vtx",
