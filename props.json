@@ -733,10 +733,7 @@
     "diameter_in": 3.0,
     "pitch_in": 3.0,
     "blades": 5,
-    "mount": [
-     "5mm",
-     "1.5mm T-mount"
-    ],
+    "mount": "5mm / 1.5mm T-mount",
     "material": "Polycarbonate",
     "weight_g": 3.03,
     "price_usd": 3.99
@@ -1005,10 +1002,7 @@
     "material": "Polycarbonate",
     "weight_g": 0.8,
     "price_usd": 4.49,
-    "mount": [
-     "1.5mm",
-     "2mm"
-    ]
+    "mount": "1.5mm / 2mm"
    },
    "_scraped_at": "2026-10-20",
    "sources": [

@@ -3606,9 +3606,7 @@
     "weight_g": 13.58,
     "shaft": "1.5mm",
     "max_cells": "4S",
-    "recommended_props": [
-     "3.5in (90 mm) cinewhoop props - Axisflying heads the sheet Cine157-2 / Suitable for AVATA 3.5\" and bench-tests the motor on an HQT90-4P"
-    ],
+    "recommended_props": "3.5in (90 mm) cinewhoop props - Axisflying heads the sheet Cine157-2 / Suitable for AVATA 3.5\" and bench-tests the motor on an HQT90-4P",
     "resistance_mohm": "83"
    },
    "_scraped_at": "2026-10-20",
@@ -4597,9 +4595,7 @@
       "efficiency_gw": 1.97
      }
     ],
-    "recommended_props": [
-     "3.5in (90 mm) cinewhoop props - Axisflying names Gemfan D90-3 and HQ D90-3, and bench-tests the motor on GF D90-3P, D90-3B and GF3630"
-    ],
+    "recommended_props": "3.5in (90 mm) cinewhoop props - Axisflying names Gemfan D90-3 and HQ D90-3, and bench-tests the motor on GF D90-3P, D90-3B and GF3630",
     "dimensions_mm": "Ø26.9x28.8",
     "resistance_mohm": "97.15 (1900KV) / 76.7 (2300KV & 3500KV) / 65.4 (2750KV)"
    },
@@ -4717,9 +4713,7 @@
     ],
     "stator": "2207",
     "weight_g": 35.8,
-    "recommended_props": [
-     "5in props - Axisflying gives the Application as \"5-inch Cinewhoop / Cinematic FPV\" and bench-tests the motor on a 5x5 three-blade"
-    ],
+    "recommended_props": "5in props - Axisflying gives the Application as \"5-inch Cinewhoop / Cinematic FPV\" and bench-tests the motor on a 5x5 three-blade",
     "dimensions_mm": "Ø28x32.5",
     "resistance_mohm": "64.75"
    },
@@ -26094,10 +26088,7 @@
     "weight_g": 32.5,
     "shaft": "5mm",
     "max_cells": "6S",
-    "recommended_props": [
-     "5\" tri-blade (e.g. HQProp 5x4.3x3)",
-     "5.1\" freestyle props"
-    ],
+    "recommended_props": "5\" tri-blade (e.g. HQProp 5x4.3x3) / 5.1\" freestyle props",
     "configuration": "12N14P",
     "dimensions_mm": "Ø30x32.2",
     "mount_mm": "16x16mm (M3)",
@@ -32313,9 +32304,7 @@
     "weight_g": 29.5,
     "shaft": "4mm",
     "max_cells": "5-6S",
-    "recommended_props": [
-     "5in tri-blade and one 6in (Gemfan 4934R/F4R/51466 V2/51499/6032 and HQ MCK, the props RCinPower bench-tested this motor with across its three KV sheets)"
-    ],
+    "recommended_props": "5in tri-blade and one 6in (Gemfan 4934R/F4R/51466 V2/51499/6032 and HQ MCK, the props RCinPower bench-tested this motor with across its three KV sheets)",
     "max_thrust_g": 2296,
     "thrust_conditions": "RCinPower bench, three KV sheets (1980, 2100, 2160), five 5in and 6in props each at 21 V (5S) and 24 V (6S), 50% and 100% throttle; no RPM published",
     "thrust_table": [
@@ -42667,9 +42656,7 @@
     "weight_g": 30.8,
     "shaft": "4mm",
     "max_cells": "4-6S",
-    "recommended_props": [
-     "5in tri-blade (T-Motor T5146/T5147/T5150, the props T-Motor bench-tested this motor with)"
-    ],
+    "recommended_props": "5in tri-blade (T-Motor T5146/T5147/T5150, the props T-Motor bench-tested this motor with)",
     "max_thrust_g": 1902.32,
     "thrust_conditions": "T-Motor bench (2017 rig), 11 throttle points (50-100% in 5% steps) per KV on three 5in tri-blades; 1950 KV on 6S, 2400 KV on 4S; 30 degC ambient",
     "thrust_table": [
@@ -50351,9 +50338,7 @@
     "weight_g": 31.7,
     "shaft": "4mm",
     "max_cells": "4-6S",
-    "recommended_props": [
-     "5in tri-blade (T-Motor T5143S/T5146/T5147/T4943, the props T-Motor bench-tested this motor with)"
-    ],
+    "recommended_props": "5in tri-blade (T-Motor T5143S/T5146/T5147/T4943, the props T-Motor bench-tested this motor with)",
     "max_thrust_g": 1700.98,
     "thrust_conditions": "T-Motor bench, 11 throttle points (50-100% in 5% steps) per KV on four T-Motor 5in tri-blades; 1950 KV on 6S, 2550 KV on 4S; 8 degC ambient",
     "thrust_table": [
