@@ -29139,18 +29139,313 @@
    "specs": {
     "stator": "1202.5",
     "kv_options": [
-     6400
+     6400,
+     8000
     ],
     "weight_g": 4.4,
     "max_cells": "2-3S",
     "configuration": "9N12P",
     "dimensions_mm": "Ø15x15",
-    "price_usd": 14.49
+    "price_usd": 14.49,
+    "max_thrust_g": 127.8,
+    "thrust_conditions": "Happymodel bench, 6400 KV on a Gemfan 3018 2-blade at 2S (7.4 V), 8000 KV on a 48mm 3-blade at 3S (11.1 V) and the sheet's '11500KV' winding on a 65mm 2-blade at 1S (3.7 V); current steps 0.5-7.2 A, the sheet's throttle column being a PWM value (1531-2200 us) on the first two runs and not a percentage",
+    "thrust_table": [
+     {
+      "kv": 6400,
+      "prop": "Gemfan 3018 bi-blade",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 7.4,
+      "current_a": 1,
+      "rpm": null,
+      "thrust_g": 41.4,
+      "efficiency_gw": 5.595,
+      "prop_key": "Gemfan 3018",
+      "prop_blades": 2
+     },
+     {
+      "kv": 6400,
+      "prop": "Gemfan 3018 bi-blade",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 7.4,
+      "current_a": 2,
+      "rpm": null,
+      "thrust_g": 67.3,
+      "efficiency_gw": 4.547,
+      "prop_key": "Gemfan 3018",
+      "prop_blades": 2
+     },
+     {
+      "kv": 6400,
+      "prop": "Gemfan 3018 bi-blade",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 7.4,
+      "current_a": 3,
+      "rpm": null,
+      "thrust_g": 86.2,
+      "efficiency_gw": 3.883,
+      "prop_key": "Gemfan 3018",
+      "prop_blades": 2
+     },
+     {
+      "kv": 6400,
+      "prop": "Gemfan 3018 bi-blade",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 7.4,
+      "current_a": 4,
+      "rpm": null,
+      "thrust_g": 104,
+      "efficiency_gw": 3.514,
+      "prop_key": "Gemfan 3018",
+      "prop_blades": 2
+     },
+     {
+      "kv": 6400,
+      "prop": "Gemfan 3018 bi-blade",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 7.4,
+      "current_a": 4.5,
+      "rpm": null,
+      "thrust_g": 110,
+      "efficiency_gw": 3.303,
+      "prop_key": "Gemfan 3018",
+      "prop_blades": 2
+     },
+     {
+      "kv": 8000,
+      "prop": "48mm tri-blades",
+      "cells": "3S",
+      "throttle": null,
+      "voltage_v": 11.1,
+      "current_a": 1,
+      "rpm": null,
+      "thrust_g": 28.4,
+      "efficiency_gw": 2.559,
+      "prop_key": "48MM TRI-BLADES",
+      "prop_blades": null
+     },
+     {
+      "kv": 8000,
+      "prop": "48mm tri-blades",
+      "cells": "3S",
+      "throttle": null,
+      "voltage_v": 11.1,
+      "current_a": 2,
+      "rpm": null,
+      "thrust_g": 51.7,
+      "efficiency_gw": 2.329,
+      "prop_key": "48MM TRI-BLADES",
+      "prop_blades": null
+     },
+     {
+      "kv": 8000,
+      "prop": "48mm tri-blades",
+      "cells": "3S",
+      "throttle": null,
+      "voltage_v": 11.1,
+      "current_a": 3,
+      "rpm": null,
+      "thrust_g": 69.9,
+      "efficiency_gw": 2.099,
+      "prop_key": "48MM TRI-BLADES",
+      "prop_blades": null
+     },
+     {
+      "kv": 8000,
+      "prop": "48mm tri-blades",
+      "cells": "3S",
+      "throttle": null,
+      "voltage_v": 11.1,
+      "current_a": 4,
+      "rpm": null,
+      "thrust_g": 88.3,
+      "efficiency_gw": 1.989,
+      "prop_key": "48MM TRI-BLADES",
+      "prop_blades": null
+     },
+     {
+      "kv": 8000,
+      "prop": "48mm tri-blades",
+      "cells": "3S",
+      "throttle": null,
+      "voltage_v": 11.1,
+      "current_a": 5,
+      "rpm": null,
+      "thrust_g": 102.9,
+      "efficiency_gw": 1.854,
+      "prop_key": "48MM TRI-BLADES",
+      "prop_blades": null
+     },
+     {
+      "kv": 8000,
+      "prop": "48mm tri-blades",
+      "cells": "3S",
+      "throttle": null,
+      "voltage_v": 11.1,
+      "current_a": 6,
+      "rpm": null,
+      "thrust_g": 115.1,
+      "efficiency_gw": 1.728,
+      "prop_key": "48MM TRI-BLADES",
+      "prop_blades": null
+     },
+     {
+      "kv": 8000,
+      "prop": "48mm tri-blades",
+      "cells": "3S",
+      "throttle": null,
+      "voltage_v": 11.1,
+      "current_a": 7,
+      "rpm": null,
+      "thrust_g": 126.9,
+      "efficiency_gw": 1.633,
+      "prop_key": "48MM TRI-BLADES",
+      "prop_blades": null
+     },
+     {
+      "kv": 8000,
+      "prop": "48mm tri-blades",
+      "cells": "3S",
+      "throttle": null,
+      "voltage_v": 11.1,
+      "current_a": 7.2,
+      "rpm": null,
+      "thrust_g": 127.8,
+      "efficiency_gw": 1.599,
+      "prop_key": "48MM TRI-BLADES",
+      "prop_blades": null
+     },
+     {
+      "kv": 11500,
+      "prop": "65mm bi-blades",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 0.5,
+      "rpm": null,
+      "thrust_g": 9.2,
+      "efficiency_gw": 4.973,
+      "prop_key": "65MM BI-BLADES",
+      "prop_blades": null
+     },
+     {
+      "kv": 11500,
+      "prop": "65mm bi-blades",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 0.99,
+      "rpm": null,
+      "thrust_g": 16.8,
+      "efficiency_gw": 4.586,
+      "prop_key": "65MM BI-BLADES",
+      "prop_blades": null
+     },
+     {
+      "kv": 11500,
+      "prop": "65mm bi-blades",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 1.51,
+      "rpm": null,
+      "thrust_g": 25.4,
+      "efficiency_gw": 4.546,
+      "prop_key": "65MM BI-BLADES",
+      "prop_blades": null
+     },
+     {
+      "kv": 11500,
+      "prop": "65mm bi-blades",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 2.0,
+      "rpm": null,
+      "thrust_g": 32.4,
+      "efficiency_gw": 4.378,
+      "prop_key": "65MM BI-BLADES",
+      "prop_blades": null
+     },
+     {
+      "kv": 11500,
+      "prop": "65mm bi-blades",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 2.5,
+      "rpm": null,
+      "thrust_g": 39.2,
+      "efficiency_gw": 4.238,
+      "prop_key": "65MM BI-BLADES",
+      "prop_blades": null
+     },
+     {
+      "kv": 11500,
+      "prop": "65mm bi-blades",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 3.01,
+      "rpm": null,
+      "thrust_g": 45.6,
+      "efficiency_gw": 4.094,
+      "prop_key": "65MM BI-BLADES",
+      "prop_blades": null
+     },
+     {
+      "kv": 11500,
+      "prop": "65mm bi-blades",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 3.5,
+      "rpm": null,
+      "thrust_g": 51,
+      "efficiency_gw": 3.938,
+      "prop_key": "65MM BI-BLADES",
+      "prop_blades": null
+     },
+     {
+      "kv": 11500,
+      "prop": "65mm bi-blades",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 3.86,
+      "rpm": null,
+      "thrust_g": 55.1,
+      "efficiency_gw": 3.858,
+      "prop_key": "65MM BI-BLADES",
+      "prop_blades": null
+     },
+     {
+      "kv": 11500,
+      "prop": "65mm bi-blades",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 3.92,
+      "rpm": null,
+      "thrust_g": 55.2,
+      "efficiency_gw": 3.806,
+      "prop_key": "65MM BI-BLADES",
+      "prop_blades": null
+     }
+    ],
+    "shaft": "1.5mm",
+    "mount_bolt_circle_mm": "Ø9 (4-M2)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
-    "https://www.racedayquads.com/products/happymodel-ex1202-5-6400kv-micro-motor-for-crux3-cw"
-   ]
+    "https://www.racedayquads.com/products/happymodel-ex1202-5-6400kv-micro-motor-for-crux3-cw",
+    "https://www.happymodel.cn/index.php/2020/09/29/happymodel-ex1202-5-kv6400-kv11000-brushless-motors/"
+   ],
+   "note": "The rows are Happymodel's own 'EX1202.5 Brushless motor Bench data', published as an image (uploads/2020/09/未标题-1.jpg, 1000x853) in the gallery of its EX1202.5 product post on happymodel.cn - the post has no HTML table, which is why this motor was first recorded as having none. Three runs, each with a no-load block at 2 V: '12025-6400KV' (0.19 A, 12690 RPM, measured 6345 KV), '12025-8000KV' (0.3 A, 16260 RPM, 8130 KV) and '12025-11500KV' (0.39 A, 24680 RPM, 11980 KV). Every row reproduces its printed power as Voltage x Current and its printed efficiency as Thrust / Power. The sheet steps current, not throttle, and has no RPM column: its last column is headed 'Throttle' and holds PWM values (1531-2200) on the 6400 and 8000 KV runs, and on the 11500 KV run figures of 13770-32260 that are no throttle and are not labelled RPM, so throttle and RPM are empty on every row. kv_options gains 8000: the post's own block lists 'KV6400 KV8000 KV11000' and rates 6400 and 8000 at 2-3S. The third run is kept at the sheet's '11500KV' label but not added to kv_options, because the post sells an 11000 KV winding rated 1S only and no maker document names an 11500 KV one. max_thrust_g is the 8000 KV run's 127.8 g at 11.1 V. shaft 1.5mm is the post's 'Out Shaft Diameter: Φ1.5mm' (inner 2 mm); the bolt circle is the drawing's base view, 4M2 on Φ9±0.05. The drawing's 14.7±0.1 mm overall length includes the shaft; dimensions_mm keeps the post's Φ15x15 text."
   },
   {
    "type": "motor",
@@ -29299,12 +29594,15 @@
     "shaft": "1.5mm",
     "configuration": "9N12P",
     "dimensions_mm": "Ø13.5x14",
-    "price_usd": 13.49
+    "price_usd": 13.49,
+    "mount_bolt_circle_mm": "Ø6.6 (3-M1.4)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
-    "https://www.racedayquads.com/products/happymodel-rs1102-motor-10000kv"
-   ]
+    "https://www.racedayquads.com/products/happymodel-rs1102-motor-10000kv",
+    "https://www.happymodel.cn/index.php/2025/01/08/happymodel-rs1102-kv10000-kv13500-brushless-motor-for-micro-fpv-drone/"
+   ],
+   "note": "Happymodel's RS1102 post (2025-01-08) carries no bench table: its gallery is seven photos and a drawing captioned 'RS1102 KV10000' (uploads/2025/02/RS1102-KV10000.jpg), whose base view prints '3-M1.4均布' (three M1.4 holes, equally spaced) on a Ø6.6 circle - the bolt circle here. The 13500 KV listing (happymodel-rs1102-micro) is not given it: the drawing names the 10000 KV winding only."
   },
   {
    "type": "motor",
