@@ -964,8 +964,6 @@
    "specs": {
     "system": "Digital HD (OpenIPC)",
     "max_power_mw": 200,
-    "mount_mm": "25.5x25.5mm",
-    "weight_g": 13.76,
     "price_usd": 89.99
    },
    "_scraped_at": "2026-10-20",
@@ -974,7 +972,7 @@
     "https://shop.emax-usa.com/products/wyvern-link-alpha-openipc-200mw-video-transmitter-vtx",
     "https://www.emax-usa.com/openipc-detail-dark.html?product=wyvern-link-alpha-openipc-200mw-video-transmitter-vtx"
    ],
-   "note": "Cited 2026-09-24 against EMAX's own catalogue, which confirms the part and its 200 mW output - the brand titles it 'Wyvern Link OpenIPC - 200mW Video Transmitter VTX' and its own description panel calls it 'The Wyvern Link 200mW VTX v2 ... built for everyday FPV flying' - and confirms nothing else. EMAX's own Wyvern Link comparison table, published as a content image on the brand's catalogue page for this part (www.emax-usa.com, openipc-detail-dark.html) and read at full resolution. It is a screenshot of a spreadsheet - the cell cursor and a spell-check underline under its 'Openipc' heading are both in the picture - and it has two product columns, headed '100mw' and '800mw', plus a third for the WIFI module. Its rows: Camera sensor imx415; Video specifications 1280x720; Video FPS 120fps; input voltage 100mw 5v in / 800mw 2-6s in; Lens specifications 100mw 14mm / 800mw 19mm; Weight 100mw 13.76g / 800mw 28.85g; Hole spacing 100mw 25.5mm / 800mw 30.5mm / WIFI modular 35.0mm; Aperture 3.0mm throughout; Receiver input xt30 2-6s / type-c 5v in; Receiver Weight 100mw 51.69g / 2000mw 44.5g. There is no 200 mW column in it. The same image is published unchanged on the 100 mW page, the 800 mW page and this one, so it is shared line artwork rather than a statement about this SKU, and the two figures this page carries from the retail listing - weight_g 13.76 and mount_mm 25.5x25.5mm - are exactly the table's 100 mW figures. They are kept because no manufacturer statement contradicts them and the 200 mW is plainly the small board (EMAX's own copy sells it as fitting drones 'as small as whoops'), but they may be the 100 mW listing's numbers copied across, and neither field is required, so nothing on this page rests on them."
+   "note": "Cited 2026-09-24 against EMAX's own catalogue, which confirms the part and its 200 mW output - the brand titles it 'Wyvern Link OpenIPC - 200mW Video Transmitter VTX' and its own description panel calls it 'The Wyvern Link 200mW VTX v2 ... built for everyday FPV flying' - and confirms nothing else. EMAX's own Wyvern Link comparison table, published as a content image on the brand's catalogue page for this part (www.emax-usa.com, openipc-detail-dark.html) and read at full resolution. It is a screenshot of a spreadsheet - the cell cursor and a spell-check underline under its 'Openipc' heading are both in the picture - and it has two product columns, headed '100mw' and '800mw', plus a third for the WIFI module. Its rows: Camera sensor imx415; Video specifications 1280x720; Video FPS 120fps; input voltage 100mw 5v in / 800mw 2-6s in; Lens specifications 100mw 14mm / 800mw 19mm; Weight 100mw 13.76g / 800mw 28.85g; Hole spacing 100mw 25.5mm / 800mw 30.5mm / WIFI modular 35.0mm; Aperture 3.0mm throughout; Receiver input xt30 2-6s / type-c 5v in; Receiver Weight 100mw 51.69g / 2000mw 44.5g. There is no 200 mW column in it. The same image is published unchanged on the 100 mW page, the 800 mW page and this one, so it is shared line artwork rather than a statement about this SKU, and the two figures the retail listing prints - weight_g 13.76 and mount_mm 25.5x25.5mm - are exactly the table's 100 mW figures. Owner ruling 2026-10-20: a retailer figure that equals the maker's figure for a sibling SKU is contamination, not corroboration, so both are cleared (specs_clear) and this page carries no weight or mounting pattern until EMAX states one for the 200 mW unit."
   },
   {
    "type": "vtx",
@@ -2048,7 +2046,7 @@
     "antenna_connector": "U.FL",
     "weight_g": 28.0,
     "price_usd": 99.99,
-    "power_levels_mw": "25 / 200 (HAM licence unlock: 500 / 1000)",
+    "power_levels_mw": "25 / 200",
     "input_voltage": "2S-6S (1st batch 2S-4S)",
     "power_draw": "6-15 W"
    },
@@ -2058,7 +2056,7 @@
     "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf",
     "https://docs.hd-zero.com/vtx-dis-summary"
    ],
-   "note": "Manufacturer source 2026-09-23, and it names the part: this is the HDZero Freestyle V1, which the HDZero VTX User Manual v1.1 lists under 'Discontinued Video Transmitters' (p22) at 40x40 mm body, 30x30 M3 (Soft) mounting, 28 grams, 2S-6S power input, 6~15W, RF power output '25mW,200mW (500mW, 1W if with HAM license)', Secured U.FL, RHCP antenna included. The 28 g and the 30x30 pattern this page already published are that row exactly, which is how the retail title's 'Freestyle 30x30' is pinned to a model name. The manual adds (p28) that the first batch supports 2S-4S and ships with a 2S-6S BEC, the second batch and later 2S-6S with no BEC, and that the heat sink is part of the design. HDZero's shop no longer lists it, so there is no product page to cite - the manual is the whole manufacturer record. power_draw is the maker's own supply figure, 'Power Consumption: 6~15W' in the Freestyle V1 (EOL, 30x30) column of HDZero's discontinued-VTX table, read 2026-10-17; it is the VTX's input draw, not its RF output."
+   "note": "Manufacturer source 2026-09-23, and it names the part: this is the HDZero Freestyle V1, which the HDZero VTX User Manual v1.1 lists under 'Discontinued Video Transmitters' (p22) at 40x40 mm body, 30x30 M3 (Soft) mounting, 28 grams, 2S-6S power input, 6~15W, RF power output '25mW,200mW (500mW, 1W if with HAM license)', Secured U.FL, RHCP antenna included. The 28 g and the 30x30 pattern this page already published are that row exactly, which is how the retail title's 'Freestyle 30x30' is pinned to a model name. The manual adds (p28) that the first batch supports 2S-4S and ships with a 2S-6S BEC, the second batch and later 2S-6S with no BEC, and that the heat sink is part of the design. HDZero's shop no longer lists it, so there is no product page to cite - the manual is the whole manufacturer record. power_levels_mw holds the legal steps only, 25 / 200 (owner ruling 2026-10-20); the manual's licence-only steps, '500mW, 1W if with HAM license', stay here and not in the column. power_draw is the maker's own supply figure, 'Power Consumption: 6~15W' in the Freestyle V1 (EOL, 30x30) column of HDZero's discontinued-VTX table, read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -2072,7 +2070,7 @@
     "mount_mm": "20x20mm M2",
     "antenna_connector": "U.FL",
     "price_usd": 179.99,
-    "power_levels_mw": "25 / 200 (HAM licence unlock: 500 / 1000)",
+    "power_levels_mw": "25 / 200",
     "input_voltage": "7-25V",
     "channels": 12,
     "power_draw": "6-15 W"
@@ -2084,7 +2082,7 @@
     "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf",
     "https://docs.hd-zero.com/vtx-summary"
    ],
-   "note": "Second source 2026-09-23: this kit is the Freestyle V2 VTX plus a Nano 90 V2 camera (19x19 mount) and an RHCP antenna, and HDZero's kit page reprints the transmitter's block verbatim - 22.3 g, 29x30x14mm, 5.725-5.850GHz, Transmitter Power 25mW,200mW, 20x20mm M2 holes, Secured U.FL, Input Power 7-25V, 6-15W - with the same sentence that the VTX is capable of 1W at R1 once unlocked with a licence. weight_g stays empty on purpose: 22.3 g is the transmitter and this SKU is a box with a camera and an antenna in it, and no source weighs the box. power_draw is the maker's own supply figure, 'Power Consumption: 6~15W' in the Freestyle V2 column (the VTX in this kit), read 2026-10-17; it is the VTX's input draw, not its RF output."
+   "note": "Second source 2026-09-23: this kit is the Freestyle V2 VTX plus a Nano 90 V2 camera (19x19 mount) and an RHCP antenna, and HDZero's kit page reprints the transmitter's block verbatim - 22.3 g, 29x30x14mm, 5.725-5.850GHz, Transmitter Power 25mW,200mW, 20x20mm M2 holes, Secured U.FL, Input Power 7-25V, 6-15W - with the same sentence that the VTX is capable of 1W at R1 once unlocked with a licence. weight_g stays empty on purpose: 22.3 g is the transmitter and this SKU is a box with a camera and an antenna in it, and no source weighs the box. power_levels_mw holds the legal steps only, 25 / 200, the maker's 'Transmitter Power 25mW,200mW' (owner ruling 2026-10-20); the HAM-licence unlock steps, 500 / 1000 mW (1 W at R1), stay here and not in the column. power_draw is the maker's own supply figure, 'Power Consumption: 6~15W' in the Freestyle V2 column (the VTX in this kit), read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -2099,7 +2097,7 @@
     "antenna_connector": "U.FL",
     "weight_g": 22.3,
     "price_usd": 118.99,
-    "power_levels_mw": "25 / 200 (HAM licence unlock: 500 / 1000)",
+    "power_levels_mw": "25 / 200",
     "input_voltage": "7-25V",
     "channels": 12,
     "power_draw": "6-15 W"
@@ -2111,7 +2109,7 @@
     "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf",
     "https://docs.hd-zero.com/vtx-summary"
    ],
-   "note": "Second source 2026-09-23: HDZero's own product page prints the labelled block - Manufacturer Divimath, Inc, Model HDZero Freestyle V2 VTX, Weight 22.3 g, Dimensions 29x30x14mm, Operating Frequency 5.725-5.850GHz, Transmitter Power 25mW,200mW, Mounting Pattern 20x20mm M2 holes, Antenna Interface Secured U.FL, Video In Secured MIPI, Input Power 7-25V, Power Consumption 6-15W - and the 1 W this page publishes is the same manufacturer's, stated twice outside that block: 'The VTX is capable of maximum 1W RF output at R1 channel if unlocked with license or approval from the local authorities' on the product page, and in the HDZero VTX User Manual v1.1 (linked from hd-zero.com/document), p2 'HDZero VTX Products' table as '25mW, 200mW (500mW, 1W with HAM license unlock)', with an Unlock RF Power Limit procedure on p18 citing FCC 47 CFR 97.215(c). So max_power_mw is the radio and power_levels_mw records that it ships limited to 200 mW; output also decreases as the channel frequency rises above R1. This is the TBS Unify Pro32 DP case from the other direction - there a retail title printed a locked-down subset as the whole radio, here the manufacturer's own spec block does. power_draw is the maker's own supply figure, 'Power Consumption: 6~15W' in the Freestyle V2 column, read 2026-10-17; it is the VTX's input draw, not its RF output."
+   "note": "Second source 2026-09-23: HDZero's own product page prints the labelled block - Manufacturer Divimath, Inc, Model HDZero Freestyle V2 VTX, Weight 22.3 g, Dimensions 29x30x14mm, Operating Frequency 5.725-5.850GHz, Transmitter Power 25mW,200mW, Mounting Pattern 20x20mm M2 holes, Antenna Interface Secured U.FL, Video In Secured MIPI, Input Power 7-25V, Power Consumption 6-15W - and the 1 W this page publishes is the same manufacturer's, stated twice outside that block: 'The VTX is capable of maximum 1W RF output at R1 channel if unlocked with license or approval from the local authorities' on the product page, and in the HDZero VTX User Manual v1.1 (linked from hd-zero.com/document), p2 'HDZero VTX Products' table as '25mW, 200mW (500mW, 1W with HAM license unlock)', with an Unlock RF Power Limit procedure on p18 citing FCC 47 CFR 97.215(c). So max_power_mw is the radio and power_levels_mw records that it ships limited to 200 mW; output also decreases as the channel frequency rises above R1. This is the TBS Unify Pro32 DP case from the other direction - there a retail title printed a locked-down subset as the whole radio, here the manufacturer's own spec block does. power_levels_mw holds the legal steps only, 25 / 200, the maker's 'Transmitter Power 25mW,200mW' (owner ruling 2026-10-20); the HAM-licence unlock steps, 500 / 1000 mW (1 W at R1), stay here and not in the column. power_draw is the maker's own supply figure, 'Power Consumption: 6~15W' in the Freestyle V2 column, read 2026-10-17; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
