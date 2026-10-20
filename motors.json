@@ -15151,7 +15151,6 @@
     "weight_g": 31.9,
     "recommended_props": "5\"-5.5\"",
     "dimensions_mm": "28.6x32.8",
-    "mount_mm": "19x19mm",
     "price_usd": 17.99,
     "max_thrust_g": 1800,
     "thrust_conditions": "6S, EMAX AVAN 5026-3, 100% throttle, 1900KV; manufacturer payload test, 8 load points per KV; 2400KV tested on 4S",
@@ -15469,15 +15468,20 @@
       "prop_blades": 3
      }
     ],
-    "max_cells": "6S",
-    "shaft": "M5"
+    "max_cells": "3-6S (1700/1900KV) / 3-4S (2400KV)",
+    "shaft": "M5",
+    "weight_kv": 1700,
+    "weight_excludes": "cable",
+    "configuration": "12N14P",
+    "resistance_mohm": "74 (1700KV) / 64 (1900KV) / 48 (2400KV)",
+    "mount_bolt_circle_mm": "Ø16 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
     "https://www.racedayquads.com/products/emax-e3-series-2207-motor-1700kv-1900kv-2400kv",
     "https://shop.emaxmodel.com/products/eamx-ecoiii-series-2207-3-6s-1700kv-1900kv-2400kv-brushless-motor-drone-motor-accessories"
    ],
-   "note": "EMAX sells the E3 series as ECO III (same motor, confirmed via EMAX's own product assets); weight 31.5-31.9 g depending on KV (w/o wire); 2400KV variant is rated 3-4S"
+   "note": "Weight, body, winding, cell rating and resistance from EMAX's own Specifications sheet (ECO-111-20250308---__08.jpg) on the maker's ECO III product page, read at full size 2026-10-20 (EMAX sells the E3 series as ECO III, the same motor): one block per winding, each 12N14P, Φ28.6*32.8mm, 4 mm bearing shaft, 20#AWG 120 mm lead, internal resistance 74 / 64 / 48 mΩ (1700/1900/2400 KV), weight 31.9 g at 1700 KV, 31.6 g at 1900 KV, 31.5 g at 2400 KV, every one printed \"(W/O Silicone Wire)\"; the retail listing repeats the same figures \"without silicone wire\". EMAX prints no weight with the cable, so weight_g keeps the maker's first-listed winding's figure, named on the page as cable excluded. No. of cells per winding as printed: 3-6S at 1700 and 1900 KV, 3-4S at 2400 KV. The drawing gives a Φ16 4-M3 bolt circle (mount_bolt_circle_mm) and an M5 prop thread; the listing's \"Mounting Pattern: 19x19mm\" is not a square pattern on EMAX's drawing, so mount_mm is not published."
   },
   {
    "type": "motor",
@@ -15494,7 +15498,6 @@
     "weight_g": 29.4,
     "recommended_props": "5\"-5.5\"",
     "dimensions_mm": "28.9x31.8",
-    "mount_mm": "19x19mm",
     "price_usd": 17.99,
     "max_thrust_g": 1760,
     "thrust_conditions": "6S, EMAX AVAN 5026-3, 100% throttle, 1900KV; manufacturer payload test, 8 load points per KV; 2400KV tested on 4S",
@@ -15812,15 +15815,20 @@
       "prop_blades": 3
      }
     ],
-    "max_cells": "6S",
-    "shaft": "M5"
+    "max_cells": "3-6S (1700/1900KV) / 3-4S (2400KV)",
+    "shaft": "M5",
+    "weight_kv": 1700,
+    "weight_excludes": "cable",
+    "configuration": "12N14P",
+    "resistance_mohm": "79 (1700KV) / 66 (1900KV) / 47 (2400KV)",
+    "mount_bolt_circle_mm": "Ø16 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
     "https://www.racedayquads.com/products/emax-e3-series-2306-motor-1700kv-1900kv-2400kv",
     "https://shop.emaxmodel.com/products/eamx-ecoiii-series-2306-3-6s-1700kv-1900kv-2400kv-brushless-motor-drone-motor-accessories"
    ],
-   "note": "EMAX sells the E3 series as ECO III; weight 29.4-29.5 g w/o wire; 2400KV variant is rated 3-4S"
+   "note": "Weight, body, winding, cell rating and resistance from EMAX's own Specifications sheet (ECO-111-20250308---__10.jpg) on the maker's ECO III product page, read at full size 2026-10-20 (EMAX sells the E3 series as ECO III, the same motor): one block per winding, each 12N14P, Φ28.9*31.8mm, 4 mm bearing shaft, 20#AWG 120 mm lead, internal resistance 79 / 66 / 47 mΩ (1700/1900/2400 KV), weight 29.4 g at 1700 and 1900 KV, 29.5 g at 2400 KV, every one printed \"(W/O Silicone Wire)\"; the retail listing repeats the same figures \"without silicone wire\". EMAX prints no weight with the cable, so weight_g keeps the maker's first-listed winding's figure, named on the page as cable excluded. No. of cells per winding as printed: 3-6S at 1700 and 1900 KV, 3-4S at 2400 KV. The drawing gives a Φ16 4-M3 bolt circle (mount_bolt_circle_mm) and an M5 prop thread; the listing's \"Mounting Pattern: 19x19mm\" is not a square pattern on EMAX's drawing, so mount_mm is not published."
   },
   {
    "type": "motor",
@@ -15837,7 +15845,6 @@
     "weight_g": 49.6,
     "recommended_props": "6\"-7\"",
     "dimensions_mm": "34.8x34.9",
-    "mount_mm": "19x19mm",
     "price_usd": 23.99,
     "max_thrust_g": 2580,
     "thrust_conditions": "6S, EMAX AVIA 7040-3, 100% throttle, 1500KV; manufacturer payload test, 8 load points per KV; 1700KV tested on 4S",
@@ -16155,15 +16162,20 @@
       "prop_blades": 3
      }
     ],
-    "max_cells": "6S",
-    "shaft": "M5"
+    "max_cells": "3-6S (1300/1500KV) / 3-4S (1700KV)",
+    "shaft": "M5",
+    "weight_kv": 1300,
+    "weight_excludes": "cable",
+    "configuration": "12N14P",
+    "resistance_mohm": "60 (1300KV) / 50 (1500KV) / 40 (1700KV)",
+    "mount_bolt_circle_mm": "Ø19 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
     "https://www.racedayquads.com/products/emax-e3-series-2807-motor-1300kv-1500kv-1700kv",
     "https://shop.emaxmodel.com/products/eamx-ecoiii-series-2807-3-6s-1300kv-1500kv-1700kv-brushless-motor-drone-motor-accessories"
    ],
-   "note": "EMAX sells the E3 series as ECO III; weight 49.6 g w/o wire; 1700KV variant is rated 3-4S; 6-7 inch props"
+   "note": "Weight, body, winding, cell rating and resistance from EMAX's own Specifications sheet (ECO-111-20250308---__12.jpg) on the maker's ECO III product page, read at full size 2026-10-20 (EMAX sells the E3 series as ECO III, the same motor): one block per winding, each 12N14P, Φ34.8*34.9mm, 5 mm bearing shaft, 18#AWG 200 mm lead, internal resistance 60 / 50 / 40 mΩ (1300/1500/1700 KV), weight 49.6 g at every winding, every one printed \"(W/O Silicone Wire)\"; the retail listing repeats the same figures \"without silicone wire\". EMAX prints no weight with the cable, so weight_g keeps the maker's first-listed winding's figure, named on the page as cable excluded. No. of cells per winding as printed: 3-6S at 1300 and 1500 KV, 3-4S at 1700 KV. The drawing gives a Φ19 4-M3 bolt circle (mount_bolt_circle_mm) and an M5 prop thread; the listing's \"Mounting Pattern: 19x19mm\" is not a square pattern on EMAX's drawing, so mount_mm is not published."
   },
   {
    "type": "motor",
@@ -16180,7 +16192,6 @@
     "max_cells": "3-6S",
     "recommended_props": "6\"-7\"",
     "dimensions_mm": "34.8x37",
-    "mount_mm": "19x19mm",
     "price_usd": 28.99,
     "max_thrust_g": 2640,
     "thrust_conditions": "6S, EMAX AVIA 7040-3, 100% throttle, 1500KV; manufacturer payload test, 8 load points per KV, 6S",
@@ -16394,14 +16405,19 @@
       "prop_blades": 3
      }
     ],
-    "shaft": "M5"
+    "shaft": "M5",
+    "weight_kv": 1300,
+    "weight_excludes": "cable",
+    "configuration": "12N14P",
+    "resistance_mohm": "56 (1300KV) / 47 (1500KV)",
+    "mount_bolt_circle_mm": "Ø19 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
     "https://www.racedayquads.com/products/emax-e3-series-2808-motor-1300kv-1500kv",
     "https://shop.emaxmodel.com/products/eamx-ecoiii-series-2808-3-6s-1300kv-1500kv-brushless-motor-drone-motor-accessories"
    ],
-   "note": "EMAX sells the E3 series as ECO III; weight 53.6-53.8 g w/o wire; 6-7 inch props"
+   "note": "Weight, body, winding, cell rating and resistance from EMAX's own Specifications sheet (ECO-111-20250308---__14.jpg) on the maker's ECO III product page, read at full size 2026-10-20 (EMAX sells the E3 series as ECO III, the same motor): one block per winding, each 12N14P, Φ34.8*37mm, 5 mm bearing shaft, 18#AWG 250 mm lead, internal resistance 56 / 47 mΩ (1300/1500 KV), weight 53.6 g at 1300 KV, 53.8 g at 1500 KV, every one printed \"(W/O Silicone Wire)\"; the retail listing repeats the same figures \"without silicone wire\". EMAX prints no weight with the cable, so weight_g keeps the maker's first-listed winding's figure, named on the page as cable excluded. No. of cells per winding as printed: 3-6S at both windings. The drawing gives a Φ19 4-M3 bolt circle (mount_bolt_circle_mm) and an M5 prop thread; the listing's \"Mounting Pattern: 19x19mm\" is not a square pattern on EMAX's drawing, so mount_mm is not published."
   },
   {
    "type": "motor",
@@ -18063,7 +18079,8 @@
       "prop_key": "Gemfan SL5125",
       "prop_blades": 3
      }
-    ]
+    ],
+    "resistance_mohm": "158 (2000KV) / 110 (2400KV) / 80 (3000KV)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -18072,7 +18089,7 @@
     "https://www.racedayquads.com/products/emax-eco-ii-2004-3000kv-motor",
     "https://shop.emaxmodel.com/products/emax-eco-ii-series-2004-1600kv-2000kv-2400kv-3000kv-brushless-motor-for-rc-drone-fpv-racing"
    ],
-   "note": "Weight 16.4-16.6 g depending on KV (manufacturer, w/o wire); 4-6S rating (3000KV: 3-6S); a 1600KV variant exists on EMAX's store"
+   "note": "EMAX's own Specifications sheets (2004-1.jpg, 2004-2.jpg) on the maker's product page, read at full size 2026-10-20: 12N14P, Φ24.7*19.2mm, 3 mm bearing shaft with a 1.5 mm prop-adapter thread, 24#AWG 120 mm lead, bolt pattern M2 (12X12mm), internal resistance 200 / 158 / 110 / 80 mΩ (1600/2000/2400/3000 KV; this page sells the last three), No. of cells 4-6S (1600/2000/2400 KV) and 3-6S (3000 KV), weight 16.6 g (1600/2000 KV) and 16.4 g (2400/3000 KV), every one printed \"(W/O Silicone Wire)\". weight_g is the retail listings' \"Weight (w/ wires): 18g\", the weight with the cable; the maker's figures are the bare motor."
   },
   {
    "type": "motor",
@@ -19654,15 +19671,21 @@
      }
     ],
     "weight_g": 107,
-    "max_cells": "12S",
-    "shaft": "M5"
+    "max_cells": "10-12S (400KV) / 8-10S (500KV) / 6-8S (640KV) / 4-6S (900KV)",
+    "shaft": "M5",
+    "weight_kv": 400,
+    "weight_excludes": "cable",
+    "configuration": "12N14P",
+    "resistance_mohm": "130 (400KV) / 95 (500KV) / 66 (640KV) / 42 (900KV)",
+    "dimensions_mm": "37.3x48.65",
+    "mount_bolt_circle_mm": "Ø19 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
     "https://www.racedayquads.com/products/emax-eco-ii-3115-motor-400kv-500kv-640kv-900kv",
     "https://shop.emaxmodel.com/products/emax-ecoii3115-400kv-500kv-640kv-800kv-900kv-brushless-motor-for-fpv-racing-drone"
    ],
-   "note": "Cine-lifter motor; cell rating varies by KV (400KV: 10-12S, 500KV: 8-10S, 640KV: 6-8S, 800/900KV: 4-6S), each bench-tested at its rated max voltage; weight 105-107 g w/o wire; an 800KV variant exists on EMAX's store; 9-10 inch props"
+   "note": "Weight, body, winding, cell rating and resistance from EMAX's own Specifications sheet (3115.png) on the maker's product page, read at full size 2026-10-20: one block per winding, each 12N14P, Φ37.3*48.65mm, 5 mm bearing shaft, 18#AWG 270 mm lead, internal resistance 130 / 95 / 66 / 42 mΩ (400/500/640/900 KV; 52 mΩ at the 800 KV winding this page does not sell), weight 107 g at 400 and 500 KV, 106 g at 640 KV, 105 g at 900 KV, every one printed \"(W/O Silicone Wire)\". EMAX prints no weight with the cable, so weight_g keeps the maker's first-listed sold winding's figure, named on the page as cable excluded. No. of cells per winding as printed: 10-12S at 400 KV, 8-10S at 500 KV, 6-8S at 640 KV, 4-6S at 900 KV. The drawing gives a Φ19 4-M3 bolt circle (mount_bolt_circle_mm) and an M5 prop thread. Each winding is bench-tested at its own rated maximum voltage."
   },
   {
    "type": "motor",
@@ -20721,9 +20744,15 @@
       "prop_blades": 3
      }
     ],
-    "weight_g": 33.5,
-    "max_cells": "6S",
-    "shaft": "M5"
+    "weight_g": 33.4,
+    "max_cells": "3-6S (1700/1900KV) / 3-4S (2400KV)",
+    "shaft": "M5",
+    "weight_kv": 1700,
+    "weight_excludes": "cable",
+    "configuration": "12N14P",
+    "resistance_mohm": "72 (1700KV) / 59 (1900KV) / 41 (2400KV)",
+    "dimensions_mm": "27.5x33.2",
+    "mount_bolt_circle_mm": "Ø16 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -20732,7 +20761,7 @@
     "https://www.racedayquads.com/products/emax-eco-ii-series-2207-2400kv-motor",
     "https://shop.emaxmodel.com/products/emax-eco-ii-series-2207-3-6s-1700kv-1900kv-2400kv-brushless-motor-for-rc-drone-fpv-racing"
    ],
-   "note": "Weight 33.4-33.6 g depending on KV (manufacturer, w/o wire); 2400KV variant is rated 3-4S while 1700/1900KV are 3-6S"
+   "note": "Weight, body, winding, cell rating and resistance from EMAX's own Specifications sheet (2207-2020-10-29-2.jpg) on the maker's product page, read at full size 2026-10-20: one block per winding, each 12N14P, Φ27.5*33.2mm, 4 mm bearing shaft, 20#AWG 120 mm lead, internal resistance 72 / 59 / 41 mΩ (1700/1900/2400 KV), weight 33.4 g at 1700 KV, 33.6 g at 1900 KV, 33.5 g at 2400 KV, every one printed \"(W/O Silicone Wire)\". EMAX prints no weight with the cable, so weight_g keeps the maker's first-listed sold winding's figure, named on the page as cable excluded. No. of cells per winding as printed: 3-6S at 1700 and 1900 KV, 3-4S at 2400 KV. The drawing gives a Φ16 4-M3 bolt circle (mount_bolt_circle_mm) and an M5 prop thread. The page published 33.5 g, the 2400 KV figure, until 2026-10-20."
   },
   {
    "type": "motor",
@@ -21792,8 +21821,14 @@
      }
     ],
     "weight_g": 30.4,
-    "max_cells": "6S",
-    "shaft": "M5"
+    "max_cells": "3-6S (1700/1900KV) / 3-4S (2400KV)",
+    "shaft": "M5",
+    "weight_kv": 1700,
+    "weight_excludes": "cable",
+    "configuration": "12N14P",
+    "resistance_mohm": "74 (1700KV) / 62 (1900KV) / 47 (2400KV)",
+    "dimensions_mm": "28x31.6",
+    "mount_bolt_circle_mm": "Ø16 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -21802,7 +21837,7 @@
     "https://www.racedayquads.com/products/emax-eco-ii-2306-2400kv-motor",
     "https://shop.emaxmodel.com/products/emax-eco-ii-series-2306-1700kv-1900kv-2400kv-brushless-motor-for-rc-drone-fpv-racing"
    ],
-   "note": "Weight 30.2-30.4 g depending on KV (manufacturer, w/o wire); 2400KV variant is rated 3-4S while 1700/1900KV are 3-6S"
+   "note": "Weight, body, winding, cell rating and resistance from EMAX's own Specifications sheet (2306-2020-10-29-2.jpg) on the maker's product page, read at full size 2026-10-20: one block per winding, each 12N14P, Φ28*31.6mm, 4 mm bearing shaft, 20#AWG 120 mm lead, internal resistance 74 / 62 / 47 mΩ (1700/1900/2400 KV), weight 30.4 g at 1700 KV, 30.2 g at 1900 and 2400 KV, every one printed \"(W/O Silicone Wire)\". EMAX prints no weight with the cable, so weight_g keeps the maker's first-listed sold winding's figure, named on the page as cable excluded. No. of cells per winding as printed: 3-6S at 1700 and 1900 KV, 3-4S at 2400 KV. The drawing gives a Φ16 4-M3 bolt circle (mount_bolt_circle_mm) and an M5 prop thread."
   },
   {
    "type": "motor",
