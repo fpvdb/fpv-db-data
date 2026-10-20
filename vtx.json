@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-20",
- "count": 161,
+ "count": 166,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -1355,6 +1355,69 @@
   {
    "type": "vtx",
    "brand": "FT Systems",
+   "model": "FT VTX 1.2GHz 4W 9CH",
+   "slug": "ft-systems-ft-vtx-1-2ghz-4w-9ch",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 4000,
+    "frequency_range": "1080-1360 MHz",
+    "power_levels_mw": "0 (pit) / 25 / 2000 / 4000",
+    "input_voltage": "7-36V (2-8S)",
+    "mount_mm": "20x20mm",
+    "channels": 9,
+    "antenna_connector": "SMA"
+   },
+   "sources": [
+    "https://ft.systems/en/video-transmitter-vtx-ft-1-2/",
+    "https://ft.systems/wp-content/uploads/2025/08/FT_VTX_instruction_1.2_GHz.pdf"
+   ],
+   "note": "Ukrainian-made transmitter: 9 channels (one band) over 1080-1360 MHz, an aluminium heatsink with a fan, controlled over IRC Tramp. FT Systems quotes measured RF output of 3680-4530 mW across the range rather than one figure, because the amplifier does not deliver the same power at every frequency - the 4000 mW here is the nominal top setting. No weight: the product page says 30 g and the maker's manual 25.85 g for the same 53x28.85x16 mm body, so the two maker sources disagree one against one. Outside the 5.8 GHz band this is not a licence-free link in most countries; check local rules before transmitting. FT prints the connector as 'SMA female'; the column holds one spelling per connector."
+  },
+  {
+   "type": "vtx",
+   "brand": "FT Systems",
+   "model": "FT VTX 2.7GHz 4W 16CH",
+   "slug": "ft-systems-ft-vtx-2-7ghz-4w-16ch",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 4000,
+    "frequency_range": "2700-3000 MHz",
+    "power_levels_mw": "0 (pit) / 25 / 2000 / 4000",
+    "input_voltage": "7-36V (2-8S)",
+    "mount_mm": "20x20mm",
+    "channels": 16,
+    "antenna_connector": "SMA"
+   },
+   "sources": [
+    "https://ft.systems/en/video-transmitter-vtx-ft-2-7/",
+    "https://ft.systems/wp-content/uploads/2025/08/FT_VTX_instruction_2.7_GHz.pdf"
+   ],
+   "note": "Ukrainian-made transmitter: 16 channels (two bands) over 2700-3000 MHz, an aluminium heatsink with a fan, controlled over IRC Tramp. FT Systems quotes measured RF output of 3400-3890 mW across the range rather than one figure, because the amplifier does not deliver the same power at every frequency - the 4000 mW here is the nominal top setting. No weight: the product page says 30 g and the maker's manual 25.85 g for the same 53x28.85x16 mm body, so the two maker sources disagree one against one. Outside the 5.8 GHz band this is not a licence-free link in most countries; check local rules before transmitting. FT prints the connector as 'SMA female'; the column holds one spelling per connector."
+  },
+  {
+   "type": "vtx",
+   "brand": "FT Systems",
+   "model": "FT VTX 3.3GHz 4W 16CH",
+   "slug": "ft-systems-ft-vtx-3-3ghz-4w-16ch",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 4000,
+    "frequency_range": "3170-3470 MHz",
+    "power_levels_mw": "0 (pit) / 25 / 2000 / 4000",
+    "input_voltage": "7-36V (2-8S)",
+    "mount_mm": "20x20mm",
+    "channels": 16,
+    "antenna_connector": "SMA"
+   },
+   "sources": [
+    "https://ft.systems/en/video-transmitter-vtx-ft-3-3/",
+    "https://ft.systems/wp-content/uploads/2025/08/FT_VTX_3.3-GHZ.pdf"
+   ],
+   "note": "Ukrainian-made transmitter: 16 channels (two bands) over 3170-3470 MHz, an aluminium heatsink with a fan, controlled over IRC Tramp. FT Systems quotes measured RF output of 4090-4480 mW across the range rather than one figure, because the amplifier does not deliver the same power at every frequency - the 4000 mW here is the nominal top setting. No weight: the product page says 30 g and the maker's manual 25.85 g for the same 53x28.85x16 mm body, so the two maker sources disagree one against one. Outside the 5.8 GHz band this is not a licence-free link in most countries; check local rules before transmitting. FT prints the connector as 'SMA female'; the column holds one spelling per connector."
+  },
+  {
+   "type": "vtx",
+   "brand": "FT Systems",
    "model": "FT VTX 4.8-7.2GHz 4W 176CH",
    "slug": "ft-systems-ft-vtx-4-8-7-2ghz-4w-176ch",
    "specs": {
@@ -1393,6 +1456,48 @@
     "https://ft.systems/en/video-transmitter-vtx-ft-5-8/"
    ],
    "note": "Ukrainian-made transmitter, 96 channels across 12 bands covering 4867-5945 MHz. 53x28.85x16 mm with an aluminium heatsink and a cooling fan; controlled over IRC Tramp from the flight controller. FT Systems quotes measured RF output of 2200-5080 mW across the range rather than a single figure, because a wideband amplifier does not deliver the same power at every frequency - the 4000 mW here is the nominal setting. FT Systems prints the connector as 'SMA female'; the column holds one spelling per connector, and the gender of the socket is not a different connector - every VTX SMA jack in this catalogue is the female one."
+  },
+  {
+   "type": "vtx",
+   "brand": "FT Systems",
+   "model": "FT VTX 7.0-8.5GHz 5W 80CH",
+   "slug": "ft-systems-ft-vtx-7-0-8-5ghz-5w-80ch",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 5000,
+    "frequency_range": "7060-8500 MHz",
+    "power_levels_mw": "0 (pit) / 500 / 2500 / 5000",
+    "input_voltage": "15-36V (4-8S)",
+    "mount_mm": "20x20mm",
+    "channels": 80,
+    "antenna_connector": "SMA"
+   },
+   "sources": [
+    "https://ft.systems/en/video-transmitter-ft-7-0-8-5/",
+    "https://ft.systems/wp-content/uploads/2026/09/FT_VTX_7.0_8.5GHz_5W.pdf"
+   ],
+   "note": "Ukrainian-made transmitter: 80 channels (ten bands of eight) over 7060-8500 MHz, an aluminium heatsink with a fan, controlled over IRC Tramp. FT Systems quotes measured RF output of 3920-8010 mW across the range rather than one figure, because the amplifier does not deliver the same power at every frequency - the 5000 mW here is the nominal top setting. No weight: the product page says 50 g and the maker's manual 56 g (the page gives 64.13x37.2x17.2 mm, the manual 64.13x37.4x18.8 mm), so the two maker sources disagree one against one. Outside the 5.8 GHz band this is not a licence-free link in most countries; check local rules before transmitting. FT prints the connector as 'SMA female'; the column holds one spelling per connector."
+  },
+  {
+   "type": "vtx",
+   "brand": "FT Systems",
+   "model": "FT VTX 7.2GHz 5W 64CH",
+   "slug": "ft-systems-ft-vtx-7-2ghz-5w-64ch",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 5000,
+    "frequency_range": "6110-7210 MHz",
+    "power_levels_mw": "0 (pit) / 25 / 2500 / 5000",
+    "input_voltage": "12-36V (3-8S)",
+    "mount_mm": "20x20mm",
+    "channels": 64,
+    "antenna_connector": "SMA"
+   },
+   "sources": [
+    "https://ft.systems/en/video-transmitter-vtx-ft-7-2/",
+    "https://ft.systems/wp-content/uploads/2025/08/FT_VTX_7.2-MHZ-5W.pdf"
+   ],
+   "note": "Ukrainian-made transmitter: 64 channels (eight bands) over 6110-7210 MHz, an aluminium heatsink with a fan, controlled over IRC Tramp. FT Systems quotes measured RF output of 4400-6000 mW across the range rather than one figure, because the amplifier does not deliver the same power at every frequency - the 5000 mW here is the nominal top setting. No weight: the product page says 50 g and the maker's manual 56 g for the same 64.13x37.2x17.2 mm body, so the two maker sources disagree one against one. Outside the 5.8 GHz band this is not a licence-free link in most countries; check local rules before transmitting. FT prints the connector as 'SMA female'; the column holds one spelling per connector."
   },
   {
    "type": "vtx",
