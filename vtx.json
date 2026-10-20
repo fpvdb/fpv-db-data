@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-20",
- "count": 159,
+ "count": 161,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -1074,6 +1074,27 @@
   {
    "type": "vtx",
    "brand": "Foxeer",
+   "model": "Reaper 3.3GHz 10W",
+   "slug": "foxeer-reaper-3-3ghz-10w",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 10000,
+    "power_levels_mw": "1000 / 2500 / 5000 / 7500 / 10000",
+    "frequency_range": "3.17-3.63 GHz",
+    "input_voltage": "10-36V",
+    "mount_mm": "20x20mm M2",
+    "channels": 40,
+    "weight_g": 48.0,
+    "power_draw": "4.5 A at 10 V, 2.0 A at 20 V (10 W output)"
+   },
+   "sources": [
+    "https://www.foxeer.com/foxeer-reaper-3-3g-10w-40ch-vtx-tramp-g-629"
+   ],
+   "note": "Foxeer's own spec table (SKU MR1883, 'Name: Reaper 3.3G 10W VTx'), read 2026-10-20: 10~36V in, 5V out, Tramp control, 40CH, 1W/2.5W/5W/7.5W/10W, PIT by double-click, fan, 'Mounting Hole: 2 Groups/20*20mm M2 2.5mm depth' (two 20x20 groups), 48 g, 66*37*16 mm, 'Consumption: 10V/4.5A & 20V/2.0A'. The table names no antenna connector, so that field is empty. frequency_range is the span of the page's own channel table - five bands of eight from 3170 MHz (band E ch1) to 3630 MHz (band C ch8), the same grid as the Reaper 3.3G 4W - rather than the '3.3G' of the title. power_draw is the VTX's input draw, not its RF output. A 3.3 GHz link needs a licence in most countries; check local rules before transmitting."
+  },
+  {
+   "type": "vtx",
+   "brand": "Foxeer",
    "model": "Reaper 3.3GHz 4W",
    "slug": "foxeer-reaper-3-3ghz-4w",
    "specs": {
@@ -1269,6 +1290,28 @@
     "https://www.foxeer.com/x-g-588"
    ],
    "note": "Long-range transmitter: 66x37x16 mm, 48 g, 5 V output for the camera. The V2 widens the original 5.8 GHz 40-channel model to 4.9-6.0 GHz and 80 channels. Corrected 2026-09-23 against Foxeer's own spec table (SKU MR1839): weight_g was 58 g and is 48 g, and the '41x20x17 mm' in the note above was wrong too - the module is 66*37*16 mm. 58 g and 72*41*17 mm are the figures for the *original* 40-channel 5.8 GHz Infinity, which has its own page here, so the retail listings this page was built from were partly describing that part. The rest of the table confirms what was already published: 9~36V in, 5V out, 80CH, 1W/2W/3W/4W/5W, SMA, GH1.25 6P control cable, 2.3 A at 10 V. mount_mm (20*20mm M2 with 2.5 mm depth) is new from the same table. power_draw is the maker's own supply figure, 'Consumption: 10V/2.3A, 5W' (page titled 'Foxeer 4.9G~6G Reaper Infinity V2 5W 80CH VTx'), read 2026-10-17; it is the VTX's input draw, not its RF output."
+  },
+  {
+   "type": "vtx",
+   "brand": "Foxeer",
+   "model": "Reaper Infinity V3 4.9-6.0GHz 5W",
+   "slug": "foxeer-reaper-infinity-v3-4-9-6-0ghz-5w",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 5000,
+    "power_levels_mw": "1000 / 2000 / 3000 / 4000 / 5000",
+    "frequency_range": "4990-5945 MHz",
+    "input_voltage": "9-36V",
+    "mount_mm": "20x20mm M2",
+    "channels": 80,
+    "antenna_connector": "SMA",
+    "weight_g": 35.7,
+    "power_draw": "1.9 A at 10 V (5 W output)"
+   },
+   "sources": [
+    "https://www.foxeer.com/foxeer-4-9g-6g-reaper-infinity-v3-5w-80ch-vtx-g-628"
+   ],
+   "note": "Foxeer's own spec table (SKU MR1882, page titled 'Foxeer 4.9G~6G Reaper Infinity V3 5W 80CH VTx', whose 'Name' row reads 'Reaper Infinity 5W'), read 2026-10-20: 9~36V in, output voltage 'NC' (no camera supply), 80CH, Tramp control, fan, 1W/2W/3W/4W/5W, PIT by double-click, 35.7 g, 50*34*14.5 mm, 'Mounting Hole: 20*20mm M2 with 2.5mm depth', SMA, GH1.25 6P control cable, 'Consumption: 10V/1.9A, 5W'. A smaller and lighter body than the V2 5W (66*37*16 mm, 48 g), which has its own page. frequency_range is the span of the page's own channel table - ten bands of eight (A B E F R H L U O X) from 4990 MHz (band X ch1) to 5945 MHz (band E ch8) - rather than the '4.9G~6G' of the title. Foxeer notes Betaflight takes at most 64 channels, so two bands must be dropped from a VTX table. power_draw is the VTX's input draw, not its RF output. 4.9 GHz and the upper 5.9 GHz channels are outside the licence-free 5.8 GHz band in most countries - check local rules before transmitting."
   },
   {
    "type": "vtx",
