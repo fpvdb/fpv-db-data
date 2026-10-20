@@ -21821,7 +21821,7 @@
     "recommended_props": "5\"-5.5\"",
     "price_usd": 23.99,
     "dimensions_mm": "26.9x33",
-    "resistance_mohm": "42",
+    "resistance_mohm": "72 (1800KV) / 54 (2100KV) / 42 (2500KV)",
     "max_thrust_g": 2220,
     "thrust_conditions": "6S, HQ 5x4.8x3, 100% throttle, 2100KV; manufacturer payload test at fixed thrust points (300/500/700 g) plus max; 2500KV tested on 4S",
     "thrust_table": [
@@ -22657,7 +22657,11 @@
       "prop_key": "Gemfan 5045",
       "prop_blades": 3
      }
-    ]
+    ],
+    "weight_kv": 1800,
+    "weight_excludes": "cable",
+    "configuration": "12N14P",
+    "mount_bolt_circle_mm": "Ø16 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -22666,7 +22670,8 @@
     "https://www.racedayquads.com/products/emax-rsiii-series-2207-1800kv-motor-1",
     "https://www.racedayquads.com/products/emax-rsiii-series-2207-2500kv-motor-1",
     "https://shop.emaxmodel.com/products/emax-rsiii-2207-fpv-racing-motor"
-   ]
+   ],
+   "note": "Weight, body, winding and resistance from EMAX's own Specifications sheet (RSIII2207.png) on the maker's product page, read at full size 2026-10-20: one block per winding, each 12N14P, Φ26.9*33mm, 4 mm bearing shaft, 20#AWG 120 mm lead, internal resistance 72 / 54 / 42 mΩ (1800/2100/2500 KV), weight 29.3 g at 1800 KV, 29.4 g at 2100 and 2500 KV, every one printed \"(W/O Silicone Wire)\", and the page's infographic repeats the 1800 KV figure \"without wires\". EMAX prints no weight with the cable, so weight_g keeps the maker's first-listed winding's figure, named on the page as cable excluded, rather than a with-cable figure nobody publishes; the retail listings' 29.3 / 29.4 g split is the three windings, not a disagreement. The drawing gives a Φ16 4-M3 bolt circle (mount_bolt_circle_mm) and an M5 prop thread."
   },
   {
    "type": "motor",
@@ -23571,7 +23576,13 @@
       "prop_key": "Gemfan 5045",
       "prop_blades": 3
      }
-    ]
+    ],
+    "weight_kv": 1800,
+    "weight_excludes": "cable",
+    "configuration": "12N14P",
+    "resistance_mohm": "68 (1800KV) / 57 (2100KV) / 43 (2500KV)",
+    "dimensions_mm": "27.3x32",
+    "mount_bolt_circle_mm": "Ø16 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -23579,7 +23590,8 @@
     "https://www.racedayquads.com/products/emax-rsiii-series-2306-2100kv-motor",
     "https://www.racedayquads.com/products/emax-rsiii-series-2306-2500kv-motor",
     "https://shop.emaxmodel.com/products/emax-rsiii-2306-fpv-racing-motor"
-   ]
+   ],
+   "note": "Weight, body, winding and resistance from EMAX's own Specifications sheet (RSIII2306.png) on the maker's product page, read at full size 2026-10-20: one block per winding, each 12N14P, Φ27.3*32mm, 4 mm bearing shaft, 20#AWG 120 mm lead, internal resistance 68 / 57 / 43 mΩ (1800/2100/2500 KV), weight 27.9 g at 1800 KV, 27.8 g at 2100 KV, 27.7 g at 2500 KV, every one printed \"(W/O Silicone Wire)\", and the page's infographic repeats the 1800 KV figure \"without wires\". EMAX prints no weight with the cable, so weight_g keeps the maker's first-listed winding's figure, named on the page as cable excluded, rather than a with-cable figure nobody publishes; the retail listings' 27.9 / 27.8 / 27.7 g split is the three windings, not a disagreement. The drawing gives a Φ16 4-M3 bolt circle (mount_bolt_circle_mm) and an M5 prop thread."
   },
   {
    "type": "motor",
