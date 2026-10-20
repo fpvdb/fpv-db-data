@@ -1229,12 +1229,13 @@
      "chemistry": "LiPo"
     },
     "camera": "Flywoo 1.2g 1S Nano camera V2",
-    "flight_controller": "GOKU Versatile F405 2S 12A AIO"
+    "flight_controller": "GOKU Versatile F405 2S 12A AIO",
+    "receiver_options": "Built-in ELRS 2.4G"
    },
    "sources": [
     "https://www.getfpv.com/flywoo-firefly-nano-baby-20-2s-micro-quadcopter-bnf-analog.html"
    ],
-   "note": "Battery range/connector are class-standard values, not confirmed by Flywoo spec table. camera, flight_controller read 2026-10-17 off the cited GetFPV listing's spec block."
+   "note": "Battery range/connector are class-standard values, not confirmed by Flywoo spec table. camera, flight_controller read 2026-10-17 off the cited GetFPV listing's spec block. receiver_options read 2026-10-20 off the same listing's features (\"GOKU Versatile F405 2S 12A AIO. Built-in ELRS 2.4g RX\"; no other receiver offered). prop_mount left empty: the listing prints only the motor's \"Shaft Diameter: Φ 1.5mm\", not the props' hub."
   },
   {
    "type": "quad",
@@ -2245,13 +2246,14 @@
      "chemistry": "LiPo (25C)"
     },
     "wheelbase_mm": 81,
-    "flight_controller": "Defender 16/20 F411 AIO"
+    "flight_controller": "Defender 16/20 F411 AIO",
+    "receiver_options": "ELRS 2.4GHz or DJI BNF"
    },
    "sources": [
     "https://www.getfpv.com/iflight-defender-16-1-6-sub250-drone-hd-w-dji-o3-2s.html",
     "https://shop.iflight.com/Defender-16-Motor-Pro2018"
    ],
-   "note": "Dry weight derived: 120g takeoff minus 48.5g pack. Proprietary crash-protected battery shell. wheelbase_mm, flight_controller read 2026-10-17 off the cited GetFPV listing's spec block. Motor: iFlight's own Defender 16 Motor page says 'March 5, 2024 : Defender 16 motor upgraded from 1002 14000KV motor to 1103 14000KV motor'; the GetFPV listing still prints the 1002 and a 128g takeoff weight."
+   "note": "Dry weight derived: 120g takeoff minus 48.5g pack. Proprietary crash-protected battery shell. wheelbase_mm, flight_controller read 2026-10-17 off the cited GetFPV listing's spec block. Motor: iFlight's own Defender 16 Motor page says 'March 5, 2024 : Defender 16 motor upgraded from 1002 14000KV motor to 1103 14000KV motor'; the GetFPV listing still prints the 1002 and a 128g takeoff weight. receiver_options read 2026-10-20 off the same listing's \"Choose your Receiver: ELRS 2.4GHz / DJI BNF\"."
   },
   {
    "type": "quad",
