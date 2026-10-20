@@ -2647,12 +2647,14 @@
     "frequency_range": "1.08-1.36 GHz",
     "channels": 9,
     "antenna_connector": "U.FL",
-    "power_draw": "230-500 mA at 12 V"
+    "power_draw": "230-500 mA at 12 V",
+    "input_voltage": "7-30V (3-6S)",
+    "weight_g": 10.3
    },
    "sources": [
     "https://rushfpv.net/products/1-6w-1-3g"
    ],
-   "note": "A bare board, not a cased brick. Its silkscreen prints nine channels - 1080, 1120, 1160, 1200, 1240, 1258, 1280, 1320 and 1360 MHz - and a power level that sweeps PIT to 1600 mW rather than stepping through named levels, so power_levels stays empty while the maximum does not. U.FL (IPEX) antenna socket; six-pin VIDEO / GND / 5V / DATA / GND / DC-IN harness. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder. power_draw is the maker's own supply figure, 'Power Consumption: 230mA - 500mA @12V' on Rush's sheet '1.3GHz analog video transmitter module' (V1.2; image 1G3-1600_V12.jpg), read 2026-10-20 at native resolution off the listing's image (Shopify CDN through common.UA, listed by scraper/propose_vtx_power_draw.py --images); the sheet does not say which power level each end is; it is the VTX's input draw, not its RF output."
+   "note": "A bare board, not a cased brick. Its silkscreen (the listing's gallery photo 20240109112957.jpg) prints nine channels - 1080, 1120, 1160, 1200, 1240, 1258, 1280, 1320 and 1360 MHz - and 'PIT <-> 1600 PWR LEVEL' rather than named levels, and the maker's Betaflight table (1G3_1W6_VTX_new_version_.json) carries the same nine channels; channels follows those two. Rush's current sheet '1.3GHz analog video transmitter module' (V1.2; image 1G3-1600_V12.jpg in the listing body, read 2026-10-20 at native resolution) disagrees on both: 'Channel Frequency CH1-1080 CH2-1120 CH3-1160 CH4-1200 CH5-1240 CH6-1280 CH7-1320 CH8-1360' (no 1258) and 'Transmit Power 14dB (25mW) 23dB (200mW) 29dB (800mW) 32dB (1600mW)', with a board drawing that prints the same eight channels and P / 25 / 200 / 800 / 1600, while the Betaflight table's ladder is 200 / 500 / 800 / MAX. Three maker statements, apparently two board revisions; power_levels stays empty until it is known which one is sold. Band (1080-1360 MHz) and the 1600 mW maximum agree everywhere. input_voltage and weight_g are the V1.2 sheet's own, contradicted by nothing: 'Input Voltage DC 7-30V (3-6S Lipo)', 'Weight 10.3g (VTX)' ('Dimension 36mm x 22mm x 9mm'). U.FL (IPEX) antenna socket; six-pin VIDEO / GND / 5V / DATA / GND / DC-IN harness; the sheet sets it up through the DATA pin with the 'IRC Trump protocol'. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder. power_draw is the maker's own supply figure, 'Power Consumption: 230mA - 500mA @12V' on Rush's sheet '1.3GHz analog video transmitter module' (V1.2; image 1G3-1600_V12.jpg), read 2026-10-20 at native resolution off the listing's image (Shopify CDN through common.UA, listed by scraper/propose_vtx_power_draw.py --images); the sheet does not say which power level each end is; it is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
