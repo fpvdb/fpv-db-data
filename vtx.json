@@ -3333,7 +3333,7 @@
     "system": "analog",
     "max_power_mw": 2500,
     "power_levels_mw": "25 / 800 / 1600 / 2500",
-    "frequency_range": "6.2 GHz",
+    "frequency_range": "4990-6184 MHz",
     "channels": 64,
     "input_voltage": "9-26V",
     "mount_mm": "30.5x30.5mm",
@@ -3342,9 +3342,10 @@
     "price_usd": 56.5
    },
    "sources": [
-    "https://www.skyzonefpv.com/products/skyzone-tx2501-cnc-6-2g-2-5w-64ch-vtx"
+    "https://www.skyzonefpv.com/products/skyzone-tx2501-cnc-6-2g-2-5w-64ch-vtx",
+    "https://cdn.shopify.com/s/files/1/0597/9668/4956/files/TX2501CNC-S.jpg"
    ],
-   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. The only transmitter of this brand's line with a labelled specification block in text: Model TX2501 CNC 6.2G 2.5W VTX, Power Levels 25mW/800mW/1600mW/2500mW (Peak up to 3.5W), Input Voltage 9V-26V (Supports 3S-6S LiPo), Output Voltage 5V Out for Camera, Antenna Interface MMCX, Control Protocol IRC Tramp / Button Control, Mounting Pattern 30.5 x 30.5 mm M3, Dimensions 38.8 x 38.6 x 22.5 mm, Weight 27.5g. max_power_mw holds 2500, the top of the enumerated step list; the block's 'Peak up to 3.5W' and the prose's '3.0W ~ 3.5W under optimal conditions' are a headroom claim and not a selectable level, and the model's own name says 2.5W. The 64 channels are the block's '8 bands (A, B, E, F, R, L, X, S)' of 8; the brand prints no MHz edges for them, so frequency_range holds the 6.2 GHz label its title carries."
+   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. The only transmitter of this brand's line with a labelled specification block in text: Model TX2501 CNC 6.2G 2.5W VTX, Power Levels 25mW/800mW/1600mW/2500mW (Peak up to 3.5W), Input Voltage 9V-26V (Supports 3S-6S LiPo), Output Voltage 5V Out for Camera, Antenna Interface MMCX, Control Protocol IRC Tramp / Button Control, Mounting Pattern 30.5 x 30.5 mm M3, Dimensions 38.8 x 38.6 x 22.5 mm, Weight 27.5g. max_power_mw holds 2500, the top of the enumerated step list; the block's 'Peak up to 3.5W' and the prose's '3.0W ~ 3.5W under optimal conditions' are a headroom claim and not a selectable level, and the model's own name says 2.5W. The 64 channels are the block's '8 bands (A, B, E, F, R, L, X, S)' of 8; frequency_range is 4990-6184 MHz from the part's own spec sheet in the same gallery (TX2501CNC-S.jpg, 1000x2000, titled 'TX2501 CNC 6.2G 2.5W VTX', re-read 2026-10-20, 225th burst): its frequency table prints those 8 bands of 8 - A to X the 5.8G TX2501's cells, S 6002-6184M in 26 MHz steps - and the same 25/800/1600/2500mW, 9~26V, mmcx, 30.5*30.5*M3 and 27.5g as the text block. Until then the field held the 6.2 GHz label of its title."
   },
   {
    "type": "vtx",
@@ -3373,14 +3374,20 @@
    "specs": {
     "system": "analog",
     "max_power_mw": 5000,
-    "frequency_range": "4.9-6.2 GHz",
-    "price_usd": 56.5
+    "frequency_range": "4990-6184 MHz",
+    "price_usd": 56.5,
+    "channels": 64,
+    "input_voltage": "9-36V",
+    "mount_mm": "30.5x30.5mm",
+    "antenna_connector": "MMCX",
+    "weight_g": 40
    },
    "sources": [
     "https://www.skyzonefpv.com/products/skyzone-vt5850-cnc-6-2g-vtx",
-    "https://atomrc.com/products/skyzone-vt5850-cnc-6-2g-5w-vtx"
+    "https://atomrc.com/products/skyzone-vt5850-cnc-6-2g-5w-vtx",
+    "https://cdn.shopify.com/s/files/1/0597/9668/4956/files/VT5850_CNC_6.2G_VTX_251031EN.jpg"
    ],
-   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. A prose page with no spec block: the brand's only model-specific statement is its own name for the part, identical on both shops - title 'SKYZONE VT5850 CNC 6.2G 5W VTX' over a description opening 'The SKYZONE VT5850 4.9G/6.2G 5W VTX With CNC Case and Fan' - which is where the 5 W and the band edges come from. **Its photographs are another model's**: every one of the six shows a case silkscreened 'Tx2501 CNC 5.8G 2.5W VTX' beside a '9-26V / GND / 5VOUT / GND / VTX / IRC' pinout, read at full resolution, and one of them carries the TX2501 CNC's 38.8 x 38.6 x 22.5 mm dimension annotation. Nothing was taken from them - a 2.5 W 5.8G case on a 5 W 6.2G page describes the other product - so weight, mount, input voltage, connector and the step list are all empty here."
+   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. A prose page with no spec block: the brand's only model-specific statement is its own name for the part, identical on both shops - title 'SKYZONE VT5850 CNC 6.2G 5W VTX' over a description opening 'The SKYZONE VT5850 4.9G/6.2G 5W VTX With CNC Case and Fan' - which is where the 5 W and the band edges come from. **Its photographs are another model's**: every one of the six shows a case silkscreened 'Tx2501 CNC 5.8G 2.5W VTX' beside a '9-26V / GND / 5VOUT / GND / VTX / IRC' pinout, read at full resolution, and one of them carries the TX2501 CNC's 38.8 x 38.6 x 22.5 mm dimension annotation. Nothing was taken from those photographs - a 2.5 W 5.8G case on a 5 W 6.2G page describes the other product. Re-read 2026-10-20 (225th burst): the skyzonefpv.com gallery now opens with the part's own one-page spec sheet, titled 'VT5850 CNC 6.2G VTX' (VT5850_CNC_6.2G_VTX_251031EN.jpg, 1000x2098, read at full resolution). Its frequency table is 8 bands A B E F R L X S of 8 - A to X the TX2501's 56 cells, S 6002/6028/6054/6080/6106/6132/6158/6184M - so channels 64 and frequency_range 4990-6184 MHz, the edges of that grid in the sheet's unit; a second gallery image (VT5850.png), the maker's measured output per frequency, runs over the same 4990-6184 axis. The sheet also prints Antenna port mmcx, Input voltage 9~36V, Protocol IRC / Button control with LED segment display, Mounting 30.5*30.5*M3, size 38.8*38.6*22.5mm and weight 40g, and its wiring diagram's rail reads IRC / VTX / GND / 5V OUT / GND / 9-36V - a 9-36V rail and 40 g where the TX2501 CNC prints 9-26V and 27.5 g, so this is the VT5850's own sheet and not the shared photographs. Its Power row states only tolerances ('Low power ±2dBm, Max power ±0.8dBm'), so power_levels_mw stays empty and max_power_mw keeps the 5 W of the part's name."
   },
   {
    "type": "vtx",
@@ -3391,13 +3398,18 @@
     "system": "analog",
     "max_power_mw": 4000,
     "frequency_range": "6.0-6.6 GHz",
-    "price_usd": 53.0
+    "price_usd": 53.0,
+    "input_voltage": "9-36V",
+    "mount_mm": "30.5x30.5mm",
+    "antenna_connector": "MMCX",
+    "weight_g": 40
    },
    "sources": [
     "https://www.skyzonefpv.com/products/skyzone-vt6550-cnc-6-5g-vtx",
-    "https://atomrc.com/products/skyzone-vt6550-cnc-6-5g-4w-vtx-1"
+    "https://atomrc.com/products/skyzone-vt6550-cnc-6-5g-4w-vtx-1",
+    "https://cdn.shopify.com/s/files/1/0597/9668/4956/files/VT6550_CNC_6.5G_VTX_251031EN.jpg"
    ],
-   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. The second of the three prose VT pages: title 'SKYZONE VT6550 CNC 6.5G 4W VTX' over 'SKYZONE VT6550 6.0G/6.6G 4W VTX With CNC Case and Fan', the same two sentences on both shops, and that is the whole of what the brand states. Its photographs are the TX2501 CNC 5.8G's as well - the silkscreen 'Tx2501 CNC 5.8G 2.5W VTX' is legible at full resolution on the atomrc.com set - and the one top-down shot that looks like a label is the RF shield can, blank. Nothing taken from the images."
+   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. The second of the three prose VT pages: title 'SKYZONE VT6550 CNC 6.5G 4W VTX' over 'SKYZONE VT6550 6.0G/6.6G 4W VTX With CNC Case and Fan', the same two sentences on both shops, and that is the whole of what the brand states. Its photographs are the TX2501 CNC 5.8G's as well - the silkscreen 'Tx2501 CNC 5.8G 2.5W VTX' is legible at full resolution on the atomrc.com set - and the one top-down shot that looks like a label is the RF shield can, blank. Nothing taken from the images. Re-read 2026-10-20 (225th burst): the skyzonefpv.com gallery now opens with the part's own one-page spec sheet, titled 'VT6550 CNC 6.5G VTX' (VT6550_CNC_6.5G_VTX_251031EN.jpg, 987x2099, read at full resolution), which prints Antenna port mmcx, Input voltage 9~36V, Protocol IRC / Button control with LED segment display, Mounting 30.5*30.5*M3, size 38.8*38.6*22.5mm and weight 40g (wiring rail IRC / VTX / GND / 5V OUT / GND / 9-36V); those four fields are filled from it. Its frequency table shows bands S 6002-6184, U 6200-6340, C 6360-6500 and H 6520-6660 MHz, but the column rules run on below H's bottom border, so a further row may be cropped off the graphic: channels stays empty and frequency_range keeps the 6.0-6.6 GHz of the maker's own words rather than an edge the crop could hide. Power row: tolerances only ('Low power ±2dBm, Max power ±1.5dBm'), so power_levels_mw stays empty."
   },
   {
    "type": "vtx",
