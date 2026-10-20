@@ -141,14 +141,18 @@
     "system": "analog",
     "max_power_mw": 1600,
     "power_levels_mw": "200 / 800 / 1600",
-    "frequency_range": "1.2 GHz",
+    "frequency_range": "1080-1360 MHz",
     "input_voltage": "7-26V",
-    "price_usd": 55.0
+    "price_usd": 55.0,
+    "channels": 9,
+    "mount_mm": "30.5x30.5mm M3",
+    "weight_g": 10.0
    },
    "sources": [
-    "https://www.skyzonefpv.com/products/atomrc-1-2g-1-6w-led-video-transmitter"
+    "https://www.skyzonefpv.com/products/atomrc-1-2g-1-6w-led-video-transmitter",
+    "https://cdn.shopify.com/s/files/1/0597/9668/4956/files/1.2G1.6Wvtx_table.jpg"
    ],
-   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. Titled 'ATOMRC 1.2G 1.6W LED Video Transmitter' and sold without a model number; its board is silkscreened 'TX1G2_1600 V1.1', read at full resolution, which is the brand's own designation for it. The page's feature list states '1.2G Hz, better range and penetration', '200/800/1600mW adjustable power output', '7-26V Wide Range Voltage input', an LED segment display and Button/IRC control, and nothing else - no channel table, no weight, no mounting pattern, no connector."
+   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. Titled 'ATOMRC 1.2G 1.6W LED Video Transmitter' and sold without a model number; its board is silkscreened 'TX1G2_1600 V1.1', read at full resolution, which is the brand's own designation for it. The page's feature list states '1.2G Hz, better range and penetration', '200/800/1600mW adjustable power output', '7-26V Wide Range Voltage input', an LED segment display and Button/IRC control, and nothing else - no channel table, no weight, no mounting pattern, no connector. Re-read 2026-10-20 (burst 227): the description embeds one long image, 1.2G1.6Wvtx_table.jpg (1000x11045, read in full-resolution bands), that the 09-25 read did not open. Its 'Frequency Table' prints one row of nine channels, CH1-CH8 1080/1120/1160/1200/1240/1280/1320/1360M and CH9 1258M, so channels 9 and frequency_range 1080-1360 MHz. Its Specification table prints Input voltage '7~26V' (as the text), Mounting holes '30.5*30.5 M3', Weight '10g' and Size '36*36mm'. The same table's Power row reads '200mw/800mw/1200mw', against the title's 1.6W, the feature list's '200/800/1600mW', the image's own '200mW / 800mW / 1600mW' segment-display legend and its spectrum capture (1.884 W at 1360 MHz): four statements against one, so max_power_mw and power_levels_mw keep 1600 and that row is treated as a copy of the TX1200's (whose steps are 200/800/1200). The 'Frequency' row of that table prints '9', the channel count. The board photos show an MMCX jack and the packing list an MMCX-to-SMA pigtail, but no line states the connector, so antenna_connector stays empty."
   },
   {
    "type": "vtx",
@@ -3357,14 +3361,20 @@
     "max_power_mw": 2500,
     "frequency_range": "960-1400 MHz",
     "channels": 16,
-    "price_usd": 53.0
+    "price_usd": 53.0,
+    "power_levels_mw": "25 / 800 / 1600 / 2500",
+    "input_voltage": "9-26V",
+    "mount_mm": "30.5x30.5mm",
+    "antenna_connector": "MMCX",
+    "weight_g": 27.5
    },
    "sources": [
     "https://www.skyzonefpv.com/products/skyzone-vt1225-cnc-vtx",
     "https://atomrc.com/products/skyzone-vt1225-cnc-vtx",
-    "https://cdn.shopify.com/s/files/1/0597/9668/4956/files/BTFL_vtxtable_20240621_VT1225.json"
+    "https://cdn.shopify.com/s/files/1/0597/9668/4956/files/BTFL_vtxtable_20240621_VT1225.json",
+    "https://cdn.shopify.com/s/files/1/0597/9668/4956/files/VT1225_1.jpg"
    ],
-   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. The page is its title and one sentence - 'SKYZONE VT1225 1.2G 2.5W VTX With CNC Case and Fan' - and its images are renders. max_power_mw is the 2.5W the brand names the part with, on both of its shops. The channel count and the band edges come from the brand's own Betaflight VTX table for this model, linked from /pages/download as 'VT1225 VTX table': two bands of eight, SKYZONEA 1080/1120/1160/1200/1240/1280/1320/1360 MHz and SKYZONEB 960/980/1000/1020/1040/1258/1380/1400 MHz. That file's power labels ('25 ', '800', 'HIG', 'MAX') are Betaflight's three-character display strings, not figures, so power_levels_mw is empty. The brand states no weight, input voltage, mounting pattern or antenna connector for it."
+   "note": "Read 2026-09-25 off the brand's own shop, the fifteenth VTX manufacturer catalogue read beside the US retail scrape. www.skyzonefpv.com and atomrc.com are two Shopify stores of one company: /products.json?limit=250 is the whole catalogue in one request on each, the two shops carry the same product_type taxonomy and each lists the other brand's transmitters, and the boards are silkscreened with the brand whose name is on the case rather than the one in the page title. The page is its title and one sentence - 'SKYZONE VT1225 1.2G 2.5W VTX With CNC Case and Fan' - and its images are renders. max_power_mw is the 2.5W the brand names the part with, on both of its shops. The channel count and the band edges come from the brand's own Betaflight VTX table for this model, linked from /pages/download as 'VT1225 VTX table': two bands of eight, SKYZONEA 1080/1120/1160/1200/1240/1280/1320/1360 MHz and SKYZONEB 960/980/1000/1020/1040/1258/1380/1400 MHz. That file's power labels ('25 ', '800', 'HIG', 'MAX') are Betaflight's three-character display strings, not figures,. Re-read 2026-10-20 (burst 227): the product page's description now carries one spec sheet, VT1225_1.jpg (1000x2000, read at full resolution), headed 'VT1225 CNC VTX'. Its frequency table prints the same two bands of eight as the Betaflight file, cell for cell, and its rows give Power '25mW、800mW、1600mW、2500mW' (power_levels_mw), Antenna port 'mmcx', Input voltage '9~26V', mounting '30.5*30.5*M3', size '38.8*38.6*21mm' and weight '27.5g'. The 9-26V rail, 30.5 mounting and 27.5 g are also what Skyzone's TX2501 CNC sheet prints for that case; this sheet carries the VT1225's own 1.2 GHz table, so it is this model's sheet and not a copy of the 5.8 GHz one."
   },
   {
    "type": "vtx",
