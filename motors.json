@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20",
+ "generated": "2026-10-21",
  "count": 199,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
@@ -30867,12 +30867,137 @@
     "weight_g": 1.9,
     "max_cells": "1S",
     "configuration": "9N12P",
-    "price_usd": 11.99
+    "price_usd": 11.99,
+    "max_thrust_g": 33.9,
+    "thrust_conditions": "Happymodel bench, 19000 KV on a 55 mm 2-blade at 3.7-3.8 V and a 31 mm 4-blade at 4.2 V (1S); current steps 1.05-4.25 A, throttle not published",
+    "thrust_table": [
+     {
+      "kv": 19000,
+      "prop": "55mm 2-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.8,
+      "current_a": 1.05,
+      "rpm": null,
+      "thrust_g": 11.9,
+      "efficiency_gw": 2.982,
+      "prop_key": "55MM",
+      "prop_blades": 2
+     },
+     {
+      "kv": 19000,
+      "prop": "55mm 2-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.8,
+      "current_a": 2.08,
+      "rpm": null,
+      "thrust_g": 20.5,
+      "efficiency_gw": 2.594,
+      "prop_key": "55MM",
+      "prop_blades": 2
+     },
+     {
+      "kv": 19000,
+      "prop": "55mm 2-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.8,
+      "current_a": 3.05,
+      "rpm": null,
+      "thrust_g": 27.1,
+      "efficiency_gw": 2.338,
+      "prop_key": "55MM",
+      "prop_blades": 2
+     },
+     {
+      "kv": 19000,
+      "prop": "55mm 2-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.8,
+      "current_a": 4.11,
+      "rpm": null,
+      "thrust_g": 32.3,
+      "efficiency_gw": 2.068,
+      "prop_key": "55MM",
+      "prop_blades": 2
+     },
+     {
+      "kv": 19000,
+      "prop": "55mm 2-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 3.7,
+      "current_a": 4.25,
+      "rpm": null,
+      "thrust_g": 33.9,
+      "efficiency_gw": 2.156,
+      "prop_key": "55MM",
+      "prop_blades": 2
+     },
+     {
+      "kv": 19000,
+      "prop": "31mm 4-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 1.18,
+      "rpm": null,
+      "thrust_g": 11.4,
+      "efficiency_gw": 2.3,
+      "prop_key": "31MM",
+      "prop_blades": 4
+     },
+     {
+      "kv": 19000,
+      "prop": "31mm 4-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 1.97,
+      "rpm": null,
+      "thrust_g": 16.7,
+      "efficiency_gw": 2.018,
+      "prop_key": "31MM",
+      "prop_blades": 4
+     },
+     {
+      "kv": 19000,
+      "prop": "31mm 4-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 3.15,
+      "rpm": null,
+      "thrust_g": 23.9,
+      "efficiency_gw": 1.807,
+      "prop_key": "31MM",
+      "prop_blades": 4
+     },
+     {
+      "kv": 19000,
+      "prop": "31mm 4-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 3.42,
+      "rpm": null,
+      "thrust_g": 24.6,
+      "efficiency_gw": 1.713,
+      "prop_key": "31MM",
+      "prop_blades": 4
+     }
+    ],
+    "shaft": "1mm",
+    "dimensions_mm": "Ø10.5x14.9"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
-    "https://www.racedayquads.com/products/happymodel-se-0802-19000kv-micro-motor"
-   ]
+    "https://www.racedayquads.com/products/happymodel-se-0802-19000kv-micro-motor",
+    "https://www.happymodel.cn/index.php/2018/08/30/happymodel-se0802-1-2s-16000kv-19000kv-brushless-motor-for-mobula6-7-rc-drone/"
+   ],
+   "note": "The rows are Happymodel's own bench table, an HTML table in the body of its 2018 SE0802 1-2S product post on happymodel.cn (\"Happymodel 0802 Brushless motors benchmark\"), so every figure is the source's own text. The table covers four windings (16000/19000/22000/25000 KV); only the winding this page sells is carried here. It steps CURRENT, not throttle, and prints no per-row RPM, so both columns are empty. Every row's printed power equals Voltage x Current and its printed efficiency equals Thrust / Power. Cell counts are not printed per row: 4.2 V, 3.8 V and 3.7 V runs are filed as 1S, the 7.0 V run as 2S. Prop names are the table's (\"4-blades propeller\" written singular). Happymodel's block for the line: 9N12P, 8x2 mm stator, 1.0 mm shaft, body Ø10.5x14.9 mm, 1-2S, 1.9 g. No-load blocks for 19000 KV: 0.24 A, 28620 RPM at 1.5 V (19080 KV) and 0.3 A, 26460 RPM at 1.5 V (18430 KV); wire length 30 mm. Happymodel rates the SE0802 line 1-2S; our listing says 1S and the page keeps it (every 19000 KV row is a 1S run) - not changed here."
   },
   {
    "type": "motor",
@@ -30889,13 +31014,136 @@
     "shaft": "1mm",
     "configuration": "9N12P",
     "dimensions_mm": "Ø10.5x14.9",
-    "price_usd": 10.99
+    "price_usd": 10.99,
+    "max_thrust_g": 43.1,
+    "thrust_conditions": "Happymodel bench, 16000 KV on a 31 mm 4-blade at 4.2 V (1S) and a 40 mm 4-blade at 7.0 V (2S); current steps 0.96-5.00 A, throttle not published",
+    "thrust_table": [
+     {
+      "kv": 16000,
+      "prop": "31mm 4-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 0.96,
+      "rpm": null,
+      "thrust_g": 8.2,
+      "efficiency_gw": 2.034,
+      "prop_key": "31MM",
+      "prop_blades": 4
+     },
+     {
+      "kv": 16000,
+      "prop": "31mm 4-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 2.05,
+      "rpm": null,
+      "thrust_g": 14.0,
+      "efficiency_gw": 1.626,
+      "prop_key": "31MM",
+      "prop_blades": 4
+     },
+     {
+      "kv": 16000,
+      "prop": "31mm 4-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 3.18,
+      "rpm": null,
+      "thrust_g": 17.4,
+      "efficiency_gw": 1.303,
+      "prop_key": "31MM",
+      "prop_blades": 4
+     },
+     {
+      "kv": 16000,
+      "prop": "31mm 4-blade propeller",
+      "cells": "1S",
+      "throttle": null,
+      "voltage_v": 4.2,
+      "current_a": 3.54,
+      "rpm": null,
+      "thrust_g": 18.1,
+      "efficiency_gw": 1.217,
+      "prop_key": "31MM",
+      "prop_blades": 4
+     },
+     {
+      "kv": 16000,
+      "prop": "40mm 4-blade propeller",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 7.0,
+      "current_a": 1.1,
+      "rpm": null,
+      "thrust_g": 16.2,
+      "efficiency_gw": 2.104,
+      "prop_key": "40MM",
+      "prop_blades": 4
+     },
+     {
+      "kv": 16000,
+      "prop": "40mm 4-blade propeller",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 7.0,
+      "current_a": 2.0,
+      "rpm": null,
+      "thrust_g": 25.3,
+      "efficiency_gw": 1.807,
+      "prop_key": "40MM",
+      "prop_blades": 4
+     },
+     {
+      "kv": 16000,
+      "prop": "40mm 4-blade propeller",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 7.0,
+      "current_a": 3.0,
+      "rpm": null,
+      "thrust_g": 33.1,
+      "efficiency_gw": 1.576,
+      "prop_key": "40MM",
+      "prop_blades": 4
+     },
+     {
+      "kv": 16000,
+      "prop": "40mm 4-blade propeller",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 7.0,
+      "current_a": 4.0,
+      "rpm": null,
+      "thrust_g": 38.5,
+      "efficiency_gw": 1.375,
+      "prop_key": "40MM",
+      "prop_blades": 4
+     },
+     {
+      "kv": 16000,
+      "prop": "40mm 4-blade propeller",
+      "cells": "2S",
+      "throttle": null,
+      "voltage_v": 7.0,
+      "current_a": 5.0,
+      "rpm": null,
+      "thrust_g": 43.1,
+      "efficiency_gw": 1.231,
+      "prop_key": "40MM",
+      "prop_blades": 4
+     }
+    ]
    },
    "_scraped_at": "2026-10-20",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-se0802-16000kv-1-2s-brushless-motor-4-pcs",
-    "https://www.racedayquads.com/products/happymodel-se0802-16000kv-1-2s-whoop-micro-motor-for-mobula7-cw"
-   ]
+    "https://www.racedayquads.com/products/happymodel-se0802-16000kv-1-2s-whoop-micro-motor-for-mobula7-cw",
+    "https://www.happymodel.cn/index.php/2018/08/30/happymodel-se0802-1-2s-16000kv-19000kv-brushless-motor-for-mobula6-7-rc-drone/"
+   ],
+   "note": "The rows are Happymodel's own bench table, an HTML table in the body of its 2018 SE0802 1-2S product post on happymodel.cn (\"Happymodel 0802 Brushless motors benchmark\"), so every figure is the source's own text. The table covers four windings (16000/19000/22000/25000 KV); only the winding this page sells is carried here. It steps CURRENT, not throttle, and prints no per-row RPM, so both columns are empty. Every row's printed power equals Voltage x Current and its printed efficiency equals Thrust / Power. Cell counts are not printed per row: 4.2 V, 3.8 V and 3.7 V runs are filed as 1S, the 7.0 V run as 2S. Prop names are the table's (\"4-blades propeller\" written singular). Happymodel's block for the line: 9N12P, 8x2 mm stator, 1.0 mm shaft, body Ø10.5x14.9 mm, 1-2S, 1.9 g. No-load blocks for 16000 KV: 0.27 A, 31150 RPM at 1.9 V (16394.7 KV) and 0.29 A, 29710 RPM at 2 V (15852 KV); wire length 40 mm. Peak 43.1 g is the 2S run at 5.00 A."
   },
   {
    "type": "motor",
