@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-20",
- "count": 166,
+ "count": 168,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -85,6 +85,52 @@
    "sources": [
     "https://www.racedayquads.com/products/rdq-mach-3-video-transmitter-25-1000mw-5-8ghz-vtx-choose-version"
    ]
+  },
+  {
+   "type": "vtx",
+   "brand": "AKK",
+   "model": "TX5000AC Ultra Long Range 5W 4.9-6G",
+   "slug": "akk-tx5000ac-ultra-long-range-5w-4-9-6g",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 5000,
+    "frequency_range": "4900-6060 MHz",
+    "power_levels_mw": "25 / 200 / 500 / 1000 / 3000 / 5000",
+    "input_voltage": "14.6-28V",
+    "mount_mm": "30.5x30.5mm",
+    "channels": 96,
+    "antenna_connector": "MMCX",
+    "weight_g": 25.0,
+    "price_usd": 99.0
+   },
+   "sources": [
+    "https://www.akktek.com/products/vtx/akk-ultra-long-range-all-channels-version-5w-ultra-wide-band-96ch-vtx.html",
+    "https://www.akktek.com/media/wysiwyg/tx5000-ac-description.jpg"
+   ],
+   "note": "Sold by AKK as 'Ultra Long Range All Channels Version 5W 4.9G-6G Ultra Wide Band 96CH VTX - TX5000AC' (SKU TX5000AC). Spec image: 'Input voltage 14.6V to 28V, suggest 6S battery', 'Extra features Smart audio 5000mW', 'Output power 25/200/500/1000/3000/5000mW', 'Antenna connector MMCX', 'Weight 25g (excluding antenna)', kit 1x VTX, 1x cable, 1x pigtail. 96 channels in twelve bands (A, b, E, F, r, P, L, U, O, H, T, n), printed by AKK as a channel table whose edges are 4900 MHz (L CH1) and 6060 MHz (U CH8), the span the page states ('Ultra wide 96 channels from 4900 to 6060MHz'). 36x36 mm with a 30.5x30.5 mm hole pattern, cooling fan and heatsink, 5 V camera output under 500 mA, SmartAudio, JST 6-pin cable, no microphone. Read 2026-10-20 off AKK's own product page and its specification image (akktek.com, Cloudflare-walled, read through camofox with the VPN off). `system` is 'analog' because AKK's sheet is an analog band plan (A/B/E/F/R bands, SmartAudio control, a 5 V supply for the camera) and AKK sells the matching 'Diversity RX 96 Channels' receiver; the page itself never prints the word, but the board's own printed pinout reads 'Video in' beside the '5V output' for the camera. AKK says its 5 GHz antenna works in 4900-5500 MHz and its 5.8 GHz antenna in 5500-6060 MHz, so one antenna does not cover the whole range. price_usd is the maker's sale price on 2026-10-20 (regular $119.00). AKK states it stopped exporting VTXs on 2024-09-01 and that clones sold under its name by four named vendors are fakes."
+  },
+  {
+   "type": "vtx",
+   "brand": "AKK",
+   "model": "TX8000AC Ultra Long Range 8W 4.9-6G",
+   "slug": "akk-tx8000ac-ultra-long-range-8w-4-9-6g",
+   "specs": {
+    "system": "analog",
+    "max_power_mw": 8000,
+    "frequency_range": "4900-6060 MHz",
+    "power_levels_mw": "25 / 1000 / 3000 / 5000 / 8000",
+    "input_voltage": "14.6-28V",
+    "mount_mm": "30.5x30.5mm",
+    "channels": 96,
+    "antenna_connector": "SMA",
+    "weight_g": 25.0,
+    "price_usd": 95.2
+   },
+   "sources": [
+    "https://www.akktek.com/products/vtx/akk-tx8000ac-ultra-long-range-all-channels-version-8w-ultra-wide-band-96ch-vtx.html",
+    "https://www.akktek.com/media/wysiwyg/tx8000ac-specs.jpg"
+   ],
+   "note": "Sold by AKK as 'Ultra Long Range All Channels Version 8W 4.9G-6G Ultra Wide Band 96CH VTX - TX8000AC' (SKU TX8000AC). Spec image: 'Input voltage 14.6V to 28V', 'Output power 25/1000/3000/5000/8000mW', 'Antenna connector SMA', 'Weight 25g (excluding antenna)', kit 1x VTX, 1x cable, 1x pigtail. 96 channels in twelve bands (A, b, E, F, r, P, L, U, O, H, T, n), printed by AKK as a channel table whose edges are 4900 MHz (L CH1) and 6060 MHz (U CH8), the span the page states ('Ultra wide 96 channels from 4900 to 6060MHz'). 36x36 mm with a 30.5x30.5 mm hole pattern, cooling fan and heatsink, 5 V camera output under 500 mA, SmartAudio, JST 6-pin cable, no microphone. Read 2026-10-20 off AKK's own product page and its specification image (akktek.com, Cloudflare-walled, read through camofox with the VPN off). `system` is 'analog' because AKK's sheet is an analog band plan (A/B/E/F/R bands, SmartAudio control, a 5 V supply for the camera) and AKK sells the matching 'Diversity RX 96 Channels' receiver; the page itself never prints the word, but the board's own printed pinout reads 'Video in' beside the '5V output' for the camera. AKK says its 5 GHz antenna works in 4900-5500 MHz and its 5.8 GHz antenna in 5500-6060 MHz, so one antenna does not cover the whole range. price_usd is the maker's sale price on 2026-10-20 (regular $119.00). AKK states it stopped exporting VTXs on 2024-09-01 and that clones sold under its name by four named vendors are fakes."
   },
   {
    "type": "vtx",
