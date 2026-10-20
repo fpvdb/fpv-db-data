@@ -25039,7 +25039,7 @@
     "recommended_props": "2-4 inches",
     "price_usd": 16.99,
     "max_thrust_g": 458,
-    "thrust_conditions": "HGLRC bench, 2750 KV at 4S/6S and 4800 KV at 3S/4S, two throttle points per prop run on each of four 2.5-4in props",
+    "thrust_conditions": "HGLRC bench, 2750 KV at 4S/6S, 4800 KV at 3S/4S and 5500 KV (not sold here) at 3S/4S, two throttle points per prop run on each of four 2.5-4in props",
     "thrust_table": [
      {
       "kv": 2750,
@@ -25348,6 +25348,138 @@
       "rpm": null,
       "thrust_g": 293,
       "efficiency_gw": 2.015
+     },
+     {
+      "kv": 5500,
+      "prop": "GF2.5*4*3",
+      "cells": "3S",
+      "throttle": 50,
+      "voltage_v": 11.1,
+      "current_a": 1.7,
+      "rpm": null,
+      "thrust_g": 54,
+      "efficiency_gw": 2.862
+     },
+     {
+      "kv": 5500,
+      "prop": "GF2.5*4*3",
+      "cells": "3S",
+      "throttle": 100,
+      "voltage_v": 11.1,
+      "current_a": 8.2,
+      "rpm": null,
+      "thrust_g": 159,
+      "efficiency_gw": 1.747
+     },
+     {
+      "kv": 5500,
+      "prop": "GF2.5*4*3",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 14.8,
+      "current_a": 1.9,
+      "rpm": null,
+      "thrust_g": 108,
+      "efficiency_gw": 3.841
+     },
+     {
+      "kv": 5500,
+      "prop": "GF2.5*4*3",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 14.8,
+      "current_a": 8.8,
+      "rpm": null,
+      "thrust_g": 317,
+      "efficiency_gw": 2.434
+     },
+     {
+      "kv": 5500,
+      "prop": "HQ 3*2.5*3",
+      "cells": "3S",
+      "throttle": 50,
+      "voltage_v": 11.1,
+      "current_a": 3.2,
+      "rpm": null,
+      "thrust_g": 77,
+      "efficiency_gw": 2.168
+     },
+     {
+      "kv": 5500,
+      "prop": "HQ 3*2.5*3",
+      "cells": "3S",
+      "throttle": 100,
+      "voltage_v": 11.1,
+      "current_a": 12.8,
+      "rpm": null,
+      "thrust_g": 238,
+      "efficiency_gw": 1.675
+     },
+     {
+      "kv": 5500,
+      "prop": "HQ 3*2.5*3",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 14.8,
+      "current_a": 3,
+      "rpm": null,
+      "thrust_g": 154,
+      "efficiency_gw": 3.468
+     },
+     {
+      "kv": 5500,
+      "prop": "HQ 3*2.5*3",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 14.8,
+      "current_a": 15.8,
+      "rpm": null,
+      "thrust_g": 475,
+      "efficiency_gw": 2.031
+     },
+     {
+      "kv": 5500,
+      "prop": "HQ 3*3*3",
+      "cells": "3S",
+      "throttle": 50,
+      "voltage_v": 11.1,
+      "current_a": 3.7,
+      "rpm": null,
+      "thrust_g": 98,
+      "efficiency_gw": 2.386
+     },
+     {
+      "kv": 5500,
+      "prop": "HQ 3*3*3",
+      "cells": "3S",
+      "throttle": 100,
+      "voltage_v": 11.1,
+      "current_a": 13.2,
+      "rpm": null,
+      "thrust_g": 252,
+      "efficiency_gw": 1.72
+     },
+     {
+      "kv": 5500,
+      "prop": "GF4*2*2",
+      "cells": "3S",
+      "throttle": 50,
+      "voltage_v": 11.1,
+      "current_a": 5,
+      "rpm": null,
+      "thrust_g": 133,
+      "efficiency_gw": 2.396
+     },
+     {
+      "kv": 5500,
+      "prop": "GF4*2*2",
+      "cells": "3S",
+      "throttle": 100,
+      "voltage_v": 11.1,
+      "current_a": 14.7,
+      "rpm": null,
+      "thrust_g": 322,
+      "efficiency_gw": 1.973
      }
     ],
     "shaft": "M1.5x3.8mm",
@@ -25361,7 +25493,7 @@
     "https://www.racedayquads.com/products/hglrc-specter-1404-4800kv-micro-motor",
     "https://www.hglrc.com/products/hglrc-specter-1404-2750kv-brushless-motor"
    ],
-   "note": "The rows are HGLRC's own 'Efficacy table', published as an image in the description gallery of the motor's product page on hglrc.com - the eighth brand this dataset has read a manufacturer sheet from, and the first whose sheet publishes a per-run MOTOR TEMPERATURE. One template across the whole SPECTER line: columns Prop (inch) / Voltages (V) / Throttle (%) / Load Currency (A) / Pull (g) / Power (W) / Efficiency (g/W) / Temperature (in full throttle load 5's). Two throttle points per prop run, 50% and 100%, no RPM column at all, and the temperature is one figure per voltage block measured after five seconds at full throttle, not per row. This page carries THREE tables, one per winding, and only the two windings our listing sells are reproduced here; HGLRC also publishes a 5500 KV table (11.1/14.8 V, 9.6 g, rated 2-4S) for a version our retail source does not carry. The 2750 KV table's GF4*2*2 prop and the 4800 KV table's GF4*2*2 prop are benched at one voltage only, the second block left empty, so each table is 14 rows and not 16. TWO SOURCE DEFECTS, reproduced as printed rather than repaired: (1) on the 2750 KV table's GF2.5*4*3 22.2 V pair the Power column is 14.8 V x current, not 22.2 V x current (11.8 W at 0.8 A, 55.5 W at 3.75 A), which also inflates the efficiency those two rows print - every other row on both tables is its own voltage x its own current to the digit; (2) the 4800 KV table's GF2.5*4*3 block labels its four throttle points 25/50/75/100% where every other block on every SPECTER table prints 50/100%, and its currents (1.5, 7.3, 1.7, 7.9 A) are the low-high pattern of a 50/100% pair at each voltage. The windings also differ in rated voltage - HGLRC states 4-6S for the 2750 KV and 3-4S for the 4800 KV, against the single 4-6S our retail listing prints for the page. The brand's headline figures land: 6.9 A for the 2750 KV is that table's HQ 3*3*3 22.2 V 100% row, and 223 W for the 4800 KV is its HQ 3*3*3 14.8 V 100% row (223.5 W)."
+   "note": "The rows are HGLRC's own 'Efficacy table', published as an image in the description gallery of the motor's product page on hglrc.com - the eighth brand this dataset has read a manufacturer sheet from, and the first whose sheet publishes a per-run MOTOR TEMPERATURE. One template across the whole SPECTER line: columns Prop (inch) / Voltages (V) / Throttle (%) / Load Currency (A) / Pull (g) / Power (W) / Efficiency (g/W) / Temperature (in full throttle load 5's). Two throttle points per prop run, 50% and 100%, no RPM column at all, and the temperature is one figure per voltage block measured after five seconds at full throttle, not per row. This page carries THREE tables, one per winding, and only the two windings our listing sells are reproduced here; HGLRC also publishes a 5500 KV table (11.1/14.8 V, 9.6 g, rated 2-4S) for a version our retail source does not carry. The 2750 KV table's GF4*2*2 prop and the 4800 KV table's GF4*2*2 prop are benched at one voltage only, the second block left empty, so each table is 14 rows and not 16. TWO SOURCE DEFECTS, reproduced as printed rather than repaired: (1) on the 2750 KV table's GF2.5*4*3 22.2 V pair the Power column is 14.8 V x current, not 22.2 V x current (11.8 W at 0.8 A, 55.5 W at 3.75 A), which also inflates the efficiency those two rows print - every other row on both tables is its own voltage x its own current to the digit; (2) the 4800 KV table's GF2.5*4*3 block labels its four throttle points 25/50/75/100% where every other block on every SPECTER table prints 50/100%, and its currents (1.5, 7.3, 1.7, 7.9 A) are the low-high pattern of a 50/100% pair at each voltage. The windings also differ in rated voltage - HGLRC states 4-6S for the 2750 KV and 3-4S for the 4800 KV, against the single 4-6S our retail listing prints for the page. The brand's headline figures land: 6.9 A for the 2750 KV is that table's HQ 3*3*3 22.2 V 100% row, and 223 W for the 4800 KV is its HQ 3*3*3 14.8 V 100% row (223.5 W). The rows are HGLRC's own 'Efficacy table', published as an image in the description gallery of the motor's product page on hglrc.com - the eighth brand this dataset has read a manufacturer sheet from, and the first whose sheet publishes a per-run MOTOR TEMPERATURE. One template across the whole SPECTER line: columns Prop (inch) / Voltages (V) / Throttle (%) / Load Currency (A) / Pull (g) / Power (W) / Efficiency (g/W) / Temperature (in full throttle load 5's). Two throttle points per prop run, 50% and 100%, no RPM column at all, and the temperature is one figure per voltage block measured after five seconds at full throttle, not per row. This page carries THREE tables, one per winding, and all three are reproduced. The 5500 KV is a version our retail source does not carry (HGLRC: 9.6 g with wires, rated 2-4S, 15.8 A / 234 W, which is its HQ 3*2.5*3 14.8 V 100% row), so its 12 rows carry no max thrust figure here; its peak is 475 g on that row. Every 5500 KV row is its own voltage x its own current, and its HQ 3*3*3 and GF4*2*2 props are benched at 11.1 V only. The 2750 KV table's GF4*2*2 prop and the 4800 KV table's GF4*2*2 prop are benched at one voltage only, the second block left empty, so each table is 14 rows and not 16. TWO SOURCE DEFECTS, reproduced as printed rather than repaired: (1) on the 2750 KV table's GF2.5*4*3 22.2 V pair the Power column is 14.8 V x current, not 22.2 V x current (11.8 W at 0.8 A, 55.5 W at 3.75 A), which also inflates the efficiency those two rows print - every other row on both tables is its own voltage x its own current to the digit; (2) the 4800 KV table's GF2.5*4*3 block labels its four throttle points 25/50/75/100% where every other block on every SPECTER table prints 50/100%, and its currents (1.5, 7.3, 1.7, 7.9 A) are the low-high pattern of a 50/100% pair at each voltage. The windings also differ in rated voltage - HGLRC states 4-6S for the 2750 KV and 3-4S for the 4800 KV, against the single 4-6S our retail listing prints for the page. The brand's headline figures land: 6.9 A for the 2750 KV is that table's HQ 3*3*3 22.2 V 100% row, and 223 W for the 4800 KV is its HQ 3*3*3 14.8 V 100% row (223.5 W)."
   },
   {
    "type": "motor",
@@ -25556,6 +25688,182 @@
       "rpm": null,
       "thrust_g": 815,
       "efficiency_gw": 1.887
+     },
+     {
+      "kv": 3500,
+      "prop": "HQ T76*3",
+      "cells": null,
+      "throttle": 50,
+      "voltage_v": null,
+      "current_a": 3.9,
+      "rpm": null,
+      "thrust_g": 146,
+      "efficiency_gw": 3.12
+     },
+     {
+      "kv": 3500,
+      "prop": "HQ T76*3",
+      "cells": null,
+      "throttle": 100,
+      "voltage_v": null,
+      "current_a": 15.4,
+      "rpm": null,
+      "thrust_g": 420,
+      "efficiency_gw": null
+     },
+     {
+      "kv": 3500,
+      "prop": "HQ T76*3",
+      "cells": null,
+      "throttle": 50,
+      "voltage_v": null,
+      "current_a": 5.3,
+      "rpm": null,
+      "thrust_g": 239,
+      "efficiency_gw": 2.818
+     },
+     {
+      "kv": 3500,
+      "prop": "HQ T76*3",
+      "cells": null,
+      "throttle": 100,
+      "voltage_v": null,
+      "current_a": 24.3,
+      "rpm": null,
+      "thrust_g": 660,
+      "efficiency_gw": 1.698
+     },
+     {
+      "kv": 3500,
+      "prop": "HQ D90*3",
+      "cells": null,
+      "throttle": 50,
+      "voltage_v": null,
+      "current_a": 4.7,
+      "rpm": null,
+      "thrust_g": 204,
+      "efficiency_gw": 3.617
+     },
+     {
+      "kv": 3500,
+      "prop": "HQ D90*3",
+      "cells": null,
+      "throttle": 100,
+      "voltage_v": null,
+      "current_a": 17,
+      "rpm": null,
+      "thrust_g": 519,
+      "efficiency_gw": 2.544
+     },
+     {
+      "kv": 3500,
+      "prop": "HQ D90*3",
+      "cells": null,
+      "throttle": 50,
+      "voltage_v": null,
+      "current_a": 9.3,
+      "rpm": null,
+      "thrust_g": 268,
+      "efficiency_gw": 1.801
+     },
+     {
+      "kv": 3500,
+      "prop": "HQ D90*3",
+      "cells": null,
+      "throttle": 100,
+      "voltage_v": null,
+      "current_a": 23.2,
+      "rpm": null,
+      "thrust_g": 701,
+      "efficiency_gw": 1.888
+     },
+     {
+      "kv": 3500,
+      "prop": "GF 4024R*2",
+      "cells": null,
+      "throttle": 50,
+      "voltage_v": null,
+      "current_a": 2.6,
+      "rpm": null,
+      "thrust_g": 160,
+      "efficiency_gw": 5.128
+     },
+     {
+      "kv": 3500,
+      "prop": "GF 4024R*2",
+      "cells": null,
+      "throttle": 100,
+      "voltage_v": null,
+      "current_a": 12.6,
+      "rpm": null,
+      "thrust_g": 508,
+      "efficiency_gw": 3.36
+     },
+     {
+      "kv": 3500,
+      "prop": "GF 4024R*2",
+      "cells": null,
+      "throttle": 50,
+      "voltage_v": null,
+      "current_a": 3.9,
+      "rpm": null,
+      "thrust_g": 266,
+      "efficiency_gw": 4.263
+     },
+     {
+      "kv": 3500,
+      "prop": "GF 4024R*2",
+      "cells": null,
+      "throttle": 100,
+      "voltage_v": null,
+      "current_a": 19.7,
+      "rpm": null,
+      "thrust_g": 778,
+      "efficiency_gw": 2.468
+     },
+     {
+      "kv": 3500,
+      "prop": "GF 4023R*3",
+      "cells": null,
+      "throttle": 50,
+      "voltage_v": null,
+      "current_a": 3.7,
+      "rpm": null,
+      "thrust_g": 175,
+      "efficiency_gw": 3.941
+     },
+     {
+      "kv": 3500,
+      "prop": "GF 4023R*3",
+      "cells": null,
+      "throttle": 100,
+      "voltage_v": null,
+      "current_a": 15.2,
+      "rpm": null,
+      "thrust_g": 539,
+      "efficiency_gw": 2.955
+     },
+     {
+      "kv": 3500,
+      "prop": "GF 4023R*3",
+      "cells": null,
+      "throttle": 50,
+      "voltage_v": null,
+      "current_a": 5.6,
+      "rpm": null,
+      "thrust_g": 263,
+      "efficiency_gw": 2.935
+     },
+     {
+      "kv": 3500,
+      "prop": "GF 4023R*3",
+      "cells": null,
+      "throttle": 100,
+      "voltage_v": null,
+      "current_a": 24.5,
+      "rpm": null,
+      "thrust_g": 787,
+      "efficiency_gw": 2.008
      }
     ],
     "shaft": "M1.5x3.8mm",
@@ -25567,7 +25875,7 @@
     "https://www.racedayquads.com/products/hglrc-specter-1804-2450kv-micro-motor",
     "https://www.hglrc.com/products/hglrc-specter-1804-3500kv-brushless-motor"
    ],
-   "note": "The rows are HGLRC's own 'Efficacy table', published as an image in the description gallery of the motor's product page on hglrc.com - the eighth brand this dataset has read a manufacturer sheet from, and the first whose sheet publishes a per-run MOTOR TEMPERATURE. One template across the whole SPECTER line: columns Prop (inch) / Voltages (V) / Throttle (%) / Load Currency (A) / Pull (g) / Power (W) / Efficiency (g/W) / Temperature (in full throttle load 5's). Two throttle points per prop run, 50% and 100%, no RPM column at all, and the temperature is one figure per voltage block measured after five seconds at full throttle, not per row. The product page is titled for the 3500 KV and carries both windings' tables; only the 2450 KV our retail listing sells is reproduced here. The spec-block cross-check lands exactly: HGLRC's 18 A and 432 W for this winding are its GF 4023R*3 24 V 100% row, digit for digit. Source defect reproduced as printed: the GF 4024R*2 24 V pair's Power column is 25 V x current (67.5 W at 2.7 A, 347.5 W at 13.9 A) where its Voltages column prints 24; the other fourteen rows are their own printed voltage x current. The HQ D90*3 24 V block is also the one run on either table whose 50% row prints a LOWER efficiency than its own 100% row (1.755 against 1.832 g/W)."
+   "note": "The rows are HGLRC's own 'Efficacy table', published as an image in the description gallery of the motor's product page on hglrc.com - the eighth brand this dataset has read a manufacturer sheet from, and the first whose sheet publishes a per-run MOTOR TEMPERATURE. One template across the whole SPECTER line: columns Prop (inch) / Voltages (V) / Throttle (%) / Load Currency (A) / Pull (g) / Power (W) / Efficiency (g/W) / Temperature (in full throttle load 5's). Two throttle points per prop run, 50% and 100%, no RPM column at all, and the temperature is one figure per voltage block measured after five seconds at full throttle, not per row. The product page is titled for the 3500 KV and carries both windings' tables; only the 2450 KV our retail listing sells is reproduced here. The spec-block cross-check lands exactly: HGLRC's 18 A and 432 W for this winding are its GF 4023R*3 24 V 100% row, digit for digit. Source defect reproduced as printed: the GF 4024R*2 24 V pair's Power column is 25 V x current (67.5 W at 2.7 A, 347.5 W at 13.9 A) where its Voltages column prints 24; the other fourteen rows are their own printed voltage x current. The HQ D90*3 24 V block is also the one run on either table whose 50% row prints a LOWER efficiency than its own 100% row (1.755 against 1.832 g/W). The rows are HGLRC's own 'Efficacy table', published as an image in the description gallery of the motor's product page on hglrc.com - the eighth brand this dataset has read a manufacturer sheet from, and the first whose sheet publishes a per-run MOTOR TEMPERATURE. One template across the whole SPECTER line: columns Prop (inch) / Voltages (V) / Throttle (%) / Load Currency (A) / Pull (g) / Power (W) / Efficiency (g/W) / Temperature (in full throttle load 5's). Two throttle points per prop run, 50% and 100%, no RPM column at all, and the temperature is one figure per voltage block measured after five seconds at full throttle, not per row. The product page is titled for the 3500 KV and carries both windings' tables; both are reproduced, but the 3500 KV is a winding our retail listing does not sell, so its 16 rows carry no max thrust figure here (its peak is 787 g on the GF 4023R*3). THE 3500 KV TABLE'S VOLTAGE COLUMN IS NOT ITS OWN: it prints 16 V and 24 V blocks, the 2450 KV table's layout, but every Power figure in its 16 V block is 12 V x current and every one in its 24 V block is 16 V x current; HGLRC rates the 3500 KV for 3-4S, and its headline 24.5 A / 392 W is the GF 4023R*3 '24 V' 100% row at 16 V. With the printed voltage contradicted by two other columns and the true one never printed, these rows carry no voltage or cell count: each prop's first pair is the lower-voltage run, the second the higher. One cell is also blank: the HQ T76*3 lower-voltage 100% row prints 0.227 g/W where its own 420 g over 184.8 W is 2.27. The spec-block cross-check lands exactly: HGLRC's 18 A and 432 W for this winding are its GF 4023R*3 24 V 100% row, digit for digit. Source defect reproduced as printed: the GF 4024R*2 24 V pair's Power column is 25 V x current (67.5 W at 2.7 A, 347.5 W at 13.9 A) where its Voltages column prints 24; the other fourteen rows are their own printed voltage x current. The HQ D90*3 24 V block is also the one run on either table whose 50% row prints a LOWER efficiency than its own 100% row (1.755 against 1.832 g/W)."
   },
   {
    "type": "motor",
