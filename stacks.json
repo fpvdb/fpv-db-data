@@ -1259,7 +1259,7 @@
    "specs": {
     "mcu": "H743",
     "gyro": "ICM42688",
-    "bec_output": "5V/4A",
+    "bec_output": "5V/4A / 9V/3A / 4.5V/0.5A",
     "fc_firmware": "Betaflight: HDZERO_HALO",
     "esc_firmware": "BLHeli 32.10",
     "max_cells": "3-8S",
@@ -1273,7 +1273,8 @@
    "_scraped_at": "2026-10-20",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-halo-stack-h743-elrs-fc-icm42688-70a-blheli_32-esc-20x20"
-   ]
+   ],
+   "note": "bec_output lists all three rails the listing prints under its \"BEC Output:\" label, one per line (\"DC 5V/4A\", \"DC 9V/3A\", \"DC 4.5V/0.5A\"), joined with \" / \"; nothing added or inferred"
   },
   {
    "type": "stack",
@@ -1283,7 +1284,7 @@
    "specs": {
     "mcu": "H743",
     "gyro": "MPU6000",
-    "bec_output": "5V/4A",
+    "bec_output": "5V/4A / 9V/3A / 4.5V/0.5A",
     "fc_firmware": "Betaflight: HDZERO_HALO",
     "esc_firmware": "AM32 2.18",
     "max_cells": "3-8S",
@@ -1296,7 +1297,8 @@
    "_scraped_at": "2026-10-20",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-halo-stack-h743-elrs-fc-mpu6000-70a-am32-esc-20x20"
-   ]
+   ],
+   "note": "bec_output lists all three rails the listing prints under its \"BEC Output:\" label, one per line (\"DC 5V/4A\", \"DC 9V/3A\", \"DC 4.5V/0.5A\"), joined with \" / \"; nothing added or inferred"
   },
   {
    "type": "stack",
@@ -1306,7 +1308,7 @@
    "specs": {
     "mcu": "H743",
     "gyro": "MPU6000",
-    "bec_output": "5V/4A",
+    "bec_output": "5V/4A / 9V/3A / 4.5V/0.5A",
     "fc_firmware": "Betaflight: HDZERO_HALO",
     "esc_firmware": "BLHeli 32.10",
     "max_cells": "3-8S",
@@ -1319,7 +1321,8 @@
    "_scraped_at": "2026-10-20",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-halo-stack-h743-elrs-fc-mpu6000-70a-blheli_32-esc-20x20"
-   ]
+   ],
+   "note": "bec_output lists all three rails the listing prints under its \"BEC Output:\" label, one per line (\"DC 5V/4A\", \"DC 9V/3A\", \"DC 4.5V/0.5A\"), joined with \" / \"; nothing added or inferred"
   },
   {
    "type": "stack",
