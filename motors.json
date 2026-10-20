@@ -1259,7 +1259,8 @@
       "prop_key": "51466",
       "prop_blades": null
      }
-    ]
+    ],
+    "weight_kv": 1960
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -1267,7 +1268,7 @@
     "https://www.racedayquads.com/products/axis-flying-ae2306-5-1960kv-motor",
     "https://www.axisflying.com/products/5inch-brushless-economic-fpv-motor-ae23065-v2"
    ],
-   "note": "33.7 g (1960 KV) / 33.45 g (1860 KV) with wire, 27.9x32.7 mm, 12N14P, 60.16/70.62 mOhm; motor temperature at full throttle 44-94 degC depending on prop. CAUTION: on the 51466 prop the 30-90% rows of this sheet are identical, digit for digit, to Axisflying's AE2207 V2 sheet (only the 100% row differs), so at least one of the two is copied rather than measured. Both are reproduced as published"
+   "note": "33.7 g (1960 KV) / 33.45 g (1860 KV) with wire, 27.9x32.7 mm, 12N14P, 60.16/70.62 mOhm; motor temperature at full throttle 44-94 degC depending on prop. CAUTION: on the 51466 prop the 30-90% rows of this sheet are identical, digit for digit, to Axisflying's AE2207 V2 sheet (only the 100% row differs), so at least one of the two is copied rather than measured. Both are reproduced as published weight_g is the first-listed winding's Weight (wire included) from Axisflying's AE2306.5 V2 Specification block, 33.7 g at 1960 KV (33.45 g at 1860 KV), named beside it; read 2026-10-20 (owner 2026-10-20: weight includes the cable; the page names the winding). RaceDayQuads' 1800KV listing prints 33.5 g, which no maker document states."
   },
   {
    "type": "motor",
@@ -1280,7 +1281,7 @@
      1860,
      1960
     ],
-    "weight_g": 35.13,
+    "weight_g": 35.2,
     "max_cells": "6S",
     "resistance_mohm": "64.46 (1960KV)",
     "price_usd": 19.49,
@@ -2122,7 +2123,8 @@
       "prop_blades": null
      }
     ],
-    "dimensions_mm": "27.5x33.2"
+    "dimensions_mm": "27.5x33.2",
+    "weight_kv": 1960
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -2131,7 +2133,7 @@
     "https://www.racedayquads.com/products/pre-order-axisflying-ae2207-v2-2207-1960kv-motor",
     "https://www.axisflying.com/products/5inch-brushless-economic-fpv-motor-ae2207-v2"
    ],
-   "note": "Axisflying publishes bench runs for the 1860/1960/2050/2100 KV versions (a 1750 KV exists but has no published test table). Prop labels are reproduced as Axisflying prints them (BB4943.5, 51466/GF 51466, BB39). 35.2 g with wire, 27.5x33.2 mm, 12N14P, 64.46 mOhm at 1960 KV. Motor temperature at full throttle ranges 45.7-94 degC depending on KV and prop. max_thrust_g is the sold winding's own best (owner ruling 2026-10-20: it comes from a winding the page sells; rows of other windings stay)."
+   "note": "Axisflying publishes bench runs for the 1860/1960/2050/2100 KV versions (a 1750 KV exists but has no published test table). Prop labels are reproduced as Axisflying prints them (BB4943.5, 51466/GF 51466, BB39). 35.2 g with wire, 27.5x33.2 mm, 12N14P, 64.46 mOhm at 1960 KV. Motor temperature at full throttle ranges 45.7-94 degC depending on KV and prop. max_thrust_g is the sold winding's own best (owner ruling 2026-10-20: it comes from a winding the page sells; rows of other windings stay). weight_g is Axisflying's Weight (wire included) for 1960 KV, 35.2 g, named beside it: the AE2207 V2 Specification block lists 2100 KV 35.5 g, 2050 KV 33.35 g, 1960 KV 35.2 g, 1860 KV 35.13 g and 1750 KV 35.2 g, and 1960 is the first-listed winding this page sells; the product page's text block also prints one 35.2 g for 1860/1960 KV. Read 2026-10-20 (owner 2026-10-20: weight includes the cable; the page names the winding). Until then the page showed 35.13 g, the 1860 KV figure, with no winding named."
   },
   {
    "type": "motor",
@@ -35536,7 +35538,8 @@
       "prop_key": "Gemfan 51466",
       "prop_blades": null
      }
-    ]
+    ],
+    "weight_kv": 1700
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -35544,7 +35547,7 @@
     "https://www.racedayquads.com/products/iflight-xing-e-pro-2306-2450kv-motor",
     "https://shop.iflight.com/XING-E-Pro-2306-4S-6S-FPV-Motor-pro1565"
    ],
-   "note": "iFlight's product page carries one TEST REPORT image per winding (XING-E-Pro-2306-1700KV.png and -2450KV.png, 1307x2000 each): a spec table, the drawing and a 12-row datasheet on Nazgul 5140 and Gemfan 51466. The page's text block states the windings as 1750KV and 2450KV, but the 1700KV test report, the shop's own KV selector (1700KV / 2450KV) and our retail source all say 1700, and the report is self-consistent: its 100% row, 25.1 V x 36.66 A = 920.2 W, is the Peak Current and Max Watt both documents print. So kv_options keep 1700 and the 1750 is recorded here as the text block's figure (two maker documents disagree; the self-consistent one wins). All 24 rows pass printed power = V x A and the efficiency identity. Max thrust is the 1700 KV winding's 1604 g on the Gemfan 51466 at 6S. The reports confirm 33.8 g / 33.6 g with wire, the 5 mm shaft protruding 13.5 mm, Ø29.5x32.2 mm, 16x16 M3, 12N14P, 85.63/55.6 mOhm, 160 mm 20AWG leads, N52H magnets and NSK 9x4x4 bearings; the input volts are 25.2 V (1700KV) and 16.8 V (2450KV), the bench pack of each run."
+   "note": "iFlight's product page carries one TEST REPORT image per winding (XING-E-Pro-2306-1700KV.png and -2450KV.png, 1307x2000 each): a spec table, the drawing and a 12-row datasheet on Nazgul 5140 and Gemfan 51466. The page's text block states the windings as 1750KV and 2450KV, but the 1700KV test report, the shop's own KV selector (1700KV / 2450KV) and our retail source all say 1700, and the report is self-consistent: its 100% row, 25.1 V x 36.66 A = 920.2 W, is the Peak Current and Max Watt both documents print. So kv_options keep 1700 and the 1750 is recorded here as the text block's figure (two maker documents disagree; the self-consistent one wins). All 24 rows pass printed power = V x A and the efficiency identity. Max thrust is the 1700 KV winding's 1604 g on the Gemfan 51466 at 6S. The reports confirm 33.8 g / 33.6 g with wire, the 5 mm shaft protruding 13.5 mm, Ø29.5x32.2 mm, 16x16 M3, 12N14P, 85.63/55.6 mOhm, 160 mm 20AWG leads, N52H magnets and NSK 9x4x4 bearings; the input volts are 25.2 V (1700KV) and 16.8 V (2450KV), the bench pack of each run. weight_g is the first-listed winding's Weight (included wire), 33.8 g (33.6 g at 2450 KV), from the product page's Specifications text read 2026-10-20; named 1700 KV for the reason above (owner 2026-10-20: weight includes the cable; the page names the winding)."
   },
   {
    "type": "motor",
