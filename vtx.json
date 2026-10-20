@@ -1065,19 +1065,20 @@
    "model": "GOKU HM600 20x20/25x25/30x30 25-600mW 5.8GHz - U.FL",
    "slug": "flywoo-goku-hm600-20x20-25x25-30x30-25-600mw-5-8ghz-u-fl",
    "specs": {
-    "frequency_range": "5362-5945 MHz",
+    "frequency_range": "5645-5945 MHz",
     "system": "analog",
     "max_power_mw": 600,
     "mount_mm": "20x20mm / 25x25mm / 30x30mm",
-    "channels": 37,
     "antenna_connector": "U.FL",
     "weight_g": 3.0,
     "price_usd": 19.99
    },
    "_scraped_at": "2026-10-20",
    "sources": [
-    "https://www.racedayquads.com/products/flywoo-goku-hm600-25-600mw-5-8ghz-20x20-25x25-30x30-vtx-u-fl"
-   ]
+    "https://www.racedayquads.com/products/flywoo-goku-hm600-25-600mw-5-8ghz-20x20-25x25-30x30-vtx-u-fl",
+    "https://cdn.shopify.com/s/files/1/0010/7410/2324/files/FLYWOO_GOKU_HM600_VTXTABLE.json?v=1613716642"
+   ],
+   "note": "frequency_range is the edges of Flywoo's own HM600 Betaflight table (FLYWOO_GOKU_HM600_VTXTABLE.json, bands A/B/E/F/R, 5645-5945 MHz with band B CH5 read as 5809 per Flywoo's HM850 sheet, which Flywoo says shares this table). The RaceDayQuads listing prints 'Raceband: 5362-5945 MHZ' beside '5 bands 37 channels'; 5362 is in none of those five bands, so the retailer's range is not used. channels is left empty: the listing's 37 is under the 40 slots (39 different frequencies) of the maker's table, and Flywoo prints no channel count for the HM600 itself."
   },
   {
    "type": "vtx",
@@ -1085,18 +1086,20 @@
    "model": "GOKU HM850 20x20/25x25/30x30 25-850mW 5.8GHz - U.FL",
    "slug": "flywoo-goku-hm850-20x20-25x25-30x30-25-850mw-5-8ghz-u-fl",
    "specs": {
-    "frequency_range": "5362-5945 MHz",
+    "frequency_range": "5645-5945 MHz",
     "system": "analog",
     "max_power_mw": 850,
     "mount_mm": "20x20mm / 25x25mm / 30x30mm",
     "antenna_connector": "U.FL",
-    "weight_g": 3.0,
-    "price_usd": 29.99
+    "price_usd": 29.99,
+    "channels": 40
    },
    "_scraped_at": "2026-10-20",
    "sources": [
-    "https://www.racedayquads.com/products/flywoo-goku-hm850-16x16-20x20-25x25-25-850mw-5-8ghz-vtx-u-fl"
-   ]
+    "https://www.racedayquads.com/products/flywoo-goku-hm850-16x16-20x20-25x25-25-850mw-5-8ghz-vtx-u-fl",
+    "https://cdn.shopify.com/s/files/1/0010/7410/2324/files/HM850.jpg?v=1627960533"
+   ],
+   "note": "frequency_range and channels are Flywoo's own GOKU HM850 instruction sheet (https://cdn.shopify.com/s/files/1/0010/7410/2324/files/HM850.jpg?v=1627960533): 'Frequency: 5 bands 40 channels' over a printed grid of bands A/b/E/F/r whose lowest cell is 5645 (E4) and highest 5945 (E8). Flywoo's product page (https://flywoo.net/products/goku-hm600-5-8ghz-ufl-850mw-vtx-w-agc-microphone) prints 'Channels: 40CH' but 'Raceband: 5362-5945 MHZ', and 5362 is in none of the five bands the sheet prints (it is the bottom of the L band, which this radio does not list); two maker documents disagree and the sheet, whose band count, channel count and grid all agree, is the one used. weight_g is left empty: the product page says 'Weight: 3g' and the sheet 'Weight: 2.5g', two maker figures with nothing to choose between them."
   },
   {
    "type": "vtx",
