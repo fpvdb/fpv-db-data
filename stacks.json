@@ -1877,8 +1877,10 @@
    },
    "_scraped_at": "2026-10-20",
    "sources": [
-    "https://www.racedayquads.com/products/speedybee-f4-3-6s-20x20-stack-combo-f405-fc-35a-8bit-4in1-esc"
-   ]
+    "https://www.racedayquads.com/products/speedybee-f4-3-6s-20x20-stack-combo-f405-fc-35a-8bit-4in1-esc",
+    "https://www.speedybee.com/speedybee-f405-mini-bls-35a-20x20-stack/"
+   ],
+   "note": "weight_g is left empty on purpose (read 2026-10-20): SpeedyBee's own page for the stack, \"SpeedyBee F405 Mini BLS 35A 20x20 Stack\", prints a whole-stack \"Weight 13.5g\" in its Specs Overview, but the same page gives the flight controller alone as \"Weight 9.6g\" and the BLS 35A Mini V2 ESC alone as \"Weight 7.2g\" - 16.8 g for the two boards, more than the stack they make up. A page that contradicts itself states no weight, so none is published until SpeedyBee's figures agree"
   },
   {
    "type": "stack",
@@ -2322,12 +2324,16 @@
     "kind": "AIO",
     "esc_current_a": 35,
     "price_usd": 124.99,
-    "mount_class": "25.5x25.5"
+    "mount_class": "25.5x25.5",
+    "weight_g": 10
    },
    "_scraped_at": "2026-10-20",
    "sources": [
-    "https://www.racedayquads.com/products/t-motor-f7-3-6s-aio-whoop-toothpick-flight-controller-w-35a-8bit-4in1-esc"
-   ]
+    "https://www.racedayquads.com/products/t-motor-f7-3-6s-aio-whoop-toothpick-flight-controller-w-35a-8bit-4in1-esc",
+    "https://www.tmotorhobby.com/goods-1259.html",
+    "https://www.tmotorhobby.com/images/20230425/1682405238412701.jpg"
+   ],
+   "note": "weight_g is T-Motor's own figure for this one-board AIO, read 2026-10-20: the maker's F7 35A AIO page carries a SPECIFICATIONS image that prints \"WEIGHT 10g\" for the F7 6S AIO in both its builds (\"CURRENT 35A/45A\", \"PEAK CURRENT 40A/50A\"), so one figure for the 35A and the 45A alike, as the maker prints it. The same image agrees with every other field here: \"MCU STM32F722\", \"GYROSCOPE MPU6500\", \"BEC 5V 1.5A\", \"INPUT VOLTAGE 3-6S\", \"MOUNTING HOLE 25.5*25.5/Φ3mm\", \"FIRMWARE BLS\"; it also prints \"SIZE 39*39mm\""
   },
   {
    "type": "stack",
@@ -2344,12 +2350,16 @@
     "kind": "AIO",
     "esc_current_a": 45,
     "price_usd": 148.99,
-    "mount_class": "25.5x25.5"
+    "mount_class": "25.5x25.5",
+    "weight_g": 10
    },
    "_scraped_at": "2026-10-20",
    "sources": [
-    "https://www.racedayquads.com/products/t-motor-f7-3-6s-aio-whoop-toothpick-flight-controller-w-45a-32bit-4in1-esc"
-   ]
+    "https://www.racedayquads.com/products/t-motor-f7-3-6s-aio-whoop-toothpick-flight-controller-w-45a-32bit-4in1-esc",
+    "https://www.tmotorhobby.com/goods-1261.html",
+    "https://www.tmotorhobby.com/images/20230425/1682405238412701.jpg"
+   ],
+   "note": "weight_g is T-Motor's own figure for this one-board AIO, read 2026-10-20: the maker's F7 45A AIO page carries a SPECIFICATIONS image that prints \"WEIGHT 10g\" for the F7 6S AIO in both its builds (\"CURRENT 35A/45A\", \"PEAK CURRENT 40A/50A\"), so one figure for the 45A and the 35A alike, as the maker prints it. The same image agrees with every other field here: \"MCU STM32F722\", \"GYROSCOPE MPU6500\", \"BEC 5V 1.5A\", \"INPUT VOLTAGE 3-6S\", \"MOUNTING HOLE 25.5*25.5/Φ3mm\", \"FIRMWARE BLS\"; it also prints \"SIZE 39*39mm\""
   },
   {
    "type": "stack",
