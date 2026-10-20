@@ -232,6 +232,7 @@
    "slug": "caddx-walksnail-avatar-hd-moonlight-module",
    "specs": {
     "system": "Walksnail",
+    "resolution": "1080p @ 100/60fps / 2.7K @ 30/60fps / 4K @ 30/60fps / 720p @ 60fps",
     "fov_deg": 160,
     "sensor": "1/1.8\"",
     "input_voltage": "7.4-25.2V",
