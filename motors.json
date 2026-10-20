@@ -7932,7 +7932,6 @@
     "weight_g": 55.0,
     "max_cells": "5-7S",
     "configuration": "12N14P",
-    "mount_mm": "16x16mm (M3)",
     "price_usd": 32.49,
     "thrust_conditions": "BrotherHobby 2017 bench, 45 A ESC, 8 throttle points per KV; 930KV on 7S, 1030KV on 6S, 1380KV on 5S",
     "thrust_table": [
@@ -8202,14 +8201,15 @@
      }
     ],
     "shaft": "M5",
-    "dimensions_mm": "Ø30.3x36.5"
+    "dimensions_mm": "Ø30.3x36.5",
+    "mount_bolt_circle_mm": "Ø16 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
     "https://www.racedayquads.com/products/brotherhobby-avenger-2510-1250kv-motor",
     "https://ueeshop.ly200-cdn.com/u_file/UPAH/UPAH113/2409/photo/b569d04352.jpg"
    ],
-   "note": "BrotherHobby lists the 2510 in 930/1030/1380 KV; motor body Φ30.3x36.5 mm, 12N14P, M3 16x16 bolt pattern, 55.3 g with 25 cm wires. No winding on the sheet is one our source sells (1250 KV), so the page states no max thrust (owner ruling 2026-10-20); the sheet's peak is 2717 g."
+   "note": "BrotherHobby lists the 2510 in 930/1030/1380 KV; motor body Φ30.3x36.5 mm, 12N14P, 4-M3 on a Ø16 bolt circle (the Test Report drawing), 55.3 g with 25 cm wires. No winding on the sheet is one our source sells (1250 KV), so the page states no max thrust (owner ruling 2026-10-20); the sheet's peak is 2717 g."
   },
   {
    "type": "motor",
@@ -8692,7 +8692,6 @@
     "weight_g": 55.0,
     "max_cells": "4-6S",
     "configuration": "12N14P",
-    "mount_mm": "Ø19 (4-M3)",
     "price_usd": 27.99,
     "max_thrust_g": 2469,
     "thrust_conditions": "BrotherHobby 2022 bench, 6S 80 A ESC, 8 throttle points (30-100%) per winding on one prop each; 1350KV on HQ 8X4.5X3, 1500KV on HQ 7X3.5X3, 1900KV on HQ 6X3.5X3",
@@ -8964,7 +8963,8 @@
     ],
     "shaft": "5mm",
     "dimensions_mm": "Ø33x36.2",
-    "resistance_mohm": "48.00"
+    "resistance_mohm": "48.00",
+    "mount_bolt_circle_mm": "Ø19 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -10302,7 +10302,6 @@
     ],
     "weight_g": 27.18,
     "configuration": "12N14P",
-    "mount_mm": "Ø12 (4-M2)",
     "max_thrust_g": 881,
     "price_usd": 21.99,
     "thrust_conditions": "BrotherHobby 2020 bench, 2140 KV at 6S (25.2 V), 6S 35 A ESC, 8 throttle points (30-100%) on one 3.5 inch five-blade prop",
@@ -10399,7 +10398,8 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "dimensions_mm": "Ø27x32.1",
-    "resistance_mohm": "87.00"
+    "resistance_mohm": "87.00",
+    "mount_bolt_circle_mm": "Ø12 (4-M2)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -10446,7 +10446,7 @@
     "shaft": "5mm",
     "configuration": "9N12P",
     "price_usd": 19.49,
-    "mount_mm": "Ø12 (4-M2)"
+    "mount_bolt_circle_mm": "Ø12 (4-M2)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -10469,7 +10469,6 @@
     "weight_g": 110.0,
     "max_cells": "6-12S",
     "configuration": "12N14P",
-    "mount_mm": "Ø19 (4-M3)",
     "price_usd": 55.49,
     "max_thrust_g": 4449,
     "thrust_conditions": "BrotherHobby bench (2018-2023 sheets), 8 throttle points (30-100%) per winding on one prop each; 400KV on 8S and again on 12S, 480/640/900/970/1050KV and both 1200KV runs on 6S, 1520KV on 4S",
@@ -11356,7 +11355,8 @@
      }
     ],
     "shaft": "5mm",
-    "dimensions_mm": "Ø37.5x49.5"
+    "dimensions_mm": "Ø37.5x49.5",
+    "mount_bolt_circle_mm": "Ø19 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -11381,7 +11381,6 @@
     "shaft": "M5",
     "configuration": "12N14P",
     "price_usd": 20.49,
-    "mount_mm": "16x16mm (4-M3)",
     "max_thrust_g": 1920,
     "thrust_conditions": "BrotherHobby 2020 bench, 8 throttle points per KV; 1720KV on 6S (40 A), 2400KV on 5S (55 A), 2700KV on 4S (48 A)",
     "thrust_table": [
@@ -11650,7 +11649,8 @@
       "efficiency_gw": 1.89
      }
     ],
-    "dimensions_mm": "Ø27x32.4"
+    "dimensions_mm": "Ø27x32.4",
+    "mount_bolt_circle_mm": "Ø16 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -11658,7 +11658,7 @@
     "https://www.racedayquads.com/products/brotherhobby-vs-2207-2400kv-motor",
     "https://ueeshop.ly200-cdn.com/u_file/UPAH/UPAH113/2505/photo/3bb27b86a0.jpg"
    ],
-   "note": "VS 2207 ships in 1720/2400/2700 KV; 32.5 g (1720/2400 KV) to 33.4 g (2700 KV) with 16 cm wires, body Φ27x32.4 mm, 4-M3 (16 mm) mount"
+   "note": "VS 2207 ships in 1720/2400/2700 KV; 32.5 g (1720/2400 KV) to 33.4 g (2700 KV) with 16 cm wires, body Φ27x32.4 mm, 4-M3 on a Ø16 bolt circle (the Test Report drawing)"
   },
   {
    "type": "motor",
@@ -24602,7 +24602,7 @@
     "shaft": "M1.5x3.75mm",
     "configuration": "9N12P",
     "dimensions_mm": "Ø13.59x8.25",
-    "mount_mm": "3-M1.4-EQS-Ø6.6"
+    "mount_bolt_circle_mm": "Ø6.6 (3-M1.4)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -24852,7 +24852,7 @@
     "shaft": "M1.5x3.8mm",
     "configuration": "9N12P",
     "dimensions_mm": "Ø13.7x9.2",
-    "mount_mm": "3-M1.4-EQS-Ø6.6"
+    "mount_bolt_circle_mm": "Ø6.6 (3-M1.4)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -25014,7 +25014,7 @@
     "shaft": "M1.5x4.8mm",
     "configuration": "9N12P",
     "dimensions_mm": "Ø15.84x8.9",
-    "mount_mm": "4-M2-EQS-Ø9"
+    "mount_bolt_circle_mm": "Ø9 (4-M2)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -25485,7 +25485,7 @@
     "shaft": "M1.5x3.8mm",
     "configuration": "9N12P",
     "dimensions_mm": "Ø19.13x12.25",
-    "mount_mm": "4-M2-EQS-Ø9"
+    "mount_bolt_circle_mm": "Ø9 (4-M2)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -54958,8 +54958,8 @@
     ],
     "configuration": "12N14P",
     "dimensions_mm": "28.6x30",
-    "mount_mm": "Ø16mm (4-M3)",
-    "resistance_mohm": "63 (1950KV) / 43 (2550KV)"
+    "resistance_mohm": "63 (1950KV) / 43 (2550KV)",
+    "mount_bolt_circle_mm": "Ø16 (4-M3)"
    },
    "sources": [
     "https://www.tmotorhobby.com/goods-1094.html"
