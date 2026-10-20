@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-20",
- "count": 327,
+ "count": 326,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
   {
@@ -5095,7 +5095,6 @@
     "c_rating": "80C",
     "weight_g": 35.5,
     "connector": "XT30",
-    "dimensions_mm": "60x27x22mm",
     "energy_wh": 4.6,
     "price_per_wh_usd": 3.18,
     "price_usd": 14.49
@@ -5103,7 +5102,8 @@
    "_scraped_at": "2026-10-20",
    "sources": [
     "https://www.racedayquads.com/products/rdq-series-15-2v-4s-300mah-80c-lihv-battery-long-type-xt30"
-   ]
+   ],
+   "note": "Size withheld (owner ruling 2026-10-20; the page stays): the listing prints 60x27x22mm beside 35.5 g, which is 1.00 g/cm3 - a box about 60% air, against 1.6-2.1 g/cm3 for the other \"Long Type\" packs here. The weight survives its own check against capacity, so the size is the figure that is not this pack's. RDQ Series is RaceDayQuads' own house brand, so there is no second source for a replacement"
   },
   {
    "type": "battery",
@@ -5313,7 +5313,6 @@
     "c_rating": "80C",
     "weight_g": 74.0,
     "connector": "XT30",
-    "dimensions_mm": "72x44x22mm",
     "energy_wh": 10.3,
     "price_per_wh_usd": 2.39,
     "price_usd": 24.49
@@ -5321,7 +5320,8 @@
    "_scraped_at": "2026-10-20",
    "sources": [
     "https://www.racedayquads.com/products/rdq-series-22-8v-6s-450mah-80c-lihv-battery-long-type-xt30"
-   ]
+   ],
+   "note": "Size withheld (owner ruling 2026-10-20; the page stays): the listing prints 72x44x22mm beside 74 g, which is 1.06 g/cm3 - a box more than half air, against 1.6-2.1 g/cm3 for the other \"Long Type\" packs here. The weight survives its own check against capacity, so the size is the figure that is not this pack's. RDQ Series is RaceDayQuads' own house brand, so there is no second source for a replacement"
   },
   {
    "type": "battery",
@@ -5606,28 +5606,6 @@
    "_scraped_at": "2026-10-20",
    "sources": [
     "https://www.racedayquads.com/products/rdq-series-22-2v-6s-6000mah-100c-lipo-battery-xt150"
-   ]
-  },
-  {
-   "type": "battery",
-   "brand": "RDQ",
-   "model": "RDQ Series 6500mAh 6S",
-   "slug": "rdq-rdq-series-6500mah-6s",
-   "specs": {
-    "chemistry": "LiHV",
-    "cells": "6S",
-    "capacity_mah": 6500,
-    "c_rating": "70C",
-    "weight_g": 702.0,
-    "connector": "XT90",
-    "dimensions_mm": "141x44x52mm",
-    "energy_wh": 148.2,
-    "price_per_wh_usd": 1.14,
-    "price_usd": 168.99
-   },
-   "_scraped_at": "2026-10-20",
-   "sources": [
-    "https://www.racedayquads.com/products/rdq-series-22-8v-6s-6500mah-70c-lihv-battery-xt90"
    ]
   },
   {
