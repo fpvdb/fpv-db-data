@@ -2745,41 +2745,49 @@
   },
   {
    "type": "vtx",
-   "brand": "IMMERSIONRC",
+   "brand": "ImmersionRC",
    "model": "Ghost Hybrid DUO V2 2.4GHz Diversity Receiver & 25-600mW 5.8GHz 20x20",
    "slug": "immersionrc-ghost-hybrid-duo-v2-2-4ghz-diversity-receiver-25-600mw-5-8ghz-20x20",
    "specs": {
     "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 600,
-    "mount_mm": "20x20mm",
+    "mount_mm": "20x20mm / 25.5x25.5mm",
     "antenna_connector": "U.FL",
     "weight_g": 2.2,
-    "price_usd": 82.49
+    "price_usd": 82.49,
+    "channels": 48,
+    "input_voltage": "5V"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
-    "https://www.racedayquads.com/products/immersionrc-ghost-hybrid-duo-v2-2-4ghz-receiver-20-600mw-5-8ghz-vtx"
-   ]
+    "https://www.racedayquads.com/products/immersionrc-ghost-hybrid-duo-v2-2-4ghz-receiver-20-600mw-5-8ghz-vtx",
+    "https://web.archive.org/web/20260117000008/https://www.immersionrc.com/fpv-products/ghosthybridv2/"
+   ],
+   "note": "Manufacturer source, read 2026-10-20 from the Web Archive copy of 2026-01-17 (immersionrc.com itself answers 503 'Site en maintenance'): ImmersionRC's Ghost Hybrid V2 page, one page for the Uno and Duo boards, prints '5.8GHz 1-600mW Video Transmitter', 'All 48 Standard Channels', 'Power Supply: 5V, with Over Voltage Protection', 'Antenna Connectors: Standard U.FL with Locking Connectors', '26mm x 26mm, 2.2g (w/o antennas)' and '20 x 20, or 25.5 x 25.5mm Mounting', with the footnote 'Available vTx channels and power may vary from region to region to comply with local regulations'. channels is that 48 as shipped on the standard SKU. The page and the Ghost Users Manual v2.6 (Appendix B: region power limits only) name no frequencies, so frequency_range keeps the '5.8 GHz' label. power_levels_mw is not filled: the maker states only the 1-600 mW range, and the listing's 25-600 / 20-600 is the retailer's."
   },
   {
    "type": "vtx",
-   "brand": "IMMERSIONRC",
+   "brand": "ImmersionRC",
    "model": "Ghost Hybrid UNO V2 2.4GHz Receiver & 20-600mW 5.8GHz 20x20",
    "slug": "immersionrc-ghost-hybrid-uno-v2-2-4ghz-receiver-20-600mw-5-8ghz-20x20",
    "specs": {
     "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 600,
-    "mount_mm": "20x20mm",
+    "mount_mm": "20x20mm / 25.5x25.5mm",
     "antenna_connector": "U.FL",
     "weight_g": 2.2,
-    "price_usd": 54.99
+    "price_usd": 54.99,
+    "channels": 48,
+    "input_voltage": "5V"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
-    "https://www.racedayquads.com/products/immersionrc-ghost-hybrid-uno-v2-2-4ghz-receiver-20-600mw-5-8ghz-vtx"
-   ]
+    "https://www.racedayquads.com/products/immersionrc-ghost-hybrid-uno-v2-2-4ghz-receiver-20-600mw-5-8ghz-vtx",
+    "https://web.archive.org/web/20260117000008/https://www.immersionrc.com/fpv-products/ghosthybridv2/"
+   ],
+   "note": "Manufacturer source, read 2026-10-20 from the Web Archive copy of 2026-01-17 (immersionrc.com itself answers 503 'Site en maintenance'): ImmersionRC's Ghost Hybrid V2 page, one page for the Uno and Duo boards, prints '5.8GHz 1-600mW Video Transmitter', 'All 48 Standard Channels', 'Power Supply: 5V, with Over Voltage Protection', 'Antenna Connectors: Standard U.FL with Locking Connectors', '26mm x 26mm, 2.2g (w/o antennas)' and '20 x 20, or 25.5 x 25.5mm Mounting', with the footnote 'Available vTx channels and power may vary from region to region to comply with local regulations'. channels is that 48 as shipped on the standard SKU. The page and the Ghost Users Manual v2.6 (Appendix B: region power limits only) name no frequencies, so frequency_range keeps the '5.8 GHz' label. power_levels_mw is not filled: the maker states only the 1-600 mW range, and the listing's 25-600 / 20-600 is the retailer's."
   },
   {
    "type": "vtx",
