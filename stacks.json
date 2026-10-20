@@ -730,7 +730,7 @@
   {
    "type": "stack",
    "brand": "Flywoo",
-   "model": "GOKU Versatile F405 1-2S AIO Whoop/Toothpick (w/12A 8Bit 4in1 ESC & 400mW ) - ELRS 2.4GHz",
+   "model": "GOKU Versatile F405 1-2S AIO Whoop/Toothpick (w/12A 8Bit 4in1 ESC & 400mW) - ELRS 2.4GHz",
    "slug": "flywoo-goku-versatile-f405-1-2s-aio-whoop-toothpick-w-12a-8bit-4in1-esc-400mw-elrs-2-4ghz",
    "specs": {
     "mcu": "F405",
@@ -882,7 +882,7 @@
   {
    "type": "stack",
    "brand": "GEPRC",
-   "model": "Stable F4 2-4S AIO Whoop/Toothpick (w/ 12A 8Bit 4in1 ESC & 200mW U.FL )",
+   "model": "Stable F4 2-4S AIO Whoop/Toothpick (w/ 12A 8Bit 4in1 ESC & 200mW U.FL)",
    "slug": "geprc-stable-f4-2-4s-aio-whoop-toothpick-w-12a-8bit-4in1-esc-200mw-u-fl",
    "specs": {
     "mcu": "F411",
@@ -1338,7 +1338,7 @@
   {
    "type": "stack",
    "brand": "HGLRC",
-   "model": "Specter F411 1-2S AIO Whoop/Toothpick (w/ 10A 8Bit 4in1 ESC & 400mW ) - ELRS 2.4GHz (SPI)",
+   "model": "Specter F411 1-2S AIO Whoop/Toothpick (w/ 10A 8Bit 4in1 ESC & 400mW) - ELRS 2.4GHz (SPI)",
    "slug": "hglrc-specter-f411-1-2s-aio-whoop-toothpick-w-10a-8bit-4in1-esc-400mw-elrs-2-4ghz-spi",
    "specs": {
     "mcu": "F411",
@@ -1770,7 +1770,7 @@
   {
    "type": "stack",
    "brand": "NewBeeDrone",
-   "model": "HummingBird V3 F411 1S AIO Whoop/Toothpick (w/12A 8Bit 4in1 ESC & 25mW ) - ELRS 2.4GHz (SPI)",
+   "model": "HummingBird V3 F411 1S AIO Whoop/Toothpick (w/12A 8Bit 4in1 ESC & 25mW) - ELRS 2.4GHz (SPI)",
    "slug": "newbeedrone-hummingbird-v3-f411-1s-aio-whoop-toothpick-w-12a-8bit-4in1-esc-25mw-elrs-2-4ghz-spi",
    "specs": {
     "mcu": "F411",
