@@ -25800,7 +25800,7 @@
     "https://www.racedayquads.com/products/iflight-bob57-2506-motor-1500kv",
     "https://shop.iflight.com/BOB57-2506-1500KV-6S-FPV-Motor-Pro1786"
    ],
-   "note": "iFlight's own block for the BOB57 2506 1500KV confirms the 38.2 g this page carried and adds 12N14P, 16x16 M3, 74.88 mOhm, a 5 mm shaft protruding 15 mm, 25.2 V and a 33.26 A / 817.5 W peak. Its Dimension line reads 31.7x19.6 mm where the XING2 2506's block - same 1500KV resistance, same peak current, same max watts, so electrically the same winding - reads 31.7x34.6 mm; the 15 mm difference is that motor's stated shaft protrusion, so the two pages appear to print the dimension with and without the shaft. Both are published as printed"
+   "note": "iFlight's own block for the BOB57 2506 1500KV confirms the 38.2 g this page carried and adds 12N14P, 16x16 M3, 74.88 mOhm, a 5 mm shaft protruding 15 mm, 25.2 V and a 33.26 A / 817.5 W peak. Its Dimension line reads 31.7x19.6 mm where the XING2 2506's block - same 1500KV resistance, same peak current, same max watts, so electrically the same winding - reads 31.7x34.6 mm; the 15 mm difference is that motor's stated shaft protrusion, so the two pages appear to print the dimension with and without the shaft. Both are published as printed. iFlight's own block for the BOB57 2506 1500KV confirms the 38.2 g this page carried and adds 12N14P, 16x16 M3, 74.88 mOhm, a 5 mm shaft protruding 15 mm, 25.2 V and a 33.26 A / 817.5 W peak. Its Dimension line reads 31.7x19.6 mm where the XING2 2506's block - same 1500KV resistance, same peak current, same max watts, so electrically the same winding - reads 31.7x34.6 mm; the 15 mm difference is that motor's stated shaft protrusion, so the two pages appear to print the dimension with and without the shaft. Both are published as printed. iFlight's BOB57 product page carries a TEST REPORT image (2506 1500KV.png) headed XING2 2506 1500KV: its Dimension line (31.7x19.6 mm) is this page's, but its 12-row datasheet is the XING2 2506 1500KV report row for row. The rows are published on the XING2 2506 page, the motor the sheet names, and not repeated here"
   },
   {
    "type": "motor",
@@ -25816,17 +25816,285 @@
     "max_cells": "8S",
     "shaft": "5mm",
     "configuration": "12N14P",
-    "dimensions_mm": "Ø38.72x39.6",
+    "dimensions_mm": "Ø38.72x24.6",
     "mount_mm": "19x19mm (M3)",
     "price_usd": 55.49,
-    "resistance_mohm": "78 (900KV)"
+    "resistance_mohm": "78 (900KV)",
+    "max_thrust_g": 4311.4,
+    "thrust_conditions": "iFlight test report (headed XING2 3110 900KV), 6 throttle points (50-100%): GF 7*4*3, HQ 8*4*3 and HQ 9*5*3 at 8S (33.6 V), HQ 10*5*3 at 6S",
+    "thrust_table": [
+     {
+      "kv": 900,
+      "prop": "GF 7*4*3",
+      "cells": "8S",
+      "throttle": 50,
+      "voltage_v": 33.56,
+      "current_a": 4.86,
+      "rpm": null,
+      "thrust_g": 721.2,
+      "efficiency_gw": 4.42
+     },
+     {
+      "kv": 900,
+      "prop": "GF 7*4*3",
+      "cells": "8S",
+      "throttle": 60,
+      "voltage_v": 33.53,
+      "current_a": 7.82,
+      "rpm": null,
+      "thrust_g": 1036.0,
+      "efficiency_gw": 3.95
+     },
+     {
+      "kv": 900,
+      "prop": "GF 7*4*3",
+      "cells": "8S",
+      "throttle": 70,
+      "voltage_v": 33.47,
+      "current_a": 11.92,
+      "rpm": null,
+      "thrust_g": 1411.9,
+      "efficiency_gw": 3.54
+     },
+     {
+      "kv": 900,
+      "prop": "GF 7*4*3",
+      "cells": "8S",
+      "throttle": 80,
+      "voltage_v": 33.39,
+      "current_a": 17.12,
+      "rpm": null,
+      "thrust_g": 1844.6,
+      "efficiency_gw": 3.23
+     },
+     {
+      "kv": 900,
+      "prop": "GF 7*4*3",
+      "cells": "8S",
+      "throttle": 90,
+      "voltage_v": 33.3,
+      "current_a": 23.88,
+      "rpm": null,
+      "thrust_g": 2250.8,
+      "efficiency_gw": 2.83
+     },
+     {
+      "kv": 900,
+      "prop": "GF 7*4*3",
+      "cells": "8S",
+      "throttle": 100,
+      "voltage_v": 33.19,
+      "current_a": 31.74,
+      "rpm": null,
+      "thrust_g": 2612.3,
+      "efficiency_gw": 2.48
+     },
+     {
+      "kv": 900,
+      "prop": "HQ 8*4*3",
+      "cells": "8S",
+      "throttle": 50,
+      "voltage_v": 33.51,
+      "current_a": 9.05,
+      "rpm": null,
+      "thrust_g": 1302.9,
+      "efficiency_gw": 4.3
+     },
+     {
+      "kv": 900,
+      "prop": "HQ 8*4*3",
+      "cells": "8S",
+      "throttle": 60,
+      "voltage_v": 33.43,
+      "current_a": 14.72,
+      "rpm": null,
+      "thrust_g": 1780.0,
+      "efficiency_gw": 3.62
+     },
+     {
+      "kv": 900,
+      "prop": "HQ 8*4*3",
+      "cells": "8S",
+      "throttle": 70,
+      "voltage_v": 33.33,
+      "current_a": 21.68,
+      "rpm": null,
+      "thrust_g": 2317.1,
+      "efficiency_gw": 3.21
+     },
+     {
+      "kv": 900,
+      "prop": "HQ 8*4*3",
+      "cells": "8S",
+      "throttle": 80,
+      "voltage_v": 33.21,
+      "current_a": 30.4,
+      "rpm": null,
+      "thrust_g": 2970.5,
+      "efficiency_gw": 2.94
+     },
+     {
+      "kv": 900,
+      "prop": "HQ 8*4*3",
+      "cells": "8S",
+      "throttle": 90,
+      "voltage_v": 33.05,
+      "current_a": 41.91,
+      "rpm": null,
+      "thrust_g": 3520.5,
+      "efficiency_gw": 2.54
+     },
+     {
+      "kv": 900,
+      "prop": "HQ 8*4*3",
+      "cells": "8S",
+      "throttle": 100,
+      "voltage_v": 32.88,
+      "current_a": 52.79,
+      "rpm": null,
+      "thrust_g": 4013.8,
+      "efficiency_gw": 2.31
+     },
+     {
+      "kv": 900,
+      "prop": "HQ 9*5*3",
+      "cells": "8S",
+      "throttle": 50,
+      "voltage_v": 33.48,
+      "current_a": 11.34,
+      "rpm": null,
+      "thrust_g": 1632.5,
+      "efficiency_gw": 4.3
+     },
+     {
+      "kv": 900,
+      "prop": "HQ 9*5*3",
+      "cells": "8S",
+      "throttle": 60,
+      "voltage_v": 33.35,
+      "current_a": 19.79,
+      "rpm": null,
+      "thrust_g": 2178.6,
+      "efficiency_gw": 3.3
+     },
+     {
+      "kv": 900,
+      "prop": "HQ 9*5*3",
+      "cells": "8S",
+      "throttle": 70,
+      "voltage_v": 33.26,
+      "current_a": 27.29,
+      "rpm": null,
+      "thrust_g": 2872.4,
+      "efficiency_gw": 3.16
+     },
+     {
+      "kv": 900,
+      "prop": "HQ 9*5*3",
+      "cells": "8S",
+      "throttle": 80,
+      "voltage_v": 33.09,
+      "current_a": 39.09,
+      "rpm": null,
+      "thrust_g": 3509.0,
+      "efficiency_gw": 2.71
+     },
+     {
+      "kv": 900,
+      "prop": "HQ 9*5*3",
+      "cells": "8S",
+      "throttle": 90,
+      "voltage_v": 32.92,
+      "current_a": 50.99,
+      "rpm": null,
+      "thrust_g": 4044.7,
+      "efficiency_gw": 2.41
+     },
+     {
+      "kv": 900,
+      "prop": "HQ 9*5*3",
+      "cells": "8S",
+      "throttle": 100,
+      "voltage_v": 32.71,
+      "current_a": 65.54,
+      "rpm": null,
+      "thrust_g": 4311.4,
+      "efficiency_gw": 2.01
+     },
+     {
+      "kv": 900,
+      "prop": "HQ 10*5*3",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 24.91,
+      "current_a": 9.95,
+      "rpm": null,
+      "thrust_g": 789,
+      "efficiency_gw": 3.18
+     },
+     {
+      "kv": 900,
+      "prop": "HQ 10*5*3",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 24.36,
+      "current_a": 16.38,
+      "rpm": null,
+      "thrust_g": 1191,
+      "efficiency_gw": 2.98
+     },
+     {
+      "kv": 900,
+      "prop": "HQ 10*5*3",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 23.73,
+      "current_a": 23.85,
+      "rpm": null,
+      "thrust_g": 1639,
+      "efficiency_gw": 2.9
+     },
+     {
+      "kv": 900,
+      "prop": "HQ 10*5*3",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 23.18,
+      "current_a": 34.58,
+      "rpm": null,
+      "thrust_g": 2193,
+      "efficiency_gw": 2.74
+     },
+     {
+      "kv": 900,
+      "prop": "HQ 10*5*3",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 22.58,
+      "current_a": 46.85,
+      "rpm": null,
+      "thrust_g": 2768,
+      "efficiency_gw": 2.62
+     },
+     {
+      "kv": 900,
+      "prop": "HQ 10*5*3",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 21.86,
+      "current_a": 49.85,
+      "rpm": null,
+      "thrust_g": 2906,
+      "efficiency_gw": 2.67
+     }
+    ]
    },
    "_scraped_at": "2026-10-20",
    "sources": [
     "https://www.racedayquads.com/products/iflight-helion-10-3110-motor-900kv",
     "https://shop.iflight.com/Helion10-3110-Motor-Pro2136"
    ],
-   "note": "iFlight's own block for the Helion 10 3110 confirms the 900KV and the 77 g this page carried and adds 12N14P, 19x19 M3, 78 mOhm, Ø38.72x39.6 mm, a 5 mm shaft protruding 15 mm, 260 mm 18AWG leads, 33.6 V (8S) and a 65.54 A / 2143.8 W peak. No bench table"
+   "note": "iFlight's own block for the Helion 10 3110 confirms the 900KV and the 77 g this page carried and adds 12N14P, 19x19 M3, 78 mOhm, Ø38.72x39.6 mm, a 5 mm shaft protruding 15 mm, 260 mm 18AWG leads, 33.6 V (8S) and a 65.54 A / 2143.8 W peak. No bench table. iFlight's product page for the Helion 10 3110 carries a TEST REPORT image headed XING2 3110 900KV: the spec table, a drawing and a 24-row datasheet. It matches this page's block - 900KV, 77 g with wire, 78 mOhm, 33.6 V, 19x19 M3, 12N14P, a 5 mm shaft protruding 15 mm, 260 mm 18AWG leads - and its 65.54 A / 2143.8 W peak is the HQ 9*5*3 100% row. Its Dimension line and its drawing both give the body as Ø38.72x24.6 mm, where the block prints 39.6 (24.6 plus the 15 mm shaft), so the report's figure is published. The HQ 10*5*3 run was made at 6S (21.9-24.9 V), the other three at 8S. All 24 rows pass the efficiency identity; max thrust is 4311.4 g on the HQ 9*5*3 at 8S."
   },
   {
    "type": "motor",
@@ -25871,7 +26139,143 @@
     "dimensions_mm": "Ø17.58x16",
     "mount_mm": "9x9mm (M2)",
     "price_usd": 19.49,
-    "resistance_mohm": "386 (5000KV)"
+    "resistance_mohm": "386 (5000KV)",
+    "max_thrust_g": 198,
+    "thrust_conditions": "iFlight test report, 6 throttle points (50-100%) at 16 V (4S) on a 2540 and a 2X2X4 prop, as printed (no prop brand given)",
+    "thrust_table": [
+     {
+      "kv": 5000,
+      "prop": "2540",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16,
+      "current_a": 2.22,
+      "rpm": null,
+      "thrust_g": 98,
+      "efficiency_gw": 2.759
+     },
+     {
+      "kv": 5000,
+      "prop": "2540",
+      "cells": "4S",
+      "throttle": 60,
+      "voltage_v": 16,
+      "current_a": 3.04,
+      "rpm": null,
+      "thrust_g": 119,
+      "efficiency_gw": 2.447
+     },
+     {
+      "kv": 5000,
+      "prop": "2540",
+      "cells": "4S",
+      "throttle": 70,
+      "voltage_v": 16,
+      "current_a": 4.12,
+      "rpm": null,
+      "thrust_g": 139,
+      "efficiency_gw": 2.109
+     },
+     {
+      "kv": 5000,
+      "prop": "2540",
+      "cells": "4S",
+      "throttle": 80,
+      "voltage_v": 16,
+      "current_a": 5.02,
+      "rpm": null,
+      "thrust_g": 171,
+      "efficiency_gw": 2.129
+     },
+     {
+      "kv": 5000,
+      "prop": "2540",
+      "cells": "4S",
+      "throttle": 90,
+      "voltage_v": 16,
+      "current_a": 5.41,
+      "rpm": null,
+      "thrust_g": 181,
+      "efficiency_gw": 2.091
+     },
+     {
+      "kv": 5000,
+      "prop": "2540",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16,
+      "current_a": 6.13,
+      "rpm": null,
+      "thrust_g": 198,
+      "efficiency_gw": 2.019
+     },
+     {
+      "kv": 5000,
+      "prop": "2X2X4",
+      "cells": "4S",
+      "throttle": 50,
+      "voltage_v": 16,
+      "current_a": 1.62,
+      "rpm": null,
+      "thrust_g": 75,
+      "efficiency_gw": 2.894
+     },
+     {
+      "kv": 5000,
+      "prop": "2X2X4",
+      "cells": "4S",
+      "throttle": 60,
+      "voltage_v": 16,
+      "current_a": 2.49,
+      "rpm": null,
+      "thrust_g": 107,
+      "efficiency_gw": 2.686
+     },
+     {
+      "kv": 5000,
+      "prop": "2X2X4",
+      "cells": "4S",
+      "throttle": 70,
+      "voltage_v": 16,
+      "current_a": 3.07,
+      "rpm": null,
+      "thrust_g": 117,
+      "efficiency_gw": 2.382
+     },
+     {
+      "kv": 5000,
+      "prop": "2X2X4",
+      "cells": "4S",
+      "throttle": 80,
+      "voltage_v": 16,
+      "current_a": 4.12,
+      "rpm": null,
+      "thrust_g": 147,
+      "efficiency_gw": 2.23
+     },
+     {
+      "kv": 5000,
+      "prop": "2X2X4",
+      "cells": "4S",
+      "throttle": 90,
+      "voltage_v": 16,
+      "current_a": 5.01,
+      "rpm": null,
+      "thrust_g": 169,
+      "efficiency_gw": 2.108
+     },
+     {
+      "kv": 5000,
+      "prop": "2X2X4",
+      "cells": "4S",
+      "throttle": 100,
+      "voltage_v": 16,
+      "current_a": 5.39,
+      "rpm": null,
+      "thrust_g": 180,
+      "efficiency_gw": 2.087
+     }
+    ]
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -25879,7 +26283,7 @@
     "https://www.racedayquads.com/products/iflight-xing-1303-micro-motor-5000kv",
     "https://shop.iflight.com/xing-1303-5000kv-fpv-micro-motor-pro1292"
    ],
-   "note": "iFlight's own block for the XING 1303 confirms 5000KV, 6.5 g, 3-4S and the 1.5 mm shaft this page carried, and adds Ø17.58x16 mm, 9x9 M2, 386 mOhm and a 6.13 A / 98.1 W peak. Its Configuration line says 12N14P, which is unusual for a 1303-class stator (nine of our ten other motors this size are 9N12P); it is published as printed. No bench table"
+   "note": "iFlight's own block for the XING 1303 confirms 5000KV, 6.5 g, 3-4S and the 1.5 mm shaft this page carried, and adds Ø17.58x16 mm, 9x9 M2, 386 mOhm and a 6.13 A / 98.1 W peak. Its Configuration line says 12N14P, which is unusual for a 1303-class stator (nine of our ten other motors this size are 9N12P); it is published as printed. No bench table. iFlight's product page carries a TEST REPORT image (XING-1303-5000KV.png): the spec table, a drawing and a 12-row datasheet. It confirms 5000KV, 6.5 g with wire, Ø17.58x16 mm, 386 mOhm, 3-4S, 9x9 M2, a 1.5 mm shaft protruding 4 mm, 120 mm 26AWG leads and 12N14P (unusual for a 1303-class stator, published as printed), and its 6.13 A / 98.1 W peak is the 2540 prop's 100% row. The sheet prints a flat 16 V and power to the watt, so the efficiency column follows V x A unrounded; all 12 rows pass it. Max thrust is 198 g on the 2540 at 4S."
   },
   {
    "type": "motor",
@@ -26384,8 +26788,276 @@
     "mount_mm": "16x16mm (M3)",
     "price_usd": 31.49,
     "shaft": "5mm",
-    "dimensions_mm": "Ø31.7x34.6",
-    "resistance_mohm": "74.88 (1500KV) / 47.6 (1850KV)"
+    "dimensions_mm": "Ø31.7x19.6",
+    "resistance_mohm": "74.88 (1500KV) / 47.6 (1850KV)",
+    "max_thrust_g": 1993,
+    "thrust_conditions": "iFlight test report per winding, 6 throttle points (50-100%) at 6S (25.2 V): 1500 KV on HQ 6*2.5*3 and Gemfan 6030-3, 1850 KV on Nazgul 5140 and Gemfan 51466",
+    "thrust_table": [
+     {
+      "kv": 1500,
+      "prop": "HQ 6*2.5*3",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 25.17,
+      "current_a": 5.57,
+      "rpm": null,
+      "thrust_g": 532,
+      "efficiency_gw": 3.792
+     },
+     {
+      "kv": 1500,
+      "prop": "HQ 6*2.5*3",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 25.14,
+      "current_a": 8.9,
+      "rpm": null,
+      "thrust_g": 761,
+      "efficiency_gw": 3.401
+     },
+     {
+      "kv": 1500,
+      "prop": "HQ 6*2.5*3",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 25.04,
+      "current_a": 12.88,
+      "rpm": null,
+      "thrust_g": 1006,
+      "efficiency_gw": 3.12
+     },
+     {
+      "kv": 1500,
+      "prop": "HQ 6*2.5*3",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 24.92,
+      "current_a": 18.39,
+      "rpm": null,
+      "thrust_g": 1293,
+      "efficiency_gw": 2.822
+     },
+     {
+      "kv": 1500,
+      "prop": "HQ 6*2.5*3",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 24.76,
+      "current_a": 24.36,
+      "rpm": null,
+      "thrust_g": 1558,
+      "efficiency_gw": 2.583
+     },
+     {
+      "kv": 1500,
+      "prop": "HQ 6*2.5*3",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24.6,
+      "current_a": 31.81,
+      "rpm": null,
+      "thrust_g": 1860,
+      "efficiency_gw": 2.376
+     },
+     {
+      "kv": 1500,
+      "prop": "Gemfan 6030-3",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 25.19,
+      "current_a": 6.33,
+      "rpm": null,
+      "thrust_g": 594,
+      "efficiency_gw": 3.723
+     },
+     {
+      "kv": 1500,
+      "prop": "Gemfan 6030-3",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 25.12,
+      "current_a": 9.82,
+      "rpm": null,
+      "thrust_g": 829,
+      "efficiency_gw": 3.359
+     },
+     {
+      "kv": 1500,
+      "prop": "Gemfan 6030-3",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 25.02,
+      "current_a": 14.16,
+      "rpm": null,
+      "thrust_g": 1080,
+      "efficiency_gw": 3.047
+     },
+     {
+      "kv": 1500,
+      "prop": "Gemfan 6030-3",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 24.88,
+      "current_a": 19.72,
+      "rpm": null,
+      "thrust_g": 1352,
+      "efficiency_gw": 2.756
+     },
+     {
+      "kv": 1500,
+      "prop": "Gemfan 6030-3",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 24.76,
+      "current_a": 25.91,
+      "rpm": null,
+      "thrust_g": 1607,
+      "efficiency_gw": 2.505
+     },
+     {
+      "kv": 1500,
+      "prop": "Gemfan 6030-3",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24.58,
+      "current_a": 33.26,
+      "rpm": null,
+      "thrust_g": 1872,
+      "efficiency_gw": 2.289
+     },
+     {
+      "kv": 1850,
+      "prop": "Nazgul 5140",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 25.44,
+      "current_a": 10.11,
+      "rpm": null,
+      "thrust_g": 694,
+      "efficiency_gw": 2.697
+     },
+     {
+      "kv": 1850,
+      "prop": "Nazgul 5140",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 25.38,
+      "current_a": 15.1,
+      "rpm": null,
+      "thrust_g": 901,
+      "efficiency_gw": 2.351
+     },
+     {
+      "kv": 1850,
+      "prop": "Nazgul 5140",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 25.32,
+      "current_a": 22.89,
+      "rpm": null,
+      "thrust_g": 1132,
+      "efficiency_gw": 1.954
+     },
+     {
+      "kv": 1850,
+      "prop": "Nazgul 5140",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 25.11,
+      "current_a": 30.25,
+      "rpm": null,
+      "thrust_g": 1333,
+      "efficiency_gw": 1.754
+     },
+     {
+      "kv": 1850,
+      "prop": "Nazgul 5140",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 25.03,
+      "current_a": 39.29,
+      "rpm": null,
+      "thrust_g": 1588,
+      "efficiency_gw": 1.615
+     },
+     {
+      "kv": 1850,
+      "prop": "Nazgul 5140",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 24.99,
+      "current_a": 49.05,
+      "rpm": null,
+      "thrust_g": 1844,
+      "efficiency_gw": 1.505
+     },
+     {
+      "kv": 1850,
+      "prop": "Gemfan 51466",
+      "cells": "6S",
+      "throttle": 50,
+      "voltage_v": 25.55,
+      "current_a": 9.44,
+      "rpm": null,
+      "thrust_g": 726,
+      "efficiency_gw": 3.011
+     },
+     {
+      "kv": 1850,
+      "prop": "Gemfan 51466",
+      "cells": "6S",
+      "throttle": 60,
+      "voltage_v": 25.57,
+      "current_a": 14.33,
+      "rpm": null,
+      "thrust_g": 999,
+      "efficiency_gw": 2.727
+     },
+     {
+      "kv": 1850,
+      "prop": "Gemfan 51466",
+      "cells": "6S",
+      "throttle": 70,
+      "voltage_v": 25.3,
+      "current_a": 21.53,
+      "rpm": null,
+      "thrust_g": 1283,
+      "efficiency_gw": 2.356
+     },
+     {
+      "kv": 1850,
+      "prop": "Gemfan 51466",
+      "cells": "6S",
+      "throttle": 80,
+      "voltage_v": 25.24,
+      "current_a": 28.74,
+      "rpm": null,
+      "thrust_g": 1537,
+      "efficiency_gw": 2.118
+     },
+     {
+      "kv": 1850,
+      "prop": "Gemfan 51466",
+      "cells": "6S",
+      "throttle": 90,
+      "voltage_v": 25.19,
+      "current_a": 37.81,
+      "rpm": null,
+      "thrust_g": 1742,
+      "efficiency_gw": 1.829
+     },
+     {
+      "kv": 1850,
+      "prop": "Gemfan 51466",
+      "cells": "6S",
+      "throttle": 100,
+      "voltage_v": 25.01,
+      "current_a": 50.33,
+      "rpm": null,
+      "thrust_g": 1993,
+      "efficiency_gw": 1.583
+     }
+    ]
    },
    "_scraped_at": "2026-10-20",
    "sources": [
@@ -26394,7 +27066,7 @@
     "https://www.racedayquads.com/products/copy-of-iflight-xing2-2506-1500kv-motor",
     "https://shop.iflight.com/XING2-2506-FPV-Long-Range-Motor-Black-Pro1748"
    ],
-   "note": "iFlight's own block for the XING2 2506 Black confirms both windings (1500KV/1850KV), the 38.2 g this page carried (that is the 1500KV; the 1850KV is 43.6 g) and the 5 mm shaft, and adds Ø31.7x34.6 mm, 16x16 M3, 12N14P, 74.88/47.6 mOhm, 25.2 V and peaks of 33.26 A / 817.5 W and 50.33 A / 1258.8 W. No bench table"
+   "note": "iFlight's own block for the XING2 2506 Black confirms both windings (1500KV/1850KV), the 38.2 g this page carried (that is the 1500KV; the 1850KV is 43.6 g) and the 5 mm shaft, and adds Ø31.7x34.6 mm, 16x16 M3, 12N14P, 74.88/47.6 mOhm, 25.2 V and peaks of 33.26 A / 817.5 W and 50.33 A / 1258.8 W. No bench table. iFlight's product page carries one TEST REPORT image per winding (XING2-2506-1500KV.png and -1850KV.png): the spec table, a drawing and a 12-row datasheet. They confirm both windings, 38.2 g / 43.6 g with wire, 16x16 M3, 12N14P, 74.88 / 47.6 mOhm, a 5 mm shaft protruding 15 mm, 160 mm 20AWG leads and the 33.26 A / 817.5 W and 50.33 A / 1258.8 W peaks (each the 100% row of its own datasheet). Both reports' Dimension line reads 31.7x34.6 mm, but their drawings dimension the body at 19.60 mm, and 34.6 is 19.6 plus the 15 mm shaft protrusion, so the body is published as Ø31.7x19.6 (the length the BOB57 2506 report prints for the same winding). All 24 rows pass the efficiency identity. Max thrust is the 1850 KV winding's 1993 g on the Gemfan 51466 at 6S."
   },
   {
    "type": "motor",
