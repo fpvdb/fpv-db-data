@@ -576,7 +576,8 @@
    "_scraped_at": "2026-10-20",
    "sources": [
     "https://www.racedayquads.com/products/flycolor-speedypizza-crustcore-stack-f7-fc-60a-3-6s-blheli_32-4-in-1-esc-icm42688-20x20"
-   ]
+   ],
+   "note": "mcu is F405 although the listing's name and prose say \"F7 FC\": the same RaceDayQuads listing prints a labelled \"MCU: STM32F405\" line, and a labelled spec line outranks a product name (owner, 2026-10-20). The slug keeps the F7 from the retail title because a published URL does not move."
   },
   {
    "type": "stack",
