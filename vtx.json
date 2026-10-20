@@ -79,12 +79,19 @@
     "frequency_range": "5.8 GHz",
     "system": "analog",
     "max_power_mw": 1000,
-    "price_usd": 32.49
+    "price_usd": 32.49,
+    "input_voltage": "7-26V",
+    "power_levels_mw": "25 / 200 / 600 / 1000",
+    "antenna_connector": "MMCX / U.FL",
+    "weight_g": 6.5
    },
    "_scraped_at": "2026-10-20",
    "sources": [
-    "https://www.racedayquads.com/products/rdq-mach-3-video-transmitter-25-1000mw-5-8ghz-vtx-choose-version"
-   ]
+    "https://www.racedayquads.com/products/rdq-mach-3-video-transmitter-25-1000mw-5-8ghz-vtx-choose-version",
+    "https://www.dropbox.com/s/rf84ajx7gjkvke7/Mach3%20manual.pdf?dl=0",
+    "https://drive.google.com/open?id=1rh64JYnL7s6c_ZGqR359c_p-HTBXi2pV"
+   ],
+   "note": "Cited to the Mach 3 manual ('Mach 3 Video Transmitter Manual', 'Video Transmitter by RDQ'), linked from RaceDayQuads' own listing of its house-brand transmitter, read 2026-10-20: 'Input voltage: 7V to 26V', 'Video Power: 25mW 200mW 600mW 1000mW', 'Pigtail Type & Connector: SMA Female; MMCX', 'Dimensions: (MMCX): 30.5 (H) x 20 (W) x 8 (D) mm', 'Weight: 6.5g', and Audio Control (TBS SmartAudio). The listing sells two versions, MMCX and U.FL, hence both connectors; its power line adds a 0 mW pit setting. frequency_range keeps the band label: the manual's Frequency Table is the 40-cell A/B/E/F/R grid 5645-5945 MHz, but the same manual says the radio 'does not transmit 5645, 5925, 5945' (US-legal) and that selecting them 'will result in poor/unusable video', so the grid's edges are not its range and no other span is printed; channels stays empty for the same reason (40 cells, 37 transmitted, no count stated). The Betaflight table the listing links (Google Drive) prints the same grid and labels 25 200 600 1000; it is not offered as a Betaflight table here, because '1000' is four characters and Betaflight takes at most three."
   },
   {
    "type": "vtx",
