@@ -753,7 +753,7 @@
     "price_usd": 19.49,
     "shaft": "5mm",
     "configuration": "12N14P",
-    "max_thrust_g": 1798.2,
+    "max_thrust_g": 1702.7,
     "thrust_conditions": "Axisflying bench, 6S, 8 throttle points (30-100%) per KV on two 5in props; 1860/1960/2050/2100 KV tested",
     "thrust_table": [
      {
@@ -1470,7 +1470,7 @@
     "https://www.racedayquads.com/products/pre-order-axisflying-ae2207-v2-2207-1960kv-motor",
     "https://www.axisflying.com/products/5inch-brushless-economic-fpv-motor-ae2207-v2"
    ],
-   "note": "Axisflying publishes bench runs for the 1860/1960/2050/2100 KV versions (a 1750 KV exists but has no published test table). Prop labels are reproduced as Axisflying prints them (BB4943.5, 51466/GF 51466, BB39). 35.2 g with wire, 27.5x33.2 mm, 12N14P, 64.46 mOhm at 1960 KV. Motor temperature at full throttle ranges 45.7-94 degC depending on KV and prop"
+   "note": "Axisflying publishes bench runs for the 1860/1960/2050/2100 KV versions (a 1750 KV exists but has no published test table). Prop labels are reproduced as Axisflying prints them (BB4943.5, 51466/GF 51466, BB39). 35.2 g with wire, 27.5x33.2 mm, 12N14P, 64.46 mOhm at 1960 KV. Motor temperature at full throttle ranges 45.7-94 degC depending on KV and prop. max_thrust_g is the sold winding's own best (owner ruling 2026-10-20: it comes from a winding the page sells; rows of other windings stay)."
   },
   {
    "type": "motor",
@@ -2342,7 +2342,7 @@
     "dimensions_mm": "Ø27.5x33.4",
     "mount_mm": "16x16mm (M3)",
     "price_usd": 41.49,
-    "max_thrust_g": 1950.54,
+    "max_thrust_g": 1814.7,
     "thrust_conditions": "Axisflying bench, 1975 KV (Proxy Edition) and 2125 KV (Extreme Edition) at 6S / 24.00 V and 2725 KV at 4S / 16.00 V, on a BB4943.5 and a GF 51466; 20-100% in tens on the 6S windings, 30-100% on the 4S one",
     "thrust_table": [
      {
@@ -2926,7 +2926,7 @@
     "https://www.racedayquads.com/products/axisflying-blackbird-v3-2207-1975kv-motor",
     "https://www.axisflying.com/products/axisflying-black-bird-bb2207-brushless-motor-for-5-6inch-fpv-drone-freestyle-sbang-bando-diy-part"
    ],
-   "note": "Axisflying publishes the whole Black Bird V3 sheet as description images on its own product page: a SPECS table, a dimension drawing and a TEST DATA table of 52 rows - three windings on two props, 20-100% in tens at 24.00 V for the 1975 and 2125 KV and 30-100% at 16.00 V for the 2725 KV. Identity with the RaceDayQuads listing we price from is the stator (2207.3), the 1975 KV winding and the 32.6 g weight, which is the SPECS table's Weight (Excl.Cable); the page body states 36.5 g for the same motor including its 150 mm cables, so the two figures are the same motor with and without its leads. The brand sells the 1975 KV as the Proxy Edition and the 2125 KV as the Extreme Edition, both 6S; the 2725 KV in the SPECS table is the 4S winding, which is what its Rated Voltage row (4~6S/4S) separates. The spec-block cross-check lands on all three windings, each time on the GF 51466 run: Peak Current 44.7 / 53.7 / 48 A against 44.7, 53.7 and 47.9 A at 100%, and Max.Power 1070 / 1288 / 766 W against 1072.61, 1288.79 and 766.22 W. Max thrust is the 2125 KV GF 51466 100% row, 1950.54 g, which the body restates as \"can get over 1.9KG and most current is about 50A\"; the 1975 KV winding our source sells peaks at 1814.7 g. Four source facts recorded rather than repaired. The 1975 KV GF 51466 100% row prints an RPM of 23157 between a 90% row of 30326 and nothing above it, so that row publishes no RPM. The 1975 KV BB4943.5 run's printed efficiency rises at 70% (2.38 -> 2.45 g/W) before falling again. The 2725 KV BB4943.5 run's efficiency also rises at 100% (1.91 -> 1.98 g/W) and its 40-50% step adds 8.89 A for 209 g where every neighbouring step adds less current for more thrust. And the mount is a bolt circle, not a square: the drawing calls out 4-M3 on a circle 16 mm across and the body says \"Motor mounting hole size: 4*M3 (16mm)\", i.e. an 11.3 mm square in the pattern a frame sees, so mount_mm stays empty as it does on every other Axisflying page here."
+   "note": "Axisflying publishes the whole Black Bird V3 sheet as description images on its own product page: a SPECS table, a dimension drawing and a TEST DATA table of 52 rows - three windings on two props, 20-100% in tens at 24.00 V for the 1975 and 2125 KV and 30-100% at 16.00 V for the 2725 KV. Identity with the RaceDayQuads listing we price from is the stator (2207.3), the 1975 KV winding and the 32.6 g weight, which is the SPECS table's Weight (Excl.Cable); the page body states 36.5 g for the same motor including its 150 mm cables, so the two figures are the same motor with and without its leads. The brand sells the 1975 KV as the Proxy Edition and the 2125 KV as the Extreme Edition, both 6S; the 2725 KV in the SPECS table is the 4S winding, which is what its Rated Voltage row (4~6S/4S) separates. The spec-block cross-check lands on all three windings, each time on the GF 51466 run: Peak Current 44.7 / 53.7 / 48 A against 44.7, 53.7 and 47.9 A at 100%, and Max.Power 1070 / 1288 / 766 W against 1072.61, 1288.79 and 766.22 W. The sheet's peak is the 2125 KV GF 51466 100% row, 1950.54 g, which the body restates as \"can get over 1.9KG and most current is about 50A\"; the 1975 KV winding our source sells peaks at 1814.7 g. Four source facts recorded rather than repaired. The 1975 KV GF 51466 100% row prints an RPM of 23157 between a 90% row of 30326 and nothing above it, so that row publishes no RPM. The 1975 KV BB4943.5 run's printed efficiency rises at 70% (2.38 -> 2.45 g/W) before falling again. The 2725 KV BB4943.5 run's efficiency also rises at 100% (1.91 -> 1.98 g/W) and its 40-50% step adds 8.89 A for 209 g where every neighbouring step adds less current for more thrust. And the mount is a bolt circle, not a square: the drawing calls out 4-M3 on a circle 16 mm across and the body says \"Motor mounting hole size: 4*M3 (16mm)\", i.e. an 11.3 mm square in the pattern a frame sees, so mount_mm stays empty as it does on every other Axisflying page here. max_thrust_g is the sold winding's own best (owner ruling 2026-10-20: it comes from a winding the page sells; rows of other windings stay)."
   },
   {
    "type": "motor",
@@ -3634,7 +3634,7 @@
     "configuration": "12N14P",
     "dimensions_mm": "24.7x19.9",
     "price_usd": 29.99,
-    "max_thrust_g": 1311,
+    "max_thrust_g": 869,
     "thrust_conditions": "Axisflying bench, 6S, throttle sweep per KV on the DT90-3 and DT90-4 props; 1960/2100/2500 KV tested, 26-28 degC ambient",
     "thrust_table": [
      {
@@ -4132,7 +4132,7 @@
     "https://www.racedayquads.com/products/axisflying-c206-2006-motor-2750kv",
     "https://www.axisflying.com/products/fpv-brushless-motor-c206-2006"
    ],
-   "note": "Axisflying's C206-V1 sheet covers 1960, 2100 and 2500 KV; our retail source lists a 2750 KV version the manufacturer publishes no data for, so the table does not cover it. 22.8 g with wire, 24.7x19.9 mm, 12N14P, 1.5 mm shaft, 4-6S, 88 mOhm at 2100 KV. Motor temperature at full throttle 44-83 degC. Efficiency is printed to one decimal on this sheet, unlike Axisflying's 5in motor sheets"
+   "note": "Axisflying's C206-V1 sheet covers 1960, 2100 and 2500 KV; our retail source lists a 2750 KV version the manufacturer publishes no data for, so the table does not cover it. 22.8 g with wire, 24.7x19.9 mm, 12N14P, 1.5 mm shaft, 4-6S, 88 mOhm at 2100 KV. Motor temperature at full throttle 44-83 degC. Efficiency is printed to one decimal on this sheet, unlike Axisflying's 5in motor sheets. max_thrust_g is the sold winding's own best (owner ruling 2026-10-20: it comes from a winding the page sells; rows of other windings stay)."
   },
   {
    "type": "motor",
@@ -7940,7 +7940,6 @@
     "configuration": "12N14P",
     "mount_mm": "16x16mm (M3)",
     "price_usd": 32.49,
-    "max_thrust_g": 2717,
     "thrust_conditions": "BrotherHobby 2017 bench, 45 A ESC, 8 throttle points per KV; 930KV on 7S, 1030KV on 6S, 1380KV on 5S",
     "thrust_table": [
      {
@@ -8216,7 +8215,7 @@
     "https://www.racedayquads.com/products/brotherhobby-avenger-2510-1250kv-motor",
     "https://ueeshop.ly200-cdn.com/u_file/UPAH/UPAH113/2409/photo/b569d04352.jpg"
    ],
-   "note": "BrotherHobby lists the 2510 in 930/1030/1380 KV; motor body Φ30.3x36.5 mm, 12N14P, M3 16x16 bolt pattern, 55.3 g with 25 cm wires"
+   "note": "BrotherHobby lists the 2510 in 930/1030/1380 KV; motor body Φ30.3x36.5 mm, 12N14P, M3 16x16 bolt pattern, 55.3 g with 25 cm wires. No winding on the sheet is one our source sells (1250 KV), so the page states no max thrust (owner ruling 2026-10-20); the sheet's peak is 2717 g."
   },
   {
    "type": "motor",
@@ -8701,7 +8700,7 @@
     "configuration": "12N14P",
     "mount_mm": "Ø19 (4-M3)",
     "price_usd": 27.99,
-    "max_thrust_g": 2738,
+    "max_thrust_g": 2469,
     "thrust_conditions": "BrotherHobby 2022 bench, 6S 80 A ESC, 8 throttle points (30-100%) per winding on one prop each; 1350KV on HQ 8X4.5X3, 1500KV on HQ 7X3.5X3, 1900KV on HQ 6X3.5X3",
     "thrust_table": [
      {
@@ -8978,7 +8977,7 @@
     "https://www.racedayquads.com/products/brotherhobby-avenger-2808-1500kv-motor",
     "https://www.brotherhobby.com/avenger-2808-motor-p00185p1.html"
    ],
-   "note": "BrotherHobby publishes three Avenger 2808 Test Reports (1350/1500/1900 KV); our listing sells the 1500 KV, whose block gives 48.00 mOhm, 1.69A/10V idle, a 28.00 mm x 8 mm stator and N52H magnets. weight_g is corrected from 54 g to 55.0 g: all three Specification blocks state \"Weight Including Cable (g) 55.00\" beside \"18#, 250mm\", where RaceDayQuads prints 54 g. Two source defects reproduced rather than repaired: the 1350 KV sheet's 30% row prints an RPM of \"900\" where its run is five digits throughout, so that row publishes no RPM; and the 1500 KV sheet's RPM falls from 22117 at 80% to 21634 at 90% while current, thrust and power rise normally"
+   "note": "BrotherHobby publishes three Avenger 2808 Test Reports (1350/1500/1900 KV); our listing sells the 1500 KV, whose block gives 48.00 mOhm, 1.69A/10V idle, a 28.00 mm x 8 mm stator and N52H magnets. weight_g is corrected from 54 g to 55.0 g: all three Specification blocks state \"Weight Including Cable (g) 55.00\" beside \"18#, 250mm\", where RaceDayQuads prints 54 g. Two source defects reproduced rather than repaired: the 1350 KV sheet's 30% row prints an RPM of \"900\" where its run is five digits throughout, so that row publishes no RPM; and the 1500 KV sheet's RPM falls from 22117 at 80% to 21634 at 90% while current, thrust and power rise normally. max_thrust_g is the sold winding's own best (owner ruling 2026-10-20: it comes from a winding the page sells; rows of other windings stay)."
   },
   {
    "type": "motor",
@@ -8994,7 +8993,7 @@
     "weight_g": 64.0,
     "max_cells": "4-6S",
     "price_usd": 25.99,
-    "max_thrust_g": 2724,
+    "max_thrust_g": 2473,
     "thrust_conditions": "BrotherHobby bench (2018 and 2022 rigs), 6S, 8 throttle points per KV/prop; 900/1180 KV on 45 A ESC, 1350KV on 60 A, 1500KV on 50 A",
     "thrust_table": [
      {
@@ -9357,7 +9356,7 @@
     "https://www.racedayquads.com/products/brotherhobby-avenger-2810-motor-1350kv",
     "https://ueeshop.ly200-cdn.com/u_file/UPAH/UPAH113/2409/photo/fb6bf95499.jpg"
    ],
-   "note": "BrotherHobby publishes bench runs for 900/1180/1350/1500 KV; their 900KV sheet prints 39.4 A at 80% and 38.8 A at 90% - transcribed as printed. weight_g is corrected from 65 g to 64.0 g: the 1500 KV Test Report's Specification block states \"Weight Including Cable (g) 64.00\" beside \"AWG 18#, 250mm\", while RaceDayQuads prints \"Weight: 65g with 25cm SR wires\" on both the 1350 and the 1500 KV listing - the same basis and the same cable length as the manufacturer's, one gram apart, and one figure repeated across two windings. The same block gives 43.00 mOhm, a 28.00 mm stator on a 10 mm Kawasaki 1200# 0.2 mm lamination, a 33.3x39 mm body, 12N14P, N52H magnets, 1.63 A idle at 10 V, 6S, 1159.20 W and 46.00 A. The 1350 KV sheet was not re-readable this burst - brotherhobbystore.com is Cloudflare-challenged to a script and only the 1500 KV image URL is cited here - so the published figure is the 1500 KV block's. Both RaceDayQuads listings also render the mount as \"M3 (19x19mm)\" where the drawing calls out \"O 19\" with \"4 - M3\" against a bell it marks \"O 33.3\", so mount_mm stays unpublished."
+   "note": "BrotherHobby publishes bench runs for 900/1180/1350/1500 KV; their 900KV sheet prints 39.4 A at 80% and 38.8 A at 90% - transcribed as printed. weight_g is corrected from 65 g to 64.0 g: the 1500 KV Test Report's Specification block states \"Weight Including Cable (g) 64.00\" beside \"AWG 18#, 250mm\", while RaceDayQuads prints \"Weight: 65g with 25cm SR wires\" on both the 1350 and the 1500 KV listing - the same basis and the same cable length as the manufacturer's, one gram apart, and one figure repeated across two windings. The same block gives 43.00 mOhm, a 28.00 mm stator on a 10 mm Kawasaki 1200# 0.2 mm lamination, a 33.3x39 mm body, 12N14P, N52H magnets, 1.63 A idle at 10 V, 6S, 1159.20 W and 46.00 A. The 1350 KV sheet was not re-readable this burst - brotherhobbystore.com is Cloudflare-challenged to a script and only the 1500 KV image URL is cited here - so the published figure is the 1500 KV block's. Both RaceDayQuads listings also render the mount as \"M3 (19x19mm)\" where the drawing calls out \"O 19\" with \"4 - M3\" against a bell it marks \"O 33.3\", so mount_mm stays unpublished. max_thrust_g is the sold winding's own best (owner ruling 2026-10-20: it comes from a winding the page sells; rows of other windings stay)."
   },
   {
    "type": "motor",
@@ -9374,7 +9373,7 @@
     "configuration": "12N14P",
     "mount_mm": "16x16mm (M3)",
     "price_usd": 28.99,
-    "max_thrust_g": 2130,
+    "max_thrust_g": 2003,
     "thrust_conditions": "BrotherHobby 2017 bench, 8 throttle points per KV/prop; 1200/1500/1850 KV on 6S, 1500/1750/2200 KV on 5S",
     "thrust_table": [
      {
@@ -9914,7 +9913,7 @@
     "https://www.racedayquads.com/products/avenger-v2-2507-1850kv-4-6s-long-range-fpv-motor-by-brotherhobby",
     "https://ueeshop.ly200-cdn.com/u_file/UPAH/UPAH113/2410/photo/a902ad1b53.jpg"
    ],
-   "note": "Bench sheets cover the 1200/1500/1750/1850/2200 KV versions; 41.3 g with 16 cm wires, 12N14P, body Φ30x35 mm"
+   "note": "Bench sheets cover the 1200/1500/1750/1850/2200 KV versions; 41.3 g with 16 cm wires, 12N14P, body Φ30x35 mm. max_thrust_g is the sold winding's own best (owner ruling 2026-10-20: it comes from a winding the page sells; rows of other windings stay)."
   },
   {
    "type": "motor",
@@ -10478,7 +10477,7 @@
     "configuration": "12N14P",
     "mount_mm": "Ø19 (4-M3)",
     "price_usd": 55.49,
-    "max_thrust_g": 4480,
+    "max_thrust_g": 4449,
     "thrust_conditions": "BrotherHobby bench (2018-2023 sheets), 8 throttle points (30-100%) per winding on one prop each; 400KV on 8S and again on 12S, 480/640/900/970/1050KV and both 1200KV runs on 6S, 1520KV on 4S",
     "thrust_table": [
      {
@@ -11371,7 +11370,7 @@
     "https://www.racedayquads.com/products/brotherhobby-tornado-t5-3115-pro-400kv-motor",
     "https://www.brotherhobby.com/tornado-t5-3115-pro-motor-p00158p1.html"
    ],
-   "note": "BrotherHobby publishes ten Tornado T5 3115 PRO Test Reports; our listing sells the 400 and 1050 KV windings, whose blocks give 212.00 and 34.00 mOhm and 110.00 and 108.00 g with cable (16# 300 mm), against the 110 g our retail source prints. Every block states a 31.00 x 15 mm stator, 12N14P and N52H; the 900 KV sheet's lamination is nippon 1500# where the others are Kawasaki 1200# 0.2 mm. Two source facts recorded rather than repaired: the 400 KV HQ 9X5X3 sheet is headed 12S and states 220.00 g - twice the 110.00 g the 400 KV 8S sheet states for the same winding, and above the 5-8S our listing sells - and the 1200 KV drawing calls out 18AWG 250 mm leads where its own block says 16#, 300 mm. Peak thrust 4480 g is the 1200 KV 9.0*4.7 run, a winding our source does not sell"
+   "note": "BrotherHobby publishes ten Tornado T5 3115 PRO Test Reports; our listing sells the 400 and 1050 KV windings, whose blocks give 212.00 and 34.00 mOhm and 110.00 and 108.00 g with cable (16# 300 mm), against the 110 g our retail source prints. Every block states a 31.00 x 15 mm stator, 12N14P and N52H; the 900 KV sheet's lamination is nippon 1500# where the others are Kawasaki 1200# 0.2 mm. Two source facts recorded rather than repaired: the 400 KV HQ 9X5X3 sheet is headed 12S and states 220.00 g - twice the 110.00 g the 400 KV 8S sheet states for the same winding, and above the 5-8S our listing sells - and the 1200 KV drawing calls out 18AWG 250 mm leads where its own block says 16#, 300 mm. The sheet's peak, 4480 g, is the 1200 KV 9.0*4.7 run, a winding our source does not sell; max thrust is the best of the windings it sells. max_thrust_g is the sold winding's own best (owner ruling 2026-10-20: it comes from a winding the page sells; rows of other windings stay)."
   },
   {
    "type": "motor",
@@ -11681,7 +11680,7 @@
     "max_cells": "4-6S",
     "configuration": "12N14P",
     "price_usd": 21.99,
-    "max_thrust_g": 879,
+    "max_thrust_g": 695,
     "thrust_conditions": "BrotherHobby 2020 bench, 8 throttle points per KV; 1550KV and 3100KV on 6S, 1900KV and 4150KV on 4S",
     "thrust_table": [
      {
@@ -12044,7 +12043,7 @@
     "https://www.racedayquads.com/products/brotherhobby-vy-1507-4150v-micro-motor",
     "https://ueeshop.ly200-cdn.com/u_file/UPAH/UPAH113/2409/photo/4ced26887e.jpg"
    ],
-   "note": "VY 1507 bench sheets cover 1550/1900/3100/4150 KV; the 3100/4150 KV runs use a 3in triblade, the 1550/1900 KV runs a 5in"
+   "note": "VY 1507 bench sheets cover 1550/1900/3100/4150 KV; the 3100/4150 KV runs use a 3in triblade, the 1550/1900 KV runs a 5in. max_thrust_g is the sold winding's own best (owner ruling 2026-10-20: it comes from a winding the page sells; rows of other windings stay)."
   },
   {
    "type": "motor",
@@ -28482,7 +28481,7 @@
     "mount_mm": "12x12mm",
     "resistance_mohm": "210 (1800KV) / 110 (3000KV)",
     "price_usd": 23.99,
-    "max_thrust_g": 1156,
+    "max_thrust_g": 1117,
     "thrust_conditions": "RCinPower bench, two T-mount KV sheets (1800, 3000), six props each at one or two voltages, 50% and 100% throttle; no RPM published",
     "thrust_table": [
      {
@@ -28888,7 +28887,7 @@
     "https://www.racedayquads.com/products/rcinpower-gts-v3-2104-light-1800kv-motor-choose-color",
     "https://www.rcinpower.com/G-SERIES/52.html"
    ],
-   "note": "RCinPower's data-sheet page for this motor is titled \"GTS V3 2104T/M2\" and carries four tables - 2104-T and 2104-M2, each at 1800 and 3000 KV. Only the two T sheets are attached here. The T block is our retail listing to the digit (1800 KV, 12N14P, 21x4 mm stator, 3 mm inner / 1.5 mm outer shaft, 4-6S, 0.5 A idle at 10 V, 210 mOhm, 22.1 A, 530 W, 15.9 g with 3 cm wire), while the M2 block differs from it only in weight, 16 g, its shaft being threaded for an M2 prop mount; RCinPower's own family strip lists 2104 LIGHT and 2104 M2 as two products, so the M2 tables belong to a part we do not carry. Our listing sells the 1800 KV; the 3000 KV T sheet is included as published and is the 3-4S winding (0.9 A idle, 110 mOhm, 36.2 A, 580 W, same 15.9 g and same dimensions). Motor dimension Phi 25.35x13.8 mm, 12x12 mm four-bolt base mount, with a 5x5 mm four-hole pattern on the bell. Four things are reproduced as printed rather than corrected: (1) both blocks label their power and current maxima \"3S\" and neither run is 3S - the 1800 KV sheet's 530 W / 22.1 A is its GF5130*3 24 V (6S) full-throttle row exactly, and the 3000 KV sheet's 580 W / 36.2 A is its GF5130*3 16 V (4S) row, where the current matches exactly and the power is the table's 579.2 W rounded; (2) the screw size in both mount callouts (\"4 x M?\") is five pixels tall in the only image RCinPower publishes and is not legible, so the mount is recorded as its measured 12x12 mm span with no thread; (3) our retail listing prints \"Motor Dimensions: 23.35x13.8mm\" where all four manufacturer sheets and the dimensioned drawing print Phi 25.35x13.8 mm, so the manufacturer figure is the one published here; (4) the retail listing's 1.5 mm shaft is the outer (prop) shaft - the sheets print 3 mm inner and 1.5 mm outer. Temperature after 3 s at full throttle runs 52-78 degC on the 1800 KV sheet and 54-80 degC on the 3000 KV one, with the 3000 KV GF5130*3 16 V run flagged HOT"
+   "note": "RCinPower's data-sheet page for this motor is titled \"GTS V3 2104T/M2\" and carries four tables - 2104-T and 2104-M2, each at 1800 and 3000 KV. Only the two T sheets are attached here. The T block is our retail listing to the digit (1800 KV, 12N14P, 21x4 mm stator, 3 mm inner / 1.5 mm outer shaft, 4-6S, 0.5 A idle at 10 V, 210 mOhm, 22.1 A, 530 W, 15.9 g with 3 cm wire), while the M2 block differs from it only in weight, 16 g, its shaft being threaded for an M2 prop mount; RCinPower's own family strip lists 2104 LIGHT and 2104 M2 as two products, so the M2 tables belong to a part we do not carry. Our listing sells the 1800 KV; the 3000 KV T sheet is included as published and is the 3-4S winding (0.9 A idle, 110 mOhm, 36.2 A, 580 W, same 15.9 g and same dimensions). Motor dimension Phi 25.35x13.8 mm, 12x12 mm four-bolt base mount, with a 5x5 mm four-hole pattern on the bell. Four things are reproduced as printed rather than corrected: (1) both blocks label their power and current maxima \"3S\" and neither run is 3S - the 1800 KV sheet's 530 W / 22.1 A is its GF5130*3 24 V (6S) full-throttle row exactly, and the 3000 KV sheet's 580 W / 36.2 A is its GF5130*3 16 V (4S) row, where the current matches exactly and the power is the table's 579.2 W rounded; (2) the screw size in both mount callouts (\"4 x M?\") is five pixels tall in the only image RCinPower publishes and is not legible, so the mount is recorded as its measured 12x12 mm span with no thread; (3) our retail listing prints \"Motor Dimensions: 23.35x13.8mm\" where all four manufacturer sheets and the dimensioned drawing print Phi 25.35x13.8 mm, so the manufacturer figure is the one published here; (4) the retail listing's 1.5 mm shaft is the outer (prop) shaft - the sheets print 3 mm inner and 1.5 mm outer. Temperature after 3 s at full throttle runs 52-78 degC on the 1800 KV sheet and 54-80 degC on the 3000 KV one, with the 3000 KV GF5130*3 16 V run flagged HOT. max_thrust_g is the sold winding's own best (owner ruling 2026-10-20: it comes from a winding the page sells; rows of other windings stay)."
   },
   {
    "type": "motor",
@@ -44253,7 +44252,7 @@
     "configuration": "12N14P",
     "dimensions_mm": "26.8x32.7",
     "price_usd": 40.99,
-    "max_thrust_g": 1837.77,
+    "max_thrust_g": 1730.69,
     "thrust_conditions": "T-Motor bench, 11 throttle points (50-100% in 5% steps) per KV on four T-Motor 5in tri-blades; 1750/1950 KV on 6S, 2550 KV on 4S",
     "thrust_table": [
      {
@@ -45715,7 +45714,7 @@
     "https://www.racedayquads.com/products/t-motor-f60-pro-iv-v2-2207-5-1750kv-racing-motor-grey",
     "https://www.tmotorhobby.com/goods-960.html"
    ],
-   "note": "T-Motor publishes a 5%-step sweep for this motor: 132 load points across 1750/1950/2550 KV and the T5143S/T5146/T5147/T5150 props, with motor surface temperature at 100% throttle (53-88 degC, 25 degC ambient). T-Motor's spec table prints Shaft Diameter 4 mm (the bell shaft); its product drawing calls out an M5 thread on a 5 mm prop shaft, so shaft is the drawing's 5mm (owner ruling 2026-10-20)"
+   "note": "T-Motor publishes a 5%-step sweep for this motor: 132 load points across 1750/1950/2550 KV and the T5143S/T5146/T5147/T5150 props, with motor surface temperature at 100% throttle (53-88 degC, 25 degC ambient). T-Motor's spec table prints Shaft Diameter 4 mm (the bell shaft); its product drawing calls out an M5 thread on a 5 mm prop shaft, so shaft is the drawing's 5mm (owner ruling 2026-10-20). max_thrust_g is the sold winding's own best (owner ruling 2026-10-20: it comes from a winding the page sells; rows of other windings stay)."
   },
   {
    "type": "motor",
@@ -64506,7 +64505,7 @@
     "max_cells": "1S",
     "configuration": "9S12P",
     "price_usd": 32.49,
-    "max_thrust_g": 38.8,
+    "max_thrust_g": 37.6,
     "thrust_conditions": "VCI Hobby bench, 23000/27000/30000 KV at 1S (4 V), 10 throttle points (10-100%) per KV on a GF1219S-3",
     "thrust_table": [
      {
@@ -64848,7 +64847,7 @@
     "https://www.racedayquads.com/products/vci-hobby-0702-pro-db-motor-4-pcs-27000kv",
     "https://vcihobby.com/sys-pd/255.html"
    ],
-   "note": "The rows are VCI Hobby's own 'Testing Data' table, published as an image in the Specifications tab of the motor's product page on vcihobby.com. This is the whoop template: TEN throttle points (10-100% in tens) rather than the SPARK sheets' eight, and NO RPM COLUMN AT ALL, so every row here carries an empty RPM. VCI sells and benches this motor in three windings and all three tables are here; `kv_options` keeps the 27000 KV our retail source sells, so MAX THRUST READS 38.80 g, WHICH IS THE 30000 KV WINDING - the 27000 KV's own best is 37.60 g on the same prop. Every row reproduces the sheet's two identities (printed Power = 4 V x printed current, printed Efficiency = Thrust / Power). Each winding's Specifications panel lands on its own 100% row (3.8 A / 15.2 W, 5.1 A / 20.4 W, 5.9 A / 23.6 W). Identity with our retail listing is 27000 KV, the 0702 stator (the panels print Ø7*L2 mm), 1S and 1.49 g including cable; the panels' shaft is written Ø1 mm. The DB and the PRO LITE share a body, a prop and a test rig, and the DB is the heavier of the two by 0.06-0.11 g per winding."
+   "note": "The rows are VCI Hobby's own 'Testing Data' table, published as an image in the Specifications tab of the motor's product page on vcihobby.com. This is the whoop template: TEN throttle points (10-100% in tens) rather than the SPARK sheets' eight, and NO RPM COLUMN AT ALL, so every row here carries an empty RPM. VCI sells and benches this motor in three windings and all three tables are here; `kv_options` keeps the 27000 KV our retail source sells, so max thrust is the 27000 KV's own best, 37.60 g; the 30000 KV winding peaks at 38.80 g on the same prop. Every row reproduces the sheet's two identities (printed Power = 4 V x printed current, printed Efficiency = Thrust / Power). Each winding's Specifications panel lands on its own 100% row (3.8 A / 15.2 W, 5.1 A / 20.4 W, 5.9 A / 23.6 W). Identity with our retail listing is 27000 KV, the 0702 stator (the panels print Ø7*L2 mm), 1S and 1.49 g including cable; the panels' shaft is written Ø1 mm. The DB and the PRO LITE share a body, a prop and a test rig, and the DB is the heavier of the two by 0.06-0.11 g per winding. max_thrust_g is the sold winding's own best (owner ruling 2026-10-20: it comes from a winding the page sells; rows of other windings stay)."
   },
   {
    "type": "motor",
@@ -64864,7 +64863,7 @@
     "max_cells": "1S",
     "configuration": "9S12P",
     "price_usd": 29.99,
-    "max_thrust_g": 37.1,
+    "max_thrust_g": 35.0,
     "thrust_conditions": "VCI Hobby bench, 23000/27000/30000 KV at 1S (4 V), 10 throttle points (10-100%) per KV on a GF1219S-3",
     "thrust_table": [
      {
@@ -65206,7 +65205,7 @@
     "https://www.racedayquads.com/products/vci-hobby-0702-pro-lite-motor-4-pcs-27000kv",
     "https://vcihobby.com/sys-pd/254.html"
    ],
-   "note": "The rows are VCI Hobby's own 'Testing Data' table, published as an image in the Specifications tab of the motor's product page on vcihobby.com. This is the whoop template, and it differs from the SPARK sheets twice over: it runs TEN throttle points (10-100% in tens) rather than eight, and IT PRINTS NO RPM COLUMN AT ALL, so every row here carries an empty RPM. VCI sells and benches this motor in three windings and all three tables are here; `kv_options` keeps the 27000 KV our retail source sells, so MAX THRUST READS 37.10 g, WHICH IS THE 30000 KV WINDING - the 27000 KV's own best is 35.00 g on the same prop. Every row reproduces the sheet's two identities (printed Power = 4 V x printed current, printed Efficiency = Thrust / Power). Each winding's Specifications panel lands on its own 100% row (3.9 A / 15.6 W, 5.15 A / 20.6 W, 5.9 A / 23.6 W). Identity with our retail listing is 27000 KV, the 0702 stator (the panels print Ø7*L2 mm), 1S and 1.4 g including cable; the panels' shaft is written Ø1 mm."
+   "note": "The rows are VCI Hobby's own 'Testing Data' table, published as an image in the Specifications tab of the motor's product page on vcihobby.com. This is the whoop template, and it differs from the SPARK sheets twice over: it runs TEN throttle points (10-100% in tens) rather than eight, and IT PRINTS NO RPM COLUMN AT ALL, so every row here carries an empty RPM. VCI sells and benches this motor in three windings and all three tables are here; `kv_options` keeps the 27000 KV our retail source sells, so max thrust is the 27000 KV's own best, 35.00 g; the 30000 KV winding peaks at 37.10 g on the same prop. Every row reproduces the sheet's two identities (printed Power = 4 V x printed current, printed Efficiency = Thrust / Power). Each winding's Specifications panel lands on its own 100% row (3.9 A / 15.6 W, 5.15 A / 20.6 W, 5.9 A / 23.6 W). Identity with our retail listing is 27000 KV, the 0702 stator (the panels print Ø7*L2 mm), 1S and 1.4 g including cable; the panels' shaft is written Ø1 mm. max_thrust_g is the sold winding's own best (owner ruling 2026-10-20: it comes from a winding the page sells; rows of other windings stay)."
   },
   {
    "type": "motor",
@@ -65518,7 +65517,7 @@
     "dimensions_mm": "Ø37x41.9",
     "resistance_mohm": "60",
     "price_usd": 29.99,
-    "max_thrust_g": 2650,
+    "max_thrust_g": 2457,
     "thrust_conditions": "VCI Hobby bench, 1350 KV and 1550 KV at 6S (24 V), 8 throttle points (30-100%) per KV on two and three 6-7in props",
     "thrust_table": [
      {
@@ -65968,7 +65967,7 @@
     "https://www.racedayquads.com/products/vci-hobby-2808-1350kv-motor",
     "https://vcihobby.com/sys-pd/166.html"
    ],
-   "note": "The rows are VCI Hobby's own 'Testing Data' table, published as an image in the Specifications tab of the motor's product page on vcihobby.com. VCI sells and benches this motor in two windings and both tables are here; `kv_options` keeps the 1350 KV our retail source sells, so MAX THRUST READS 2650 g, WHICH IS THE 1550 KV WINDING on a GF 7037-3 - the 1350 KV's own best is 2457 g on the same prop. Every row reproduces the sheet's two identities (printed Power = 24 V x printed current, printed Efficiency = Thrust / Power). The spec-block cross-check lands on a row for the 1350 KV (46.24 A / 1109.76 W, which BOTH of its props reach at 100%) and on the middle of the table for the 1550 KV, whose panel states 44.48 A / 1067.6 W - the GF 6040-3 100% row - while its GF 7037-3 run goes on to 53.07 A and 1273.68 W. Identity with our retail listing is 1350 KV, the 2808 stator (the panel prints Ø28*L8 mm), the M5 shaft, 6S and 72.4 g including cable; the 1550 KV panel prints 73.3 g for the same body."
+   "note": "The rows are VCI Hobby's own 'Testing Data' table, published as an image in the Specifications tab of the motor's product page on vcihobby.com. VCI sells and benches this motor in two windings and both tables are here; `kv_options` keeps the 1350 KV our retail source sells, so max thrust is the 1350 KV's own best, 2457 g on a GF 7037-3; the 1550 KV winding peaks at 2650 g on the same prop. Every row reproduces the sheet's two identities (printed Power = 24 V x printed current, printed Efficiency = Thrust / Power). The spec-block cross-check lands on a row for the 1350 KV (46.24 A / 1109.76 W, which BOTH of its props reach at 100%) and on the middle of the table for the 1550 KV, whose panel states 44.48 A / 1067.6 W - the GF 6040-3 100% row - while its GF 7037-3 run goes on to 53.07 A and 1273.68 W. Identity with our retail listing is 1350 KV, the 2808 stator (the panel prints Ø28*L8 mm), the M5 shaft, 6S and 72.4 g including cable; the 1550 KV panel prints 73.3 g for the same body. max_thrust_g is the sold winding's own best (owner ruling 2026-10-20: it comes from a winding the page sells; rows of other windings stay)."
   },
   {
    "type": "motor",
@@ -68058,7 +68057,7 @@
     "max_cells": "3S",
     "configuration": "9S12P",
     "price_usd": 21.49,
-    "max_thrust_g": 266,
+    "max_thrust_g": 215,
     "thrust_conditions": "VCI Hobby bench, 5400, 6000 and 7200 KV at 3S (12 V), 8800 and 9600 KV at 2S (8 V), 8 throttle points (30-100%) per run",
     "thrust_table": [
      {
@@ -68598,7 +68597,7 @@
     "https://www.racedayquads.com/products/vci-hobby-spark-1303-motor-2-pcs-5400kv",
     "https://vcihobby.com/sys-pd/61.html"
    ],
-   "note": "The rows are VCI Hobby's own 'Testing Dates' table, published as an image in the Specifications tab of the motor's product page on vcihobby.com. The sheet PRINTS NO RPM COLUMN, so every row here carries an empty RPM. VCI sells and benches this motor in five windings and all five tables are here; `kv_options` keeps the 5400 KV our retail source sells, so MAX THRUST READS 266 g, WHICH IS THE 6000 KV WINDING on a GF 3018-2 at 3S - the 5400 KV's own best is 215 g. Every row reproduces its own run's identities (printed Power = its voltage x printed current, printed Efficiency = Thrust / Power), and ALL FIVE panels' peak current and maximum power land on a row of their own winding to the digit. The panels give a per-winding internal resistance, 240, 190, 145, 125 and 100 mOhm, which is why resistance_mohm stays empty. ONE SOURCE FACT RECORDED RATHER THAN REPAIRED: the 8800 KV table names its propeller GF 2540-3 and the chart printed directly below it legends the same run GF 3016-3; the table's own column is what this dataset carries. Identity with our retail listing is 5400 KV, the 1303 stator (the panels print Ø13*L3 mm), 3S and 7.1 g including cable, which every one of the five panels states."
+   "note": "The rows are VCI Hobby's own 'Testing Dates' table, published as an image in the Specifications tab of the motor's product page on vcihobby.com. The sheet PRINTS NO RPM COLUMN, so every row here carries an empty RPM. VCI sells and benches this motor in five windings and all five tables are here; `kv_options` keeps the 5400 KV our retail source sells, so max thrust is the 5400 KV's own best, 215 g; the 6000 KV winding peaks at 266 g on a GF 3018-2 at 3S. Every row reproduces its own run's identities (printed Power = its voltage x printed current, printed Efficiency = Thrust / Power), and ALL FIVE panels' peak current and maximum power land on a row of their own winding to the digit. The panels give a per-winding internal resistance, 240, 190, 145, 125 and 100 mOhm, which is why resistance_mohm stays empty. ONE SOURCE FACT RECORDED RATHER THAN REPAIRED: the 8800 KV table names its propeller GF 2540-3 and the chart printed directly below it legends the same run GF 3016-3; the table's own column is what this dataset carries. Identity with our retail listing is 5400 KV, the 1303 stator (the panels print Ø13*L3 mm), 3S and 7.1 g including cable, which every one of the five panels states. max_thrust_g is the sold winding's own best (owner ruling 2026-10-20: it comes from a winding the page sells; rows of other windings stay)."
   },
   {
    "type": "motor",
@@ -68614,7 +68613,7 @@
     "max_cells": "4S",
     "configuration": "9S12P",
     "price_usd": 12.99,
-    "max_thrust_g": 422,
+    "max_thrust_g": 368,
     "thrust_conditions": "VCI Hobby bench, 2450 and 2750 KV at 6S (24 V), 3750 and 4000 KV at 4S (16 V), one to three props per winding, 8 throttle points (30-100%) per run",
     "thrust_table": [
      {
@@ -69330,7 +69329,7 @@
     "https://www.racedayquads.com/products/vci-hobby-spark-1404-motor-4000kv",
     "https://vcihobby.com/sys-pd/73.html"
    ],
-   "note": "The rows are VCI Hobby's own 'Testing Dates' table, published as an image in the Specifications tab of the motor's product page on vcihobby.com. The sheet PRINTS NO RPM COLUMN, so every row here carries an empty RPM. VCI sells and benches this motor in four windings and all four tables are here; `kv_options` keeps the 4000 KV our retail source sells, so MAX THRUST READS 422 g, WHICH IS THE 2750 KV WINDING on a GF 3016-3 at 6S - the 4000 KV's own best is 368 g on the same prop at 4S. Every row reproduces its own run's identities (printed Power = its voltage x printed current, printed Efficiency = Thrust / Power), and all four panels' peak current and maximum power land on a row of their own winding to the digit. The panels give a per-winding internal resistance, 420, 325, 220 and 190 mOhm, which is why resistance_mohm stays empty. Identity with our retail listing is 4000 KV, the 1404 stator (the panels print Ø14*L4 mm), 4S and 10.1 g including cable, which is the 4000 KV panel's own weight; the other three windings weigh 10.2-10.4 g."
+   "note": "The rows are VCI Hobby's own 'Testing Dates' table, published as an image in the Specifications tab of the motor's product page on vcihobby.com. The sheet PRINTS NO RPM COLUMN, so every row here carries an empty RPM. VCI sells and benches this motor in four windings and all four tables are here; `kv_options` keeps the 4000 KV our retail source sells, so max thrust is the 4000 KV's own best, 368 g on a GF 3016-3 at 4S; the 2750 KV winding peaks at 422 g on the same prop at 6S. Every row reproduces its own run's identities (printed Power = its voltage x printed current, printed Efficiency = Thrust / Power), and all four panels' peak current and maximum power land on a row of their own winding to the digit. The panels give a per-winding internal resistance, 420, 325, 220 and 190 mOhm, which is why resistance_mohm stays empty. Identity with our retail listing is 4000 KV, the 1404 stator (the panels print Ø14*L4 mm), 4S and 10.1 g including cable, which is the 4000 KV panel's own weight; the other three windings weigh 10.2-10.4 g. max_thrust_g is the sold winding's own best (owner ruling 2026-10-20: it comes from a winding the page sells; rows of other windings stay)."
   },
   {
    "type": "motor",
@@ -69346,7 +69345,7 @@
     "max_cells": "3S",
     "configuration": "12S14P",
     "price_usd": 12.99,
-    "max_thrust_g": 571,
+    "max_thrust_g": 545,
     "thrust_conditions": "VCI Hobby bench, 1800 and 2450 KV at 6S (24 V), 2050, 2800, 3350 and 3650 KV at 4S (16 V), one prop and 8 throttle points (30-100%) per winding",
     "thrust_table": [
      {
@@ -69886,7 +69885,7 @@
     "https://www.racedayquads.com/products/vci-hobby-spark-1605-motor-3650kv",
     "https://vcihobby.com/sys-pd/46.html"
    ],
-   "note": "The rows are VCI Hobby's own 'Testing Dates' table, published as an image in the Specifications tab of the motor's product page on vcihobby.com. VCI sells and benches this motor in SIX windings - more than any other sheet in this overlay - and all six tables are here, one prop each; `kv_options` keeps the 3650 KV our retail source sells, so MAX THRUST READS 571 g, WHICH IS THE 2450 KV WINDING on a GF D75-3 at 6S - the 3650 KV's own best is 545 g on the same prop at 4S. Every row reproduces its own run's identities (printed Power = its voltage x printed current, printed Efficiency = Thrust / Power). Five of the six panels' peak current and maximum power land on their own 100% row to the digit; the 2050 KV panel's 240.96 W is 24 V x its own 10.04 A, though that winding was benched at 16 V where the same current gives the 160.64 W its table prints. The panels give a per-winding internal resistance, 435, 300, 225, 180, 130 and 120 mOhm, which is why resistance_mohm stays empty. ONE DISAGREEMENT WITH OUR RETAIL LISTING IS LEFT AS IT STANDS: the listing sells the 3650 KV as a 3S motor and VCI's own panel for that winding states 4S (16 V), which is also the voltage its table was run at; max_cells keeps the listing's figure. Identity is otherwise the 1605 stator (the panels print Ø16*L5 mm) and 12.7 g including cable, which is the 3650 KV panel's own weight."
+   "note": "The rows are VCI Hobby's own 'Testing Dates' table, published as an image in the Specifications tab of the motor's product page on vcihobby.com. VCI sells and benches this motor in SIX windings - more than any other sheet in this overlay - and all six tables are here, one prop each; `kv_options` keeps the 3650 KV our retail source sells, so max thrust is the 3650 KV's own best, 545 g on a GF D75-3 at 4S; the 2450 KV winding peaks at 571 g on the same prop at 6S. Every row reproduces its own run's identities (printed Power = its voltage x printed current, printed Efficiency = Thrust / Power). Five of the six panels' peak current and maximum power land on their own 100% row to the digit; the 2050 KV panel's 240.96 W is 24 V x its own 10.04 A, though that winding was benched at 16 V where the same current gives the 160.64 W its table prints. The panels give a per-winding internal resistance, 435, 300, 225, 180, 130 and 120 mOhm, which is why resistance_mohm stays empty. ONE DISAGREEMENT WITH OUR RETAIL LISTING IS LEFT AS IT STANDS: the listing sells the 3650 KV as a 3S motor and VCI's own panel for that winding states 4S (16 V), which is also the voltage its table was run at; max_cells keeps the listing's figure. Identity is otherwise the 1605 stator (the panels print Ø16*L5 mm) and 12.7 g including cable, which is the 3650 KV panel's own weight. max_thrust_g is the sold winding's own best (owner ruling 2026-10-20: it comes from a winding the page sells; rows of other windings stay)."
   },
   {
    "type": "motor",
@@ -69902,7 +69901,7 @@
     "max_cells": "6S",
     "configuration": "12S14P",
     "price_usd": 14.99,
-    "max_thrust_g": 1340,
+    "max_thrust_g": 1028,
     "thrust_conditions": "VCI Hobby bench, 1850 KV at 6S (24 V) on three 5in props, 2150 KV at 6S (24 V) and 3450 KV at 4S (16 V) on one each, 8 throttle points (30-100%) per run",
     "thrust_table": [
      {
@@ -70354,7 +70353,7 @@
     "https://www.racedayquads.com/products/vci-hobby-spark-2006-motor-2150kv",
     "https://vcihobby.com/sys-pd/53.html"
    ],
-   "note": "The rows are VCI Hobby's own 'Testing Data' table, published as an image in the Specifications tab of the motor's product page on vcihobby.com. VCI sells and benches this motor in three windings and all three tables are here; `kv_options` keeps the 2150 KV our retail source sells, so MAX THRUST READS 1340 g, WHICH IS THE 1850 KV WINDING on a GF 5125-3 - the 2150 KV's own best is 1028 g. The three windings were benched on different packs - 1850 and 2150 KV at 6S (24 V), 3450 KV at 4S (16 V) - and each row reproduces its own sheet's identities against its own voltage. Each panel lands on a row: 24.86 A / 596.64 W is the 1850 KV's GF 5125-3 100% row, 21.51 A / 516.24 W the 2150 KV's and 34.89 A / 558.24 W the 3450 KV's. TWO SOURCE FACTS RECORDED RATHER THAN REPAIRED: the 1850 KV's GF 5125-3 run prints an RPM column that wanders instead of climbing (22553 at 70% against 24515 at 60%, then 21622 at 100% against 32652 at 90%), and the 3450 KV's 100% row prints 81794 RPM - roughly double its 90% figure and above the 55200 RPM that 3450 KV x 16 V allows unloaded. Both are published as printed. The panels give a per-winding internal resistance, 104, 90 and 45 mOhm, which is why resistance_mohm stays empty: this page is one motor in three windings and the field holds one number. Identity with our retail listing is 2150 KV, the 2006 stator (the panels print Ø20*L6 mm), 6S and 21.4 g including cable; the panels' shaft is written Ø1.5 mm. The 1850 KV panel prints a shorter body, Ø24.6*L18.7 mm, against the Ø24.6*L19.7 mm the other two state and this page carries."
+   "note": "The rows are VCI Hobby's own 'Testing Data' table, published as an image in the Specifications tab of the motor's product page on vcihobby.com. VCI sells and benches this motor in three windings and all three tables are here; `kv_options` keeps the 2150 KV our retail source sells, so max thrust is the 2150 KV's own best, 1028 g on a GF D90-3; the 1850 KV winding peaks at 1340 g on a GF 5125-3. The three windings were benched on different packs - 1850 and 2150 KV at 6S (24 V), 3450 KV at 4S (16 V) - and each row reproduces its own sheet's identities against its own voltage. Each panel lands on a row: 24.86 A / 596.64 W is the 1850 KV's GF 5125-3 100% row, 21.51 A / 516.24 W the 2150 KV's and 34.89 A / 558.24 W the 3450 KV's. TWO SOURCE FACTS RECORDED RATHER THAN REPAIRED: the 1850 KV's GF 5125-3 run prints an RPM column that wanders instead of climbing (22553 at 70% against 24515 at 60%, then 21622 at 100% against 32652 at 90%), and the 3450 KV's 100% row prints 81794 RPM - roughly double its 90% figure and above the 55200 RPM that 3450 KV x 16 V allows unloaded. Both are published as printed. The panels give a per-winding internal resistance, 104, 90 and 45 mOhm, which is why resistance_mohm stays empty: this page is one motor in three windings and the field holds one number. Identity with our retail listing is 2150 KV, the 2006 stator (the panels print Ø20*L6 mm), 6S and 21.4 g including cable; the panels' shaft is written Ø1.5 mm. The 1850 KV panel prints a shorter body, Ø24.6*L18.7 mm, against the Ø24.6*L19.7 mm the other two state and this page carries. max_thrust_g is the sold winding's own best (owner ruling 2026-10-20: it comes from a winding the page sells; rows of other windings stay)."
   },
   {
    "type": "motor",
@@ -70374,7 +70373,7 @@
     "dimensions_mm": "Ø27x34.2",
     "resistance_mohm": "40",
     "price_usd": 20.99,
-    "max_thrust_g": 1831,
+    "max_thrust_g": 1682,
     "thrust_conditions": "VCI Hobby bench, 1950 KV at 6S (24 V) on four 5in props and 2450 KV at 4S (16 V) on one, 8 throttle points (30-100%) each",
     "thrust_table": [
      {
@@ -70825,7 +70824,7 @@
     "https://www.racedayquads.com/products/vci-hobby-2208-2450kv-motor",
     "https://vcihobby.com/sys-pd/71.html"
    ],
-   "note": "The rows are VCI Hobby's own 'Testing Data' table, published as an image in the Specifications tab of the motor's product page on vcihobby.com. The product page sells three windings and publishes TWO tables, 1950 KV and 2450 KV, and the 1950 KV is not one of the windings our retail source lists (1850 and 2450); the rows are published and `kv_options` is left alone, which is this dataset's standing practice, so MAX THRUST READS 1831 g, WHICH IS THE 1950 KV WINDING. The two windings were benched on different packs - the 1950 KV at 6S (24 V), the 2450 KV at 4S (16 V) - and each row reproduces its own sheet's identities against its own voltage. Each winding's Specifications panel lands on a row: 45.03 A / 1080.72 W is the 1950 KV's GF 51499-3 100% row, 50.46 A / 807.36 W the 2450 KV's GF 6030-3 100% row. ONE SOURCE FACT RECORDED RATHER THAN REPAIRED: the 1950 KV's HQ 5*4*3 run prints an RPM column that FALLS where its thrust rises - 22875 at 70%, 22161 at 80%, 21052 at 90%, then 31165 at 100% - against the other three runs' steady climb; it is published as printed. Identity with our retail listing is the 2208 stator (the panels print Ø22*L8 mm), the M5 shaft and 36.3 g including cable."
+   "note": "The rows are VCI Hobby's own 'Testing Data' table, published as an image in the Specifications tab of the motor's product page on vcihobby.com. The product page sells three windings and publishes TWO tables, 1950 KV and 2450 KV, and the 1950 KV is not one of the windings our retail source lists (1850 and 2450); the rows are published and `kv_options` is left alone, which is this dataset's standing practice, so max thrust is the 2450 KV's own best, 1682 g on a GF 6030-3 at 4S, the only sold winding with a table; the 1950 KV winding peaks at 1831 g. The two windings were benched on different packs - the 1950 KV at 6S (24 V), the 2450 KV at 4S (16 V) - and each row reproduces its own sheet's identities against its own voltage. Each winding's Specifications panel lands on a row: 45.03 A / 1080.72 W is the 1950 KV's GF 51499-3 100% row, 50.46 A / 807.36 W the 2450 KV's GF 6030-3 100% row. ONE SOURCE FACT RECORDED RATHER THAN REPAIRED: the 1950 KV's HQ 5*4*3 run prints an RPM column that FALLS where its thrust rises - 22875 at 70%, 22161 at 80%, 21052 at 90%, then 31165 at 100% - against the other three runs' steady climb; it is published as printed. Identity with our retail listing is the 2208 stator (the panels print Ø22*L8 mm), the M5 shaft and 36.3 g including cable. max_thrust_g is the sold winding's own best (owner ruling 2026-10-20: it comes from a winding the page sells; rows of other windings stay)."
   },
   {
    "type": "motor",
@@ -72134,7 +72133,7 @@
     "max_cells": "6S",
     "shaft": "5mm",
     "price_usd": 23.49,
-    "max_thrust_g": 1888,
+    "max_thrust_g": 1849,
     "thrust_conditions": "VCI Hobby bench, 2120 KV and 2160 KV at 6S (24 V), 8 throttle points (30-100%) per KV on each of two 5.1in props",
     "thrust_table": [
      {
@@ -72498,7 +72497,7 @@
     "https://www.racedayquads.com/products/vci-hobby-yuki-savage-2207-motor-2120kv",
     "https://vcihobby.com/sys-pd/257.html"
    ],
-   "note": "The rows are VCI Hobby's own 'Testing Data' table, published as an image in the Specifications tab of the motor's product page on vcihobby.com. VCI sells and benches this motor in two windings and both tables are here; `kv_options` keeps the 2120 KV our retail source sells, which is this dataset's standing practice - a bench table for a winding we do not stock is published, a kv_options entry for it is not - so MAX THRUST READS 1888 g, WHICH IS THE 2160 KV WINDING. This product's sheet uses a different template from the SPARK line's: its last column is 'Notes', not a per-run temperature, and it prints the stator and body as '22*L7mm' and '26.4*L31.4mm' with no diameter sign. On the 2120 KV sheet the Power column is NOT exactly 24 V x the current on six of its sixteen rows (21.96 W at 0.91 A, 146.38 at 6.10, 272.69 at 11.36, 418.26 at 17.43, 602.85 at 25.12, 846.27 at 35.26, 1083.72 at 45.16 - each about 23.997 V), while the 2160 KV sheet's is exact; the printed efficiency follows the printed power on every row of both, which is how the two were checked. The 2120 KV panel's 45.16 A / 1083.72 W is its GF 5129-3 100% row; the 2160 KV panel states 46.89 A / 1125.36 W, which is LARGER than either of its own runs reaches (46.51 A and 45.50 A), so that winding's cross-check lands nowhere. Identity with our retail listing is 2120 KV, the 2207 stator, the M5 shaft, 6S and 31 g including cable."
+   "note": "The rows are VCI Hobby's own 'Testing Data' table, published as an image in the Specifications tab of the motor's product page on vcihobby.com. VCI sells and benches this motor in two windings and both tables are here; `kv_options` keeps the 2120 KV our retail source sells, which is this dataset's standing practice - a bench table for a winding we do not stock is published, a kv_options entry for it is not - so max thrust is the 2120 KV's own best, 1849 g on a GF 5129-3; the 2160 KV winding peaks at 1888 g. This product's sheet uses a different template from the SPARK line's: its last column is 'Notes', not a per-run temperature, and it prints the stator and body as '22*L7mm' and '26.4*L31.4mm' with no diameter sign. On the 2120 KV sheet the Power column is NOT exactly 24 V x the current on six of its sixteen rows (21.96 W at 0.91 A, 146.38 at 6.10, 272.69 at 11.36, 418.26 at 17.43, 602.85 at 25.12, 846.27 at 35.26, 1083.72 at 45.16 - each about 23.997 V), while the 2160 KV sheet's is exact; the printed efficiency follows the printed power on every row of both, which is how the two were checked. The 2120 KV panel's 45.16 A / 1083.72 W is its GF 5129-3 100% row; the 2160 KV panel states 46.89 A / 1125.36 W, which is LARGER than either of its own runs reaches (46.51 A and 45.50 A), so that winding's cross-check lands nowhere. Identity with our retail listing is 2120 KV, the 2207 stator, the M5 shaft, 6S and 31 g including cable. max_thrust_g is the sold winding's own best (owner ruling 2026-10-20: it comes from a winding the page sells; rows of other windings stay)."
   },
   {
    "type": "motor",
