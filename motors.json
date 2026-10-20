@@ -10900,15 +10900,20 @@
       "prop_key": "HQProp 6x3.5",
       "prop_blades": 3
      }
-    ]
+    ],
+    "configuration": "12N14P",
+    "resistance_mohm": "49 (1350KV) / 43 (1500KV)",
+    "mount_bolt_circle_mm": "Ø19 (4-M3)"
    },
    "_scraped_at": "2026-10-20",
    "sources": [
     "https://www.racedayquads.com/products/brotherhobby-avenger-2810-1500kv-motor",
     "https://www.racedayquads.com/products/brotherhobby-avenger-2810-motor-1350kv",
-    "https://ueeshop.ly200-cdn.com/u_file/UPAH/UPAH113/2409/photo/fb6bf95499.jpg"
+    "https://ueeshop.ly200-cdn.com/u_file/UPAH/UPAH113/2409/photo/fb6bf95499.jpg",
+    "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2311/photo/d7ad542632.jpg",
+    "https://www.brotherhobby.com/avenger-2810-motor-p00172p1.html"
    ],
-   "note": "BrotherHobby publishes bench runs for 900/1180/1350/1500 KV; their 900KV sheet prints 39.4 A at 80% and 38.8 A at 90% - transcribed as printed. weight_g is corrected from 65 g to 64.0 g: the 1500 KV Test Report's Specification block states \"Weight Including Cable (g) 64.00\" beside \"AWG 18#, 250mm\", while RaceDayQuads prints \"Weight: 65g with 25cm SR wires\" on both the 1350 and the 1500 KV listing - the same basis and the same cable length as the manufacturer's, one gram apart, and one figure repeated across two windings. The same block gives 43.00 mOhm, a 28.00 mm stator on a 10 mm Kawasaki 1200# 0.2 mm lamination, a 33.3x39 mm body, 12N14P, N52H magnets, 1.63 A idle at 10 V, 6S, 1159.20 W and 46.00 A. The 1350 KV sheet was not re-readable this burst - brotherhobbystore.com is Cloudflare-challenged to a script and only the 1500 KV image URL is cited here - so the published figure is the 1500 KV block's. Both RaceDayQuads listings also render the mount as \"M3 (19x19mm)\" where the drawing calls out \"O 19\" with \"4 - M3\" against a bell it marks \"O 33.3\", so mount_mm stays unpublished. max_thrust_g is the sold winding's own best (owner ruling 2026-10-20: it comes from a winding the page sells; rows of other windings stay)."
+   "note": "BrotherHobby publishes bench runs for 900/1180/1350/1500 KV; their 900KV sheet prints 39.4 A at 80% and 38.8 A at 90% - transcribed as printed. Both windings this page sells have a maker Test Report on brotherhobby.com (1350 KV, HQ 7X3.5X3, 6S 60A; 1500 KV, HQ 6X3.5X3, 6S 50A), and both Specification blocks state \"Weight Including Cable (g) 64.00\" with an 18# 250 mm lead, 12N14P, N52H magnets, a 28.00 mm stator 10 mm tall (Kawasaki 1200# 0.2 mm) and \"No. of Cells(Lipo) (S) 6S\"; resistance is 49.00 mOhm (1350 KV, idle 1.82 A/10V) and 43.00 mOhm (1500 KV, idle 1.63 A/10V). weight_g is the maker's 64.0 g, not RaceDayQuads' \"65g with 25cm SR wires\" printed on both listings. max_cells stays \"4-6S\": RaceDayQuads prints 4-6S on the 1350 KV listing but 5-7S on the 1500 KV one, and no BrotherHobby document rates either winding 5S or 7S - the maker's product page block reads \"No.of Cells(Lipo): 4S-6S\" (for the 960/1090/1180 KV windings it lists) and both sold windings' reports were run on 6S. dimensions_mm is left empty: the reports' \"Motor Dimension\" 33.3X39 is the drawing's overall length, which includes the 16 mm shaft, and no drawing prints the body length. The mount is a 19 mm bolt circle (both drawings: \"Ø 19\" with \"4 - M3\", circle drawn, bell \"Ø 33.3\"), not the \"M3 (19x19mm)\" square RaceDayQuads prints, so mount_mm stays empty. max_thrust_g is the sold winding's own best (owner ruling 2026-10-20: it comes from a winding the page sells; rows of other windings stay)."
   },
   {
    "type": "motor",
