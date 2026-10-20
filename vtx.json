@@ -2914,14 +2914,18 @@
    "specs": {
     "system": "analog",
     "max_power_mw": 2000,
-    "frequency_range": "3.3 GHz",
+    "frequency_range": "3330-3470 MHz",
     "input_voltage": "7-30V",
-    "channels": 8
+    "channels": 8,
+    "power_levels_mw": "25 / 200 / 1000 / 2000",
+    "antenna_connector": "SMA",
+    "weight_g": 16.5
    },
    "sources": [
-    "https://rushfpv.net/products/3-3g-2w-vtx-transmitter-module-复制"
+    "https://rushfpv.net/products/3-3g-2w-vtx-transmitter-module-复制",
+    "https://cdn.shopify.com/s/files/1/0628/1320/8746/files/353cb0d32da4db38143b1f3b254cfdc5.jpg"
    ],
-   "note": "The case is silkscreened '3.3GHz VTX 2W 8CH', band A, 7-30 V, with a six-pin DC-IN / GND / DATA / 5V-OUT / GND / VIDEO harness - which is where these figures come from; the product page itself carries no spec block. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+   "note": "The case is silkscreened '3.3GHz VTX 2W 8CH', band A, 7-30 V, with a six-pin DC-IN / GND / DATA / 5V-OUT / GND / VIDEO harness - which is where these figures come from; the product page itself carries no spec block. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder. frequency_range, power_levels_mw, antenna_connector and weight_g are RushFPV's own '3.3GHz VIDEO TRANSMITTER Air KIT' sheet (the listing's description image 353cb0d32da4db38143b1f3b254cfdc5.jpg, 2480x3508), 'RUSHFPV 3.3GHz VTX 2W' table: 'Frequency* BAND-A 3330-3470MHz 8CH / BAND-B 3170-3310MHz 8CH' ('*BAND A and BAND B run on different models of transmitter hardware'), 'RF Power >2W', 'Protocol IRC Tramp', 'DC Input 7-30V', 'Connector SMA', 'Dimension L40.5 X W26 X H8.5mm', 'Weight 16.5g'; power level table PIT 0 / 25 / 200 / 1000 / 2000 mW. The listing sells one variant ('3.3G 2W Video Transmitter Air Kit'), its packaging-list image (3.3.jpg) shows the module silkscreened 'A BAND', as does the case photo, so the span is band A's, the same band as the stored Betaflight table; band B is other hardware this listing does not sell. Read 2026-10-20 (burst 229) at native resolution, fetched through common.UA."
   },
   {
    "type": "vtx",
@@ -3028,14 +3032,19 @@
    "specs": {
     "system": "analog",
     "max_power_mw": 2500,
-    "frequency_range": "4.9 GHz",
+    "frequency_range": "4990-5200 MHz",
     "input_voltage": "7-36V DC",
-    "antenna_connector": "MMCX"
+    "antenna_connector": "MMCX",
+    "channels": 8,
+    "power_levels_mw": "25 / 500 / 1000 / 2500",
+    "weight_g": 15,
+    "weight_excludes": "cable"
    },
    "sources": [
-    "https://rushfpv.net/products/max-solo-xband-4-9g-vtx-2-5w"
+    "https://rushfpv.net/products/max-solo-xband-4-9g-vtx-2-5w",
+    "https://cdn.shopify.com/s/files/1/0628/1320/8746/files/4.9g_max_solo.jpg"
    ],
-   "note": "The 4.9 GHz X-Band version of the Max Solo. Its case label reads 'CVBS A/V Transmitter, 7-36V DC-IN / 5V 500mA DC-OUT', MMCX, SH1.0 six-pin, and a separate AUD / 5V / GND microphone header; RushFPV's dimension drawing gives 40 x 24 x 10 mm. The 2.5 W is the manufacturer's own model name - the label prints no power steps, so that column stays empty. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+   "note": "The 4.9 GHz X-Band version of the Max Solo. Its case label reads 'CVBS A/V Transmitter, 7-36V DC-IN / 5V 500mA DC-OUT', MMCX, SH1.0 six-pin, and a separate AUD / 5V / GND microphone header; RushFPV's dimension drawing gives 40 x 24 x 10 mm. The 2.5 W is the manufacturer's own model name. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder. frequency_range, channels, power_levels_mw and weight_g are RushFPV's own 'MAX SOLO VTX [X-BAND] User Manual' (the listing's description image 4.9g_max_solo.jpg, 2031x4535), Specification block: 'CHANNEL: 8CH X-BAND 4990-5020-5050-5080-5110-5140-5170-5200', 'POWER LEVEL: PIT-25mW-500mW-1000mW-2500mW', 'INPUT: DC 7-36V (6S LiPo)', 'ANTENNA CONNECTOR: MMCX 50Ω', 'EXTERNAL CONTROL: IRC Tramp', 'SIZE: H 40mm* W 24mm* D 10.5mm', 'WEIGHT:15g (With out cable)'; its VTX TABLE screenshot matches the stored Betaflight file cell for cell. Read 2026-10-20 (burst 229) at native resolution, fetched through common.UA. This supersedes the earlier line saying the power-steps column stays empty."
   },
   {
    "type": "vtx",
