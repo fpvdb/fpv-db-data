@@ -2891,13 +2891,17 @@
    "specs": {
     "system": "analog",
     "max_power_mw": 4000,
-    "frequency_range": "1.3 GHz",
-    "power_draw": "at 12 V: 160 mA pit mode, 270 mA at 25 mW, 420 mA at 200 mW, 780 mA at 1000 mW, 1400 mA at 4000 mW"
+    "frequency_range": "1080-1360 MHz",
+    "power_draw": "at 12 V: 160 mA pit mode, 270 mA at 25 mW, 420 mA at 200 mW, 780 mA at 1000 mW, 1400 mA at 4000 mW",
+    "channels": 16,
+    "power_levels_mw": "25 / 200 / 1000 / 4000",
+    "input_voltage": "7-30V",
+    "antenna_connector": "SMA"
    },
    "sources": [
     "https://rushfpv.net/products/1-3g-4w-vtx-v2-transmitter-module"
    ],
-   "note": "No spec block and no label photograph, so the 4 W is the manufacturer's own model name and nothing else is filled. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder. power_draw is the maker's own supply figure, the 'Current @12V' row of the power-level table on Rush's SPECIFICATION sheet '1.3GHz 4W Video Transmitter' (REV. A, 12-05-2024; image 13_4W_SPEC_00.jpg): PIT 160mA, 25mW 270mA, 200mW 420mA, 1000mW 780mA, 4000mW 1400mA, read 2026-10-20 at native resolution off the listing's spec-sheet image (Shopify CDN through common.UA, listed by scraper/propose_vtx_power_draw.py --images); it is the VTX's input draw, not its RF output."
+   "note": "No spec block and no label photograph, so the 4 W is the manufacturer's own model name and nothing else is filled. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder. power_draw is the maker's own supply figure, the 'Current @12V' row of the power-level table on Rush's SPECIFICATION sheet '1.3GHz 4W Video Transmitter' (REV. A, 12-05-2024; image 13_4W_SPEC_00.jpg): PIT 160mA, 25mW 270mA, 200mW 420mA, 1000mW 780mA, 4000mW 1400mA, read 2026-10-20 at native resolution off the listing's spec-sheet image (Shopify CDN through common.UA, listed by scraper/propose_vtx_power_draw.py --images); it is the VTX's input draw, not its RF output. power_draw is the maker's own supply figure, the 'Current @12V' row of the power-level table on Rush's SPECIFICATION sheet '1.3GHz 4W Video Transmitter' (REV. A, 12-05-2024; image 13_4W_SPEC_00.jpg): PIT 160mA, 25mW 270mA, 200mW 420mA, 1000mW 780mA, 4000mW 1400mA, read 2026-10-20 at native resolution off the listing's spec-sheet image (Shopify CDN through common.UA, listed by scraper/propose_vtx_power_draw.py --images); it is the VTX's input draw, not its RF output. frequency_range, channels, power_levels_mw, input_voltage and antenna_connector come from the same sheet's General Characteristics and RF output tables: 'Frequency band 1080-1360MHz', 'Channel customer 16' (1G3 band A 1080-1360 in 40 MHz steps, band B 1200-1340; four band B cells repeat band A frequencies, so 16 is the maker's channel count, not 16 distinct frequencies), 'Power Supply DC 7-30V', 'Antenna Port SMA 50 Ohms', power levels PIT / 25mW / 200mW / 1000mW / 4000mW; read 2026-10-20 (burst 219) at native resolution from the copy of the listing's spec-sheet image fetched earlier the same day through common.UA. The sheet's 'any band customization' in 1.4-2.8 GHz is a factory option, not this product's range. This supersedes the earlier line saying nothing else was filled."
   },
   {
    "type": "vtx",
@@ -2924,13 +2928,17 @@
    "specs": {
     "system": "analog",
     "max_power_mw": 4000,
-    "frequency_range": "3.3 GHz",
-    "power_draw": "at 12 V: 160 mA pit mode, 270 mA at 25 mW, 550 mA at 200 mW, 880 mA at 1000 mW, 1400 mA at 4000 mW"
+    "frequency_range": "3170-3470 MHz",
+    "power_draw": "at 12 V: 160 mA pit mode, 270 mA at 25 mW, 550 mA at 200 mW, 880 mA at 1000 mW, 1400 mA at 4000 mW",
+    "channels": 16,
+    "power_levels_mw": "25 / 200 / 1000 / 4000",
+    "input_voltage": "7-30V",
+    "antenna_connector": "SMA"
    },
    "sources": [
     "https://rushfpv.net/products/3-3g-4w-vtx-transmitter-module"
    ],
-   "note": "No spec block and no readable label photograph on RushFPV's page, so the 4 W is the manufacturer's own model name and the power steps, band plan and input voltage are left empty rather than copied from the 3.3 GHz 2 W module next to it. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder. power_draw is the maker's own supply figure, the 'Current @12V' row of the power-level table on Rush's SPECIFICATION sheet '3.3GHz 4W Video Transmitter' (REV. A, 12-05-2024; image 33_4W_SPEC_00.jpg): PIT 160mA, 25mW 270mA, 200mW 550mA, 1000mW 880mA, 4000mW 1400mA, read 2026-10-20 at native resolution off the listing's spec-sheet image (Shopify CDN through common.UA, listed by scraper/propose_vtx_power_draw.py --images); it is the VTX's input draw, not its RF output."
+   "note": "No spec block and no readable label photograph on RushFPV's page, so the 4 W is the manufacturer's own model name and the power steps, band plan and input voltage are left empty rather than copied from the 3.3 GHz 2 W module next to it. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder. power_draw is the maker's own supply figure, the 'Current @12V' row of the power-level table on Rush's SPECIFICATION sheet '3.3GHz 4W Video Transmitter' (REV. A, 12-05-2024; image 33_4W_SPEC_00.jpg): PIT 160mA, 25mW 270mA, 200mW 550mA, 1000mW 880mA, 4000mW 1400mA, read 2026-10-20 at native resolution off the listing's spec-sheet image (Shopify CDN through common.UA, listed by scraper/propose_vtx_power_draw.py --images); it is the VTX's input draw, not its RF output. power_draw is the maker's own supply figure, the 'Current @12V' row of the power-level table on Rush's SPECIFICATION sheet '3.3GHz 4W Video Transmitter' (REV. A, 12-05-2024; image 33_4W_SPEC_00.jpg): PIT 160mA, 25mW 270mA, 200mW 550mA, 1000mW 880mA, 4000mW 1400mA, read 2026-10-20 at native resolution off the listing's spec-sheet image (Shopify CDN through common.UA, listed by scraper/propose_vtx_power_draw.py --images); it is the VTX's input draw, not its RF output. frequency_range, channels, power_levels_mw, input_voltage and antenna_connector come from the same sheet's General Characteristics and RF output tables: 'Frequency band 3170-3470MHz', 'Channel customer 16' (3G3 band A 3330-3470 and band B 3170-3310 in 20 MHz steps, eight each), 'Power Supply DC 7-30V', 'Antenna Port SMA 50 Ohms', power levels PIT / 25mW / 200mW / 1000mW / 4000mW; read 2026-10-20 (burst 219) at native resolution from the copy of the listing's spec-sheet image fetched earlier the same day through common.UA. The sheet also offers bands C (3010-3150MHz) and D (2850-2990MHz) as a factory customization; those are not this product's range. This supersedes the earlier line saying the power steps, band plan and input voltage were left empty."
   },
   {
    "type": "vtx",
@@ -2959,15 +2967,16 @@
     "system": "analog",
     "max_power_mw": 2500,
     "power_levels_mw": "25 / 200 / 1000 / 2500",
-    "frequency_range": "4.9 / 5.8 GHz",
+    "frequency_range": "4990-5200 / 5362-5945 MHz",
     "input_voltage": "7-30V",
     "antenna_connector": "SMA",
-    "power_draw": "at 12 V: 40 mA pit mode, 140 mA at 25 mW, 300 mA at 200 mW, 450 mA at 1000 mW, 750 mA at 2500 mW"
+    "power_draw": "at 12 V: 40 mA pit mode, 140 mA at 25 mW, 300 mA at 200 mW, 450 mA at 1000 mW, 750 mA at 2500 mW",
+    "channels": 56
    },
    "sources": [
     "https://rushfpv.net/products/5-8g-4-9g-dual-band-vtx-transmitter-module"
    ],
-   "note": "Two SMA ports on one module: port A is 5G8 and carries the six 5.8 GHz bands (A, B, E, F, R, L), port B is 4G9 and carries the single X band. Label: power steps PIT / 25 / 200 / 1000 / 2500 mW, 7-30 V. The label names no channel count, so that column stays empty. Ships with a 4.9 GHz 120 mm and a 5.8 GHz Cherry2 123 mm SMA antenna. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder. power_draw is the maker's own supply figure, the 'Current @12V' row of the RF Power table on Rush's SPECIFICATION sheet '4.9 / 5.8GHz 2.5W Video Transmitter' (REV. A, 08-27-2024; page 2, image 4958_SPEC_01.jpg): PIT 40 mA, 25mW 140 mA, 200mW 300 mA, 1000mW 450mA, 2500mW 750mA, read 2026-10-20 at native resolution off the listing's spec-sheet image (Shopify CDN through common.UA, listed by scraper/propose_vtx_power_draw.py --images); it is the VTX's input draw, not its RF output."
+   "note": "Two SMA ports on one module: port A is 5G8 and carries the six 5.8 GHz bands (A, B, E, F, R, L), port B is 4G9 and carries the single X band. Label: power steps PIT / 25 / 200 / 1000 / 2500 mW, 7-30 V. The label names no channel count, so that column stays empty. Ships with a 4.9 GHz 120 mm and a 5.8 GHz Cherry2 123 mm SMA antenna. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder. power_draw is the maker's own supply figure, the 'Current @12V' row of the RF Power table on Rush's SPECIFICATION sheet '4.9 / 5.8GHz 2.5W Video Transmitter' (REV. A, 08-27-2024; page 2, image 4958_SPEC_01.jpg): PIT 40 mA, 25mW 140 mA, 200mW 300 mA, 1000mW 450mA, 2500mW 750mA, read 2026-10-20 at native resolution off the listing's spec-sheet image (Shopify CDN through common.UA, listed by scraper/propose_vtx_power_draw.py --images); it is the VTX's input draw, not its RF output. power_draw is the maker's own supply figure, the 'Current @12V' row of the RF Power table on Rush's SPECIFICATION sheet '4.9 / 5.8GHz 2.5W Video Transmitter' (REV. A, 08-27-2024; page 2, image 4958_SPEC_01.jpg): PIT 40 mA, 25mW 140 mA, 200mW 300 mA, 1000mW 450mA, 2500mW 750mA, read 2026-10-20 at native resolution off the listing's spec-sheet image (Shopify CDN through common.UA, listed by scraper/propose_vtx_power_draw.py --images); it is the VTX's input draw, not its RF output. frequency_range and channels are the same sheet's page 1 (image 4958_SPEC_00.jpg), General Characteristics: 'Frequency band 4990-5200+5362-5945MHz', 'Channel customer 8 + 48CH'; its Channel List gives port A bands A, B, E, F, R and L (5362-5945) and port B band X (4990-5200, 30 MHz steps), eight channels each; read 2026-10-20 (burst 219) at native resolution from the copy of the listing's spec-sheet image fetched earlier the same day through common.UA. This supersedes the earlier line saying the label names no channel count."
   },
   {
    "type": "vtx",
@@ -2978,13 +2987,14 @@
     "system": "analog",
     "max_power_mw": 4000,
     "power_levels_mw": "25 / 200 / 1000 / 4000",
-    "frequency_range": "5.8 GHz",
-    "input_voltage": "7-30V"
+    "frequency_range": "5362-5945 MHz",
+    "input_voltage": "7-30V",
+    "channels": 48
    },
    "sources": [
     "https://rushfpv.net/products/5-8g-4w-vtx-transmitter-module"
    ],
-   "note": "Label: power steps PIT / 25 / 200 mW / 1 W / 4 W, six bands (A, B, E, F, R, L), 7-30 V Lipo-in. The label names no channel count, so that column stays empty. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder."
+   "note": "Label: power steps PIT / 25 / 200 mW / 1 W / 4 W, six bands (A, B, E, F, R, L), 7-30 V Lipo-in. The label names no channel count, so that column stays empty. Output above the lowest step is licensed spectrum in most countries; the module's own label carries that reminder. frequency_range and channels are Rush's SPECIFICATION sheet '5G8-4W Video Transmitter' (REV.PO, DATE 13-11-2025; the listing's first description image, 5.8g_4W__01.jpg), General Characteristics: 'Frequency band 5362-5945MHz', 'Channel customer 48CH'; its RF output table lists bands A, B, E, F, Race Band and Low Race (5362-5621), eight channels each; read 2026-10-20 (burst 219) at native resolution from the copy of the listing's spec-sheet image fetched earlier the same day through common.UA. This supersedes the earlier line saying the label names no channel count. The sheet's Antenna Port row reads only '50 Ohms', so antenna_connector stays empty."
   },
   {
    "type": "vtx",
