@@ -1173,12 +1173,14 @@
      "range_mah": "450-750",
      "connector": "XT30",
      "chemistry": "LiPo"
-    }
+    },
+    "camera": "DJI O3",
+    "flight_controller": "GOKU GN 405S 20A AIO"
    },
    "sources": [
     "https://flywoo.net/products/cinerace20-hd-dji-o3-2inch-w-sandisk-128gb-sub250-4k-1080p-cinewhoop"
    ],
-   "note": "O3 edition 139g (analog 112g, 4850KV). Gemfan D51 props."
+   "note": "O3 edition 139g (analog 112g, 4850KV). Gemfan D51 props. camera and flight_controller read 2026-10-23 off the cited Flywoo page's Specifications block, kept in the page's JSON description ('FC and ESC : GOKU GN 405S 20A AIO', 'Camera: DJI O3'). That page is the O3 edition and its Frame line says 'CineRace20 O3 (Different fromCineRace20 V1.2\\V2 frame)': every figure here is the O3 edition's. No wheelbase, receiver or prop hub printed."
   },
   {
    "type": "quad",
@@ -1202,12 +1204,13 @@
      "connector": "XT30",
      "chemistry": "Li-ion / LiPo"
     },
-    "flight_controller": "GOKU F722 Pro Mini V2 45A Stack"
+    "flight_controller": "GOKU F722 Pro Mini V2 45A Stack",
+    "camera": "DJI O4 Pro Air Unit"
    },
    "sources": [
     "https://flywoo.net/products/explorer-lr-4-o4-pro-v2-sub250-micro-long-range"
    ],
-   "note": "AUW 246g with 4S 750 LiPo. Recommended Li-ion: Sony/Molicel 18650 4S1P. flight_controller read 2026-10-20 off the cited Flywoo page's Specifications block (no wheelbase or receiver line there)."
+   "note": "AUW 246g with 4S 750 LiPo. Recommended Li-ion: Sony/Molicel 18650 4S1P. flight_controller read 2026-10-20 off the cited Flywoo page's Specifications block (no wheelbase or receiver line there). camera read 2026-10-23 off the same block's 'VTX / Camera: DJI O4 Pro Air Unit' row (one part, named as printed). The block's Recommended Batteries line now reads 'Explorer 750mAh LiHV 4S / Explorer 900mAh LiHV 4S / Explorer Sony 18650 4S1P 3000mAh / Explorer Molicell P30B 18650 4S1P 3000mAh'."
   },
   {
    "type": "quad",
@@ -1223,19 +1226,20 @@
     "typical_current_a": 4,
     "recommended_battery": {
      "cells": "2S",
-     "capacity_mah": 450,
-     "range_mah": "450-650",
+     "capacity_mah": 750,
+     "range_mah": "420-750",
      "connector": "XT30",
      "chemistry": "LiPo"
     },
     "camera": "Flywoo 1.2g 1S Nano camera V2",
     "flight_controller": "GOKU Versatile F405 2S 12A AIO",
-    "receiver_options": "Built-in ELRS 2.4G"
+    "receiver_options": "PNP / Frsky R-XSR / ELRS 2.4g / TBS Nano RX"
    },
    "sources": [
-    "https://www.getfpv.com/flywoo-firefly-nano-baby-20-2s-micro-quadcopter-bnf-analog.html"
+    "https://www.getfpv.com/flywoo-firefly-nano-baby-20-2s-micro-quadcopter-bnf-analog.html",
+    "https://flywoo.net/products/firefly-2s-nano-baby-20-analog"
    ],
-   "note": "Battery range/connector are class-standard values, not confirmed by Flywoo spec table. camera, flight_controller read 2026-10-17 off the cited GetFPV listing's spec block. receiver_options read 2026-10-20 off the same listing's features (\"GOKU Versatile F405 2S 12A AIO. Built-in ELRS 2.4g RX\"; no other receiver offered). prop_mount left empty: the listing prints only the motor's \"Shaft Diameter: Φ 1.5mm\", not the props' hub."
+   "note": "Connector and chemistry are class-standard values, not printed by Flywoo. camera, flight_controller read 2026-10-17 off the cited GetFPV listing's spec block; Flywoo's own page (flywoo.net/products/firefly-2s-nano-baby-20-analog, description read off the Web Archive copy of 2025-12-15, the live page renders none) prints the same block: 'Weight: 33.8g (without battery)', 'FC & ESC : GOKU Versatile F405 2S 12A AIO', 'Motors: Flywoo ROBO 1002 15500KV', 'Props: Gemfan 2015-2 blade', 'VTX : GOKU VTX625 V2 450mW Nano VTX', 'Camera : Flywoo 1.2g 1S Nano camera V2', and notes a later batch ships the GOKU F405 ERVT 1-2S 12A AIO instead. Battery from its highlights, 'Explorer 2S 420mAh for Racing, Explorer 2S 750mAh for long flight time' (was a class-standard 450-650 until 2026-10-23). receiver_options is the Receiver option list on Flywoo's page (live and archived alike), replacing the GetFPV 'Built-in ELRS 2.4G' that was one shop's variant. prop_mount left empty: no prop hub printed."
   },
   {
    "type": "quad",
@@ -1313,12 +1317,15 @@
      "connector": "XT60",
      "chemistry": "LiPo / Li-ion"
     },
-    "flight_controller": "GOKUF722"
+    "flight_controller": "GOKUF722",
+    "camera": "DJI Digital HD FPV Air Unit",
+    "receiver_options": "BNF-DJI (built-in DJI receiver) / TBS Cross Receiver"
    },
    "sources": [
-    "https://www.getfpv.com/flywoo-mr-croc-6-6s-fpv-quadcopter-w-gps-dji-digital-hd-fpv-system.html"
+    "https://www.getfpv.com/flywoo-mr-croc-6-6s-fpv-quadcopter-w-gps-dji-digital-hd-fpv-system.html",
+    "https://flywoo.net/products/flywoo-mr-croc-hd-6-inch-6s-f7-bluetooth-fpv-racing-drone-bnf-w-dji-fpv-air-unit-goggles-2306-5-1750-motor"
    ],
-   "note": "With GPS. 7in variant 498g (NIN 2806.5). Battery range is class-standard. flight_controller read 2026-10-17 off the cited GetFPV listing's spec block."
+   "note": "With GPS. 7in variant 498g (NIN 2806.5). Battery range is class-standard. flight_controller read 2026-10-17 off the cited GetFPV listing's spec block. Flywoo's own page (Web Archive copy of 2020-10-01, 'Mr.Croc-HD 6 incn') confirms 'Weight:389g ( without battery)', NIN 2306.5 1750KV and the GOKUF722 stack; camera is its box line '1 x DJI Digital HD FPV Air Unit (FPV Camera + Air Unit Module)', receiver_options its Optional Version list ('BNF-DJI ( Built-in DJI Receiver)', the same with goggles, 'TBS Cross Receiver ( Built-in DJI Receiver & TBS Cross Receiver )'), read 2026-10-23. No wheelbase or flight time printed."
   },
   {
    "type": "quad",
