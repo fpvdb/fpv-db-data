@@ -1,5 +1,7 @@
 # FPV-DB Open Dataset
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23613812.svg)](https://doi.org/10.5281/zenodo.23613812)
+
 Structured specifications for **1000+ FPV drone components** — BNF quads,
 motors (including manufacturer thrust bench tables), batteries, props,
 FC/ESC stacks, cameras and video transmitters.
@@ -33,6 +35,9 @@ their own `motor_thrust` table (one row per KV, prop, voltage and throttle step)
 - Hugging Face: [fpvdb/fpv-components](https://huggingface.co/datasets/fpvdb/fpv-components) (JSONL, browsable in Data Studio)
 - Kaggle: [fpvdbcom/fpv-drone-components](https://www.kaggle.com/datasets/fpvdbcom/fpv-drone-components) (CSV)
 
+- Zenodo: tagged releases are archived with a DOI,
+  [10.5281/zenodo.23613812](https://doi.org/10.5281/zenodo.23613812) (all versions)
+
 This repository stays the canonical, daily copy.
 
 ## License
@@ -41,6 +46,11 @@ This repository stays the canonical, daily copy.
 any use, including commercial, on one condition: **attribute with a link
 to [fpv-db.com](https://fpv-db.com)** (per component page where practical,
 or a general credit).
+
+## Citation
+
+> FPV-DB. *FPV-DB: open dataset of FPV drone component specifications*.
+> Zenodo. https://doi.org/10.5281/zenodo.23613812
 
 ## Caveats
 
