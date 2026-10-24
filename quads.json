@@ -1200,9 +1200,9 @@
     "recommended_battery": {
      "cells": "4S",
      "capacity_mah": 3000,
-     "range_mah": "18650 3000 Li-ion or 750 LiPo",
+     "range_mah": "18650 3000 Li-ion or 750 or 900 LiHV",
      "connector": "XT30",
-     "chemistry": "Li-ion / LiPo"
+     "chemistry": "Li-ion / LiHV"
     },
     "flight_controller": "GOKU F722 Pro Mini V2 45A Stack",
     "camera": "DJI O4 Pro Air Unit"
@@ -1210,7 +1210,7 @@
    "sources": [
     "https://flywoo.net/products/explorer-lr-4-o4-pro-v2-sub250-micro-long-range"
    ],
-   "note": "AUW 246g with 4S 750 LiPo. Recommended Li-ion: Sony/Molicel 18650 4S1P. flight_controller read 2026-10-20 off the cited Flywoo page's Specifications block (no wheelbase or receiver line there). camera read 2026-10-23 off the same block's 'VTX / Camera: DJI O4 Pro Air Unit' row (one part, named as printed). The block's Recommended Batteries line now reads 'Explorer 750mAh LiHV 4S / Explorer 900mAh LiHV 4S / Explorer Sony 18650 4S1P 3000mAh / Explorer Molicell P30B 18650 4S1P 3000mAh'."
+   "note": "AUW 246g with 4S 750 LiPo. Recommended Li-ion: Sony/Molicel 18650 4S1P. flight_controller read 2026-10-20 off the cited Flywoo page's Specifications block (no wheelbase or receiver line there). camera read 2026-10-23 off the same block's 'VTX / Camera: DJI O4 Pro Air Unit' row (one part, named as printed). The block's Recommended Batteries line now reads 'Explorer 750mAh LiHV 4S / Explorer 900mAh LiHV 4S / Explorer Sony 18650 4S1P 3000mAh / Explorer Molicell P30B 18650 4S1P 3000mAh'; range_mah and chemistry follow it since 2026-10-24 (were '750 LiPo')."
   },
   {
    "type": "quad",
