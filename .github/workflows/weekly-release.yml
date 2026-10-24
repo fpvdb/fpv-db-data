@@ -1,0 +1,38 @@
+# Weekly GitHub release of the dataset; Zenodo archives every release under
+# concept DOI 10.5281/zenodo.23613812. Skipped when no data file changed
+# since the last release (manifest.json alone changes daily with its date).
+name: weekly-release
+on:
+  schedule:
+    - cron: "0 10 * * 1"   # Mondays 10:00 UTC, after the daily export push
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Release if the data changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="v$(date -u +%Y.%m.%d)"
+          last=$(git describe --tags --abbrev=0 2>/dev/null || true)
+          if [ -n "$last" ] && git diff --quiet "$last" HEAD -- '*.csv' '*.json' ':!manifest.json'; then
+            echo "no data change since $last"; exit 0
+          fi
+          git rev-parse -q --verify "refs/tags/$tag" && { echo "$tag exists"; exit 0; }
+          day=$(jq -r .generated manifest.json)
+          parts=$(jq -r '.counts | to_entries | map("\(.value) \(.key)") | join(", ")' manifest.json)
+          total=$(jq -r .total manifest.json)
+          {
+            echo "Snapshot of the FPV-DB open dataset as of $day: $total published FPV components ($parts) as CSV and JSON, with the source URL recorded per entry."
+            echo
+            echo "The live dataset is regenerated daily at https://fpv-db.com/data/; tagged releases are archived on Zenodo for citation (https://doi.org/10.5281/zenodo.23613812)."
+            echo
+            echo 'License: CC BY 4.0 - credit "FPV-DB" with a link to https://fpv-db.com.'
+          } > notes.md
+          gh release create "$tag" --title "FPV-DB dataset $day" --notes-file notes.md
