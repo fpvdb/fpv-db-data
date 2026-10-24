@@ -1,0 +1,35 @@
+{
+  "title": "FPV-DB: open dataset of FPV drone component specifications",
+  "upload_type": "dataset",
+  "description": "Structured specifications of FPV drone components (motors with manufacturer bench thrust tables, batteries, props, stacks, cameras, VTX, quads) collected from manufacturer pages and public retail listings, with the source URL recorded per entry. Regenerated daily at https://fpv-db.com/data/; this archive is a snapshot of the GitHub repository fpvdb/fpv-db-data. Spec sheets only: no reviews, no rankings.",
+  "creators": [
+    {
+      "name": "FPV-DB"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "fpv",
+    "drone",
+    "multirotor",
+    "uav",
+    "brushless motor",
+    "thrust",
+    "lipo",
+    "vtx",
+    "specifications",
+    "open data"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://fpv-db.com/data/",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/fpvdb/fpv-db-data",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
