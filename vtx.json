@@ -723,9 +723,10 @@
    "sources": [
     "https://www.racedayquads.com/products/cubepilot-herelink-blue-air-unit-v1-1",
     "https://docs.cubepilot.org/cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue",
-    "https://docs.cubepilot.org/cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/herelink-blue-user-guide/air-unit/air-unit-specifications"
+    "https://docs.cubepilot.org/cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/herelink-blue-user-guide/air-unit/air-unit-specifications",
+    "https://docs.cubepilot.org/cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/herelink-blue-user-guide/air-unit/air-unit-interface-and-installation"
    ],
-   "note": "CubePilot's own HereLink Blue documentation (docs.cubepilot.org, Union Robotics partner pages, read 2026-10-20) prints the system's radio table: 'Frequency Band: 2.4GHz ISM', 'Receive Sensitivity: -99dBm@20MHz BW', and calls HereLink Blue 'an integrated remote controller, ground station and wireless digital transmission system' carrying 'HD video'; its Air Unit specification page states 'Signal Bandwidth: 20MHz/10MHz' and prints no frequency of its own, so the system's band is the air unit's. system is therefore Digital HD (other), not the analog the retail scrape assigned for want of a digital keyword in the listing. The listing itself calls it 'a long-range digital video and data transmission module'. weight_g stays the listing's 68 g for the NW Blue V1.1 unit (78 x 30 x 17 mm); CubePilot's page shows 90 g with antennas for a 104.5 x 30.5 x 16 mm housing, a different case."
+   "note": "CubePilot's own HereLink Blue documentation (docs.cubepilot.org, Union Robotics partner pages, read 2026-10-20) prints the system's radio table: 'Frequency Band: 2.4GHz ISM', 'Receive Sensitivity: -99dBm@20MHz BW', and calls HereLink Blue 'an integrated remote controller, ground station and wireless digital transmission system' carrying 'HD video'; its Air Unit specification page states 'Signal Bandwidth: 20MHz/10MHz' and prints no frequency of its own, so the system's band is the air unit's. system is therefore Digital HD (other), not the analog the retail scrape assigned for want of a digital keyword in the listing. The listing itself calls it 'a long-range digital video and data transmission module'. weight_g stays the listing's 68 g for the NW Blue V1.1 unit (78 x 30 x 17 mm); CubePilot's page shows 90 g with antennas for a 104.5 x 30.5 x 16 mm housing, a different case. input_voltage is left empty: CubePilot's Air Unit Interface & Installation page (read 2026-10-25) prints 'Power: 6V - 12.6V max (3s Lipo supported)' in its connector table and 'Connect 5V - 12.6V max (3s Lipo supported) battery' in its wiring steps - two figures on one maker page - and it documents the 104.5 mm housing, not the 78 mm V1.1 unit sold here; the retail listing's 'min 6 V, max 12 V' agrees with neither."
   },
   {
    "type": "vtx",
@@ -743,9 +744,10 @@
    "_scraped_at": "2026-10-25",
    "sources": [
     "https://www.racedayquads.com/products/cubepilot-herelink-blue-bundle-v1-1",
-    "https://docs.cubepilot.org/cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue"
+    "https://docs.cubepilot.org/cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue",
+    "https://docs.cubepilot.org/cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/herelink-blue-user-guide/air-unit/air-unit-interface-and-installation"
    ],
-   "note": "CubePilot's own HereLink Blue documentation (docs.cubepilot.org, Union Robotics partner pages, read 2026-10-20) prints the system's radio table: 'Frequency Band: 2.4GHz ISM', 'Receive Sensitivity: -99dBm@20MHz BW', and calls HereLink Blue 'an integrated remote controller, ground station and wireless digital transmission system' carrying 'HD video'; its Air Unit specification page states 'Signal Bandwidth: 20MHz/10MHz' and prints no frequency of its own, so the system's band is the air unit's. system is therefore Digital HD (other), not the analog the retail scrape assigned for want of a digital keyword in the listing. The bundle listing prints the same 'Frequency Band: 2.4 GHz ISM'; the '5.8 GHz' this page carried until 2026-10-20 was the controller's '5.8 GHz WiFi' line, which the scraper now steps over."
+   "note": "CubePilot's own HereLink Blue documentation (docs.cubepilot.org, Union Robotics partner pages, read 2026-10-20) prints the system's radio table: 'Frequency Band: 2.4GHz ISM', 'Receive Sensitivity: -99dBm@20MHz BW', and calls HereLink Blue 'an integrated remote controller, ground station and wireless digital transmission system' carrying 'HD video'; its Air Unit specification page states 'Signal Bandwidth: 20MHz/10MHz' and prints no frequency of its own, so the system's band is the air unit's. system is therefore Digital HD (other), not the analog the retail scrape assigned for want of a digital keyword in the listing. The bundle listing prints the same 'Frequency Band: 2.4 GHz ISM'; the '5.8 GHz' this page carried until 2026-10-20 was the controller's '5.8 GHz WiFi' line, which the scraper now steps over. input_voltage is left empty: CubePilot's Air Unit Interface & Installation page (read 2026-10-25) prints 'Power: 6V - 12.6V max (3s Lipo supported)' in its connector table and 'Connect 5V - 12.6V max (3s Lipo supported) battery' in its wiring steps - two figures on one maker page - and it documents the 104.5 mm housing, not the 78 mm V1.1 unit sold here; the retail listing's 'min 6 V, max 12 V' agrees with neither."
   },
   {
    "type": "vtx",
@@ -1091,8 +1093,10 @@
    },
    "_scraped_at": "2026-10-25",
    "sources": [
-    "https://www.racedayquads.com/products/fat-shark-aura-vtx-ndaa"
-   ]
+    "https://www.racedayquads.com/products/fat-shark-aura-vtx-ndaa",
+    "https://www.fatshark.com/store-products-sitemap.xml"
+   ],
+   "note": "No maker source to cite: on 2026-10-25 fatshark.com's product sitemap lists no Aura, its help docs find none, and none of the 4200 fatshark.com URLs in the Web Archive names it, so this page's figures are the retail listing's and its 'Input Voltage: 7~36V' is not published as a maker figure."
   },
   {
    "type": "vtx",
@@ -1134,7 +1138,7 @@
     "https://www.racedayquads.com/products/flywoo-goku-hm850-16x16-20x20-25x25-25-850mw-5-8ghz-vtx-u-fl",
     "https://cdn.shopify.com/s/files/1/0010/7410/2324/files/HM850.jpg?v=1627960533"
    ],
-   "note": "frequency_range and channels are Flywoo's own GOKU HM850 instruction sheet (https://cdn.shopify.com/s/files/1/0010/7410/2324/files/HM850.jpg?v=1627960533): 'Frequency: 5 bands 40 channels' over a printed grid of bands A/b/E/F/r whose lowest cell is 5645 (E4) and highest 5945 (E8). Flywoo's product page (https://flywoo.net/products/goku-hm600-5-8ghz-ufl-850mw-vtx-w-agc-microphone) prints 'Channels: 40CH' but 'Raceband: 5362-5945 MHZ', and 5362 is in none of the five bands the sheet prints (it is the bottom of the L band, which this radio does not list); two maker documents disagree and the sheet, whose band count, channel count and grid all agree, is the one used. weight_g is left empty: the product page says 'Weight: 3g' and the sheet 'Weight: 2.5g', two maker figures with nothing to choose between them."
+   "note": "frequency_range and channels are Flywoo's own GOKU HM850 instruction sheet (https://cdn.shopify.com/s/files/1/0010/7410/2324/files/HM850.jpg?v=1627960533): 'Frequency: 5 bands 40 channels' over a printed grid of bands A/b/E/F/r whose lowest cell is 5645 (E4) and highest 5945 (E8). Flywoo's product page (https://flywoo.net/products/goku-hm600-5-8ghz-ufl-850mw-vtx-w-agc-microphone) prints 'Channels: 40CH' but 'Raceband: 5362-5945 MHZ', and 5362 is in none of the five bands the sheet prints (it is the bottom of the L band, which this radio does not list); two maker documents disagree and the sheet, whose band count, channel count and grid all agree, is the one used. weight_g is left empty: the product page says 'Weight: 3g' and the sheet 'Weight: 2.5g', two maker figures with nothing to choose between them. input_voltage is left empty: Flywoo's product page prints 'Input Voltage: +7-28V Input' and its own instruction sheet (HM850.jpg, read at full resolution 2026-10-25) 'BAT: +7-26V Input' - two maker figures for one field, so neither is published (the retail listing's 7-28V copies the page)."
   },
   {
    "type": "vtx",
@@ -3085,14 +3089,18 @@
     "channels": 48,
     "antenna_connector": "MMCX",
     "weight_g": 6.8,
-    "price_usd": 44.49
+    "price_usd": 44.49,
+    "input_voltage": "7-36V DC",
+    "power_draw": "at 12 V: 40 mA pit mode, 95 mA at 25 mW, 185 mA at 200 mW, 250 mA at 500 mW, 380 mA at 800 mW",
+    "power_levels_mw": "25 / 200 / 500 / 800"
    },
    "_scraped_at": "2026-10-25",
    "sources": [
     "https://www.racedayquads.com/products/rush-fpv-tank-ii-ultimate-30x30-25-800mw-5-8ghz-vtx-w-smart-audio-mmcx",
-    "https://drive.google.com/file/d/1kPKAVDcCnHYdVzdYFs0QlkU4oPclrnGF/view"
+    "https://drive.google.com/file/d/1kPKAVDcCnHYdVzdYFs0QlkU4oPclrnGF/view",
+    "https://web.archive.org/web/20250421214529/https://rushfpv.net/products/tank-ii-ultimate-vtx"
    ],
-   "note": "frequency_range is the edges of RushFPV's own 48CH Betaflight file in its VTX Table Drive folder (six bands, LOWRACE L1 5362 .. E8 5945 MHz; read again 2026-10-20). The file's B5 cell prints 5999 inside a 5790/5809/5828 ladder; the model's 37CH file prints 5809 there, so 5999 is not an edge. The 37CH US version tunes 5658-5917 MHz."
+   "note": "frequency_range is the edges of RushFPV's own 48CH Betaflight file in its VTX Table Drive folder (six bands, LOWRACE L1 5362 .. E8 5945 MHz; read again 2026-10-20). The file's B5 cell prints 5999 inside a 5790/5809/5828 ladder; the model's 37CH file prints 5809 there, so 5999 is not an edge. The 37CH US version tunes 5658-5917 MHz. input_voltage, power_draw and power_levels_mw are RushFPV's own spec block ('Item Name: Rush Tank II', 'Input Voltage: 7-36V DC', 'Output Voltage: 5V 1A', '12V Input Current: 40mA@Pitmode, 95mA@25mW, 185mA@200mW, 250mA@500mW, 380mA@800mW', 'Channels: 48CH / 37CH(US VERSION)', 'Power: PIT/25/200/500/800 mW', 'Weight: 6.8g(including cable)'), read 2026-10-25 in the Web Archive copy of 2025-04-21, since the maker's store no longer lists this model; the retail listing prints the same input voltage. power_draw is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
@@ -3132,12 +3140,17 @@
     "channels": 37,
     "antenna_connector": "MMCX",
     "weight_g": 6.66,
-    "price_usd": 39.99
+    "price_usd": 39.99,
+    "input_voltage": "7-36V DC",
+    "power_draw": "at 12 V: 40 mA pit mode, 95 mA at 25 mW, 185 mA at 200 mW, 250 mA at 500 mW, 380 mA at 800 mW",
+    "power_levels_mw": "25 / 200 / 500 / 800"
    },
    "_scraped_at": "2026-10-25",
    "sources": [
-    "https://www.racedayquads.com/products/rushfpv-tank-plus-25-800mw-5-8ghz-37ch-vtx-mmcx"
-   ]
+    "https://www.racedayquads.com/products/rushfpv-tank-plus-25-800mw-5-8ghz-37ch-vtx-mmcx",
+    "https://web.archive.org/web/20250815192609/https://rushfpv.net/products/tank-ultimate-plus-vtx"
+   ],
+   "note": "input_voltage, power_draw and power_levels_mw are RushFPV's own spec block for the Tank Ultimate Plus ('Item Name: Rush Tank Plus', 'Input Voltage: 7-36V DC', 'Output Voltage: 5V 1A', '12V Input Current: 40mA@Pitmode, 95mA@25mW, 185mA@200mW, 250mA@500mW, 380mA@800mW', 'Channels: 48CH / 37CH(US VERSION)', 'Power: PIT/25/200/500/800 mW', 'Dimensions: 33.6*22.8*4.1 mm', 'Weight: 6.66g(without cable)'), read 2026-10-25 in the Web Archive copy of 2025-08-15, since the maker's store no longer lists this model; the retail listing prints the same input voltage, and the 6.66 g and 37 channels this page carries. power_draw is the VTX's input draw, not its RF output."
   },
   {
    "type": "vtx",
