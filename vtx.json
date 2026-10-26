@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25",
+ "generated": "2026-10-26",
  "count": 168,
  "license": "CC BY 4.0 - attribution: link https://fpv-db.com",
  "items": [
@@ -17,7 +17,7 @@
     "price_usd": 26.49,
     "power_levels_mw": "25 / 200 / 400 / 600"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/akk-fx3-ultimate-mini-20x20-25-600mw-5-8ghz-vtx-w-smart-audio-mmcx-u-fl",
     "https://www.akktek.com/akk-fx3-ultimate.html",
@@ -41,7 +41,7 @@
     "price_usd": 28.99,
     "power_levels_mw": "25 / 200 / 600 / 1000"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/akk-infinite-dvr-30x30-25-1000mw-5-8ghz-vtx-w-smart-audio-mmcx",
     "https://docs.google.com/document/d/1B97Ol2UQOWj8A2ZzzsRcIU3JlOwlX6hYAzeutjb6c1E/edit"
@@ -85,7 +85,7 @@
     "antenna_connector": "MMCX / U.FL",
     "weight_g": 6.5
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/rdq-mach-3-video-transmitter-25-1000mw-5-8ghz-vtx-choose-version",
     "https://www.dropbox.com/s/rf84ajx7gjkvke7/Mach3%20manual.pdf?dl=0",
@@ -531,7 +531,7 @@
     "channels": 8,
     "input_voltage": "5V"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/betafpv-c04-camera-and-vtx-module-cetus-v2",
     "https://betafpv.com/products/c04-camera-and-vtx-module"
@@ -613,7 +613,7 @@
     "channels": 3,
     "input_voltage": "3-12.6V"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/walksnail-ascent-lite-vtx-kit",
     "https://www.caddxfpv.com/products/walksnail-ascent-lite-kit",
@@ -636,7 +636,7 @@
     "input_voltage": "11.1-25.2V",
     "max_eirp_dbm": 33
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/walksnail-avatar-gt2-kit",
     "https://www.caddxfpv.com/products/walksnail-avatar-gt2-kit",
@@ -659,7 +659,7 @@
     "max_power_mw": 500,
     "channels": 8
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/walksnail-avatar-hd-mini-1s-kit",
     "https://www.caddxfpv.com/products/walksnail-avatar-hd-mini-1s-kit",
@@ -719,7 +719,7 @@
     "price_usd": 1399.0,
     "frequency_range": "2.4 GHz"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/cubepilot-herelink-blue-air-unit-v1-1",
     "https://docs.cubepilot.org/cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue",
@@ -741,7 +741,7 @@
     "weight_g": 68.0,
     "price_usd": 3999.0
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/cubepilot-herelink-blue-bundle-v1-1",
     "https://docs.cubepilot.org/cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue",
@@ -934,7 +934,7 @@
     "max_power_mw": 700,
     "power_levels_mw": "25 / 50 / 100 / 200 / 400 / 700"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/dji-o4-air-unit",
     "https://dl.djicdn.com/downloads/DJI_O4_Air_Unit_Series/UM/DJI_O4_Air_Unit_Series_User_Manual_v1.0_en.pdf",
@@ -957,7 +957,7 @@
     "max_power_mw": 1200,
     "power_levels_mw": "25 / 50 / 100 / 200 / 400 / 700 / 1200"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/dji-o4-air-unit-pro",
     "https://dl.djicdn.com/downloads/DJI_O4_Air_Unit_Series/UM/DJI_O4_Air_Unit_Series_User_Manual_v1.0_en.pdf",
@@ -979,7 +979,7 @@
     "mount_mm": "20x20mm / 25.5x25.5mm",
     "frequency_range": "5.170-5.250 / 5.725-5.850 GHz"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/dji-o4-air-unit-pro-transmission-module",
     "https://dl.djicdn.com/downloads/DJI_O4_Air_Unit_Series/UM/DJI_O4_Air_Unit_Series_User_Manual_v1.0_en.pdf",
@@ -1018,7 +1018,7 @@
     "mount_mm": "25.5x25.5mm",
     "input_voltage": "5V"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/emax-wyvern-link-alpha-openipc-100mw-vtx",
     "https://shop.emax-usa.com/products/wyvern-link-alpha-openipc-100mw-video-transmitter",
@@ -1037,7 +1037,7 @@
     "price_usd": 107.99,
     "mount_mm": "30.5x30.5mm"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/emax-wyvern-link-alpha-v1-openipc-800mw-vtx",
     "https://shop.emax-usa.com/products/wyvern-link-alpha-openipc-800mw-video-transmitter",
@@ -1055,7 +1055,7 @@
     "max_power_mw": 200,
     "price_usd": 89.99
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/emax-wyvern-link-openipc-200mw-vtx",
     "https://shop.emax-usa.com/products/wyvern-link-alpha-openipc-200mw-video-transmitter-vtx",
@@ -1091,7 +1091,7 @@
     "weight_g": 13.0,
     "price_usd": 74.99
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/fat-shark-aura-vtx-ndaa",
     "https://www.fatshark.com/store-products-sitemap.xml"
@@ -1112,7 +1112,7 @@
     "weight_g": 3.0,
     "price_usd": 19.99
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/flywoo-goku-hm600-25-600mw-5-8ghz-20x20-25x25-30x30-vtx-u-fl",
     "https://cdn.shopify.com/s/files/1/0010/7410/2324/files/FLYWOO_GOKU_HM600_VTXTABLE.json?v=1613716642"
@@ -1133,7 +1133,7 @@
     "price_usd": 29.99,
     "channels": 40
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/flywoo-goku-hm850-16x16-20x20-25x25-25-850mw-5-8ghz-vtx-u-fl",
     "https://cdn.shopify.com/s/files/1/0010/7410/2324/files/HM850.jpg?v=1627960533"
@@ -1157,7 +1157,7 @@
     "input_voltage": "8-26V (3-6S)",
     "power_draw": "410 mA at 12 V"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-hdzero-hd-720p-25-200mw-digital-vtx-race-edition",
     "https://www.foxeer.com/foxeer-hdzero-hd-720p-digital-vtx-race-edition-g-509"
@@ -1421,7 +1421,7 @@
     "power_levels_mw": "25 / 100 / 200 / 350",
     "input_voltage": "5V"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/foxeer-reaper-nano-25-350mw-5-8g-micro-vtx-u-fl",
     "https://inew.foxeer.com/upload/image/20210811/20210811010434_58249.jpg"
@@ -2013,7 +2013,7 @@
     "power_levels_mw": "0 / 25 / 100 / 300",
     "power_draw": "under 650 mA at 5 V (300 mW output)"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-ovx300-25-300mw-5-8ghz-u-fl-vtx-w-openvtx",
     "https://www.happymodel.cn/index.php/2021/07/27/happymodel-ovx300-ovx303-5-8g-40ch-300mw-vtx-openvtx/"
@@ -2038,7 +2038,7 @@
     "power_levels_mw": "0 / 25 / 100 / 300",
     "power_draw": "under 650 mA at 5 V (300 mW output)"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/happymodel-ovx303-25-300mw-5-8ghz-u-fl-vtx-w-openvtx",
     "https://www.happymodel.cn/index.php/2021/07/27/happymodel-ovx300-ovx303-5-8g-40ch-300mw-vtx-openvtx/"
@@ -2150,7 +2150,7 @@
     "power_draw": "6-15 W",
     "channels": 12
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-freestyle-30x30-25-1000mw-digital-hd-vtx-u-fl",
     "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf",
@@ -2175,7 +2175,7 @@
     "power_levels_mw": "25 / 200",
     "power_draw": "6-15 W"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-freestyle-v2-20x20-25-1000mw-digital-hd-vtx-kit-u-fl",
     "https://www.hd-zero.com/product-page/hdzero-freestyle-v2-kit",
@@ -2202,7 +2202,7 @@
     "power_levels_mw": "25 / 200",
     "power_draw": "6-15 W"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-freestyle-v2-20x20-25-1000mw-digital-hd-vtx-u-fl",
     "https://www.hd-zero.com/product-page/freestyle-v2-vtx",
@@ -2229,7 +2229,7 @@
     "power_draw": "5-6 W",
     "channels": 12
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-race-v2-25-200mw-digital-hd-vtx-u-fl",
     "https://www.hd-zero.com/_files/ugd/967e02_49a7b1b0a308477dadd5ef5d2bc382d5.pdf",
@@ -2255,7 +2255,7 @@
     "channels": 12,
     "power_draw": "5-6 W"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-race-v3-1080p-20x20-25-200mw-digital-hd-vtx",
     "https://www.hd-zero.com/product-page/hdzero-race-v3-vtx",
@@ -2281,7 +2281,7 @@
     "weight_g": 4.9,
     "channels": 12
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-whoop-lite-25x25-200mw-digital-hd-vtx-u-fl",
     "https://www.hd-zero.com/product-page/hdzero-whoop-lite-v2-vtx",
@@ -2305,7 +2305,7 @@
     "input_voltage": "2.8-13V",
     "channels": 12
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-whoop-lite-bundle-kit",
     "https://www.hd-zero.com/product-page/hdzero-whoop-lite-v2-vtx",
@@ -2331,7 +2331,7 @@
     "channels": 12,
     "power_draw": "5-6 W"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-whoop-v2-vtx",
     "https://www.hd-zero.com/product-page/hdzero-whoop-lite-v2-vtx",
@@ -2358,7 +2358,7 @@
     "weight_g": 5.4,
     "power_draw": "5-6 W"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/hdzero-whoop-v2-bundle-nano-v3-camera",
     "https://www.hd-zero.com/product-page/hdzero-whoop-v2-bundle",
@@ -2490,7 +2490,7 @@
     "input_voltage": "6-26V",
     "power_draw": "94 mA in pit mode, 169 mA at 25 mW, 199 mA at 100 mW, 216 mA at 200 mW, 279 mA at 400 mW, 387 mA at 800 mW"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/hglrc-zeus-20x20-30x30-25-800mw-5-8ghz-vtx-with-mmcx-to-sma-adapter",
     "https://www.hglrc.com/products/hglrc-zeus-800mw-smart-mounting-20-20-30-30-vtx-for-fpv-racing-drone",
@@ -2516,7 +2516,7 @@
     "input_voltage": "5V",
     "power_draw": "75 mA in pit mode, 180 mA at 25 mW, 280 mA at 100 mW, 330 mA at 200 mW, 400 mA at 350 mW"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/hglrc-zeus-nano-25-350mw-5-8ghz-16x16-20x20-25x25-vtx-u-fl",
     "https://www.hglrc.com/products/hglrc-zeus-nano-vtx-350mw-for-fpv-racing-drone"
@@ -2670,7 +2670,7 @@
     "power_levels_mw": "25 / 400 / 800 / 1600",
     "input_voltage": "7-34V"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/iflight-blitz-30x30-25-1000mw-5-8ghz-vtx-mmcx",
     "https://shop.iflight.com/BLITZ-1.6W-VTX-Adjustable-Pro1703",
@@ -2780,7 +2780,7 @@
     "channels": 48,
     "input_voltage": "5V"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/immersionrc-ghost-hybrid-duo-v2-2-4ghz-receiver-20-600mw-5-8ghz-vtx",
     "https://web.archive.org/web/20260117000008/https://www.immersionrc.com/fpv-products/ghosthybridv2/"
@@ -2803,7 +2803,7 @@
     "channels": 48,
     "input_voltage": "5V"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/immersionrc-ghost-hybrid-uno-v2-2-4ghz-receiver-20-600mw-5-8ghz-vtx",
     "https://web.archive.org/web/20260117000008/https://www.immersionrc.com/fpv-products/ghosthybridv2/"
@@ -2850,7 +2850,7 @@
     "input_voltage": "3.7-5V",
     "power_levels_mw": "25 / 200 / 400 / 800"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/speedybee-tx800-20x20-25-800mw-5-8ghz-vtx-mmcx",
     "https://store-fhxxhuiq8q.mybigcommerce.com/product_images/TX800/TX800-manual_EN.pdf",
@@ -3047,7 +3047,7 @@
     "weight_g": 15.0,
     "price_usd": 93.99
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/rushfpv-max-solo-25-1000-mw-5-8ghz-vtx-mmcx",
     "https://rushfpv.net/products/rushfpv-max-solo-vtx"
@@ -3094,7 +3094,7 @@
     "power_draw": "at 12 V: 40 mA pit mode, 95 mA at 25 mW, 185 mA at 200 mW, 250 mA at 500 mW, 380 mA at 800 mW",
     "power_levels_mw": "25 / 200 / 500 / 800"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/rush-fpv-tank-ii-ultimate-30x30-25-800mw-5-8ghz-vtx-w-smart-audio-mmcx",
     "https://drive.google.com/file/d/1kPKAVDcCnHYdVzdYFs0QlkU4oPclrnGF/view",
@@ -3120,7 +3120,7 @@
     "power_levels_mw": "25 / 200 / 500 / 800",
     "power_draw": "at 12 V: 40 mA pit mode, 95 mA at 25 mW, 185 mA at 200 mW, 250 mA at 500 mW, 380 mA at 800 mW"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/rush-fpv-tank-mini-25-800mw-20x20-5-8ghz-vtx-mmcx",
     "https://rushfpv.net/products/tank-ultimate-mini-vtx",
@@ -3145,7 +3145,7 @@
     "power_draw": "at 12 V: 40 mA pit mode, 95 mA at 25 mW, 185 mA at 200 mW, 250 mA at 500 mW, 380 mA at 800 mW",
     "power_levels_mw": "25 / 200 / 500 / 800"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/rushfpv-tank-plus-25-800mw-5-8ghz-37ch-vtx-mmcx",
     "https://web.archive.org/web/20250815192609/https://rushfpv.net/products/tank-ultimate-plus-vtx"
@@ -3168,7 +3168,7 @@
     "input_voltage": "7-36V DC",
     "power_levels_mw": "25 / 400 / 800 / MAX"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/rush-fpv-tank-solo-25-1600mw-5-8ghz-vtx-w-smart-audio-mmcx",
     "https://rushfpv.net/products/tank-solo-vtx",
@@ -3192,7 +3192,7 @@
     "input_voltage": "5V",
     "power_levels_mw": "25 / 100 / 200 / 350"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/rush-fpv-tiny-tank-25-350mw-5-8ghz-vtx-u-fl",
     "https://rushfpv.net/products/tank-tiny-vtx",
@@ -3505,7 +3505,7 @@
     "weight_g": 7.58,
     "price_usd": 58.99
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/t-motor-ft800-20x20-25-800mw-5-8ghz-vtx-mmcx"
    ],
@@ -3524,7 +3524,7 @@
     "weight_g": 7.0,
     "price_usd": 71.99
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/tbs-unify-evo-25-800mw-5-8ghz-vtx-sma"
    ],
@@ -3547,7 +3547,7 @@
     "input_voltage": "6-25V",
     "power_draw": "250 mA at 25 mW, 320 mA at 200 mW, 460 mA at 500 mW, 600 mA at 800 mW"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/tbs-unify-pro-hv-25-800mw-5-8ghz-vtx-sma",
     "https://www.team-blacksheep.com/products/prod:unify_pro_hv_sma",
@@ -3572,7 +3572,7 @@
     "input_voltage": "6-25V",
     "power_draw": "250 mA at 25 mW, 320 mA at 200 mW"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/tbs-unify-pro-hv-race-25-200mw-5-8ghz-vtx-sma",
     "https://www.team-blacksheep.com/products/prod:unify_pro_hv_race",
@@ -3596,7 +3596,7 @@
     "input_voltage": "4.5-5.5V",
     "power_draw": "250 mA at 25 mW, 320 mA at 200 mW, 460 mA at 500 mW, 600 mA at 800 mW"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/tbs-unify-pro-v3-25-800mw-5-8ghz-vtx-sma",
     "https://www.team-blacksheep.com/products/prod:unify_pro_sma",
@@ -3621,7 +3621,7 @@
     "power_levels_mw": "10 / 25 / 100 / 200 / 400 / 500 / 999 / MAX",
     "power_draw": "up to 1.8 A at maximum power"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/tbs-unify-pro32-dp-25-400mw-5-8ghz-vtx-mmcx",
     "https://www.team-blacksheep.com/products/prod:pro32_dp",
@@ -3645,7 +3645,7 @@
     "input_voltage": "6-25V",
     "power_draw": "90-130 mA at 25 mW, 300-450 mA at 1000 mW+ (22 V to 14.8 V)"
    },
-   "_scraped_at": "2026-10-25",
+   "_scraped_at": "2026-10-26",
    "sources": [
     "https://www.racedayquads.com/products/tbs-unify-pro32-hv-25-1000mw-5-8ghz-vtx-mmcx",
     "https://www.team-blacksheep.com/products/prod:unifypro32_hv",
